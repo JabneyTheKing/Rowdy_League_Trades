@@ -200,19 +200,19 @@ def render_leaderboard(report):
 
 
 def render_waiver(report):
-    im,d=base("Waiver Champion","Kings of the wire • Production captured while owned","#f2c84b","#10100b")
+    im,d=base("Waiver Champion","Kings of the wire • Pickup production minus same-transaction drops","#f2c84b","#10100b")
     standings=report['waiver_champion']['standings']
     if standings:
         champ=standings[0]; rect(d,(85,190,1515,370),"#2a2309","#f2c84b",5,25)
         text(d,(150,230),"CURRENT CHAMPION",23,"#f2c84b",True); text(d,(150,285),champ['manager'],48,"white",True); text(d,(150,335),fit(champ['team'],38),25,"#d9cca0",True)
-        text(d,(1050,255),f"{champ['points']:.2f}",72,"#f2c84b",True,"mm"); text(d,(1050,325),f"WAIVER POINTS  •  ${champ['faab_spent']} FAAB",22,"white",True,"mm")
+        text(d,(1050,255),f"{champ['points']:.2f}",72,"#f2c84b",True,"mm"); text(d,(1050,325),f"NET IMPROVEMENT  •  ${champ['faab_spent']} FAAB",22,"white",True,"mm")
     cols=[(330,lambda r:fit(r['manager'],21),'l','white'),(430,lambda r:fit(r['team'],29),'l','#d8d0ad'),(170,lambda r:str(r['claim_count']),'r','white'),(170,lambda r:f"${r['faab_spent']}",'r','white'),(220,lambda r:f"{r['points']:.2f}",'r','#f2c84b')]
-    text(d,(175,407),"MANAGER",18,"#f2c84b",True); text(d,(505,407),"TEAM",18,"#f2c84b",True); text(d,(1100,407),"CLAIMS",18,"#f2c84b",True); text(d,(1275,407),"FAAB",18,"#f2c84b",True); text(d,(1440,407),"POINTS",18,"#f2c84b",True)
+    text(d,(175,407),"MANAGER",18,"#f2c84b",True); text(d,(505,407),"TEAM",18,"#f2c84b",True); text(d,(1100,407),"CLAIMS",18,"#f2c84b",True); text(d,(1275,407),"FAAB",18,"#f2c84b",True); text(d,(1440,407),"NET",18,"#f2c84b",True)
     rank_rows(d,standings,430,cols,"#f2c84b",row_height=45,box_height=39,font_size=17); footer(d,report); return im
 
 
 def render_improved(report):
-    im,d=base("Most Improved","Trades + waivers + free agents • Total roster-building impact","#43e6d0","#07151a")
+    im,d=base("Most Improved","Trades + net waiver/FA gains after same-transaction drops","#43e6d0","#07151a")
     rows=report['rebuild_master']['standings']; champ=rows[0]
     rect(d,(85,190,1515,350),"#0b3235","#43e6d0",5,25)
     text(d,(140,225),"BIGGEST RISER",22,"#43e6d0",True); text(d,(140,278),champ['manager'],45,"white",True); text(d,(140,315),fit(champ['team'],40),24,"#a6d9d4",True)

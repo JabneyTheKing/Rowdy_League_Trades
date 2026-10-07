@@ -112,7 +112,7 @@ def leaderboard(trades, managers):
 
 
 def acquisition_results(transactions, managers, starts, weekly, through, transaction_type):
-    """Rank one acquisition type by points captured while the player was owned."""
+    """Rank acquisitions by net production versus any player dropped in the same move."""
     ordered = sorted((t for t in transactions if t.get('status') == 'complete'),
                      key=lambda t: t['status_updated'])
     claims = []
@@ -122,19 +122,28 @@ def acquisition_results(transactions, managers, starts, weekly, through, transac
         first = infer_week(transaction, starts, through)
         bid = (transaction.get('settings') or {}).get('waiver_bid', 0) or 0
         for player, roster in (transaction.get('adds') or {}).items():
+            dropped_player = next((pid for pid, dropped_roster in (transaction.get('drops') or {}).items()
+                                   if dropped_roster == roster), None)
             release = next((later for later in ordered[index + 1:]
                             if (later.get('drops') or {}).get(player) == roster), None)
             last = min(through, infer_week(release, starts, through) - 1) if release else through
-            missing = [{'player_id': player, 'week': week}
-                       for week in range(first, last + 1)
-                       if weekly.get(str(week), {}).get(player) is None]
-            points = round(sum(weekly[str(week)][player]
-                               for week in range(first, last + 1)
-                               if weekly.get(str(week), {}).get(player) is not None), 2)
+            compared_players = [player] + ([dropped_player] if dropped_player else [])
+            missing = [{'player_id': pid, 'week': week}
+                       for week in range(first, last + 1) for pid in compared_players
+                       if weekly.get(str(week), {}).get(pid) is None]
+            pickup_points = round(sum(weekly[str(week)][player]
+                                      for week in range(first, last + 1)
+                                      if weekly.get(str(week), {}).get(player) is not None), 2)
+            dropped_points = round(sum(weekly[str(week)][dropped_player]
+                                       for week in range(first, last + 1)
+                                       if dropped_player and weekly.get(str(week), {}).get(dropped_player) is not None), 2)
+            points = round(pickup_points - dropped_points, 2)
             claims.append({'transaction_id': transaction['transaction_id'], 'roster_id': roster,
                            'manager': managers[str(roster)]['name'], 'player_id': player,
+                           'dropped_player_id': dropped_player,
                            'faab': bid, 'first_week': first, 'last_week': last,
-                           'released': bool(release), 'points': points,
+                           'released': bool(release), 'pickup_points': pickup_points,
+                           'dropped_points': dropped_points, 'points': points,
                            'missing_scores': missing,
                            'status': 'pending' if first > through else ('incomplete' if missing else 'scored')})
     standings = []
@@ -224,34 +233,36 @@ def markdown(report, players):
         board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['delta']:+.2f} | {row['scored_trades']} | {row['trade_count']} | {'Yes' if row['has_unvalued_assets'] else 'No'} |")
     waiver_board = ['# Waiver Champion', '',
                     f"Updated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.", '',
-                    "Ranked by total fantasy points produced while each successful waiver pickup remained on that manager's roster. Bench points count. Dropping or trading the player ends that claim's scoring window. Free-agent adds are excluded.", '',
-                    '| Rank | Manager | Team | Waiver points | Claims | FAAB spent | Best pickup |',
+                    "Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.", '',
+                    '| Rank | Manager | Team | Net waiver improvement | Claims | FAAB spent | Best transaction |',
                     '|---:|---|---|---:|---:|---:|---|']
     for rank, row in enumerate(report['waiver_champion']['standings'], 1):
         best = (f"{name(row['best_pickup'])} ({row['best_pickup_points']:.2f})"
                 if row['best_pickup'] else '—')
         waiver_board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['points']:.2f} | {row['claim_count']} | ${row['faab_spent']} | {clean(best)} |")
-    waiver_board += ['', '## Individual pickups', '',
-                     '| Manager | Player | FAAB | Weeks owned | Points | Status |',
-                     '|---|---|---:|---|---:|---|']
+    waiver_board += ['', '## Individual waiver transactions', '',
+                     '| Manager | Added | Dropped in transaction | FAAB | Weeks compared | Added points | Dropped points | Net improvement | Status |',
+                     '|---|---|---|---:|---|---:|---:|---:|---|']
     for claim in report['waiver_champion']['claims']:
         weeks = (f"{claim['first_week']}–{claim['last_week']}" if claim['last_week'] >= claim['first_week']
                  else 'No completed week')
-        waiver_board.append(f"| {clean(claim['manager'])} | {clean(name(claim['player_id']))} | ${claim['faab']} | {weeks} | {claim['points']:.2f} | {claim['status']} |")
+        dropped = name(claim['dropped_player_id']) if claim.get('dropped_player_id') else '—'
+        waiver_board.append(f"| {clean(claim['manager'])} | {clean(name(claim['player_id']))} | {clean(dropped)} | ${claim['faab']} | {weeks} | {claim['pickup_points']:.2f} | {claim['dropped_points']:.2f} | {claim['points']:+.2f} | {claim['status']} |")
     rebuild_board = ['# Most Improved', '',
                      f"Updated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.", '',
-                     "Most Improved Score = trade +/- + successful waiver-pickup points + free-agent-pickup points. Pickup production counts only while that manager owns the player; bench points count. All components use the same August 23 transaction cutoff.", '',
+                     "Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.", '',
                      '| Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |',
                      '|---:|---|---|---:|---:|---:|---:|']
     for rank, row in enumerate(report['rebuild_master']['standings'], 1):
         rebuild_board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['trade_delta']:+.2f} | {row['waiver_points']:.2f} | {row['free_agent_points']:.2f} | {row['score']:+.2f} |")
-    rebuild_board += ['', '## Free-agent pickups', '',
-                      '| Manager | Player | Weeks owned | Points | Status |',
-                      '|---|---|---|---:|---|']
+    rebuild_board += ['', '## Free-agent transactions', '',
+                      '| Manager | Added | Dropped in transaction | Weeks compared | Added points | Dropped points | Net improvement | Status |',
+                      '|---|---|---|---|---:|---:|---:|---|']
     for pickup in report['rebuild_master']['free_agent_pickups']:
         weeks = (f"{pickup['first_week']}–{pickup['last_week']}" if pickup['last_week'] >= pickup['first_week']
                  else 'No completed week')
-        rebuild_board.append(f"| {clean(pickup['manager'])} | {clean(name(pickup['player_id']))} | {weeks} | {pickup['points']:.2f} | {pickup['status']} |")
+        dropped = name(pickup['dropped_player_id']) if pickup.get('dropped_player_id') else '—'
+        rebuild_board.append(f"| {clean(pickup['manager'])} | {clean(name(pickup['player_id']))} | {clean(dropped)} | {weeks} | {pickup['pickup_points']:.2f} | {pickup['dropped_points']:.2f} | {pickup['points']:+.2f} | {pickup['status']} |")
     sections = {'leaderboard.md': intro + '\n'.join(board) + '\n\n' + detail(report['trades']),
                 'krunky.md': intro + '## Krunky Fleece-O-Meter\n\n' + detail(report['trades'], report['trackers']['krunky']),
                 'ryan.md': intro + '## Ryan Self-Fleece-O-Meter\n\nPositive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.\n\n' + detail(report['trades'], report['trackers']['ryan']),
@@ -323,7 +334,7 @@ def run():
     completed = sorted((t for t in tx.values() if t['status'] == 'complete'), key=lambda t: t['status_updated'])
     tracked = {pid for t in completed for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})]}
     tracked.update(pid for t in all_tx.values() if t.get('type') in ('waiver', 'free_agent') and t.get('status') == 'complete'
-                   for pid in (t.get('adds') or {}))
+                   for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})])
     tracked.update(pid for t in vetoes for s in t['sides'] for direction in ('received', 'sent') for pid in s[direction])
     weekly, starts, checks = {}, {}, []
     for w in range(1, through + 1):

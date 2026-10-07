@@ -95,6 +95,20 @@ class TrackerTests(unittest.TestCase):
                                      {'2': {'p': 9.5}}, 2, 'free_agent')
         self.assertEqual(result['standings'][0]['points'], 9.5)
 
+    def test_acquisition_subtracts_drop_from_same_transaction(self):
+        managers = {'1': {'name': 'Manager', 'team': 'Team'}}
+        claim = {'transaction_id': 'claim', 'type': 'waiver', 'status': 'complete',
+                 'status_updated': datetime(2026, 9, 15, tzinfo=timezone.utc).timestamp() * 1000,
+                 'adds': {'new': 1}, 'drops': {'old': 1},
+                 'settings': {'waiver_bid': 4}}
+        result = waiver_champion([claim], managers, {2: '2026-09-17'},
+                                  {'2': {'new': 10, 'old': 5}}, 2)
+        row = result['claims'][0]
+        self.assertEqual(row['pickup_points'], 10)
+        self.assertEqual(row['dropped_points'], 5)
+        self.assertEqual(row['points'], 5)
+        self.assertEqual(result['standings'][0]['points'], 5)
+
 
 if __name__ == '__main__':
     unittest.main()

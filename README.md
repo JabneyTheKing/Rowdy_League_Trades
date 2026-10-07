@@ -12,7 +12,7 @@ Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · 
 - [Ryan Self-Fleece-O-Meter](reports/ryan.md) — includes the Redemption Zone
 - [Veto Vindicator](reports/veto_vindicator.md)
 - [League Trade Leaderboard](reports/leaderboard.md) — all managers and trade details
-- [Waiver Champion](reports/waiver_champion.md) — successful waiver claims ranked by points captured
+- [Waiver Champion](reports/waiver_champion.md) — successful waiver claims ranked by net improvement over players dropped in the same transactions
 - [Most Improved](reports/most_improved.md) — combined improvement from trades, waivers, and free-agent pickups
 - [Machine-readable report](data/report.json) — for ChatGPT and future graphics
 
@@ -24,9 +24,9 @@ GitHub Actions refreshes every six hours, on changes to tracker code/config, and
 
 The leaderboard totals each manager's scored trade deltas. This rewards cumulative player production, not lineup decisions or full dynasty value. Older trades have more time to accumulate points; unequal player counts also affect totals. Future draft picks, original pick owners, and FAAB are displayed separately and never silently valued at zero. Pick-only trades are tracked but do not count as scored player trades. Pending weeks and incomplete trade scores are excluded from rankings.
 
-The Waiver Champion includes successful waiver claims and excludes ordinary free-agent adds. A pickup earns all league-scoring points, including bench production, from its first eligible full week through the last full week before that manager drops or trades the player. The standings total those points and also show claim count, FAAB spent, and each manager's best pickup.
+The Waiver Champion includes successful waiver claims and excludes ordinary free-agent adds. A pickup earns all league-scoring points, including bench production, from its first eligible full week through the last full week before that manager drops or trades the player. When that acquisition transaction also contains a drop, the dropped player's production over the same scoring window is subtracted. Standalone drops are ignored. The standings show net improvement, claim count, FAAB spent, and each manager's best transaction.
 
-**Most Improved Score = Trade +/- + waiver points captured + free-agent points captured.** Waiver and free-agent pickups earn production only while owned by that manager. Because ownership scoring ends when a player is dropped or traded, an acquisition followed by a trade does not receive overlapping pickup points after the trade.
+**Most Improved Score = Trade +/- + net waiver improvement + net free-agent improvement.** Waiver and free-agent pickups earn production only while owned by that manager. If an acquisition transaction contains a drop, the dropped player's production over that same window is subtracted. Standalone drops are ignored. Because ownership scoring ends when the added player is dropped or traded, an acquisition followed by a trade does not receive overlapping pickup points after the trade.
 
 Week totals use this league's exact scoring, including half-PPR and the extra 0.5 points per tight-end reception. Actual matchup `players_points` are preferred. An **undocumented** Sleeper weekly stats endpoint supplies production for players absent from league rosters. Its response shape is validated, and calculated stats must reproduce matchup player scores for every tracked player available in both sources; a mismatch fails the refresh instead of publishing questionable numbers. A player absent from a successfully fetched, full completed-week stats response has no recorded production and counts as zero. API failures stop publication.
 
