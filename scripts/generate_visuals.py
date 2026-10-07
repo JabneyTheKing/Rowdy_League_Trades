@@ -194,7 +194,7 @@ def rank_rows(d, rows, y0, columns, accent, limit=None, row_height=82, box_heigh
 
 def render_leaderboard(report):
     im,d=base("League Trade Leaderboard","The Rowdy War Room • Every completed deal ranked","#ff623d","#07131e")
-    cols=[(330,lambda r:fit(r['manager'],21),'l','white'),(440,lambda r:fit(r['team'],30),'l','#b8c8d8'),(210,lambda r:str(r['scored_trades']),'r','#dce7ef'),(250,lambda r:f"{r['delta']:+.2f}",'r',lambda r:'#62f28e' if r['delta']>=0 else '#ff6872')]
+    cols=[(330,lambda r:fit(r['manager'],21),'l','white'),(440,lambda r:fit(r['team'],30),'l','#b8c8d8'),(210,lambda r:str(r['trade_count']),'r','#dce7ef'),(250,lambda r:f"{r['delta']:+.2f}",'r',lambda r:'#62f28e' if r['delta']>=0 else '#ff6872')]
     text(d,(175,202),"MANAGER",20,"#ff8b70",True); text(d,(505,202),"TEAM",20,"#ff8b70",True); text(d,(1165,202),"TRADES",20,"#ff8b70",True); text(d,(1400,202),"TRADE +/-",20,"#ff8b70",True)
     rank_rows(d,report['leaderboard'],225,cols,"#ff623d",row_height=58,box_height=50,font_size=19); footer(d,report); return im
 
