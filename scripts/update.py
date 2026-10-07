@@ -56,6 +56,7 @@ def normalize(trade, managers, first_week):
         picks = trade.get('draft_picks') or []
         sides.append({
             'roster_id': roster, 'manager': managers[str(roster)]['name'],
+            'team': managers[str(roster)].get('team', ''),
             'received': sorted(p for p, owner in (trade.get('adds') or {}).items() if owner == roster),
             'sent': sorted(p for p, owner in (trade.get('drops') or {}).items() if owner == roster),
             'picks_received': [p for p in picks if p['owner_id'] == roster and p['previous_owner_id'] != roster],
@@ -197,12 +198,15 @@ def markdown(report, players):
                 continue
             lines += ['### ' + clean(trade.get('label', 'Trade ' + trade['id'])), '',
                       f"First scoring week: **{trade['first_scoring_week']}**", '',
-                      '| Manager | Received | Sent | Points in | Points out | +/- | Status |',
+                      '| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |',
                       '|---|---|---|---:|---:|---:|---|']
             notes = []
             for side in sides:
                 assets = lambda direction: ', '.join(f"{name(p['player_id'])} ({p['points']:.2f})" for p in side[direction + '_players']) or '—'
-                lines.append(f"| {clean(side['manager'])} | {clean(assets('received'))} | {clean(assets('sent'))} | {side['received_points']:.2f} | {side['sent_points']:.2f} | {side['delta']:+.2f} | {side['status']} |")
+                identity = side['manager']
+                if side.get('team'):
+                    identity += f" / {side['team']}"
+                lines.append(f"| {clean(identity)} | {clean(assets('received'))} | {clean(assets('sent'))} | {side['received_points']:.2f} | {side['sent_points']:.2f} | {side['delta']:+.2f} | {side['status']} |")
                 for direction in ('received', 'sent'):
                     if side.get('picks_' + direction):
                         labels = ', '.join(f"{p['season']} round {p['round']}" + (f" (original roster {p['roster_id']})" if 'roster_id' in p else '') for p in side['picks_' + direction])

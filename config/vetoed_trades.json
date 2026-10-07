@@ -5,8 +5,8 @@
     "label": "Preseason: Worthy + Harrison + 2027 second for JSN",
     "first_scoring_week": 1,
     "sides": [
-      {"manager": "JSN recipient (manager unconfirmed)", "received": ["9488"], "sent": ["11624", "11628"], "picks_received": [], "picks_sent": [{"season": "2027", "round": 2}]},
-      {"manager": "Worthy/Harrison recipient (manager unconfirmed)", "received": ["11624", "11628"], "sent": ["9488"], "picks_received": [{"season": "2027", "round": 2}], "picks_sent": []}
+      {"manager": "SethLL", "team": "Red Dead Zachdemption", "roster_id": 10, "received": ["9488"], "sent": ["11624", "11628"], "picks_received": [], "picks_sent": [{"season": "2027", "round": 2, "original_manager": "SethLL"}]},
+      {"manager": "AfootCoronet56", "team": "Risk of Rome", "roster_id": 5, "received": ["11624", "11628"], "sent": ["9488"], "picks_received": [{"season": "2027", "round": 2, "original_manager": "SethLL"}], "picks_sent": []}
     ]
   },
   {
