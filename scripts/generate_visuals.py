@@ -133,7 +133,13 @@ def render_jabney(report):
     for trade in report['trades']:
         side=next((s for s in trade['sides'] if s.get('roster_id')==rid),None)
         if side: trades.append((trade,side))
-    rows=max(1,(len(trades)+1)//2); height=470+rows*565+300
+    waivers=[row for row in report['waiver_champion']['claims'] if row['roster_id']==rid]
+    free_agents=[row for row in report['rebuild_master']['free_agent_pickups'] if row['roster_id']==rid]
+    improvement=next(row for row in report['rebuild_master']['standings'] if row['roster_id']==rid)
+    rows=max(1,(len(trades)+1)//2)
+    waiver_height=94+((len(waivers)+1)//2)*96
+    free_agent_height=94+((len(free_agents)+1)//2)*96
+    height=470+rows*565+waiver_height+free_agent_height+325
     canvas=Image.new('RGB',(W,height),'#070b12')
     header=ImageOps.fit(art('jabney_underdog_v2.jpg'),(W,450),method=Image.Resampling.LANCZOS,centering=(.5,.07))
     canvas.paste(header,(0,0))
@@ -174,19 +180,52 @@ def render_jabney(report):
         status='THE FIGHT CONTINUES…' if side['status']=='pending' else f"ROUND RESULT  {side['delta']:+.2f}"
         color='#f2b84b' if side['status']=='pending' else ('#66e69a' if side['delta']>=0 else '#ff626c')
         text(d,(x+cw//2,y+510),status,22,color,True,'mm')
-    delta=total_in-total_out; sy=475+rows*565
-    rect(d,(115,sy+20,1485,sy+245),'#0b1119','#aebdca',3,22)
+    trade_delta=total_in-total_out
+
+    def pickup_section(title, subtitle, items, y, accent, total):
+        text(d,(55,y+33),title,30,accent,True,'lm')
+        text(d,(55,y+62),subtitle,14,'#aebdca',True,'lm')
+        text(d,(1545,y+40),f"{len(items)} MOVES  •  NET {total:+.2f}",22,accent,True,'rm')
+        d.line((45,y+78,1555,y+78),fill=accent,width=3)
+        for i,item in enumerate(items):
+            row,col=divmod(i,2); x=25+col*800; yy=y+92+row*96; cw=750
+            rect(d,(x,yy,x+cw,yy+82),'#101722','#334657',2,12)
+            paste_circle(canvas,headshot(item['player_id'],46),(x+14,yy+15),46,accent)
+            add_name=fit(player_name(report,item['player_id']),20)
+            text(d,(x+74,yy+17),f"ADD  {add_name}",16,'white',True)
+            text(d,(x+74,yy+43),f"{item['pickup_points']:.2f} PTS",15,accent,True)
+            drop=item.get('dropped_player_id')
+            drop_name=fit(player_name(report,drop),18) if drop else 'NO ASSOCIATED DROP'
+            drop_color='#ff747c' if drop else '#7f91a0'
+            text(d,(x+310,yy+17),f"DROP  {drop_name}" if drop else drop_name,14,drop_color,True)
+            text(d,(x+310,yy+43),f"-{item['dropped_points']:.2f} PTS" if drop else 'STANDALONE DROPS IGNORED',13,drop_color,True)
+            status='PENDING' if item['status']=='pending' else f"{item['points']:+.2f}"
+            score_color='#f2b84b' if item['status']=='pending' else ('#66e69a' if item['points']>=0 else '#ff626c')
+            text(d,(x+cw-24,yy+28),status,25,score_color,True,'rm')
+            window=f"W{item['first_week']}–{item['last_week']}"
+            state='RELEASED' if item['released'] else ('UPCOMING' if item['status']=='pending' else 'ACTIVE')
+            faab=f"  •  ${item['faab']} FAAB" if item['faab'] else ''
+            text(d,(x+cw-24,yy+58),f"{window}  •  {state}{faab}",11,'#91a4b5',True,'rm')
+        return y+94+((len(items)+1)//2)*96
+
+    sy=475+rows*565
+    sy=pickup_section('WAIVER WIRE BATTLES','PICKUP PRODUCTION MINUS THE PLAYER DROPPED IN THE SAME MOVE',waivers,sy,'#e2b75d',improvement['waiver_points'])
+    sy=pickup_section('FREE AGENCY FINDS','EVERY ADD COUNTS ONLY WHILE JABNEY OWNS THE PLAYER',free_agents,sy,'#63b8ff',improvement['free_agent_points'])
+
+    combined=improvement['score']
+    rect(d,(115,sy+20,1485,sy+275),'#0b1119','#aebdca',3,22)
     text(d,(800,sy+53),'THE COMEBACK TRAIL',25,'#e2b75d',True,'mm')
-    bar=(265,sy+92,1335,sy+132); stages=['ON THE MAT','BACK ON HIS FEET','BUILDING MOMENTUM','COMEBACK COMPLETE']
+    text(d,(800,sy+86),f"TRADES {trade_delta:+.2f}   •   WAIVERS {improvement['waiver_points']:+.2f}   •   FREE AGENTS {improvement['free_agent_points']:+.2f}",16,'#d9e1e7',True,'mm')
+    bar=(265,sy+112,1335,sy+152); stages=['ON THE MAT','BACK ON HIS FEET','BUILDING MOMENTUM','COMEBACK COMPLETE']
     stage_colors=['#9b2832','#c85c38','#d4a642','#49b879']; seg=(bar[2]-bar[0])//4
     for j,c in enumerate(stage_colors):
         d.rectangle((bar[0]+j*seg,bar[1],bar[0]+(j+1)*seg,bar[3]),fill=c)
         text(d,(bar[0]+j*seg+seg//2,bar[3]+24),stages[j],12,'#d9e1e7',True,'mm')
-    ratio=max(0.04,min(.96,(delta+100)/200)); marker=int(bar[0]+ratio*(bar[2]-bar[0]))
+    ratio=max(0.04,min(.96,(combined+100)/200)); marker=int(bar[0]+ratio*(bar[2]-bar[0]))
     d.polygon([(marker,bar[1]-18),(marker-14,bar[1]-42),(marker+14,bar[1]-42)],fill='white')
-    text(d,(marker,bar[1]-54),'JABNEY',14,'white',True,'mm')
-    message='THE COMEBACK IS ON' if delta>=0 else 'DOWN. NEVER OUT.'
-    text(d,(800,sy+195),f"{message}   •   OVERALL TRADE DIFFERENCE  {delta:+.2f} POINTS",25,'#66e69a' if delta>=0 else '#ff626c',True,'mm')
+    text(d,(marker,bar[1]+20),'JABNEY',11,'white',True,'mm')
+    message='THE COMEBACK IS ON' if combined>=0 else 'DOWN. NEVER OUT.'
+    text(d,(800,sy+225),f"{message}   •   OVERALL ROSTER IMPROVEMENT  {combined:+.2f} POINTS",25,'#66e69a' if combined>=0 else '#ff626c',True,'mm')
     text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
     return canvas
 
