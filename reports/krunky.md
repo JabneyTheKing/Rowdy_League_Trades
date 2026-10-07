@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-07T05:37:05.538548+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T13:03:27.271438+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -29,3 +29,15 @@ First scoring week: **4**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | krunky / Grand Theft Aubrey | Colston Loveland (11.70), Amon-Ra St. Brown (11.50) | Denzel Boston (10.90), Chase Brown (13.60) | 23.20 | 24.50 | -1.30 | scored |
+
+### Trade 1413043102498734080
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Kyler Murray (0.00) | Bryce Young (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 15 (original roster 4). Value not included in points.
+
+krunky picks sent: 2027 round 16 (original roster 1). Value not included in points.

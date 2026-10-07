@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-07T05:37:05.538548+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T13:03:27.271438+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,11 +8,11 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | krunky | Grand Theft Aubrey | +61.10 | 3 | 3 | No |
+| 1 | krunky | Grand Theft Aubrey | +61.10 | 3 | 4 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +48.92 | 2 | 3 | No |
 | 3 | SethLL | Red Dead Zachdemption | +26.40 | 2 | 2 | No |
 | 4 | oneyjb | Bower's Inside Story | +4.52 | 3 | 3 | No |
-| 5 | lfain20 | Mortal Kombat: DARTside | +1.30 | 1 | 1 | No |
+| 5 | lfain20 | Mortal Kombat: DARTside | +1.30 | 1 | 2 | Yes |
 | 6 | Dawg2003 | The Windhelm Nords  | +0.00 | 0 | 1 | No |
 | 7 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 8 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 0 | No |
@@ -119,3 +119,20 @@ First scoring week: **5**
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Allen Wake | James Cook (0.00), Chris Olave (0.00) | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain / Grunts Krafty Gushers  | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1413043102498734080
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Kyler Murray (0.00) | Bryce Young (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 / Mortal Kombat: DARTside | Bryce Young (0.00) | Kyler Murray (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 15 (original roster 4). Value not included in points.
+
+krunky picks sent: 2027 round 16 (original roster 1). Value not included in points.
+
+lfain20 picks received: 2027 round 16 (original roster 1). Value not included in points.
+
+lfain20 picks sent: 2027 round 15 (original roster 4). Value not included in points.
