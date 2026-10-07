@@ -6,10 +6,11 @@ Every automated tracker uses **August 23, 2026 at 12:00 a.m. Eastern** as its se
 
 ## Trackers
 
-Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · [Veto Vindicator](visuals/veto_vindicator.png) · [League Leaderboard](visuals/leaderboard.png) · [Waiver Champion](visuals/waiver_champion.png) · [Most Improved](visuals/most_improved.png)
+Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · [Jabney](visuals/jabney.png) · [Veto Vindicator](visuals/veto_vindicator.png) · [League Leaderboard](visuals/leaderboard.png) · [Waiver Champion](visuals/waiver_champion.png) · [Most Improved](visuals/most_improved.png)
 
 - [Krunky Fleece-O-Meter](reports/krunky.md)
 - [Ryan Self-Fleece-O-Meter](reports/ryan.md) — includes the Redemption Zone
+- [Jabney Underdog Tracker](reports/jabney.md) — follows the comeback one trade at a time
 - [Veto Vindicator](reports/veto_vindicator.md)
 - [League Trade Leaderboard](reports/leaderboard.md) — all managers and trade details
 - [Waiver Champion](reports/waiver_champion.md) — successful waiver claims ranked by net improvement over players dropped in the same transactions
@@ -34,7 +35,7 @@ By default only completed weeks are included. Automatic detection conservatively
 
 ## Configuration
 
-`config/settings.json` sets the league, tracker roster IDs, and first-scoring-week overrides keyed by Sleeper transaction ID. Krunky is roster 1; Ryan is roster 6 (Sleeper display name `Potatomain`), identified from the two specified Ryan trades. Manager labels elsewhere use current Sleeper names; historical ownership changes are not reconstructed.
+`config/settings.json` sets the league, tracker roster IDs, and first-scoring-week overrides keyed by Sleeper transaction ID. Krunky is roster 1; Ryan is roster 6 (Sleeper display name `Potatomain`); Jabney is roster 3 (team `Allen Wake`). Manager labels elsewhere use current Sleeper names; historical ownership changes are not reconstructed.
 
 `config/vetoed_trades.json` records vetoes once, using Sleeper player IDs, the first scoring week, received/sent assets, an eligibility date (`made_on` or `made_on_or_after`), and optional roster IDs/picks. Entries without a date at or after the tracking boundary are excluded. The public transaction history fetched for this league did not expose the two known vetoes, so both are seeded manually. Veto production is hypothetical and does not enter the completed-trade leaderboard. Player points alone do not establish whether a veto was justified.
 

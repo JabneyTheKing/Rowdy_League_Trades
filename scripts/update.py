@@ -266,6 +266,7 @@ def markdown(report, players):
     sections = {'leaderboard.md': intro + '\n'.join(board) + '\n\n' + detail(report['trades']),
                 'krunky.md': intro + '## Krunky Fleece-O-Meter\n\n' + detail(report['trades'], report['trackers']['krunky']),
                 'ryan.md': intro + '## Ryan Self-Fleece-O-Meter\n\nPositive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.\n\n' + detail(report['trades'], report['trackers']['ryan']),
+                'jabney.md': intro + '## Jabney Underdog Tracker\n\nEvery setback is part of the comeback. Positive trade +/- = comeback progress; negative trade +/- = ground left to recover.\n\n' + detail(report['trades'], report['trackers']['jabney']),
                 'veto_vindicator.md': intro + '## Veto Vindicator\n\nHypothetical player production only. A points gap does not by itself settle whether a veto was justified, especially when picks are involved.\n\n' + detail(report['vetoed_trades']),
                 'waiver_champion.md': '\n'.join(waiver_board) + '\n',
                 'most_improved.md': '\n'.join(rebuild_board) + '\n'}

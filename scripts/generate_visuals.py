@@ -6,7 +6,7 @@ import io
 import json
 import urllib.request
 from functools import lru_cache
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "visuals"
@@ -128,6 +128,49 @@ def rich_veto(report):
         text(d,(1412,y+92),verdict,20,color,True,'mm'); text(d,(1412,y+150),'PENDING' if status=='pending' else f"{abs(delta):.2f}",36,'white',True,'mm'); text(d,(1412,y+190),'POINT GAP' if status!='pending' else f"STARTS WEEK {t['first_scoring_week']}",17,'white',True,'mm')
     text(d,(W//2,height-20),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#b8c1c9',True,'mm'); return canvas
 
+def render_jabney(report):
+    rid=report['trackers']['jabney']; trades=[]
+    for trade in report['trades']:
+        side=next((s for s in trade['sides'] if s.get('roster_id')==rid),None)
+        if side: trades.append((trade,side))
+    rows=max(1,(len(trades)+1)//2); height=380+rows*560+235
+    canvas=Image.new('RGB',(W,height),'#090b10')
+    header=ImageOps.fit(art('jabney_photo.jpg'),(W,380),method=Image.Resampling.LANCZOS,centering=(.42,.45))
+    canvas.paste(header,(0,0)); shade=Image.new('RGBA',(W,height),(0,0,0,0)); sd=ImageDraw.Draw(shade)
+    for x in range(520,W):
+        alpha=int(225*min(1,(x-520)/500)); sd.line((x,0,x,380),fill=(7,9,14,alpha))
+    canvas=Image.alpha_composite(canvas.convert('RGBA'),shade).convert('RGB'); d=ImageDraw.Draw(canvas)
+    d.polygon([(930,0),(1600,0),(1600,380),(820,380)],fill='#070a10')
+    d.line((910,25,820,355),fill='#d7353f',width=9)
+    text(d,(1240,100),'JABNEY',72,'white',True,'mm'); text(d,(1240,188),'UNDERDOG TRACKER',39,'#ed3f49',True,'mm')
+    text(d,(1240,250),'DOWN IN THE STANDINGS. NEVER OUT OF THE FIGHT.',16,'#e8e8e8',True,'mm')
+    text(d,(1240,302),'EVERY SETBACK IS PART OF THE COMEBACK.',15,'#f2b84b',True,'mm')
+    total_in=total_out=0
+    for i,(trade,side) in enumerate(trades):
+        row,col=divmod(i,2); cw=750; x=25+col*800; y=400+row*560
+        rect(d,(x,y,x+cw,y+525),'#121722','#d7353f',3,18)
+        text(d,(x+cw//2,y+30),f"CHAPTER {i+1}  •  SCORING FROM WEEK {trade['first_scoring_week']}",22,'white',True,'mm')
+        mid=x+cw//2; d.rectangle((x+12,y+58,mid-5,y+415),fill='#261218'); d.rectangle((mid+5,y+58,x+cw-12,y+415),fill='#101f32')
+        text(d,(x+cw*.25,y+84),'SENT',18,'#ff6b73',True,'mm'); text(d,(x+cw*.75,y+84),'RECEIVED',18,'#63b8ff',True,'mm')
+        for left,items,color in [(x+22,side.get('sent_players',[]),'#ff747c'),(mid+15,side.get('received_players',[]),'#6bc2ff')]:
+            for j,p in enumerate(items[:5]):
+                yy=y+110+j*58; paste_circle(canvas,headshot(p['player_id'],46),(left,yy),46,color)
+                text(d,(left+58,yy+7),fit(player_name(report,p['player_id']),17),15,'white',True)
+                text(d,(left+58,yy+29),f"{p['points']:.2f} PTS",18,color,True)
+        total_in+=side['received_points']; total_out+=side['sent_points']
+        text(d,(x+cw*.25,y+444),f"{side['sent_points']:.2f}",30,'#ff7078',True,'mm'); text(d,(x+cw*.75,y+444),f"{side['received_points']:.2f}",30,'#70c8ff',True,'mm')
+        status='TO BE CONTINUED…' if side['status']=='pending' else f"CHAPTER RESULT  {side['delta']:+.2f}"
+        color='#f2b84b' if side['status']=='pending' else ('#66e69a' if side['delta']>=0 else '#ff626c')
+        text(d,(x+cw//2,y+495),status,25,color,True,'mm')
+    delta=total_in-total_out; sy=400+rows*560
+    rect(d,(180,sy+25,1420,sy+190),'#0d1119','#d7353f',4,22)
+    text(d,(800,sy+62),'COMEBACK STATUS',24,'#f2b84b',True,'mm')
+    text(d,(800,sy+115),f"{delta:+.2f}",62,'#66e69a' if delta>=0 else '#ff626c',True,'mm')
+    message='THE COMEBACK IS ON' if delta>=0 else 'DOWN, NOT OUT'
+    text(d,(800,sy+162),message,23,'white',True,'mm')
+    text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
+    return canvas
+
 
 def render_person_tracker(report, key, title, subtitle, accent):
     rid = report['trackers'][key]
@@ -230,6 +273,7 @@ def main():
     jobs={
         'krunky.png':rich_person_tracker(report,'krunky','krunky_header.jpg'),
         'ryan.png':rich_person_tracker(report,'ryan','ryan_header.jpg',True),
+        'jabney.png':render_jabney(report),
         'veto_vindicator.png':rich_veto(report),
         'leaderboard.png':render_leaderboard(report),
         'waiver_champion.png':render_waiver(report),
