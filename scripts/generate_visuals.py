@@ -89,21 +89,22 @@ def render_veto(report):
     footer(d,report); return im
 
 
-def rank_rows(d, rows, y0, columns, accent, limit=8):
-    for i,row in enumerate(rows[:limit]):
-        y=y0+i*82; fill="#172637" if i%2==0 else "#111d2a"; rect(d,(90,y,W-90,y+68),fill,"#30465d",1,10)
+def rank_rows(d, rows, y0, columns, accent, limit=None, row_height=82, box_height=68, font_size=24):
+    shown = rows if limit is None else rows[:limit]
+    for i,row in enumerate(shown):
+        y=y0+i*row_height; fill="#172637" if i%2==0 else "#111d2a"; rect(d,(90,y,W-90,y+box_height),fill,"#30465d",1,10)
         medal=["#ffd34d","#d7e0e8","#c7834c"][i] if i<3 else "#91a4b5"
-        text(d,(125,y+34),str(i+1),30,medal,True,"mm")
+        text(d,(125,y+box_height//2),str(i+1),font_size+5,medal,True,"mm")
         x=175
         for width,getter,align,color in columns:
-            val=getter(row); text(d,(x if align=='l' else x+width-10,y+34),val,24,color(row) if callable(color) else color,True,"lm" if align=='l' else "rm"); x+=width
+            val=getter(row); text(d,(x if align=='l' else x+width-10,y+box_height//2),val,font_size,color(row) if callable(color) else color,True,"lm" if align=='l' else "rm"); x+=width
 
 
 def render_leaderboard(report):
     im,d=base("League Trade Leaderboard","The Rowdy War Room • Every completed deal ranked","#ff623d","#07131e")
     cols=[(330,lambda r:fit(r['manager'],21),'l','white'),(440,lambda r:fit(r['team'],30),'l','#b8c8d8'),(210,lambda r:str(r['scored_trades']),'r','#dce7ef'),(250,lambda r:f"{r['delta']:+.2f}",'r',lambda r:'#62f28e' if r['delta']>=0 else '#ff6872')]
     text(d,(175,202),"MANAGER",20,"#ff8b70",True); text(d,(505,202),"TEAM",20,"#ff8b70",True); text(d,(1165,202),"TRADES",20,"#ff8b70",True); text(d,(1400,202),"TRADE +/-",20,"#ff8b70",True)
-    rank_rows(d,report['leaderboard'],225,cols,"#ff623d",8); footer(d,report); return im
+    rank_rows(d,report['leaderboard'],225,cols,"#ff623d",row_height=58,box_height=50,font_size=19); footer(d,report); return im
 
 
 def render_waiver(report):
@@ -115,7 +116,7 @@ def render_waiver(report):
         text(d,(1050,255),f"{champ['points']:.2f}",72,"#f2c84b",True,"mm"); text(d,(1050,325),f"WAIVER POINTS  •  ${champ['faab_spent']} FAAB",22,"white",True,"mm")
     cols=[(330,lambda r:fit(r['manager'],21),'l','white'),(430,lambda r:fit(r['team'],29),'l','#d8d0ad'),(170,lambda r:str(r['claim_count']),'r','white'),(170,lambda r:f"${r['faab_spent']}",'r','white'),(220,lambda r:f"{r['points']:.2f}",'r','#f2c84b')]
     text(d,(175,407),"MANAGER",18,"#f2c84b",True); text(d,(505,407),"TEAM",18,"#f2c84b",True); text(d,(1100,407),"CLAIMS",18,"#f2c84b",True); text(d,(1275,407),"FAAB",18,"#f2c84b",True); text(d,(1440,407),"POINTS",18,"#f2c84b",True)
-    rank_rows(d,standings,430,cols,"#f2c84b",6); footer(d,report); return im
+    rank_rows(d,standings,430,cols,"#f2c84b",row_height=45,box_height=39,font_size=17); footer(d,report); return im
 
 
 def render_improved(report):
@@ -129,7 +130,7 @@ def render_improved(report):
     text(d,(1420,270),f"{champ['score']:+.2f}",50,"#43e6d0",True,"mm"); text(d,(1420,320),"TOTAL",18,"white",True,"mm")
     cols=[(280,lambda r:fit(r['manager'],18),'l','white'),(350,lambda r:fit(r['team'],24),'l','#aac9c8'),(170,lambda r:f"{r['trade_delta']:+.1f}",'r','#ff9b7e'),(170,lambda r:f"{r['waiver_points']:.1f}",'r','#f2d56c'),(190,lambda r:f"{r['free_agent_points']:.1f}",'r','#b9a2ff'),(210,lambda r:f"{r['score']:+.2f}",'r','#43e6d0')]
     text(d,(175,390),"MANAGER / TEAM",18,"#43e6d0",True); text(d,(855,390),"TRADES",18,"#43e6d0",True); text(d,(1020,390),"WAIVERS",18,"#43e6d0",True); text(d,(1195,390),"FREE AGENTS",18,"#43e6d0",True); text(d,(1420,390),"TOTAL",18,"#43e6d0",True)
-    rank_rows(d,rows,410,cols,"#43e6d0",6); footer(d,report); return im
+    rank_rows(d,rows,410,cols,"#43e6d0",row_height=46,box_height=40,font_size=17); footer(d,report); return im
 
 
 def main():
