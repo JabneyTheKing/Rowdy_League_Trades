@@ -1,5 +1,5 @@
 import unittest
-from scripts.update import score, normalize, evaluate, leaderboard, infer_week, stat_map, waiver_champion, on_or_after
+from scripts.update import score, normalize, evaluate, leaderboard, infer_week, stat_map, waiver_champion, acquisition_results, rebuild_master, on_or_after
 from datetime import datetime, timezone
 
 
@@ -76,6 +76,24 @@ class TrackerTests(unittest.TestCase):
                                         tzinfo=timezone.utc).timestamp() * 1000}
         self.assertFalse(on_or_after(before, '2026-08-23'))
         self.assertTrue(on_or_after(boundary, '2026-08-23'))
+
+    def test_rebuild_master_combines_three_components(self):
+        trades = [{'roster_id': 1, 'manager': 'A', 'team': 'A', 'delta': -5,
+                   'trade_count': 1}]
+        waivers = {'standings': [{'roster_id': 1, 'points': 20, 'claim_count': 2}]}
+        free_agents = {'standings': [{'roster_id': 1, 'points': 12.5, 'claim_count': 3}],
+                       'claims': []}
+        result = rebuild_master(trades, waivers, free_agents)
+        self.assertEqual(result['standings'][0]['score'], 27.5)
+
+    def test_free_agent_pickup_uses_same_ownership_scoring(self):
+        managers = {'1': {'name': 'Manager', 'team': 'Team'}}
+        add = {'transaction_id': 'add', 'type': 'free_agent', 'status': 'complete',
+               'status_updated': datetime(2026, 9, 15, tzinfo=timezone.utc).timestamp() * 1000,
+               'adds': {'p': 1}}
+        result = acquisition_results([add], managers, {2: '2026-09-17'},
+                                     {'2': {'p': 9.5}}, 2, 'free_agent')
+        self.assertEqual(result['standings'][0]['points'], 9.5)
 
 
 if __name__ == '__main__':

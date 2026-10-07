@@ -110,13 +110,13 @@ def leaderboard(trades, managers):
     return sorted(result, key=lambda r: (-r['delta'], r['manager'].lower()))
 
 
-def waiver_champion(transactions, managers, starts, weekly, through):
-    """Rank successful waiver claims by points captured while the player was owned."""
+def acquisition_results(transactions, managers, starts, weekly, through, transaction_type):
+    """Rank one acquisition type by points captured while the player was owned."""
     ordered = sorted((t for t in transactions if t.get('status') == 'complete'),
                      key=lambda t: t['status_updated'])
     claims = []
     for index, transaction in enumerate(ordered):
-        if transaction.get('type') != 'waiver':
+        if transaction.get('type') != transaction_type:
             continue
         first = infer_week(transaction, starts, through)
         bid = (transaction.get('settings') or {}).get('waiver_bid', 0) or 0
@@ -151,6 +151,29 @@ def waiver_champion(transactions, managers, starts, weekly, through):
     standings.sort(key=lambda row: (-row['points'], -row['best_pickup_points'], row['manager'].lower()))
     claims.sort(key=lambda claim: (-claim['points'], claim['manager'].lower()))
     return {'standings': standings, 'claims': claims}
+
+
+def waiver_champion(transactions, managers, starts, weekly, through):
+    return acquisition_results(transactions, managers, starts, weekly, through, 'waiver')
+
+
+def rebuild_master(trade_board, waivers, free_agents):
+    trade_by_roster = {row['roster_id']: row for row in trade_board}
+    waiver_by_roster = {row['roster_id']: row for row in waivers['standings']}
+    free_agent_by_roster = {row['roster_id']: row for row in free_agents['standings']}
+    standings = []
+    for roster, trade in trade_by_roster.items():
+        waiver = waiver_by_roster[roster]
+        free_agent = free_agent_by_roster[roster]
+        standings.append({'roster_id': roster, 'manager': trade['manager'], 'team': trade['team'],
+                          'trade_delta': trade['delta'], 'waiver_points': waiver['points'],
+                          'free_agent_points': free_agent['points'],
+                          'trade_count': trade['trade_count'],
+                          'waiver_claims': waiver['claim_count'],
+                          'free_agent_adds': free_agent['claim_count'],
+                          'score': round(trade['delta'] + waiver['points'] + free_agent['points'], 2)})
+    standings.sort(key=lambda row: (-row['score'], row['manager'].lower()))
+    return {'standings': standings, 'free_agent_pickups': free_agents['claims']}
 
 
 def infer_week(trade, starts, through):
@@ -211,11 +234,26 @@ def markdown(report, players):
         weeks = (f"{claim['first_week']}–{claim['last_week']}" if claim['last_week'] >= claim['first_week']
                  else 'No completed week')
         waiver_board.append(f"| {clean(claim['manager'])} | {clean(name(claim['player_id']))} | ${claim['faab']} | {weeks} | {claim['points']:.2f} | {claim['status']} |")
+    rebuild_board = ['# Rebuild Master', '',
+                     f"Updated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.", '',
+                     "Rebuild Score = trade +/- + successful waiver-pickup points + free-agent-pickup points. Pickup production counts only while that manager owns the player; bench points count. All components use the same August 23 transaction cutoff.", '',
+                     '| Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild Score |',
+                     '|---:|---|---|---:|---:|---:|---:|']
+    for rank, row in enumerate(report['rebuild_master']['standings'], 1):
+        rebuild_board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['trade_delta']:+.2f} | {row['waiver_points']:.2f} | {row['free_agent_points']:.2f} | {row['score']:+.2f} |")
+    rebuild_board += ['', '## Free-agent pickups', '',
+                      '| Manager | Player | Weeks owned | Points | Status |',
+                      '|---|---|---|---:|---|']
+    for pickup in report['rebuild_master']['free_agent_pickups']:
+        weeks = (f"{pickup['first_week']}–{pickup['last_week']}" if pickup['last_week'] >= pickup['first_week']
+                 else 'No completed week')
+        rebuild_board.append(f"| {clean(pickup['manager'])} | {clean(name(pickup['player_id']))} | {weeks} | {pickup['points']:.2f} | {pickup['status']} |")
     sections = {'leaderboard.md': intro + '\n'.join(board) + '\n\n' + detail(report['trades']),
                 'krunky.md': intro + '## Krunky Fleece-O-Meter\n\n' + detail(report['trades'], report['trackers']['krunky']),
                 'ryan.md': intro + '## Ryan Self-Fleece-O-Meter\n\nPositive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.\n\n' + detail(report['trades'], report['trackers']['ryan']),
                 'veto_vindicator.md': intro + '## Veto Vindicator\n\nHypothetical player production only. A points gap does not by itself settle whether a veto was justified, especially when picks are involved.\n\n' + detail(report['vetoed_trades']),
-                'waiver_champion.md': '\n'.join(waiver_board) + '\n'}
+                'waiver_champion.md': '\n'.join(waiver_board) + '\n',
+                'rebuild_master.md': '\n'.join(rebuild_board) + '\n'}
     for filename, content in sections.items():
         (ROOT / 'reports' / filename).write_text(content)
 
@@ -280,7 +318,7 @@ def run():
     tx = {tid: t for tid, t in all_tx.items() if t['type'] == 'trade'}
     completed = sorted((t for t in tx.values() if t['status'] == 'complete'), key=lambda t: t['status_updated'])
     tracked = {pid for t in completed for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})]}
-    tracked.update(pid for t in all_tx.values() if t.get('type') == 'waiver' and t.get('status') == 'complete'
+    tracked.update(pid for t in all_tx.values() if t.get('type') in ('waiver', 'free_agent') and t.get('status') == 'complete'
                    for pid in (t.get('adds') or {}))
     tracked.update(pid for t in vetoes for s in t['sides'] for direction in ('received', 'sent') for pid in s[direction])
     weekly, starts, checks = {}, {}, []
@@ -306,6 +344,9 @@ def run():
         first = config['first_scoring_week_overrides'].get(t['transaction_id'], infer_week(t, starts, through))
         trades.append(evaluate(normalize(t, managers, first), weekly, through))
     waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through)
+    free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent')
+    trade_board = leaderboard(trades, managers)
+    rebuild = rebuild_master(trade_board, waivers, free_agents)
     report = {'league_id': lid, 'league_name': league['name'], 'season': season,
               'tracking_start_date': tracking_start,
               'updated_at': datetime.now(timezone.utc).isoformat(), 'through_week': through,
@@ -314,14 +355,15 @@ def run():
               'excluded_transaction_count': len(fetched_tx) - len(all_tx),
               'vetoed_trades': [evaluate(t, weekly, through) for t in vetoes],
               'waiver_champion': waivers,
-              'leaderboard': leaderboard(trades, managers)}
+              'rebuild_master': rebuild,
+              'leaderboard': trade_board}
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings')},
                                            'managers': managers, 'transactions': list(all_tx.values()),
                                            'weekly_points': weekly, 'week_start_dates': starts})
     write_json(ROOT / 'data/report.json', report)
     markdown(report, players)
-    print(f"Updated {league['name']}: {len(trades)} trades, {len(waivers['claims'])} waiver claims; through Week {through}; scoring cross-check passed.")
+    print(f"Updated {league['name']}: {len(trades)} trades, {len(waivers['claims'])} waiver claims, {len(free_agents['claims'])} free-agent adds; through Week {through}; scoring cross-check passed.")
 
 
 if __name__ == '__main__':
