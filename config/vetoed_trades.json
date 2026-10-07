@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "veto-preseason-jsn",
+    "label": "Preseason: Worthy + Harrison + 2027 second for JSN",
+    "first_scoring_week": 1,
+    "sides": [
+      {"manager": "JSN recipient (manager unconfirmed)", "received": ["9488"], "sent": ["11624", "11628"], "picks_received": [], "picks_sent": [{"season": "2027", "round": 2}]},
+      {"manager": "Worthy/Harrison recipient (manager unconfirmed)", "received": ["11624", "11628"], "sent": ["9488"], "picks_received": [{"season": "2027", "round": 2}], "picks_sent": []}
+    ]
+  },
+  {
+    "id": "veto-week5-white-jones",
+    "label": "Before Week 5: Krunky sends Rachaad White; Ryan sends Aaron Jones",
+    "first_scoring_week": 5,
+    "sides": [
+      {"manager": "Krunky", "roster_id": 1, "received": ["4199"], "sent": ["8136"]},
+      {"manager": "Ryan", "roster_id": 6, "received": ["8136"], "sent": ["4199"]}
+    ]
+  }
+]

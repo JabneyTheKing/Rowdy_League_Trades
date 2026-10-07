@@ -1,41 +1,44 @@
 # Rowdy League Trades
 
-A read-only Sleeper trade-production tracker with four generated views: Krunky Fleece-O-Meter, Ryan Self-Fleece-O-Meter, Veto Vindicator, and a league-wide Trade Leaderboard.
+Automated post-trade fantasy production for **Rowdy Football League**, Sleeper league `1312064355625369600`.
 
-## Setup
+## Trackers
 
-This initial commit contains code only. No live league identities, trades, scores, or configuration are published.
+- [Krunky Fleece-O-Meter](reports/krunky.md)
+- [Ryan Self-Fleece-O-Meter](reports/ryan.md) — includes the Redemption Zone
+- [Veto Vindicator](reports/veto_vindicator.md)
+- [League Trade Leaderboard](reports/leaderboard.md) — all managers and trade details
+- [Machine-readable report](data/report.json) — for ChatGPT and future graphics
 
-Set `league_id`, tracker roster IDs, and any first-scoring-week overrides in `config/settings.json` to enable updates. Add known vetoes once to `config/vetoed_trades.json`. GitHub Actions then refreshes every six hours, on code/config changes, and manually through **Actions → Update trade trackers → Run workflow**. The workflow commits generated data/reports to this repository; use a private repository if you do not want those files public. No Sleeper credentials or API key are needed.
+GitHub Actions refreshes every six hours, on changes to tracker code/config, and from **Actions → Update trade trackers → Run workflow**. No Sleeper login, API key, or paid service is needed. Scheduled runs can be delayed by GitHub; the report shows its actual update time. GitHub may disable schedules in inactive public repos after 60 days.
 
-Python 3.11+, no third-party dependencies:
+## What the numbers mean
+
+**Trade +/- = fantasy points produced by players received − points produced by players sent**, from the first scoring week through the last completed week. Both sides use the same window. Bench production counts. Scores keep accumulating after players are traded again or dropped. Every trade is evaluated separately, so a player in successive trades contributes to multiple trade evaluations.
+
+The leaderboard totals each manager's scored trade deltas. This rewards cumulative player production, not lineup decisions or full dynasty value. Older trades have more time to accumulate points; unequal player counts also affect totals. Future draft picks, original pick owners, and FAAB are displayed separately and never silently valued at zero. Pick-only trades are tracked but do not count as scored player trades. Pending weeks and incomplete trade scores are excluded from rankings.
+
+Week totals use this league's exact scoring, including half-PPR and the extra 0.5 points per tight-end reception. Actual matchup `players_points` are preferred. An **undocumented** Sleeper weekly stats endpoint supplies production for players absent from league rosters. Its response shape is validated, and calculated stats must reproduce matchup player scores for every tracked player available in both sources; a mismatch fails the refresh instead of publishing questionable numbers. A player absent from a successfully fetched, full completed-week stats response has no recorded production and counts as zero. API failures stop publication.
+
+By default only completed weeks are included. Automatic detection conservatively uses NFL state and `last_scored_leg`; use the workflow input or CLI to set a verified completed week if Sleeper lags. The date of the first NFL game in each weekly stats response determines the first full week after processing. Trades processed on a game day start the next week by default; use an override when appropriate. The five known Krunky/Ryan player trades have explicit start-week overrides matching the original trackers.
+
+## Configuration
+
+`config/settings.json` sets the league, tracker roster IDs, and first-scoring-week overrides keyed by Sleeper transaction ID. Krunky is roster 1; Ryan is roster 6 (Sleeper display name `Potatomain`), identified from the two specified Ryan trades. Manager labels elsewhere use current Sleeper names; historical ownership changes are not reconstructed.
+
+`config/vetoed_trades.json` records vetoes once, using Sleeper player IDs, the first scoring week, received/sent assets, and optional roster IDs/picks. The public transaction history fetched for this league did not expose the two known vetoes. Both are seeded here; the preseason veto's managers remain unconfirmed. Veto production is hypothetical and does not enter the completed-trade leaderboard. Player points alone do not establish whether a veto was justified.
+
+## Run locally
+
+Python 3.11+; no third-party dependencies:
 
 ```bash
 python -m unittest discover -s tests -v
 python scripts/update.py
-# Only after verifying the week is complete:
+# Only if Week 5 is confirmed complete:
 python scripts/update.py --through-week 5
 ```
 
-## Scoring
+`data/snapshot.json` preserves normalized managers, source transactions, weekly points, league scoring/settings, and week dates. `data/report.json` contains evaluated trades, vetoes, rankings, and tracked player names. `.cache/players-2026.json` locally caches player names/positions/teams; it refreshes at most once daily. League chat message contents are not collected.
 
-Trade +/- is received-player production minus sent-player production over the same post-trade weeks. Bench points count and production continues after later trades or drops. Each trade is a separate comparison; repeated players can contribute to multiple trades. Picks and FAAB are listed separately and unvalued. Pending/incomplete results and pick-only trades do not enter scored-player rankings. This measures cumulative production, not full dynasty value; older trades and unequal player counts affect comparisons.
-
-Matchup player points use the league's exact scoring. An undocumented weekly stats endpoint supplies points for dropped players. Shape validation and cross-checks against matchup player scores must pass before publishing. Missing API responses stop the update. A player absent from a successfully fetched full completed-week stats response has no recorded production and counts as zero. The fallback may need maintenance if Sleeper changes it.
-
-Automatic completed-week detection conservatively uses NFL state and league `last_scored_leg`. The first full scoring week is inferred from processing dates and weekly game dates. Processing on a game day starts the next week by default; override by transaction ID for your preferred boundary. Current roster owners identify managers; historical ownership changes are not reconstructed.
-
-## Generated files
-
-- `reports/krunky.md`: Krunky Fleece-O-Meter
-- `reports/ryan.md`: Ryan Self-Fleece-O-Meter, including Redemption Zone
-- `reports/veto_vindicator.md`: hypothetical veto outcomes
-- `reports/leaderboard.md`: league rankings and every completed trade
-- `data/report.json`: evaluated trades, rankings, and player names
-- `data/snapshot.json`: league scoring/settings, normalized managers, transactions, weekly points, and week dates
-
-The player-name catalog is cached locally for up to a day. League chat content is not collected. GitHub schedules can be delayed and may be disabled after 60 days of public-repository inactivity.
-
-Vetoes may need manual entry because transaction history does not necessarily expose them. Each veto uses an ID, label, first scoring week, and sides containing manager, optional roster_id, received/sent player IDs, and optional picks_received/picks_sent arrays. Vetoes remain separate from the completed-trade leaderboard; production alone does not establish whether a veto was justified.
-
-Source: [Sleeper API documentation](https://docs.sleeper.com/). Weekly stats fallback is undocumented.
+Sources: [Sleeper API documentation](https://docs.sleeper.com/) and live Sleeper read-only responses. The weekly stats fallback is not part of the documented API and may need maintenance if Sleeper changes it.

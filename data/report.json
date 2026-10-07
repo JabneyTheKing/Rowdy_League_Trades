@@ -1,0 +1,1801 @@
+{
+  "leaderboard": [
+    {
+      "delta": 61.1,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "krunky",
+      "pending_trades": 0,
+      "roster_id": 1,
+      "scored_trades": 3,
+      "team": "Grand Theft Aubrey",
+      "trade_count": 4
+    },
+    {
+      "delta": 48.92,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "TheRealNoodleMan",
+      "pending_trades": 1,
+      "roster_id": 2,
+      "scored_trades": 2,
+      "team": "Gibbs of War",
+      "trade_count": 4
+    },
+    {
+      "delta": 39.3,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "therealbulker",
+      "pending_trades": 0,
+      "roster_id": 7,
+      "scored_trades": 2,
+      "team": "MidnightClub Rice Edition",
+      "trade_count": 2
+    },
+    {
+      "delta": 26.4,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "SethLL",
+      "pending_trades": 0,
+      "roster_id": 10,
+      "scored_trades": 2,
+      "team": "Red Dead Zachdemption",
+      "trade_count": 2
+    },
+    {
+      "delta": 4.52,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "oneyjb",
+      "pending_trades": 0,
+      "roster_id": 12,
+      "scored_trades": 3,
+      "team": "Bower's Inside Story",
+      "trade_count": 3
+    },
+    {
+      "delta": 1.3,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "lfain20",
+      "pending_trades": 0,
+      "roster_id": 4,
+      "scored_trades": 1,
+      "team": "Mortal Kombat: DARTside",
+      "trade_count": 1
+    },
+    {
+      "delta": 0,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "Dawg2003",
+      "pending_trades": 1,
+      "roster_id": 9,
+      "scored_trades": 0,
+      "team": "The Windhelm Nords ",
+      "trade_count": 1
+    },
+    {
+      "delta": 0,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "DiscipleJack",
+      "pending_trades": 0,
+      "roster_id": 8,
+      "scored_trades": 0,
+      "team": "Super Lamario",
+      "trade_count": 0
+    },
+    {
+      "delta": 0,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "RollnWithJesus",
+      "pending_trades": 0,
+      "roster_id": 11,
+      "scored_trades": 0,
+      "team": "Breach & Touchdown",
+      "trade_count": 0
+    },
+    {
+      "delta": -39.16,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "AfootCoronet56",
+      "pending_trades": 0,
+      "roster_id": 5,
+      "scored_trades": 2,
+      "team": "Risk of Rome",
+      "trade_count": 2
+    },
+    {
+      "delta": -43.5,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "Potatomain",
+      "pending_trades": 1,
+      "roster_id": 6,
+      "scored_trades": 2,
+      "team": "Grunts Krafty Gushers ",
+      "trade_count": 5
+    },
+    {
+      "delta": -98.88,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "JabneyTheKing",
+      "pending_trades": 1,
+      "roster_id": 3,
+      "scored_trades": 2,
+      "team": "Allen Wake",
+      "trade_count": 3
+    }
+  ],
+  "league_id": "1312064355625369600",
+  "league_name": "Rowdy Football League",
+  "managers": {
+    "1": {
+      "name": "krunky",
+      "team": "Grand Theft Aubrey",
+      "user_id": "869144370069262336"
+    },
+    "10": {
+      "name": "SethLL",
+      "team": "Red Dead Zachdemption",
+      "user_id": "459827030242881536"
+    },
+    "11": {
+      "name": "RollnWithJesus",
+      "team": "Breach & Touchdown",
+      "user_id": "871145118546190336"
+    },
+    "12": {
+      "name": "oneyjb",
+      "team": "Bower's Inside Story",
+      "user_id": "1126743556305145856"
+    },
+    "2": {
+      "name": "TheRealNoodleMan",
+      "team": "Gibbs of War",
+      "user_id": "975128832627834880"
+    },
+    "3": {
+      "name": "JabneyTheKing",
+      "team": "Allen Wake",
+      "user_id": "978908421594398720"
+    },
+    "4": {
+      "name": "lfain20",
+      "team": "Mortal Kombat: DARTside",
+      "user_id": "994030135634411520"
+    },
+    "5": {
+      "name": "AfootCoronet56",
+      "team": "Risk of Rome",
+      "user_id": "884892325632270336"
+    },
+    "6": {
+      "name": "Potatomain",
+      "team": "Grunts Krafty Gushers ",
+      "user_id": "1042263426653339648"
+    },
+    "7": {
+      "name": "therealbulker",
+      "team": "MidnightClub Rice Edition",
+      "user_id": "994445675729321984"
+    },
+    "8": {
+      "name": "DiscipleJack",
+      "team": "Super Lamario",
+      "user_id": "978865746279276544"
+    },
+    "9": {
+      "name": "Dawg2003",
+      "team": "The Windhelm Nords ",
+      "user_id": "977433769449766912"
+    }
+  },
+  "noncompleted_trade_count": 0,
+  "players": {
+    "10859": {
+      "full_name": "Sam LaPorta",
+      "position": "TE",
+      "team": "DET"
+    },
+    "11584": {
+      "full_name": "Bucky Irving",
+      "position": "RB",
+      "team": "TB"
+    },
+    "11620": {
+      "full_name": "Rome Odunze",
+      "position": "WR",
+      "team": "CHI"
+    },
+    "11624": {
+      "full_name": "Xavier Worthy",
+      "position": "WR",
+      "team": "KC"
+    },
+    "11628": {
+      "full_name": "Marvin Harrison",
+      "position": "WR",
+      "team": "ARI"
+    },
+    "11631": {
+      "full_name": "Brian Thomas",
+      "position": "WR",
+      "team": "JAX"
+    },
+    "12512": {
+      "full_name": "Quinshon Judkins",
+      "position": "RB",
+      "team": "CLE"
+    },
+    "12514": {
+      "full_name": "Emeka Egbuka",
+      "position": "WR",
+      "team": "TB"
+    },
+    "12517": {
+      "full_name": "Colston Loveland",
+      "position": "TE",
+      "team": "CHI"
+    },
+    "12527": {
+      "full_name": "Ashton Jeanty",
+      "position": "RB",
+      "team": "LV"
+    },
+    "12545": {
+      "full_name": "Tyler Shough",
+      "position": "QB",
+      "team": "NO"
+    },
+    "13279": {
+      "full_name": "Carnell Tate",
+      "position": "WR",
+      "team": "TEN"
+    },
+    "13294": {
+      "full_name": "Makai Lemon",
+      "position": "WR",
+      "team": "PHI"
+    },
+    "13330": {
+      "full_name": "Kenyon Sadiq",
+      "position": "TE",
+      "team": "NYJ"
+    },
+    "13346": {
+      "full_name": "Denzel Boston",
+      "position": "WR",
+      "team": "CLE"
+    },
+    "2133": {
+      "full_name": "Davante Adams",
+      "position": "WR",
+      "team": "LAR"
+    },
+    "4199": {
+      "full_name": "Aaron Jones",
+      "position": "RB",
+      "team": "MIN"
+    },
+    "4866": {
+      "full_name": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI"
+    },
+    "5927": {
+      "full_name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS"
+    },
+    "6770": {
+      "full_name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN"
+    },
+    "6797": {
+      "full_name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC"
+    },
+    "6806": {
+      "full_name": "J.K. Dobbins",
+      "position": "RB",
+      "team": "DEN"
+    },
+    "6819": {
+      "full_name": "Michael Pittman",
+      "position": "WR",
+      "team": "PIT"
+    },
+    "7002": {
+      "full_name": "Juwan Johnson",
+      "position": "TE",
+      "team": "NO"
+    },
+    "7543": {
+      "full_name": "Travis Etienne",
+      "position": "RB",
+      "team": "NO"
+    },
+    "7547": {
+      "full_name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET"
+    },
+    "7564": {
+      "full_name": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN"
+    },
+    "7611": {
+      "full_name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE"
+    },
+    "8110": {
+      "full_name": "Jake Ferguson",
+      "position": "TE",
+      "team": "DAL"
+    },
+    "8130": {
+      "full_name": "Trey McBride",
+      "position": "TE",
+      "team": "ARI"
+    },
+    "8136": {
+      "full_name": "Rachaad White",
+      "position": "RB",
+      "team": "WAS"
+    },
+    "8137": {
+      "full_name": "George Pickens",
+      "position": "WR",
+      "team": "DAL"
+    },
+    "8138": {
+      "full_name": "James Cook",
+      "position": "RB",
+      "team": "BUF"
+    },
+    "8144": {
+      "full_name": "Chris Olave",
+      "position": "WR",
+      "team": "NO"
+    },
+    "8148": {
+      "full_name": "Jameson Williams",
+      "position": "WR",
+      "team": "DET"
+    },
+    "8151": {
+      "full_name": "Kenneth Walker",
+      "position": "RB",
+      "team": "KC"
+    },
+    "9224": {
+      "full_name": "Chase Brown",
+      "position": "RB",
+      "team": "CIN"
+    },
+    "9226": {
+      "full_name": "De'Von Achane",
+      "position": "RB",
+      "team": "MIA"
+    },
+    "9488": {
+      "full_name": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "team": "SEA"
+    }
+  },
+  "season": "2026",
+  "through_week": 4,
+  "trackers": {
+    "krunky": 1,
+    "ryan": 6
+  },
+  "trades": [
+    {
+      "first_scoring_week": 1,
+      "id": "1312094941475790848",
+      "processed_at": 1767424270998,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "TheRealNoodleMan",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 2,
+              "previous_owner_id": 6,
+              "roster_id": 6,
+              "round": 2,
+              "season": "2026"
+            },
+            {
+              "league_id": null,
+              "owner_id": 2,
+              "previous_owner_id": 6,
+              "roster_id": 6,
+              "round": 3,
+              "season": "2026"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 2,
+              "roster_id": 2,
+              "round": 2,
+              "season": "2026"
+            },
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 2,
+              "roster_id": 2,
+              "round": 3,
+              "season": "2026"
+            }
+          ],
+          "received": [],
+          "received_players": [],
+          "received_points": 0,
+          "roster_id": 2,
+          "sent": [],
+          "sent_players": [],
+          "sent_points": 0,
+          "status": "scored"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Potatomain",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 2,
+              "roster_id": 2,
+              "round": 2,
+              "season": "2026"
+            },
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 2,
+              "roster_id": 2,
+              "round": 3,
+              "season": "2026"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 2,
+              "previous_owner_id": 6,
+              "roster_id": 6,
+              "round": 2,
+              "season": "2026"
+            },
+            {
+              "league_id": null,
+              "owner_id": 2,
+              "previous_owner_id": 6,
+              "roster_id": 6,
+              "round": 3,
+              "season": "2026"
+            }
+          ],
+          "received": [],
+          "received_players": [],
+          "received_points": 0,
+          "roster_id": 6,
+          "sent": [],
+          "sent_players": [],
+          "sent_points": 0,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 1,
+      "id": "1367675525362888704",
+      "processed_at": 1780639922668,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "krunky",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 1,
+              "previous_owner_id": 6,
+              "roster_id": 6,
+              "round": 12,
+              "season": "2026"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 1,
+              "roster_id": 1,
+              "round": 16,
+              "season": "2026"
+            },
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 1,
+              "roster_id": 6,
+              "round": 13,
+              "season": "2026"
+            }
+          ],
+          "received": [],
+          "received_players": [],
+          "received_points": 0,
+          "roster_id": 1,
+          "sent": [],
+          "sent_players": [],
+          "sent_points": 0,
+          "status": "scored"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Potatomain",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 1,
+              "roster_id": 1,
+              "round": 16,
+              "season": "2026"
+            },
+            {
+              "league_id": null,
+              "owner_id": 6,
+              "previous_owner_id": 1,
+              "roster_id": 6,
+              "round": 13,
+              "season": "2026"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 1,
+              "previous_owner_id": 6,
+              "roster_id": 6,
+              "round": 12,
+              "season": "2026"
+            }
+          ],
+          "received": [],
+          "received_players": [],
+          "received_points": 0,
+          "roster_id": 6,
+          "sent": [],
+          "sent_players": [],
+          "sent_points": 0,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 1,
+      "id": "1392361332220628992",
+      "processed_at": 1786428841927,
+      "sides": [
+        {
+          "delta": -43.34,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "8110"
+          ],
+          "received_players": [
+            {
+              "player_id": "8110",
+              "points": 36.3
+            }
+          ],
+          "received_points": 36.3,
+          "roster_id": 3,
+          "sent": [
+            "6770"
+          ],
+          "sent_players": [
+            {
+              "player_id": "6770",
+              "points": 79.64
+            }
+          ],
+          "sent_points": 79.64,
+          "status": "scored"
+        },
+        {
+          "delta": 43.34,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "therealbulker",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "6770"
+          ],
+          "received_players": [
+            {
+              "player_id": "6770",
+              "points": 79.64
+            }
+          ],
+          "received_points": 79.64,
+          "roster_id": 7,
+          "sent": [
+            "8110"
+          ],
+          "sent_players": [
+            {
+              "player_id": "8110",
+              "points": 36.3
+            }
+          ],
+          "sent_points": 36.3,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 1,
+      "id": "1397438171741986816",
+      "processed_at": 1787638487197,
+      "sides": [
+        {
+          "delta": 29.6,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "SethLL",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "13279",
+            "6806"
+          ],
+          "received_players": [
+            {
+              "player_id": "13279",
+              "points": 35.8
+            },
+            {
+              "player_id": "6806",
+              "points": 19.2
+            }
+          ],
+          "received_points": 55.0,
+          "roster_id": 10,
+          "sent": [
+            "7543"
+          ],
+          "sent_players": [
+            {
+              "player_id": "7543",
+              "points": 25.4
+            }
+          ],
+          "sent_points": 25.4,
+          "status": "scored"
+        },
+        {
+          "delta": -29.6,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "oneyjb",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "7543"
+          ],
+          "received_players": [
+            {
+              "player_id": "7543",
+              "points": 25.4
+            }
+          ],
+          "received_points": 25.4,
+          "roster_id": 12,
+          "sent": [
+            "13279",
+            "6806"
+          ],
+          "sent_players": [
+            {
+              "player_id": "13279",
+              "points": 35.8
+            },
+            {
+              "player_id": "6806",
+              "points": 19.2
+            }
+          ],
+          "sent_points": 55.0,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 1,
+      "id": "1399902563167449088",
+      "processed_at": 1788243296459,
+      "sides": [
+        {
+          "delta": 79.0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "TheRealNoodleMan",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "11620",
+            "12527",
+            "2133",
+            "8110"
+          ],
+          "received_players": [
+            {
+              "player_id": "11620",
+              "points": 30.3
+            },
+            {
+              "player_id": "12527",
+              "points": 64.4
+            },
+            {
+              "player_id": "2133",
+              "points": 62.0
+            },
+            {
+              "player_id": "8110",
+              "points": 36.3
+            }
+          ],
+          "received_points": 193.0,
+          "roster_id": 2,
+          "sent": [
+            "10859",
+            "13294",
+            "5927",
+            "9226"
+          ],
+          "sent_players": [
+            {
+              "player_id": "10859",
+              "points": 56.8
+            },
+            {
+              "player_id": "13294",
+              "points": 11.0
+            },
+            {
+              "player_id": "5927",
+              "points": 25.1
+            },
+            {
+              "player_id": "9226",
+              "points": 21.1
+            }
+          ],
+          "sent_points": 114.0,
+          "status": "scored"
+        },
+        {
+          "delta": -55.54,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 3,
+              "previous_owner_id": 5,
+              "roster_id": 5,
+              "round": 4,
+              "season": "2027"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 5,
+              "previous_owner_id": 3,
+              "roster_id": 3,
+              "round": 3,
+              "season": "2027"
+            }
+          ],
+          "received": [
+            "10859",
+            "5927",
+            "9226",
+            "9488"
+          ],
+          "received_players": [
+            {
+              "player_id": "10859",
+              "points": 56.8
+            },
+            {
+              "player_id": "5927",
+              "points": 25.1
+            },
+            {
+              "player_id": "9226",
+              "points": 21.1
+            },
+            {
+              "player_id": "9488",
+              "points": 100.66
+            }
+          ],
+          "received_points": 203.66,
+          "roster_id": 3,
+          "sent": [
+            "13330",
+            "2133",
+            "7564",
+            "8110",
+            "8144"
+          ],
+          "sent_players": [
+            {
+              "player_id": "13330",
+              "points": 38.6
+            },
+            {
+              "player_id": "2133",
+              "points": 62.0
+            },
+            {
+              "player_id": "7564",
+              "points": 49.7
+            },
+            {
+              "player_id": "8110",
+              "points": 36.3
+            },
+            {
+              "player_id": "8144",
+              "points": 72.6
+            }
+          ],
+          "sent_points": 259.2,
+          "status": "scored"
+        },
+        {
+          "delta": -23.46,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "AfootCoronet56",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 5,
+              "previous_owner_id": 3,
+              "roster_id": 3,
+              "round": 3,
+              "season": "2027"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 3,
+              "previous_owner_id": 5,
+              "roster_id": 5,
+              "round": 4,
+              "season": "2027"
+            }
+          ],
+          "received": [
+            "13294",
+            "13330",
+            "7564",
+            "8144"
+          ],
+          "received_players": [
+            {
+              "player_id": "13294",
+              "points": 11.0
+            },
+            {
+              "player_id": "13330",
+              "points": 38.6
+            },
+            {
+              "player_id": "7564",
+              "points": 49.7
+            },
+            {
+              "player_id": "8144",
+              "points": 72.6
+            }
+          ],
+          "received_points": 171.9,
+          "roster_id": 5,
+          "sent": [
+            "11620",
+            "12527",
+            "9488"
+          ],
+          "sent_players": [
+            {
+              "player_id": "11620",
+              "points": 30.3
+            },
+            {
+              "player_id": "12527",
+              "points": 64.4
+            },
+            {
+              "player_id": "9488",
+              "points": 100.66
+            }
+          ],
+          "sent_points": 195.36,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 2,
+      "id": "1402764976359288832",
+      "processed_at": 1788934551371,
+      "sides": [
+        {
+          "delta": -30.08,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "TheRealNoodleMan",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "6819"
+          ],
+          "received_players": [
+            {
+              "player_id": "6819",
+              "points": 5.1
+            }
+          ],
+          "received_points": 5.1,
+          "roster_id": 2,
+          "sent": [
+            "6797"
+          ],
+          "sent_players": [
+            {
+              "player_id": "6797",
+              "points": 35.18
+            }
+          ],
+          "sent_points": 35.18,
+          "status": "scored"
+        },
+        {
+          "delta": 30.08,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "oneyjb",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "6797"
+          ],
+          "received_players": [
+            {
+              "player_id": "6797",
+              "points": 35.18
+            }
+          ],
+          "received_points": 35.18,
+          "roster_id": 12,
+          "sent": [
+            "6819"
+          ],
+          "sent_players": [
+            {
+              "player_id": "6819",
+              "points": 5.1
+            }
+          ],
+          "sent_points": 5.1,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 1,
+      "id": "1402742518440792064",
+      "processed_at": 1788934551371,
+      "sides": [
+        {
+          "delta": 59.2,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "krunky",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "11631",
+            "8151"
+          ],
+          "received_players": [
+            {
+              "player_id": "11631",
+              "points": 21.0
+            },
+            {
+              "player_id": "8151",
+              "points": 104.1
+            }
+          ],
+          "received_points": 125.1,
+          "roster_id": 1,
+          "sent": [
+            "12514",
+            "7611"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12514",
+              "points": 28.6
+            },
+            {
+              "player_id": "7611",
+              "points": 37.3
+            }
+          ],
+          "sent_points": 65.9,
+          "status": "scored"
+        },
+        {
+          "delta": -59.2,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Potatomain",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12514",
+            "7611"
+          ],
+          "received_players": [
+            {
+              "player_id": "12514",
+              "points": 28.6
+            },
+            {
+              "player_id": "7611",
+              "points": 37.3
+            }
+          ],
+          "received_points": 65.9,
+          "roster_id": 6,
+          "sent": [
+            "11631",
+            "8151"
+          ],
+          "sent_players": [
+            {
+              "player_id": "11631",
+              "points": 21.0
+            },
+            {
+              "player_id": "8151",
+              "points": 104.1
+            }
+          ],
+          "sent_points": 125.1,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 3,
+      "id": "1408228309090742272",
+      "processed_at": 1790230577367,
+      "sides": [
+        {
+          "delta": 3.2,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "krunky",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "11628"
+          ],
+          "received_players": [
+            {
+              "player_id": "11628",
+              "points": 13.2
+            }
+          ],
+          "received_points": 13.2,
+          "roster_id": 1,
+          "sent": [
+            "11631"
+          ],
+          "sent_players": [
+            {
+              "player_id": "11631",
+              "points": 10.0
+            }
+          ],
+          "sent_points": 10.0,
+          "status": "scored"
+        },
+        {
+          "delta": -3.2,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "SethLL",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "11631"
+          ],
+          "received_players": [
+            {
+              "player_id": "11631",
+              "points": 10.0
+            }
+          ],
+          "received_points": 10.0,
+          "roster_id": 10,
+          "sent": [
+            "11628"
+          ],
+          "sent_players": [
+            {
+              "player_id": "11628",
+              "points": 13.2
+            }
+          ],
+          "sent_points": 13.2,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 4,
+      "id": "1410301096538144768",
+      "processed_at": 1790748958981,
+      "sides": [
+        {
+          "delta": -4.04,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "therealbulker",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "7002"
+          ],
+          "received_players": [
+            {
+              "player_id": "7002",
+              "points": 11.9
+            }
+          ],
+          "received_points": 11.9,
+          "roster_id": 7,
+          "sent": [
+            "12545"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12545",
+              "points": 15.94
+            }
+          ],
+          "sent_points": 15.94,
+          "status": "scored"
+        },
+        {
+          "delta": 4.04,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "oneyjb",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12545"
+          ],
+          "received_players": [
+            {
+              "player_id": "12545",
+              "points": 15.94
+            }
+          ],
+          "received_points": 15.94,
+          "roster_id": 12,
+          "sent": [
+            "7002"
+          ],
+          "sent_players": [
+            {
+              "player_id": "7002",
+              "points": 11.9
+            }
+          ],
+          "sent_points": 11.9,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 4,
+      "id": "1410130087235375104",
+      "processed_at": 1790748958981,
+      "sides": [
+        {
+          "delta": -15.7,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "AfootCoronet56",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "4866",
+            "8148"
+          ],
+          "received_players": [
+            {
+              "player_id": "4866",
+              "points": 1.5
+            },
+            {
+              "player_id": "8148",
+              "points": 13.2
+            }
+          ],
+          "received_points": 14.7,
+          "roster_id": 5,
+          "sent": [
+            "4199",
+            "8144"
+          ],
+          "sent_players": [
+            {
+              "player_id": "4199",
+              "points": 14.8
+            },
+            {
+              "player_id": "8144",
+              "points": 15.6
+            }
+          ],
+          "sent_points": 30.4,
+          "status": "scored"
+        },
+        {
+          "delta": 15.7,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Potatomain",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "4199",
+            "8144"
+          ],
+          "received_players": [
+            {
+              "player_id": "4199",
+              "points": 14.8
+            },
+            {
+              "player_id": "8144",
+              "points": 15.6
+            }
+          ],
+          "received_points": 30.4,
+          "roster_id": 6,
+          "sent": [
+            "4866",
+            "8148"
+          ],
+          "sent_players": [
+            {
+              "player_id": "4866",
+              "points": 1.5
+            },
+            {
+              "player_id": "8148",
+              "points": 13.2
+            }
+          ],
+          "sent_points": 14.7,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 4,
+      "id": "1410837390251110400",
+      "processed_at": 1790835380582,
+      "sides": [
+        {
+          "delta": -1.3,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "krunky",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12517",
+            "7547"
+          ],
+          "received_players": [
+            {
+              "player_id": "12517",
+              "points": 11.7
+            },
+            {
+              "player_id": "7547",
+              "points": 11.5
+            }
+          ],
+          "received_points": 23.2,
+          "roster_id": 1,
+          "sent": [
+            "13346",
+            "9224"
+          ],
+          "sent_players": [
+            {
+              "player_id": "13346",
+              "points": 10.9
+            },
+            {
+              "player_id": "9224",
+              "points": 13.6
+            }
+          ],
+          "sent_points": 24.5,
+          "status": "scored"
+        },
+        {
+          "delta": 1.3,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "lfain20",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "13346",
+            "9224"
+          ],
+          "received_players": [
+            {
+              "player_id": "13346",
+              "points": 10.9
+            },
+            {
+              "player_id": "9224",
+              "points": 13.6
+            }
+          ],
+          "received_points": 24.5,
+          "roster_id": 4,
+          "sent": [
+            "12517",
+            "7547"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12517",
+              "points": 11.7
+            },
+            {
+              "player_id": "7547",
+              "points": 11.5
+            }
+          ],
+          "sent_points": 23.2,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1411406607744577536",
+      "processed_at": 1791008166172,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "TheRealNoodleMan",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "11584",
+            "8130",
+            "8137"
+          ],
+          "received_players": [
+            {
+              "player_id": "11584",
+              "points": 0
+            },
+            {
+              "player_id": "8130",
+              "points": 0
+            },
+            {
+              "player_id": "8137",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 2,
+          "sent": [
+            "12527",
+            "2133",
+            "8110"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12527",
+              "points": 0
+            },
+            {
+              "player_id": "2133",
+              "points": 0
+            },
+            {
+              "player_id": "8110",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Dawg2003",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12527",
+            "2133",
+            "8110"
+          ],
+          "received_players": [
+            {
+              "player_id": "12527",
+              "points": 0
+            },
+            {
+              "player_id": "2133",
+              "points": 0
+            },
+            {
+              "player_id": "8110",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 9,
+          "sent": [
+            "11584",
+            "8130",
+            "8137"
+          ],
+          "sent_players": [
+            {
+              "player_id": "11584",
+              "points": 0
+            },
+            {
+              "player_id": "8130",
+              "points": 0
+            },
+            {
+              "player_id": "8137",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1412618520205746176",
+      "processed_at": 1791267389058,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "8138",
+            "8144"
+          ],
+          "received_players": [
+            {
+              "player_id": "8138",
+              "points": 0
+            },
+            {
+              "player_id": "8144",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 3,
+          "sent": [
+            "12512",
+            "9488"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12512",
+              "points": 0
+            },
+            {
+              "player_id": "9488",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Potatomain",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12512",
+            "9488"
+          ],
+          "received_players": [
+            {
+              "player_id": "12512",
+              "points": 0
+            },
+            {
+              "player_id": "9488",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 6,
+          "sent": [
+            "8138",
+            "8144"
+          ],
+          "sent_players": [
+            {
+              "player_id": "8138",
+              "points": 0
+            },
+            {
+              "player_id": "8144",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-07T04:12:09.589464+00:00",
+  "vetoed_trades": [
+    {
+      "first_scoring_week": 1,
+      "id": "veto-preseason-jsn",
+      "label": "Preseason: Worthy + Harrison + 2027 second for JSN",
+      "sides": [
+        {
+          "delta": 57.36,
+          "manager": "JSN recipient (manager unconfirmed)",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [
+            {
+              "round": 2,
+              "season": "2027"
+            }
+          ],
+          "received": [
+            "9488"
+          ],
+          "received_players": [
+            {
+              "player_id": "9488",
+              "points": 100.66
+            }
+          ],
+          "received_points": 100.66,
+          "sent": [
+            "11624",
+            "11628"
+          ],
+          "sent_players": [
+            {
+              "player_id": "11624",
+              "points": 26.3
+            },
+            {
+              "player_id": "11628",
+              "points": 17.0
+            }
+          ],
+          "sent_points": 43.3,
+          "status": "scored"
+        },
+        {
+          "delta": -57.36,
+          "manager": "Worthy/Harrison recipient (manager unconfirmed)",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "round": 2,
+              "season": "2027"
+            }
+          ],
+          "picks_sent": [],
+          "received": [
+            "11624",
+            "11628"
+          ],
+          "received_players": [
+            {
+              "player_id": "11624",
+              "points": 26.3
+            },
+            {
+              "player_id": "11628",
+              "points": 17.0
+            }
+          ],
+          "received_points": 43.3,
+          "sent": [
+            "9488"
+          ],
+          "sent_players": [
+            {
+              "player_id": "9488",
+              "points": 100.66
+            }
+          ],
+          "sent_points": 100.66,
+          "status": "scored"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "veto-week5-white-jones",
+      "label": "Before Week 5: Krunky sends Rachaad White; Ryan sends Aaron Jones",
+      "sides": [
+        {
+          "delta": 0,
+          "manager": "Krunky",
+          "missing_scores": [],
+          "received": [
+            "4199"
+          ],
+          "received_players": [
+            {
+              "player_id": "4199",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 1,
+          "sent": [
+            "8136"
+          ],
+          "sent_players": [
+            {
+              "player_id": "8136",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending"
+        },
+        {
+          "delta": 0,
+          "manager": "Ryan",
+          "missing_scores": [],
+          "received": [
+            "8136"
+          ],
+          "received_players": [
+            {
+              "player_id": "8136",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 6,
+          "sent": [
+            "4199"
+          ],
+          "sent_players": [
+            {
+              "player_id": "4199",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

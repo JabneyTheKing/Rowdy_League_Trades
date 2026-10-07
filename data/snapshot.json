@@ -1,0 +1,885 @@
+{
+  "league": {
+    "league_id": "1312064355625369600",
+    "name": "Rowdy Football League",
+    "scoring_settings": {
+      "blk_kick": 2.0,
+      "bonus_rec_te": 0.5,
+      "def_st_ff": 1.0,
+      "def_st_fum_rec": 1.0,
+      "def_st_td": 6.0,
+      "def_td": 6.0,
+      "ff": 1.0,
+      "fgm_0_19": 3.0,
+      "fgm_20_29": 3.0,
+      "fgm_30_39": 3.0,
+      "fgm_40_49": 4.0,
+      "fgm_50p": 5.0,
+      "fgmiss": -1.0,
+      "fum": 0.0,
+      "fum_lost": -2.0,
+      "fum_rec": 2.0,
+      "fum_rec_td": 6.0,
+      "int": 2.0,
+      "pass_2pt": 2.0,
+      "pass_int": -1.0,
+      "pass_td": 4.0,
+      "pass_yd": 0.04,
+      "pts_allow_0": 10.0,
+      "pts_allow_14_20": 1.0,
+      "pts_allow_1_6": 7.0,
+      "pts_allow_21_27": 0.0,
+      "pts_allow_28_34": -1.0,
+      "pts_allow_35p": -4.0,
+      "pts_allow_7_13": 4.0,
+      "rec": 0.5,
+      "rec_2pt": 2.0,
+      "rec_td": 6.0,
+      "rec_yd": 0.1,
+      "rush_2pt": 2.0,
+      "rush_td": 6.0,
+      "rush_yd": 0.1,
+      "sack": 1.0,
+      "safe": 2.0,
+      "st_ff": 1.0,
+      "st_fum_rec": 1.0,
+      "st_td": 6.0,
+      "xpm": 1.0,
+      "xpmiss": -1.0
+    },
+    "season": "2026",
+    "settings": {
+      "bench_lock": 0,
+      "best_ball": 0,
+      "capacity_override": 0,
+      "commissioner_direct_invite": 0,
+      "daily_waivers": 0,
+      "daily_waivers_days": 5461,
+      "daily_waivers_hour": 0,
+      "daily_waivers_last_ran": 23,
+      "disable_adds": 0,
+      "disable_trades": 0,
+      "draft_rounds": 3,
+      "faab_suggestions": 0,
+      "last_report": 4,
+      "last_scored_leg": 4,
+      "league_average_match": 0,
+      "leg": 4,
+      "max_keepers": 4,
+      "max_subs": 3,
+      "num_teams": 12,
+      "offseason_adds": 0,
+      "pick_trading": 1,
+      "playoff_round_type": 0,
+      "playoff_seed_type": 0,
+      "playoff_teams": 6,
+      "playoff_type": 1,
+      "playoff_week_start": 15,
+      "reserve_allow_cov": 0,
+      "reserve_allow_dnr": 0,
+      "reserve_allow_doubtful": 0,
+      "reserve_allow_na": 1,
+      "reserve_allow_out": 0,
+      "reserve_allow_sus": 1,
+      "reserve_slots": 2,
+      "start_week": 1,
+      "sub_lock_if_starter_active": 0,
+      "sub_start_time_eligibility": 0,
+      "taxi_allow_vets": 0,
+      "taxi_deadline": 0,
+      "taxi_slots": 0,
+      "taxi_years": 0,
+      "trade_deadline": 11,
+      "trade_review_days": 1,
+      "type": 1,
+      "veto_auto_poll": 1,
+      "veto_show_votes": 0,
+      "veto_votes_needed": 6,
+      "waiver_bid_min": 0,
+      "waiver_budget": 100,
+      "waiver_clear_days": 2,
+      "waiver_day_of_week": 2,
+      "waiver_type": 2
+    }
+  },
+  "managers": {
+    "1": {
+      "name": "krunky",
+      "team": "Grand Theft Aubrey",
+      "user_id": "869144370069262336"
+    },
+    "10": {
+      "name": "SethLL",
+      "team": "Red Dead Zachdemption",
+      "user_id": "459827030242881536"
+    },
+    "11": {
+      "name": "RollnWithJesus",
+      "team": "Breach & Touchdown",
+      "user_id": "871145118546190336"
+    },
+    "12": {
+      "name": "oneyjb",
+      "team": "Bower's Inside Story",
+      "user_id": "1126743556305145856"
+    },
+    "2": {
+      "name": "TheRealNoodleMan",
+      "team": "Gibbs of War",
+      "user_id": "975128832627834880"
+    },
+    "3": {
+      "name": "JabneyTheKing",
+      "team": "Allen Wake",
+      "user_id": "978908421594398720"
+    },
+    "4": {
+      "name": "lfain20",
+      "team": "Mortal Kombat: DARTside",
+      "user_id": "994030135634411520"
+    },
+    "5": {
+      "name": "AfootCoronet56",
+      "team": "Risk of Rome",
+      "user_id": "884892325632270336"
+    },
+    "6": {
+      "name": "Potatomain",
+      "team": "Grunts Krafty Gushers ",
+      "user_id": "1042263426653339648"
+    },
+    "7": {
+      "name": "therealbulker",
+      "team": "MidnightClub Rice Edition",
+      "user_id": "994445675729321984"
+    },
+    "8": {
+      "name": "DiscipleJack",
+      "team": "Super Lamario",
+      "user_id": "978865746279276544"
+    },
+    "9": {
+      "name": "Dawg2003",
+      "team": "The Windhelm Nords ",
+      "user_id": "977433769449766912"
+    }
+  },
+  "transactions": [
+    {
+      "adds": {
+        "6797": 12,
+        "6819": 2
+      },
+      "consenter_ids": [
+        2,
+        12
+      ],
+      "created": 1788807741779,
+      "creator": "1126743556305145856",
+      "draft_picks": [],
+      "drops": {
+        "6797": 2,
+        "6819": 12
+      },
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1402771473814294528",
+        "veto_msg_id": "1402771473914941440"
+      },
+      "roster_ids": [
+        2,
+        12
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1788934551371,
+      "transaction_id": "1402764976359288832",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11631": 1,
+        "12514": 6,
+        "7611": 6,
+        "8151": 1
+      },
+      "consenter_ids": [
+        1,
+        6
+      ],
+      "created": 1788802387393,
+      "creator": "869144370069262336",
+      "draft_picks": [],
+      "drops": {
+        "11631": 6,
+        "12514": 1,
+        "7611": 1,
+        "8151": 6
+      },
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1402760947075956736",
+        "veto_msg_id": "1402760947168235520"
+      },
+      "roster_ids": [
+        1,
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1788934551371,
+      "transaction_id": "1402742518440792064",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "10859": 3,
+        "11620": 2,
+        "12527": 2,
+        "13294": 5,
+        "13330": 5,
+        "2133": 2,
+        "5927": 3,
+        "7564": 5,
+        "8110": 2,
+        "8144": 5,
+        "9226": 3,
+        "9488": 3
+      },
+      "consenter_ids": [
+        2,
+        3,
+        5
+      ],
+      "created": 1788125289293,
+      "creator": "978908421594398720",
+      "draft_picks": [
+        {
+          "league_id": null,
+          "owner_id": 5,
+          "previous_owner_id": 3,
+          "roster_id": 3,
+          "round": 3,
+          "season": "2027"
+        },
+        {
+          "league_id": null,
+          "owner_id": 3,
+          "previous_owner_id": 5,
+          "roster_id": 5,
+          "round": 4,
+          "season": "2027"
+        }
+      ],
+      "drops": {
+        "10859": 2,
+        "11620": 5,
+        "12527": 5,
+        "13294": 2,
+        "13330": 3,
+        "2133": 3,
+        "5927": 2,
+        "7564": 3,
+        "8110": 3,
+        "8144": 3,
+        "9226": 2,
+        "9488": 5
+      },
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1399925262732271616",
+        "veto_msg_id": "1399925262807773184"
+      },
+      "roster_ids": [
+        2,
+        3,
+        5
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1788243296459,
+      "transaction_id": "1399902563167449088",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "13279": 10,
+        "6806": 10,
+        "7543": 12
+      },
+      "consenter_ids": [
+        10,
+        12
+      ],
+      "created": 1787537732590,
+      "creator": "459827030242881536",
+      "draft_picks": [],
+      "drops": {
+        "13279": 12,
+        "6806": 12,
+        "7543": 10
+      },
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1397439114462146560",
+        "veto_msg_id": "1397439114520846336"
+      },
+      "roster_ids": [
+        10,
+        12
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1787638487197,
+      "transaction_id": "1397438171741986816",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "6770": 7,
+        "8110": 3
+      },
+      "consenter_ids": [
+        3,
+        7
+      ],
+      "created": 1786327319726,
+      "creator": "978908421594398720",
+      "draft_picks": [],
+      "drops": {
+        "6770": 3,
+        "8110": 7
+      },
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1392362308377784320",
+        "veto_msg_id": "1392362308440686592"
+      },
+      "roster_ids": [
+        3,
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1786428841927,
+      "transaction_id": "1392361332220628992",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        1,
+        6
+      ],
+      "created": 1780441764731,
+      "creator": "869144370069262336",
+      "draft_picks": [
+        {
+          "league_id": null,
+          "owner_id": 6,
+          "previous_owner_id": 1,
+          "roster_id": 1,
+          "round": 16,
+          "season": "2026"
+        },
+        {
+          "league_id": null,
+          "owner_id": 1,
+          "previous_owner_id": 6,
+          "roster_id": 6,
+          "round": 12,
+          "season": "2026"
+        },
+        {
+          "league_id": null,
+          "owner_id": 6,
+          "previous_owner_id": 1,
+          "roster_id": 6,
+          "round": 13,
+          "season": "2026"
+        }
+      ],
+      "drops": null,
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1367676503843676160",
+        "veto_msg_id": "1367676503902396416"
+      },
+      "roster_ids": [
+        1,
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1780639922668,
+      "transaction_id": "1367675525362888704",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        2,
+        6
+      ],
+      "created": 1767190320895,
+      "creator": "975128832627834880",
+      "draft_picks": [
+        {
+          "league_id": null,
+          "owner_id": 6,
+          "previous_owner_id": 2,
+          "roster_id": 2,
+          "round": 2,
+          "season": "2026"
+        },
+        {
+          "league_id": null,
+          "owner_id": 6,
+          "previous_owner_id": 2,
+          "roster_id": 2,
+          "round": 3,
+          "season": "2026"
+        },
+        {
+          "league_id": null,
+          "owner_id": 2,
+          "previous_owner_id": 6,
+          "roster_id": 6,
+          "round": 2,
+          "season": "2026"
+        },
+        {
+          "league_id": null,
+          "owner_id": 2,
+          "previous_owner_id": 6,
+          "roster_id": 6,
+          "round": 3,
+          "season": "2026"
+        }
+      ],
+      "drops": null,
+      "leg": 1,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1312140449523191808",
+        "veto_msg_id": "1312140449607086080"
+      },
+      "roster_ids": [
+        2,
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1767424270998,
+      "transaction_id": "1312094941475790848",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11628": 1,
+        "11631": 10
+      },
+      "consenter_ids": [
+        1,
+        10
+      ],
+      "created": 1790110301806,
+      "creator": "869144370069262336",
+      "draft_picks": [],
+      "drops": {
+        "11628": 10,
+        "11631": 1
+      },
+      "leg": 2,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1408248659555921920",
+        "veto_msg_id": "1408248659623108608"
+      },
+      "roster_ids": [
+        1,
+        10
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1790230577367,
+      "transaction_id": "1408228309090742272",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12517": 1,
+        "13346": 4,
+        "7547": 1,
+        "9224": 4
+      },
+      "consenter_ids": [
+        1,
+        4
+      ],
+      "created": 1790732355228,
+      "creator": "994030135634411520",
+      "draft_picks": [],
+      "drops": {
+        "12517": 4,
+        "13346": 1,
+        "7547": 4,
+        "9224": 1
+      },
+      "leg": 3,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1410837424401084416",
+        "veto_msg_id": "1410837424476610560"
+      },
+      "roster_ids": [
+        1,
+        4
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1790835380582,
+      "transaction_id": "1410837390251110400",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12545": 12,
+        "7002": 7
+      },
+      "consenter_ids": [
+        7,
+        12
+      ],
+      "created": 1790604492844,
+      "creator": "1126743556305145856",
+      "draft_picks": [],
+      "drops": {
+        "12545": 7,
+        "7002": 12
+      },
+      "leg": 3,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1410357353856962560",
+        "veto_msg_id": "1410357353932468224"
+      },
+      "roster_ids": [
+        7,
+        12
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1790748958981,
+      "transaction_id": "1410301096538144768",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "4199": 6,
+        "4866": 5,
+        "8144": 6,
+        "8148": 5
+      },
+      "consenter_ids": [
+        5,
+        6
+      ],
+      "created": 1790563721049,
+      "creator": "1042263426653339648",
+      "draft_picks": [],
+      "drops": {
+        "4199": 5,
+        "4866": 6,
+        "8144": 5,
+        "8148": 6
+      },
+      "leg": 3,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1410233355512913920",
+        "veto_msg_id": "1410233355676454912"
+      },
+      "roster_ids": [
+        5,
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1790748958981,
+      "transaction_id": "1410130087235375104",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12512": 6,
+        "8138": 3,
+        "8144": 3,
+        "9488": 6
+      },
+      "consenter_ids": [
+        3,
+        6
+      ],
+      "created": 1791157009702,
+      "creator": "1042263426653339648",
+      "draft_picks": [],
+      "drops": {
+        "12512": 3,
+        "8138": 6,
+        "8144": 6,
+        "9488": 3
+      },
+      "leg": 4,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1412618689269809152",
+        "veto_msg_id": "1412618689538215936"
+      },
+      "roster_ids": [
+        3,
+        6
+      ],
+      "settings": {
+        "is_counter": 1
+      },
+      "status": "complete",
+      "status_updated": 1791267389058,
+      "transaction_id": "1412618520205746176",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11584": 2,
+        "12527": 9,
+        "2133": 9,
+        "8110": 9,
+        "8130": 2,
+        "8137": 2
+      },
+      "consenter_ids": [
+        2,
+        9
+      ],
+      "created": 1790868067254,
+      "creator": "975128832627834880",
+      "draft_picks": [],
+      "drops": {
+        "11584": 9,
+        "12527": 2,
+        "2133": 2,
+        "8110": 2,
+        "8130": 9,
+        "8137": 9
+      },
+      "leg": 4,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1411407318670741504",
+        "veto_msg_id": "1411407318733598720"
+      },
+      "roster_ids": [
+        2,
+        9
+      ],
+      "settings": {
+        "expires_at": 1790954467
+      },
+      "status": "complete",
+      "status_updated": 1791008166172,
+      "transaction_id": "1411406607744577536",
+      "type": "trade",
+      "waiver_budget": []
+    }
+  ],
+  "week_start_dates": {
+    "1": "2026-09-09",
+    "2": "2026-09-17",
+    "3": "2026-09-24",
+    "4": "2026-10-01"
+  },
+  "weekly_points": {
+    "1": {
+      "10859": 9.8,
+      "11584": 16.8,
+      "11620": 6.2,
+      "11624": 3.3,
+      "11628": 3.8,
+      "11631": 5.5,
+      "12512": 6.0,
+      "12514": 8.8,
+      "12517": 0.0,
+      "12527": 29.7,
+      "12545": 25.2,
+      "13279": 5.8,
+      "13294": 1.0,
+      "13330": 11.4,
+      "13346": 12.9,
+      "2133": 4.1,
+      "4199": 10.0,
+      "4866": 8.5,
+      "5927": 2.4,
+      "6770": 15.16,
+      "6797": 14.26,
+      "6806": 3.6,
+      "6819": 7.3,
+      "7002": 14.4,
+      "7543": 11.3,
+      "7547": 23.7,
+      "7564": 2.2,
+      "7611": 12.0,
+      "8110": 2.6,
+      "8130": 24.5,
+      "8136": 3.7,
+      "8137": 4.3,
+      "8138": 8.4,
+      "8144": 23.2,
+      "8148": 6.5,
+      "8151": 32.6,
+      "9224": 16.3,
+      "9226": 8.6,
+      "9488": 22.2
+    },
+    "2": {
+      "10859": 17.2,
+      "11584": 11.0,
+      "11620": 5.8,
+      "11624": 11.0,
+      "11628": 0.0,
+      "11631": 5.5,
+      "12512": 7.3,
+      "12514": 8.8,
+      "12517": 1.3,
+      "12527": 8.3,
+      "12545": 22.38,
+      "13279": 4.2,
+      "13294": 1.4,
+      "13330": 3.7,
+      "13346": 18.0,
+      "2133": 35.5,
+      "4199": 10.5,
+      "4866": 2.5,
+      "5927": 6.0,
+      "6770": 16.18,
+      "6797": 9.88,
+      "6806": 3.6,
+      "6819": 0.0,
+      "7002": 10.6,
+      "7543": 6.1,
+      "7547": 30.7,
+      "7564": 23.0,
+      "7611": 3.1,
+      "8110": 20.3,
+      "8130": 18.1,
+      "8136": 11.3,
+      "8137": 7.0,
+      "8138": 20.4,
+      "8144": 18.6,
+      "8148": 4.3,
+      "8151": 20.8,
+      "9224": 9.7,
+      "9226": 10.8,
+      "9488": 38.0
+    },
+    "3": {
+      "10859": 7.4,
+      "11584": 6.8,
+      "11620": 5.9,
+      "11624": 3.0,
+      "11628": 5.5,
+      "11631": 1.3,
+      "12512": 8.9,
+      "12514": 8.7,
+      "12517": 7.1,
+      "12527": 10.8,
+      "12545": 24.8,
+      "13279": 8.8,
+      "13294": 4.4,
+      "13330": 23.5,
+      "13346": 7.1,
+      "2133": 17.2,
+      "4199": 11.7,
+      "4866": 8.5,
+      "5927": 16.7,
+      "6770": 22.58,
+      "6797": 13.74,
+      "6806": 5.8,
+      "6819": 2.6,
+      "7002": 23.3,
+      "7543": 8.0,
+      "7547": 9.9,
+      "7564": 20.3,
+      "7611": 5.3,
+      "8110": 9.3,
+      "8130": 16.5,
+      "8136": 10.6,
+      "8137": 11.7,
+      "8138": 19.4,
+      "8144": 15.2,
+      "8148": 6.9,
+      "8151": 20.3,
+      "9224": 7.9,
+      "9226": 1.7,
+      "9488": 30.36
+    },
+    "4": {
+      "10859": 22.4,
+      "11584": 6.1,
+      "11620": 12.4,
+      "11624": 9.0,
+      "11628": 7.7,
+      "11631": 8.7,
+      "12512": 18.6,
+      "12514": 2.3,
+      "12517": 11.7,
+      "12527": 15.6,
+      "12545": 15.94,
+      "13279": 17.0,
+      "13294": 4.2,
+      "13330": 0.0,
+      "13346": 10.9,
+      "2133": 5.2,
+      "4199": 14.8,
+      "4866": 1.5,
+      "5927": 0.0,
+      "6770": 25.72,
+      "6797": 11.56,
+      "6806": 6.2,
+      "6819": 2.5,
+      "7002": 11.9,
+      "7543": 0.0,
+      "7547": 11.5,
+      "7564": 4.2,
+      "7611": 16.9,
+      "8110": 4.1,
+      "8130": 10.1,
+      "8136": 0.0,
+      "8137": 8.5,
+      "8138": 15.3,
+      "8144": 15.6,
+      "8148": 13.2,
+      "8151": 30.4,
+      "9224": 13.6,
+      "9226": 0.0,
+      "9488": 10.1
+    }
+  }
+}

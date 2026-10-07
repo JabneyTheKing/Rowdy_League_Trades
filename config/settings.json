@@ -1,8 +1,11 @@
 {
-  "league_id": "",
-  "trackers": {
-    "krunky": null,
-    "ryan": null
-  },
-  "first_scoring_week_overrides": {}
+  "league_id": "1312064355625369600",
+  "trackers": {"krunky": 1, "ryan": 6},
+  "first_scoring_week_overrides": {
+    "1402742518440792064": 1,
+    "1408228309090742272": 3,
+    "1410837390251110400": 4,
+    "1410130087235375104": 4,
+    "1412618520205746176": 5
+  }
 }
