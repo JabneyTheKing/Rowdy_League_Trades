@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-07T13:38:05.906528+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T16:36:07.708489+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -73,6 +73,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | therealbulker | Malik Willis | Cam Ward | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Nick Folk | Ryan Fitzgerald | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
 | SethLL | CIN | JAX | 1–4 | 41.00 | 43.00 | -2.00 | scored |
