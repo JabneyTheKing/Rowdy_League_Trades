@@ -133,41 +133,60 @@ def render_jabney(report):
     for trade in report['trades']:
         side=next((s for s in trade['sides'] if s.get('roster_id')==rid),None)
         if side: trades.append((trade,side))
-    rows=max(1,(len(trades)+1)//2); height=380+rows*560+235
-    canvas=Image.new('RGB',(W,height),'#090b10')
-    header=ImageOps.fit(art('jabney_photo.jpg'),(W,380),method=Image.Resampling.LANCZOS,centering=(.42,.45))
-    canvas.paste(header,(0,0)); shade=Image.new('RGBA',(W,height),(0,0,0,0)); sd=ImageDraw.Draw(shade)
-    for x in range(520,W):
-        alpha=int(225*min(1,(x-520)/500)); sd.line((x,0,x,380),fill=(7,9,14,alpha))
-    canvas=Image.alpha_composite(canvas.convert('RGBA'),shade).convert('RGB'); d=ImageDraw.Draw(canvas)
-    d.polygon([(930,0),(1600,0),(1600,380),(820,380)],fill='#070a10')
-    d.line((910,25,820,355),fill='#d7353f',width=9)
-    text(d,(1240,100),'JABNEY',72,'white',True,'mm'); text(d,(1240,188),'UNDERDOG TRACKER',39,'#ed3f49',True,'mm')
-    text(d,(1240,250),'DOWN IN THE STANDINGS. NEVER OUT OF THE FIGHT.',16,'#e8e8e8',True,'mm')
-    text(d,(1240,302),'EVERY SETBACK IS PART OF THE COMEBACK.',15,'#f2b84b',True,'mm')
+    rows=max(1,(len(trades)+1)//2); height=470+rows*565+300
+    canvas=Image.new('RGB',(W,height),'#070b12')
+    header=ImageOps.fit(art('jabney_underdog_v2.jpg'),(W,450),method=Image.Resampling.LANCZOS,centering=(.5,.07))
+    canvas.paste(header,(0,0))
+    shade=Image.new('RGBA',(W,450),(0,0,0,0)); sd=ImageDraw.Draw(shade)
+    for x in range(630,W):
+        alpha=int(218*min(1,(x-630)/520)); sd.line((x,0,x,450),fill=(4,8,15,alpha))
+    sd.rectangle((0,365,W,450),fill=(5,9,15,150))
+    canvas.paste(Image.alpha_composite(canvas.crop((0,0,W,450)).convert('RGBA'),shade).convert('RGB'),(0,0))
+    d=ImageDraw.Draw(canvas)
+    d.line((0,447,W,447),fill='#c8373f',width=7)
+    d.line((905,42,842,390),fill='#c8373f',width=7)
+    d.line((927,42,864,390),fill='#d9aa48',width=2)
+    d.polygon([(1010,42),(1530,42),(1495,85),(980,85)],fill='#b92f39')
+    text(d,(1255,64),'THE LEAGUE COUNTED HIM OUT',19,'white',True,'mm')
+    d.text((1260,160),'JABNEY',font=font(84,True),fill='white',anchor='mm',stroke_width=5,stroke_fill='#080b11')
+    d.text((1260,236),'THE UNDERDOG',font=font(47,True),fill='#ed414b',anchor='mm',stroke_width=3,stroke_fill='#080b11')
+    text(d,(1260,286),'TRADE COMEBACK TRACKER',24,'#e2b75d',True,'mm')
+    text(d,(1260,337),'NO HYPE. NO SHORTCUTS. JUST KEEP FIGHTING.',16,'#eef2f5',True,'mm')
+    text(d,(1260,382),'EVERY POINT IS ANOTHER STEP UP.',16,'#aebdca',True,'mm')
     total_in=total_out=0
     for i,(trade,side) in enumerate(trades):
-        row,col=divmod(i,2); cw=750; x=25+col*800; y=400+row*560
-        rect(d,(x,y,x+cw,y+525),'#121722','#d7353f',3,18)
-        text(d,(x+cw//2,y+30),f"CHAPTER {i+1}  •  SCORING FROM WEEK {trade['first_scoring_week']}",22,'white',True,'mm')
-        mid=x+cw//2; d.rectangle((x+12,y+58,mid-5,y+415),fill='#261218'); d.rectangle((mid+5,y+58,x+cw-12,y+415),fill='#101f32')
-        text(d,(x+cw*.25,y+84),'SENT',18,'#ff6b73',True,'mm'); text(d,(x+cw*.75,y+84),'RECEIVED',18,'#63b8ff',True,'mm')
+        row,col=divmod(i,2); cw=750; x=25+col*800; y=475+row*565
+        d.polygon([(x+18,y),(x+cw,y),(x+cw-18,y+18),(x,y+18)],fill='#b92f39')
+        rect(d,(x,y+10,x+cw,y+530),'#101722','#8fa4b6',3,18)
+        d.rectangle((x+8,y+18,x+cw-8,y+68),fill='#172433')
+        text(d,(x+36,y+43),f"ROUND {i+1}",24,'#ed414b',True,'lm')
+        text(d,(x+cw-30,y+43),f"SCORING FROM WEEK {trade['first_scoring_week']}",17,'#e7edf2',True,'rm')
+        mid=x+cw//2; d.rectangle((x+12,y+76,mid-5,y+420),fill='#2b1118'); d.rectangle((mid+5,y+76,x+cw-12,y+420),fill='#0c2940')
+        text(d,(x+cw*.25,y+101),'WHAT HE GAVE UP',17,'#ff6b73',True,'mm'); text(d,(x+cw*.75,y+101),'WHAT HE BET ON',17,'#63b8ff',True,'mm')
         for left,items,color in [(x+22,side.get('sent_players',[]),'#ff747c'),(mid+15,side.get('received_players',[]),'#6bc2ff')]:
             for j,p in enumerate(items[:5]):
-                yy=y+110+j*58; paste_circle(canvas,headshot(p['player_id'],46),(left,yy),46,color)
+                yy=y+128+j*56; paste_circle(canvas,headshot(p['player_id'],46),(left,yy),46,color)
                 text(d,(left+58,yy+7),fit(player_name(report,p['player_id']),17),15,'white',True)
                 text(d,(left+58,yy+29),f"{p['points']:.2f} PTS",18,color,True)
         total_in+=side['received_points']; total_out+=side['sent_points']
-        text(d,(x+cw*.25,y+444),f"{side['sent_points']:.2f}",30,'#ff7078',True,'mm'); text(d,(x+cw*.75,y+444),f"{side['received_points']:.2f}",30,'#70c8ff',True,'mm')
-        status='TO BE CONTINUED…' if side['status']=='pending' else f"CHAPTER RESULT  {side['delta']:+.2f}"
+        text(d,(x+cw*.25,y+449),f"{side['sent_points']:.2f}",31,'#ff7078',True,'mm'); text(d,(x+cw*.75,y+449),f"{side['received_points']:.2f}",31,'#70c8ff',True,'mm')
+        text(d,(x+cw*.25,y+481),'POINTS SENT',13,'#c9a8aa',True,'mm'); text(d,(x+cw*.75,y+481),'POINTS RECEIVED',13,'#9bbbd3',True,'mm')
+        status='THE FIGHT CONTINUES…' if side['status']=='pending' else f"ROUND RESULT  {side['delta']:+.2f}"
         color='#f2b84b' if side['status']=='pending' else ('#66e69a' if side['delta']>=0 else '#ff626c')
-        text(d,(x+cw//2,y+495),status,25,color,True,'mm')
-    delta=total_in-total_out; sy=400+rows*560
-    rect(d,(180,sy+25,1420,sy+190),'#0d1119','#d7353f',4,22)
-    text(d,(800,sy+62),'COMEBACK STATUS',24,'#f2b84b',True,'mm')
-    text(d,(800,sy+115),f"{delta:+.2f}",62,'#66e69a' if delta>=0 else '#ff626c',True,'mm')
-    message='THE COMEBACK IS ON' if delta>=0 else 'DOWN, NOT OUT'
-    text(d,(800,sy+162),message,23,'white',True,'mm')
+        text(d,(x+cw//2,y+510),status,22,color,True,'mm')
+    delta=total_in-total_out; sy=475+rows*565
+    rect(d,(115,sy+20,1485,sy+245),'#0b1119','#aebdca',3,22)
+    text(d,(800,sy+53),'THE COMEBACK TRAIL',25,'#e2b75d',True,'mm')
+    bar=(265,sy+92,1335,sy+132); stages=['ON THE MAT','BACK ON HIS FEET','BUILDING MOMENTUM','COMEBACK COMPLETE']
+    stage_colors=['#9b2832','#c85c38','#d4a642','#49b879']; seg=(bar[2]-bar[0])//4
+    for j,c in enumerate(stage_colors):
+        d.rectangle((bar[0]+j*seg,bar[1],bar[0]+(j+1)*seg,bar[3]),fill=c)
+        text(d,(bar[0]+j*seg+seg//2,bar[3]+24),stages[j],12,'#d9e1e7',True,'mm')
+    ratio=max(0.04,min(.96,(delta+100)/200)); marker=int(bar[0]+ratio*(bar[2]-bar[0]))
+    d.polygon([(marker,bar[1]-18),(marker-14,bar[1]-42),(marker+14,bar[1]-42)],fill='white')
+    text(d,(marker,bar[1]-54),'JABNEY',14,'white',True,'mm')
+    message='THE COMEBACK IS ON' if delta>=0 else 'DOWN. NEVER OUT.'
+    text(d,(800,sy+195),f"{message}   •   OVERALL TRADE DIFFERENCE  {delta:+.2f} POINTS",25,'#66e69a' if delta>=0 else '#ff626c',True,'mm')
     text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
     return canvas
 
