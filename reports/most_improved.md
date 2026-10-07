@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-07T05:25:20.657965+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T05:37:05.538548+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Most Improved Score = trade +/- + successful waiver-pickup points + free-agent-pickup points. Pickup production counts only while that manager owns the player; bench points count. All components use the same August 23 transaction cutoff.
 
