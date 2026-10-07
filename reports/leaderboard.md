@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-07T04:22:23.455732+00:00. Season 2026; scored through Week 4.
+Updated 2026-10-07T04:25:53.717746+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,61 +8,18 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | krunky | Grand Theft Aubrey | +61.10 | 3 | 4 | Yes |
-| 2 | TheRealNoodleMan | Gibbs of War | +48.92 | 2 | 4 | Yes |
-| 3 | therealbulker | MidnightClub Rice Edition | +39.30 | 2 | 2 | No |
-| 4 | SethLL | Red Dead Zachdemption | +26.40 | 2 | 2 | No |
-| 5 | oneyjb | Bower's Inside Story | +4.52 | 3 | 3 | No |
-| 6 | lfain20 | Mortal Kombat: DARTside | +1.30 | 1 | 1 | No |
-| 7 | Dawg2003 | The Windhelm Nords  | +0.00 | 0 | 1 | No |
-| 8 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
-| 9 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 0 | No |
+| 1 | krunky | Grand Theft Aubrey | +61.10 | 3 | 3 | No |
+| 2 | TheRealNoodleMan | Gibbs of War | +48.92 | 2 | 3 | No |
+| 3 | SethLL | Red Dead Zachdemption | +26.40 | 2 | 2 | No |
+| 4 | oneyjb | Bower's Inside Story | +4.52 | 3 | 3 | No |
+| 5 | lfain20 | Mortal Kombat: DARTside | +1.30 | 1 | 1 | No |
+| 6 | Dawg2003 | The Windhelm Nords  | +0.00 | 0 | 1 | No |
+| 7 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
+| 8 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 0 | No |
+| 9 | therealbulker | MidnightClub Rice Edition | -4.04 | 1 | 1 | No |
 | 10 | AfootCoronet56 | Risk of Rome | -39.16 | 2 | 2 | Yes |
-| 11 | Potatomain | Grunts Krafty Gushers  | -43.50 | 2 | 5 | Yes |
-| 12 | JabneyTheKing | Allen Wake | -98.88 | 2 | 3 | Yes |
-
-### Trade 1312094941475790848
-
-First scoring week: **1**
-
-| Manager | Received | Sent | Points in | Points out | +/- | Status |
-|---|---|---|---:|---:|---:|---|
-| TheRealNoodleMan | — | — | 0.00 | 0.00 | +0.00 | scored |
-| Potatomain | — | — | 0.00 | 0.00 | +0.00 | scored |
-
-TheRealNoodleMan picks received: 2026 round 2 (original roster 6), 2026 round 3 (original roster 6). Value not included in points.
-
-TheRealNoodleMan picks sent: 2026 round 2 (original roster 2), 2026 round 3 (original roster 2). Value not included in points.
-
-Potatomain picks received: 2026 round 2 (original roster 2), 2026 round 3 (original roster 2). Value not included in points.
-
-Potatomain picks sent: 2026 round 2 (original roster 6), 2026 round 3 (original roster 6). Value not included in points.
-
-### Trade 1367675525362888704
-
-First scoring week: **1**
-
-| Manager | Received | Sent | Points in | Points out | +/- | Status |
-|---|---|---|---:|---:|---:|---|
-| krunky | — | — | 0.00 | 0.00 | +0.00 | scored |
-| Potatomain | — | — | 0.00 | 0.00 | +0.00 | scored |
-
-krunky picks received: 2026 round 12 (original roster 6). Value not included in points.
-
-krunky picks sent: 2026 round 16 (original roster 1), 2026 round 13 (original roster 6). Value not included in points.
-
-Potatomain picks received: 2026 round 16 (original roster 1), 2026 round 13 (original roster 6). Value not included in points.
-
-Potatomain picks sent: 2026 round 12 (original roster 6). Value not included in points.
-
-### Trade 1392361332220628992
-
-First scoring week: **1**
-
-| Manager | Received | Sent | Points in | Points out | +/- | Status |
-|---|---|---|---:|---:|---:|---|
-| JabneyTheKing | Jake Ferguson (36.30) | Joe Burrow (79.64) | 36.30 | 79.64 | -43.34 | scored |
-| therealbulker | Joe Burrow (79.64) | Jake Ferguson (36.30) | 79.64 | 36.30 | +43.34 | scored |
+| 11 | Potatomain | Grunts Krafty Gushers  | -43.50 | 2 | 3 | No |
+| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 2 | Yes |
 
 ### Trade 1397438171741986816
 

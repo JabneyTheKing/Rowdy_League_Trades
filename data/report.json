@@ -1,37 +1,27 @@
 {
+  "excluded_transaction_count": 13,
   "leaderboard": [
     {
       "delta": 61.1,
-      "has_unvalued_assets": true,
+      "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "krunky",
       "pending_trades": 0,
       "roster_id": 1,
       "scored_trades": 3,
       "team": "Grand Theft Aubrey",
-      "trade_count": 4
+      "trade_count": 3
     },
     {
       "delta": 48.92,
-      "has_unvalued_assets": true,
+      "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "TheRealNoodleMan",
       "pending_trades": 1,
       "roster_id": 2,
       "scored_trades": 2,
       "team": "Gibbs of War",
-      "trade_count": 4
-    },
-    {
-      "delta": 39.3,
-      "has_unvalued_assets": false,
-      "incomplete_trades": 0,
-      "manager": "therealbulker",
-      "pending_trades": 0,
-      "roster_id": 7,
-      "scored_trades": 2,
-      "team": "MidnightClub Rice Edition",
-      "trade_count": 2
+      "trade_count": 3
     },
     {
       "delta": 26.4,
@@ -100,6 +90,17 @@
       "trade_count": 0
     },
     {
+      "delta": -4.04,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "therealbulker",
+      "pending_trades": 0,
+      "roster_id": 7,
+      "scored_trades": 1,
+      "team": "MidnightClub Rice Edition",
+      "trade_count": 1
+    },
+    {
       "delta": -39.16,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
@@ -112,25 +113,25 @@
     },
     {
       "delta": -43.5,
-      "has_unvalued_assets": true,
+      "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "Potatomain",
       "pending_trades": 1,
       "roster_id": 6,
       "scored_trades": 2,
       "team": "Grunts Krafty Gushers ",
-      "trade_count": 5
+      "trade_count": 3
     },
     {
-      "delta": -98.88,
+      "delta": -55.54,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
       "pending_trades": 1,
       "roster_id": 3,
-      "scored_trades": 2,
+      "scored_trades": 1,
       "team": "Allen Wake",
-      "trade_count": 3
+      "trade_count": 2
     }
   ],
   "league_id": "1312064355625369600",
@@ -374,11 +375,6 @@
       "position": "RB",
       "team": "NYG"
     },
-    "6770": {
-      "full_name": "Joe Burrow",
-      "position": "QB",
-      "team": "CIN"
-    },
     "6797": {
       "full_name": "Justin Herbert",
       "position": "QB",
@@ -546,278 +542,8 @@
     "krunky": 1,
     "ryan": 6
   },
+  "tracking_start_date": "2026-08-23",
   "trades": [
-    {
-      "first_scoring_week": 1,
-      "id": "1312094941475790848",
-      "processed_at": 1767424270998,
-      "sides": [
-        {
-          "delta": 0,
-          "faab_received": 0,
-          "faab_sent": 0,
-          "manager": "TheRealNoodleMan",
-          "missing_scores": [],
-          "picks_received": [
-            {
-              "league_id": null,
-              "owner_id": 2,
-              "previous_owner_id": 6,
-              "roster_id": 6,
-              "round": 2,
-              "season": "2026"
-            },
-            {
-              "league_id": null,
-              "owner_id": 2,
-              "previous_owner_id": 6,
-              "roster_id": 6,
-              "round": 3,
-              "season": "2026"
-            }
-          ],
-          "picks_sent": [
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 2,
-              "roster_id": 2,
-              "round": 2,
-              "season": "2026"
-            },
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 2,
-              "roster_id": 2,
-              "round": 3,
-              "season": "2026"
-            }
-          ],
-          "received": [],
-          "received_players": [],
-          "received_points": 0,
-          "roster_id": 2,
-          "sent": [],
-          "sent_players": [],
-          "sent_points": 0,
-          "status": "scored"
-        },
-        {
-          "delta": 0,
-          "faab_received": 0,
-          "faab_sent": 0,
-          "manager": "Potatomain",
-          "missing_scores": [],
-          "picks_received": [
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 2,
-              "roster_id": 2,
-              "round": 2,
-              "season": "2026"
-            },
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 2,
-              "roster_id": 2,
-              "round": 3,
-              "season": "2026"
-            }
-          ],
-          "picks_sent": [
-            {
-              "league_id": null,
-              "owner_id": 2,
-              "previous_owner_id": 6,
-              "roster_id": 6,
-              "round": 2,
-              "season": "2026"
-            },
-            {
-              "league_id": null,
-              "owner_id": 2,
-              "previous_owner_id": 6,
-              "roster_id": 6,
-              "round": 3,
-              "season": "2026"
-            }
-          ],
-          "received": [],
-          "received_players": [],
-          "received_points": 0,
-          "roster_id": 6,
-          "sent": [],
-          "sent_players": [],
-          "sent_points": 0,
-          "status": "scored"
-        }
-      ]
-    },
-    {
-      "first_scoring_week": 1,
-      "id": "1367675525362888704",
-      "processed_at": 1780639922668,
-      "sides": [
-        {
-          "delta": 0,
-          "faab_received": 0,
-          "faab_sent": 0,
-          "manager": "krunky",
-          "missing_scores": [],
-          "picks_received": [
-            {
-              "league_id": null,
-              "owner_id": 1,
-              "previous_owner_id": 6,
-              "roster_id": 6,
-              "round": 12,
-              "season": "2026"
-            }
-          ],
-          "picks_sent": [
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 1,
-              "roster_id": 1,
-              "round": 16,
-              "season": "2026"
-            },
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 1,
-              "roster_id": 6,
-              "round": 13,
-              "season": "2026"
-            }
-          ],
-          "received": [],
-          "received_players": [],
-          "received_points": 0,
-          "roster_id": 1,
-          "sent": [],
-          "sent_players": [],
-          "sent_points": 0,
-          "status": "scored"
-        },
-        {
-          "delta": 0,
-          "faab_received": 0,
-          "faab_sent": 0,
-          "manager": "Potatomain",
-          "missing_scores": [],
-          "picks_received": [
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 1,
-              "roster_id": 1,
-              "round": 16,
-              "season": "2026"
-            },
-            {
-              "league_id": null,
-              "owner_id": 6,
-              "previous_owner_id": 1,
-              "roster_id": 6,
-              "round": 13,
-              "season": "2026"
-            }
-          ],
-          "picks_sent": [
-            {
-              "league_id": null,
-              "owner_id": 1,
-              "previous_owner_id": 6,
-              "roster_id": 6,
-              "round": 12,
-              "season": "2026"
-            }
-          ],
-          "received": [],
-          "received_players": [],
-          "received_points": 0,
-          "roster_id": 6,
-          "sent": [],
-          "sent_players": [],
-          "sent_points": 0,
-          "status": "scored"
-        }
-      ]
-    },
-    {
-      "first_scoring_week": 1,
-      "id": "1392361332220628992",
-      "processed_at": 1786428841927,
-      "sides": [
-        {
-          "delta": -43.34,
-          "faab_received": 0,
-          "faab_sent": 0,
-          "manager": "JabneyTheKing",
-          "missing_scores": [],
-          "picks_received": [],
-          "picks_sent": [],
-          "received": [
-            "8110"
-          ],
-          "received_players": [
-            {
-              "player_id": "8110",
-              "points": 36.3
-            }
-          ],
-          "received_points": 36.3,
-          "roster_id": 3,
-          "sent": [
-            "6770"
-          ],
-          "sent_players": [
-            {
-              "player_id": "6770",
-              "points": 79.64
-            }
-          ],
-          "sent_points": 79.64,
-          "status": "scored"
-        },
-        {
-          "delta": 43.34,
-          "faab_received": 0,
-          "faab_sent": 0,
-          "manager": "therealbulker",
-          "missing_scores": [],
-          "picks_received": [],
-          "picks_sent": [],
-          "received": [
-            "6770"
-          ],
-          "received_players": [
-            {
-              "player_id": "6770",
-              "points": 79.64
-            }
-          ],
-          "received_points": 79.64,
-          "roster_id": 7,
-          "sent": [
-            "8110"
-          ],
-          "sent_players": [
-            {
-              "player_id": "8110",
-              "points": 36.3
-            }
-          ],
-          "sent_points": 36.3,
-          "status": "scored"
-        }
-      ]
-    },
     {
       "first_scoring_week": 1,
       "id": "1397438171741986816",
@@ -1796,7 +1522,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-07T04:22:23.455732+00:00",
+  "updated_at": "2026-10-07T04:25:53.717746+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
