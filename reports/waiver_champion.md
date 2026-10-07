@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-07T04:39:46.704161+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T04:41:16.676167+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Ranked by total fantasy points produced while each successful waiver pickup remained on that manager's roster. Bench points count. Dropping or trading the player ends that claim's scoring window. Free-agent adds are excluded.
 
