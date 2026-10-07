@@ -560,6 +560,11 @@
       "position": "RB",
       "team": "PHI"
     },
+    "4892": {
+      "full_name": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB"
+    },
     "4943": {
       "full_name": "Sam Darnold",
       "position": "QB",
@@ -3961,7 +3966,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-07T17:39:01.283698+00:00",
+  "updated_at": "2026-10-07T23:12:57.304916+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
