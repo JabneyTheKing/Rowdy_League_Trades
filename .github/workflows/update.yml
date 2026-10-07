@@ -1,0 +1,58 @@
+name: Update trade trackers
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      through_week:
+        description: 'Optional completed week (0–18); leave blank for automatic detection'
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'config/**'
+      - '.github/workflows/**'
+permissions:
+  contents: write
+concurrency:
+  group: trade-tracker-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test scoring and normalization
+        run: python -m unittest discover -s tests -v
+      - name: Pull Sleeper data and generate reports
+        env:
+          THROUGH_WEEK: ${{ inputs.through_week }}
+        run: |
+          if [ -n "$THROUGH_WEEK" ]; then
+            python scripts/update.py --through-week "$THROUGH_WEEK"
+          else
+            python scripts/update.py
+          fi
+      - name: Commit updated data and reports
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data reports
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Sleeper trade data and tracker reports'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: trade-reports
+          path: |
+            data/report.json
+            reports/
