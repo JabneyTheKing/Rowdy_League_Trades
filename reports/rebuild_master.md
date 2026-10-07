@@ -1,6 +1,6 @@
 # Rebuild Master
 
-Updated 2026-10-07T04:36:17.587545+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T04:39:46.704161+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Rebuild Score = trade +/- + successful waiver-pickup points + free-agent-pickup points. Pickup production counts only while that manager owns the player; bench points count. All components use the same August 23 transaction cutoff.
 

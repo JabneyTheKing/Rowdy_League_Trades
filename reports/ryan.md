@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-07T04:36:17.587545+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-07T04:39:46.704161+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -12,22 +12,22 @@ Positive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.
 
 First scoring week: **1**
 
-| Manager | Received | Sent | Points in | Points out | +/- | Status |
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 65.90 | 125.10 | -59.20 | scored |
+| Potatomain / Grunts Krafty Gushers  | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 65.90 | 125.10 | -59.20 | scored |
 
 ### Trade 1410130087235375104
 
 First scoring week: **4**
 
-| Manager | Received | Sent | Points in | Points out | +/- | Status |
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain | Aaron Jones (14.80), Chris Olave (15.60) | Saquon Barkley (1.50), Jameson Williams (13.20) | 30.40 | 14.70 | +15.70 | scored |
+| Potatomain / Grunts Krafty Gushers  | Aaron Jones (14.80), Chris Olave (15.60) | Saquon Barkley (1.50), Jameson Williams (13.20) | 30.40 | 14.70 | +15.70 | scored |
 
 ### Trade 1412618520205746176
 
 First scoring week: **5**
 
-| Manager | Received | Sent | Points in | Points out | +/- | Status |
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain / Grunts Krafty Gushers  | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
