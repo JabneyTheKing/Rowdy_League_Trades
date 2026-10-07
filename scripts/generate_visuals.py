@@ -254,18 +254,18 @@ def render_waiver(report):
     rank_rows(d,standings,430,cols,"#f2c84b",row_height=45,box_height=39,font_size=17); footer(d,report); return im
 
 
-def render_improved(report):
-    im,d=base("Most Improved","Trades + net waiver/FA gains after same-transaction drops","#43e6d0","#07151a")
-    rows=report['rebuild_master']['standings']; champ=rows[0]
-    rect(d,(85,190,1515,350),"#0b3235","#43e6d0",5,25)
-    text(d,(140,225),"BIGGEST RISER",22,"#43e6d0",True); text(d,(140,278),champ['manager'],45,"white",True); text(d,(140,315),fit(champ['team'],40),24,"#a6d9d4",True)
+def render_improved(report, key='rebuild_master', title='Most Improved', subtitle='Trades + net waiver/FA gains after same-transaction drops', accent='#43e6d0', bg='#07151a', leader_label='BIGGEST RISER'):
+    im,d=base(title,subtitle,accent,bg)
+    rows=report[key]['standings']; champ=rows[0]
+    rect(d,(85,190,1515,350),'#102330',accent,5,25)
+    text(d,(140,225),leader_label,22,accent,True); text(d,(140,278),champ['manager'],45,'white',True); text(d,(140,315),fit(champ['team'],40),24,'#b8cdd8',True)
     labels=[("TRADES",champ['trade_delta'],"#ff8d69"),("WAIVERS",champ['waiver_points'],"#efcf55"),("FREE AGENTS",champ['free_agent_points'],"#a98cff")]
     for i,(lab,val,col) in enumerate(labels):
         x=760+i*210; text(d,(x,235),lab,18,col,True,"mm"); text(d,(x,292),f"{val:+.2f}",35,"white",True,"mm")
-    text(d,(1420,270),f"{champ['score']:+.2f}",50,"#43e6d0",True,"mm"); text(d,(1420,320),"TOTAL",18,"white",True,"mm")
-    cols=[(280,lambda r:fit(r['manager'],18),'l','white'),(350,lambda r:fit(r['team'],24),'l','#aac9c8'),(170,lambda r:f"{r['trade_delta']:+.1f}",'r','#ff9b7e'),(170,lambda r:f"{r['waiver_points']:.1f}",'r','#f2d56c'),(190,lambda r:f"{r['free_agent_points']:.1f}",'r','#b9a2ff'),(210,lambda r:f"{r['score']:+.2f}",'r','#43e6d0')]
-    text(d,(175,390),"MANAGER / TEAM",18,"#43e6d0",True); text(d,(855,390),"TRADES",18,"#43e6d0",True); text(d,(1020,390),"WAIVERS",18,"#43e6d0",True); text(d,(1195,390),"FREE AGENTS",18,"#43e6d0",True); text(d,(1420,390),"TOTAL",18,"#43e6d0",True)
-    rank_rows(d,rows,410,cols,"#43e6d0",row_height=46,box_height=40,font_size=17); footer(d,report); return im
+    text(d,(1420,270),f"{champ['score']:+.2f}",50,accent,True,"mm"); text(d,(1420,320),"TOTAL",18,"white",True,"mm")
+    cols=[(280,lambda r:fit(r['manager'],18),'l','white'),(350,lambda r:fit(r['team'],24),'l','#aac9c8'),(170,lambda r:f"{r['trade_delta']:+.1f}",'r','#ff9b7e'),(170,lambda r:f"{r['waiver_points']:.1f}",'r','#f2d56c'),(190,lambda r:f"{r['free_agent_points']:.1f}",'r','#b9a2ff'),(210,lambda r:f"{r['score']:+.2f}",'r',accent)]
+    text(d,(175,390),"MANAGER / TEAM",18,accent,True); text(d,(855,390),"TRADES",18,accent,True); text(d,(1020,390),"WAIVERS",18,accent,True); text(d,(1195,390),"FREE AGENTS",18,accent,True); text(d,(1420,390),"TOTAL",18,accent,True)
+    rank_rows(d,rows,410,cols,accent,row_height=46,box_height=40,font_size=17); footer(d,report); return im
 
 
 def main():
@@ -278,6 +278,7 @@ def main():
         'leaderboard.png':render_leaderboard(report),
         'waiver_champion.png':render_waiver(report),
         'most_improved.png':render_improved(report),
+        'rebuild_king.png':render_improved(report,'rebuild_king','Rebuild King','Who pivoted best after Week 1 • Net roster-building impact','#f4c542','#101007','CURRENT REBUILD KING'),
     }
     for name,image in jobs.items(): image.save(OUT/name,optimize=True)
     print(f"Generated {len(jobs)} visuals in {OUT.relative_to(ROOT)}/")

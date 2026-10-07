@@ -109,6 +109,21 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(row['points'], 5)
         self.assertEqual(result['standings'][0]['points'], 5)
 
+    def test_rebuild_window_excludes_week_one_acquisitions(self):
+        managers = {'1': {'name': 'Manager', 'team': 'Team'}}
+        week_one = {'transaction_id': 'one', 'type': 'waiver', 'status': 'complete',
+                    'status_updated': datetime(2026, 9, 8, tzinfo=timezone.utc).timestamp() * 1000,
+                    'adds': {'early': 1}}
+        week_two = {'transaction_id': 'two', 'type': 'waiver', 'status': 'complete',
+                    'status_updated': datetime(2026, 9, 15, tzinfo=timezone.utc).timestamp() * 1000,
+                    'adds': {'pivot': 1}}
+        result = acquisition_results([week_one, week_two], managers,
+                                     {1: '2026-09-10', 2: '2026-09-17'},
+                                     {'1': {'early': 9}, '2': {'early': 9, 'pivot': 6}},
+                                     2, 'waiver', 2)
+        self.assertEqual([row['player_id'] for row in result['claims']], ['pivot'])
+        self.assertEqual(result['standings'][0]['points'], 6)
+
 
 if __name__ == '__main__':
     unittest.main()

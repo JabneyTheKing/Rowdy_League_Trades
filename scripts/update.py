@@ -111,7 +111,7 @@ def leaderboard(trades, managers):
     return sorted(result, key=lambda r: (-r['delta'], r['manager'].lower()))
 
 
-def acquisition_results(transactions, managers, starts, weekly, through, transaction_type):
+def acquisition_results(transactions, managers, starts, weekly, through, transaction_type, minimum_first_week=1):
     """Rank acquisitions by net production versus any player dropped in the same move."""
     ordered = sorted((t for t in transactions if t.get('status') == 'complete'),
                      key=lambda t: t['status_updated'])
@@ -120,6 +120,8 @@ def acquisition_results(transactions, managers, starts, weekly, through, transac
         if transaction.get('type') != transaction_type:
             continue
         first = infer_week(transaction, starts, through)
+        if first < minimum_first_week:
+            continue
         bid = (transaction.get('settings') or {}).get('waiver_bid', 0) or 0
         for player, roster in (transaction.get('adds') or {}).items():
             dropped_player = next((pid for pid, dropped_roster in (transaction.get('drops') or {}).items()
@@ -263,13 +265,29 @@ def markdown(report, players):
                  else 'No completed week')
         dropped = name(pickup['dropped_player_id']) if pickup.get('dropped_player_id') else '—'
         rebuild_board.append(f"| {clean(pickup['manager'])} | {clean(name(pickup['player_id']))} | {clean(dropped)} | {weeks} | {pickup['pickup_points']:.2f} | {pickup['dropped_points']:.2f} | {pickup['points']:+.2f} | {pickup['status']} |")
+    king_board = ['# Rebuild King', '',
+                  f"Updated {report['updated_at']}. Season {report['season']}; scored through Week {report['through_week']}. Only moves whose first eligible scoring week is Week 2 or later are included.", '',
+                  "Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.", '',
+                  '| Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |',
+                  '|---:|---|---|---:|---:|---:|---:|']
+    for rank, row in enumerate(report['rebuild_king']['standings'], 1):
+        king_board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['trade_delta']:+.2f} | {row['waiver_points']:.2f} | {row['free_agent_points']:.2f} | {row['score']:+.2f} |")
+    king_board += ['', '## Post-Week-1 free-agent transactions', '',
+                   '| Manager | Added | Dropped in transaction | Weeks compared | Added points | Dropped points | Net improvement | Status |',
+                   '|---|---|---|---|---:|---:|---:|---|']
+    for pickup in report['rebuild_king']['free_agent_pickups']:
+        weeks = (f"{pickup['first_week']}–{pickup['last_week']}" if pickup['last_week'] >= pickup['first_week']
+                 else 'No completed week')
+        dropped = name(pickup['dropped_player_id']) if pickup.get('dropped_player_id') else '—'
+        king_board.append(f"| {clean(pickup['manager'])} | {clean(name(pickup['player_id']))} | {clean(dropped)} | {weeks} | {pickup['pickup_points']:.2f} | {pickup['dropped_points']:.2f} | {pickup['points']:+.2f} | {pickup['status']} |")
     sections = {'leaderboard.md': intro + '\n'.join(board) + '\n\n' + detail(report['trades']),
                 'krunky.md': intro + '## Krunky Fleece-O-Meter\n\n' + detail(report['trades'], report['trackers']['krunky']),
                 'ryan.md': intro + '## Ryan Self-Fleece-O-Meter\n\nPositive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.\n\n' + detail(report['trades'], report['trackers']['ryan']),
                 'jabney.md': intro + '## Jabney Underdog Tracker\n\nEvery setback is part of the comeback. Positive trade +/- = comeback progress; negative trade +/- = ground left to recover.\n\n' + detail(report['trades'], report['trackers']['jabney']),
                 'veto_vindicator.md': intro + '## Veto Vindicator\n\nHypothetical player production only. A points gap does not by itself settle whether a veto was justified, especially when picks are involved.\n\n' + detail(report['vetoed_trades']),
                 'waiver_champion.md': '\n'.join(waiver_board) + '\n',
-                'most_improved.md': '\n'.join(rebuild_board) + '\n'}
+                'most_improved.md': '\n'.join(rebuild_board) + '\n',
+                'rebuild_king.md': '\n'.join(king_board) + '\n'}
     for filename, content in sections.items():
         (ROOT / 'reports' / filename).write_text(content)
 
@@ -363,6 +381,11 @@ def run():
     free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent')
     trade_board = leaderboard(trades, managers)
     rebuild = rebuild_master(trade_board, waivers, free_agents)
+    post_week_one_trades = [trade for trade in trades if trade['first_scoring_week'] >= 2]
+    post_week_one_waivers = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'waiver', 2)
+    post_week_one_free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent', 2)
+    rebuild_king = rebuild_master(leaderboard(post_week_one_trades, managers),
+                                  post_week_one_waivers, post_week_one_free_agents)
     report = {'league_id': lid, 'league_name': league['name'], 'season': season,
               'tracking_start_date': tracking_start,
               'updated_at': datetime.now(timezone.utc).isoformat(), 'through_week': through,
@@ -372,6 +395,7 @@ def run():
               'vetoed_trades': [evaluate(t, weekly, through) for t in vetoes],
               'waiver_champion': waivers,
               'rebuild_master': rebuild,
+              'rebuild_king': rebuild_king,
               'leaderboard': trade_board}
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings')},

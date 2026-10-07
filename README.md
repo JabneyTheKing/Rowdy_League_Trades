@@ -6,7 +6,7 @@ Every automated tracker uses **August 23, 2026 at 12:00 a.m. Eastern** as its se
 
 ## Trackers
 
-Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · [Jabney](visuals/jabney.png) · [Veto Vindicator](visuals/veto_vindicator.png) · [League Leaderboard](visuals/leaderboard.png) · [Waiver Champion](visuals/waiver_champion.png) · [Most Improved](visuals/most_improved.png)
+Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · [Jabney](visuals/jabney.png) · [Veto Vindicator](visuals/veto_vindicator.png) · [League Leaderboard](visuals/leaderboard.png) · [Waiver Champion](visuals/waiver_champion.png) · [Most Improved](visuals/most_improved.png) · [Rebuild King](visuals/rebuild_king.png)
 
 - [Krunky Fleece-O-Meter](reports/krunky.md)
 - [Ryan Self-Fleece-O-Meter](reports/ryan.md) — includes the Redemption Zone
@@ -15,6 +15,7 @@ Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · 
 - [League Trade Leaderboard](reports/leaderboard.md) — all managers and trade details
 - [Waiver Champion](reports/waiver_champion.md) — successful waiver claims ranked by net improvement over players dropped in the same transactions
 - [Most Improved](reports/most_improved.md) — combined improvement from trades, waivers, and free-agent pickups
+- [Rebuild King](reports/rebuild_king.md) — the same net-improvement formula, counting only moves that begin scoring in Week 2 or later
 - [Machine-readable report](data/report.json) — for ChatGPT and future graphics
 
 GitHub Actions refreshes every six hours, on changes to tracker code/config, and from **Actions → Update trade trackers → Run workflow**. No Sleeper login, API key, or paid service is needed. Scheduled runs can be delayed by GitHub; the report shows its actual update time. GitHub may disable schedules in inactive public repos after 60 days.
@@ -28,6 +29,8 @@ The leaderboard totals each manager's scored trade deltas. This rewards cumulati
 The Waiver Champion includes successful waiver claims and excludes ordinary free-agent adds. A pickup earns all league-scoring points, including bench production, from its first eligible full week through the last full week before that manager drops or trades the player. When that acquisition transaction also contains a drop, the dropped player's production over the same scoring window is subtracted. Standalone drops are ignored. The standings show net improvement, claim count, FAAB spent, and each manager's best transaction.
 
 **Most Improved Score = Trade +/- + net waiver improvement + net free-agent improvement.** Waiver and free-agent pickups earn production only while owned by that manager. If an acquisition transaction contains a drop, the dropped player's production over that same window is subtracted. Standalone drops are ignored. Because ownership scoring ends when the added player is dropped or traded, an acquisition followed by a trade does not receive overlapping pickup points after the trade.
+
+**Rebuild King** uses that identical formula and ownership logic but excludes moves whose first eligible scoring week was Week 1. It measures the best roster pivot after the opening week.
 
 Week totals use this league's exact scoring, including half-PPR and the extra 0.5 points per tight-end reception. Actual matchup `players_points` are preferred. An **undocumented** Sleeper weekly stats endpoint supplies production for players absent from league rosters. Its response shape is validated, and calculated stats must reproduce matchup player scores for every tracked player available in both sources; a mismatch fails the refresh instead of publishing questionable numbers. A player absent from a successfully fetched, full completed-week stats response has no recorded production and counts as zero. API failures stop publication.
 
