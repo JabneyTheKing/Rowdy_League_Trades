@@ -104,6 +104,49 @@ def leaderboard(trades, managers):
     return sorted(result, key=lambda r: (-r['delta'], r['manager'].lower()))
 
 
+def waiver_champion(transactions, managers, starts, weekly, through):
+    """Rank successful waiver claims by points captured while the player was owned."""
+    ordered = sorted((t for t in transactions if t.get('status') == 'complete'),
+                     key=lambda t: t['status_updated'])
+    claims = []
+    for index, transaction in enumerate(ordered):
+        if transaction.get('type') != 'waiver':
+            continue
+        first = infer_week(transaction, starts, through)
+        bid = (transaction.get('settings') or {}).get('waiver_bid', 0) or 0
+        for player, roster in (transaction.get('adds') or {}).items():
+            release = next((later for later in ordered[index + 1:]
+                            if (later.get('drops') or {}).get(player) == roster), None)
+            last = min(through, infer_week(release, starts, through) - 1) if release else through
+            missing = [{'player_id': player, 'week': week}
+                       for week in range(first, last + 1)
+                       if weekly.get(str(week), {}).get(player) is None]
+            points = round(sum(weekly[str(week)][player]
+                               for week in range(first, last + 1)
+                               if weekly.get(str(week), {}).get(player) is not None), 2)
+            claims.append({'transaction_id': transaction['transaction_id'], 'roster_id': roster,
+                           'manager': managers[str(roster)]['name'], 'player_id': player,
+                           'faab': bid, 'first_week': first, 'last_week': last,
+                           'released': bool(release), 'points': points,
+                           'missing_scores': missing,
+                           'status': 'pending' if first > through else ('incomplete' if missing else 'scored')})
+    standings = []
+    for roster, manager in managers.items():
+        rows = [claim for claim in claims if str(claim['roster_id']) == roster]
+        scored = [claim for claim in rows if claim['status'] == 'scored']
+        best = max(scored, key=lambda claim: claim['points'], default=None)
+        standings.append({'roster_id': int(roster), 'manager': manager['name'], 'team': manager['team'],
+                          'claim_count': len(rows), 'scored_claims': len(scored),
+                          'pending_claims': sum(claim['status'] == 'pending' for claim in rows),
+                          'faab_spent': sum(claim['faab'] for claim in rows),
+                          'points': round(sum(claim['points'] for claim in scored), 2),
+                          'best_pickup': best['player_id'] if best else None,
+                          'best_pickup_points': best['points'] if best else 0})
+    standings.sort(key=lambda row: (-row['points'], -row['best_pickup_points'], row['manager'].lower()))
+    claims.sort(key=lambda claim: (-claim['points'], claim['manager'].lower()))
+    return {'standings': standings, 'claims': claims}
+
+
 def infer_week(trade, starts, through):
     date = datetime.fromtimestamp(trade['status_updated'] / 1000, ZoneInfo('America/New_York')).date().isoformat()
     for week, start in sorted(starts.items()):
@@ -146,10 +189,27 @@ def markdown(report, players):
     board = ['## League Trade Leaderboard', '', '| Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |', '|---:|---|---|---:|---:|---:|---|']
     for rank, row in enumerate(report['leaderboard'], 1):
         board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['delta']:+.2f} | {row['scored_trades']} | {row['trade_count']} | {'Yes' if row['has_unvalued_assets'] else 'No'} |")
+    waiver_board = ['# Waiver Champion', '',
+                    f"Updated {report['updated_at']}. Season {report['season']}; scored through Week {report['through_week']}.", '',
+                    "Ranked by total fantasy points produced while each successful waiver pickup remained on that manager's roster. Bench points count. Dropping or trading the player ends that claim's scoring window. Free-agent adds are excluded.", '',
+                    '| Rank | Manager | Team | Waiver points | Claims | FAAB spent | Best pickup |',
+                    '|---:|---|---|---:|---:|---:|---|']
+    for rank, row in enumerate(report['waiver_champion']['standings'], 1):
+        best = (f"{name(row['best_pickup'])} ({row['best_pickup_points']:.2f})"
+                if row['best_pickup'] else '—')
+        waiver_board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['points']:.2f} | {row['claim_count']} | ${row['faab_spent']} | {clean(best)} |")
+    waiver_board += ['', '## Individual pickups', '',
+                     '| Manager | Player | FAAB | Weeks owned | Points | Status |',
+                     '|---|---|---:|---|---:|---|']
+    for claim in report['waiver_champion']['claims']:
+        weeks = (f"{claim['first_week']}–{claim['last_week']}" if claim['last_week'] >= claim['first_week']
+                 else 'No completed week')
+        waiver_board.append(f"| {clean(claim['manager'])} | {clean(name(claim['player_id']))} | ${claim['faab']} | {weeks} | {claim['points']:.2f} | {claim['status']} |")
     sections = {'leaderboard.md': intro + '\n'.join(board) + '\n\n' + detail(report['trades']),
                 'krunky.md': intro + '## Krunky Fleece-O-Meter\n\n' + detail(report['trades'], report['trackers']['krunky']),
                 'ryan.md': intro + '## Ryan Self-Fleece-O-Meter\n\nPositive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.\n\n' + detail(report['trades'], report['trackers']['ryan']),
-                'veto_vindicator.md': intro + '## Veto Vindicator\n\nHypothetical player production only. A points gap does not by itself settle whether a veto was justified, especially when picks are involved.\n\n' + detail(report['vetoed_trades'])}
+                'veto_vindicator.md': intro + '## Veto Vindicator\n\nHypothetical player production only. A points gap does not by itself settle whether a veto was justified, especially when picks are involved.\n\n' + detail(report['vetoed_trades']),
+                'waiver_champion.md': '\n'.join(waiver_board) + '\n'}
     for filename, content in sections.items():
         (ROOT / 'reports' / filename).write_text(content)
 
@@ -206,9 +266,12 @@ def run():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         jobs = {k: pool.submit(fetch, path) for k, path in paths.items()}
         payloads = {k: task.result() for k, task in jobs.items()}
-    tx = {t['transaction_id']: t for k, rows in payloads.items() if k.startswith('transactions/') for t in rows if t['type'] == 'trade'}
+    all_tx = {t['transaction_id']: t for k, rows in payloads.items() if k.startswith('transactions/') for t in rows}
+    tx = {tid: t for tid, t in all_tx.items() if t['type'] == 'trade'}
     completed = sorted((t for t in tx.values() if t['status'] == 'complete'), key=lambda t: t['status_updated'])
     tracked = {pid for t in completed for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})]}
+    tracked.update(pid for t in all_tx.values() if t.get('type') == 'waiver' and t.get('status') == 'complete'
+                   for pid in (t.get('adds') or {}))
     tracked.update(pid for t in vetoes for s in t['sides'] for direction in ('received', 'sent') for pid in s[direction])
     weekly, starts, checks = {}, {}, []
     for w in range(1, through + 1):
@@ -232,19 +295,21 @@ def run():
     for t in completed:
         first = config['first_scoring_week_overrides'].get(t['transaction_id'], infer_week(t, starts, through))
         trades.append(evaluate(normalize(t, managers, first), weekly, through))
+    waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through)
     report = {'league_id': lid, 'league_name': league['name'], 'season': season,
               'updated_at': datetime.now(timezone.utc).isoformat(), 'through_week': through,
               'trackers': config['trackers'], 'managers': managers, 'players': {pid: players.get(pid, {}) for pid in sorted(tracked)}, 'trades': trades,
               'noncompleted_trade_count': len(tx) - len(completed),
               'vetoed_trades': [evaluate(t, weekly, through) for t in vetoes],
+              'waiver_champion': waivers,
               'leaderboard': leaderboard(trades, managers)}
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings')},
-                                           'managers': managers, 'transactions': list(tx.values()),
+                                           'managers': managers, 'transactions': list(all_tx.values()),
                                            'weekly_points': weekly, 'week_start_dates': starts})
     write_json(ROOT / 'data/report.json', report)
     markdown(report, players)
-    print(f"Updated {league['name']}: {len(trades)} trades; through Week {through}; scoring cross-check passed.")
+    print(f"Updated {league['name']}: {len(trades)} trades, {len(waivers['claims'])} waiver claims; through Week {through}; scoring cross-check passed.")
 
 
 if __name__ == '__main__':

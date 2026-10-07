@@ -1,5 +1,5 @@
 import unittest
-from scripts.update import score, normalize, evaluate, leaderboard, infer_week, stat_map
+from scripts.update import score, normalize, evaluate, leaderboard, infer_week, stat_map, waiver_champion
 from datetime import datetime, timezone
 
 
@@ -44,6 +44,29 @@ class TrackerTests(unittest.TestCase):
     def test_stats_shape_change_fails(self):
         with self.assertRaises(ValueError):
             stat_map({})
+
+    def test_waiver_points_stop_when_player_leaves_roster(self):
+        managers = {'1': {'name': 'Manager', 'team': 'Team'}}
+        claim = {'transaction_id': 'claim', 'type': 'waiver', 'status': 'complete',
+                 'status_updated': datetime(2026, 9, 15, tzinfo=timezone.utc).timestamp() * 1000,
+                 'adds': {'p': 1}, 'settings': {'waiver_bid': 7}}
+        trade = {'transaction_id': 'trade', 'type': 'trade', 'status': 'complete',
+                 'status_updated': datetime(2026, 10, 2, tzinfo=timezone.utc).timestamp() * 1000,
+                 'drops': {'p': 1}}
+        weeks = {1: '2026-09-10', 2: '2026-09-17', 3: '2026-09-24', 4: '2026-10-01'}
+        weekly = {'1': {'p': 100}, '2': {'p': 10}, '3': {'p': 20}, '4': {'p': 30}}
+        result = waiver_champion([trade, claim], managers, weeks, weekly, 4)
+        self.assertEqual(result['claims'][0]['first_week'], 2)
+        self.assertEqual(result['claims'][0]['last_week'], 4)
+        self.assertEqual(result['claims'][0]['points'], 60)
+        self.assertEqual(result['standings'][0]['faab_spent'], 7)
+
+    def test_free_agent_add_is_not_a_waiver_claim(self):
+        managers = {'1': {'name': 'Manager', 'team': 'Team'}}
+        add = {'transaction_id': 'add', 'type': 'free_agent', 'status': 'complete',
+               'status_updated': 1, 'adds': {'p': 1}}
+        result = waiver_champion([add], managers, {}, {}, 0)
+        self.assertEqual(result['claims'], [])
 
 
 if __name__ == '__main__':

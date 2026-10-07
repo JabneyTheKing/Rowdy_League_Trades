@@ -8,6 +8,7 @@ Automated post-trade fantasy production for **Rowdy Football League**, Sleeper l
 - [Ryan Self-Fleece-O-Meter](reports/ryan.md) — includes the Redemption Zone
 - [Veto Vindicator](reports/veto_vindicator.md)
 - [League Trade Leaderboard](reports/leaderboard.md) — all managers and trade details
+- [Waiver Champion](reports/waiver_champion.md) — successful waiver claims ranked by points captured
 - [Machine-readable report](data/report.json) — for ChatGPT and future graphics
 
 GitHub Actions refreshes every six hours, on changes to tracker code/config, and from **Actions → Update trade trackers → Run workflow**. No Sleeper login, API key, or paid service is needed. Scheduled runs can be delayed by GitHub; the report shows its actual update time. GitHub may disable schedules in inactive public repos after 60 days.
@@ -17,6 +18,8 @@ GitHub Actions refreshes every six hours, on changes to tracker code/config, and
 **Trade +/- = fantasy points produced by players received − points produced by players sent**, from the first scoring week through the last completed week. Both sides use the same window. Bench production counts. Scores keep accumulating after players are traded again or dropped. Every trade is evaluated separately, so a player in successive trades contributes to multiple trade evaluations.
 
 The leaderboard totals each manager's scored trade deltas. This rewards cumulative player production, not lineup decisions or full dynasty value. Older trades have more time to accumulate points; unequal player counts also affect totals. Future draft picks, original pick owners, and FAAB are displayed separately and never silently valued at zero. Pick-only trades are tracked but do not count as scored player trades. Pending weeks and incomplete trade scores are excluded from rankings.
+
+The Waiver Champion includes successful waiver claims and excludes ordinary free-agent adds. A pickup earns all league-scoring points, including bench production, from its first eligible full week through the last full week before that manager drops or trades the player. The standings total those points and also show claim count, FAAB spent, and each manager's best pickup.
 
 Week totals use this league's exact scoring, including half-PPR and the extra 0.5 points per tight-end reception. Actual matchup `players_points` are preferred. An **undocumented** Sleeper weekly stats endpoint supplies production for players absent from league rosters. Its response shape is validated, and calculated stats must reproduce matchup player scores for every tracked player available in both sources; a mismatch fails the refresh instead of publishing questionable numbers. A player absent from a successfully fetched, full completed-week stats response has no recorded production and counts as zero. API failures stop publication.
 
@@ -39,6 +42,6 @@ python scripts/update.py
 python scripts/update.py --through-week 5
 ```
 
-`data/snapshot.json` preserves normalized managers, source transactions, weekly points, league scoring/settings, and week dates. `data/report.json` contains evaluated trades, vetoes, rankings, and tracked player names. `.cache/players-2026.json` locally caches player names/positions/teams; it refreshes at most once daily. League chat message contents are not collected.
+`data/snapshot.json` preserves normalized managers, source transactions, weekly points, league scoring/settings, and week dates. `data/report.json` contains evaluated trades, vetoes, waiver claims, rankings, and tracked player names. `.cache/players-2026.json` locally caches player names/positions/teams; it refreshes at most once daily. League chat message contents are not collected.
 
 Sources: [Sleeper API documentation](https://docs.sleeper.com/) and live Sleeper read-only responses. The weekly stats fallback is not part of the documented API and may need maintenance if Sleeper changes it.
