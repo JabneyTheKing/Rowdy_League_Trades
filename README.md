@@ -6,6 +6,8 @@ Every automated tracker uses **August 23, 2026 at 12:00 a.m. Eastern** as its se
 
 ## Trackers
 
+Automated graphics: [Krunky](visuals/krunky.png) · [Ryan](visuals/ryan.png) · [Veto Vindicator](visuals/veto_vindicator.png) · [League Leaderboard](visuals/leaderboard.png) · [Waiver Champion](visuals/waiver_champion.png) · [Most Improved](visuals/most_improved.png)
+
 - [Krunky Fleece-O-Meter](reports/krunky.md)
 - [Ryan Self-Fleece-O-Meter](reports/ryan.md) — includes the Redemption Zone
 - [Veto Vindicator](reports/veto_vindicator.md)

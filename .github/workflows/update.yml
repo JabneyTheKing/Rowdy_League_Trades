@@ -29,6 +29,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install visual renderer
+        run: python -m pip install Pillow==12.0.0
       - name: Test scoring and normalization
         run: python -m unittest discover -s tests -v
       - name: Pull Sleeper data and generate reports
@@ -40,11 +42,12 @@ jobs:
           else
             python scripts/update.py
           fi
+          python scripts/generate_visuals.py
       - name: Commit updated data and reports
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data reports
+          git add data reports visuals
           if ! git diff --cached --quiet; then
             git commit -m 'Update Sleeper trade data and tracker reports'
             git push
@@ -56,3 +59,4 @@ jobs:
           path: |
             data/report.json
             reports/
+            visuals/
