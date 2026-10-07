@@ -1,5 +1,5 @@
 import unittest
-from scripts.update import score, normalize, evaluate, leaderboard, infer_week, stat_map, waiver_champion
+from scripts.update import score, normalize, evaluate, leaderboard, infer_week, stat_map, waiver_champion, on_or_after
 from datetime import datetime, timezone
 
 
@@ -67,6 +67,15 @@ class TrackerTests(unittest.TestCase):
                'status_updated': 1, 'adds': {'p': 1}}
         result = waiver_champion([add], managers, {}, {}, 0)
         self.assertEqual(result['claims'], [])
+
+    def test_august_23_tracking_cutoff_uses_eastern_date(self):
+        before = {'created': datetime(2026, 8, 22, 23, 59,
+                                      tzinfo=timezone.utc).timestamp() * 1000}
+        # 04:00 UTC is midnight EDT on August 23.
+        boundary = {'created': datetime(2026, 8, 23, 4, 0,
+                                        tzinfo=timezone.utc).timestamp() * 1000}
+        self.assertFalse(on_or_after(before, '2026-08-23'))
+        self.assertTrue(on_or_after(boundary, '2026-08-23'))
 
 
 if __name__ == '__main__':

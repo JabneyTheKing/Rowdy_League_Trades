@@ -2,6 +2,8 @@
 
 Automated post-trade fantasy production for **Rowdy Football League**, Sleeper league `1312064355625369600`.
 
+Every automated tracker uses **August 23, 2026 at 12:00 a.m. Eastern** as its season boundary. Sleeper transactions created before that date are discarded before trades, waiver claims, ownership windows, or rankings are calculated.
+
 ## Trackers
 
 - [Krunky Fleece-O-Meter](reports/krunky.md)

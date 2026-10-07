@@ -44,6 +44,12 @@ def score(stats, settings):
                       for key, value in settings.items()), Decimal(0)))
 
 
+def on_or_after(transaction, start_date):
+    made = datetime.fromtimestamp(transaction['created'] / 1000,
+                                  ZoneInfo('America/New_York')).date().isoformat()
+    return made >= start_date
+
+
 def normalize(trade, managers, first_week):
     sides = []
     for roster in trade['roster_ids']:
@@ -184,13 +190,13 @@ def markdown(report, players):
                     notes += ['', '**Incomplete score coverage; excluded from the leaderboard.**']
             lines += notes + ['']
         return '\n'.join(lines) or 'No trades yet.\n'
-    intro = (f"# Rowdy League Trades\n\nUpdated {report['updated_at']}. Season {report['season']}; scored through Week {report['through_week']}.\n\n"
+    intro = (f"# Rowdy League Trades\n\nUpdated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.\n\n"
              "Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.\n\n")
     board = ['## League Trade Leaderboard', '', '| Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |', '|---:|---|---|---:|---:|---:|---|']
     for rank, row in enumerate(report['leaderboard'], 1):
         board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['delta']:+.2f} | {row['scored_trades']} | {row['trade_count']} | {'Yes' if row['has_unvalued_assets'] else 'No'} |")
     waiver_board = ['# Waiver Champion', '',
-                    f"Updated {report['updated_at']}. Season {report['season']}; scored through Week {report['through_week']}.", '',
+                    f"Updated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.", '',
                     "Ranked by total fantasy points produced while each successful waiver pickup remained on that manager's roster. Bench points count. Dropping or trading the player ends that claim's scoring window. Free-agent adds are excluded.", '',
                     '| Rank | Manager | Team | Waiver points | Claims | FAAB spent | Best pickup |',
                     '|---:|---|---|---:|---:|---:|---|']
@@ -221,6 +227,7 @@ def run():
     config = json.loads((ROOT / 'config/settings.json').read_text())
     vetoes = json.loads((ROOT / 'config/vetoed_trades.json').read_text())
     lid = config['league_id']
+    tracking_start = config['tracking_start_date']
     if not lid:
         print('Configure league_id in config/settings.json to enable Sleeper updates.')
         return
@@ -266,7 +273,8 @@ def run():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         jobs = {k: pool.submit(fetch, path) for k, path in paths.items()}
         payloads = {k: task.result() for k, task in jobs.items()}
-    all_tx = {t['transaction_id']: t for k, rows in payloads.items() if k.startswith('transactions/') for t in rows}
+    fetched_tx = {t['transaction_id']: t for k, rows in payloads.items() if k.startswith('transactions/') for t in rows}
+    all_tx = {tid: t for tid, t in fetched_tx.items() if on_or_after(t, tracking_start)}
     tx = {tid: t for tid, t in all_tx.items() if t['type'] == 'trade'}
     completed = sorted((t for t in tx.values() if t['status'] == 'complete'), key=lambda t: t['status_updated'])
     tracked = {pid for t in completed for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})]}
@@ -297,9 +305,11 @@ def run():
         trades.append(evaluate(normalize(t, managers, first), weekly, through))
     waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through)
     report = {'league_id': lid, 'league_name': league['name'], 'season': season,
+              'tracking_start_date': tracking_start,
               'updated_at': datetime.now(timezone.utc).isoformat(), 'through_week': through,
               'trackers': config['trackers'], 'managers': managers, 'players': {pid: players.get(pid, {}) for pid in sorted(tracked)}, 'trades': trades,
               'noncompleted_trade_count': len(tx) - len(completed),
+              'excluded_transaction_count': len(fetched_tx) - len(all_tx),
               'vetoed_trades': [evaluate(t, weekly, through) for t in vetoes],
               'waiver_champion': waivers,
               'leaderboard': leaderboard(trades, managers)}
