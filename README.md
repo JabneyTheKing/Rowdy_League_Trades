@@ -11,7 +11,7 @@ Every automated tracker uses **August 23, 2026 at 12:00 a.m. Eastern** as its se
 - [Veto Vindicator](reports/veto_vindicator.md)
 - [League Trade Leaderboard](reports/leaderboard.md) — all managers and trade details
 - [Waiver Champion](reports/waiver_champion.md) — successful waiver claims ranked by points captured
-- [Rebuild Master](reports/rebuild_master.md) — combined improvement from trades, waivers, and free-agent pickups
+- [Most Improved](reports/most_improved.md) — combined improvement from trades, waivers, and free-agent pickups
 - [Machine-readable report](data/report.json) — for ChatGPT and future graphics
 
 GitHub Actions refreshes every six hours, on changes to tracker code/config, and from **Actions → Update trade trackers → Run workflow**. No Sleeper login, API key, or paid service is needed. Scheduled runs can be delayed by GitHub; the report shows its actual update time. GitHub may disable schedules in inactive public repos after 60 days.
@@ -24,7 +24,7 @@ The leaderboard totals each manager's scored trade deltas. This rewards cumulati
 
 The Waiver Champion includes successful waiver claims and excludes ordinary free-agent adds. A pickup earns all league-scoring points, including bench production, from its first eligible full week through the last full week before that manager drops or trades the player. The standings total those points and also show claim count, FAAB spent, and each manager's best pickup.
 
-**Rebuild Score = Trade +/- + waiver points captured + free-agent points captured.** Waiver and free-agent pickups earn production only while owned by that manager. Because ownership scoring ends when a player is dropped or traded, an acquisition followed by a trade does not receive overlapping pickup points after the trade.
+**Most Improved Score = Trade +/- + waiver points captured + free-agent points captured.** Waiver and free-agent pickups earn production only while owned by that manager. Because ownership scoring ends when a player is dropped or traded, an acquisition followed by a trade does not receive overlapping pickup points after the trade.
 
 Week totals use this league's exact scoring, including half-PPR and the extra 0.5 points per tight-end reception. Actual matchup `players_points` are preferred. An **undocumented** Sleeper weekly stats endpoint supplies production for players absent from league rosters. Its response shape is validated, and calculated stats must reproduce matchup player scores for every tracked player available in both sources; a mismatch fails the refresh instead of publishing questionable numbers. A player absent from a successfully fetched, full completed-week stats response has no recorded production and counts as zero. API failures stop publication.
 

@@ -238,10 +238,10 @@ def markdown(report, players):
         weeks = (f"{claim['first_week']}–{claim['last_week']}" if claim['last_week'] >= claim['first_week']
                  else 'No completed week')
         waiver_board.append(f"| {clean(claim['manager'])} | {clean(name(claim['player_id']))} | ${claim['faab']} | {weeks} | {claim['points']:.2f} | {claim['status']} |")
-    rebuild_board = ['# Rebuild Master', '',
+    rebuild_board = ['# Most Improved', '',
                      f"Updated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.", '',
-                     "Rebuild Score = trade +/- + successful waiver-pickup points + free-agent-pickup points. Pickup production counts only while that manager owns the player; bench points count. All components use the same August 23 transaction cutoff.", '',
-                     '| Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild Score |',
+                     "Most Improved Score = trade +/- + successful waiver-pickup points + free-agent-pickup points. Pickup production counts only while that manager owns the player; bench points count. All components use the same August 23 transaction cutoff.", '',
+                     '| Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |',
                      '|---:|---|---|---:|---:|---:|---:|']
     for rank, row in enumerate(report['rebuild_master']['standings'], 1):
         rebuild_board.append(f"| {rank} | {clean(row['manager'])} | {clean(row['team'])} | {row['trade_delta']:+.2f} | {row['waiver_points']:.2f} | {row['free_agent_points']:.2f} | {row['score']:+.2f} |")
@@ -257,7 +257,7 @@ def markdown(report, players):
                 'ryan.md': intro + '## Ryan Self-Fleece-O-Meter\n\nPositive trade +/- = Redemption Zone. Negative trade +/- = Self-Fleece Zone.\n\n' + detail(report['trades'], report['trackers']['ryan']),
                 'veto_vindicator.md': intro + '## Veto Vindicator\n\nHypothetical player production only. A points gap does not by itself settle whether a veto was justified, especially when picks are involved.\n\n' + detail(report['vetoed_trades']),
                 'waiver_champion.md': '\n'.join(waiver_board) + '\n',
-                'rebuild_master.md': '\n'.join(rebuild_board) + '\n'}
+                'most_improved.md': '\n'.join(rebuild_board) + '\n'}
     for filename, content in sections.items():
         (ROOT / 'reports' / filename).write_text(content)
 
