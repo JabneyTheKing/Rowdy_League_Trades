@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Render deterministic social graphics from data/report.json."""
 from pathlib import Path
+import base64
+import io
 import json
+import urllib.request
+from functools import lru_cache
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9,6 +13,7 @@ OUT = ROOT / "visuals"
 W, H = 1600, 1000
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+ASSETS = ROOT / "visual_assets"
 
 
 def font(size, bold=False): return ImageFont.truetype(BOLD if bold else FONT, size)
@@ -35,6 +40,93 @@ def footer(d, report):
 def player_name(report, pid):
     p = report['players'].get(str(pid), {})
     return p.get('full_name') or p.get('first_name','')+' '+p.get('last_name','') or str(pid)
+
+def art(name):
+    path = ASSETS / name
+    if path.exists(): return Image.open(path).convert('RGB')
+    encoded = ASSETS / (name + '.b64')
+    return Image.open(io.BytesIO(base64.b64decode(encoded.read_text()))).convert('RGB')
+
+@lru_cache(maxsize=256)
+def headshot(pid, size=72):
+    try:
+        with urllib.request.urlopen(f"https://sleepercdn.com/content/nfl/players/{pid}.jpg", timeout=1.5) as response:
+            im = Image.open(io.BytesIO(response.read())).convert('RGB')
+        im.thumbnail((size, size), Image.Resampling.LANCZOS)
+        tile = Image.new('RGB', (size, size), '#172434')
+        tile.paste(im, ((size-im.width)//2, size-im.height))
+        return tile
+    except Exception:
+        return Image.new('RGB', (size, size), '#25384b')
+
+def paste_circle(canvas, source, xy, size, border='#ffffff'):
+    source = source.resize((size,size), Image.Resampling.LANCZOS)
+    mask = Image.new('L',(size,size)); ImageDraw.Draw(mask).ellipse((0,0,size-1,size-1),fill=255)
+    ring = Image.new('RGB',(size+8,size+8),border); ring_mask=Image.new('L',(size+8,size+8)); ImageDraw.Draw(ring_mask).ellipse((0,0,size+7,size+7),fill=255)
+    canvas.paste(ring,(xy[0]-4,xy[1]-4),ring_mask); canvas.paste(source,xy,mask)
+
+def player_line(canvas, d, report, player, x, y, width, color):
+    paste_circle(canvas, headshot(player['player_id'],64),(x,y),64,color)
+    text(d,(x+78,y+12),fit(player_name(report,player['player_id']),14),16,'white',True)
+    text(d,(x+78,y+40),f"{player['points']:.2f} PTS",24,color,True)
+
+def rich_person_tracker(report, key, header_name, ryan=False):
+    rid=report['trackers'][key]; trades=[]
+    for trade in report['trades']:
+        side=next((s for s in trade['sides'] if s.get('roster_id')==rid),None)
+        if side: trades.append((trade,side))
+    rows=max(1,(len(trades)+2)//3); height=354+rows*520+(300 if ryan else 230)
+    canvas=Image.new('RGB',(W,height),'#070c12'); canvas.paste(art(header_name).resize((W,354)),(0,0)); d=ImageDraw.Draw(canvas)
+    total_in=total_out=0
+    for i,(trade,side) in enumerate(trades):
+        row,col=divmod(i,3); cw=500; x=28+col*524; y=370+row*520
+        rect(d,(x,y,x+cw,y+490),'#111820','#d6b34a' if not ryan else '#d9e4ec',3,16)
+        text(d,(x+cw//2,y+28),f"TRADE {i+1}  •  SCORING FROM WEEK {trade['first_scoring_week']}",20,'white',True,'mm')
+        mid=x+cw//2; d.rectangle((x+10,y+55,mid-4,y+375),fill='#3a1017'); d.rectangle((mid+4,y+55,x+cw-10,y+375),fill='#073725')
+        text(d,(x+cw*.25,y+82),'GAVE AWAY',18,'#ff6b75',True,'mm'); text(d,(x+cw*.75,y+82),'RECEIVED',18,'#65f69a',True,'mm')
+        for j,p in enumerate(side.get('sent_players',[])[:3]): player_line(canvas,d,report,p,x+18,y+112+j*82,220,'#ff7b83')
+        for j,p in enumerate(side.get('received_players',[])[:3]): player_line(canvas,d,report,p,mid+12,y+112+j*82,220,'#68f39b')
+        total_in+=side['received_points']; total_out+=side['sent_points']
+        text(d,(x+cw*.25,y+405),f"{side['sent_points']:.2f}",32,'#ff707a',True,'mm'); text(d,(x+cw*.75,y+405),f"{side['received_points']:.2f}",32,'#70fca1',True,'mm')
+        status='PENDING' if side['status']=='pending' else f"{side['delta']:+.2f}"
+        color='#f4c542' if side['status']=='pending' else ('#66ff91' if side['delta']>=0 else '#ff5964')
+        text(d,(x+cw//2,y+460),status,40,color,True,'mm')
+    delta=total_in-total_out; sy=370+rows*520
+    if ryan:
+        text(d,(W//2,sy+22),'SELF-FLEECE-O-METER',34,'white',True,'mm')
+        bar=(100,sy+62,1500,sy+130); colors=['#55db56','#b7ee35','#ffe040','#ff9a32','#ff573d','#b71925']
+        seg=(bar[2]-bar[0])//6
+        for i,c in enumerate(colors): d.rectangle((bar[0]+i*seg,bar[1],bar[0]+(i+1)*seg,bar[3]),fill=c)
+        labels=['WAIT—DID RYAN COOK?','A LITTLE SUS','OH NO…','BIG OOF','RYAN… WHY?','RYAN FLEECED RYAN']
+        for i,label in enumerate(labels): text(d,(bar[0]+i*seg+seg//2,sy+154),label,13,'white',True,'mm')
+        ratio=max(0,min(1,(25-delta)/125)); hx=int(bar[0]+ratio*(bar[2]-bar[0]))
+        paste_circle(canvas,art('ryan_head.jpg'),(hx-48,sy+35),96,'white')
+        text(d,(W//2,sy+204),f"OVERALL TRADE DIFFERENCE  {delta:+.2f} POINTS",28,'#ff666f' if delta<0 else '#65f69a',True,'mm')
+    else:
+        rect(d,(220,sy+25,1380,sy+185),'#090d12','#d6b34a',4,20)
+        text(d,(400,sy+74),f"TRADED AWAY  {total_out:.2f}",25,'#ff6b75',True,'mm')
+        text(d,(800,sy+88),f"{delta:+.2f}",66,'#66ff91' if delta>=0 else '#ff5964',True,'mm')
+        text(d,(1200,sy+74),f"RECEIVED  {total_in:.2f}",25,'#70fca1',True,'mm')
+        pct=(delta/total_out*100) if total_out else 0
+        text(d,(800,sy+145),f"{pct:+.1f}% PRODUCTION DIFFERENCE",22,'#d6b34a',True,'mm')
+    text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
+    return canvas
+
+def rich_veto(report):
+    rows=report['vetoed_trades']; height=260+len(rows)*330+70
+    canvas=Image.new('RGB',(W,height),'#080d13'); canvas.paste(art('veto_header.jpg').resize((W,260)),(0,0)); d=ImageDraw.Draw(canvas)
+    for i,t in enumerate(rows):
+        y=275+i*330; rect(d,(25,y,W-25,y+305),'#101318','#d6a23a',4,12); a,b=t['sides'][:2]
+        text(d,(62,y+55),f"#{i+1}",46,'white',True); text(d,(55,y+102),'VETOED',24,'#ff3b45',True)
+        for xx,s,col in [(220,a,'#f14d58'),(785,b,'#3ba9e8')]:
+            text(d,(xx,y+30),fit(f"{s['manager']} • {s.get('team','')}",35),22,col,True)
+            for j,p in enumerate(s.get('received_players',[])[:3]): player_line(canvas,d,report,p,xx,y+65+j*72,480,col)
+            text(d,(xx,y+270),f"TOTAL  {s['received_points']:.2f}",31,'white',True)
+        status=a['status']; delta=a['delta']; verdict='TOO EARLY TO CALL' if status=='pending' else ('VETO VINDICATED' if delta>0 else 'VETO IN QUESTION')
+        color='#f4c542' if status=='pending' else ('#51f58c' if delta>0 else '#ff4d5b')
+        rect(d,(1275,y+25,1550,y+280),'#10231a' if delta>0 else '#252525',color,3,14)
+        text(d,(1412,y+92),verdict,20,color,True,'mm'); text(d,(1412,y+150),'PENDING' if status=='pending' else f"{abs(delta):.2f}",36,'white',True,'mm'); text(d,(1412,y+190),'POINT GAP' if status!='pending' else f"STARTS WEEK {t['first_scoring_week']}",17,'white',True,'mm')
+    text(d,(W//2,height-20),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#b8c1c9',True,'mm'); return canvas
 
 
 def render_person_tracker(report, key, title, subtitle, accent):
@@ -136,9 +228,9 @@ def render_improved(report):
 def main():
     report=json.loads((ROOT/'data/report.json').read_text()); OUT.mkdir(exist_ok=True)
     jobs={
-        'krunky.png':render_person_tracker(report,'krunky','Krunky Fleece-O-Meter','Some people make trades. Krunky makes victims.','#efc343'),
-        'ryan.png':render_person_tracker(report,'ryan','The Ryan Self-Fleece-O-Meter','Nobody fleeces Ryan quite like Ryan.','#f5a623'),
-        'veto_vindicator.png':render_veto(report),
+        'krunky.png':rich_person_tracker(report,'krunky','krunky_header.jpg'),
+        'ryan.png':rich_person_tracker(report,'ryan','ryan_header.jpg',True),
+        'veto_vindicator.png':rich_veto(report),
         'leaderboard.png':render_leaderboard(report),
         'waiver_champion.png':render_waiver(report),
         'most_improved.png':render_improved(report),
