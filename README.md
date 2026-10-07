@@ -31,7 +31,7 @@ By default only completed weeks are included. Automatic detection conservatively
 
 `config/settings.json` sets the league, tracker roster IDs, and first-scoring-week overrides keyed by Sleeper transaction ID. Krunky is roster 1; Ryan is roster 6 (Sleeper display name `Potatomain`), identified from the two specified Ryan trades. Manager labels elsewhere use current Sleeper names; historical ownership changes are not reconstructed.
 
-`config/vetoed_trades.json` records vetoes once, using Sleeper player IDs, the first scoring week, received/sent assets, and optional roster IDs/picks. The public transaction history fetched for this league did not expose the two known vetoes. Both are seeded here; the preseason veto's managers remain unconfirmed. Veto production is hypothetical and does not enter the completed-trade leaderboard. Player points alone do not establish whether a veto was justified.
+`config/vetoed_trades.json` records vetoes once, using Sleeper player IDs, the first scoring week, received/sent assets, an eligibility date (`made_on` or `made_on_or_after`), and optional roster IDs/picks. Entries without a date at or after the tracking boundary are excluded. The public transaction history fetched for this league did not expose the two known vetoes. Both are seeded here; the preseason veto's managers remain unconfirmed. Veto production is hypothetical and does not enter the completed-trade leaderboard. Player points alone do not establish whether a veto was justified.
 
 ## Run locally
 

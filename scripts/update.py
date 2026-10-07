@@ -228,6 +228,8 @@ def run():
     vetoes = json.loads((ROOT / 'config/vetoed_trades.json').read_text())
     lid = config['league_id']
     tracking_start = config['tracking_start_date']
+    vetoes = [veto for veto in vetoes
+              if veto.get('made_on', veto.get('made_on_or_after', '')) >= tracking_start]
     if not lid:
         print('Configure league_id in config/settings.json to enable Sleeper updates.')
         return
