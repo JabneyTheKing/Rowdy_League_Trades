@@ -139,7 +139,7 @@ def render_jabney(report):
     rows=max(1,(len(trades)+1)//2)
     waiver_height=94+((len(waivers)+1)//2)*96
     free_agent_height=94+((len(free_agents)+1)//2)*96
-    height=470+rows*565+waiver_height+free_agent_height+325
+    height=470+rows*565+waiver_height+free_agent_height+530
     canvas=Image.new('RGB',(W,height),'#070b12')
     header=ImageOps.fit(art('jabney_underdog_v2.jpg'),(W,450),method=Image.Resampling.LANCZOS,centering=(.5,.07))
     canvas.paste(header,(0,0))
@@ -213,6 +213,32 @@ def render_jabney(report):
     sy=pickup_section('FREE AGENCY FINDS','EVERY ADD COUNTS ONLY WHILE JABNEY OWNS THE PLAYER',free_agents,sy,'#63b8ff',improvement['free_agent_points'])
 
     combined=improvement['score']
+    scored_waivers=[row for row in waivers if row['status']=='scored']
+    scored_free_agents=[row for row in free_agents if row['status']=='scored']
+    waiver_added=round(sum(row['pickup_points'] for row in scored_waivers),2)
+    waiver_dropped=round(sum(row['dropped_points'] for row in scored_waivers),2)
+    free_agent_added=round(sum(row['pickup_points'] for row in scored_free_agents),2)
+    free_agent_dropped=round(sum(row['dropped_points'] for row in scored_free_agents),2)
+    all_added=round(total_in+waiver_added+free_agent_added,2)
+    all_baseline=round(total_out+waiver_dropped+free_agent_dropped,2)
+
+    text(d,(800,sy+24),'TOTAL IMPACT',27,'#e2b75d',True,'mm')
+    impact=[
+        ('TRADES','RECEIVED',total_in,'SENT',total_out,trade_delta,'#ed414b'),
+        ('WAIVERS','PICKUPS',waiver_added,'DROPS',waiver_dropped,improvement['waiver_points'],'#e2b75d'),
+        ('FREE AGENCY','PICKUPS',free_agent_added,'DROPS',free_agent_dropped,improvement['free_agent_points'],'#63b8ff'),
+        ('ALL MOVES','PRODUCTION',all_added,'BASELINE',all_baseline,combined,'#66e69a' if combined>=0 else '#ff626c'),
+    ]
+    for i,(label,in_label,in_value,out_label,out_value,net,accent) in enumerate(impact):
+        x=25+i*395
+        rect(d,(x,sy+48,x+365,sy+178),'#101722',accent,3,14)
+        text(d,(x+182,sy+71),label,18,accent,True,'mm')
+        text(d,(x+28,sy+100),f"{in_label}  {in_value:.2f}",13,'#d9e1e7',True)
+        text(d,(x+28,sy+123),f"{out_label}  {out_value:.2f}",13,'#aebdca',True)
+        text(d,(x+337,sy+115),f"{net:+.2f}",28,'#66e69a' if net>=0 else '#ff626c',True,'rm')
+        text(d,(x+337,sy+145),'NET IMPACT',11,'#91a4b5',True,'rm')
+    sy+=205
+
     rect(d,(115,sy+20,1485,sy+275),'#0b1119','#aebdca',3,22)
     text(d,(800,sy+53),'THE COMEBACK TRAIL',25,'#e2b75d',True,'mm')
     text(d,(800,sy+86),f"TRADES {trade_delta:+.2f}   •   WAIVERS {improvement['waiver_points']:+.2f}   •   FREE AGENTS {improvement['free_agent_points']:+.2f}",16,'#d9e1e7',True,'mm')
