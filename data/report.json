@@ -1353,10 +1353,26 @@
         "pickup_points": 0,
         "player_id": "7049",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 4,
         "status": "pending",
         "transaction_id": "1412293137614815232"
+      },
+      {
+        "dropped_player_id": "7049",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "11608",
+        "points": 0,
+        "released": false,
+        "roster_id": 4,
+        "status": "pending",
+        "transaction_id": "1413906402014941184"
       },
       {
         "dropped_player_id": "8676",
@@ -1569,7 +1585,7 @@
     ],
     "standings": [
       {
-        "free_agent_adds": 8,
+        "free_agent_adds": 9,
         "free_agent_points": 32.9,
         "manager": "lfain20",
         "roster_id": 4,
@@ -2415,10 +2431,26 @@
         "pickup_points": 0,
         "player_id": "7049",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 4,
         "status": "pending",
         "transaction_id": "1412293137614815232"
+      },
+      {
+        "dropped_player_id": "7049",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "11608",
+        "points": 0,
+        "released": false,
+        "roster_id": 4,
+        "status": "pending",
+        "transaction_id": "1413906402014941184"
       },
       {
         "dropped_player_id": "8676",
@@ -2755,7 +2787,7 @@
         "waiver_points": 28.6
       },
       {
-        "free_agent_adds": 12,
+        "free_agent_adds": 13,
         "free_agent_points": 45.2,
         "manager": "lfain20",
         "roster_id": 4,
@@ -4003,7 +4035,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-08T06:19:59.091155+00:00",
+  "updated_at": "2026-10-08T13:47:06.689781+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-08T06:19:59.091155+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-08T13:47:06.689781+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -48,6 +48,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | krunky | LAC | LV | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Ted Hurst | Kenny Gainwell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Jauan Jennings | DeMario Douglas | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Malachi Fields | Rashid Shaheed | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Roman Wilson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | NYG | George Holani | No completed week | 0.00 | 0.00 | +0.00 | pending |
