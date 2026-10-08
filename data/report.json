@@ -935,6 +935,11 @@
       "position": "DEF",
       "team": "NE"
     },
+    "NYG": {
+      "full_name": null,
+      "position": "DEF",
+      "team": "NYG"
+    },
     "PHI": {
       "full_name": null,
       "position": "DEF",
@@ -1386,6 +1391,22 @@
         "transaction_id": "1411532864754823168"
       },
       {
+        "dropped_player_id": "12048",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "Potatomain",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "NYG",
+        "points": 0,
+        "released": false,
+        "roster_id": 6,
+        "status": "pending",
+        "transaction_id": "1413755696813490176"
+      },
+      {
         "dropped_player_id": "19",
         "dropped_points": 0.0,
         "faab": 0,
@@ -1460,7 +1481,7 @@
         "pickup_points": 2.5,
         "player_id": "12048",
         "points": -1.1,
-        "released": false,
+        "released": true,
         "roster_id": 6,
         "status": "scored",
         "transaction_id": "1411069421253894144"
@@ -1560,7 +1581,7 @@
         "waiver_points": 30.6
       },
       {
-        "free_agent_adds": 2,
+        "free_agent_adds": 3,
         "free_agent_points": -14.1,
         "manager": "Potatomain",
         "roster_id": 6,
@@ -2432,6 +2453,22 @@
         "transaction_id": "1411532864754823168"
       },
       {
+        "dropped_player_id": "12048",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "Potatomain",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "NYG",
+        "points": 0,
+        "released": false,
+        "roster_id": 6,
+        "status": "pending",
+        "transaction_id": "1413755696813490176"
+      },
+      {
         "dropped_player_id": "7538",
         "dropped_points": 0,
         "faab": 0,
@@ -2538,7 +2575,7 @@
         "pickup_points": 2.5,
         "player_id": "12048",
         "points": -1.1,
-        "released": false,
+        "released": true,
         "roster_id": 6,
         "status": "scored",
         "transaction_id": "1411069421253894144"
@@ -2802,7 +2839,7 @@
         "waiver_points": 0.6
       },
       {
-        "free_agent_adds": 3,
+        "free_agent_adds": 4,
         "free_agent_points": 6.74,
         "manager": "Potatomain",
         "roster_id": 6,
@@ -3966,7 +4003,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-08T00:06:16.272592+00:00",
+  "updated_at": "2026-10-08T06:19:59.091155+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

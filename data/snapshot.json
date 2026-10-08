@@ -4814,6 +4814,31 @@
       "waiver_budget": []
     },
     {
+      "adds": {
+        "NYG": 6
+      },
+      "consenter_ids": [
+        6
+      ],
+      "created": 1791428133732,
+      "creator": "1042263426653339648",
+      "draft_picks": [],
+      "drops": {
+        "12048": 6
+      },
+      "leg": 5,
+      "metadata": null,
+      "roster_ids": [
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1791428133732,
+      "transaction_id": "1413755696813490176",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
       "adds": null,
       "consenter_ids": [
         11
@@ -5067,6 +5092,7 @@
       "LV": 15.0,
       "MIN": 10.0,
       "NE": 6.0,
+      "NYG": 3.0,
       "PHI": 4.0,
       "SF": 10.0,
       "TB": 9.0
@@ -5219,6 +5245,7 @@
       "LV": 16.0,
       "MIN": 18.0,
       "NE": 23.0,
+      "NYG": 6.0,
       "PHI": 4.0,
       "SF": 9.0,
       "TB": 2.0
@@ -5371,6 +5398,7 @@
       "LV": 16.0,
       "MIN": 17.0,
       "NE": -1.0,
+      "NYG": 8.0,
       "PHI": 1.0,
       "SF": 1.0,
       "TB": 5.0
@@ -5523,6 +5551,7 @@
       "LV": 1.0,
       "MIN": 9.0,
       "NE": 6.0,
+      "NYG": 14.0,
       "PHI": 5.0,
       "SF": 5.0,
       "TB": 7.0
