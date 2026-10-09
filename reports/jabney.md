@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-08T23:27:25.610413+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-09T06:21:53.718312+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -27,3 +27,11 @@ First scoring week: **5**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Allen Wake | James Cook (0.00), Chris Olave (0.00) | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1413594244643360768
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Allen Wake | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |

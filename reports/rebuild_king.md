@@ -1,13 +1,13 @@
 # Rebuild King
 
-Updated 2026-10-08T23:27:25.610413+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-09T06:21:53.718312+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
 | 1 | lfain20 | Mortal Kombat: DARTside | +1.30 | 30.60 | 32.90 | +64.80 |
-| 2 | Potatomain | Grunts Krafty Gushers  | +15.70 | 42.60 | -14.10 | +44.20 |
+| 2 | Potatomain | The lost Cause Fallacy | +15.70 | 42.60 | -14.10 | +44.20 |
 | 3 | Dawg2003 | The Windhelm Nords  | +0.00 | 0.60 | 35.10 | +35.70 |
 | 4 | krunky | Grand Theft Aubrey | +1.90 | 28.60 | 0.00 | +30.50 |
 | 5 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 30.00 | +30.00 |

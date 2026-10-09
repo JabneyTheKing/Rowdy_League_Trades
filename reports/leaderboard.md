@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-08T23:27:25.610413+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-09T06:21:53.718312+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -9,17 +9,17 @@ Player production includes bench points and continues after subsequent trades or
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
 | 1 | krunky | Grand Theft Aubrey | +61.10 | 3 | 4 | Yes |
-| 2 | TheRealNoodleMan | Gibbs of War | +48.92 | 2 | 3 | No |
+| 2 | TheRealNoodleMan | Gibbs of War | +48.92 | 2 | 4 | No |
 | 3 | SethLL | Red Dead Zachdemption | +26.40 | 2 | 2 | No |
 | 4 | oneyjb | Bower's Inside Story | +4.52 | 3 | 3 | No |
 | 5 | lfain20 | Mortal Kombat: DARTside | +1.30 | 1 | 2 | Yes |
-| 6 | Dawg2003 | The Windhelm Nords  | +0.00 | 0 | 1 | No |
+| 6 | Dawg2003 | The Windhelm Nords  | +0.00 | 0 | 2 | No |
 | 7 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
-| 8 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 0 | No |
+| 8 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 2 | No |
 | 9 | therealbulker | MidnightClub Rice Edition | -4.04 | 1 | 1 | No |
 | 10 | AfootCoronet56 | Risk of Rome | -39.16 | 2 | 2 | Yes |
-| 11 | Potatomain | Grunts Krafty Gushers  | -43.50 | 2 | 3 | No |
-| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 2 | Yes |
+| 11 | Potatomain | The lost Cause Fallacy | -43.50 | 2 | 4 | No |
+| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 3 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -64,7 +64,7 @@ First scoring week: **1**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (104.10) | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | 125.10 | 65.90 | +59.20 | scored |
-| Potatomain / Grunts Krafty Gushers  | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 65.90 | 125.10 | -59.20 | scored |
+| Potatomain / The lost Cause Fallacy | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 65.90 | 125.10 | -59.20 | scored |
 
 ### Trade 1408228309090742272
 
@@ -91,7 +91,7 @@ First scoring week: **4**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | AfootCoronet56 / Risk of Rome | Saquon Barkley (1.50), Jameson Williams (13.20) | Aaron Jones (14.80), Chris Olave (15.60) | 14.70 | 30.40 | -15.70 | scored |
-| Potatomain / Grunts Krafty Gushers  | Aaron Jones (14.80), Chris Olave (15.60) | Saquon Barkley (1.50), Jameson Williams (13.20) | 30.40 | 14.70 | +15.70 | scored |
+| Potatomain / The lost Cause Fallacy | Aaron Jones (14.80), Chris Olave (15.60) | Saquon Barkley (1.50), Jameson Williams (13.20) | 30.40 | 14.70 | +15.70 | scored |
 
 ### Trade 1410837390251110400
 
@@ -118,7 +118,7 @@ First scoring week: **5**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Allen Wake | James Cook (0.00), Chris Olave (0.00) | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| Potatomain / Grunts Krafty Gushers  | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain / The lost Cause Fallacy | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
 
 ### Trade 1413043102498734080
 
@@ -136,3 +136,30 @@ krunky picks sent: 2027 round 16 (original roster 1). Value not included in poin
 lfain20 picks received: 2027 round 16 (original roster 1). Value not included in points.
 
 lfain20 picks sent: 2027 round 15 (original roster 4). Value not included in points.
+
+### Trade 1413329747487772672
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| Potatomain / The lost Cause Fallacy | Jaylen Warren (0.00), Puka Nacua (0.00) | Aaron Jones (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus / Breach & Touchdown | Aaron Jones (0.00), Jaxon Smith-Njigba (0.00) | Jaylen Warren (0.00), Puka Nacua (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1413594244643360768
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Allen Wake | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 / The Windhelm Nords  | James Cook (0.00), Chris Olave (0.00) | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1413558535094050816
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| TheRealNoodleMan / Gibbs of War | RJ Harvey (0.00) | Aaron Rodgers (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus / Breach & Touchdown | Aaron Rodgers (0.00) | RJ Harvey (0.00) | 0.00 | 0.00 | +0.00 | pending |

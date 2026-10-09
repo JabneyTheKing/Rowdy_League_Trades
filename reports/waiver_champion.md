@@ -1,12 +1,12 @@
 # Waiver Champion
 
-Updated 2026-10-08T23:27:25.610413+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-09T06:21:53.718312+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
 | Rank | Manager | Team | Net waiver improvement | Claims | FAAB spent | Best transaction |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Potatomain | Grunts Krafty Gushers  | 42.60 | 4 | $56 | Alvin Kamara (24.90) |
+| 1 | Potatomain | The lost Cause Fallacy | 42.60 | 4 | $56 | Alvin Kamara (24.90) |
 | 2 | DiscipleJack | Super Lamario | 42.40 | 1 | $7 | Dalton Schultz (42.40) |
 | 3 | therealbulker | MidnightClub Rice Edition | 34.62 | 6 | $77 | Brian Robinson (20.70) |
 | 4 | lfain20 | Mortal Kombat: DARTside | 30.60 | 3 | $75 | Emanuel Wilson (26.90) |

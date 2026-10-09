@@ -17,11 +17,11 @@
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "TheRealNoodleMan",
-      "pending_trades": 1,
+      "pending_trades": 2,
       "roster_id": 2,
       "scored_trades": 2,
       "team": "Gibbs of War",
-      "trade_count": 3
+      "trade_count": 4
     },
     {
       "delta": 26.4,
@@ -61,11 +61,11 @@
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "Dawg2003",
-      "pending_trades": 1,
+      "pending_trades": 2,
       "roster_id": 9,
       "scored_trades": 0,
       "team": "The Windhelm Nords ",
-      "trade_count": 1
+      "trade_count": 2
     },
     {
       "delta": 0,
@@ -83,11 +83,11 @@
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "RollnWithJesus",
-      "pending_trades": 0,
+      "pending_trades": 2,
       "roster_id": 11,
       "scored_trades": 0,
       "team": "Breach & Touchdown",
-      "trade_count": 0
+      "trade_count": 2
     },
     {
       "delta": -4.04,
@@ -116,22 +116,22 @@
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "Potatomain",
-      "pending_trades": 1,
+      "pending_trades": 2,
       "roster_id": 6,
       "scored_trades": 2,
-      "team": "Grunts Krafty Gushers ",
-      "trade_count": 3
+      "team": "The lost Cause Fallacy",
+      "trade_count": 4
     },
     {
       "delta": -55.54,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
-      "pending_trades": 1,
+      "pending_trades": 2,
       "roster_id": 3,
       "scored_trades": 1,
       "team": "Allen Wake",
-      "trade_count": 2
+      "trade_count": 3
     }
   ],
   "league_id": "1312064355625369600",
@@ -179,7 +179,7 @@
     },
     "6": {
       "name": "Potatomain",
-      "team": "Grunts Krafty Gushers ",
+      "team": "The lost Cause Fallacy",
       "user_id": "1042263426653339648"
     },
     "7": {
@@ -334,6 +334,11 @@
       "full_name": "Terrance Ferguson",
       "position": "TE",
       "team": "LAR"
+    },
+    "12489": {
+      "full_name": "RJ Harvey",
+      "position": "RB",
+      "team": "DEN"
     },
     "12495": {
       "full_name": "Ollie Gordon",
@@ -635,6 +640,11 @@
       "position": "QB",
       "team": "ATL"
     },
+    "6794": {
+      "full_name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN"
+    },
     "6797": {
       "full_name": "Justin Herbert",
       "position": "QB",
@@ -785,6 +795,11 @@
       "position": "TE",
       "team": "WAS"
     },
+    "8228": {
+      "full_name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT"
+    },
     "8259": {
       "full_name": "Cameron Dicker",
       "position": "K",
@@ -834,6 +849,11 @@
       "full_name": "Jaxon Smith-Njigba",
       "position": "WR",
       "team": "SEA"
+    },
+    "9493": {
+      "full_name": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR"
     },
     "9501": {
       "full_name": "DeMario Douglas",
@@ -1497,7 +1517,7 @@
         "pickup_points": 0,
         "player_id": "96",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 2,
         "status": "pending",
         "transaction_id": "1413557864945004544"
@@ -1634,8 +1654,8 @@
         "manager": "Potatomain",
         "roster_id": 6,
         "score": 44.2,
-        "team": "Grunts Krafty Gushers ",
-        "trade_count": 2,
+        "team": "The lost Cause Fallacy",
+        "trade_count": 3,
         "trade_delta": 15.7,
         "waiver_claims": 4,
         "waiver_points": 42.6
@@ -1647,7 +1667,7 @@
         "roster_id": 9,
         "score": 35.7,
         "team": "The Windhelm Nords ",
-        "trade_count": 1,
+        "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 2,
         "waiver_points": 0.6
@@ -1683,7 +1703,7 @@
         "roster_id": 3,
         "score": 21.68,
         "team": "Allen Wake",
-        "trade_count": 1,
+        "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 4,
         "waiver_points": -3.9
@@ -1743,7 +1763,7 @@
         "roster_id": 2,
         "score": -16.6,
         "team": "Gibbs of War",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": -30.08,
         "waiver_claims": 5,
         "waiver_points": -9.0
@@ -1755,7 +1775,7 @@
         "roster_id": 11,
         "score": -18.8,
         "team": "Breach & Touchdown",
-        "trade_count": 0,
+        "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 2,
         "waiver_points": -18.8
@@ -2639,7 +2659,7 @@
         "pickup_points": 0,
         "player_id": "96",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 2,
         "status": "pending",
         "transaction_id": "1413557864945004544"
@@ -2869,7 +2889,7 @@
         "roster_id": 2,
         "score": 75.4,
         "team": "Gibbs of War",
-        "trade_count": 3,
+        "trade_count": 4,
         "trade_delta": 48.92,
         "waiver_claims": 5,
         "waiver_points": -9.0
@@ -2929,7 +2949,7 @@
         "roster_id": 9,
         "score": 35.7,
         "team": "The Windhelm Nords ",
-        "trade_count": 1,
+        "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 2,
         "waiver_points": 0.6
@@ -2940,8 +2960,8 @@
         "manager": "Potatomain",
         "roster_id": 6,
         "score": 5.84,
-        "team": "Grunts Krafty Gushers ",
-        "trade_count": 3,
+        "team": "The lost Cause Fallacy",
+        "trade_count": 4,
         "trade_delta": -43.5,
         "waiver_claims": 4,
         "waiver_points": 42.6
@@ -2953,7 +2973,7 @@
         "roster_id": 3,
         "score": -12.16,
         "team": "Allen Wake",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": -55.54,
         "waiver_claims": 4,
         "waiver_points": -3.9
@@ -2965,7 +2985,7 @@
         "roster_id": 11,
         "score": -18.8,
         "team": "Breach & Touchdown",
-        "trade_count": 0,
+        "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 2,
         "waiver_points": -18.8
@@ -3461,7 +3481,7 @@
           ],
           "sent_points": 125.1,
           "status": "scored",
-          "team": "Grunts Krafty Gushers "
+          "team": "The lost Cause Fallacy"
         }
       ]
     },
@@ -3694,7 +3714,7 @@
           ],
           "sent_points": 14.7,
           "status": "scored",
-          "team": "Grunts Krafty Gushers "
+          "team": "The lost Cause Fallacy"
         }
       ]
     },
@@ -3987,7 +4007,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "Grunts Krafty Gushers "
+          "team": "The lost Cause Fallacy"
         }
       ]
     },
@@ -4097,9 +4117,272 @@
           "team": "Mortal Kombat: DARTside"
         }
       ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1413329747487772672",
+      "processed_at": 1791526598635,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Potatomain",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "8228",
+            "9493"
+          ],
+          "received_players": [
+            {
+              "player_id": "8228",
+              "points": 0
+            },
+            {
+              "player_id": "9493",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 6,
+          "sent": [
+            "4199",
+            "9488"
+          ],
+          "sent_players": [
+            {
+              "player_id": "4199",
+              "points": 0
+            },
+            {
+              "player_id": "9488",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "The lost Cause Fallacy"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "RollnWithJesus",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "4199",
+            "9488"
+          ],
+          "received_players": [
+            {
+              "player_id": "4199",
+              "points": 0
+            },
+            {
+              "player_id": "9488",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 11,
+          "sent": [
+            "8228",
+            "9493"
+          ],
+          "sent_players": [
+            {
+              "player_id": "8228",
+              "points": 0
+            },
+            {
+              "player_id": "9493",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Breach & Touchdown"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1413594244643360768",
+      "processed_at": 1791526598635,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12527",
+            "6794",
+            "8110"
+          ],
+          "received_players": [
+            {
+              "player_id": "12527",
+              "points": 0
+            },
+            {
+              "player_id": "6794",
+              "points": 0
+            },
+            {
+              "player_id": "8110",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 3,
+          "sent": [
+            "8138",
+            "8144"
+          ],
+          "sent_players": [
+            {
+              "player_id": "8138",
+              "points": 0
+            },
+            {
+              "player_id": "8144",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Allen Wake"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "Dawg2003",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "8138",
+            "8144"
+          ],
+          "received_players": [
+            {
+              "player_id": "8138",
+              "points": 0
+            },
+            {
+              "player_id": "8144",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 9,
+          "sent": [
+            "12527",
+            "6794",
+            "8110"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12527",
+              "points": 0
+            },
+            {
+              "player_id": "6794",
+              "points": 0
+            },
+            {
+              "player_id": "8110",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "The Windhelm Nords "
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1413558535094050816",
+      "processed_at": 1791526598635,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "TheRealNoodleMan",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12489"
+          ],
+          "received_players": [
+            {
+              "player_id": "12489",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 2,
+          "sent": [
+            "96"
+          ],
+          "sent_players": [
+            {
+              "player_id": "96",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Gibbs of War"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "RollnWithJesus",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "96"
+          ],
+          "received_players": [
+            {
+              "player_id": "96",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 11,
+          "sent": [
+            "12489"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12489",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Breach & Touchdown"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-08T23:27:25.610413+00:00",
+  "updated_at": "2026-10-09T06:21:53.718312+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -4908,7 +5191,7 @@
         "points": 42.6,
         "roster_id": 6,
         "scored_claims": 3,
-        "team": "Grunts Krafty Gushers "
+        "team": "The lost Cause Fallacy"
       },
       {
         "best_pickup": "5001",
