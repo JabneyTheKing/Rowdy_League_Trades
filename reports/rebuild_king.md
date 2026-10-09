@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-09T06:21:53.718312+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-09T13:33:56.702232+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -40,6 +40,8 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | lfain20 | Mike Washington | — | 4–4 | 2.20 | 0.00 | +2.20 | scored |
 | DiscipleJack | CHI | PHI | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | Dawg2003 | Tyler Loop | Cam Little | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | Wan'Dale Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | NE | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Zach Ertz | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |

@@ -1254,6 +1254,38 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "8126",
+        "points": 0,
+        "released": false,
+        "roster_id": 9,
+        "status": "pending",
+        "transaction_id": "1414238648559316992"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "NE",
+        "points": 0,
+        "released": false,
+        "roster_id": 9,
+        "status": "pending",
+        "transaction_id": "1414239914349821952"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
         "first_week": 3,
         "last_week": 2,
         "manager": "JabneyTheKing",
@@ -1661,7 +1693,7 @@
         "waiver_points": 42.6
       },
       {
-        "free_agent_adds": 3,
+        "free_agent_adds": 5,
         "free_agent_points": 35.1,
         "manager": "Dawg2003",
         "roster_id": 9,
@@ -2279,6 +2311,38 @@
         "roster_id": 9,
         "status": "pending",
         "transaction_id": "1411464205449678848"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "8126",
+        "points": 0,
+        "released": false,
+        "roster_id": 9,
+        "status": "pending",
+        "transaction_id": "1414238648559316992"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "NE",
+        "points": 0,
+        "released": false,
+        "roster_id": 9,
+        "status": "pending",
+        "transaction_id": "1414239914349821952"
       },
       {
         "dropped_player_id": null,
@@ -2943,7 +3007,7 @@
         "waiver_points": -6.68
       },
       {
-        "free_agent_adds": 3,
+        "free_agent_adds": 5,
         "free_agent_points": 35.1,
         "manager": "Dawg2003",
         "roster_id": 9,
@@ -4382,7 +4446,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-09T06:21:53.718312+00:00",
+  "updated_at": "2026-10-09T13:33:56.702232+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

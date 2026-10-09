@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-09T06:21:53.718312+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-09T13:33:56.702232+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -54,6 +54,8 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | DiscipleJack | CHI | PHI | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | JabneyTheKing | Travis Hunter | — | 1–3 | 1.60 | 0.00 | +1.60 | scored |
 | Dawg2003 | Tyler Loop | Cam Little | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | Wan'Dale Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | NE | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Jauan Jennings | — | 1–2 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
