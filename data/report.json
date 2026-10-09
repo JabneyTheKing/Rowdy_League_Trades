@@ -410,6 +410,11 @@
       "position": "WR",
       "team": "CIN"
     },
+    "13276": {
+      "full_name": "Omar Cooper",
+      "position": "WR",
+      "team": "NYJ"
+    },
     "13279": {
       "full_name": "Carnell Tate",
       "position": "WR",
@@ -1363,6 +1368,22 @@
         "transaction_id": "1413543762579197952"
       },
       {
+        "dropped_player_id": "3634",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "13301",
+        "points": 0,
+        "released": false,
+        "roster_id": 3,
+        "status": "pending",
+        "transaction_id": "1414382491640340480"
+      },
+      {
         "dropped_player_id": "LV",
         "dropped_points": 0,
         "faab": 0,
@@ -1729,7 +1750,7 @@
         "waiver_points": 0
       },
       {
-        "free_agent_adds": 8,
+        "free_agent_adds": 9,
         "free_agent_points": 25.58,
         "manager": "JabneyTheKing",
         "roster_id": 3,
@@ -2457,6 +2478,22 @@
         "transaction_id": "1413543762579197952"
       },
       {
+        "dropped_player_id": "3634",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "13301",
+        "points": 0,
+        "released": false,
+        "roster_id": 3,
+        "status": "pending",
+        "transaction_id": "1414382491640340480"
+      },
+      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
@@ -3031,7 +3068,7 @@
         "waiver_points": 42.6
       },
       {
-        "free_agent_adds": 14,
+        "free_agent_adds": 15,
         "free_agent_points": 47.28,
         "manager": "JabneyTheKing",
         "roster_id": 3,
@@ -4446,7 +4483,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-09T13:33:56.702232+00:00",
+  "updated_at": "2026-10-09T22:45:29.225874+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -5142,7 +5179,7 @@
         "pickup_points": 1.6,
         "player_id": "3634",
         "points": -3.5,
-        "released": false,
+        "released": true,
         "roster_id": 3,
         "status": "scored",
         "transaction_id": "1410697391715168256"

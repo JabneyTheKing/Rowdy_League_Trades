@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-09T13:33:56.702232+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-09T22:45:29.225874+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -47,6 +47,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tre' Harris | Joe Mixon | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing | Antonio Williams | Kalif Raymond | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | LAC | LV | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Ted Hurst | Kenny Gainwell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Jauan Jennings | DeMario Douglas | No completed week | 0.00 | 0.00 | +0.00 | pending |
