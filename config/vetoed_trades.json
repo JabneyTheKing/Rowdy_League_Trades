@@ -5,8 +5,46 @@
     "label": "Preseason: Worthy + Harrison + 2027 second for JSN",
     "first_scoring_week": 1,
     "sides": [
-      {"manager": "SethLL", "team": "Red Dead Zachdemption", "roster_id": 10, "received": ["9488"], "sent": ["11624", "11628"], "picks_received": [], "picks_sent": [{"season": "2027", "round": 2, "original_manager": "SethLL"}]},
-      {"manager": "AfootCoronet56", "team": "Risk of Rome", "roster_id": 5, "received": ["11624", "11628"], "sent": ["9488"], "picks_received": [{"season": "2027", "round": 2, "original_manager": "SethLL"}], "picks_sent": []}
+      {
+        "manager": "SethLL",
+        "team": "Red Dead Zachdemption",
+        "roster_id": 10,
+        "received": [
+          "9488"
+        ],
+        "sent": [
+          "11624",
+          "11628"
+        ],
+        "picks_received": [],
+        "picks_sent": [
+          {
+            "season": "2027",
+            "round": 2,
+            "original_manager": "SethLL"
+          }
+        ]
+      },
+      {
+        "manager": "AfootCoronet56",
+        "team": "Risk of Rome",
+        "roster_id": 5,
+        "received": [
+          "11624",
+          "11628"
+        ],
+        "sent": [
+          "9488"
+        ],
+        "picks_received": [
+          {
+            "season": "2027",
+            "round": 2,
+            "original_manager": "SethLL"
+          }
+        ],
+        "picks_sent": []
+      }
     ]
   },
   {
@@ -15,8 +53,56 @@
     "label": "Before Week 5: Krunky sends Rachaad White; Ryan sends Aaron Jones",
     "first_scoring_week": 5,
     "sides": [
-      {"manager": "Krunky", "roster_id": 1, "received": ["4199"], "sent": ["8136"]},
-      {"manager": "Ryan", "roster_id": 6, "received": ["8136"], "sent": ["4199"]}
+      {
+        "manager": "Krunky",
+        "roster_id": 1,
+        "received": [
+          "4199"
+        ],
+        "sent": [
+          "8136"
+        ]
+      },
+      {
+        "manager": "Ryan",
+        "roster_id": 6,
+        "received": [
+          "8136"
+        ],
+        "sent": [
+          "4199"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "veto-week5-conner-price",
+    "made_on_or_after": "2026-08-23",
+    "label": "Before Week 5: Jabney sends Jadarian Price; Krunky sends James Conner",
+    "first_scoring_week": 5,
+    "sides": [
+      {
+        "manager": "JabneyTheKing",
+        "team": "Allen Wake",
+        "roster_id": 3,
+        "received": [
+          "4137"
+        ],
+        "sent": [
+          "13286"
+        ]
+      },
+      {
+        "manager": "krunky",
+        "team": "Grand Theft Aubrey",
+        "roster_id": 1,
+        "received": [
+          "13286"
+        ],
+        "sent": [
+          "4137"
+        ]
+      }
     ]
   }
 ]
