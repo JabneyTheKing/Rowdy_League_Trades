@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-10T06:03:50.627939+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-10T12:44:48.233409+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -17,9 +17,9 @@ Player production includes bench points and continues after subsequent trades or
 | 7 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 8 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 2 | No |
 | 9 | therealbulker | MidnightClub Rice Edition | -4.04 | 1 | 1 | No |
-| 10 | AfootCoronet56 | Risk of Rome | -39.16 | 2 | 2 | Yes |
+| 10 | AfootCoronet56 | Risk of Rome | -39.16 | 2 | 3 | Yes |
 | 11 | Potatomain | The lost Cause Fallacy | -43.50 | 2 | 4 | No |
-| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 3 | Yes |
+| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 4 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -163,3 +163,12 @@ First scoring week: **5**
 |---|---|---|---:|---:|---:|---|
 | TheRealNoodleMan / Gibbs of War | RJ Harvey (0.00) | Aaron Rodgers (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | RollnWithJesus / Breach & Touchdown | Aaron Rodgers (0.00) | RJ Harvey (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1413998894823612416
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Allen Wake | Ja'Marr Chase (0.00) | Josh Allen (0.00), Terry McLaurin (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 / Risk of Rome | Josh Allen (0.00), Terry McLaurin (0.00) | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |

@@ -105,11 +105,11 @@
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "AfootCoronet56",
-      "pending_trades": 0,
+      "pending_trades": 1,
       "roster_id": 5,
       "scored_trades": 2,
       "team": "Risk of Rome",
-      "trade_count": 2
+      "trade_count": 3
     },
     {
       "delta": -43.5,
@@ -127,11 +127,11 @@
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
-      "pending_trades": 2,
+      "pending_trades": 3,
       "roster_id": 3,
       "scored_trades": 1,
       "team": "Allen Wake",
-      "trade_count": 3
+      "trade_count": 4
     }
   ],
   "league_id": "1312064355625369600",
@@ -594,6 +594,11 @@
       "full_name": "Sam Darnold",
       "position": "QB",
       "team": "SEA"
+    },
+    "4984": {
+      "full_name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF"
     },
     "4988": {
       "full_name": "Nick Chubb",
@@ -1787,7 +1792,7 @@
         "roster_id": 3,
         "score": 21.68,
         "team": "Allen Wake",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": 0,
         "waiver_claims": 4,
         "waiver_points": -3.9
@@ -1835,7 +1840,7 @@
         "roster_id": 5,
         "score": 0.8,
         "team": "Risk of Rome",
-        "trade_count": 1,
+        "trade_count": 2,
         "trade_delta": -15.7,
         "waiver_claims": 1,
         "waiver_points": 0
@@ -3121,7 +3126,7 @@
         "roster_id": 3,
         "score": -12.16,
         "team": "Allen Wake",
-        "trade_count": 3,
+        "trade_count": 4,
         "trade_delta": -55.54,
         "waiver_claims": 4,
         "waiver_points": -3.9
@@ -3145,7 +3150,7 @@
         "roster_id": 5,
         "score": -22.66,
         "team": "Risk of Rome",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": -39.16,
         "waiver_claims": 1,
         "waiver_points": 0
@@ -4528,9 +4533,90 @@
           "team": "Breach & Touchdown"
         }
       ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1413998894823612416",
+      "processed_at": 1791612950081,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "7564"
+          ],
+          "received_players": [
+            {
+              "player_id": "7564",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 3,
+          "sent": [
+            "4984",
+            "5927"
+          ],
+          "sent_players": [
+            {
+              "player_id": "4984",
+              "points": 0
+            },
+            {
+              "player_id": "5927",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Allen Wake"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "AfootCoronet56",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "4984",
+            "5927"
+          ],
+          "received_players": [
+            {
+              "player_id": "4984",
+              "points": 0
+            },
+            {
+              "player_id": "5927",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 5,
+          "sent": [
+            "7564"
+          ],
+          "sent_players": [
+            {
+              "player_id": "7564",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Risk of Rome"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-10T06:03:50.627939+00:00",
+  "updated_at": "2026-10-10T12:44:48.233409+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
