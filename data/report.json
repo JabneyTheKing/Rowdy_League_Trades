@@ -205,6 +205,11 @@
       "position": "RB",
       "team": "JAX"
     },
+    "10222": {
+      "full_name": "Jayden Reed",
+      "position": "WR",
+      "team": "GB"
+    },
     "10859": {
       "full_name": "Sam LaPorta",
       "position": "TE",
@@ -405,6 +410,11 @@
       "position": "K",
       "team": "CAR"
     },
+    "13150": {
+      "full_name": "Darius Cooper",
+      "position": "WR",
+      "team": "PHI"
+    },
     "13264": {
       "full_name": "Dohnte Meyers",
       "position": "WR",
@@ -424,6 +434,11 @@
       "full_name": "Malachi Fields",
       "position": "WR",
       "team": "NYG"
+    },
+    "13286": {
+      "full_name": "Jadarian Price",
+      "position": "RB",
+      "team": "SEA"
     },
     "13294": {
       "full_name": "Makai Lemon",
@@ -1528,6 +1543,22 @@
         "transaction_id": "1413963997115334656"
       },
       {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "RollnWithJesus",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "13150",
+        "points": 0,
+        "released": false,
+        "roster_id": 11,
+        "status": "pending",
+        "transaction_id": "1414467442402508800"
+      },
+      {
         "dropped_player_id": "19",
         "dropped_points": 0.0,
         "faab": 0,
@@ -1822,7 +1853,7 @@
         "waiver_points": -9.0
       },
       {
-        "free_agent_adds": 2,
+        "free_agent_adds": 3,
         "free_agent_points": 0,
         "manager": "RollnWithJesus",
         "roster_id": 11,
@@ -2686,6 +2717,22 @@
         "transaction_id": "1413963997115334656"
       },
       {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "RollnWithJesus",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "13150",
+        "points": 0,
+        "released": false,
+        "roster_id": 11,
+        "status": "pending",
+        "transaction_id": "1414467442402508800"
+      },
+      {
         "dropped_player_id": "7538",
         "dropped_points": 0,
         "faab": 0,
@@ -3080,7 +3127,7 @@
         "waiver_points": -3.9
       },
       {
-        "free_agent_adds": 2,
+        "free_agent_adds": 3,
         "free_agent_points": 0,
         "manager": "RollnWithJesus",
         "roster_id": 11,
@@ -4483,7 +4530,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-09T22:45:29.225874+00:00",
+  "updated_at": "2026-10-10T04:35:03.804462+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -4634,6 +4681,70 @@
           ],
           "sent_points": 0,
           "status": "pending"
+        }
+      ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "veto-week5-conner-price",
+      "label": "Before Week 5: Jabney sends Jadarian Price; Krunky sends James Conner",
+      "made_on_or_after": "2026-08-23",
+      "sides": [
+        {
+          "delta": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "received": [
+            "4137"
+          ],
+          "received_players": [
+            {
+              "player_id": "4137",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 3,
+          "sent": [
+            "13286"
+          ],
+          "sent_players": [
+            {
+              "player_id": "13286",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Allen Wake"
+        },
+        {
+          "delta": 0,
+          "manager": "krunky",
+          "missing_scores": [],
+          "received": [
+            "13286"
+          ],
+          "received_players": [
+            {
+              "player_id": "13286",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 1,
+          "sent": [
+            "4137"
+          ],
+          "sent_players": [
+            {
+              "player_id": "4137",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Grand Theft Aubrey"
         }
       ]
     }
