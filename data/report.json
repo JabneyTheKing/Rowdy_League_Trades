@@ -39,11 +39,11 @@
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "oneyjb",
-      "pending_trades": 0,
+      "pending_trades": 1,
       "roster_id": 12,
       "scored_trades": 3,
       "team": "Bower's Inside Story",
-      "trade_count": 3
+      "trade_count": 4
     },
     {
       "delta": 1.3,
@@ -127,11 +127,11 @@
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
-      "pending_trades": 3,
+      "pending_trades": 4,
       "roster_id": 3,
       "scored_trades": 1,
       "team": "Allen Wake",
-      "trade_count": 4
+      "trade_count": 5
     }
   ],
   "league_id": "1312064355625369600",
@@ -354,6 +354,11 @@
       "full_name": "Kaleb Johnson",
       "position": "RB",
       "team": "GB"
+    },
+    "12506": {
+      "full_name": "Harold Fannin",
+      "position": "TE",
+      "team": "CLE"
     },
     "12508": {
       "full_name": "Jaxson Dart",
@@ -1014,6 +1019,11 @@
       "full_name": null,
       "position": "DEF",
       "team": "TB"
+    },
+    "WAS": {
+      "full_name": null,
+      "position": "DEF",
+      "team": "WAS"
     }
   },
   "rebuild_king": {
@@ -1547,6 +1557,22 @@
         "transaction_id": "1411532864754823168"
       },
       {
+        "dropped_player_id": "BAL",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "WAS",
+        "points": 0,
+        "released": false,
+        "roster_id": 12,
+        "status": "pending",
+        "transaction_id": "1414898949050916864"
+      },
+      {
         "dropped_player_id": "12048",
         "dropped_points": 0,
         "faab": 0,
@@ -1839,7 +1865,7 @@
         "roster_id": 3,
         "score": 21.68,
         "team": "Allen Wake",
-        "trade_count": 3,
+        "trade_count": 4,
         "trade_delta": 0,
         "waiver_claims": 4,
         "waiver_points": -3.9
@@ -1857,13 +1883,13 @@
         "waiver_points": 34.62
       },
       {
-        "free_agent_adds": 3,
+        "free_agent_adds": 4,
         "free_agent_points": -11.4,
         "manager": "oneyjb",
         "roster_id": 12,
         "score": 16.04,
         "team": "Bower's Inside Story",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": 34.12,
         "waiver_claims": 5,
         "waiver_points": -6.68
@@ -2753,6 +2779,22 @@
         "transaction_id": "1411532864754823168"
       },
       {
+        "dropped_player_id": "BAL",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "WAS",
+        "points": 0,
+        "released": false,
+        "roster_id": 12,
+        "status": "pending",
+        "transaction_id": "1414898949050916864"
+      },
+      {
         "dropped_player_id": "12048",
         "dropped_points": 0,
         "faab": 0,
@@ -3163,13 +3205,13 @@
         "waiver_points": 34.62
       },
       {
-        "free_agent_adds": 6,
+        "free_agent_adds": 7,
         "free_agent_points": 43.82,
         "manager": "oneyjb",
         "roster_id": 12,
         "score": 41.66,
         "team": "Bower's Inside Story",
-        "trade_count": 3,
+        "trade_count": 4,
         "trade_delta": 4.52,
         "waiver_claims": 5,
         "waiver_points": -6.68
@@ -3205,7 +3247,7 @@
         "roster_id": 3,
         "score": -12.16,
         "team": "Allen Wake",
-        "trade_count": 4,
+        "trade_count": 5,
         "trade_delta": -55.54,
         "waiver_claims": 4,
         "waiver_points": -3.9
@@ -4693,9 +4735,100 @@
           "team": "Risk of Rome"
         }
       ]
+    },
+    {
+      "first_scoring_week": 5,
+      "id": "1414473604535480320",
+      "processed_at": 1791699362245,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "JabneyTheKing",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "12506",
+            "7543"
+          ],
+          "received_players": [
+            {
+              "player_id": "12506",
+              "points": 0
+            },
+            {
+              "player_id": "7543",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 3,
+          "sent": [
+            "10859",
+            "13286"
+          ],
+          "sent_players": [
+            {
+              "player_id": "10859",
+              "points": 0
+            },
+            {
+              "player_id": "13286",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Allen Wake"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "oneyjb",
+          "missing_scores": [],
+          "picks_received": [],
+          "picks_sent": [],
+          "received": [
+            "10859",
+            "13286"
+          ],
+          "received_players": [
+            {
+              "player_id": "10859",
+              "points": 0
+            },
+            {
+              "player_id": "13286",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 12,
+          "sent": [
+            "12506",
+            "7543"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12506",
+              "points": 0
+            },
+            {
+              "player_id": "7543",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Bower's Inside Story"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-11T06:01:25.143535+00:00",
+  "updated_at": "2026-10-11T13:07:32.653462+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -5135,7 +5268,7 @@
         "pickup_points": 7.0,
         "player_id": "BAL",
         "points": 2.0,
-        "released": false,
+        "released": true,
         "roster_id": 12,
         "status": "scored",
         "transaction_id": "1410540094636429312"

@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-11T06:01:25.143535+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-11T13:07:32.653462+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,7 +11,7 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | krunky | Grand Theft Aubrey | +61.10 | 3 | 4 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +48.92 | 2 | 4 | No |
 | 3 | SethLL | Red Dead Zachdemption | +26.40 | 2 | 2 | No |
-| 4 | oneyjb | Bower's Inside Story | +4.52 | 3 | 3 | No |
+| 4 | oneyjb | Bower's Inside Story | +4.52 | 3 | 4 | No |
 | 5 | lfain20 | Mortal Kombat: DARTside | +1.30 | 1 | 2 | Yes |
 | 6 | Dawg2003 | The Windhelm Nords  | +0.00 | 0 | 2 | No |
 | 7 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
@@ -19,7 +19,7 @@ Player production includes bench points and continues after subsequent trades or
 | 9 | therealbulker | MidnightClub Rice Edition | -4.04 | 1 | 1 | No |
 | 10 | AfootCoronet56 | Risk of Rome | -39.16 | 2 | 3 | Yes |
 | 11 | Potatomain | The lost Cause Fallacy | -43.50 | 2 | 4 | No |
-| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 4 | Yes |
+| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 5 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -172,3 +172,12 @@ First scoring week: **5**
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Allen Wake | Ja'Marr Chase (0.00) | Josh Allen (0.00), Terry McLaurin (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 / Risk of Rome | Josh Allen (0.00), Terry McLaurin (0.00) | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1414473604535480320
+
+First scoring week: **5**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Allen Wake | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb / Bower's Inside Story | Sam LaPorta (0.00), Jadarian Price (0.00) | Harold Fannin (0.00), Travis Etienne (0.00) | 0.00 | 0.00 | +0.00 | pending |

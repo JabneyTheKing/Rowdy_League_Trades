@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-11T06:01:25.143535+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-11T13:07:32.653462+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -56,6 +56,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | lfain20 | Efton Chism | Isaiah Williams | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Malachi Fields | Rashid Shaheed | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Roman Wilson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | WAS | BAL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | NYG | George Holani | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | RollnWithJesus | Chris Rodriguez | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | RollnWithJesus | MarShawn Lloyd | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
