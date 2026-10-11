@@ -273,7 +273,7 @@
     "11628": {
       "full_name": "Marvin Harrison",
       "position": "WR",
-      "team": "ARI"
+      "team": "HOU"
     },
     "11630": {
       "full_name": "Roman Wilson",
@@ -925,6 +925,11 @@
       "position": "QB",
       "team": "HOU"
     },
+    "ATL": {
+      "full_name": null,
+      "position": "DEF",
+      "team": "ATL"
+    },
     "BAL": {
       "full_name": null,
       "position": "DEF",
@@ -979,6 +984,11 @@
       "full_name": null,
       "position": "DEF",
       "team": "LAC"
+    },
+    "LAR": {
+      "full_name": null,
+      "position": "DEF",
+      "team": "LAR"
     },
     "LV": {
       "full_name": null,
@@ -1285,6 +1295,22 @@
         "transaction_id": "1411105139720249344"
       },
       {
+        "dropped_player_id": "LAR",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "AfootCoronet56",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "ATL",
+        "points": 0,
+        "released": false,
+        "roster_id": 5,
+        "status": "pending",
+        "transaction_id": "1415130296994594816"
+      },
+      {
         "dropped_player_id": "11786",
         "dropped_points": 0,
         "faab": 0,
@@ -1571,6 +1597,22 @@
         "roster_id": 12,
         "status": "pending",
         "transaction_id": "1414898949050916864"
+      },
+      {
+        "dropped_player_id": "11625",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "KC",
+        "points": 0,
+        "released": false,
+        "roster_id": 12,
+        "status": "pending",
+        "transaction_id": "1415098345038331904"
       },
       {
         "dropped_player_id": "12048",
@@ -1883,7 +1925,7 @@
         "waiver_points": 34.62
       },
       {
-        "free_agent_adds": 4,
+        "free_agent_adds": 5,
         "free_agent_points": -11.4,
         "manager": "oneyjb",
         "roster_id": 12,
@@ -1907,7 +1949,7 @@
         "waiver_points": -0.68
       },
       {
-        "free_agent_adds": 1,
+        "free_agent_adds": 2,
         "free_agent_points": 16.5,
         "manager": "AfootCoronet56",
         "roster_id": 5,
@@ -2427,6 +2469,22 @@
         "transaction_id": "1400600612411830272"
       },
       {
+        "dropped_player_id": "LAR",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "AfootCoronet56",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "ATL",
+        "points": 0,
+        "released": false,
+        "roster_id": 5,
+        "status": "pending",
+        "transaction_id": "1415130296994594816"
+      },
+      {
         "dropped_player_id": "11786",
         "dropped_points": 0,
         "faab": 0,
@@ -2793,6 +2851,22 @@
         "roster_id": 12,
         "status": "pending",
         "transaction_id": "1414898949050916864"
+      },
+      {
+        "dropped_player_id": "11625",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 4,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "KC",
+        "points": 0,
+        "released": false,
+        "roster_id": 12,
+        "status": "pending",
+        "transaction_id": "1415098345038331904"
       },
       {
         "dropped_player_id": "12048",
@@ -3205,7 +3279,7 @@
         "waiver_points": 34.62
       },
       {
-        "free_agent_adds": 7,
+        "free_agent_adds": 8,
         "free_agent_points": 43.82,
         "manager": "oneyjb",
         "roster_id": 12,
@@ -3265,7 +3339,7 @@
         "waiver_points": -18.8
       },
       {
-        "free_agent_adds": 1,
+        "free_agent_adds": 2,
         "free_agent_points": 16.5,
         "manager": "AfootCoronet56",
         "roster_id": 5,
@@ -4828,7 +4902,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-11T13:07:32.653462+00:00",
+  "updated_at": "2026-10-11T22:08:59.717679+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -5652,7 +5726,7 @@
         "pickup_points": 0.0,
         "player_id": "11625",
         "points": -10.2,
-        "released": false,
+        "released": true,
         "roster_id": 12,
         "status": "scored",
         "transaction_id": "1408305742850637824"

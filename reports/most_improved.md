@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-11T13:07:32.653462+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-11T22:08:59.717679+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -53,6 +53,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Mike Washington | — | 4–4 | 2.20 | 0.00 | +2.20 | scored |
 | DiscipleJack | CHI | PHI | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | JabneyTheKing | Travis Hunter | — | 1–3 | 1.60 | 0.00 | +1.60 | scored |
+| AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Tyler Loop | Cam Little | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Wan'Dale Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | NE | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
@@ -76,6 +77,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | oneyjb | Malachi Fields | Rashid Shaheed | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Roman Wilson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | WAS | BAL | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | KC | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | NYG | George Holani | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | RollnWithJesus | Chris Rodriguez | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | RollnWithJesus | MarShawn Lloyd | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
