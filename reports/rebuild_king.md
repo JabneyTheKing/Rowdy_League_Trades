@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-10T21:52:52.587749+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-11T06:01:25.143535+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -42,6 +42,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | Dawg2003 | Tyler Loop | Cam Little | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Wan'Dale Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | NE | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Zach Ertz | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
@@ -52,6 +53,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | lfain20 | Ted Hurst | Kenny Gainwell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Jauan Jennings | DeMario Douglas | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Efton Chism | Isaiah Williams | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Malachi Fields | Rashid Shaheed | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Roman Wilson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | NYG | George Holani | No completed week | 0.00 | 0.00 | +0.00 | pending |
