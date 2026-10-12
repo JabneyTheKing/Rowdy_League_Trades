@@ -1,78 +1,76 @@
 # Rebuild King
 
-Updated 2026-10-12T15:23:22.436287+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-12T15:26:57.125079+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | TheRealNoodleMan | Gibbs of War | +20.18 | -8.00 | 61.58 | +73.76 |
-| 2 | Potatomain | The Lost Cause Fallacy | +42.00 | 31.10 | -11.20 | +61.90 |
-| 3 | krunky | Grand Theft Aubrey | +16.36 | 45.40 | 0.00 | +61.76 |
-| 4 | lfain20 | Mortal Kombat: DARTside | -13.16 | 68.54 | 1.50 | +56.88 |
-| 5 | JabneyTheKing | Josh Jacobs: Most Wanted | -13.70 | 9.30 | 41.90 | +37.50 |
-| 6 | SethLL | Red Dead Zachdemption | -3.20 | -0.68 | 37.30 | +33.42 |
-| 7 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 31.20 | +31.20 |
-| 8 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -10.00 | +13.34 |
-| 9 | AfootCoronet56 | Suicide Squad (the game) | -28.30 | -0.50 | 20.30 | -8.50 |
-| 10 | oneyjb | Bower's Inside Story | +60.00 | -54.22 | -14.40 | -8.62 |
-| 11 | Dawg2003 | The Windhelm Nords  | -79.90 | 2.80 | 50.30 | -26.80 |
-| 12 | RollnWithJesus | Breach & Touchdown | +0.00 | -31.10 | 0.00 | -31.10 |
+| 1 | krunky | Grand Theft Aubrey | +27.26 | 45.40 | 0.00 | +72.66 |
+| 2 | TheRealNoodleMan | Gibbs of War | +40.00 | -8.00 | 39.58 | +71.58 |
+| 3 | Potatomain | The Lost Cause Fallacy | +38.30 | 30.10 | -11.20 | +57.20 |
+| 4 | JabneyTheKing | Josh Jacobs: Most Wanted | +4.70 | 12.70 | 37.52 | +54.92 |
+| 5 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 9.80 | +54.28 |
+| 6 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 37.30 | +37.30 |
+| 7 | SethLL | Red Dead Zachdemption | -3.20 | 0.00 | 38.38 | +35.18 |
+| 8 | RollnWithJesus | Breach & Touchdown | +25.00 | -26.80 | 31.90 | +30.10 |
+| 9 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -7.00 | +16.34 |
+| 10 | AfootCoronet56 | Suicide Squad (the game) | -28.30 | -0.50 | 20.30 | -8.50 |
+| 11 | Dawg2003 | The Windhelm Nords  | -79.70 | 2.80 | 59.60 | -17.30 |
+| 12 | oneyjb | Bower's Inside Story | +0.28 | -25.02 | -14.40 | -39.14 |
 
 ## Post-Week-1 free-agent transactions
 
 | Manager | Added | Dropped in transaction | Weeks compared | Added points | Dropped points | Net improvement | Status |
 |---|---|---|---|---:|---:|---:|---|
+| SethLL | Pat Freiermuth | Carson Wentz | 2–5 | 44.70 | 6.32 | +38.38 | scored |
 | JabneyTheKing | Kirk Cousins | — | 4–5 | 37.32 | 0.00 | +37.32 | scored |
-| SethLL | Pat Freiermuth | Carson Wentz | 3–5 | 37.30 | 0.00 | +37.30 | scored |
 | Dawg2003 | Mike Gesicki | Colbie Young | 2–5 | 33.10 | 1.90 | +31.20 | scored |
 | DiscipleJack | Dontayvion Wicks | — | 2–5 | 26.20 | 0.00 | +26.20 | scored |
-| TheRealNoodleMan | Aaron Rodgers | Michael Pittman | 5–5 | 22.00 | 0.00 | +22.00 | scored |
 | AfootCoronet56 | Malik Washington | Tyjae Spears | 3–5 | 27.20 | 6.90 | +20.30 | scored |
-| DiscipleJack | Matt Gay | Eddy Pineiro | 3–5 | 33.00 | 17.00 | +16.00 | scored |
+| DiscipleJack | Matt Gay | Eddy Pineiro | 2–5 | 41.00 | 22.00 | +19.00 | scored |
+| RollnWithJesus | MarShawn Lloyd | — | 5–5 | 16.20 | 0.00 | +16.20 | scored |
 | TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–5 | 30.30 | 14.30 | +16.00 | scored |
+| RollnWithJesus | Darius Cooper | — | 5–5 | 14.10 | 0.00 | +14.10 | scored |
 | Dawg2003 | Raheim Sanders | — | 2–5 | 13.10 | 0.00 | +13.10 | scored |
 | TheRealNoodleMan | Nick Folk | Ryan Fitzgerald | 5–5 | 12.00 | 0.00 | +12.00 | scored |
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
-| lfain20 | Kenny Gainwell | — | 4–4 | 9.70 | 0.00 | +9.70 | scored |
-| lfain20 | DeMario Douglas | — | 3–4 | 6.80 | 0.00 | +6.80 | scored |
-| Dawg2003 | Tyler Loop | Cam Little | 5–5 | 14.00 | 8.00 | +6.00 | scored |
+| Dawg2003 | Wan'Dale Robinson | — | 5–5 | 8.30 | 0.00 | +8.30 | scored |
+| Dawg2003 | NE | — | 5–5 | 8.00 | 0.00 | +8.00 | scored |
+| lfain20 | Efton Chism | Isaiah Williams | 5–5 | 8.40 | 2.40 | +6.00 | scored |
+| lfain20 | DeMario Douglas | — | 2–3 | 5.70 | 0.00 | +5.70 | scored |
 | lfain20 | Darren Waller | Chig Okonkwo | 3–5 | 16.70 | 12.50 | +4.20 | scored |
 | lfain20 | Mike Washington | — | 4–5 | 3.70 | 0.00 | +3.70 | scored |
-| JabneyTheKing | Tyler Allgeier | Daniel Jones | 4–4 | 11.90 | 8.92 | +2.98 | scored |
 | Potatomain | NYG | George Holani | 5–5 | 6.00 | 3.10 | +2.90 | scored |
+| JabneyTheKing | Antonio Williams | Kalif Raymond | 5–5 | 4.60 | 1.90 | +2.70 | scored |
 | JabneyTheKing | Tre' Harris | Joe Mixon | 5–5 | 2.60 | 0.00 | +2.60 | scored |
 | lfain20 | Isaiah Williams | — | 3–3 | 2.60 | 0.00 | +2.60 | scored |
+| DiscipleJack | CHI | PHI | 4–4 | 7.00 | 5.00 | +2.00 | scored |
+| JabneyTheKing | Zach Ertz | — | 3–3 | 1.90 | 0.00 | +1.90 | scored |
+| RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| Dawg2003 | Wan'Dale Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| Dawg2003 | NE | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| JabneyTheKing | Zach Ertz | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| JabneyTheKing | Antonio Williams | Kalif Raymond | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| krunky | LAC | LV | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| lfain20 | Ted Hurst | Kenny Gainwell | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| lfain20 | Efton Chism | Isaiah Williams | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| oneyjb | Malachi Fields | Rashid Shaheed | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | WAS | BAL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | KC | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| RollnWithJesus | Chris Rodriguez | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| RollnWithJesus | MarShawn Lloyd | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| RollnWithJesus | Darius Cooper | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–5 | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| Dawg2003 | Tyler Loop | Cam Little | 4–5 | 21.00 | 22.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
-| DiscipleJack | CHI | PHI | 4–5 | 9.00 | 12.00 | -3.00 | scored |
+| lfain20 | Jauan Jennings | DeMario Douglas | 4–4 | 1.30 | 2.50 | -1.20 | scored |
 | lfain20 | Tyler Higbee | Isaiah Williams | 4–5 | 11.70 | 16.70 | -5.00 | scored |
-| DiscipleJack | Mack Hollins | Alvin Kamara | 3–5 | 18.50 | 26.50 | -8.00 | scored |
-| therealbulker | Chase McLaughlin | Cameron Dicker | 4–4 | 2.00 | 12.00 | -10.00 | scored |
+| JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |
+| lfain20 | Ted Hurst | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
+| therealbulker | Chase McLaughlin | Cameron Dicker | 3–4 | 14.00 | 21.00 | -7.00 | scored |
+| DiscipleJack | Mack Hollins | Alvin Kamara | 2–5 | 21.30 | 31.20 | -9.90 | scored |
 | Potatomain | GB | MIN | 2–2 | 5.00 | 18.00 | -13.00 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–5 | 7.70 | 22.10 | -14.40 | scored |
-| lfain20 | Jauan Jennings | DeMario Douglas | 5–5 | 0.00 | 20.50 | -20.50 | scored |
 
 
 Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
