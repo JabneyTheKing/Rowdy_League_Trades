@@ -108,7 +108,7 @@
       "pending_trades": 1,
       "roster_id": 5,
       "scored_trades": 2,
-      "team": "Risk of Rome",
+      "team": "Suicide Squad (the game)",
       "trade_count": 3
     },
     {
@@ -119,7 +119,7 @@
       "pending_trades": 2,
       "roster_id": 6,
       "scored_trades": 2,
-      "team": "The lost Cause Fallacy",
+      "team": "The Lost Cause Fallacy",
       "trade_count": 4
     },
     {
@@ -130,7 +130,7 @@
       "pending_trades": 4,
       "roster_id": 3,
       "scored_trades": 1,
-      "team": "Allen Wake",
+      "team": "Josh Jacobs: Most Wanted",
       "trade_count": 5
     }
   ],
@@ -164,7 +164,7 @@
     },
     "3": {
       "name": "JabneyTheKing",
-      "team": "Allen Wake",
+      "team": "Josh Jacobs: Most Wanted",
       "user_id": "978908421594398720"
     },
     "4": {
@@ -174,12 +174,12 @@
     },
     "5": {
       "name": "AfootCoronet56",
-      "team": "Risk of Rome",
+      "team": "Suicide Squad (the game)",
       "user_id": "884892325632270336"
     },
     "6": {
       "name": "Potatomain",
-      "team": "The lost Cause Fallacy",
+      "team": "The Lost Cause Fallacy",
       "user_id": "1042263426653339648"
     },
     "7": {
@@ -1858,7 +1858,7 @@
         "manager": "Potatomain",
         "roster_id": 6,
         "score": 44.2,
-        "team": "The lost Cause Fallacy",
+        "team": "The Lost Cause Fallacy",
         "trade_count": 3,
         "trade_delta": 15.7,
         "waiver_claims": 4,
@@ -1906,7 +1906,7 @@
         "manager": "JabneyTheKing",
         "roster_id": 3,
         "score": 21.68,
-        "team": "Allen Wake",
+        "team": "Josh Jacobs: Most Wanted",
         "trade_count": 4,
         "trade_delta": 0,
         "waiver_claims": 4,
@@ -1954,7 +1954,7 @@
         "manager": "AfootCoronet56",
         "roster_id": 5,
         "score": 0.8,
-        "team": "Risk of Rome",
+        "team": "Suicide Squad (the game)",
         "trade_count": 2,
         "trade_delta": -15.7,
         "waiver_claims": 1,
@@ -3308,7 +3308,7 @@
         "manager": "Potatomain",
         "roster_id": 6,
         "score": 5.84,
-        "team": "The lost Cause Fallacy",
+        "team": "The Lost Cause Fallacy",
         "trade_count": 4,
         "trade_delta": -43.5,
         "waiver_claims": 4,
@@ -3320,7 +3320,7 @@
         "manager": "JabneyTheKing",
         "roster_id": 3,
         "score": -12.16,
-        "team": "Allen Wake",
+        "team": "Josh Jacobs: Most Wanted",
         "trade_count": 5,
         "trade_delta": -55.54,
         "waiver_claims": 4,
@@ -3344,7 +3344,7 @@
         "manager": "AfootCoronet56",
         "roster_id": 5,
         "score": -22.66,
-        "team": "Risk of Rome",
+        "team": "Suicide Squad (the game)",
         "trade_count": 3,
         "trade_delta": -39.16,
         "waiver_claims": 1,
@@ -3592,7 +3592,7 @@
           ],
           "sent_points": 259.2,
           "status": "scored",
-          "team": "Allen Wake"
+          "team": "Josh Jacobs: Most Wanted"
         },
         {
           "delta": -23.46,
@@ -3667,7 +3667,7 @@
           ],
           "sent_points": 195.36,
           "status": "scored",
-          "team": "Risk of Rome"
+          "team": "Suicide Squad (the game)"
         }
       ]
     },
@@ -3829,7 +3829,7 @@
           ],
           "sent_points": 125.1,
           "status": "scored",
-          "team": "The lost Cause Fallacy"
+          "team": "The Lost Cause Fallacy"
         }
       ]
     },
@@ -4020,7 +4020,7 @@
           ],
           "sent_points": 30.4,
           "status": "scored",
-          "team": "Risk of Rome"
+          "team": "Suicide Squad (the game)"
         },
         {
           "delta": 15.7,
@@ -4062,7 +4062,7 @@
           ],
           "sent_points": 14.7,
           "status": "scored",
-          "team": "The lost Cause Fallacy"
+          "team": "The Lost Cause Fallacy"
         }
       ]
     },
@@ -4313,7 +4313,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "Allen Wake"
+          "team": "Josh Jacobs: Most Wanted"
         },
         {
           "delta": 0,
@@ -4355,7 +4355,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "The lost Cause Fallacy"
+          "team": "The Lost Cause Fallacy"
         }
       ]
     },
@@ -4511,7 +4511,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "The lost Cause Fallacy"
+          "team": "The Lost Cause Fallacy"
         },
         {
           "delta": 0,
@@ -4607,7 +4607,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "Allen Wake"
+          "team": "Josh Jacobs: Most Wanted"
         },
         {
           "delta": 0,
@@ -4769,7 +4769,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "Allen Wake"
+          "team": "Josh Jacobs: Most Wanted"
         },
         {
           "delta": 0,
@@ -4806,7 +4806,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "Risk of Rome"
+          "team": "Suicide Squad (the game)"
         }
       ]
     },
@@ -4855,7 +4855,7 @@
           ],
           "sent_points": 0,
           "status": "pending",
-          "team": "Allen Wake"
+          "team": "Josh Jacobs: Most Wanted"
         },
         {
           "delta": 0,
@@ -4902,7 +4902,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-11T22:08:59.717679+00:00",
+  "updated_at": "2026-10-12T06:11:56.797449+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -5775,7 +5775,7 @@
         "points": 42.6,
         "roster_id": 6,
         "scored_claims": 3,
-        "team": "The lost Cause Fallacy"
+        "team": "The Lost Cause Fallacy"
       },
       {
         "best_pickup": "5001",
@@ -5847,7 +5847,7 @@
         "points": 0,
         "roster_id": 5,
         "scored_claims": 0,
-        "team": "Risk of Rome"
+        "team": "Suicide Squad (the game)"
       },
       {
         "best_pickup": "3161",
@@ -5871,7 +5871,7 @@
         "points": -3.9,
         "roster_id": 3,
         "scored_claims": 3,
-        "team": "Allen Wake"
+        "team": "Josh Jacobs: Most Wanted"
       },
       {
         "best_pickup": "9758",

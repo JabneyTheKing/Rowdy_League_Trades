@@ -1,20 +1,20 @@
 # Waiver Champion
 
-Updated 2026-10-11T22:08:59.717679+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-12T06:11:56.797449+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
 | Rank | Manager | Team | Net waiver improvement | Claims | FAAB spent | Best transaction |
 |---:|---|---|---:|---:|---:|---|
-| 1 | Potatomain | The lost Cause Fallacy | 42.60 | 4 | $56 | Alvin Kamara (24.90) |
+| 1 | Potatomain | The Lost Cause Fallacy | 42.60 | 4 | $56 | Alvin Kamara (24.90) |
 | 2 | DiscipleJack | Super Lamario | 42.40 | 1 | $7 | Dalton Schultz (42.40) |
 | 3 | therealbulker | MidnightClub Rice Edition | 34.62 | 6 | $77 | Brian Robinson (20.70) |
 | 4 | lfain20 | Mortal Kombat: DARTside | 30.60 | 3 | $75 | Emanuel Wilson (26.90) |
 | 5 | krunky | Grand Theft Aubrey | 28.60 | 6 | $57 | Bryce Young (21.30) |
 | 6 | Dawg2003 | The Windhelm Nords  | 0.60 | 2 | $20 | Joshua Palmer (0.60) |
-| 7 | AfootCoronet56 | Risk of Rome | 0.00 | 1 | $20 | — |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | 0.00 | 1 | $20 | — |
 | 8 | SethLL | Red Dead Zachdemption | -0.68 | 1 | $2 | Carson Wentz (-0.68) |
-| 9 | JabneyTheKing | Allen Wake | -3.90 | 4 | $94 | Braelon Allen (2.20) |
+| 9 | JabneyTheKing | Josh Jacobs: Most Wanted | -3.90 | 4 | $94 | Braelon Allen (2.20) |
 | 10 | oneyjb | Bower's Inside Story | -6.68 | 5 | $26 | C.J. Stroud (11.52) |
 | 11 | TheRealNoodleMan | Gibbs of War | -9.00 | 5 | $10 | BUF (4.00) |
 | 12 | RollnWithJesus | Breach & Touchdown | -18.80 | 2 | $20 | LV (-5.00) |

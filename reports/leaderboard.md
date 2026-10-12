@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-11T22:08:59.717679+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-12T06:11:56.797449+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -17,9 +17,9 @@ Player production includes bench points and continues after subsequent trades or
 | 7 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 8 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 2 | No |
 | 9 | therealbulker | MidnightClub Rice Edition | -4.04 | 1 | 1 | No |
-| 10 | AfootCoronet56 | Risk of Rome | -39.16 | 2 | 3 | Yes |
-| 11 | Potatomain | The lost Cause Fallacy | -43.50 | 2 | 4 | No |
-| 12 | JabneyTheKing | Allen Wake | -55.54 | 1 | 5 | Yes |
+| 10 | AfootCoronet56 | Suicide Squad (the game) | -39.16 | 2 | 3 | Yes |
+| 11 | Potatomain | The Lost Cause Fallacy | -43.50 | 2 | 4 | No |
+| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -55.54 | 1 | 5 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -37,8 +37,8 @@ First scoring week: **1**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | TheRealNoodleMan / Gibbs of War | Rome Odunze (30.30), Ashton Jeanty (64.40), Davante Adams (62.00), Jake Ferguson (36.30) | Sam LaPorta (56.80), Makai Lemon (11.00), Terry McLaurin (25.10), De'Von Achane (21.10) | 193.00 | 114.00 | +79.00 | scored |
-| JabneyTheKing / Allen Wake | Sam LaPorta (56.80), Terry McLaurin (25.10), De'Von Achane (21.10), Jaxon Smith-Njigba (100.66) | Kenyon Sadiq (38.60), Davante Adams (62.00), Ja'Marr Chase (49.70), Jake Ferguson (36.30), Chris Olave (72.60) | 203.66 | 259.20 | -55.54 | scored |
-| AfootCoronet56 / Risk of Rome | Makai Lemon (11.00), Kenyon Sadiq (38.60), Ja'Marr Chase (49.70), Chris Olave (72.60) | Rome Odunze (30.30), Ashton Jeanty (64.40), Jaxon Smith-Njigba (100.66) | 171.90 | 195.36 | -23.46 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (56.80), Terry McLaurin (25.10), De'Von Achane (21.10), Jaxon Smith-Njigba (100.66) | Kenyon Sadiq (38.60), Davante Adams (62.00), Ja'Marr Chase (49.70), Jake Ferguson (36.30), Chris Olave (72.60) | 203.66 | 259.20 | -55.54 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Makai Lemon (11.00), Kenyon Sadiq (38.60), Ja'Marr Chase (49.70), Chris Olave (72.60) | Rome Odunze (30.30), Ashton Jeanty (64.40), Jaxon Smith-Njigba (100.66) | 171.90 | 195.36 | -23.46 | scored |
 
 JabneyTheKing picks received: 2027 round 4 (original roster 5). Value not included in points.
 
@@ -64,7 +64,7 @@ First scoring week: **1**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (104.10) | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | 125.10 | 65.90 | +59.20 | scored |
-| Potatomain / The lost Cause Fallacy | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 65.90 | 125.10 | -59.20 | scored |
+| Potatomain / The Lost Cause Fallacy | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 65.90 | 125.10 | -59.20 | scored |
 
 ### Trade 1408228309090742272
 
@@ -90,8 +90,8 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| AfootCoronet56 / Risk of Rome | Saquon Barkley (1.50), Jameson Williams (13.20) | Aaron Jones (14.80), Chris Olave (15.60) | 14.70 | 30.40 | -15.70 | scored |
-| Potatomain / The lost Cause Fallacy | Aaron Jones (14.80), Chris Olave (15.60) | Saquon Barkley (1.50), Jameson Williams (13.20) | 30.40 | 14.70 | +15.70 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Saquon Barkley (1.50), Jameson Williams (13.20) | Aaron Jones (14.80), Chris Olave (15.60) | 14.70 | 30.40 | -15.70 | scored |
+| Potatomain / The Lost Cause Fallacy | Aaron Jones (14.80), Chris Olave (15.60) | Saquon Barkley (1.50), Jameson Williams (13.20) | 30.40 | 14.70 | +15.70 | scored |
 
 ### Trade 1410837390251110400
 
@@ -117,8 +117,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Allen Wake | James Cook (0.00), Chris Olave (0.00) | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| Potatomain / The lost Cause Fallacy | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (0.00), Chris Olave (0.00) | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
 
 ### Trade 1413043102498734080
 
@@ -143,7 +143,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The lost Cause Fallacy | Jaylen Warren (0.00), Puka Nacua (0.00) | Aaron Jones (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (0.00), Puka Nacua (0.00) | Aaron Jones (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | RollnWithJesus / Breach & Touchdown | Aaron Jones (0.00), Jaxon Smith-Njigba (0.00) | Jaylen Warren (0.00), Puka Nacua (0.00) | 0.00 | 0.00 | +0.00 | pending |
 
 ### Trade 1413594244643360768
@@ -152,7 +152,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Allen Wake | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 / The Windhelm Nords  | James Cook (0.00), Chris Olave (0.00) | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | 0.00 | 0.00 | +0.00 | pending |
 
 ### Trade 1413558535094050816
@@ -170,8 +170,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Allen Wake | Ja'Marr Chase (0.00) | Josh Allen (0.00), Terry McLaurin (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| AfootCoronet56 / Risk of Rome | Josh Allen (0.00), Terry McLaurin (0.00) | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (0.00) | Josh Allen (0.00), Terry McLaurin (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (0.00), Terry McLaurin (0.00) | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
 
 ### Trade 1414473604535480320
 
@@ -179,5 +179,5 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Allen Wake | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb / Bower's Inside Story | Sam LaPorta (0.00), Jadarian Price (0.00) | Harold Fannin (0.00), Travis Etienne (0.00) | 0.00 | 0.00 | +0.00 | pending |

@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-11T22:08:59.717679+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-12T06:11:56.797449+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -14,10 +14,10 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | 6 | therealbulker | MidnightClub Rice Edition | -4.04 | 34.62 | 11.80 | +42.38 |
 | 7 | oneyjb | Bower's Inside Story | +4.52 | -6.68 | 43.82 | +41.66 |
 | 8 | Dawg2003 | The Windhelm Nords  | +0.00 | 0.60 | 35.10 | +35.70 |
-| 9 | Potatomain | The lost Cause Fallacy | -43.50 | 42.60 | 6.74 | +5.84 |
-| 10 | JabneyTheKing | Allen Wake | -55.54 | -3.90 | 47.28 | -12.16 |
+| 9 | Potatomain | The Lost Cause Fallacy | -43.50 | 42.60 | 6.74 | +5.84 |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -55.54 | -3.90 | 47.28 | -12.16 |
 | 11 | RollnWithJesus | Breach & Touchdown | +0.00 | -18.80 | 0.00 | -18.80 |
-| 12 | AfootCoronet56 | Risk of Rome | -39.16 | 0.00 | 16.50 | -22.66 |
+| 12 | AfootCoronet56 | Suicide Squad (the game) | -39.16 | 0.00 | 16.50 | -22.66 |
 
 ## Free-agent transactions
 

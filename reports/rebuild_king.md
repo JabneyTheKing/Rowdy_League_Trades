@@ -1,21 +1,21 @@
 # Rebuild King
 
-Updated 2026-10-11T22:08:59.717679+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-12T06:11:56.797449+00:00. Season 2026; scored through Week 4. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
 | 1 | lfain20 | Mortal Kombat: DARTside | +1.30 | 30.60 | 32.90 | +64.80 |
-| 2 | Potatomain | The lost Cause Fallacy | +15.70 | 42.60 | -14.10 | +44.20 |
+| 2 | Potatomain | The Lost Cause Fallacy | +15.70 | 42.60 | -14.10 | +44.20 |
 | 3 | Dawg2003 | The Windhelm Nords  | +0.00 | 0.60 | 35.10 | +35.70 |
 | 4 | krunky | Grand Theft Aubrey | +1.90 | 28.60 | 0.00 | +30.50 |
 | 5 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 30.00 | +30.00 |
-| 6 | JabneyTheKing | Allen Wake | +0.00 | -3.90 | 25.58 | +21.68 |
+| 6 | JabneyTheKing | Josh Jacobs: Most Wanted | +0.00 | -3.90 | 25.58 | +21.68 |
 | 7 | therealbulker | MidnightClub Rice Edition | -4.04 | 34.62 | -10.00 | +20.58 |
 | 8 | oneyjb | Bower's Inside Story | +34.12 | -6.68 | -11.40 | +16.04 |
 | 9 | SethLL | Red Dead Zachdemption | -3.20 | -0.68 | 15.80 | +11.92 |
-| 10 | AfootCoronet56 | Risk of Rome | -15.70 | 0.00 | 16.50 | +0.80 |
+| 10 | AfootCoronet56 | Suicide Squad (the game) | -15.70 | 0.00 | 16.50 | +0.80 |
 | 11 | TheRealNoodleMan | Gibbs of War | -30.08 | -9.00 | 22.48 | -16.60 |
 | 12 | RollnWithJesus | Breach & Touchdown | +0.00 | -18.80 | 0.00 | -18.80 |
 
