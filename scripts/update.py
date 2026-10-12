@@ -81,6 +81,8 @@ def evaluate(trade, weekly, through):
             for player in side[direction]:
                 values = []
                 for week in weeks:
+                    if week < trade.get('player_first_scoring_week', {}).get(player, trade['first_scoring_week']):
+                        continue
                     value = weekly.get(str(week), {}).get(player)
                     if value is None:
                         missing.append({'player_id': player, 'week': week})
@@ -380,7 +382,9 @@ def run():
     trades = []
     for t in completed:
         first = config['first_scoring_week_overrides'].get(t['transaction_id'], infer_week(t, starts, through))
-        trades.append(evaluate(normalize(t, managers, first), weekly, through))
+        normalized = normalize(t, managers, first)
+        normalized['player_first_scoring_week'] = config.get('player_first_scoring_week_overrides', {}).get(t['transaction_id'], {})
+        trades.append(evaluate(normalized, weekly, through))
     waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through)
     free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent')
     trade_board = leaderboard(trades, managers)
