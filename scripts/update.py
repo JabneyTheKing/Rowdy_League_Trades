@@ -113,7 +113,20 @@ def leaderboard(trades, managers):
     return sorted(result, key=lambda r: (-r['delta'], r['manager'].lower()))
 
 
-def acquisition_results(transactions, managers, starts, weekly, through, transaction_type, minimum_first_week=1):
+def player_first_week(transaction, player, starts, game_dates, through, release=False):
+    """Use that player's game date, not the league's Thursday opener.
+
+    Same-day moves remain conservatively excluded because stats expose dates,
+    not kickoff timestamps. Explicit overrides can resolve those cases.
+    """
+    dates = {w: game_dates.get(str(w), {}).get(player, start) for w, start in starts.items()}
+    if release:
+        date = datetime.fromtimestamp(transaction['status_updated'] / 1000, ZoneInfo('America/New_York')).date().isoformat()
+        return next((w for w, day in sorted(dates.items()) if date <= day), through + 1)
+    return infer_week(transaction, dates, through)
+
+
+def acquisition_results(transactions, managers, starts, weekly, through, transaction_type, minimum_first_week=1, game_dates=None):
     """Rank acquisitions by net production versus any player dropped in the same move."""
     ordered = sorted((t for t in transactions if t.get('status') == 'complete'),
                      key=lambda t: t['status_updated'])
@@ -122,25 +135,34 @@ def acquisition_results(transactions, managers, starts, weekly, through, transac
         if transaction.get('type') != transaction_type:
             continue
         first = infer_week(transaction, starts, through)
-        if first < minimum_first_week:
-            continue
         bid = (transaction.get('settings') or {}).get('waiver_bid', 0) or 0
         for player, roster in (transaction.get('adds') or {}).items():
+            first = (player_first_week(transaction, player, starts, game_dates, through)
+                     if game_dates is not None else infer_week(transaction, starts, through))
+            if first < minimum_first_week:
+                continue
             dropped_player = next((pid for pid, dropped_roster in (transaction.get('drops') or {}).items()
                                    if dropped_roster == roster), None)
             release = next((later for later in ordered[index + 1:]
                             if (later.get('drops') or {}).get(player) == roster), None)
-            last = min(through, infer_week(release, starts, through) - 1) if release else through
+            release_week = (player_first_week(release, player, starts, game_dates, through, release=True)
+                            if release and game_dates is not None else infer_week(release, starts, through) if release else through + 1)
+            last = min(through, release_week - 1)
+            drop_first = (player_first_week(transaction, dropped_player, starts, game_dates, through)
+                          if dropped_player and game_dates is not None else first)
+            drop_last = (min(through, player_first_week(release, dropped_player, starts, game_dates, through, release=True) - 1)
+                         if dropped_player and release and game_dates is not None else last)
             compared_players = [player] + ([dropped_player] if dropped_player else [])
             missing = [{'player_id': pid, 'week': week}
                        for week in range(first, last + 1) for pid in compared_players
+                       if pid == player or drop_first <= week <= drop_last
                        if weekly.get(str(week), {}).get(pid) is None]
             pickup_points = round(sum(weekly[str(week)][player]
                                       for week in range(first, last + 1)
                                       if weekly.get(str(week), {}).get(player) is not None), 2)
             dropped_points = round(sum(weekly[str(week)][dropped_player]
                                        for week in range(first, last + 1)
-                                       if dropped_player and weekly.get(str(week), {}).get(dropped_player) is not None), 2)
+                                       if dropped_player and drop_first <= week <= drop_last and weekly.get(str(week), {}).get(dropped_player) is not None), 2)
             points = round(pickup_points - dropped_points, 2)
             claims.append({'transaction_id': transaction['transaction_id'], 'roster_id': roster,
                            'manager': managers[str(roster)]['name'], 'player_id': player,
@@ -167,8 +189,8 @@ def acquisition_results(transactions, managers, starts, weekly, through, transac
     return {'standings': standings, 'claims': claims}
 
 
-def waiver_champion(transactions, managers, starts, weekly, through):
-    return acquisition_results(transactions, managers, starts, weekly, through, 'waiver')
+def waiver_champion(transactions, managers, starts, weekly, through, game_dates=None):
+    return acquisition_results(transactions, managers, starts, weekly, through, 'waiver', game_dates=game_dates)
 
 
 def rebuild_master(trade_board, waivers, free_agents):
@@ -361,10 +383,11 @@ def run():
     tracked.update(pid for t in all_tx.values() if t.get('type') in ('waiver', 'free_agent') and t.get('status') == 'complete'
                    for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})])
     tracked.update(pid for t in vetoes for s in t['sides'] for direction in ('received', 'sent') for pid in s[direction])
-    weekly, starts, checks = {}, {}, []
+    weekly, starts, checks, game_dates = {}, {}, [], {}
     for w in range(1, through + 1):
         rows = stat_map(payloads[f'stats/{w}'])
         starts[w] = min(r['date'][:10] for r in rows.values() if r.get('date'))
+        game_dates[str(w)] = {pid: row['date'][:10] for pid, row in rows.items() if row.get('date')}
         matchup_points = {pid: value for m in payloads[f'matchups/{w}'] for pid, value in (m.get('players_points') or {}).items() if value is not None}
         values = {}
         for pid in tracked:
@@ -381,17 +404,20 @@ def run():
         raise ValueError('Weekly stats do not reproduce league player points: ' + json.dumps(checks))
     trades = []
     for t in completed:
-        first = config['first_scoring_week_overrides'].get(t['transaction_id'], infer_week(t, starts, through))
+        assets = set(t.get('adds') or {}) | set(t.get('drops') or {})
+        player_weeks = {pid: player_first_week(t, pid, starts, game_dates, through) for pid in assets}
+        first = config['first_scoring_week_overrides'].get(t['transaction_id'], min(player_weeks.values(), default=infer_week(t, starts, through)))
         normalized = normalize(t, managers, first)
-        normalized['player_first_scoring_week'] = config.get('player_first_scoring_week_overrides', {}).get(t['transaction_id'], {})
+        player_weeks.update(config.get('player_first_scoring_week_overrides', {}).get(t['transaction_id'], {}))
+        normalized['player_first_scoring_week'] = player_weeks
         trades.append(evaluate(normalized, weekly, through))
-    waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through)
-    free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent')
+    waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through, game_dates)
+    free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent', game_dates=game_dates)
     trade_board = leaderboard(trades, managers)
     rebuild = rebuild_master(trade_board, waivers, free_agents)
     post_week_one_trades = [trade for trade in trades if trade['first_scoring_week'] >= 2]
-    post_week_one_waivers = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'waiver', 2)
-    post_week_one_free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent', 2)
+    post_week_one_waivers = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'waiver', 2, game_dates)
+    post_week_one_free_agents = acquisition_results(list(all_tx.values()), managers, starts, weekly, through, 'free_agent', 2, game_dates)
     rebuild_king = rebuild_master(leaderboard(post_week_one_trades, managers),
                                   post_week_one_waivers, post_week_one_free_agents)
     report = {'league_id': lid, 'league_name': league['name'], 'season': season,
@@ -408,7 +434,7 @@ def run():
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings')},
                                            'managers': managers, 'transactions': list(all_tx.values()),
-                                           'weekly_points': weekly, 'week_start_dates': starts})
+                                           'weekly_points': weekly, 'week_start_dates': starts, 'player_game_dates': game_dates})
     write_json(ROOT / 'data/report.json', report)
     markdown(report, players)
     print(f"Updated {league['name']}: {len(trades)} trades, {len(waivers['claims'])} waiver claims, {len(free_agents['claims'])} free-agent adds; through Week {through}; scoring cross-check passed.")
