@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-12T14:39:35.497862+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-12T15:18:26.098586+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -12,7 +12,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (104.10) | Emeka Egbuka (28.60), Rhamondre Stevenson (37.30) | 125.10 | 65.90 | +59.20 | scored |
+| krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (104.10) | Emeka Egbuka (42.80), Rhamondre Stevenson (53.30) | 125.10 | 96.10 | +29.00 | scored |
 
 ### Trade 1408228309090742272
 
@@ -28,7 +28,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Colston Loveland (11.70), Amon-Ra St. Brown (11.50) | Denzel Boston (10.90), Chase Brown (13.60) | 23.20 | 24.50 | -1.30 | scored |
+| krunky / Grand Theft Aubrey | Colston Loveland (15.60), Amon-Ra St. Brown (21.40) | Denzel Boston (23.00), Chase Brown (19.10) | 37.00 | 42.10 | -5.10 | scored |
 
 ### Trade 1413043102498734080
 
@@ -36,8 +36,12 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Kyler Murray (0.00) | Bryce Young (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| krunky / Grand Theft Aubrey | Kyler Murray (18.26) | Bryce Young (0.00) | 18.26 | 0.00 | +18.26 | scored |
 
 krunky picks received: 2027 round 15 (original roster 4). Value not included in points.
 
 krunky picks sent: 2027 round 16 (original roster 1). Value not included in points.
+
+
+Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

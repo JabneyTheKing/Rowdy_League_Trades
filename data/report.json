@@ -2,29 +2,29 @@
   "excluded_transaction_count": 13,
   "leaderboard": [
     {
-      "delta": 61.1,
-      "has_unvalued_assets": true,
-      "incomplete_trades": 0,
-      "manager": "krunky",
-      "pending_trades": 1,
-      "roster_id": 1,
-      "scored_trades": 3,
-      "team": "Grand Theft Aubrey",
-      "trade_count": 4
-    },
-    {
-      "delta": 48.92,
+      "delta": 79.98,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "TheRealNoodleMan",
-      "pending_trades": 2,
+      "pending_trades": 1,
       "roster_id": 2,
-      "scored_trades": 2,
+      "scored_trades": 3,
       "team": "Gibbs of War",
       "trade_count": 4
     },
     {
-      "delta": 26.4,
+      "delta": 45.36,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "krunky",
+      "pending_trades": 0,
+      "roster_id": 1,
+      "scored_trades": 4,
+      "team": "Grand Theft Aubrey",
+      "trade_count": 4
+    },
+    {
+      "delta": 41.9,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "SethLL",
@@ -35,37 +35,15 @@
       "trade_count": 2
     },
     {
-      "delta": 4.52,
+      "delta": 13.0,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
-      "manager": "oneyjb",
+      "manager": "Potatomain",
       "pending_trades": 1,
-      "roster_id": 12,
+      "roster_id": 6,
       "scored_trades": 3,
-      "team": "Bower's Inside Story",
+      "team": "The Lost Cause Fallacy",
       "trade_count": 4
-    },
-    {
-      "delta": 1.3,
-      "has_unvalued_assets": true,
-      "incomplete_trades": 0,
-      "manager": "lfain20",
-      "pending_trades": 1,
-      "roster_id": 4,
-      "scored_trades": 1,
-      "team": "Mortal Kombat: DARTside",
-      "trade_count": 2
-    },
-    {
-      "delta": 0,
-      "has_unvalued_assets": false,
-      "incomplete_trades": 0,
-      "manager": "Dawg2003",
-      "pending_trades": 2,
-      "roster_id": 9,
-      "scored_trades": 0,
-      "team": "The Windhelm Nords ",
-      "trade_count": 2
     },
     {
       "delta": 0,
@@ -90,7 +68,7 @@
       "trade_count": 2
     },
     {
-      "delta": -4.04,
+      "delta": -0.28,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "therealbulker",
@@ -101,7 +79,29 @@
       "trade_count": 1
     },
     {
-      "delta": -39.16,
+      "delta": -3.5,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "oneyjb",
+      "pending_trades": 1,
+      "roster_id": 12,
+      "scored_trades": 3,
+      "team": "Bower's Inside Story",
+      "trade_count": 4
+    },
+    {
+      "delta": -13.16,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "lfain20",
+      "pending_trades": 0,
+      "roster_id": 4,
+      "scored_trades": 2,
+      "team": "Mortal Kombat: DARTside",
+      "trade_count": 2
+    },
+    {
+      "delta": -47.86,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "AfootCoronet56",
@@ -112,26 +112,26 @@
       "trade_count": 3
     },
     {
-      "delta": -43.5,
-      "has_unvalued_assets": false,
-      "incomplete_trades": 0,
-      "manager": "Potatomain",
-      "pending_trades": 2,
-      "roster_id": 6,
-      "scored_trades": 2,
-      "team": "The Lost Cause Fallacy",
-      "trade_count": 4
-    },
-    {
-      "delta": -55.54,
+      "delta": -53.94,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
-      "pending_trades": 4,
+      "pending_trades": 3,
       "roster_id": 3,
-      "scored_trades": 1,
+      "scored_trades": 2,
       "team": "Josh Jacobs: Most Wanted",
       "trade_count": 5
+    },
+    {
+      "delta": -61.5,
+      "has_unvalued_assets": false,
+      "incomplete_trades": 0,
+      "manager": "Dawg2003",
+      "pending_trades": 1,
+      "roster_id": 9,
+      "scored_trades": 1,
+      "team": "The Windhelm Nords ",
+      "trade_count": 2
     }
   ],
   "league_id": "1312064355625369600",
@@ -199,6 +199,7 @@
     }
   },
   "noncompleted_trade_count": 0,
+  "partial_week": 5,
   "players": {
     "10219": {
       "full_name": "Chris Rodriguez",
@@ -1039,16 +1040,48 @@
   "rebuild_king": {
     "free_agent_pickups": [
       {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 37.32,
+        "player_id": "1166",
+        "points": 37.32,
+        "released": false,
+        "roster_id": 3,
+        "status": "scored",
+        "transaction_id": "1411063086793723904"
+      },
+      {
+        "dropped_player_id": "3161",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 37.3,
+        "player_id": "7600",
+        "points": 37.3,
+        "released": false,
+        "roster_id": 10,
+        "status": "scored",
+        "transaction_id": "1406444251990044672"
+      },
+      {
         "dropped_player_id": "13477",
         "dropped_points": 1.9,
         "faab": 0,
         "first_week": 2,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "Dawg2003",
         "missing_scores": [],
-        "pickup_points": 25.7,
+        "pickup_points": 33.1,
         "player_id": "4993",
-        "points": 23.8,
+        "points": 31.2,
         "released": false,
         "roster_id": 9,
         "status": "scored",
@@ -1058,97 +1091,113 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
-        "missing_scores": [],
-        "pickup_points": 23.6,
-        "player_id": "1166",
-        "points": 23.6,
-        "released": false,
-        "roster_id": 3,
-        "status": "scored",
-        "transaction_id": "1411063086793723904"
-      },
-      {
-        "dropped_player_id": null,
-        "dropped_points": 0,
-        "faab": 0,
         "first_week": 2,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
-        "pickup_points": 17.4,
+        "pickup_points": 26.2,
         "player_id": "9486",
-        "points": 17.4,
+        "points": 26.2,
         "released": false,
         "roster_id": 8,
         "status": "scored",
         "transaction_id": "1405928799274614784"
       },
       {
-        "dropped_player_id": "5189",
-        "dropped_points": 11.0,
+        "dropped_player_id": "6819",
+        "dropped_points": 0.0,
         "faab": 0,
-        "first_week": 3,
-        "last_week": 4,
-        "manager": "DiscipleJack",
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
         "missing_scores": [],
-        "pickup_points": 28.0,
-        "player_id": "6083",
-        "points": 17.0,
-        "released": false,
-        "roster_id": 8,
+        "pickup_points": 22.0,
+        "player_id": "96",
+        "points": 22.0,
+        "released": true,
+        "roster_id": 2,
         "status": "scored",
-        "transaction_id": "1407096203132334080"
+        "transaction_id": "1413557864945004544"
       },
       {
         "dropped_player_id": "9508",
-        "dropped_points": 1.6,
+        "dropped_points": 6.9,
         "faab": 0,
         "first_week": 3,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "AfootCoronet56",
         "missing_scores": [],
-        "pickup_points": 18.1,
+        "pickup_points": 27.2,
         "player_id": "11610",
-        "points": 16.5,
+        "points": 20.3,
         "released": false,
         "roster_id": 5,
         "status": "scored",
         "transaction_id": "1408603694995402752"
       },
       {
-        "dropped_player_id": "3161",
-        "dropped_points": 0.0,
+        "dropped_player_id": "5189",
+        "dropped_points": 17.0,
         "faab": 0,
         "first_week": 3,
-        "last_week": 4,
-        "manager": "SethLL",
+        "last_week": 5,
+        "manager": "DiscipleJack",
         "missing_scores": [],
-        "pickup_points": 15.8,
-        "player_id": "7600",
-        "points": 15.8,
+        "pickup_points": 33.0,
+        "player_id": "6083",
+        "points": 16.0,
         "released": false,
-        "roster_id": 10,
+        "roster_id": 8,
         "status": "scored",
-        "transaction_id": "1406444251990044672"
+        "transaction_id": "1407096203132334080"
       },
       {
-        "dropped_player_id": "8210",
-        "dropped_points": 2.5,
+        "dropped_player_id": "7571",
+        "dropped_points": 14.3,
         "faab": 0,
-        "first_week": 3,
-        "last_week": 4,
-        "manager": "lfain20",
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
         "missing_scores": [],
-        "pickup_points": 16.7,
-        "player_id": "2505",
-        "points": 14.2,
+        "pickup_points": 30.3,
+        "player_id": "9480",
+        "points": 16.0,
         "released": false,
-        "roster_id": 4,
+        "roster_id": 2,
         "status": "scored",
-        "transaction_id": "1408458124477632512"
+        "transaction_id": "1410996522291589120"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 2,
+        "last_week": 5,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 13.1,
+        "player_id": "12472",
+        "points": 13.1,
+        "released": false,
+        "roster_id": 9,
+        "status": "scored",
+        "transaction_id": "1406131177638674432"
+      },
+      {
+        "dropped_player_id": "12961",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
+        "missing_scores": [],
+        "pickup_points": 12.0,
+        "player_id": "650",
+        "points": 12.0,
+        "released": false,
+        "roster_id": 2,
+        "status": "scored",
+        "transaction_id": "1413517895861903360"
       },
       {
         "dropped_player_id": "5849",
@@ -1165,38 +1214,6 @@
         "roster_id": 2,
         "status": "scored",
         "transaction_id": "1406095953894580224"
-      },
-      {
-        "dropped_player_id": null,
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 2,
-        "last_week": 4,
-        "manager": "Dawg2003",
-        "missing_scores": [],
-        "pickup_points": 11.3,
-        "player_id": "12472",
-        "points": 11.3,
-        "released": false,
-        "roster_id": 9,
-        "status": "scored",
-        "transaction_id": "1406131177638674432"
-      },
-      {
-        "dropped_player_id": "7571",
-        "dropped_points": 5.6,
-        "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 16.5,
-        "player_id": "9480",
-        "points": 10.9,
-        "released": false,
-        "roster_id": 2,
-        "status": "scored",
-        "transaction_id": "1410996522291589120"
       },
       {
         "dropped_player_id": null,
@@ -1231,6 +1248,54 @@
         "transaction_id": "1407148208685166592"
       },
       {
+        "dropped_player_id": "11786",
+        "dropped_points": 8.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 14.0,
+        "player_id": "12711",
+        "points": 6.0,
+        "released": false,
+        "roster_id": 9,
+        "status": "scored",
+        "transaction_id": "1411464205449678848"
+      },
+      {
+        "dropped_player_id": "8210",
+        "dropped_points": 12.5,
+        "faab": 0,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 16.7,
+        "player_id": "2505",
+        "points": 4.2,
+        "released": false,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1408458124477632512"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 3.7,
+        "player_id": "13305",
+        "points": 3.7,
+        "released": false,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1409918884730929152"
+      },
+      {
         "dropped_player_id": "5870",
         "dropped_points": 8.92,
         "faab": 0,
@@ -1245,6 +1310,38 @@
         "roster_id": 3,
         "status": "scored",
         "transaction_id": "1409201230093271040"
+      },
+      {
+        "dropped_player_id": "12048",
+        "dropped_points": 3.1,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "Potatomain",
+        "missing_scores": [],
+        "pickup_points": 6.0,
+        "player_id": "NYG",
+        "points": 2.9,
+        "released": false,
+        "roster_id": 6,
+        "status": "scored",
+        "transaction_id": "1413755696813490176"
+      },
+      {
+        "dropped_player_id": "4018",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 2.6,
+        "player_id": "12509",
+        "points": 2.6,
+        "released": false,
+        "roster_id": 3,
+        "status": "scored",
+        "transaction_id": "1413543762579197952"
       },
       {
         "dropped_player_id": null,
@@ -1263,43 +1360,11 @@
         "transaction_id": "1408663500519129088"
       },
       {
-        "dropped_player_id": null,
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "lfain20",
-        "missing_scores": [],
-        "pickup_points": 2.2,
-        "player_id": "13305",
-        "points": 2.2,
-        "released": false,
-        "roster_id": 4,
-        "status": "scored",
-        "transaction_id": "1409918884730929152"
-      },
-      {
-        "dropped_player_id": "PHI",
-        "dropped_points": 5.0,
-        "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "DiscipleJack",
-        "missing_scores": [],
-        "pickup_points": 7.0,
-        "player_id": "CHI",
-        "points": 2.0,
-        "released": true,
-        "roster_id": 8,
-        "status": "scored",
-        "transaction_id": "1411105139720249344"
-      },
-      {
         "dropped_player_id": "LAR",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "AfootCoronet56",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1311,27 +1376,11 @@
         "transaction_id": "1415130296994594816"
       },
       {
-        "dropped_player_id": "11786",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "Dawg2003",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "12711",
-        "points": 0,
-        "released": false,
-        "roster_id": 9,
-        "status": "pending",
-        "transaction_id": "1411464205449678848"
-      },
-      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "Dawg2003",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1346,8 +1395,8 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "Dawg2003",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1362,8 +1411,8 @@
         "dropped_player_id": "CHI",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1435,31 +1484,15 @@
         "points": 0,
         "released": true,
         "roster_id": 3,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1412231373078495232"
-      },
-      {
-        "dropped_player_id": "4018",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "12509",
-        "points": 0,
-        "released": false,
-        "roster_id": 3,
-        "status": "pending",
-        "transaction_id": "1413543762579197952"
       },
       {
         "dropped_player_id": "3634",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "JabneyTheKing",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1499,31 +1532,15 @@
         "points": 0,
         "released": true,
         "roster_id": 4,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1411840469683421184"
-      },
-      {
-        "dropped_player_id": "9501",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "lfain20",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "7049",
-        "points": 0,
-        "released": true,
-        "roster_id": 4,
-        "status": "pending",
-        "transaction_id": "1412293137614815232"
       },
       {
         "dropped_player_id": "7049",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1538,8 +1555,8 @@
         "dropped_player_id": "11608",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1571,23 +1588,23 @@
         "dropped_points": 0,
         "faab": 0,
         "first_week": 5,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
-        "pickup_points": 0,
+        "pickup_points": 0.0,
         "player_id": "11630",
-        "points": 0,
+        "points": 0.0,
         "released": false,
         "roster_id": 12,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1411532864754823168"
       },
       {
         "dropped_player_id": "BAL",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1602,8 +1619,8 @@
         "dropped_player_id": "11625",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1615,27 +1632,11 @@
         "transaction_id": "1415098345038331904"
       },
       {
-        "dropped_player_id": "12048",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "Potatomain",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "NYG",
-        "points": 0,
-        "released": false,
-        "roster_id": 6,
-        "status": "pending",
-        "transaction_id": "1413755696813490176"
-      },
-      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1650,8 +1651,8 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1666,8 +1667,8 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0,
@@ -1683,7 +1684,7 @@
         "dropped_points": 0.0,
         "faab": 0,
         "first_week": 4,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "therealbulker",
         "missing_scores": [],
         "pickup_points": 0.0,
@@ -1693,38 +1694,6 @@
         "roster_id": 7,
         "status": "scored",
         "transaction_id": "1410138105859567616"
-      },
-      {
-        "dropped_player_id": "12961",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "650",
-        "points": 0,
-        "released": false,
-        "roster_id": 2,
-        "status": "pending",
-        "transaction_id": "1413517895861903360"
-      },
-      {
-        "dropped_player_id": "6819",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "96",
-        "points": 0,
-        "released": true,
-        "roster_id": 2,
-        "status": "pending",
-        "transaction_id": "1413557864945004544"
       },
       {
         "dropped_player_id": "3321",
@@ -1759,16 +1728,32 @@
         "transaction_id": "1411069421253894144"
       },
       {
-        "dropped_player_id": "11608",
-        "dropped_points": 14.3,
+        "dropped_player_id": "PHI",
+        "dropped_points": 12.0,
         "faab": 0,
         "first_week": 4,
-        "last_week": 4,
+        "last_week": 5,
+        "manager": "DiscipleJack",
+        "missing_scores": [],
+        "pickup_points": 9.0,
+        "player_id": "CHI",
+        "points": -3.0,
+        "released": true,
+        "roster_id": 8,
+        "status": "scored",
+        "transaction_id": "1411105139720249344"
+      },
+      {
+        "dropped_player_id": "11608",
+        "dropped_points": 16.7,
+        "faab": 0,
+        "first_week": 4,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
         "pickup_points": 11.7,
         "player_id": "3271",
-        "points": -2.6,
+        "points": -5.0,
         "released": false,
         "roster_id": 4,
         "status": "scored",
@@ -1776,15 +1761,15 @@
       },
       {
         "dropped_player_id": "4035",
-        "dropped_points": 24.9,
+        "dropped_points": 26.5,
         "faab": 0,
         "first_week": 3,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
         "pickup_points": 18.5,
         "player_id": "4177",
-        "points": -6.4,
+        "points": -8.0,
         "released": false,
         "roster_id": 8,
         "status": "scored",
@@ -1807,22 +1792,6 @@
         "transaction_id": "1409227964775739392"
       },
       {
-        "dropped_player_id": "13285",
-        "dropped_points": 19.1,
-        "faab": 0,
-        "first_week": 2,
-        "last_week": 4,
-        "manager": "oneyjb",
-        "missing_scores": [],
-        "pickup_points": 7.7,
-        "player_id": "13337",
-        "points": -11.4,
-        "released": false,
-        "roster_id": 12,
-        "status": "scored",
-        "transaction_id": "1405252945309642752"
-      },
-      {
         "dropped_player_id": "MIN",
         "dropped_points": 18.0,
         "faab": 0,
@@ -1837,63 +1806,107 @@
         "roster_id": 6,
         "status": "scored",
         "transaction_id": "1405907241835503616"
+      },
+      {
+        "dropped_player_id": "13285",
+        "dropped_points": 22.1,
+        "faab": 0,
+        "first_week": 2,
+        "last_week": 5,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 7.7,
+        "player_id": "13337",
+        "points": -14.4,
+        "released": false,
+        "roster_id": 12,
+        "status": "scored",
+        "transaction_id": "1405252945309642752"
+      },
+      {
+        "dropped_player_id": "9501",
+        "dropped_points": 20.5,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 0.0,
+        "player_id": "7049",
+        "points": -20.5,
+        "released": true,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1412293137614815232"
       }
     ],
     "standings": [
       {
-        "free_agent_adds": 10,
-        "free_agent_points": 32.9,
-        "manager": "lfain20",
-        "roster_id": 4,
-        "score": 64.8,
-        "team": "Mortal Kombat: DARTside",
-        "trade_count": 2,
-        "trade_delta": 1.3,
-        "waiver_claims": 3,
-        "waiver_points": 30.6
+        "free_agent_adds": 4,
+        "free_agent_points": 61.58,
+        "manager": "TheRealNoodleMan",
+        "roster_id": 2,
+        "score": 73.76,
+        "team": "Gibbs of War",
+        "trade_count": 3,
+        "trade_delta": 20.18,
+        "waiver_claims": 5,
+        "waiver_points": -8.0
       },
       {
         "free_agent_adds": 3,
-        "free_agent_points": -14.1,
+        "free_agent_points": -11.2,
         "manager": "Potatomain",
         "roster_id": 6,
-        "score": 44.2,
+        "score": 61.9,
         "team": "The Lost Cause Fallacy",
         "trade_count": 3,
-        "trade_delta": 15.7,
+        "trade_delta": 42.0,
         "waiver_claims": 4,
-        "waiver_points": 42.6
-      },
-      {
-        "free_agent_adds": 5,
-        "free_agent_points": 35.1,
-        "manager": "Dawg2003",
-        "roster_id": 9,
-        "score": 35.7,
-        "team": "The Windhelm Nords ",
-        "trade_count": 2,
-        "trade_delta": 0,
-        "waiver_claims": 2,
-        "waiver_points": 0.6
+        "waiver_points": 31.1
       },
       {
         "free_agent_adds": 1,
         "free_agent_points": 0,
         "manager": "krunky",
         "roster_id": 1,
-        "score": 30.5,
+        "score": 61.76,
         "team": "Grand Theft Aubrey",
         "trade_count": 3,
-        "trade_delta": 1.9,
+        "trade_delta": 16.36,
         "waiver_claims": 5,
-        "waiver_points": 28.6
+        "waiver_points": 45.4
+      },
+      {
+        "free_agent_adds": 10,
+        "free_agent_points": 1.5,
+        "manager": "lfain20",
+        "roster_id": 4,
+        "score": 56.88,
+        "team": "Mortal Kombat: DARTside",
+        "trade_count": 2,
+        "trade_delta": -13.16,
+        "waiver_claims": 3,
+        "waiver_points": 68.54
+      },
+      {
+        "free_agent_adds": 1,
+        "free_agent_points": 37.3,
+        "manager": "SethLL",
+        "roster_id": 10,
+        "score": 33.42,
+        "team": "Red Dead Zachdemption",
+        "trade_count": 1,
+        "trade_delta": -3.2,
+        "waiver_claims": 1,
+        "waiver_points": -0.68
       },
       {
         "free_agent_adds": 5,
-        "free_agent_points": 30.0,
+        "free_agent_points": 31.2,
         "manager": "DiscipleJack",
         "roster_id": 8,
-        "score": 30.0,
+        "score": 31.2,
         "team": "Super Lamario",
         "trade_count": 0,
         "trade_delta": 0,
@@ -1902,87 +1915,75 @@
       },
       {
         "free_agent_adds": 9,
-        "free_agent_points": 25.58,
+        "free_agent_points": 41.9,
         "manager": "JabneyTheKing",
         "roster_id": 3,
-        "score": 21.68,
+        "score": 31.0,
         "team": "Josh Jacobs: Most Wanted",
         "trade_count": 4,
-        "trade_delta": 0,
+        "trade_delta": -20.2,
         "waiver_claims": 4,
-        "waiver_points": -3.9
+        "waiver_points": 9.3
       },
       {
         "free_agent_adds": 2,
         "free_agent_points": -10.0,
         "manager": "therealbulker",
         "roster_id": 7,
-        "score": 20.58,
+        "score": 13.34,
         "team": "MidnightClub Rice Edition",
         "trade_count": 1,
-        "trade_delta": -4.04,
+        "trade_delta": -0.28,
         "waiver_claims": 6,
-        "waiver_points": 34.62
-      },
-      {
-        "free_agent_adds": 5,
-        "free_agent_points": -11.4,
-        "manager": "oneyjb",
-        "roster_id": 12,
-        "score": 16.04,
-        "team": "Bower's Inside Story",
-        "trade_count": 3,
-        "trade_delta": 34.12,
-        "waiver_claims": 5,
-        "waiver_points": -6.68
-      },
-      {
-        "free_agent_adds": 1,
-        "free_agent_points": 15.8,
-        "manager": "SethLL",
-        "roster_id": 10,
-        "score": 11.92,
-        "team": "Red Dead Zachdemption",
-        "trade_count": 1,
-        "trade_delta": -3.2,
-        "waiver_claims": 1,
-        "waiver_points": -0.68
+        "waiver_points": 23.62
       },
       {
         "free_agent_adds": 2,
-        "free_agent_points": 16.5,
+        "free_agent_points": 20.3,
         "manager": "AfootCoronet56",
         "roster_id": 5,
-        "score": 0.8,
+        "score": -2.0,
         "team": "Suicide Squad (the game)",
         "trade_count": 2,
-        "trade_delta": -15.7,
+        "trade_delta": -21.8,
         "waiver_claims": 1,
-        "waiver_points": 0
+        "waiver_points": -0.5
       },
       {
-        "free_agent_adds": 4,
-        "free_agent_points": 22.48,
-        "manager": "TheRealNoodleMan",
-        "roster_id": 2,
-        "score": -16.6,
-        "team": "Gibbs of War",
+        "free_agent_adds": 5,
+        "free_agent_points": 50.3,
+        "manager": "Dawg2003",
+        "roster_id": 9,
+        "score": -8.4,
+        "team": "The Windhelm Nords ",
+        "trade_count": 2,
+        "trade_delta": -61.5,
+        "waiver_claims": 2,
+        "waiver_points": 2.8
+      },
+      {
+        "free_agent_adds": 5,
+        "free_agent_points": -14.4,
+        "manager": "oneyjb",
+        "roster_id": 12,
+        "score": -27.02,
+        "team": "Bower's Inside Story",
         "trade_count": 3,
-        "trade_delta": -30.08,
+        "trade_delta": 41.6,
         "waiver_claims": 5,
-        "waiver_points": -9.0
+        "waiver_points": -54.22
       },
       {
         "free_agent_adds": 3,
         "free_agent_points": 0,
         "manager": "RollnWithJesus",
         "roster_id": 11,
-        "score": -18.8,
+        "score": -31.1,
         "team": "Breach & Touchdown",
         "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 2,
-        "waiver_points": -18.8
+        "waiver_points": -31.1
       }
     ]
   },
@@ -2005,6 +2006,70 @@
         "transaction_id": "1398019459137957888"
       },
       {
+        "dropped_player_id": "8154",
+        "dropped_points": 48.6,
+        "faab": 0,
+        "first_week": 1,
+        "last_week": 5,
+        "manager": "Potatomain",
+        "missing_scores": [],
+        "pickup_points": 93.12,
+        "player_id": "6804",
+        "points": 44.52,
+        "released": false,
+        "roster_id": 6,
+        "status": "scored",
+        "transaction_id": "1398136449341091840"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 37.32,
+        "player_id": "1166",
+        "points": 37.32,
+        "released": false,
+        "roster_id": 3,
+        "status": "scored",
+        "transaction_id": "1411063086793723904"
+      },
+      {
+        "dropped_player_id": "3161",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 37.3,
+        "player_id": "7600",
+        "points": 37.3,
+        "released": false,
+        "roster_id": 10,
+        "status": "scored",
+        "transaction_id": "1406444251990044672"
+      },
+      {
+        "dropped_player_id": "13477",
+        "dropped_points": 1.9,
+        "faab": 0,
+        "first_week": 2,
+        "last_week": 5,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 33.1,
+        "player_id": "4993",
+        "points": 31.2,
+        "released": false,
+        "roster_id": 9,
+        "status": "scored",
+        "transaction_id": "1405969927692660736"
+      },
+      {
         "dropped_player_id": "8161",
         "dropped_points": 41.18,
         "faab": 0,
@@ -2021,148 +2086,132 @@
         "transaction_id": "1400542326345957376"
       },
       {
-        "dropped_player_id": "13477",
-        "dropped_points": 1.9,
-        "faab": 0,
-        "first_week": 2,
-        "last_week": 4,
-        "manager": "Dawg2003",
-        "missing_scores": [],
-        "pickup_points": 25.7,
-        "player_id": "4993",
-        "points": 23.8,
-        "released": false,
-        "roster_id": 9,
-        "status": "scored",
-        "transaction_id": "1405969927692660736"
-      },
-      {
-        "dropped_player_id": null,
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
-        "missing_scores": [],
-        "pickup_points": 23.6,
-        "player_id": "1166",
-        "points": 23.6,
-        "released": false,
-        "roster_id": 3,
-        "status": "scored",
-        "transaction_id": "1411063086793723904"
-      },
-      {
-        "dropped_player_id": "8154",
-        "dropped_points": 47.0,
-        "faab": 0,
-        "first_week": 1,
-        "last_week": 4,
-        "manager": "Potatomain",
-        "missing_scores": [],
-        "pickup_points": 67.84,
-        "player_id": "6804",
-        "points": 20.84,
-        "released": false,
-        "roster_id": 6,
-        "status": "scored",
-        "transaction_id": "1398136449341091840"
-      },
-      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
         "first_week": 2,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
-        "pickup_points": 17.4,
+        "pickup_points": 26.2,
         "player_id": "9486",
-        "points": 17.4,
+        "points": 26.2,
         "released": false,
         "roster_id": 8,
         "status": "scored",
         "transaction_id": "1405928799274614784"
       },
       {
-        "dropped_player_id": "5189",
-        "dropped_points": 11.0,
-        "faab": 0,
-        "first_week": 3,
-        "last_week": 4,
-        "manager": "DiscipleJack",
-        "missing_scores": [],
-        "pickup_points": 28.0,
-        "player_id": "6083",
-        "points": 17.0,
-        "released": false,
-        "roster_id": 8,
-        "status": "scored",
-        "transaction_id": "1407096203132334080"
-      },
-      {
-        "dropped_player_id": "9508",
-        "dropped_points": 1.6,
-        "faab": 0,
-        "first_week": 3,
-        "last_week": 4,
-        "manager": "AfootCoronet56",
-        "missing_scores": [],
-        "pickup_points": 18.1,
-        "player_id": "11610",
-        "points": 16.5,
-        "released": false,
-        "roster_id": 5,
-        "status": "scored",
-        "transaction_id": "1408603694995402752"
-      },
-      {
-        "dropped_player_id": "3161",
-        "dropped_points": 0.0,
-        "faab": 0,
-        "first_week": 3,
-        "last_week": 4,
-        "manager": "SethLL",
-        "missing_scores": [],
-        "pickup_points": 15.8,
-        "player_id": "7600",
-        "points": 15.8,
-        "released": false,
-        "roster_id": 10,
-        "status": "scored",
-        "transaction_id": "1406444251990044672"
-      },
-      {
         "dropped_player_id": "12711",
-        "dropped_points": 38.0,
+        "dropped_points": 52.0,
         "faab": 0,
         "first_week": 1,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "JabneyTheKing",
         "missing_scores": [],
-        "pickup_points": 53.0,
+        "pickup_points": 74.0,
         "player_id": "12185",
-        "points": 15.0,
+        "points": 22.0,
         "released": false,
         "roster_id": 3,
         "status": "scored",
         "transaction_id": "1400244202142445568"
       },
       {
-        "dropped_player_id": "8210",
-        "dropped_points": 2.5,
+        "dropped_player_id": "6819",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
+        "missing_scores": [],
+        "pickup_points": 22.0,
+        "player_id": "96",
+        "points": 22.0,
+        "released": true,
+        "roster_id": 2,
+        "status": "scored",
+        "transaction_id": "1413557864945004544"
+      },
+      {
+        "dropped_player_id": "9508",
+        "dropped_points": 6.9,
         "faab": 0,
         "first_week": 3,
-        "last_week": 4,
-        "manager": "lfain20",
+        "last_week": 5,
+        "manager": "AfootCoronet56",
         "missing_scores": [],
-        "pickup_points": 16.7,
-        "player_id": "2505",
-        "points": 14.2,
+        "pickup_points": 27.2,
+        "player_id": "11610",
+        "points": 20.3,
         "released": false,
-        "roster_id": 4,
+        "roster_id": 5,
         "status": "scored",
-        "transaction_id": "1408458124477632512"
+        "transaction_id": "1408603694995402752"
+      },
+      {
+        "dropped_player_id": "5189",
+        "dropped_points": 17.0,
+        "faab": 0,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "DiscipleJack",
+        "missing_scores": [],
+        "pickup_points": 33.0,
+        "player_id": "6083",
+        "points": 16.0,
+        "released": false,
+        "roster_id": 8,
+        "status": "scored",
+        "transaction_id": "1407096203132334080"
+      },
+      {
+        "dropped_player_id": "7571",
+        "dropped_points": 14.3,
+        "faab": 0,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
+        "missing_scores": [],
+        "pickup_points": 30.3,
+        "player_id": "9480",
+        "points": 16.0,
+        "released": false,
+        "roster_id": 2,
+        "status": "scored",
+        "transaction_id": "1410996522291589120"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 1,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
+        "missing_scores": [],
+        "pickup_points": 14.6,
+        "player_id": "13414",
+        "points": 14.6,
+        "released": false,
+        "roster_id": 2,
+        "status": "scored",
+        "transaction_id": "1399924555593564160"
+      },
+      {
+        "dropped_player_id": "9225",
+        "dropped_points": 15.6,
+        "faab": 0,
+        "first_week": 1,
+        "last_week": 5,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 30.0,
+        "player_id": "13545",
+        "points": 14.4,
+        "released": false,
+        "roster_id": 12,
+        "status": "scored",
+        "transaction_id": "1401395042563670016"
       },
       {
         "dropped_player_id": "LAC",
@@ -2184,33 +2233,33 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 1,
-        "last_week": 4,
+        "first_week": 2,
+        "last_week": 5,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 13.1,
+        "player_id": "12472",
+        "points": 13.1,
+        "released": false,
+        "roster_id": 9,
+        "status": "scored",
+        "transaction_id": "1406131177638674432"
+      },
+      {
+        "dropped_player_id": "12961",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
         "manager": "TheRealNoodleMan",
         "missing_scores": [],
-        "pickup_points": 13.0,
-        "player_id": "13414",
-        "points": 13.0,
+        "pickup_points": 12.0,
+        "player_id": "650",
+        "points": 12.0,
         "released": false,
         "roster_id": 2,
         "status": "scored",
-        "transaction_id": "1399924555593564160"
-      },
-      {
-        "dropped_player_id": "9225",
-        "dropped_points": 15.6,
-        "faab": 0,
-        "first_week": 1,
-        "last_week": 4,
-        "manager": "oneyjb",
-        "missing_scores": [],
-        "pickup_points": 28.0,
-        "player_id": "13545",
-        "points": 12.4,
-        "released": false,
-        "roster_id": 12,
-        "status": "scored",
-        "transaction_id": "1401395042563670016"
+        "transaction_id": "1413517895861903360"
       },
       {
         "dropped_player_id": "5849",
@@ -2232,22 +2281,6 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 2,
-        "last_week": 4,
-        "manager": "Dawg2003",
-        "missing_scores": [],
-        "pickup_points": 11.3,
-        "player_id": "12472",
-        "points": 11.3,
-        "released": false,
-        "roster_id": 9,
-        "status": "scored",
-        "transaction_id": "1406131177638674432"
-      },
-      {
-        "dropped_player_id": null,
-        "dropped_points": 0,
-        "faab": 0,
         "first_week": 1,
         "last_week": 3,
         "manager": "JabneyTheKing",
@@ -2259,22 +2292,6 @@
         "roster_id": 3,
         "status": "scored",
         "transaction_id": "1400008164484620288"
-      },
-      {
-        "dropped_player_id": "7571",
-        "dropped_points": 5.6,
-        "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 16.5,
-        "player_id": "9480",
-        "points": 10.9,
-        "released": false,
-        "roster_id": 2,
-        "status": "scored",
-        "transaction_id": "1410996522291589120"
       },
       {
         "dropped_player_id": null,
@@ -2309,6 +2326,38 @@
         "transaction_id": "1407148208685166592"
       },
       {
+        "dropped_player_id": "11786",
+        "dropped_points": 8.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "Dawg2003",
+        "missing_scores": [],
+        "pickup_points": 14.0,
+        "player_id": "12711",
+        "points": 6.0,
+        "released": false,
+        "roster_id": 9,
+        "status": "scored",
+        "transaction_id": "1411464205449678848"
+      },
+      {
+        "dropped_player_id": "JAX",
+        "dropped_points": 45.0,
+        "faab": 0,
+        "first_week": 1,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 51.0,
+        "player_id": "CIN",
+        "points": 6.0,
+        "released": false,
+        "roster_id": 10,
+        "status": "scored",
+        "transaction_id": "1397343415686946816"
+      },
+      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
@@ -2341,6 +2390,54 @@
         "transaction_id": "1397336863831818240"
       },
       {
+        "dropped_player_id": "8210",
+        "dropped_points": 12.5,
+        "faab": 0,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 16.7,
+        "player_id": "2505",
+        "points": 4.2,
+        "released": false,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1408458124477632512"
+      },
+      {
+        "dropped_player_id": "10219",
+        "dropped_points": 24.4,
+        "faab": 0,
+        "first_week": 1,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 28.1,
+        "player_id": "8136",
+        "points": 3.7,
+        "released": false,
+        "roster_id": 1,
+        "status": "scored",
+        "transaction_id": "1398440851897638912"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 3.7,
+        "player_id": "13305",
+        "points": 3.7,
+        "released": false,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1409918884730929152"
+      },
+      {
         "dropped_player_id": "8205",
         "dropped_points": 0.0,
         "faab": 0,
@@ -2355,22 +2452,6 @@
         "roster_id": 4,
         "status": "scored",
         "transaction_id": "1399876887286669312"
-      },
-      {
-        "dropped_player_id": "13311",
-        "dropped_points": 11.7,
-        "faab": 0,
-        "first_week": 1,
-        "last_week": 4,
-        "manager": "lfain20",
-        "missing_scores": [],
-        "pickup_points": 14.8,
-        "player_id": "13296",
-        "points": 3.1,
-        "released": false,
-        "roster_id": 4,
-        "status": "scored",
-        "transaction_id": "1401233977364246528"
       },
       {
         "dropped_player_id": "5870",
@@ -2389,20 +2470,36 @@
         "transaction_id": "1409201230093271040"
       },
       {
-        "dropped_player_id": "10219",
-        "dropped_points": 22.8,
+        "dropped_player_id": "12048",
+        "dropped_points": 3.1,
         "faab": 0,
-        "first_week": 1,
-        "last_week": 4,
-        "manager": "krunky",
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "Potatomain",
         "missing_scores": [],
-        "pickup_points": 25.6,
-        "player_id": "8136",
-        "points": 2.8,
+        "pickup_points": 6.0,
+        "player_id": "NYG",
+        "points": 2.9,
         "released": false,
-        "roster_id": 1,
+        "roster_id": 6,
         "status": "scored",
-        "transaction_id": "1398440851897638912"
+        "transaction_id": "1413755696813490176"
+      },
+      {
+        "dropped_player_id": "4018",
+        "dropped_points": 0.0,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 2.6,
+        "player_id": "12509",
+        "points": 2.6,
+        "released": false,
+        "roster_id": 3,
+        "status": "scored",
+        "transaction_id": "1413543762579197952"
       },
       {
         "dropped_player_id": null,
@@ -2424,38 +2521,6 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "lfain20",
-        "missing_scores": [],
-        "pickup_points": 2.2,
-        "player_id": "13305",
-        "points": 2.2,
-        "released": false,
-        "roster_id": 4,
-        "status": "scored",
-        "transaction_id": "1409918884730929152"
-      },
-      {
-        "dropped_player_id": "PHI",
-        "dropped_points": 5.0,
-        "faab": 0,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "DiscipleJack",
-        "missing_scores": [],
-        "pickup_points": 7.0,
-        "player_id": "CHI",
-        "points": 2.0,
-        "released": true,
-        "roster_id": 8,
-        "status": "scored",
-        "transaction_id": "1411105139720249344"
-      },
-      {
-        "dropped_player_id": null,
-        "dropped_points": 0,
-        "faab": 0,
         "first_week": 1,
         "last_week": 3,
         "manager": "JabneyTheKing",
@@ -2469,11 +2534,27 @@
         "transaction_id": "1400600612411830272"
       },
       {
+        "dropped_player_id": "13311",
+        "dropped_points": 14.3,
+        "faab": 0,
+        "first_week": 1,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 14.8,
+        "player_id": "13296",
+        "points": 0.5,
+        "released": false,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1401233977364246528"
+      },
+      {
         "dropped_player_id": "LAR",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "AfootCoronet56",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2485,27 +2566,11 @@
         "transaction_id": "1415130296994594816"
       },
       {
-        "dropped_player_id": "11786",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "Dawg2003",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "12711",
-        "points": 0,
-        "released": false,
-        "roster_id": 9,
-        "status": "pending",
-        "transaction_id": "1411464205449678848"
-      },
-      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "Dawg2003",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2520,8 +2585,8 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "Dawg2003",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2536,8 +2601,8 @@
         "dropped_player_id": "CHI",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2641,31 +2706,15 @@
         "points": 0,
         "released": true,
         "roster_id": 3,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1412231373078495232"
-      },
-      {
-        "dropped_player_id": "4018",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "12509",
-        "points": 0,
-        "released": false,
-        "roster_id": 3,
-        "status": "pending",
-        "transaction_id": "1413543762579197952"
       },
       {
         "dropped_player_id": "3634",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "JabneyTheKing",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2753,31 +2802,15 @@
         "points": 0,
         "released": true,
         "roster_id": 4,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1411840469683421184"
-      },
-      {
-        "dropped_player_id": "9501",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "lfain20",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "7049",
-        "points": 0,
-        "released": true,
-        "roster_id": 4,
-        "status": "pending",
-        "transaction_id": "1412293137614815232"
       },
       {
         "dropped_player_id": "7049",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2792,8 +2825,8 @@
         "dropped_player_id": "11608",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2825,23 +2858,23 @@
         "dropped_points": 0,
         "faab": 0,
         "first_week": 5,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
-        "pickup_points": 0,
+        "pickup_points": 0.0,
         "player_id": "11630",
-        "points": 0,
+        "points": 0.0,
         "released": false,
         "roster_id": 12,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1411532864754823168"
       },
       {
         "dropped_player_id": "BAL",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2856,8 +2889,8 @@
         "dropped_player_id": "11625",
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2869,27 +2902,11 @@
         "transaction_id": "1415098345038331904"
       },
       {
-        "dropped_player_id": "12048",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "Potatomain",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "NYG",
-        "points": 0,
-        "released": false,
-        "roster_id": 6,
-        "status": "pending",
-        "transaction_id": "1413755696813490176"
-      },
-      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2904,8 +2921,8 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2920,8 +2937,8 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
+        "first_week": 6,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0,
@@ -2969,7 +2986,7 @@
         "dropped_points": 0.0,
         "faab": 0,
         "first_week": 4,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "therealbulker",
         "missing_scores": [],
         "pickup_points": 0.0,
@@ -2979,38 +2996,6 @@
         "roster_id": 7,
         "status": "scored",
         "transaction_id": "1410138105859567616"
-      },
-      {
-        "dropped_player_id": "12961",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "650",
-        "points": 0,
-        "released": false,
-        "roster_id": 2,
-        "status": "pending",
-        "transaction_id": "1413517895861903360"
-      },
-      {
-        "dropped_player_id": "6819",
-        "dropped_points": 0,
-        "faab": 0,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "96",
-        "points": 0,
-        "released": true,
-        "roster_id": 2,
-        "status": "pending",
-        "transaction_id": "1413557864945004544"
       },
       {
         "dropped_player_id": "3321",
@@ -3045,32 +3030,32 @@
         "transaction_id": "1411069421253894144"
       },
       {
-        "dropped_player_id": "JAX",
-        "dropped_points": 43.0,
+        "dropped_player_id": "PHI",
+        "dropped_points": 12.0,
         "faab": 0,
-        "first_week": 1,
-        "last_week": 4,
-        "manager": "SethLL",
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "DiscipleJack",
         "missing_scores": [],
-        "pickup_points": 41.0,
-        "player_id": "CIN",
-        "points": -2.0,
-        "released": false,
-        "roster_id": 10,
+        "pickup_points": 9.0,
+        "player_id": "CHI",
+        "points": -3.0,
+        "released": true,
+        "roster_id": 8,
         "status": "scored",
-        "transaction_id": "1397343415686946816"
+        "transaction_id": "1411105139720249344"
       },
       {
         "dropped_player_id": "11608",
-        "dropped_points": 14.3,
+        "dropped_points": 16.7,
         "faab": 0,
         "first_week": 4,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
         "pickup_points": 11.7,
         "player_id": "3271",
-        "points": -2.6,
+        "points": -5.0,
         "released": false,
         "roster_id": 4,
         "status": "scored",
@@ -3110,15 +3095,15 @@
       },
       {
         "dropped_player_id": "4035",
-        "dropped_points": 24.9,
+        "dropped_points": 26.5,
         "faab": 0,
         "first_week": 3,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
         "pickup_points": 18.5,
         "player_id": "4177",
-        "points": -6.4,
+        "points": -8.0,
         "released": false,
         "roster_id": 8,
         "status": "scored",
@@ -3157,22 +3142,6 @@
         "transaction_id": "1409227964775739392"
       },
       {
-        "dropped_player_id": "13285",
-        "dropped_points": 19.1,
-        "faab": 0,
-        "first_week": 2,
-        "last_week": 4,
-        "manager": "oneyjb",
-        "missing_scores": [],
-        "pickup_points": 7.7,
-        "player_id": "13337",
-        "points": -11.4,
-        "released": false,
-        "roster_id": 12,
-        "status": "scored",
-        "transaction_id": "1405252945309642752"
-      },
-      {
         "dropped_player_id": "MIN",
         "dropped_points": 18.0,
         "faab": 0,
@@ -3189,16 +3158,48 @@
         "transaction_id": "1405907241835503616"
       },
       {
+        "dropped_player_id": "13285",
+        "dropped_points": 22.1,
+        "faab": 0,
+        "first_week": 2,
+        "last_week": 5,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 7.7,
+        "player_id": "13337",
+        "points": -14.4,
+        "released": false,
+        "roster_id": 12,
+        "status": "scored",
+        "transaction_id": "1405252945309642752"
+      },
+      {
+        "dropped_player_id": "9501",
+        "dropped_points": 20.5,
+        "faab": 0,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 0.0,
+        "player_id": "7049",
+        "points": -20.5,
+        "released": true,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1412293137614815232"
+      },
+      {
         "dropped_player_id": "LAC",
-        "dropped_points": 29.0,
+        "dropped_points": 34.0,
         "faab": 0,
         "first_week": 1,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "krunky",
         "missing_scores": [],
         "pickup_points": 0.0,
         "player_id": "4137",
-        "points": -29.0,
+        "points": -34.0,
         "released": false,
         "roster_id": 1,
         "status": "scored",
@@ -3207,153 +3208,153 @@
     ],
     "standings": [
       {
-        "free_agent_adds": 6,
-        "free_agent_points": -12.2,
-        "manager": "krunky",
-        "roster_id": 1,
-        "score": 77.5,
-        "team": "Grand Theft Aubrey",
-        "trade_count": 4,
-        "trade_delta": 61.1,
-        "waiver_claims": 6,
-        "waiver_points": 28.6
-      },
-      {
-        "free_agent_adds": 14,
-        "free_agent_points": 45.2,
-        "manager": "lfain20",
-        "roster_id": 4,
-        "score": 77.1,
-        "team": "Mortal Kombat: DARTside",
-        "trade_count": 2,
-        "trade_delta": 1.3,
-        "waiver_claims": 3,
-        "waiver_points": 30.6
-      },
-      {
         "free_agent_adds": 5,
-        "free_agent_points": 35.48,
+        "free_agent_points": 76.18,
         "manager": "TheRealNoodleMan",
         "roster_id": 2,
-        "score": 75.4,
+        "score": 148.16,
         "team": "Gibbs of War",
         "trade_count": 4,
-        "trade_delta": 48.92,
+        "trade_delta": 79.98,
         "waiver_claims": 5,
-        "waiver_points": -9.0
+        "waiver_points": -8.0
+      },
+      {
+        "free_agent_adds": 4,
+        "free_agent_points": 49.3,
+        "manager": "SethLL",
+        "roster_id": 10,
+        "score": 90.52,
+        "team": "Red Dead Zachdemption",
+        "trade_count": 2,
+        "trade_delta": 41.9,
+        "waiver_claims": 1,
+        "waiver_points": -0.68
       },
       {
         "free_agent_adds": 5,
-        "free_agent_points": 30.0,
+        "free_agent_points": 31.2,
         "manager": "DiscipleJack",
         "roster_id": 8,
-        "score": 72.4,
+        "score": 79.6,
         "team": "Super Lamario",
         "trade_count": 0,
         "trade_delta": 0,
         "waiver_claims": 1,
-        "waiver_points": 42.4
+        "waiver_points": 48.4
       },
       {
         "free_agent_adds": 4,
-        "free_agent_points": 19.8,
-        "manager": "SethLL",
-        "roster_id": 10,
-        "score": 45.52,
-        "team": "Red Dead Zachdemption",
+        "free_agent_points": 33.32,
+        "manager": "Potatomain",
+        "roster_id": 6,
+        "score": 77.42,
+        "team": "The Lost Cause Fallacy",
+        "trade_count": 4,
+        "trade_delta": 13.0,
+        "waiver_claims": 4,
+        "waiver_points": 31.1
+      },
+      {
+        "free_agent_adds": 6,
+        "free_agent_points": -16.3,
+        "manager": "krunky",
+        "roster_id": 1,
+        "score": 74.46,
+        "team": "Grand Theft Aubrey",
+        "trade_count": 4,
+        "trade_delta": 45.36,
+        "waiver_claims": 6,
+        "waiver_points": 45.4
+      },
+      {
+        "free_agent_adds": 14,
+        "free_agent_points": 11.2,
+        "manager": "lfain20",
+        "roster_id": 4,
+        "score": 66.58,
+        "team": "Mortal Kombat: DARTside",
         "trade_count": 2,
-        "trade_delta": 26.4,
-        "waiver_claims": 1,
-        "waiver_points": -0.68
+        "trade_delta": -13.16,
+        "waiver_claims": 3,
+        "waiver_points": 68.54
       },
       {
         "free_agent_adds": 5,
         "free_agent_points": 11.8,
         "manager": "therealbulker",
         "roster_id": 7,
-        "score": 42.38,
+        "score": 35.14,
         "team": "MidnightClub Rice Edition",
         "trade_count": 1,
-        "trade_delta": -4.04,
+        "trade_delta": -0.28,
         "waiver_claims": 6,
-        "waiver_points": 34.62
-      },
-      {
-        "free_agent_adds": 8,
-        "free_agent_points": 43.82,
-        "manager": "oneyjb",
-        "roster_id": 12,
-        "score": 41.66,
-        "team": "Bower's Inside Story",
-        "trade_count": 4,
-        "trade_delta": 4.52,
-        "waiver_claims": 5,
-        "waiver_points": -6.68
-      },
-      {
-        "free_agent_adds": 5,
-        "free_agent_points": 35.1,
-        "manager": "Dawg2003",
-        "roster_id": 9,
-        "score": 35.7,
-        "team": "The Windhelm Nords ",
-        "trade_count": 2,
-        "trade_delta": 0,
-        "waiver_claims": 2,
-        "waiver_points": 0.6
-      },
-      {
-        "free_agent_adds": 4,
-        "free_agent_points": 6.74,
-        "manager": "Potatomain",
-        "roster_id": 6,
-        "score": 5.84,
-        "team": "The Lost Cause Fallacy",
-        "trade_count": 4,
-        "trade_delta": -43.5,
-        "waiver_claims": 4,
-        "waiver_points": 42.6
+        "waiver_points": 23.62
       },
       {
         "free_agent_adds": 15,
-        "free_agent_points": 47.28,
+        "free_agent_points": 70.6,
         "manager": "JabneyTheKing",
         "roster_id": 3,
-        "score": -12.16,
+        "score": 25.96,
         "team": "Josh Jacobs: Most Wanted",
         "trade_count": 5,
-        "trade_delta": -55.54,
+        "trade_delta": -53.94,
         "waiver_claims": 4,
-        "waiver_points": -3.9
+        "waiver_points": 9.3
+      },
+      {
+        "free_agent_adds": 5,
+        "free_agent_points": 50.3,
+        "manager": "Dawg2003",
+        "roster_id": 9,
+        "score": -8.4,
+        "team": "The Windhelm Nords ",
+        "trade_count": 2,
+        "trade_delta": -61.5,
+        "waiver_claims": 2,
+        "waiver_points": 2.8
+      },
+      {
+        "free_agent_adds": 8,
+        "free_agent_points": 42.82,
+        "manager": "oneyjb",
+        "roster_id": 12,
+        "score": -14.9,
+        "team": "Bower's Inside Story",
+        "trade_count": 4,
+        "trade_delta": -3.5,
+        "waiver_claims": 5,
+        "waiver_points": -54.22
+      },
+      {
+        "free_agent_adds": 2,
+        "free_agent_points": 20.3,
+        "manager": "AfootCoronet56",
+        "roster_id": 5,
+        "score": -28.06,
+        "team": "Suicide Squad (the game)",
+        "trade_count": 3,
+        "trade_delta": -47.86,
+        "waiver_claims": 1,
+        "waiver_points": -0.5
       },
       {
         "free_agent_adds": 3,
         "free_agent_points": 0,
         "manager": "RollnWithJesus",
         "roster_id": 11,
-        "score": -18.8,
+        "score": -31.1,
         "team": "Breach & Touchdown",
         "trade_count": 2,
         "trade_delta": 0,
         "waiver_claims": 2,
-        "waiver_points": -18.8
-      },
-      {
-        "free_agent_adds": 2,
-        "free_agent_points": 16.5,
-        "manager": "AfootCoronet56",
-        "roster_id": 5,
-        "score": -22.66,
-        "team": "Suicide Squad (the game)",
-        "trade_count": 3,
-        "trade_delta": -39.16,
-        "waiver_claims": 1,
-        "waiver_points": 0
+        "waiver_points": -31.1
       }
     ]
   },
   "season": "2026",
-  "through_week": 4,
+  "through_week": 5,
   "trackers": {
     "jabney": 3,
     "krunky": 1,
@@ -3367,7 +3368,7 @@
       "processed_at": 1787638487197,
       "sides": [
         {
-          "delta": 29.6,
+          "delta": 45.1,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "SethLL",
@@ -3381,14 +3382,14 @@
           "received_players": [
             {
               "player_id": "13279",
-              "points": 35.8
+              "points": 36.9
             },
             {
               "player_id": "6806",
-              "points": 19.2
+              "points": 33.6
             }
           ],
-          "received_points": 55.0,
+          "received_points": 70.5,
           "roster_id": 10,
           "sent": [
             "7543"
@@ -3404,7 +3405,7 @@
           "team": "Red Dead Zachdemption"
         },
         {
-          "delta": -29.6,
+          "delta": -45.1,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "oneyjb",
@@ -3429,14 +3430,14 @@
           "sent_players": [
             {
               "player_id": "13279",
-              "points": 35.8
+              "points": 36.9
             },
             {
               "player_id": "6806",
-              "points": 19.2
+              "points": 33.6
             }
           ],
-          "sent_points": 55.0,
+          "sent_points": 70.5,
           "status": "scored",
           "team": "Bower's Inside Story"
         }
@@ -3448,7 +3449,7 @@
       "processed_at": 1788243296459,
       "sides": [
         {
-          "delta": 79.0,
+          "delta": 59.8,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "TheRealNoodleMan",
@@ -3464,11 +3465,11 @@
           "received_players": [
             {
               "player_id": "11620",
-              "points": 30.3
+              "points": 33.8
             },
             {
               "player_id": "12527",
-              "points": 64.4
+              "points": 73.6
             },
             {
               "player_id": "2133",
@@ -3476,10 +3477,10 @@
             },
             {
               "player_id": "8110",
-              "points": 36.3
+              "points": 41.2
             }
           ],
-          "received_points": 193.0,
+          "received_points": 210.6,
           "roster_id": 2,
           "sent": [
             "10859",
@@ -3490,27 +3491,27 @@
           "sent_players": [
             {
               "player_id": "10859",
-              "points": 56.8
+              "points": 76.6
             },
             {
               "player_id": "13294",
-              "points": 11.0
+              "points": 17.8
             },
             {
               "player_id": "5927",
-              "points": 25.1
+              "points": 35.3
             },
             {
               "player_id": "9226",
               "points": 21.1
             }
           ],
-          "sent_points": 114.0,
+          "sent_points": 150.8,
           "status": "scored",
           "team": "Gibbs of War"
         },
         {
-          "delta": -55.54,
+          "delta": -33.74,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "JabneyTheKing",
@@ -3544,11 +3545,11 @@
           "received_players": [
             {
               "player_id": "10859",
-              "points": 56.8
+              "points": 76.6
             },
             {
               "player_id": "5927",
-              "points": 25.1
+              "points": 35.3
             },
             {
               "player_id": "9226",
@@ -3556,10 +3557,10 @@
             },
             {
               "player_id": "9488",
-              "points": 100.66
+              "points": 120.96
             }
           ],
-          "received_points": 203.66,
+          "received_points": 253.96,
           "roster_id": 3,
           "sent": [
             "13330",
@@ -3571,7 +3572,7 @@
           "sent_players": [
             {
               "player_id": "13330",
-              "points": 38.6
+              "points": 38.9
             },
             {
               "player_id": "2133",
@@ -3579,23 +3580,23 @@
             },
             {
               "player_id": "7564",
-              "points": 49.7
+              "points": 66.4
             },
             {
               "player_id": "8110",
-              "points": 36.3
+              "points": 41.2
             },
             {
               "player_id": "8144",
-              "points": 72.6
+              "points": 79.2
             }
           ],
-          "sent_points": 259.2,
+          "sent_points": 287.7,
           "status": "scored",
           "team": "Josh Jacobs: Most Wanted"
         },
         {
-          "delta": -23.46,
+          "delta": -26.06,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "AfootCoronet56",
@@ -3629,22 +3630,22 @@
           "received_players": [
             {
               "player_id": "13294",
-              "points": 11.0
+              "points": 17.8
             },
             {
               "player_id": "13330",
-              "points": 38.6
+              "points": 38.9
             },
             {
               "player_id": "7564",
-              "points": 49.7
+              "points": 66.4
             },
             {
               "player_id": "8144",
-              "points": 72.6
+              "points": 79.2
             }
           ],
-          "received_points": 171.9,
+          "received_points": 202.3,
           "roster_id": 5,
           "sent": [
             "11620",
@@ -3654,18 +3655,18 @@
           "sent_players": [
             {
               "player_id": "11620",
-              "points": 30.3
+              "points": 33.8
             },
             {
               "player_id": "12527",
-              "points": 64.4
+              "points": 73.6
             },
             {
               "player_id": "9488",
-              "points": 100.66
+              "points": 120.96
             }
           ],
-          "sent_points": 195.36,
+          "sent_points": 228.36,
           "status": "scored",
           "team": "Suicide Squad (the game)"
         }
@@ -3677,7 +3678,7 @@
       "processed_at": 1788934551371,
       "sides": [
         {
-          "delta": -30.08,
+          "delta": -41.32,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "TheRealNoodleMan",
@@ -3701,15 +3702,15 @@
           "sent_players": [
             {
               "player_id": "6797",
-              "points": 35.18
+              "points": 46.42
             }
           ],
-          "sent_points": 35.18,
+          "sent_points": 46.42,
           "status": "scored",
           "team": "Gibbs of War"
         },
         {
-          "delta": 30.08,
+          "delta": 41.32,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "oneyjb",
@@ -3722,10 +3723,10 @@
           "received_players": [
             {
               "player_id": "6797",
-              "points": 35.18
+              "points": 46.42
             }
           ],
-          "received_points": 35.18,
+          "received_points": 46.42,
           "roster_id": 12,
           "sent": [
             "6819"
@@ -3748,7 +3749,7 @@
       "processed_at": 1788934551371,
       "sides": [
         {
-          "delta": 59.2,
+          "delta": 29.0,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "krunky",
@@ -3778,19 +3779,19 @@
           "sent_players": [
             {
               "player_id": "12514",
-              "points": 28.6
+              "points": 42.8
             },
             {
               "player_id": "7611",
-              "points": 37.3
+              "points": 53.3
             }
           ],
-          "sent_points": 65.9,
+          "sent_points": 96.1,
           "status": "scored",
           "team": "Grand Theft Aubrey"
         },
         {
-          "delta": -59.2,
+          "delta": -29.0,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Potatomain",
@@ -3804,14 +3805,14 @@
           "received_players": [
             {
               "player_id": "12514",
-              "points": 28.6
+              "points": 42.8
             },
             {
               "player_id": "7611",
-              "points": 37.3
+              "points": 53.3
             }
           ],
-          "received_points": 65.9,
+          "received_points": 96.1,
           "roster_id": 6,
           "sent": [
             "11631",
@@ -3910,7 +3911,7 @@
       "processed_at": 1790748958981,
       "sides": [
         {
-          "delta": -4.04,
+          "delta": -0.28,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "therealbulker",
@@ -3923,10 +3924,10 @@
           "received_players": [
             {
               "player_id": "7002",
-              "points": 11.9
+              "points": 17.5
             }
           ],
-          "received_points": 11.9,
+          "received_points": 17.5,
           "roster_id": 7,
           "sent": [
             "12545"
@@ -3934,15 +3935,15 @@
           "sent_players": [
             {
               "player_id": "12545",
-              "points": 15.94
+              "points": 17.78
             }
           ],
-          "sent_points": 15.94,
+          "sent_points": 17.78,
           "status": "scored",
           "team": "MidnightClub Rice Edition"
         },
         {
-          "delta": 4.04,
+          "delta": 0.28,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "oneyjb",
@@ -3955,10 +3956,10 @@
           "received_players": [
             {
               "player_id": "12545",
-              "points": 15.94
+              "points": 17.78
             }
           ],
-          "received_points": 15.94,
+          "received_points": 17.78,
           "roster_id": 12,
           "sent": [
             "7002"
@@ -3966,10 +3967,10 @@
           "sent_players": [
             {
               "player_id": "7002",
-              "points": 11.9
+              "points": 17.5
             }
           ],
-          "sent_points": 11.9,
+          "sent_points": 17.5,
           "status": "scored",
           "team": "Bower's Inside Story"
         }
@@ -3981,7 +3982,7 @@
       "processed_at": 1790748958981,
       "sides": [
         {
-          "delta": -15.7,
+          "delta": -21.8,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "AfootCoronet56",
@@ -3999,10 +4000,10 @@
             },
             {
               "player_id": "8148",
-              "points": 13.2
+              "points": 30.9
             }
           ],
-          "received_points": 14.7,
+          "received_points": 32.4,
           "roster_id": 5,
           "sent": [
             "4199",
@@ -4011,19 +4012,19 @@
           "sent_players": [
             {
               "player_id": "4199",
-              "points": 14.8
+              "points": 32.0
             },
             {
               "player_id": "8144",
-              "points": 15.6
+              "points": 22.2
             }
           ],
-          "sent_points": 30.4,
+          "sent_points": 54.2,
           "status": "scored",
           "team": "Suicide Squad (the game)"
         },
         {
-          "delta": 15.7,
+          "delta": 21.8,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Potatomain",
@@ -4037,14 +4038,14 @@
           "received_players": [
             {
               "player_id": "4199",
-              "points": 14.8
+              "points": 32.0
             },
             {
               "player_id": "8144",
-              "points": 15.6
+              "points": 22.2
             }
           ],
-          "received_points": 30.4,
+          "received_points": 54.2,
           "roster_id": 6,
           "sent": [
             "4866",
@@ -4057,10 +4058,10 @@
             },
             {
               "player_id": "8148",
-              "points": 13.2
+              "points": 30.9
             }
           ],
-          "sent_points": 14.7,
+          "sent_points": 32.4,
           "status": "scored",
           "team": "The Lost Cause Fallacy"
         }
@@ -4072,7 +4073,7 @@
       "processed_at": 1790835380582,
       "sides": [
         {
-          "delta": -1.3,
+          "delta": -5.1,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "krunky",
@@ -4086,14 +4087,14 @@
           "received_players": [
             {
               "player_id": "12517",
-              "points": 11.7
+              "points": 15.6
             },
             {
               "player_id": "7547",
-              "points": 11.5
+              "points": 21.4
             }
           ],
-          "received_points": 23.2,
+          "received_points": 37.0,
           "roster_id": 1,
           "sent": [
             "13346",
@@ -4102,19 +4103,19 @@
           "sent_players": [
             {
               "player_id": "13346",
-              "points": 10.9
+              "points": 23.0
             },
             {
               "player_id": "9224",
-              "points": 13.6
+              "points": 19.1
             }
           ],
-          "sent_points": 24.5,
+          "sent_points": 42.1,
           "status": "scored",
           "team": "Grand Theft Aubrey"
         },
         {
-          "delta": 1.3,
+          "delta": 5.1,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "lfain20",
@@ -4128,14 +4129,14 @@
           "received_players": [
             {
               "player_id": "13346",
-              "points": 10.9
+              "points": 23.0
             },
             {
               "player_id": "9224",
-              "points": 13.6
+              "points": 19.1
             }
           ],
-          "received_points": 24.5,
+          "received_points": 42.1,
           "roster_id": 4,
           "sent": [
             "12517",
@@ -4144,14 +4145,14 @@
           "sent_players": [
             {
               "player_id": "12517",
-              "points": 11.7
+              "points": 15.6
             },
             {
               "player_id": "7547",
-              "points": 11.5
+              "points": 21.4
             }
           ],
-          "sent_points": 23.2,
+          "sent_points": 37.0,
           "status": "scored",
           "team": "Mortal Kombat: DARTside"
         }
@@ -4163,7 +4164,7 @@
       "processed_at": 1791008166172,
       "sides": [
         {
-          "delta": 0,
+          "delta": 61.5,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "TheRealNoodleMan",
@@ -4178,18 +4179,18 @@
           "received_players": [
             {
               "player_id": "11584",
-              "points": 0
+              "points": 30.5
             },
             {
               "player_id": "8130",
-              "points": 0
+              "points": 21.6
             },
             {
               "player_id": "8137",
-              "points": 0
+              "points": 23.5
             }
           ],
-          "received_points": 0,
+          "received_points": 75.6,
           "roster_id": 2,
           "sent": [
             "12527",
@@ -4199,23 +4200,23 @@
           "sent_players": [
             {
               "player_id": "12527",
-              "points": 0
+              "points": 9.2
             },
             {
               "player_id": "2133",
-              "points": 0
+              "points": 0.0
             },
             {
               "player_id": "8110",
-              "points": 0
+              "points": 4.9
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 14.1,
+          "status": "scored",
           "team": "Gibbs of War"
         },
         {
-          "delta": 0,
+          "delta": -61.5,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Dawg2003",
@@ -4230,18 +4231,18 @@
           "received_players": [
             {
               "player_id": "12527",
-              "points": 0
+              "points": 9.2
             },
             {
               "player_id": "2133",
-              "points": 0
+              "points": 0.0
             },
             {
               "player_id": "8110",
-              "points": 0
+              "points": 4.9
             }
           ],
-          "received_points": 0,
+          "received_points": 14.1,
           "roster_id": 9,
           "sent": [
             "11584",
@@ -4251,19 +4252,19 @@
           "sent_players": [
             {
               "player_id": "11584",
-              "points": 0
+              "points": 30.5
             },
             {
               "player_id": "8130",
-              "points": 0
+              "points": 21.6
             },
             {
               "player_id": "8137",
-              "points": 0
+              "points": 23.5
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 75.6,
+          "status": "scored",
           "team": "The Windhelm Nords "
         }
       ]
@@ -4274,7 +4275,7 @@
       "processed_at": 1791267389058,
       "sides": [
         {
-          "delta": 0,
+          "delta": -20.2,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "JabneyTheKing",
@@ -4288,14 +4289,14 @@
           "received_players": [
             {
               "player_id": "8138",
-              "points": 0
+              "points": 0.0
             },
             {
               "player_id": "8144",
-              "points": 0
+              "points": 6.6
             }
           ],
-          "received_points": 0,
+          "received_points": 6.6,
           "roster_id": 3,
           "sent": [
             "12512",
@@ -4304,19 +4305,19 @@
           "sent_players": [
             {
               "player_id": "12512",
-              "points": 0
+              "points": 6.5
             },
             {
               "player_id": "9488",
-              "points": 0
+              "points": 20.3
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 26.8,
+          "status": "scored",
           "team": "Josh Jacobs: Most Wanted"
         },
         {
-          "delta": 0,
+          "delta": 20.2,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Potatomain",
@@ -4330,14 +4331,14 @@
           "received_players": [
             {
               "player_id": "12512",
-              "points": 0
+              "points": 6.5
             },
             {
               "player_id": "9488",
-              "points": 0
+              "points": 20.3
             }
           ],
-          "received_points": 0,
+          "received_points": 26.8,
           "roster_id": 6,
           "sent": [
             "8138",
@@ -4346,15 +4347,15 @@
           "sent_players": [
             {
               "player_id": "8138",
-              "points": 0
+              "points": 0.0
             },
             {
               "player_id": "8144",
-              "points": 0
+              "points": 6.6
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 6.6,
+          "status": "scored",
           "team": "The Lost Cause Fallacy"
         }
       ]
@@ -4365,7 +4366,7 @@
       "processed_at": 1791353754617,
       "sides": [
         {
-          "delta": 0,
+          "delta": 18.26,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "krunky",
@@ -4396,10 +4397,10 @@
           "received_players": [
             {
               "player_id": "5849",
-              "points": 0
+              "points": 18.26
             }
           ],
-          "received_points": 0,
+          "received_points": 18.26,
           "roster_id": 1,
           "sent": [
             "9228"
@@ -4407,15 +4408,15 @@
           "sent_players": [
             {
               "player_id": "9228",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 0.0,
+          "status": "scored",
           "team": "Grand Theft Aubrey"
         },
         {
-          "delta": 0,
+          "delta": -18.26,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "lfain20",
@@ -4446,10 +4447,10 @@
           "received_players": [
             {
               "player_id": "9228",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "received_points": 0,
+          "received_points": 0.0,
           "roster_id": 4,
           "sent": [
             "5849"
@@ -4457,17 +4458,17 @@
           "sent_players": [
             {
               "player_id": "5849",
-              "points": 0
+              "points": 18.26
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 18.26,
+          "status": "scored",
           "team": "Mortal Kombat: DARTside"
         }
       ]
     },
     {
-      "first_scoring_week": 5,
+      "first_scoring_week": 6,
       "id": "1413329747487772672",
       "processed_at": 1791526598635,
       "sides": [
@@ -4558,7 +4559,7 @@
       ]
     },
     {
-      "first_scoring_week": 5,
+      "first_scoring_week": 6,
       "id": "1413594244643360768",
       "processed_at": 1791526598635,
       "sides": [
@@ -4659,7 +4660,7 @@
       ]
     },
     {
-      "first_scoring_week": 5,
+      "first_scoring_week": 6,
       "id": "1413558535094050816",
       "processed_at": 1791526598635,
       "sides": [
@@ -4730,7 +4731,7 @@
       ]
     },
     {
-      "first_scoring_week": 5,
+      "first_scoring_week": 6,
       "id": "1413998894823612416",
       "processed_at": 1791612950081,
       "sides": [
@@ -4811,7 +4812,7 @@
       ]
     },
     {
-      "first_scoring_week": 5,
+      "first_scoring_week": 6,
       "id": "1414473604535480320",
       "processed_at": 1791699362245,
       "sides": [
@@ -4902,7 +4903,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-12T14:39:35.497862+00:00",
+  "updated_at": "2026-10-12T15:18:26.098586+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -4911,7 +4912,7 @@
       "made_on_or_after": "2026-08-23",
       "sides": [
         {
-          "delta": 57.36,
+          "delta": 77.66,
           "manager": "SethLL",
           "missing_scores": [],
           "picks_received": [],
@@ -4928,10 +4929,10 @@
           "received_players": [
             {
               "player_id": "9488",
-              "points": 100.66
+              "points": 120.96
             }
           ],
-          "received_points": 100.66,
+          "received_points": 120.96,
           "roster_id": 10,
           "sent": [
             "11624",
@@ -4952,7 +4953,7 @@
           "team": "Red Dead Zachdemption"
         },
         {
-          "delta": -57.36,
+          "delta": -77.66,
           "manager": "AfootCoronet56",
           "missing_scores": [],
           "picks_received": [
@@ -4985,10 +4986,10 @@
           "sent_players": [
             {
               "player_id": "9488",
-              "points": 100.66
+              "points": 120.96
             }
           ],
-          "sent_points": 100.66,
+          "sent_points": 120.96,
           "status": "scored",
           "team": "Risk of Rome"
         }
@@ -5001,7 +5002,7 @@
       "made_on_or_after": "2026-08-23",
       "sides": [
         {
-          "delta": 0,
+          "delta": 14.7,
           "manager": "Krunky",
           "missing_scores": [],
           "received": [
@@ -5010,10 +5011,10 @@
           "received_players": [
             {
               "player_id": "4199",
-              "points": 0
+              "points": 17.2
             }
           ],
-          "received_points": 0,
+          "received_points": 17.2,
           "roster_id": 1,
           "sent": [
             "8136"
@@ -5021,14 +5022,14 @@
           "sent_players": [
             {
               "player_id": "8136",
-              "points": 0
+              "points": 2.5
             }
           ],
-          "sent_points": 0,
-          "status": "pending"
+          "sent_points": 2.5,
+          "status": "scored"
         },
         {
-          "delta": 0,
+          "delta": -14.7,
           "manager": "Ryan",
           "missing_scores": [],
           "received": [
@@ -5037,10 +5038,10 @@
           "received_players": [
             {
               "player_id": "8136",
-              "points": 0
+              "points": 2.5
             }
           ],
-          "received_points": 0,
+          "received_points": 2.5,
           "roster_id": 6,
           "sent": [
             "4199"
@@ -5048,11 +5049,11 @@
           "sent_players": [
             {
               "player_id": "4199",
-              "points": 0
+              "points": 17.2
             }
           ],
-          "sent_points": 0,
-          "status": "pending"
+          "sent_points": 17.2,
+          "status": "scored"
         }
       ]
     },
@@ -5063,7 +5064,7 @@
       "made_on_or_after": "2026-08-23",
       "sides": [
         {
-          "delta": 0,
+          "delta": 0.0,
           "manager": "JabneyTheKing",
           "missing_scores": [],
           "received": [
@@ -5072,10 +5073,10 @@
           "received_players": [
             {
               "player_id": "4137",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "received_points": 0,
+          "received_points": 0.0,
           "roster_id": 3,
           "sent": [
             "13286"
@@ -5083,15 +5084,15 @@
           "sent_players": [
             {
               "player_id": "13286",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 0.0,
+          "status": "scored",
           "team": "Allen Wake"
         },
         {
-          "delta": 0,
+          "delta": 0.0,
           "manager": "krunky",
           "missing_scores": [],
           "received": [
@@ -5100,10 +5101,10 @@
           "received_players": [
             {
               "player_id": "13286",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "received_points": 0,
+          "received_points": 0.0,
           "roster_id": 1,
           "sent": [
             "4137"
@@ -5111,11 +5112,11 @@
           "sent_players": [
             {
               "player_id": "4137",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "sent_points": 0,
-          "status": "pending",
+          "sent_points": 0.0,
+          "status": "scored",
           "team": "Grand Theft Aubrey"
         }
       ]
@@ -5128,12 +5129,12 @@
         "dropped_points": 0,
         "faab": 7,
         "first_week": 1,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "DiscipleJack",
         "missing_scores": [],
-        "pickup_points": 42.4,
+        "pickup_points": 48.4,
         "player_id": "5001",
-        "points": 42.4,
+        "points": 48.4,
         "released": false,
         "roster_id": 8,
         "status": "scored",
@@ -5144,12 +5145,12 @@
         "dropped_points": 0.0,
         "faab": 11,
         "first_week": 3,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
-        "pickup_points": 26.9,
+        "pickup_points": 39.1,
         "player_id": "11435",
-        "points": 26.9,
+        "points": 39.1,
         "released": false,
         "roster_id": 4,
         "status": "scored",
@@ -5160,16 +5161,64 @@
         "dropped_points": 0,
         "faab": 6,
         "first_week": 3,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "Potatomain",
         "missing_scores": [],
-        "pickup_points": 24.9,
+        "pickup_points": 26.5,
         "player_id": "4035",
-        "points": 24.9,
+        "points": 26.5,
         "released": false,
         "roster_id": 6,
         "status": "scored",
         "transaction_id": "1407097091490099200"
+      },
+      {
+        "dropped_player_id": "13317",
+        "dropped_points": 0.0,
+        "faab": 23,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 25.74,
+        "player_id": "2306",
+        "points": 25.74,
+        "released": false,
+        "roster_id": 4,
+        "status": "scored",
+        "transaction_id": "1413062955410464768"
+      },
+      {
+        "dropped_player_id": "11628",
+        "dropped_points": 7.7,
+        "faab": 25,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 31.8,
+        "player_id": "12495",
+        "points": 24.1,
+        "released": false,
+        "roster_id": 1,
+        "status": "scored",
+        "transaction_id": "1410107958943031296"
+      },
+      {
+        "dropped_player_id": "9754",
+        "dropped_points": 4.5,
+        "faab": 5,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "therealbulker",
+        "missing_scores": [],
+        "pickup_points": 26.8,
+        "player_id": "8154",
+        "points": 22.3,
+        "released": false,
+        "roster_id": 7,
+        "status": "scored",
+        "transaction_id": "1410820145407868928"
       },
       {
         "dropped_player_id": "8132",
@@ -5188,36 +5237,20 @@
         "transaction_id": "1407872267999789056"
       },
       {
-        "dropped_player_id": "9754",
-        "dropped_points": 4.5,
-        "faab": 5,
+        "dropped_player_id": "9225",
+        "dropped_points": 5.5,
+        "faab": 33,
         "first_week": 4,
-        "last_week": 4,
-        "manager": "therealbulker",
+        "last_week": 5,
+        "manager": "JabneyTheKing",
         "missing_scores": [],
-        "pickup_points": 25.2,
-        "player_id": "8154",
-        "points": 20.7,
+        "pickup_points": 25.8,
+        "player_id": "11576",
+        "points": 20.3,
         "released": false,
-        "roster_id": 7,
+        "roster_id": 3,
         "status": "scored",
-        "transaction_id": "1410820145407868928"
-      },
-      {
-        "dropped_player_id": "GB",
-        "dropped_points": 6.0,
-        "faab": 2,
-        "first_week": 3,
-        "last_week": 4,
-        "manager": "Potatomain",
-        "missing_scores": [],
-        "pickup_points": 26.0,
-        "player_id": "MIN",
-        "points": 20.0,
-        "released": false,
-        "roster_id": 6,
-        "status": "scored",
-        "transaction_id": "1408170868261109760"
+        "transaction_id": "1410530221844619264"
       },
       {
         "dropped_player_id": "12487",
@@ -5252,20 +5285,20 @@
         "transaction_id": "1410044586985902080"
       },
       {
-        "dropped_player_id": "11628",
-        "dropped_points": 7.7,
-        "faab": 25,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "krunky",
+        "dropped_player_id": "GB",
+        "dropped_points": 26.0,
+        "faab": 2,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "Potatomain",
         "missing_scores": [],
-        "pickup_points": 17.0,
-        "player_id": "12495",
-        "points": 9.3,
+        "pickup_points": 37.0,
+        "player_id": "MIN",
+        "points": 11.0,
         "released": false,
-        "roster_id": 1,
+        "roster_id": 6,
         "status": "scored",
-        "transaction_id": "1410107958943031296"
+        "transaction_id": "1408170868261109760"
       },
       {
         "dropped_player_id": "CAR",
@@ -5284,22 +5317,6 @@
         "transaction_id": "1410131568399233024"
       },
       {
-        "dropped_player_id": "11610",
-        "dropped_points": 24.8,
-        "faab": 25,
-        "first_week": 2,
-        "last_week": 4,
-        "manager": "therealbulker",
-        "missing_scores": [],
-        "pickup_points": 28.7,
-        "player_id": "11834",
-        "points": 3.9,
-        "released": false,
-        "roster_id": 7,
-        "status": "scored",
-        "transaction_id": "1405751877726953472"
-      },
-      {
         "dropped_player_id": "10219",
         "dropped_points": 19.2,
         "faab": 41,
@@ -5316,36 +5333,36 @@
         "transaction_id": "1407989476885581824"
       },
       {
-        "dropped_player_id": "9225",
-        "dropped_points": 5.5,
-        "faab": 33,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
+        "dropped_player_id": "7670",
+        "dropped_points": 0.0,
+        "faab": 15,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "Dawg2003",
         "missing_scores": [],
-        "pickup_points": 7.7,
-        "player_id": "11576",
+        "pickup_points": 2.2,
+        "player_id": "13264",
         "points": 2.2,
         "released": false,
-        "roster_id": 3,
+        "roster_id": 9,
         "status": "scored",
-        "transaction_id": "1410530221844619264"
+        "transaction_id": "1413159064921186304"
       },
       {
-        "dropped_player_id": "SF",
-        "dropped_points": 5.0,
-        "faab": 3,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "oneyjb",
+        "dropped_player_id": "KC",
+        "dropped_points": 0.0,
+        "faab": 1,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "krunky",
         "missing_scores": [],
-        "pickup_points": 7.0,
-        "player_id": "BAL",
+        "pickup_points": 2.0,
+        "player_id": "JAX",
         "points": 2.0,
-        "released": true,
-        "roster_id": 12,
+        "released": false,
+        "roster_id": 1,
         "status": "scored",
-        "transaction_id": "1410540094636429312"
+        "transaction_id": "1413039718651695104"
       },
       {
         "dropped_player_id": "TB",
@@ -5364,6 +5381,38 @@
         "transaction_id": "1407976038851457024"
       },
       {
+        "dropped_player_id": "6650",
+        "dropped_points": 7.0,
+        "faab": 1,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "therealbulker",
+        "missing_scores": [],
+        "pickup_points": 8.0,
+        "player_id": "11786",
+        "points": 1.0,
+        "released": false,
+        "roster_id": 7,
+        "status": "scored",
+        "transaction_id": "1412569496459235328"
+      },
+      {
+        "dropped_player_id": "BUF",
+        "dropped_points": 0.0,
+        "faab": 3,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
+        "missing_scores": [],
+        "pickup_points": 1.0,
+        "player_id": "DAL",
+        "points": 1.0,
+        "released": false,
+        "roster_id": 2,
+        "status": "scored",
+        "transaction_id": "1412645707302674432"
+      },
+      {
         "dropped_player_id": "11655",
         "dropped_points": 0.2,
         "faab": 5,
@@ -5378,54 +5427,6 @@
         "roster_id": 9,
         "status": "scored",
         "transaction_id": "1406474072610684928"
-      },
-      {
-        "dropped_player_id": "8126",
-        "dropped_points": 0,
-        "faab": 20,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "AfootCoronet56",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "11577",
-        "points": 0,
-        "released": false,
-        "roster_id": 5,
-        "status": "pending",
-        "transaction_id": "1413004991744020480"
-      },
-      {
-        "dropped_player_id": "7670",
-        "dropped_points": 0,
-        "faab": 15,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "Dawg2003",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "13264",
-        "points": 0,
-        "released": false,
-        "roster_id": 9,
-        "status": "pending",
-        "transaction_id": "1413159064921186304"
-      },
-      {
-        "dropped_player_id": "13311",
-        "dropped_points": 0,
-        "faab": 6,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "11637",
-        "points": 0,
-        "released": false,
-        "roster_id": 3,
-        "status": "pending",
-        "transaction_id": "1413240456732504064"
       },
       {
         "dropped_player_id": null,
@@ -5444,102 +5445,6 @@
         "transaction_id": "1399987734671568896"
       },
       {
-        "dropped_player_id": "KC",
-        "dropped_points": 0,
-        "faab": 1,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "krunky",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "JAX",
-        "points": 0,
-        "released": false,
-        "roster_id": 1,
-        "status": "pending",
-        "transaction_id": "1413039718651695104"
-      },
-      {
-        "dropped_player_id": "13317",
-        "dropped_points": 0,
-        "faab": 23,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "lfain20",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "2306",
-        "points": 0,
-        "released": false,
-        "roster_id": 4,
-        "status": "pending",
-        "transaction_id": "1413062955410464768"
-      },
-      {
-        "dropped_player_id": "9758",
-        "dropped_points": 0,
-        "faab": 5,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "oneyjb",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "8132",
-        "points": 0,
-        "released": false,
-        "roster_id": 12,
-        "status": "pending",
-        "transaction_id": "1413410713904373760"
-      },
-      {
-        "dropped_player_id": "11655",
-        "dropped_points": 0,
-        "faab": 31,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "Potatomain",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "11628",
-        "points": 0,
-        "released": false,
-        "roster_id": 6,
-        "status": "pending",
-        "transaction_id": "1411067023181561856"
-      },
-      {
-        "dropped_player_id": "4943",
-        "dropped_points": 0,
-        "faab": 21,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "therealbulker",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "9482",
-        "points": 0,
-        "released": false,
-        "roster_id": 7,
-        "status": "pending",
-        "transaction_id": "1413204881392631808"
-      },
-      {
-        "dropped_player_id": "6650",
-        "dropped_points": 0,
-        "faab": 1,
-        "first_week": 5,
-        "last_week": 4,
-        "manager": "therealbulker",
-        "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "11786",
-        "points": 0,
-        "released": false,
-        "roster_id": 7,
-        "status": "pending",
-        "transaction_id": "1412569496459235328"
-      },
-      {
         "dropped_player_id": "4227",
         "dropped_points": 0,
         "faab": 1,
@@ -5552,24 +5457,40 @@
         "points": 0,
         "released": true,
         "roster_id": 2,
-        "status": "pending",
+        "status": "scored",
         "transaction_id": "1413015147999498240"
       },
       {
-        "dropped_player_id": "BUF",
-        "dropped_points": 0,
-        "faab": 3,
+        "dropped_player_id": "8126",
+        "dropped_points": 8.3,
+        "faab": 20,
         "first_week": 5,
-        "last_week": 4,
-        "manager": "TheRealNoodleMan",
+        "last_week": 5,
+        "manager": "AfootCoronet56",
         "missing_scores": [],
-        "pickup_points": 0,
-        "player_id": "DAL",
-        "points": 0,
+        "pickup_points": 7.8,
+        "player_id": "11577",
+        "points": -0.5,
         "released": false,
-        "roster_id": 2,
-        "status": "pending",
-        "transaction_id": "1412645707302674432"
+        "roster_id": 5,
+        "status": "scored",
+        "transaction_id": "1413004991744020480"
+      },
+      {
+        "dropped_player_id": "11610",
+        "dropped_points": 33.9,
+        "faab": 25,
+        "first_week": 2,
+        "last_week": 5,
+        "manager": "therealbulker",
+        "missing_scores": [],
+        "pickup_points": 33.3,
+        "player_id": "11834",
+        "points": -0.6,
+        "released": false,
+        "roster_id": 7,
+        "status": "scored",
+        "transaction_id": "1405751877726953472"
       },
       {
         "dropped_player_id": "CHI",
@@ -5586,6 +5507,22 @@
         "roster_id": 10,
         "status": "scored",
         "transaction_id": "1405716227459981312"
+      },
+      {
+        "dropped_player_id": "1339",
+        "dropped_points": 3.3,
+        "faab": 27,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "JabneyTheKing",
+        "missing_scores": [],
+        "pickup_points": 1.8,
+        "player_id": "11643",
+        "points": -1.5,
+        "released": false,
+        "roster_id": 3,
+        "status": "scored",
+        "transaction_id": "1410535145743638528"
       },
       {
         "dropped_player_id": "BAL",
@@ -5620,20 +5557,20 @@
         "transaction_id": "1408446162779852800"
       },
       {
-        "dropped_player_id": "1339",
-        "dropped_points": 3.3,
-        "faab": 27,
-        "first_week": 4,
-        "last_week": 4,
+        "dropped_player_id": "13311",
+        "dropped_points": 2.6,
+        "faab": 6,
+        "first_week": 5,
+        "last_week": 5,
         "manager": "JabneyTheKing",
         "missing_scores": [],
-        "pickup_points": 0.7,
-        "player_id": "11643",
+        "pickup_points": 0.0,
+        "player_id": "11637",
         "points": -2.6,
         "released": false,
         "roster_id": 3,
         "status": "scored",
-        "transaction_id": "1410535145743638528"
+        "transaction_id": "1413240456732504064"
       },
       {
         "dropped_player_id": "LAC",
@@ -5652,20 +5589,20 @@
         "transaction_id": "1405586975787880448"
       },
       {
-        "dropped_player_id": "9504",
-        "dropped_points": 5.1,
-        "faab": 28,
-        "first_week": 4,
-        "last_week": 4,
-        "manager": "JabneyTheKing",
+        "dropped_player_id": "11655",
+        "dropped_points": 4.1,
+        "faab": 31,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "Potatomain",
         "missing_scores": [],
-        "pickup_points": 1.6,
-        "player_id": "3634",
-        "points": -3.5,
-        "released": true,
-        "roster_id": 3,
+        "pickup_points": 0.0,
+        "player_id": "11628",
+        "points": -4.1,
+        "released": false,
+        "roster_id": 6,
         "status": "scored",
-        "transaction_id": "1410697391715168256"
+        "transaction_id": "1411067023181561856"
       },
       {
         "dropped_player_id": "9480",
@@ -5684,20 +5621,36 @@
         "transaction_id": "1408355492962508800"
       },
       {
-        "dropped_player_id": "NE",
-        "dropped_points": 6.0,
-        "faab": 20,
+        "dropped_player_id": "9504",
+        "dropped_points": 10.4,
+        "faab": 28,
         "first_week": 4,
-        "last_week": 4,
-        "manager": "RollnWithJesus",
+        "last_week": 5,
+        "manager": "JabneyTheKing",
         "missing_scores": [],
-        "pickup_points": 1.0,
-        "player_id": "LV",
-        "points": -5.0,
-        "released": false,
-        "roster_id": 11,
+        "pickup_points": 3.5,
+        "player_id": "3634",
+        "points": -6.9,
+        "released": true,
+        "roster_id": 3,
         "status": "scored",
-        "transaction_id": "1410459951985438720"
+        "transaction_id": "1410697391715168256"
+      },
+      {
+        "dropped_player_id": "4943",
+        "dropped_points": 10.3,
+        "faab": 21,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "therealbulker",
+        "missing_scores": [],
+        "pickup_points": 1.2,
+        "player_id": "9482",
+        "points": -9.1,
+        "released": false,
+        "roster_id": 7,
+        "status": "scored",
+        "transaction_id": "1413204881392631808"
       },
       {
         "dropped_player_id": "JAX",
@@ -5716,20 +5669,20 @@
         "transaction_id": "1405073155940184064"
       },
       {
-        "dropped_player_id": "11581",
-        "dropped_points": 10.2,
-        "faab": 15,
-        "first_week": 3,
-        "last_week": 4,
+        "dropped_player_id": "SF",
+        "dropped_points": 25.0,
+        "faab": 3,
+        "first_week": 4,
+        "last_week": 5,
         "manager": "oneyjb",
         "missing_scores": [],
-        "pickup_points": 0.0,
-        "player_id": "11625",
-        "points": -10.2,
+        "pickup_points": 14.0,
+        "player_id": "BAL",
+        "points": -11.0,
         "released": true,
         "roster_id": 12,
         "status": "scored",
-        "transaction_id": "1408305742850637824"
+        "transaction_id": "1410540094636429312"
       },
       {
         "dropped_player_id": "12015",
@@ -5748,105 +5701,165 @@
         "transaction_id": "1408325480012115968"
       },
       {
+        "dropped_player_id": "NE",
+        "dropped_points": 14.0,
+        "faab": 20,
+        "first_week": 4,
+        "last_week": 5,
+        "manager": "RollnWithJesus",
+        "missing_scores": [],
+        "pickup_points": 1.0,
+        "player_id": "LV",
+        "points": -13.0,
+        "released": false,
+        "roster_id": 11,
+        "status": "scored",
+        "transaction_id": "1410459951985438720"
+      },
+      {
         "dropped_player_id": "7567",
-        "dropped_points": 14.7,
+        "dropped_points": 19.0,
         "faab": 0,
         "first_week": 2,
-        "last_week": 4,
+        "last_week": 5,
         "manager": "RollnWithJesus",
         "missing_scores": [],
         "pickup_points": 0.9,
         "player_id": "6130",
-        "points": -13.8,
+        "points": -18.1,
         "released": true,
         "roster_id": 11,
         "status": "scored",
         "transaction_id": "1405388071784005632"
+      },
+      {
+        "dropped_player_id": "9758",
+        "dropped_points": 20.94,
+        "faab": 5,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 2.6,
+        "player_id": "8132",
+        "points": -18.34,
+        "released": false,
+        "roster_id": 12,
+        "status": "scored",
+        "transaction_id": "1413410713904373760"
+      },
+      {
+        "dropped_player_id": "11581",
+        "dropped_points": 26.4,
+        "faab": 15,
+        "first_week": 3,
+        "last_week": 5,
+        "manager": "oneyjb",
+        "missing_scores": [],
+        "pickup_points": 0.0,
+        "player_id": "11625",
+        "points": -26.4,
+        "released": true,
+        "roster_id": 12,
+        "status": "scored",
+        "transaction_id": "1408305742850637824"
       }
     ],
     "standings": [
       {
-        "best_pickup": "4035",
-        "best_pickup_points": 24.9,
-        "claim_count": 4,
-        "faab_spent": 56,
-        "manager": "Potatomain",
-        "pending_claims": 1,
-        "points": 42.6,
-        "roster_id": 6,
+        "best_pickup": "11435",
+        "best_pickup_points": 39.1,
+        "claim_count": 3,
+        "faab_spent": 75,
+        "manager": "lfain20",
+        "pending_claims": 0,
+        "points": 68.54,
+        "roster_id": 4,
         "scored_claims": 3,
-        "team": "The Lost Cause Fallacy"
+        "team": "Mortal Kombat: DARTside"
       },
       {
         "best_pickup": "5001",
-        "best_pickup_points": 42.4,
+        "best_pickup_points": 48.4,
         "claim_count": 1,
         "faab_spent": 7,
         "manager": "DiscipleJack",
         "pending_claims": 0,
-        "points": 42.4,
+        "points": 48.4,
         "roster_id": 8,
         "scored_claims": 1,
         "team": "Super Lamario"
       },
       {
-        "best_pickup": "8154",
-        "best_pickup_points": 20.7,
-        "claim_count": 6,
-        "faab_spent": 77,
-        "manager": "therealbulker",
-        "pending_claims": 2,
-        "points": 34.62,
-        "roster_id": 7,
-        "scored_claims": 4,
-        "team": "MidnightClub Rice Edition"
-      },
-      {
-        "best_pickup": "11435",
-        "best_pickup_points": 26.9,
-        "claim_count": 3,
-        "faab_spent": 75,
-        "manager": "lfain20",
-        "pending_claims": 1,
-        "points": 30.6,
-        "roster_id": 4,
-        "scored_claims": 2,
-        "team": "Mortal Kombat: DARTside"
-      },
-      {
-        "best_pickup": "9228",
-        "best_pickup_points": 21.3,
+        "best_pickup": "12495",
+        "best_pickup_points": 24.1,
         "claim_count": 6,
         "faab_spent": 57,
         "manager": "krunky",
-        "pending_claims": 1,
-        "points": 28.6,
+        "pending_claims": 0,
+        "points": 45.4,
         "roster_id": 1,
-        "scored_claims": 5,
+        "scored_claims": 6,
         "team": "Grand Theft Aubrey"
       },
       {
-        "best_pickup": "7670",
-        "best_pickup_points": 0.6,
+        "best_pickup": "4035",
+        "best_pickup_points": 26.5,
+        "claim_count": 4,
+        "faab_spent": 56,
+        "manager": "Potatomain",
+        "pending_claims": 0,
+        "points": 31.1,
+        "roster_id": 6,
+        "scored_claims": 4,
+        "team": "The Lost Cause Fallacy"
+      },
+      {
+        "best_pickup": "8154",
+        "best_pickup_points": 22.3,
+        "claim_count": 6,
+        "faab_spent": 77,
+        "manager": "therealbulker",
+        "pending_claims": 0,
+        "points": 23.62,
+        "roster_id": 7,
+        "scored_claims": 6,
+        "team": "MidnightClub Rice Edition"
+      },
+      {
+        "best_pickup": "11576",
+        "best_pickup_points": 20.3,
+        "claim_count": 4,
+        "faab_spent": 94,
+        "manager": "JabneyTheKing",
+        "pending_claims": 0,
+        "points": 9.3,
+        "roster_id": 3,
+        "scored_claims": 4,
+        "team": "Josh Jacobs: Most Wanted"
+      },
+      {
+        "best_pickup": "13264",
+        "best_pickup_points": 2.2,
         "claim_count": 2,
         "faab_spent": 20,
         "manager": "Dawg2003",
-        "pending_claims": 1,
-        "points": 0.6,
+        "pending_claims": 0,
+        "points": 2.8,
         "roster_id": 9,
-        "scored_claims": 1,
+        "scored_claims": 2,
         "team": "The Windhelm Nords "
       },
       {
-        "best_pickup": null,
-        "best_pickup_points": 0,
+        "best_pickup": "11577",
+        "best_pickup_points": -0.5,
         "claim_count": 1,
         "faab_spent": 20,
         "manager": "AfootCoronet56",
-        "pending_claims": 1,
-        "points": 0,
+        "pending_claims": 0,
+        "points": -0.5,
         "roster_id": 5,
-        "scored_claims": 0,
+        "scored_claims": 1,
         "team": "Suicide Squad (the game)"
       },
       {
@@ -5862,16 +5875,28 @@
         "team": "Red Dead Zachdemption"
       },
       {
-        "best_pickup": "11576",
-        "best_pickup_points": 2.2,
-        "claim_count": 4,
-        "faab_spent": 94,
-        "manager": "JabneyTheKing",
-        "pending_claims": 1,
-        "points": -3.9,
-        "roster_id": 3,
-        "scored_claims": 3,
-        "team": "Josh Jacobs: Most Wanted"
+        "best_pickup": "BUF",
+        "best_pickup_points": 4.0,
+        "claim_count": 5,
+        "faab_spent": 10,
+        "manager": "TheRealNoodleMan",
+        "pending_claims": 0,
+        "points": -8.0,
+        "roster_id": 2,
+        "scored_claims": 5,
+        "team": "Gibbs of War"
+      },
+      {
+        "best_pickup": "LV",
+        "best_pickup_points": -13.0,
+        "claim_count": 2,
+        "faab_spent": 20,
+        "manager": "RollnWithJesus",
+        "pending_claims": 0,
+        "points": -31.1,
+        "roster_id": 11,
+        "scored_claims": 2,
+        "team": "Breach & Touchdown"
       },
       {
         "best_pickup": "9758",
@@ -5879,35 +5904,11 @@
         "claim_count": 5,
         "faab_spent": 26,
         "manager": "oneyjb",
-        "pending_claims": 1,
-        "points": -6.68,
-        "roster_id": 12,
-        "scored_claims": 4,
-        "team": "Bower's Inside Story"
-      },
-      {
-        "best_pickup": "BUF",
-        "best_pickup_points": 4.0,
-        "claim_count": 5,
-        "faab_spent": 10,
-        "manager": "TheRealNoodleMan",
-        "pending_claims": 2,
-        "points": -9.0,
-        "roster_id": 2,
-        "scored_claims": 3,
-        "team": "Gibbs of War"
-      },
-      {
-        "best_pickup": "LV",
-        "best_pickup_points": -5.0,
-        "claim_count": 2,
-        "faab_spent": 20,
-        "manager": "RollnWithJesus",
         "pending_claims": 0,
-        "points": -18.8,
-        "roster_id": 11,
-        "scored_claims": 2,
-        "team": "Breach & Touchdown"
+        "points": -54.22,
+        "roster_id": 12,
+        "scored_claims": 5,
+        "team": "Bower's Inside Story"
       }
     ]
   }

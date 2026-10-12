@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-12T14:39:35.497862+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 4.
+Updated 2026-10-12T15:18:26.098586+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,7 +14,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (56.80), Terry McLaurin (25.10), De'Von Achane (21.10), Jaxon Smith-Njigba (100.66) | Kenyon Sadiq (38.60), Davante Adams (62.00), Ja'Marr Chase (49.70), Jake Ferguson (36.30), Chris Olave (72.60) | 203.66 | 259.20 | -55.54 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (76.60), Terry McLaurin (35.30), De'Von Achane (21.10), Jaxon Smith-Njigba (120.96) | Kenyon Sadiq (38.90), Davante Adams (62.00), Ja'Marr Chase (66.40), Jake Ferguson (41.20), Chris Olave (79.20) | 253.96 | 287.70 | -33.74 | scored |
 
 JabneyTheKing picks received: 2027 round 4 (original roster 5). Value not included in points.
 
@@ -26,11 +26,11 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (0.00), Chris Olave (0.00) | Quinshon Judkins (0.00), Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (0.00), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 6.60 | 26.80 | -20.20 | scored |
 
 ### Trade 1413594244643360768
 
-First scoring week: **5**
+First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
@@ -38,7 +38,7 @@ First scoring week: **5**
 
 ### Trade 1413998894823612416
 
-First scoring week: **5**
+First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
@@ -46,8 +46,12 @@ First scoring week: **5**
 
 ### Trade 1414473604535480320
 
-First scoring week: **5**
+First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+
+Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+
