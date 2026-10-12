@@ -36,7 +36,7 @@ def base(title, subtitle, accent="#f4c542", bg="#071421"):
     d.line((110, 165, W-110, 165), fill=accent, width=4)
     return im, d
 def footer(d, report):
-    text(d, (W//2, H-26), f"THROUGH WEEK {report['through_week']}  •  TRANSACTIONS SINCE AUGUST 23, 2026  •  AUTO-GENERATED", 20, "#aab8c5", True, "mm")
+    text(d, (W//2, H-26), f"THROUGH WEEK {report['through_week']}{' (PARTIAL)' if report.get('partial_week') else ''}  •  TRANSACTIONS SINCE AUGUST 23, 2026  •  AUTO-GENERATED", 20, "#aab8c5", True, "mm")
 def player_name(report, pid):
     p = report['players'].get(str(pid), {})
     return p.get('full_name') or p.get('first_name','')+' '+p.get('last_name','') or str(pid)
@@ -109,7 +109,7 @@ def rich_person_tracker(report, key, header_name, ryan=False):
         text(d,(1200,sy+74),f"RECEIVED  {total_in:.2f}",25,'#70fca1',True,'mm')
         pct=(delta/total_out*100) if total_out else 0
         text(d,(800,sy+145),f"{pct:+.1f}% PRODUCTION DIFFERENCE",22,'#d6b34a',True,'mm')
-    text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
+    text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}{' (PARTIAL)' if report.get('partial_week') else ''}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
     return canvas
 
 def rich_veto(report):
@@ -126,7 +126,7 @@ def rich_veto(report):
         color='#f4c542' if status=='pending' else ('#51f58c' if delta>0 else '#ff4d5b')
         rect(d,(1275,y+25,1550,y+280),'#10231a' if delta>0 else '#252525',color,3,14)
         text(d,(1412,y+92),verdict,20,color,True,'mm'); text(d,(1412,y+150),'PENDING' if status=='pending' else f"{abs(delta):.2f}",36,'white',True,'mm'); text(d,(1412,y+190),'POINT GAP' if status!='pending' else f"STARTS WEEK {t['first_scoring_week']}",17,'white',True,'mm')
-    text(d,(W//2,height-20),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#b8c1c9',True,'mm'); return canvas
+    text(d,(W//2,height-20),f"THROUGH WEEK {report['through_week']}{' (PARTIAL)' if report.get('partial_week') else ''}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#b8c1c9',True,'mm'); return canvas
 
 def render_jabney(report):
     rid=report['trackers']['jabney']; trades=[]
@@ -252,7 +252,7 @@ def render_jabney(report):
     text(d,(marker,bar[1]+20),'JABNEY',11,'white',True,'mm')
     message='THE COMEBACK IS ON' if combined>=0 else 'DOWN. NEVER OUT.'
     text(d,(800,sy+225),f"{message}   •   OVERALL ROSTER IMPROVEMENT  {combined:+.2f} POINTS",25,'#66e69a' if combined>=0 else '#ff626c',True,'mm')
-    text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
+    text(d,(W//2,height-18),f"THROUGH WEEK {report['through_week']}{' (PARTIAL)' if report.get('partial_week') else ''}  •  AUTO-GENERATED FROM THE LIVE TRACKER",18,'#aab8c5',True,'mm')
     return canvas
 
 

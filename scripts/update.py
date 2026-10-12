@@ -228,6 +228,7 @@ def markdown(report, players):
                     notes += ['', '**Incomplete score coverage; excluded from the leaderboard.**']
             lines += notes + ['']
         return '\n'.join(lines) or 'No trades yet.\n'
+    partial_note = (f"\n\nWeek {report['partial_week']} is PARTIAL: available points only; totals are recalculated on every refresh, never appended.\n\n" if report.get('partial_week') else '')
     intro = (f"# Rowdy League Trades\n\nUpdated {report['updated_at']}. Season {report['season']}; tracking transactions from {report['tracking_start_date']}; scored through Week {report['through_week']}.\n\n"
              "Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.\n\n")
     board = ['## League Trade Leaderboard', '', '| Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |', '|---:|---|---|---:|---:|---:|---|']
@@ -289,7 +290,7 @@ def markdown(report, players):
                 'most_improved.md': '\n'.join(rebuild_board) + '\n',
                 'rebuild_king.md': '\n'.join(king_board) + '\n'}
     for filename, content in sections.items():
-        (ROOT / 'reports' / filename).write_text(content)
+        (ROOT / 'reports' / filename).write_text(content + partial_note)
 
 
 def run():
@@ -327,6 +328,9 @@ def run():
         through = 0
     if not 0 <= through <= 18:
         raise ValueError('Completed week must be between 0 and 18')
+    completed_through = through
+    through = max(through, int(config.get('minimum_through_week', 0)))
+    partial_week = through if through > completed_through else None
     cache = ROOT / f'.cache/players-{season}.json'
     if not cache.exists() or time.time() - cache.stat().st_mtime > 86400:
         players_all = fetch('/v1/players/nfl')
@@ -365,7 +369,7 @@ def run():
             calculated = round(score(rows.get(pid, {}).get('stats', {}), league['scoring_settings']), 2)
             if pid in matchup_points:
                 values[pid] = matchup_points[pid]
-                if abs(calculated - matchup_points[pid]) > .011:
+                if w != partial_week and abs(calculated - matchup_points[pid]) > .011:
                     checks.append({'week': w, 'player_id': pid, 'stats_points': calculated, 'matchup_points': matchup_points[pid]})
             else:
                 # Full completed-week stats: no stat row means no recorded production.
@@ -387,7 +391,7 @@ def run():
     rebuild_king = rebuild_master(leaderboard(post_week_one_trades, managers),
                                   post_week_one_waivers, post_week_one_free_agents)
     report = {'league_id': lid, 'league_name': league['name'], 'season': season,
-              'tracking_start_date': tracking_start,
+              'tracking_start_date': tracking_start, 'partial_week': partial_week,
               'updated_at': datetime.now(timezone.utc).isoformat(), 'through_week': through,
               'trackers': config['trackers'], 'managers': managers, 'players': {pid: players.get(pid, {}) for pid in sorted(tracked)}, 'trades': trades,
               'noncompleted_trade_count': len(tx) - len(completed),
