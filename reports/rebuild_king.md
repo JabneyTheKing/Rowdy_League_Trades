@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-12T15:18:26.098586+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-12T15:23:22.436287+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -10,13 +10,13 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | 2 | Potatomain | The Lost Cause Fallacy | +42.00 | 31.10 | -11.20 | +61.90 |
 | 3 | krunky | Grand Theft Aubrey | +16.36 | 45.40 | 0.00 | +61.76 |
 | 4 | lfain20 | Mortal Kombat: DARTside | -13.16 | 68.54 | 1.50 | +56.88 |
-| 5 | SethLL | Red Dead Zachdemption | -3.20 | -0.68 | 37.30 | +33.42 |
-| 6 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 31.20 | +31.20 |
-| 7 | JabneyTheKing | Josh Jacobs: Most Wanted | -20.20 | 9.30 | 41.90 | +31.00 |
+| 5 | JabneyTheKing | Josh Jacobs: Most Wanted | -13.70 | 9.30 | 41.90 | +37.50 |
+| 6 | SethLL | Red Dead Zachdemption | -3.20 | -0.68 | 37.30 | +33.42 |
+| 7 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 31.20 | +31.20 |
 | 8 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -10.00 | +13.34 |
-| 9 | AfootCoronet56 | Suicide Squad (the game) | -21.80 | -0.50 | 20.30 | -2.00 |
-| 10 | Dawg2003 | The Windhelm Nords  | -61.50 | 2.80 | 50.30 | -8.40 |
-| 11 | oneyjb | Bower's Inside Story | +41.60 | -54.22 | -14.40 | -27.02 |
+| 9 | AfootCoronet56 | Suicide Squad (the game) | -28.30 | -0.50 | 20.30 | -8.50 |
+| 10 | oneyjb | Bower's Inside Story | +60.00 | -54.22 | -14.40 | -8.62 |
+| 11 | Dawg2003 | The Windhelm Nords  | -79.90 | 2.80 | 50.30 | -26.80 |
 | 12 | RollnWithJesus | Breach & Touchdown | +0.00 | -31.10 | 0.00 | -31.10 |
 
 ## Post-Week-1 free-agent transactions

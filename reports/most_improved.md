@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-12T15:18:26.098586+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-12T15:23:22.436287+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -13,11 +13,11 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | 5 | krunky | Grand Theft Aubrey | +45.36 | 45.40 | -16.30 | +74.46 |
 | 6 | lfain20 | Mortal Kombat: DARTside | -13.16 | 68.54 | 11.20 | +66.58 |
 | 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | 11.80 | +35.14 |
-| 8 | JabneyTheKing | Josh Jacobs: Most Wanted | -53.94 | 9.30 | 70.60 | +25.96 |
-| 9 | Dawg2003 | The Windhelm Nords  | -61.50 | 2.80 | 50.30 | -8.40 |
-| 10 | oneyjb | Bower's Inside Story | -3.50 | -54.22 | 42.82 | -14.90 |
-| 11 | AfootCoronet56 | Suicide Squad (the game) | -47.86 | -0.50 | 20.30 | -28.06 |
-| 12 | RollnWithJesus | Breach & Touchdown | +0.00 | -31.10 | 0.00 | -31.10 |
+| 8 | JabneyTheKing | Josh Jacobs: Most Wanted | -47.44 | 9.30 | 70.60 | +32.46 |
+| 9 | oneyjb | Bower's Inside Story | +14.90 | -54.22 | 42.82 | +3.50 |
+| 10 | Dawg2003 | The Windhelm Nords  | -79.90 | 2.80 | 50.30 | -26.80 |
+| 11 | RollnWithJesus | Breach & Touchdown | +0.00 | -31.10 | 0.00 | -31.10 |
+| 12 | AfootCoronet56 | Suicide Squad (the game) | -54.36 | -0.50 | 20.30 | -34.56 |
 
 ## Free-agent transactions
 

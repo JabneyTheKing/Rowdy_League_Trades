@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-12T15:18:26.098586+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-12T15:23:22.436287+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,15 +11,15 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | TheRealNoodleMan | Gibbs of War | +79.98 | 3 | 4 | No |
 | 2 | krunky | Grand Theft Aubrey | +45.36 | 4 | 4 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +41.90 | 2 | 2 | No |
-| 4 | Potatomain | The Lost Cause Fallacy | +13.00 | 3 | 4 | No |
-| 5 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
-| 6 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 2 | No |
-| 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
-| 8 | oneyjb | Bower's Inside Story | -3.50 | 3 | 4 | No |
+| 4 | oneyjb | Bower's Inside Story | +14.90 | 4 | 4 | No |
+| 5 | Potatomain | The Lost Cause Fallacy | +13.00 | 3 | 4 | No |
+| 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
+| 7 | RollnWithJesus | Breach & Touchdown | +0.00 | 0 | 2 | No |
+| 8 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
 | 9 | lfain20 | Mortal Kombat: DARTside | -13.16 | 2 | 2 | Yes |
-| 10 | AfootCoronet56 | Suicide Squad (the game) | -47.86 | 2 | 3 | Yes |
-| 11 | JabneyTheKing | Josh Jacobs: Most Wanted | -53.94 | 2 | 5 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -61.50 | 1 | 2 | No |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -47.44 | 5 | 5 | Yes |
+| 11 | AfootCoronet56 | Suicide Squad (the game) | -54.36 | 3 | 3 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -79.90 | 2 | 2 | No |
 
 ### Trade 1397438171741986816
 
@@ -148,12 +148,12 @@ First scoring week: **6**
 
 ### Trade 1413594244643360768
 
-First scoring week: **6**
+First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| Dawg2003 / The Windhelm Nords  | James Cook (0.00), Chris Olave (0.00) | Ashton Jeanty (0.00), Justin Jefferson (0.00), Jake Ferguson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (6.60) | 25.00 | 6.60 | +18.40 | scored |
+| Dawg2003 / The Windhelm Nords  | James Cook (0.00), Chris Olave (6.60) | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | 6.60 | 25.00 | -18.40 | scored |
 
 ### Trade 1413558535094050816
 
@@ -166,21 +166,21 @@ First scoring week: **6**
 
 ### Trade 1413998894823612416
 
-First scoring week: **6**
+First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (0.00) | Josh Allen (0.00), Terry McLaurin (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (0.00), Terry McLaurin (0.00) | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (0.00), Terry McLaurin (10.20) | 16.70 | 10.20 | +6.50 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (0.00), Terry McLaurin (10.20) | Ja'Marr Chase (16.70) | 10.20 | 16.70 | -6.50 | scored |
 
 ### Trade 1414473604535480320
 
-First scoring week: **6**
+First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| oneyjb / Bower's Inside Story | Sam LaPorta (0.00), Jadarian Price (0.00) | Harold Fannin (0.00), Travis Etienne (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (1.40), Travis Etienne (0.00) | Sam LaPorta (19.80), Jadarian Price (0.00) | 1.40 | 19.80 | -18.40 | scored |
+| oneyjb / Bower's Inside Story | Sam LaPorta (19.80), Jadarian Price (0.00) | Harold Fannin (1.40), Travis Etienne (0.00) | 19.80 | 1.40 | +18.40 | scored |
 
 
 Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
