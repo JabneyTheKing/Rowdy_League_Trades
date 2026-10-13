@@ -1,23 +1,23 @@
 # Most Improved
 
-Updated 2026-10-13T00:51:31.517051+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-13T03:29:36.971198+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | SethLL | Red Dead Zachdemption | +41.90 | 0.00 | 50.38 | +92.28 |
-| 2 | TheRealNoodleMan | Gibbs of War | +51.52 | -18.00 | 54.18 | +87.70 |
+| 1 | TheRealNoodleMan | Gibbs of War | +51.52 | -8.00 | 54.18 | +97.70 |
+| 2 | SethLL | Red Dead Zachdemption | +41.90 | 0.00 | 50.38 | +92.28 |
 | 3 | DiscipleJack | Super Lamario | +0.00 | 48.40 | 37.30 | +85.70 |
-| 4 | krunky | Grand Theft Aubrey | +68.26 | 45.40 | -44.30 | +69.36 |
-| 5 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 23.00 | +67.48 |
-| 6 | Potatomain | The Lost Cause Fallacy | -2.70 | 30.10 | 33.32 | +60.72 |
-| 7 | JabneyTheKing | Josh Jacobs: Most Wanted | -30.72 | 12.70 | 66.22 | +48.20 |
-| 8 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | 18.10 | +41.44 |
-| 9 | RollnWithJesus | Breach & Touchdown | +20.60 | -26.80 | 31.90 | +25.70 |
-| 10 | oneyjb | Bower's Inside Story | +3.46 | -25.02 | 46.32 | +24.76 |
-| 11 | Dawg2003 | The Windhelm Nords  | -75.30 | 2.80 | 59.60 | -12.90 |
-| 12 | AfootCoronet56 | Suicide Squad (the game) | -52.68 | -0.50 | 20.30 | -32.88 |
+| 4 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 32.80 | +77.28 |
+| 5 | krunky | Grand Theft Aubrey | +68.26 | 45.40 | -44.30 | +69.36 |
+| 6 | Potatomain | The Lost Cause Fallacy | -1.20 | 30.10 | 33.32 | +62.22 |
+| 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | 18.10 | +41.44 |
+| 8 | Dawg2003 | The Windhelm Nords  | -36.00 | 2.80 | 59.60 | +26.40 |
+| 9 | oneyjb | Bower's Inside Story | +3.46 | -25.02 | 46.32 | +24.76 |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -74.62 | 19.90 | 66.22 | +11.50 |
+| 11 | RollnWithJesus | Breach & Touchdown | -0.60 | -26.80 | 31.90 | +4.50 |
+| 12 | AfootCoronet56 | Suicide Squad (the game) | -28.38 | -0.50 | 20.30 | -8.58 |
 
 ## Free-agent transactions
 
@@ -43,6 +43,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
 | JabneyTheKing | Kayshon Boutte | — | 1–3 | 10.90 | 0.00 | +10.90 | scored |
 | Dawg2003 | Wan'Dale Robinson | — | 5–5 | 8.30 | 0.00 | +8.30 | scored |
+| lfain20 | Tyler Higbee | Isaiah Williams | 4–5 | 25.00 | 16.70 | +8.30 | scored |
 | Dawg2003 | NE | — | 5–5 | 8.00 | 0.00 | +8.00 | scored |
 | lfain20 | Efton Chism | Isaiah Williams | 5–5 | 8.40 | 2.40 | +6.00 | scored |
 | SethLL | CIN | JAX | 1–5 | 51.00 | 45.00 | +6.00 | scored |
@@ -87,7 +88,6 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
 | lfain20 | Jauan Jennings | DeMario Douglas | 4–4 | 1.30 | 2.50 | -1.20 | scored |
-| lfain20 | Tyler Higbee | Isaiah Williams | 4–5 | 15.20 | 16.70 | -1.50 | scored |
 | oneyjb | JAX | Jordan Love | 1–1 | 15.00 | 20.48 | -5.48 | scored |
 | JabneyTheKing | Kaleb Johnson | Samaje Perine | 1–3 | 5.30 | 11.10 | -5.80 | scored |
 | JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |

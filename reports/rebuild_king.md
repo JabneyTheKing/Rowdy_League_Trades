@@ -1,22 +1,22 @@
 # Rebuild King
 
-Updated 2026-10-13T00:51:31.517051+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-13T03:29:36.971198+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
 | 1 | krunky | Grand Theft Aubrey | +27.26 | 45.40 | 0.00 | +72.66 |
-| 2 | TheRealNoodleMan | Gibbs of War | +40.00 | -18.00 | 39.58 | +61.58 |
-| 3 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 13.30 | +57.78 |
-| 4 | Potatomain | The Lost Cause Fallacy | +38.30 | 30.10 | -11.20 | +57.20 |
-| 5 | JabneyTheKing | Josh Jacobs: Most Wanted | +3.02 | 12.70 | 37.52 | +53.24 |
-| 6 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 37.30 | +37.30 |
+| 2 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 23.10 | +67.58 |
+| 3 | Potatomain | The Lost Cause Fallacy | +39.80 | 30.10 | -11.20 | +58.70 |
+| 4 | TheRealNoodleMan | Gibbs of War | +20.40 | -8.00 | 39.58 | +51.98 |
+| 5 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 37.30 | +37.30 |
+| 6 | JabneyTheKing | Josh Jacobs: Most Wanted | -21.28 | 19.90 | 37.52 | +36.14 |
 | 7 | SethLL | Red Dead Zachdemption | -3.20 | 0.00 | 38.38 | +35.18 |
-| 8 | RollnWithJesus | Breach & Touchdown | +20.60 | -26.80 | 31.90 | +25.70 |
-| 9 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -7.00 | +16.34 |
-| 10 | AfootCoronet56 | Suicide Squad (the game) | -26.62 | -0.50 | 20.30 | -6.82 |
-| 11 | Dawg2003 | The Windhelm Nords  | -75.30 | 2.80 | 59.60 | -12.90 |
+| 8 | Dawg2003 | The Windhelm Nords  | -36.00 | 2.80 | 59.60 | +26.40 |
+| 9 | AfootCoronet56 | Suicide Squad (the game) | -2.32 | -0.50 | 20.30 | +17.48 |
+| 10 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -7.00 | +16.34 |
+| 11 | RollnWithJesus | Breach & Touchdown | -0.60 | -26.80 | 31.90 | +4.50 |
 | 12 | oneyjb | Bower's Inside Story | +0.28 | -25.02 | -14.40 | -39.14 |
 
 ## Post-Week-1 free-agent transactions
@@ -36,6 +36,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Nick Folk | Ryan Fitzgerald | 5–5 | 12.00 | 0.00 | +12.00 | scored |
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
 | Dawg2003 | Wan'Dale Robinson | — | 5–5 | 8.30 | 0.00 | +8.30 | scored |
+| lfain20 | Tyler Higbee | Isaiah Williams | 4–5 | 25.00 | 16.70 | +8.30 | scored |
 | Dawg2003 | NE | — | 5–5 | 8.00 | 0.00 | +8.00 | scored |
 | lfain20 | Efton Chism | Isaiah Williams | 5–5 | 8.40 | 2.40 | +6.00 | scored |
 | lfain20 | DeMario Douglas | — | 2–3 | 5.70 | 0.00 | +5.70 | scored |
@@ -64,7 +65,6 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
 | lfain20 | Jauan Jennings | DeMario Douglas | 4–4 | 1.30 | 2.50 | -1.20 | scored |
-| lfain20 | Tyler Higbee | Isaiah Williams | 4–5 | 15.20 | 16.70 | -1.50 | scored |
 | JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |
 | lfain20 | Ted Hurst | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
 | therealbulker | Chase McLaughlin | Cameron Dicker | 3–4 | 14.00 | 21.00 | -7.00 | scored |
