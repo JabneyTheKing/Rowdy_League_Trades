@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-12T15:46:17.483525+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-13T00:51:31.517051+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,15 +11,15 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | krunky | Grand Theft Aubrey | +68.26 | 4 | 4 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +51.52 | 4 | 4 | No |
 | 3 | SethLL | Red Dead Zachdemption | +41.90 | 2 | 2 | No |
-| 4 | RollnWithJesus | Breach & Touchdown | +25.00 | 2 | 2 | No |
+| 4 | RollnWithJesus | Breach & Touchdown | +20.60 | 2 | 2 | No |
 | 5 | oneyjb | Bower's Inside Story | +3.46 | 4 | 4 | No |
 | 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
 | 8 | Potatomain | The Lost Cause Fallacy | -2.70 | 4 | 4 | No |
 | 9 | lfain20 | Mortal Kombat: DARTside | -24.06 | 2 | 2 | Yes |
-| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -29.04 | 5 | 5 | Yes |
-| 11 | AfootCoronet56 | Suicide Squad (the game) | -54.36 | 3 | 3 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -79.70 | 2 | 2 | No |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -30.72 | 5 | 5 | Yes |
+| 11 | AfootCoronet56 | Suicide Squad (the game) | -52.68 | 3 | 3 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -75.30 | 2 | 2 | No |
 
 ### Trade 1397438171741986816
 
@@ -117,8 +117,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (0.00), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 6.60 | 26.80 | -20.20 | scored |
-| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | James Cook (0.00), Chris Olave (6.60) | 26.80 | 6.60 | +20.20 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (4.40), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 11.00 | 26.80 | -15.80 | scored |
+| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | James Cook (4.40), Chris Olave (6.60) | 26.80 | 11.00 | +15.80 | scored |
 
 ### Trade 1413043102498734080
 
@@ -143,8 +143,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Jaylen Warren (33.80), Puka Nacua (0.00) | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | 33.80 | 37.50 | -3.70 | scored |
-| RollnWithJesus / Breach & Touchdown | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | Jaylen Warren (33.80), Puka Nacua (0.00) | 37.50 | 33.80 | +3.70 | scored |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (33.80), Puka Nacua (4.40) | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | 38.20 | 37.50 | +0.70 | scored |
+| RollnWithJesus / Breach & Touchdown | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | Jaylen Warren (33.80), Puka Nacua (4.40) | 37.50 | 38.20 | -0.70 | scored |
 
 ### Trade 1413594244643360768
 
@@ -152,8 +152,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (0.00), Chris Olave (6.60) | 25.00 | 6.60 | +18.40 | scored |
-| Dawg2003 / The Windhelm Nords  | James Cook (0.00), Chris Olave (6.60) | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | 6.60 | 25.00 | -18.40 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (4.40), Chris Olave (6.60) | 25.00 | 11.00 | +14.00 | scored |
+| Dawg2003 / The Windhelm Nords  | James Cook (4.40), Chris Olave (6.60) | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | 11.00 | 25.00 | -14.00 | scored |
 
 ### Trade 1413558535094050816
 
@@ -170,8 +170,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (0.00), Terry McLaurin (10.20) | 16.70 | 10.20 | +6.50 | scored |
-| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (0.00), Terry McLaurin (10.20) | Ja'Marr Chase (16.70) | 10.20 | 16.70 | -6.50 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (1.68), Terry McLaurin (10.20) | 16.70 | 11.88 | +4.82 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (1.68), Terry McLaurin (10.20) | Ja'Marr Chase (16.70) | 11.88 | 16.70 | -4.82 | scored |
 
 ### Trade 1414473604535480320
 

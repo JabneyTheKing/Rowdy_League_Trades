@@ -35,7 +35,7 @@
       "trade_count": 2
     },
     {
-      "delta": 25.0,
+      "delta": 20.6,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "RollnWithJesus",
@@ -101,7 +101,7 @@
       "trade_count": 2
     },
     {
-      "delta": -29.04,
+      "delta": -30.72,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
@@ -112,7 +112,7 @@
       "trade_count": 5
     },
     {
-      "delta": -54.36,
+      "delta": -52.68,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "AfootCoronet56",
@@ -123,7 +123,7 @@
       "trade_count": 3
     },
     {
-      "delta": -79.7,
+      "delta": -75.3,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "Dawg2003",
@@ -1703,9 +1703,9 @@
         "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
-        "pickup_points": 11.7,
+        "pickup_points": 15.2,
         "player_id": "3271",
-        "points": -5.0,
+        "points": -1.5,
         "released": false,
         "roster_id": 4,
         "status": "scored",
@@ -1826,12 +1826,24 @@
         "free_agent_points": 39.58,
         "manager": "TheRealNoodleMan",
         "roster_id": 2,
-        "score": 71.58,
+        "score": 61.58,
         "team": "Gibbs of War",
         "trade_count": 2,
         "trade_delta": 40.0,
         "waiver_claims": 5,
-        "waiver_points": -8.0
+        "waiver_points": -18.0
+      },
+      {
+        "free_agent_adds": 10,
+        "free_agent_points": 13.3,
+        "manager": "lfain20",
+        "roster_id": 4,
+        "score": 57.78,
+        "team": "Mortal Kombat: DARTside",
+        "trade_count": 2,
+        "trade_delta": -24.06,
+        "waiver_claims": 3,
+        "waiver_points": 68.54
       },
       {
         "free_agent_adds": 3,
@@ -1850,24 +1862,12 @@
         "free_agent_points": 37.52,
         "manager": "JabneyTheKing",
         "roster_id": 3,
-        "score": 54.92,
+        "score": 53.24,
         "team": "Josh Jacobs: Most Wanted",
         "trade_count": 4,
-        "trade_delta": 4.7,
+        "trade_delta": 3.02,
         "waiver_claims": 4,
         "waiver_points": 12.7
-      },
-      {
-        "free_agent_adds": 10,
-        "free_agent_points": 9.8,
-        "manager": "lfain20",
-        "roster_id": 4,
-        "score": 54.28,
-        "team": "Mortal Kombat: DARTside",
-        "trade_count": 2,
-        "trade_delta": -24.06,
-        "waiver_claims": 3,
-        "waiver_points": 68.54
       },
       {
         "free_agent_adds": 5,
@@ -1898,10 +1898,10 @@
         "free_agent_points": 31.9,
         "manager": "RollnWithJesus",
         "roster_id": 11,
-        "score": 30.1,
+        "score": 25.7,
         "team": "Breach & Touchdown",
         "trade_count": 2,
-        "trade_delta": 25.0,
+        "trade_delta": 20.6,
         "waiver_claims": 2,
         "waiver_points": -26.8
       },
@@ -1922,10 +1922,10 @@
         "free_agent_points": 20.3,
         "manager": "AfootCoronet56",
         "roster_id": 5,
-        "score": -8.5,
+        "score": -6.82,
         "team": "Suicide Squad (the game)",
         "trade_count": 2,
-        "trade_delta": -28.3,
+        "trade_delta": -26.62,
         "waiver_claims": 1,
         "waiver_points": -0.5
       },
@@ -1934,10 +1934,10 @@
         "free_agent_points": 59.6,
         "manager": "Dawg2003",
         "roster_id": 9,
-        "score": -17.3,
+        "score": -12.9,
         "team": "The Windhelm Nords ",
         "trade_count": 2,
-        "trade_delta": -79.7,
+        "trade_delta": -75.3,
         "waiver_claims": 2,
         "waiver_points": 2.8
       },
@@ -2989,9 +2989,9 @@
         "last_week": 5,
         "manager": "lfain20",
         "missing_scores": [],
-        "pickup_points": 11.7,
+        "pickup_points": 15.2,
         "player_id": "3271",
-        "points": -5.0,
+        "points": -1.5,
         "released": false,
         "roster_id": 4,
         "status": "scored",
@@ -3176,18 +3176,6 @@
     ],
     "standings": [
       {
-        "free_agent_adds": 5,
-        "free_agent_points": 54.18,
-        "manager": "TheRealNoodleMan",
-        "roster_id": 2,
-        "score": 97.7,
-        "team": "Gibbs of War",
-        "trade_count": 4,
-        "trade_delta": 51.52,
-        "waiver_claims": 5,
-        "waiver_points": -8.0
-      },
-      {
         "free_agent_adds": 4,
         "free_agent_points": 50.38,
         "manager": "SethLL",
@@ -3198,6 +3186,18 @@
         "trade_delta": 41.9,
         "waiver_claims": 1,
         "waiver_points": 0
+      },
+      {
+        "free_agent_adds": 5,
+        "free_agent_points": 54.18,
+        "manager": "TheRealNoodleMan",
+        "roster_id": 2,
+        "score": 87.7,
+        "team": "Gibbs of War",
+        "trade_count": 4,
+        "trade_delta": 51.52,
+        "waiver_claims": 5,
+        "waiver_points": -18.0
       },
       {
         "free_agent_adds": 5,
@@ -3225,10 +3225,10 @@
       },
       {
         "free_agent_adds": 14,
-        "free_agent_points": 19.5,
+        "free_agent_points": 23.0,
         "manager": "lfain20",
         "roster_id": 4,
-        "score": 63.98,
+        "score": 67.48,
         "team": "Mortal Kombat: DARTside",
         "trade_count": 2,
         "trade_delta": -24.06,
@@ -3252,10 +3252,10 @@
         "free_agent_points": 66.22,
         "manager": "JabneyTheKing",
         "roster_id": 3,
-        "score": 49.88,
+        "score": 48.2,
         "team": "Josh Jacobs: Most Wanted",
         "trade_count": 5,
-        "trade_delta": -29.04,
+        "trade_delta": -30.72,
         "waiver_claims": 4,
         "waiver_points": 12.7
       },
@@ -3276,10 +3276,10 @@
         "free_agent_points": 31.9,
         "manager": "RollnWithJesus",
         "roster_id": 11,
-        "score": 30.1,
+        "score": 25.7,
         "team": "Breach & Touchdown",
         "trade_count": 2,
-        "trade_delta": 25.0,
+        "trade_delta": 20.6,
         "waiver_claims": 2,
         "waiver_points": -26.8
       },
@@ -3300,10 +3300,10 @@
         "free_agent_points": 59.6,
         "manager": "Dawg2003",
         "roster_id": 9,
-        "score": -17.3,
+        "score": -12.9,
         "team": "The Windhelm Nords ",
         "trade_count": 2,
-        "trade_delta": -79.7,
+        "trade_delta": -75.3,
         "waiver_claims": 2,
         "waiver_points": 2.8
       },
@@ -3312,10 +3312,10 @@
         "free_agent_points": 20.3,
         "manager": "AfootCoronet56",
         "roster_id": 5,
-        "score": -34.56,
+        "score": -32.88,
         "team": "Suicide Squad (the game)",
         "trade_count": 3,
-        "trade_delta": -54.36,
+        "trade_delta": -52.68,
         "waiver_claims": 1,
         "waiver_points": -0.5
       }
@@ -4306,7 +4306,7 @@
       "processed_at": 1791267389058,
       "sides": [
         {
-          "delta": -20.2,
+          "delta": -15.8,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "JabneyTheKing",
@@ -4320,14 +4320,14 @@
           "received_players": [
             {
               "player_id": "8138",
-              "points": 0.0
+              "points": 4.4
             },
             {
               "player_id": "8144",
               "points": 6.6
             }
           ],
-          "received_points": 6.6,
+          "received_points": 11.0,
           "roster_id": 3,
           "sent": [
             "12512",
@@ -4348,7 +4348,7 @@
           "team": "Josh Jacobs: Most Wanted"
         },
         {
-          "delta": 20.2,
+          "delta": 15.8,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Potatomain",
@@ -4378,14 +4378,14 @@
           "sent_players": [
             {
               "player_id": "8138",
-              "points": 0.0
+              "points": 4.4
             },
             {
               "player_id": "8144",
               "points": 6.6
             }
           ],
-          "sent_points": 6.6,
+          "sent_points": 11.0,
           "status": "scored",
           "team": "The Lost Cause Fallacy"
         }
@@ -4509,12 +4509,12 @@
         "4199": 5,
         "8228": 5,
         "9488": 5,
-        "9493": 6
+        "9493": 5
       },
       "processed_at": 1791526598635,
       "sides": [
         {
-          "delta": -3.7,
+          "delta": 0.7,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Potatomain",
@@ -4532,10 +4532,10 @@
             },
             {
               "player_id": "9493",
-              "points": 0
+              "points": 4.4
             }
           ],
-          "received_points": 33.8,
+          "received_points": 38.2,
           "roster_id": 6,
           "sent": [
             "4199",
@@ -4556,7 +4556,7 @@
           "team": "The Lost Cause Fallacy"
         },
         {
-          "delta": 3.7,
+          "delta": -0.7,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "RollnWithJesus",
@@ -4590,10 +4590,10 @@
             },
             {
               "player_id": "9493",
-              "points": 0
+              "points": 4.4
             }
           ],
-          "sent_points": 33.8,
+          "sent_points": 38.2,
           "status": "scored",
           "team": "Breach & Touchdown"
         }
@@ -4606,13 +4606,13 @@
         "12527": 5,
         "6794": 5,
         "8110": 6,
-        "8138": 6,
+        "8138": 5,
         "8144": 5
       },
       "processed_at": 1791526598635,
       "sides": [
         {
-          "delta": 18.4,
+          "delta": 14.0,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "JabneyTheKing",
@@ -4647,19 +4647,19 @@
           "sent_players": [
             {
               "player_id": "8138",
-              "points": 0
+              "points": 4.4
             },
             {
               "player_id": "8144",
               "points": 6.6
             }
           ],
-          "sent_points": 6.6,
+          "sent_points": 11.0,
           "status": "scored",
           "team": "Josh Jacobs: Most Wanted"
         },
         {
-          "delta": -18.4,
+          "delta": -14.0,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Dawg2003",
@@ -4673,14 +4673,14 @@
           "received_players": [
             {
               "player_id": "8138",
-              "points": 0
+              "points": 4.4
             },
             {
               "player_id": "8144",
               "points": 6.6
             }
           ],
-          "received_points": 6.6,
+          "received_points": 11.0,
           "roster_id": 9,
           "sent": [
             "12527",
@@ -4786,14 +4786,14 @@
       "first_scoring_week": 5,
       "id": "1413998894823612416",
       "player_first_scoring_week": {
-        "4984": 6,
+        "4984": 5,
         "5927": 5,
         "7564": 5
       },
       "processed_at": 1791612950081,
       "sides": [
         {
-          "delta": 6.5,
+          "delta": 4.82,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "JabneyTheKing",
@@ -4818,19 +4818,19 @@
           "sent_players": [
             {
               "player_id": "4984",
-              "points": 0
+              "points": 1.68
             },
             {
               "player_id": "5927",
               "points": 10.2
             }
           ],
-          "sent_points": 10.2,
+          "sent_points": 11.88,
           "status": "scored",
           "team": "Josh Jacobs: Most Wanted"
         },
         {
-          "delta": -6.5,
+          "delta": -4.82,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "AfootCoronet56",
@@ -4844,14 +4844,14 @@
           "received_players": [
             {
               "player_id": "4984",
-              "points": 0
+              "points": 1.68
             },
             {
               "player_id": "5927",
               "points": 10.2
             }
           ],
-          "received_points": 10.2,
+          "received_points": 11.88,
           "roster_id": 5,
           "sent": [
             "7564"
@@ -4966,7 +4966,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-12T15:46:17.483525+00:00",
+  "updated_at": "2026-10-13T00:51:31.517051+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -5492,22 +5492,6 @@
         "transaction_id": "1412569496459235328"
       },
       {
-        "dropped_player_id": "BUF",
-        "dropped_points": 0.0,
-        "faab": 3,
-        "first_week": 5,
-        "last_week": 5,
-        "manager": "TheRealNoodleMan",
-        "missing_scores": [],
-        "pickup_points": 1.0,
-        "player_id": "DAL",
-        "points": 1.0,
-        "released": false,
-        "roster_id": 2,
-        "status": "scored",
-        "transaction_id": "1412645707302674432"
-      },
-      {
         "dropped_player_id": "11655",
         "dropped_points": 0.2,
         "faab": 5,
@@ -5698,6 +5682,22 @@
         "roster_id": 7,
         "status": "scored",
         "transaction_id": "1408355492962508800"
+      },
+      {
+        "dropped_player_id": "BUF",
+        "dropped_points": 10.0,
+        "faab": 3,
+        "first_week": 5,
+        "last_week": 5,
+        "manager": "TheRealNoodleMan",
+        "missing_scores": [],
+        "pickup_points": 1.0,
+        "player_id": "DAL",
+        "points": -9.0,
+        "released": false,
+        "roster_id": 2,
+        "status": "scored",
+        "transaction_id": "1412645707302674432"
       },
       {
         "dropped_player_id": "4943",
@@ -5944,7 +5944,7 @@
         "faab_spent": 10,
         "manager": "TheRealNoodleMan",
         "pending_claims": 0,
-        "points": -8.0,
+        "points": -18.0,
         "roster_id": 2,
         "scored_claims": 5,
         "team": "Gibbs of War"

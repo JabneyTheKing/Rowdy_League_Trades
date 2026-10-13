@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-12T15:46:17.483525+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-13T00:51:31.517051+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -15,7 +15,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 7 | Dawg2003 | The Windhelm Nords  | 2.80 | 2 | $20 | Dohnte Meyers (2.20) |
 | 8 | SethLL | Red Dead Zachdemption | 0.00 | 1 | $2 | Carson Wentz (0.00) |
 | 9 | AfootCoronet56 | Suicide Squad (the game) | -0.50 | 1 | $20 | Will Shipley (-0.50) |
-| 10 | TheRealNoodleMan | Gibbs of War | -8.00 | 5 | $10 | BUF (4.00) |
+| 10 | TheRealNoodleMan | Gibbs of War | -18.00 | 5 | $10 | BUF (4.00) |
 | 11 | oneyjb | Bower's Inside Story | -25.02 | 5 | $26 | C.J. Stroud (11.52) |
 | 12 | RollnWithJesus | Breach & Touchdown | -26.80 | 2 | $20 | LV (-13.00) |
 
@@ -42,7 +42,6 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | oneyjb | BAL | SF | $3 | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | krunky | KC | TB | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Cam Little | Chase McLaughlin | $1 | 5–5 | 8.00 | 7.00 | +1.00 | scored |
-| TheRealNoodleMan | DAL | BUF | $3 | 5–5 | 1.00 | 0.00 | +1.00 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
 | krunky | LAC | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Carson Wentz | CHI | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -55,6 +54,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | TB | LAC | $2 | 2–2 | 2.00 | 5.00 | -3.00 | scored |
 | JabneyTheKing | Kalif Raymond | Kayshon Boutte | $28 | 4–4 | 1.60 | 5.10 | -3.50 | scored |
 | therealbulker | Terrance Ferguson | Brenton Strange | $11 | 3–3 | 1.90 | 6.20 | -4.30 | scored |
+| TheRealNoodleMan | DAL | BUF | $3 | 5–5 | 1.00 | 10.00 | -9.00 | scored |
 | therealbulker | Michael Mayer | Sam Darnold | $21 | 5–5 | 1.20 | 10.30 | -9.10 | scored |
 | oneyjb | SF | JAX | $3 | 2–3 | 10.00 | 20.00 | -10.00 | scored |
 | oneyjb | Adonai Mitchell | MarShawn Lloyd | $15 | 3–5 | 0.00 | 10.20 | -10.20 | scored |
