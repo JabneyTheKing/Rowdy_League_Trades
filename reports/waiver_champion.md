@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-13T03:29:36.971198+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-13T14:24:32.193345+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -15,7 +15,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 7 | Dawg2003 | The Windhelm Nords  | 2.80 | 2 | $20 | Dohnte Meyers (2.20) |
 | 8 | SethLL | Red Dead Zachdemption | 0.00 | 1 | $2 | Carson Wentz (0.00) |
 | 9 | AfootCoronet56 | Suicide Squad (the game) | -0.50 | 1 | $20 | Will Shipley (-0.50) |
-| 10 | TheRealNoodleMan | Gibbs of War | -8.00 | 5 | $10 | BUF (4.00) |
+| 10 | TheRealNoodleMan | Gibbs of War | -10.00 | 5 | $10 | BUF (4.00) |
 | 11 | oneyjb | Bower's Inside Story | -25.02 | 5 | $26 | C.J. Stroud (11.52) |
 | 12 | RollnWithJesus | Breach & Touchdown | -26.80 | 2 | $20 | LV (-13.00) |
 
@@ -43,13 +43,13 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | oneyjb | BAL | SF | $3 | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | krunky | KC | TB | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Cam Little | Chase McLaughlin | $1 | 5–5 | 8.00 | 7.00 | +1.00 | scored |
-| TheRealNoodleMan | DAL | BUF | $3 | 5–5 | 1.00 | 0.00 | +1.00 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
 | krunky | LAC | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Carson Wentz | CHI | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Ryan Fitzgerald | Harrison Butker | $1 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | AfootCoronet56 | Will Shipley | Wan'Dale Robinson | $20 | 5–5 | 7.80 | 8.30 | -0.50 | scored |
 | therealbulker | Devaughn Vele | Malik Washington | $25 | 2–5 | 33.30 | 33.90 | -0.60 | scored |
+| TheRealNoodleMan | DAL | BUF | $3 | 5–5 | 1.00 | 2.00 | -1.00 | scored |
 | JabneyTheKing | Jaylen Wright | Zach Ertz | $27 | 4–5 | 1.80 | 3.30 | -1.50 | scored |
 | TheRealNoodleMan | CAR | BAL | $3 | 3–3 | 4.00 | 6.00 | -2.00 | scored |
 | krunky | TB | LAC | $2 | 2–2 | 2.00 | 5.00 | -3.00 | scored |
@@ -63,7 +63,3 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | RollnWithJesus | LV | NE | $20 | 4–5 | 1.00 | 14.00 | -13.00 | scored |
 | RollnWithJesus | Devin Singletary | Kenny Gainwell | $0 | 2–4 | 0.90 | 14.70 | -13.80 | scored |
 | oneyjb | Tyler Allgeier | C.J. Stroud | $5 | 5–5 | 2.60 | 20.94 | -18.34 | scored |
-
-
-Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

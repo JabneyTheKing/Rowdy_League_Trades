@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-13T03:29:36.971198+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-13T14:24:32.193345+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -8,15 +8,15 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 |---:|---|---|---:|---:|---:|---:|
 | 1 | krunky | Grand Theft Aubrey | +27.26 | 45.40 | 0.00 | +72.66 |
 | 2 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 23.10 | +67.58 |
-| 3 | Potatomain | The Lost Cause Fallacy | +39.80 | 30.10 | -11.20 | +58.70 |
-| 4 | TheRealNoodleMan | Gibbs of War | +20.40 | -8.00 | 39.58 | +51.98 |
+| 3 | Potatomain | The Lost Cause Fallacy | +45.20 | 30.10 | -11.20 | +64.10 |
+| 4 | TheRealNoodleMan | Gibbs of War | +20.40 | -10.00 | 39.58 | +49.98 |
 | 5 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 37.30 | +37.30 |
-| 6 | JabneyTheKing | Josh Jacobs: Most Wanted | -21.28 | 19.90 | 37.52 | +36.14 |
-| 7 | SethLL | Red Dead Zachdemption | -3.20 | 0.00 | 38.38 | +35.18 |
-| 8 | Dawg2003 | The Windhelm Nords  | -36.00 | 2.80 | 59.60 | +26.40 |
-| 9 | AfootCoronet56 | Suicide Squad (the game) | -2.32 | -0.50 | 20.30 | +17.48 |
+| 6 | SethLL | Red Dead Zachdemption | -3.20 | 0.00 | 38.38 | +35.18 |
+| 7 | JabneyTheKing | Josh Jacobs: Most Wanted | -26.80 | 19.90 | 37.52 | +30.62 |
+| 8 | Dawg2003 | The Windhelm Nords  | -37.80 | 2.80 | 59.60 | +24.60 |
+| 9 | AfootCoronet56 | Suicide Squad (the game) | +3.20 | -0.50 | 20.30 | +23.00 |
 | 10 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -7.00 | +16.34 |
-| 11 | RollnWithJesus | Breach & Touchdown | -0.60 | -26.80 | 31.90 | +4.50 |
+| 11 | RollnWithJesus | Breach & Touchdown | -4.20 | -26.80 | 31.90 | +0.90 |
 | 12 | oneyjb | Bower's Inside Story | +0.28 | -25.02 | -14.40 | -39.14 |
 
 ## Post-Week-1 free-agent transactions
@@ -71,7 +71,3 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–5 | 21.30 | 31.20 | -9.90 | scored |
 | Potatomain | GB | MIN | 2–2 | 5.00 | 18.00 | -13.00 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–5 | 7.70 | 22.10 | -14.40 | scored |
-
-
-Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

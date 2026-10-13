@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-13T03:29:36.971198+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-13T14:24:32.193345+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,15 +11,15 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | krunky | Grand Theft Aubrey | +68.26 | 4 | 4 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +51.52 | 4 | 4 | No |
 | 3 | SethLL | Red Dead Zachdemption | +41.90 | 2 | 2 | No |
-| 4 | oneyjb | Bower's Inside Story | +3.46 | 4 | 4 | No |
-| 5 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
-| 6 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
-| 7 | RollnWithJesus | Breach & Touchdown | -0.60 | 2 | 2 | No |
-| 8 | Potatomain | The Lost Cause Fallacy | -1.20 | 4 | 4 | No |
-| 9 | lfain20 | Mortal Kombat: DARTside | -24.06 | 2 | 2 | Yes |
-| 10 | AfootCoronet56 | Suicide Squad (the game) | -28.38 | 3 | 3 | Yes |
-| 11 | Dawg2003 | The Windhelm Nords  | -36.00 | 2 | 2 | No |
-| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -74.62 | 5 | 5 | Yes |
+| 4 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 4 | No |
+| 5 | oneyjb | Bower's Inside Story | +3.46 | 4 | 5 | Yes |
+| 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
+| 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
+| 8 | RollnWithJesus | Breach & Touchdown | -4.20 | 2 | 2 | No |
+| 9 | AfootCoronet56 | Suicide Squad (the game) | -22.86 | 3 | 3 | Yes |
+| 10 | lfain20 | Mortal Kombat: DARTside | -24.06 | 2 | 3 | Yes |
+| 11 | Dawg2003 | The Windhelm Nords  | -37.80 | 2 | 2 | No |
+| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -80.14 | 5 | 5 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -117,8 +117,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (24.10), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 30.70 | 26.80 | +3.90 | scored |
-| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | James Cook (24.10), Chris Olave (6.60) | 26.80 | 30.70 | -3.90 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (22.30), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 28.90 | 26.80 | +2.10 | scored |
+| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | James Cook (22.30), Chris Olave (6.60) | 26.80 | 28.90 | -2.10 | scored |
 
 ### Trade 1413043102498734080
 
@@ -143,8 +143,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Jaylen Warren (33.80), Puka Nacua (25.60) | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | 59.40 | 37.50 | +21.90 | scored |
-| RollnWithJesus / Breach & Touchdown | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | Jaylen Warren (33.80), Puka Nacua (25.60) | 37.50 | 59.40 | -21.90 | scored |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (33.80), Puka Nacua (29.20) | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | 63.00 | 37.50 | +25.50 | scored |
+| RollnWithJesus / Breach & Touchdown | Aaron Jones (17.20), Jaxon Smith-Njigba (20.30) | Jaylen Warren (33.80), Puka Nacua (29.20) | 37.50 | 63.00 | -25.50 | scored |
 
 ### Trade 1413594244643360768
 
@@ -152,8 +152,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (24.10), Chris Olave (6.60) | 25.00 | 30.70 | -5.70 | scored |
-| Dawg2003 / The Windhelm Nords  | James Cook (24.10), Chris Olave (6.60) | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | 30.70 | 25.00 | +5.70 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (22.30), Chris Olave (6.60) | 25.00 | 28.90 | -3.90 | scored |
+| Dawg2003 / The Windhelm Nords  | James Cook (22.30), Chris Olave (6.60) | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | 28.90 | 25.00 | +3.90 | scored |
 
 ### Trade 1413558535094050816
 
@@ -170,8 +170,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (25.98), Terry McLaurin (10.20) | 16.70 | 36.18 | -19.48 | scored |
-| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (25.98), Terry McLaurin (10.20) | Ja'Marr Chase (16.70) | 36.18 | 16.70 | +19.48 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (31.50), Terry McLaurin (10.20) | 16.70 | 41.70 | -25.00 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (31.50), Terry McLaurin (10.20) | Ja'Marr Chase (16.70) | 41.70 | 16.70 | +25.00 | scored |
 
 ### Trade 1414473604535480320
 
@@ -182,6 +182,19 @@ First scoring week: **5**
 | JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb / Bower's Inside Story | Sam LaPorta (0.00), Jadarian Price (0.00) | Harold Fannin (0.00), Travis Etienne (0.00) | 0.00 | 0.00 | +0.00 | scored |
 
+### Trade 1415258274609045504
 
-Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+First scoring week: **6**
 
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| lfain20 / Mortal Kombat: DARTside | Roman Wilson (0.00) | DeVonta Smith (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb / Bower's Inside Story | DeVonta Smith (0.00) | Roman Wilson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+lfain20 picks received: 2027 round 6 (original roster 12). Value not included in points.
+
+lfain20 picks sent: 2027 round 10 (original roster 4). Value not included in points.
+
+oneyjb picks received: 2027 round 10 (original roster 4). Value not included in points.
+
+oneyjb picks sent: 2027 round 6 (original roster 12). Value not included in points.

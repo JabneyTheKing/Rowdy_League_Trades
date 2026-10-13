@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-13T03:29:36.971198+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-13T14:24:32.193345+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -26,7 +26,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (24.10), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 30.70 | 26.80 | +3.90 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (22.30), Chris Olave (6.60) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (20.30) | 28.90 | 26.80 | +2.10 | scored |
 
 ### Trade 1413594244643360768
 
@@ -34,7 +34,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (24.10), Chris Olave (6.60) | 25.00 | 30.70 | -5.70 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (9.20), Justin Jefferson (15.80), Jake Ferguson (0.00) | James Cook (22.30), Chris Olave (6.60) | 25.00 | 28.90 | -3.90 | scored |
 
 ### Trade 1413998894823612416
 
@@ -42,7 +42,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (25.98), Terry McLaurin (10.20) | 16.70 | 36.18 | -19.48 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (16.70) | Josh Allen (31.50), Terry McLaurin (10.20) | 16.70 | 41.70 | -25.00 | scored |
 
 ### Trade 1414473604535480320
 
@@ -51,7 +51,3 @@ First scoring week: **5**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | scored |
-
-
-Week 5 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-
