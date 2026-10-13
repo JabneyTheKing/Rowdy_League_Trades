@@ -352,9 +352,39 @@ def render_improved(report, key='rebuild_master', title='Most Improved', subtitl
     rank_rows(d,rows,410,cols,accent,row_height=46,box_height=40,font_size=17); footer(d,report); return im
 
 
+def render_conner_metcalf(report):
+    c = report['conner_metcalf']; waiting = c['status'] != 'active'
+    im = Image.new('RGB', (W, H), '#070c14'); d = ImageDraw.Draw(im)
+    for x in range(0, W, 80):
+        d.line((x, 0, x-400, H), fill='#152335', width=2)
+    d.polygon([(0,180),(770,180),(650,720),(0,720)],fill='#132b48')
+    d.polygon([(830,180),(W,180),(W,720),(710,720)],fill='#39121e')
+    text(d,(800,65),'THE RETURN MATCHUP',59,'white',True,'mm')
+    text(d,(800,125),'DK METCALF  vs.  JAMES CONNER',31,'#dfb65b',True,'mm')
+    for x,pid,name,color,points in [(390,'5846','DK METCALF','#65bdff',c['metcalf_points']),
+                                   (1210,'4137','JAMES CONNER','#ff6979',c['conner_points'])]:
+        portrait = headshot(pid,240)
+        paste_circle(im,portrait,(x-120,215),240,color)
+        if all(lo == hi for lo, hi in portrait.getextrema()):
+            text(d,(x,335),'DK' if pid == '5846' else 'JC',80,color,True,'mm')
+        text(d,(x,508),name,39,'white',True,'mm')
+        text(d,(x,601),f'{points:.2f}',88,color,True,'mm')
+        text(d,(x,673),'FANTASY POINTS',21,'#becbd8',True,'mm')
+    text(d,(800,415),'VS',63,'#dfb65b',True,'mm')
+    rect(d,(95,750,1505,918),'#101722','#dfb65b',3,18)
+    title = 'WAITING FOR CONNER’S RETURN' if waiting else f"DK ADVANTAGE  {c['delta']:+.2f} POINTS"
+    text(d,(800,790),title,34,'#dfb65b',True,'mm')
+    note = 'BOTH COUNTERS LOCKED AT ZERO' if waiting else f"BOTH COUNTERS STARTED WEEK {c['first_scoring_week']}"
+    text(d,(800,837),note,23,'white',True,'mm')
+    text(d,(800,881),'Same starting week • Conner’s return game included • No earlier points',19,'#aab8c5',True,'mm')
+    text(d,(800,970),f"THROUGH WEEK {report['through_week']} • AUTO-UPDATED EVERY SIX HOURS",20,'#aab8c5',True,'mm')
+    return im
+
+
 def main():
     report=json.loads((ROOT/'data/report.json').read_text()); OUT.mkdir(exist_ok=True)
     jobs={
+        'metcalf_vs_conner.png':render_conner_metcalf(report),
         'krunky.png':rich_person_tracker(report,'krunky','krunky_header.jpg'),
         'ryan.png':rich_person_tracker(report,'ryan','ryan_header.jpg',True),
         'jabney.png':render_jabney(report),

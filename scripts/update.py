@@ -317,6 +317,25 @@ def markdown(report, players):
         (ROOT / 'reports' / filename).write_text(content + partial_note)
 
 
+def conner_metcalf(payloads, weekly, through):
+    # Week 6 is the earliest possible return after this comparison was requested.
+    # An active designation alone is insufficient: require on-field participation.
+    first = None
+    for week in range(6, through + 1):
+        row = stat_map(payloads[f'stats/{week}']).get('4137', {})
+        stats = row.get('stats', {})
+        if any((stats.get(key) or 0) > 0 for key in
+               ('off_snp', 'rush_att', 'rec_tgt', 'rec', 'pass_att', 'kick_ret', 'punt_ret')):
+            first = week
+            break
+    totals = {pid: round(sum(weekly.get(str(w), {}).get(pid, 0)
+              for w in range(first, through + 1)), 2) if first else 0
+              for pid in ('5846', '4137')}
+    return {'status': 'active' if first else 'waiting_for_conner',
+            'first_scoring_week': first, 'metcalf_points': totals['5846'],
+            'conner_points': totals['4137'], 'delta': round(totals['5846']-totals['4137'], 2)}
+
+
 def run():
     parser = argparse.ArgumentParser()
     parser.add_argument('--through-week', type=int, help='Explicit completed scoring week, 0–18')
@@ -383,6 +402,7 @@ def run():
     tracked.update(pid for t in all_tx.values() if t.get('type') in ('waiver', 'free_agent') and t.get('status') == 'complete'
                    for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})])
     tracked.update(pid for t in vetoes for s in t['sides'] for direction in ('received', 'sent') for pid in s[direction])
+    tracked.update(('5846', '4137'))
     weekly, starts, checks, game_dates = {}, {}, [], {}
     for w in range(1, through + 1):
         rows = stat_map(payloads[f'stats/{w}'])
@@ -430,13 +450,25 @@ def run():
               'waiver_champion': waivers,
               'rebuild_master': rebuild,
               'rebuild_king': rebuild_king,
-              'leaderboard': trade_board}
+              'leaderboard': trade_board,
+              'conner_metcalf': conner_metcalf(payloads, weekly, through)}
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings')},
                                            'managers': managers, 'transactions': list(all_tx.values()),
                                            'weekly_points': weekly, 'week_start_dates': starts, 'player_game_dates': game_dates})
     write_json(ROOT / 'data/report.json', report)
     markdown(report, players)
+    comparison = report['conner_metcalf']
+    start = comparison['first_scoring_week']
+    (ROOT / 'reports/metcalf_vs_conner.md').write_text(
+        '# DK Metcalf vs. James Conner\n\n'
+        + (f'Scoring starts Week {start}, Conner\'s first game back.\n\n' if start else
+           'WAITING FOR CONNER: both totals stay at zero until his first game back from IR.\n\n')
+        + 'Both players count from the same NFL week, including Conner\'s return game. Earlier points are excluded. '
+          'Return requires recorded offensive snaps or game involvement; being listed active alone does not start scoring. '
+          'Once started, this is a cumulative season comparison, even if either player later misses games.\n\n'
+        + f"| DK Metcalf | James Conner | DK minus Conner |\n|---:|---:|---:|\n| {comparison['metcalf_points']:.2f} | {comparison['conner_points']:.2f} | {comparison['delta']:+.2f} |\n\n"
+        + f"Updated {report['updated_at']}; through Week {through}" + (' (partial)' if partial_week else '') + '.\n')
     print(f"Updated {league['name']}: {len(trades)} trades, {len(waivers['claims'])} waiver claims, {len(free_agents['claims'])} free-agent adds; through Week {through}; scoring cross-check passed.")
 
 

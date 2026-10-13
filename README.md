@@ -56,3 +56,9 @@ python scripts/update.py --through-week 5
 `data/snapshot.json` preserves normalized managers, source transactions, weekly points, league scoring/settings, and week dates. `data/report.json` contains evaluated trades, vetoes, waiver claims, rankings, and tracked player names. `.cache/players-2026.json` locally caches player names/positions/teams; it refreshes at most once daily. League chat message contents are not collected.
 
 Sources: [Sleeper API documentation](https://docs.sleeper.com/) and live Sleeper read-only responses. The weekly stats fallback is not part of the documented API and may need maintenance if Sleeper changes it.
+
+## DK Metcalf vs. James Conner
+
+[Comparison report](reports/metcalf_vs_conner.md) · [Visual](visuals/metcalf_vs_conner.png)
+
+Both counters stay at zero until Conner records on-field participation after his current IR absence. Both start in his return week (Week 6 or later), including his return game; no earlier points count. Subsequent updates recalculate totals using league scoring.
