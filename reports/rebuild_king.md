@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-14T17:21:51.954273+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-14T21:33:40.442390+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -52,6 +52,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | SF | ATL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Cam Ward | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |

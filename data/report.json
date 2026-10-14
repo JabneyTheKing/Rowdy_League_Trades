@@ -1584,6 +1584,22 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "DiscipleJack",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "12522",
+        "points": 0,
+        "released": false,
+        "roster_id": 8,
+        "status": "pending",
+        "transaction_id": "1416199208855248896"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
         "first_week": 3,
         "last_week": 2,
         "manager": "JabneyTheKing",
@@ -1999,7 +2015,7 @@
         "waiver_points": -10.0
       },
       {
-        "free_agent_adds": 5,
+        "free_agent_adds": 6,
         "free_agent_points": 37.3,
         "manager": "DiscipleJack",
         "roster_id": 8,
@@ -2806,6 +2822,22 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "DiscipleJack",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "12522",
+        "points": 0,
+        "released": false,
+        "roster_id": 8,
+        "status": "pending",
+        "transaction_id": "1416199208855248896"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
         "first_week": 1,
         "last_week": 0,
         "manager": "JabneyTheKing",
@@ -3405,7 +3437,7 @@
         "waiver_points": 0
       },
       {
-        "free_agent_adds": 5,
+        "free_agent_adds": 6,
         "free_agent_points": 37.3,
         "manager": "DiscipleJack",
         "roster_id": 8,
@@ -5393,7 +5425,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-14T17:21:51.954273+00:00",
+  "updated_at": "2026-10-14T21:33:40.442390+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

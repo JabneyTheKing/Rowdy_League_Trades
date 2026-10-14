@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-14T17:21:51.954273+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T21:33:40.442390+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -67,6 +67,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | SF | ATL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Cam Ward | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Jauan Jennings | — | 1–2 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
