@@ -331,7 +331,7 @@
     "12015": {
       "full_name": "Harrison Mevis",
       "position": "K",
-      "team": "LAR"
+      "team": null
     },
     "12048": {
       "full_name": "George Holani",
@@ -988,6 +988,11 @@
       "position": "WR",
       "team": "LAC"
     },
+    "9757": {
+      "full_name": "Kendre Miller",
+      "position": "RB",
+      "team": "NO"
+    },
     "9758": {
       "full_name": "C.J. Stroud",
       "position": "QB",
@@ -1538,10 +1543,26 @@
         "pickup_points": 0,
         "player_id": "ATL",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 5,
         "status": "pending",
         "transaction_id": "1415130296994594816"
+      },
+      {
+        "dropped_player_id": "ATL",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "AfootCoronet56",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "SF",
+        "points": 0,
+        "released": false,
+        "roster_id": 5,
+        "status": "pending",
+        "transaction_id": "1416114379925073920"
       },
       {
         "dropped_player_id": "CHI",
@@ -1606,6 +1627,22 @@
         "roster_id": 3,
         "status": "scored",
         "transaction_id": "1412231373078495232"
+      },
+      {
+        "dropped_player_id": "8136",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "9757",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1416114771886886912"
       },
       {
         "dropped_player_id": null,
@@ -1914,7 +1951,7 @@
     ],
     "standings": [
       {
-        "free_agent_adds": 0,
+        "free_agent_adds": 1,
         "free_agent_points": 0,
         "manager": "krunky",
         "roster_id": 1,
@@ -2010,7 +2047,7 @@
         "waiver_points": 2.8
       },
       {
-        "free_agent_adds": 2,
+        "free_agent_adds": 3,
         "free_agent_points": 20.3,
         "manager": "AfootCoronet56",
         "roster_id": 5,
@@ -2520,7 +2557,7 @@
         "pickup_points": 28.1,
         "player_id": "8136",
         "points": 3.7,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "scored",
         "transaction_id": "1398440851897638912"
@@ -2728,10 +2765,26 @@
         "pickup_points": 0,
         "player_id": "ATL",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 5,
         "status": "pending",
         "transaction_id": "1415130296994594816"
+      },
+      {
+        "dropped_player_id": "ATL",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "AfootCoronet56",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "SF",
+        "points": 0,
+        "released": false,
+        "roster_id": 5,
+        "status": "pending",
+        "transaction_id": "1416114379925073920"
       },
       {
         "dropped_player_id": "CHI",
@@ -2876,6 +2929,22 @@
         "roster_id": 1,
         "status": "scored",
         "transaction_id": "1403040698713821184"
+      },
+      {
+        "dropped_player_id": "8136",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "9757",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1416114771886886912"
       },
       {
         "dropped_player_id": null,
@@ -3360,7 +3429,7 @@
         "waiver_points": 68.54
       },
       {
-        "free_agent_adds": 6,
+        "free_agent_adds": 7,
         "free_agent_points": -44.3,
         "manager": "krunky",
         "roster_id": 1,
@@ -3444,7 +3513,7 @@
         "waiver_points": -26.8
       },
       {
-        "free_agent_adds": 2,
+        "free_agent_adds": 3,
         "free_agent_points": 20.3,
         "manager": "AfootCoronet56",
         "roster_id": 5,
@@ -5324,7 +5393,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-14T12:08:35.584231+00:00",
+  "updated_at": "2026-10-14T17:21:51.954273+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

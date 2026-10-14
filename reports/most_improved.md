@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-14T12:08:35.584231+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T17:21:51.954273+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -65,6 +65,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | lfain20 | Caleb Douglas | Chris Bell | 1–5 | 14.80 | 14.30 | +0.50 | scored |
 | AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | SF | ATL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Jauan Jennings | — | 1–2 | 0.00 | 0.00 | +0.00 | scored |
@@ -74,6 +75,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | DET | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | LAC | DET | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | LV | LAC | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |

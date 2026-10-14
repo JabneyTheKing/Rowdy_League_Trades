@@ -8,4 +8,4 @@ Both players count from the same NFL week, including Conner's return game. Earli
 |---:|---:|---:|
 | 0.00 | 0.00 | +0.00 |
 
-Updated 2026-10-14T12:08:35.584231+00:00; through Week 5.
+Updated 2026-10-14T17:21:51.954273+00:00; through Week 5.

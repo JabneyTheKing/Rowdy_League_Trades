@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-14T12:08:35.584231+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-14T17:21:51.954273+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -50,10 +50,12 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | JabneyTheKing | Zach Ertz | — | 3–3 | 1.90 | 0.00 | +1.90 | scored |
 | RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | SF | ATL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | No completed week | 0.00 | 0.00 | +0.00 | pending |
