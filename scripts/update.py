@@ -68,6 +68,16 @@ def normalize(trade, managers, first_week):
             'first_scoring_week': first_week, 'sides': sides}
 
 
+def trade_scoring_windows(trade, config, starts, game_dates, through):
+    assets = set(trade.get('adds') or {}) | set(trade.get('drops') or {})
+    verified = config.get('first_scoring_week_overrides', {}).get(trade['transaction_id'])
+    player_weeks = {pid: verified if verified is not None else
+                    player_first_week(trade, pid, starts, game_dates, through) for pid in assets}
+    player_weeks.update(config.get('player_first_scoring_week_overrides', {}).get(trade['transaction_id'], {}))
+    first = min(player_weeks.values(), default=verified if verified is not None else infer_week(trade, starts, through))
+    return first, player_weeks
+
+
 def evaluate(trade, weekly, through):
     result = dict(trade)
     result['sides'] = []
@@ -424,11 +434,8 @@ def run():
         raise ValueError('Weekly stats do not reproduce league player points: ' + json.dumps(checks))
     trades = []
     for t in completed:
-        assets = set(t.get('adds') or {}) | set(t.get('drops') or {})
-        player_weeks = {pid: player_first_week(t, pid, starts, game_dates, through) for pid in assets}
-        first = config['first_scoring_week_overrides'].get(t['transaction_id'], min(player_weeks.values(), default=infer_week(t, starts, through)))
+        first, player_weeks = trade_scoring_windows(t, config, starts, game_dates, through)
         normalized = normalize(t, managers, first)
-        player_weeks.update(config.get('player_first_scoring_week_overrides', {}).get(t['transaction_id'], {}))
         normalized['player_first_scoring_week'] = player_weeks
         trades.append(evaluate(normalized, weekly, through))
     waivers = waiver_champion(list(all_tx.values()), managers, starts, weekly, through, game_dates)
