@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-14T21:33:40.442390+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T21:38:38.096284+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,15 +11,15 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | krunky | Grand Theft Aubrey | +68.26 | 4 | 4 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +51.52 | 4 | 4 | No |
 | 3 | SethLL | Red Dead Zachdemption | +41.90 | 2 | 2 | No |
-| 4 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 4 | No |
-| 5 | oneyjb | Bower's Inside Story | +3.46 | 4 | 5 | Yes |
+| 4 | oneyjb | Bower's Inside Story | +21.86 | 4 | 5 | Yes |
+| 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 4 | No |
 | 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
 | 8 | RollnWithJesus | Breach & Touchdown | -4.20 | 2 | 2 | No |
 | 9 | AfootCoronet56 | Suicide Squad (the game) | -22.86 | 3 | 3 | Yes |
 | 10 | lfain20 | Mortal Kombat: DARTside | -24.06 | 2 | 4 | Yes |
 | 11 | Dawg2003 | The Windhelm Nords  | -37.80 | 2 | 2 | No |
-| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -80.14 | 5 | 6 | Yes |
+| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -98.54 | 5 | 6 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -179,8 +179,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | scored |
-| oneyjb / Bower's Inside Story | Sam LaPorta (0.00), Jadarian Price (0.00) | Harold Fannin (0.00), Travis Etienne (0.00) | 0.00 | 0.00 | +0.00 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (1.40), Travis Etienne (0.00) | Sam LaPorta (19.80), Jadarian Price (0.00) | 1.40 | 19.80 | -18.40 | scored |
+| oneyjb / Bower's Inside Story | Sam LaPorta (19.80), Jadarian Price (0.00) | Harold Fannin (1.40), Travis Etienne (0.00) | 19.80 | 1.40 | +18.40 | scored |
 
 ### Trade 1415258274609045504
 

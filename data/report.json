@@ -42,6 +42,17 @@
       "trade_count": 2
     },
     {
+      "delta": 21.86,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "oneyjb",
+      "pending_trades": 1,
+      "roster_id": 12,
+      "scored_trades": 4,
+      "team": "Bower's Inside Story",
+      "trade_count": 5
+    },
+    {
       "delta": 4.2,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
@@ -51,17 +62,6 @@
       "scored_trades": 4,
       "team": "The Lost Cause Fallacy",
       "trade_count": 4
-    },
-    {
-      "delta": 3.46,
-      "has_unvalued_assets": true,
-      "incomplete_trades": 0,
-      "manager": "oneyjb",
-      "pending_trades": 1,
-      "roster_id": 12,
-      "scored_trades": 4,
-      "team": "Bower's Inside Story",
-      "trade_count": 5
     },
     {
       "delta": 0,
@@ -130,7 +130,7 @@
       "trade_count": 2
     },
     {
-      "delta": -80.14,
+      "delta": -98.54,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "JabneyTheKing",
@@ -2039,18 +2039,6 @@
         "waiver_points": 0
       },
       {
-        "free_agent_adds": 9,
-        "free_agent_points": 37.52,
-        "manager": "JabneyTheKing",
-        "roster_id": 3,
-        "score": 30.62,
-        "team": "Josh Jacobs: Most Wanted",
-        "trade_count": 5,
-        "trade_delta": -26.8,
-        "waiver_claims": 6,
-        "waiver_points": 19.9
-      },
-      {
         "free_agent_adds": 5,
         "free_agent_points": 59.6,
         "manager": "Dawg2003",
@@ -2087,6 +2075,18 @@
         "waiver_points": 23.62
       },
       {
+        "free_agent_adds": 9,
+        "free_agent_points": 37.52,
+        "manager": "JabneyTheKing",
+        "roster_id": 3,
+        "score": 12.22,
+        "team": "Josh Jacobs: Most Wanted",
+        "trade_count": 5,
+        "trade_delta": -45.2,
+        "waiver_claims": 6,
+        "waiver_points": 19.9
+      },
+      {
         "free_agent_adds": 3,
         "free_agent_points": 31.9,
         "manager": "RollnWithJesus",
@@ -2103,10 +2103,10 @@
         "free_agent_points": -14.4,
         "manager": "oneyjb",
         "roster_id": 12,
-        "score": -39.14,
+        "score": -20.74,
         "team": "Bower's Inside Story",
         "trade_count": 3,
-        "trade_delta": 0.28,
+        "trade_delta": 18.68,
         "waiver_claims": 6,
         "waiver_points": -25.02
       }
@@ -3485,6 +3485,18 @@
         "waiver_points": 30.1
       },
       {
+        "free_agent_adds": 8,
+        "free_agent_points": 46.32,
+        "manager": "oneyjb",
+        "roster_id": 12,
+        "score": 43.16,
+        "team": "Bower's Inside Story",
+        "trade_count": 5,
+        "trade_delta": 21.86,
+        "waiver_claims": 6,
+        "waiver_points": -25.02
+      },
+      {
         "free_agent_adds": 6,
         "free_agent_points": 18.1,
         "manager": "therealbulker",
@@ -3497,18 +3509,6 @@
         "waiver_points": 23.62
       },
       {
-        "free_agent_adds": 8,
-        "free_agent_points": 46.32,
-        "manager": "oneyjb",
-        "roster_id": 12,
-        "score": 24.76,
-        "team": "Bower's Inside Story",
-        "trade_count": 5,
-        "trade_delta": 3.46,
-        "waiver_claims": 6,
-        "waiver_points": -25.02
-      },
-      {
         "free_agent_adds": 5,
         "free_agent_points": 59.6,
         "manager": "Dawg2003",
@@ -3519,18 +3519,6 @@
         "trade_delta": -37.8,
         "waiver_claims": 3,
         "waiver_points": 2.8
-      },
-      {
-        "free_agent_adds": 15,
-        "free_agent_points": 66.22,
-        "manager": "JabneyTheKing",
-        "roster_id": 3,
-        "score": 5.98,
-        "team": "Josh Jacobs: Most Wanted",
-        "trade_count": 6,
-        "trade_delta": -80.14,
-        "waiver_claims": 6,
-        "waiver_points": 19.9
       },
       {
         "free_agent_adds": 3,
@@ -3555,6 +3543,18 @@
         "trade_delta": -22.86,
         "waiver_claims": 2,
         "waiver_points": -0.5
+      },
+      {
+        "free_agent_adds": 15,
+        "free_agent_points": 66.22,
+        "manager": "JabneyTheKing",
+        "roster_id": 3,
+        "score": -12.42,
+        "team": "Josh Jacobs: Most Wanted",
+        "trade_count": 6,
+        "trade_delta": -98.54,
+        "waiver_claims": 6,
+        "waiver_points": 19.9
       }
     ]
   },
@@ -5109,15 +5109,15 @@
       "first_scoring_week": 5,
       "id": "1414473604535480320",
       "player_first_scoring_week": {
-        "10859": 6,
-        "12506": 6,
-        "13286": 6,
-        "7543": 6
+        "10859": 5,
+        "12506": 5,
+        "13286": 5,
+        "7543": 5
       },
       "processed_at": 1791699362245,
       "sides": [
         {
-          "delta": 0,
+          "delta": -18.4,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "JabneyTheKing",
@@ -5131,14 +5131,14 @@
           "received_players": [
             {
               "player_id": "12506",
-              "points": 0
+              "points": 1.4
             },
             {
               "player_id": "7543",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "received_points": 0,
+          "received_points": 1.4,
           "roster_id": 3,
           "sent": [
             "10859",
@@ -5147,19 +5147,19 @@
           "sent_players": [
             {
               "player_id": "10859",
-              "points": 0
+              "points": 19.8
             },
             {
               "player_id": "13286",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "sent_points": 0,
+          "sent_points": 19.8,
           "status": "scored",
           "team": "Josh Jacobs: Most Wanted"
         },
         {
-          "delta": 0,
+          "delta": 18.4,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "oneyjb",
@@ -5173,14 +5173,14 @@
           "received_players": [
             {
               "player_id": "10859",
-              "points": 0
+              "points": 19.8
             },
             {
               "player_id": "13286",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "received_points": 0,
+          "received_points": 19.8,
           "roster_id": 12,
           "sent": [
             "12506",
@@ -5189,14 +5189,14 @@
           "sent_players": [
             {
               "player_id": "12506",
-              "points": 0
+              "points": 1.4
             },
             {
               "player_id": "7543",
-              "points": 0
+              "points": 0.0
             }
           ],
-          "sent_points": 0,
+          "sent_points": 1.4,
           "status": "scored",
           "team": "Bower's Inside Story"
         }
@@ -5425,7 +5425,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-14T21:33:40.442390+00:00",
+  "updated_at": "2026-10-14T21:38:38.096284+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

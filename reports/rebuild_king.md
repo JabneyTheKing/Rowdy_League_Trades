@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-14T21:33:40.442390+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-14T21:38:38.096284+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -12,12 +12,12 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | 4 | TheRealNoodleMan | Gibbs of War | +20.40 | -10.00 | 39.58 | +49.98 |
 | 5 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 37.30 | +37.30 |
 | 6 | SethLL | Red Dead Zachdemption | -3.20 | 0.00 | 38.38 | +35.18 |
-| 7 | JabneyTheKing | Josh Jacobs: Most Wanted | -26.80 | 19.90 | 37.52 | +30.62 |
-| 8 | Dawg2003 | The Windhelm Nords  | -37.80 | 2.80 | 59.60 | +24.60 |
-| 9 | AfootCoronet56 | Suicide Squad (the game) | +3.20 | -0.50 | 20.30 | +23.00 |
-| 10 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -7.00 | +16.34 |
+| 7 | Dawg2003 | The Windhelm Nords  | -37.80 | 2.80 | 59.60 | +24.60 |
+| 8 | AfootCoronet56 | Suicide Squad (the game) | +3.20 | -0.50 | 20.30 | +23.00 |
+| 9 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | -7.00 | +16.34 |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -45.20 | 19.90 | 37.52 | +12.22 |
 | 11 | RollnWithJesus | Breach & Touchdown | -4.20 | -26.80 | 31.90 | +0.90 |
-| 12 | oneyjb | Bower's Inside Story | +0.28 | -25.02 | -14.40 | -39.14 |
+| 12 | oneyjb | Bower's Inside Story | +18.68 | -25.02 | -14.40 | -20.74 |
 
 ## Post-Week-1 free-agent transactions
 
