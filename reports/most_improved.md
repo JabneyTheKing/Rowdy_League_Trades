@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-14T21:38:38.096284+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T21:40:08.941299+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -8,10 +8,10 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 |---:|---|---|---:|---:|---:|---:|
 | 1 | TheRealNoodleMan | Gibbs of War | +51.52 | -10.00 | 54.18 | +95.70 |
 | 2 | SethLL | Red Dead Zachdemption | +41.90 | 0.00 | 50.38 | +92.28 |
-| 3 | DiscipleJack | Super Lamario | +0.00 | 48.40 | 37.30 | +85.70 |
-| 4 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 32.80 | +77.28 |
-| 5 | krunky | Grand Theft Aubrey | +68.26 | 45.40 | -44.30 | +69.36 |
-| 6 | Potatomain | The Lost Cause Fallacy | +4.20 | 30.10 | 33.32 | +67.62 |
+| 3 | lfain20 | Mortal Kombat: DARTside | -13.16 | 68.54 | 32.80 | +88.18 |
+| 4 | DiscipleJack | Super Lamario | +0.00 | 48.40 | 37.30 | +85.70 |
+| 5 | Potatomain | The Lost Cause Fallacy | +16.20 | 30.10 | 33.32 | +79.62 |
+| 6 | krunky | Grand Theft Aubrey | +45.36 | 45.40 | -44.30 | +46.46 |
 | 7 | oneyjb | Bower's Inside Story | +21.86 | -25.02 | 46.32 | +43.16 |
 | 8 | therealbulker | MidnightClub Rice Edition | -0.28 | 23.62 | 18.10 | +41.44 |
 | 9 | Dawg2003 | The Windhelm Nords  | -37.80 | 2.80 | 59.60 | +24.60 |

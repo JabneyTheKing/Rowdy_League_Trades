@@ -1,14 +1,14 @@
 # Rebuild King
 
-Updated 2026-10-14T21:38:38.096284+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-14T21:40:08.941299+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | krunky | Grand Theft Aubrey | +27.26 | 45.40 | 0.00 | +72.66 |
-| 2 | lfain20 | Mortal Kombat: DARTside | -24.06 | 68.54 | 23.10 | +67.58 |
-| 3 | Potatomain | The Lost Cause Fallacy | +45.20 | 30.10 | -11.20 | +64.10 |
+| 1 | lfain20 | Mortal Kombat: DARTside | -13.16 | 68.54 | 23.10 | +78.48 |
+| 2 | Potatomain | The Lost Cause Fallacy | +45.20 | 30.10 | -11.20 | +64.10 |
+| 3 | krunky | Grand Theft Aubrey | +16.36 | 45.40 | 0.00 | +61.76 |
 | 4 | TheRealNoodleMan | Gibbs of War | +20.40 | -10.00 | 39.58 | +49.98 |
 | 5 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 37.30 | +37.30 |
 | 6 | SethLL | Red Dead Zachdemption | -3.20 | 0.00 | 38.38 | +35.18 |

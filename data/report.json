@@ -9,17 +9,6 @@
   "excluded_transaction_count": 13,
   "leaderboard": [
     {
-      "delta": 68.26,
-      "has_unvalued_assets": true,
-      "incomplete_trades": 0,
-      "manager": "krunky",
-      "pending_trades": 0,
-      "roster_id": 1,
-      "scored_trades": 4,
-      "team": "Grand Theft Aubrey",
-      "trade_count": 4
-    },
-    {
       "delta": 51.52,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
@@ -28,6 +17,17 @@
       "roster_id": 2,
       "scored_trades": 4,
       "team": "Gibbs of War",
+      "trade_count": 4
+    },
+    {
+      "delta": 45.36,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "krunky",
+      "pending_trades": 0,
+      "roster_id": 1,
+      "scored_trades": 4,
+      "team": "Grand Theft Aubrey",
       "trade_count": 4
     },
     {
@@ -53,7 +53,7 @@
       "trade_count": 5
     },
     {
-      "delta": 4.2,
+      "delta": 16.2,
       "has_unvalued_assets": false,
       "incomplete_trades": 0,
       "manager": "Potatomain",
@@ -97,6 +97,17 @@
       "trade_count": 2
     },
     {
+      "delta": -13.16,
+      "has_unvalued_assets": true,
+      "incomplete_trades": 0,
+      "manager": "lfain20",
+      "pending_trades": 2,
+      "roster_id": 4,
+      "scored_trades": 2,
+      "team": "Mortal Kombat: DARTside",
+      "trade_count": 4
+    },
+    {
       "delta": -22.86,
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
@@ -106,17 +117,6 @@
       "scored_trades": 3,
       "team": "Suicide Squad (the game)",
       "trade_count": 3
-    },
-    {
-      "delta": -24.06,
-      "has_unvalued_assets": true,
-      "incomplete_trades": 0,
-      "manager": "lfain20",
-      "pending_trades": 2,
-      "roster_id": 4,
-      "scored_trades": 2,
-      "team": "Mortal Kombat: DARTside",
-      "trade_count": 4
     },
     {
       "delta": -37.8,
@@ -1967,26 +1967,14 @@
     ],
     "standings": [
       {
-        "free_agent_adds": 1,
-        "free_agent_points": 0,
-        "manager": "krunky",
-        "roster_id": 1,
-        "score": 72.66,
-        "team": "Grand Theft Aubrey",
-        "trade_count": 3,
-        "trade_delta": 27.26,
-        "waiver_claims": 5,
-        "waiver_points": 45.4
-      },
-      {
         "free_agent_adds": 11,
         "free_agent_points": 23.1,
         "manager": "lfain20",
         "roster_id": 4,
-        "score": 67.58,
+        "score": 78.48,
         "team": "Mortal Kombat: DARTside",
         "trade_count": 4,
-        "trade_delta": -24.06,
+        "trade_delta": -13.16,
         "waiver_claims": 4,
         "waiver_points": 68.54
       },
@@ -2001,6 +1989,18 @@
         "trade_delta": 45.2,
         "waiver_claims": 4,
         "waiver_points": 30.1
+      },
+      {
+        "free_agent_adds": 1,
+        "free_agent_points": 0,
+        "manager": "krunky",
+        "roster_id": 1,
+        "score": 61.76,
+        "team": "Grand Theft Aubrey",
+        "trade_count": 3,
+        "trade_delta": 16.36,
+        "waiver_claims": 5,
+        "waiver_points": 45.4
       },
       {
         "free_agent_adds": 4,
@@ -3437,6 +3437,18 @@
         "waiver_points": 0
       },
       {
+        "free_agent_adds": 15,
+        "free_agent_points": 32.8,
+        "manager": "lfain20",
+        "roster_id": 4,
+        "score": 88.18,
+        "team": "Mortal Kombat: DARTside",
+        "trade_count": 4,
+        "trade_delta": -13.16,
+        "waiver_claims": 4,
+        "waiver_points": 68.54
+      },
+      {
         "free_agent_adds": 6,
         "free_agent_points": 37.3,
         "manager": "DiscipleJack",
@@ -3449,40 +3461,28 @@
         "waiver_points": 48.4
       },
       {
-        "free_agent_adds": 15,
-        "free_agent_points": 32.8,
-        "manager": "lfain20",
-        "roster_id": 4,
-        "score": 77.28,
-        "team": "Mortal Kombat: DARTside",
+        "free_agent_adds": 4,
+        "free_agent_points": 33.32,
+        "manager": "Potatomain",
+        "roster_id": 6,
+        "score": 79.62,
+        "team": "The Lost Cause Fallacy",
         "trade_count": 4,
-        "trade_delta": -24.06,
+        "trade_delta": 16.2,
         "waiver_claims": 4,
-        "waiver_points": 68.54
+        "waiver_points": 30.1
       },
       {
         "free_agent_adds": 7,
         "free_agent_points": -44.3,
         "manager": "krunky",
         "roster_id": 1,
-        "score": 69.36,
+        "score": 46.46,
         "team": "Grand Theft Aubrey",
         "trade_count": 4,
-        "trade_delta": 68.26,
+        "trade_delta": 45.36,
         "waiver_claims": 6,
         "waiver_points": 45.4
-      },
-      {
-        "free_agent_adds": 4,
-        "free_agent_points": 33.32,
-        "manager": "Potatomain",
-        "roster_id": 6,
-        "score": 67.62,
-        "team": "The Lost Cause Fallacy",
-        "trade_count": 4,
-        "trade_delta": 4.2,
-        "waiver_claims": 4,
-        "waiver_points": 30.1
       },
       {
         "free_agent_adds": 8,
@@ -3977,13 +3977,13 @@
       "player_first_scoring_week": {
         "11631": 1,
         "12514": 1,
-        "7611": 2,
+        "7611": 1,
         "8151": 1
       },
       "processed_at": 1788934551371,
       "sides": [
         {
-          "delta": 41.0,
+          "delta": 29.0,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "krunky",
@@ -4017,15 +4017,15 @@
             },
             {
               "player_id": "7611",
-              "points": 41.3
+              "points": 53.3
             }
           ],
-          "sent_points": 84.1,
+          "sent_points": 96.1,
           "status": "scored",
           "team": "Grand Theft Aubrey"
         },
         {
-          "delta": -41.0,
+          "delta": -29.0,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "Potatomain",
@@ -4043,10 +4043,10 @@
             },
             {
               "player_id": "7611",
-              "points": 41.3
+              "points": 53.3
             }
           ],
-          "received_points": 84.1,
+          "received_points": 96.1,
           "roster_id": 6,
           "sent": [
             "11631",
@@ -4320,14 +4320,14 @@
       "id": "1410837390251110400",
       "player_first_scoring_week": {
         "12517": 4,
-        "13346": 5,
+        "13346": 4,
         "7547": 4,
         "9224": 4
       },
       "processed_at": 1790835380582,
       "sides": [
         {
-          "delta": 5.8,
+          "delta": -5.1,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "krunky",
@@ -4357,19 +4357,19 @@
           "sent_players": [
             {
               "player_id": "13346",
-              "points": 12.1
+              "points": 23.0
             },
             {
               "player_id": "9224",
               "points": 19.1
             }
           ],
-          "sent_points": 31.2,
+          "sent_points": 42.1,
           "status": "scored",
           "team": "Grand Theft Aubrey"
         },
         {
-          "delta": -5.8,
+          "delta": 5.1,
           "faab_received": 0,
           "faab_sent": 0,
           "manager": "lfain20",
@@ -4383,14 +4383,14 @@
           "received_players": [
             {
               "player_id": "13346",
-              "points": 12.1
+              "points": 23.0
             },
             {
               "player_id": "9224",
               "points": 19.1
             }
           ],
-          "received_points": 31.2,
+          "received_points": 42.1,
           "roster_id": 4,
           "sent": [
             "12517",
@@ -5425,7 +5425,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-14T21:38:38.096284+00:00",
+  "updated_at": "2026-10-14T21:40:08.941299+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

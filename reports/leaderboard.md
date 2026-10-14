@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-14T21:38:38.096284+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T21:40:08.941299+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,16 +8,16 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | krunky | Grand Theft Aubrey | +68.26 | 4 | 4 | Yes |
-| 2 | TheRealNoodleMan | Gibbs of War | +51.52 | 4 | 4 | No |
+| 1 | TheRealNoodleMan | Gibbs of War | +51.52 | 4 | 4 | No |
+| 2 | krunky | Grand Theft Aubrey | +45.36 | 4 | 4 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +41.90 | 2 | 2 | No |
 | 4 | oneyjb | Bower's Inside Story | +21.86 | 4 | 5 | Yes |
-| 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 4 | No |
+| 5 | Potatomain | The Lost Cause Fallacy | +16.20 | 4 | 4 | No |
 | 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
 | 8 | RollnWithJesus | Breach & Touchdown | -4.20 | 2 | 2 | No |
-| 9 | AfootCoronet56 | Suicide Squad (the game) | -22.86 | 3 | 3 | Yes |
-| 10 | lfain20 | Mortal Kombat: DARTside | -24.06 | 2 | 4 | Yes |
+| 9 | lfain20 | Mortal Kombat: DARTside | -13.16 | 2 | 4 | Yes |
+| 10 | AfootCoronet56 | Suicide Squad (the game) | -22.86 | 3 | 3 | Yes |
 | 11 | Dawg2003 | The Windhelm Nords  | -37.80 | 2 | 2 | No |
 | 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -98.54 | 5 | 6 | Yes |
 
@@ -63,8 +63,8 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (104.10) | Emeka Egbuka (42.80), Rhamondre Stevenson (41.30) | 125.10 | 84.10 | +41.00 | scored |
-| Potatomain / The Lost Cause Fallacy | Emeka Egbuka (42.80), Rhamondre Stevenson (41.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 84.10 | 125.10 | -41.00 | scored |
+| krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (104.10) | Emeka Egbuka (42.80), Rhamondre Stevenson (53.30) | 125.10 | 96.10 | +29.00 | scored |
+| Potatomain / The Lost Cause Fallacy | Emeka Egbuka (42.80), Rhamondre Stevenson (53.30) | Brian Thomas (21.00), Kenneth Walker (104.10) | 96.10 | 125.10 | -29.00 | scored |
 
 ### Trade 1408228309090742272
 
@@ -99,8 +99,8 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Colston Loveland (15.60), Amon-Ra St. Brown (21.40) | Denzel Boston (12.10), Chase Brown (19.10) | 37.00 | 31.20 | +5.80 | scored |
-| lfain20 / Mortal Kombat: DARTside | Denzel Boston (12.10), Chase Brown (19.10) | Colston Loveland (15.60), Amon-Ra St. Brown (21.40) | 31.20 | 37.00 | -5.80 | scored |
+| krunky / Grand Theft Aubrey | Colston Loveland (15.60), Amon-Ra St. Brown (21.40) | Denzel Boston (23.00), Chase Brown (19.10) | 37.00 | 42.10 | -5.10 | scored |
+| lfain20 / Mortal Kombat: DARTside | Denzel Boston (23.00), Chase Brown (19.10) | Colston Loveland (15.60), Amon-Ra St. Brown (21.40) | 42.10 | 37.00 | +5.10 | scored |
 
 ### Trade 1411406607744577536
 
