@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-14T05:04:22.227355+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T12:08:35.584231+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -51,3 +51,15 @@ First scoring week: **5**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (0.00), Travis Etienne (0.00) | Sam LaPorta (0.00), Jadarian Price (0.00) | 0.00 | 0.00 | +0.00 | scored |
+
+### Trade 1415375515950268416
+
+First scoring week: **6**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Breece Hall (0.00) | Zach Charbonnet (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 6 (original roster 4). Value not included in points.
+
+JabneyTheKing picks sent: 2027 round 4 (original roster 5). Value not included in points.

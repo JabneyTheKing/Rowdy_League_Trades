@@ -1,22 +1,22 @@
 # Waiver Champion
 
-Updated 2026-10-14T05:04:22.227355+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-14T12:08:35.584231+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
 | Rank | Manager | Team | Net waiver improvement | Claims | FAAB spent | Best transaction |
 |---:|---|---|---:|---:|---:|---|
-| 1 | lfain20 | Mortal Kombat: DARTside | 68.54 | 3 | $75 | Emanuel Wilson (39.10) |
+| 1 | lfain20 | Mortal Kombat: DARTside | 68.54 | 4 | $85 | Emanuel Wilson (39.10) |
 | 2 | DiscipleJack | Super Lamario | 48.40 | 1 | $7 | Dalton Schultz (48.40) |
 | 3 | krunky | Grand Theft Aubrey | 45.40 | 6 | $57 | Ollie Gordon (24.10) |
 | 4 | Potatomain | The Lost Cause Fallacy | 30.10 | 4 | $56 | Alvin Kamara (26.50) |
-| 5 | therealbulker | MidnightClub Rice Edition | 23.62 | 6 | $77 | Brian Robinson (22.30) |
-| 6 | JabneyTheKing | Josh Jacobs: Most Wanted | 19.90 | 4 | $94 | Braelon Allen (20.30) |
-| 7 | Dawg2003 | The Windhelm Nords  | 2.80 | 2 | $20 | Dohnte Meyers (2.20) |
+| 5 | therealbulker | MidnightClub Rice Edition | 23.62 | 7 | $87 | Brian Robinson (22.30) |
+| 6 | JabneyTheKing | Josh Jacobs: Most Wanted | 19.90 | 6 | $100 | Braelon Allen (20.30) |
+| 7 | Dawg2003 | The Windhelm Nords  | 2.80 | 3 | $23 | Dohnte Meyers (2.20) |
 | 8 | SethLL | Red Dead Zachdemption | 0.00 | 1 | $2 | Carson Wentz (0.00) |
-| 9 | AfootCoronet56 | Suicide Squad (the game) | -0.50 | 1 | $20 | Will Shipley (-0.50) |
-| 10 | TheRealNoodleMan | Gibbs of War | -10.00 | 5 | $10 | BUF (4.00) |
-| 11 | oneyjb | Bower's Inside Story | -25.02 | 5 | $26 | C.J. Stroud (11.52) |
+| 9 | AfootCoronet56 | Suicide Squad (the game) | -0.50 | 2 | $35 | Will Shipley (-0.50) |
+| 10 | TheRealNoodleMan | Gibbs of War | -10.00 | 7 | $38 | BUF (4.00) |
+| 11 | oneyjb | Bower's Inside Story | -25.02 | 6 | $27 | C.J. Stroud (11.52) |
 | 12 | RollnWithJesus | Breach & Touchdown | -26.80 | 2 | $20 | LV (-13.00) |
 
 ## Individual waiver transactions
@@ -44,9 +44,18 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | KC | TB | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Cam Little | Chase McLaughlin | $1 | 5–5 | 8.00 | 7.00 | +1.00 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
+| AfootCoronet56 | Dameon Pierce | Will Shipley | $15 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | Kenny Gainwell | Raheim Sanders | $3 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing | C.J. Stroud | Jaylen Wright | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing | Keenan Allen | — | $6 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | LAC | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Kendrick Bourne | Roman Wilson | $10 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | Germie Bernard | WAS | $1 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Carson Wentz | CHI | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| therealbulker | Samaje Perine | Mark Andrews | $10 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Ryan Fitzgerald | Harrison Butker | $1 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | IND | DAL | $3 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| TheRealNoodleMan | Matthew Stafford | Kaelon Black | $25 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | Will Shipley | Wan'Dale Robinson | $20 | 5–5 | 7.80 | 8.30 | -0.50 | scored |
 | therealbulker | Devaughn Vele | Malik Washington | $25 | 2–5 | 33.30 | 33.90 | -0.60 | scored |
 | TheRealNoodleMan | DAL | BUF | $3 | 5–5 | 1.00 | 2.00 | -1.00 | scored |
