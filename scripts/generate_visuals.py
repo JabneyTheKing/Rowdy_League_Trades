@@ -122,7 +122,7 @@ def rich_veto(report):
             text(d,(xx,y+30),fit(f"{s['manager']} • {s.get('team','')}",35),22,col,True)
             for j,p in enumerate(s.get('received_players',[])[:3]): player_line(canvas,d,report,p,xx,y+65+j*72,480,col)
             text(d,(xx,y+270),f"TOTAL  {s['received_points']:.2f}",31,'white',True)
-        status=a['status']; delta=a['delta']; verdict='TOO EARLY TO CALL' if status=='pending' else ('VETO VINDICATED' if delta>0 else 'VETO IN QUESTION')
+        status=a['status']; delta=a['delta']; verdict='TOO EARLY TO CALL' if status=='pending' else ('EVEN SO FAR' if delta == 0 else ('VETO VINDICATED' if delta>0 else 'VETO IN QUESTION'))
         color='#f4c542' if status=='pending' else ('#51f58c' if delta>0 else '#ff4d5b')
         rect(d,(1275,y+25,1550,y+280),'#10231a' if delta>0 else '#252525',color,3,14)
         text(d,(1412,y+92),verdict,20,color,True,'mm'); text(d,(1412,y+150),'PENDING' if status=='pending' else f"{abs(delta):.2f}",36,'white',True,'mm'); text(d,(1412,y+190),'POINT GAP' if status!='pending' else f"STARTS WEEK {t['first_scoring_week']}",17,'white',True,'mm')
@@ -302,7 +302,7 @@ def render_veto(report):
             names=', '.join(player_name(report,p['player_id']) for p in s.get('received_players',[]))
             text(d,(xx,y+95),fit(names,42),25,"white",True)
             text(d,(xx,y+155),f"{s['received_points']:.2f} PTS",45,"white",True)
-        status=a['status']; delta=a['delta']; verdict="TOO EARLY TO CALL" if status=='pending' else ("VETO VINDICATED" if delta>0 else "VETO IN QUESTION")
+        status=a['status']; delta=a['delta']; verdict="TOO EARLY TO CALL" if status=='pending' else ("EVEN SO FAR" if delta == 0 else ("VETO VINDICATED" if delta>0 else "VETO IN QUESTION"))
         color="#f4c542" if status=='pending' else ("#51f58c" if delta>0 else "#ff4d5b")
         text(d,(1380,y+100),verdict,24,color,True,"mm"); text(d,(1380,y+165),("PENDING" if status=='pending' else f"{abs(delta):.2f} PT GAP"),31,"white",True,"mm")
     footer(d,report); return im
