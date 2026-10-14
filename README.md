@@ -1,3 +1,7 @@
+# Latest visuals
+
+[Open the automatically refreshed gallery for all trackers](reports/latest_visuals.md).
+
 # Rowdy League Trades
 
 Automated post-trade fantasy production for **Rowdy Football League**, Sleeper league `1312064355625369600`.

@@ -394,7 +394,22 @@ def main():
         'most_improved.png':render_improved(report),
         'rebuild_king.png':render_improved(report,'rebuild_king','Rebuild King','Who pivoted best after Week 1 • Net roster-building impact','#f4c542','#101007','CURRENT REBUILD KING'),
     }
-    for name,image in jobs.items(): image.save(OUT/name,optimize=True)
+    # Stamp every render and publish a single mutable gallery with fresh image URLs.
+    stamp = report['updated_at'][:19].replace('T', ' ') + ' UTC'
+    version = ''.join(c for c in report['updated_at'] if c.isdigit())
+    gallery = ['# Latest Tracker Visuals', '', f'Updated {stamp}. Through Week {report["through_week"]}' +
+               (' (partial).' if report.get('partial_week') else ' (complete).'), '',
+               'Bookmark this page for the latest images. Links to specific commits are frozen snapshots.', '']
+    for name, image in jobs.items():
+        output = Image.new('RGB', (image.width, image.height + 38), '#070c12')
+        output.paste(image, (0, 0))
+        text(ImageDraw.Draw(output), (image.width//2, image.height+19),
+             f'REFRESHED {stamp}', 16, '#aab8c5', True, 'mm')
+        output.save(OUT/name,optimize=True)
+        title = name.removesuffix('.png').replace('_', ' ').title()
+        url = f'https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/{name}?v={version}'
+        gallery += [f'## {title}', '', f'[Open full-size image]({url})', '', f'![{title}]({url})', '']
+    (ROOT/'reports/latest_visuals.md').write_text('\n'.join(gallery) + '\n')
     print(f"Generated {len(jobs)} visuals in {OUT.relative_to(ROOT)}/")
 
 if __name__=='__main__': main()
