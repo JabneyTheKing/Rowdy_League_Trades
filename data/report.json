@@ -223,6 +223,11 @@
       "position": "TE",
       "team": "DET"
     },
+    "11058": {
+      "full_name": "Blake Grupe",
+      "position": "K",
+      "team": "LAR"
+    },
     "11435": {
       "full_name": "Emanuel Wilson",
       "position": "RB",
@@ -757,6 +762,11 @@
       "full_name": "Rico Dowdle",
       "position": "RB",
       "team": "PIT"
+    },
+    "7042": {
+      "full_name": "Tyler Bass",
+      "position": "K",
+      "team": "BUF"
     },
     "7049": {
       "full_name": "Jauan Jennings",
@@ -1415,7 +1425,7 @@
         "pickup_points": 3.7,
         "player_id": "13305",
         "points": 3.7,
-        "released": false,
+        "released": true,
         "roster_id": 4,
         "status": "scored",
         "transaction_id": "1409918884730929152"
@@ -1575,7 +1585,7 @@
         "pickup_points": 0,
         "player_id": "NYJ",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 8,
         "status": "pending",
         "transaction_id": "1414864333518737408"
@@ -1595,6 +1605,22 @@
         "roster_id": 8,
         "status": "pending",
         "transaction_id": "1416199208855248896"
+      },
+      {
+        "dropped_player_id": "NYJ",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "DiscipleJack",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "BAL",
+        "points": 0,
+        "released": false,
+        "roster_id": 8,
+        "status": "pending",
+        "transaction_id": "1416260798401007616"
       },
       {
         "dropped_player_id": null,
@@ -1709,6 +1735,22 @@
         "transaction_id": "1415994134715494400"
       },
       {
+        "dropped_player_id": "13305",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "11058",
+        "points": 0,
+        "released": false,
+        "roster_id": 4,
+        "status": "pending",
+        "transaction_id": "1416273034133651456"
+      },
+      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
@@ -1755,6 +1797,38 @@
         "roster_id": 12,
         "status": "pending",
         "transaction_id": "1415098345038331904"
+      },
+      {
+        "dropped_player_id": "CIN",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "LAR",
+        "points": 0,
+        "released": false,
+        "roster_id": 10,
+        "status": "pending",
+        "transaction_id": "1416271868406607872"
+      },
+      {
+        "dropped_player_id": "11631",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "7042",
+        "points": 0,
+        "released": false,
+        "roster_id": 10,
+        "status": "pending",
+        "transaction_id": "1416272721477640192"
       },
       {
         "dropped_player_id": "19",
@@ -1967,7 +2041,7 @@
     ],
     "standings": [
       {
-        "free_agent_adds": 11,
+        "free_agent_adds": 12,
         "free_agent_points": 23.1,
         "manager": "lfain20",
         "roster_id": 4,
@@ -2015,7 +2089,7 @@
         "waiver_points": -10.0
       },
       {
-        "free_agent_adds": 6,
+        "free_agent_adds": 7,
         "free_agent_points": 37.3,
         "manager": "DiscipleJack",
         "roster_id": 8,
@@ -2027,7 +2101,7 @@
         "waiver_points": 0
       },
       {
-        "free_agent_adds": 1,
+        "free_agent_adds": 3,
         "free_agent_points": 38.38,
         "manager": "SethLL",
         "roster_id": 10,
@@ -2493,7 +2567,7 @@
         "pickup_points": 51.0,
         "player_id": "CIN",
         "points": 6.0,
-        "released": false,
+        "released": true,
         "roster_id": 10,
         "status": "scored",
         "transaction_id": "1397343415686946816"
@@ -2589,7 +2663,7 @@
         "pickup_points": 3.7,
         "player_id": "13305",
         "points": 3.7,
-        "released": false,
+        "released": true,
         "roster_id": 4,
         "status": "scored",
         "transaction_id": "1409918884730929152"
@@ -2813,7 +2887,7 @@
         "pickup_points": 0,
         "player_id": "NYJ",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 8,
         "status": "pending",
         "transaction_id": "1414864333518737408"
@@ -2833,6 +2907,22 @@
         "roster_id": 8,
         "status": "pending",
         "transaction_id": "1416199208855248896"
+      },
+      {
+        "dropped_player_id": "NYJ",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "DiscipleJack",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "BAL",
+        "points": 0,
+        "released": false,
+        "roster_id": 8,
+        "status": "pending",
+        "transaction_id": "1416260798401007616"
       },
       {
         "dropped_player_id": null,
@@ -3043,6 +3133,22 @@
         "transaction_id": "1415994134715494400"
       },
       {
+        "dropped_player_id": "13305",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "lfain20",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "11058",
+        "points": 0,
+        "released": false,
+        "roster_id": 4,
+        "status": "pending",
+        "transaction_id": "1416273034133651456"
+      },
+      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
@@ -3105,6 +3211,38 @@
         "roster_id": 10,
         "status": "scored",
         "transaction_id": "1397336979506515968"
+      },
+      {
+        "dropped_player_id": "CIN",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "LAR",
+        "points": 0,
+        "released": false,
+        "roster_id": 10,
+        "status": "pending",
+        "transaction_id": "1416271868406607872"
+      },
+      {
+        "dropped_player_id": "11631",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "SethLL",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "7042",
+        "points": 0,
+        "released": false,
+        "roster_id": 10,
+        "status": "pending",
+        "transaction_id": "1416272721477640192"
       },
       {
         "dropped_player_id": "12522",
@@ -3425,7 +3563,7 @@
         "waiver_points": -10.0
       },
       {
-        "free_agent_adds": 4,
+        "free_agent_adds": 6,
         "free_agent_points": 50.38,
         "manager": "SethLL",
         "roster_id": 10,
@@ -3437,7 +3575,7 @@
         "waiver_points": 0
       },
       {
-        "free_agent_adds": 15,
+        "free_agent_adds": 16,
         "free_agent_points": 32.8,
         "manager": "lfain20",
         "roster_id": 4,
@@ -3449,7 +3587,7 @@
         "waiver_points": 68.54
       },
       {
-        "free_agent_adds": 6,
+        "free_agent_adds": 7,
         "free_agent_points": 37.3,
         "manager": "DiscipleJack",
         "roster_id": 8,
@@ -5425,7 +5563,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-14T21:49:20.740600+00:00",
+  "updated_at": "2026-10-15T04:53:40.178381+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
