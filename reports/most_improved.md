@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-16T18:47:41.248202+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-16T21:24:44.126115+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -79,6 +79,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | Las Vegas Raiders | Los Angeles Chargers | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Michael Penix | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| krunky | Carolina Panthers | Jacksonville Jaguars | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |

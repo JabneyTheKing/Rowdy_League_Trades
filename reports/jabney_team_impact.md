@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-10-16T18:47:41.248202+00:00. Through Week 5 (complete).
+Updated 2026-10-16T21:24:44.126115+00:00. Through Week 5 (complete).
 
 Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. The original draft is the baseline; only eligible transactions since August 23 change a scenario. Later moves do not affect earlier weeks. Actual weekly rosters are reconstructed using the existing per-player eligibility rules. Both adds and drops change availability, including standalone releases so departed players cannot keep filling a starting slot. Standalone releases are not separately awarded a transaction score.
 

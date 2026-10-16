@@ -5089,6 +5089,22 @@
         "transaction_id": "1416836985586270208"
       },
       {
+        "dropped_player_id": "JAX",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "CAR",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1416914583519502336"
+      },
+      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
@@ -5483,7 +5499,7 @@
         "waiver_points": 30.1
       },
       {
-        "free_agent_adds": 2,
+        "free_agent_adds": 3,
         "free_agent_points": 0,
         "manager": "krunky",
         "roster_id": 1,
@@ -6503,6 +6519,22 @@
         "transaction_id": "1416836985586270208"
       },
       {
+        "dropped_player_id": "JAX",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "CAR",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1416914583519502336"
+      },
+      {
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
@@ -7061,7 +7093,7 @@
         "waiver_points": 30.1
       },
       {
-        "free_agent_adds": 8,
+        "free_agent_adds": 9,
         "free_agent_points": -44.3,
         "manager": "krunky",
         "roster_id": 1,
@@ -8745,7 +8777,7 @@
         "7547",
         "8151",
         "9487",
-        "JAX"
+        "CAR"
       ],
       "draft_roster": [
         "10219",
@@ -12349,7 +12381,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-16T18:47:41.248202+00:00",
+  "updated_at": "2026-10-16T21:24:44.126115+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -12837,7 +12869,7 @@
         "pickup_points": 2.0,
         "player_id": "JAX",
         "points": 2.0,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "scored",
         "transaction_id": "1413039718651695104"
