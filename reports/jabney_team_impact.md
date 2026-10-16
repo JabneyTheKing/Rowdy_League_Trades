@@ -1,0 +1,109 @@
+# Jabney — Team Impact
+
+Updated 2026-10-16T18:47:41.248202+00:00. Through Week 5 (complete).
+
+Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. The original draft is the baseline; only eligible transactions since August 23 change a scenario. Later moves do not affect earlier weeks. Actual weekly rosters are reconstructed using the existing per-player eligibility rules. Both adds and drops change availability, including standalone releases so departed players cannot keep filling a starting slot. Standalone releases are not separately awarded a transaction score.
+
+**Attribution convention:** process the recorded waiver/free-agent moves without trades for the wire-only counterfactual. Wire impact = wire-only minus draft. Trade impact = all moves minus wire-only. These add exactly to total improvement; trade impact includes trade/wire interactions. For transparency, trades-only minus draft and the interaction term are also shown. This is a fixed-move counterfactual, not proof of causation: it holds recorded pickup decisions constant, ignores budget/roster-cap feasibility in hypothetical worlds, and skips removal of players absent in that world. It does not invent alternate pickups or value draft picks. Optimal lineups use hindsight, not actual start/sit choices.
+
+| Scenario | Cumulative optimal points |
+|---|---:|
+| Original draft | 632.76 |
+| Draft + trades only | 561.00 |
+| Draft + waiver / FA moves only | 687.94 |
+| All moves (weekly team) | 629.32 |
+
+| Attribution | Improvement |
+|---|---:|
+| Waiver / FA baseline impact | +55.18 |
+| Trade impact with wire moves held fixed | -58.62 |
+| **Total improvement** | **-3.44** |
+| Trades-only effect (reference, not additive) | -71.76 |
+| Trade / wire interaction (included in trade impact) | +13.14 |
+
+| Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 110.66 | 112.56 | 102.66 | 104.56 | -8.00 | 1.90 | -6.10 |
+| 2 | 165.72 | 140.32 | 175.22 | 150.02 | 9.50 | -25.20 | -15.70 |
+| 3 | 146.06 | 126.02 | 153.26 | 134.62 | 7.20 | -18.64 | -11.44 |
+| 4 | 87.62 | 91.02 | 108.40 | 114.10 | 20.78 | 5.70 | 26.48 |
+| 5 | 122.70 | 91.08 | 148.40 | 126.02 | 25.70 | -22.38 | 3.32 |
+
+## Current roster inventory
+
+Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
+
+Braelon Allen, Keon Coleman, Kirk Cousins, Spencer Shrader, Harold Fannin, Tre' Harris, Luther Burden, Ashton Jeanty, Antonio Williams, Keenan Allen, Josh Jacobs, Justin Jefferson, Travis Etienne, Ja'Marr Chase, Jake Ferguson, Breece Hall, C.J. Stroud, Houston Texans
+
+Replaying completed eligible moves from the draft matches this live roster.
+
+## Week 1 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Josh Allen | 35.66 | Josh Allen | 35.66 |
+| RB | Quinshon Judkins | 6.00 | Quinshon Judkins | 6.00 |
+| RB | Jadarian Price | 6.80 | Jadarian Price | 6.80 |
+| WR | Luther Burden | 7.00 | Luther Burden | 7.00 |
+| WR | Omar Cooper | 3.50 | Omar Cooper | 3.50 |
+| TE | Kenyon Sadiq | 11.40 | Sam LaPorta | 9.80 |
+| FLEX | Davante Adams | 4.10 | De'Von Achane | 8.60 |
+| FLEX | Chris Olave | 23.20 | Jaxon Smith-Njigba | 22.20 |
+| K | Spencer Shrader | 6.00 | Spencer Shrader | 6.00 |
+| DEF | Houston Texans | -1.00 | Houston Texans | -1.00 |
+## Week 2 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Josh Allen | 40.82 | Josh Allen | 40.82 |
+| RB | Quinshon Judkins | 7.30 | Quinshon Judkins | 7.30 |
+| RB | Jadarian Price | 4.50 | De'Von Achane | 10.80 |
+| WR | Davante Adams | 35.50 | Luther Burden | 4.70 |
+| WR | Ja'Marr Chase | 23.00 | Terry McLaurin | 6.00 |
+| TE | Jake Ferguson | 20.30 | Sam LaPorta | 17.20 |
+| FLEX | Chris Olave | 18.60 | Jaxon Smith-Njigba | 38.00 |
+| FLEX | Kayshon Boutte | 5.20 | Kayshon Boutte | 5.20 |
+| K | Spencer Shrader | 14.00 | Spencer Shrader | 14.00 |
+| DEF | Houston Texans | 6.00 | Houston Texans | 6.00 |
+## Week 3 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Josh Allen | 18.96 | Josh Allen | 18.96 |
+| RB | Quinshon Judkins | 8.90 | Quinshon Judkins | 8.90 |
+| RB | Tyler Allgeier | 2.90 | Tyler Allgeier | 2.90 |
+| WR | Davante Adams | 17.20 | Luther Burden | 16.30 |
+| WR | Ja'Marr Chase | 20.30 | Terry McLaurin | 16.70 |
+| TE | Kenyon Sadiq | 23.50 | Sam LaPorta | 7.40 |
+| FLEX | Luther Burden | 16.30 | Jaxon Smith-Njigba | 30.36 |
+| FLEX | Chris Olave | 15.20 | Kayshon Boutte | 3.10 |
+| K | Spencer Shrader | 17.00 | Spencer Shrader | 17.00 |
+| DEF | Houston Texans | 13.00 | Houston Texans | 13.00 |
+## Week 4 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Kirk Cousins | 23.60 | Kirk Cousins | 23.60 |
+| RB | Braelon Allen | 7.70 | Braelon Allen | 7.70 |
+| RB | Quinshon Judkins | 18.60 | Jaylen Wright | 0.70 |
+| WR | Davante Adams | 5.20 | Luther Burden | 9.40 |
+| WR | Ja'Marr Chase | 4.20 | Kalif Raymond | 1.60 |
+| TE | Jake Ferguson | 4.10 | Sam LaPorta | 22.40 |
+| FLEX | Luther Burden | 9.40 | Quinshon Judkins | 18.60 |
+| FLEX | Chris Olave | 15.60 | Jaxon Smith-Njigba | 10.10 |
+| K | Spencer Shrader | 16.00 | Spencer Shrader | 16.00 |
+| DEF | Houston Texans | 4.00 | Houston Texans | 4.00 |
+## Week 5 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Josh Allen | 31.50 | Kirk Cousins | 13.72 |
+| RB | Braelon Allen | 18.10 | Braelon Allen | 18.10 |
+| RB | Quinshon Judkins | 6.50 | Ashton Jeanty | 9.20 |
+| WR | Keon Coleman | 7.20 | Keon Coleman | 7.20 |
+| WR | Luther Burden | 6.90 | Luther Burden | 6.90 |
+| TE | Jake Ferguson | 4.90 | Harold Fannin | 1.40 |
+| FLEX | Davante Adams | 19.60 | Justin Jefferson | 15.80 |
+| FLEX | Ja'Marr Chase | 16.70 | Ja'Marr Chase | 16.70 |
+| K | Spencer Shrader | 21.00 | Spencer Shrader | 21.00 |
+| DEF | Houston Texans | 16.00 | Houston Texans | 16.00 |

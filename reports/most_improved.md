@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-16T16:48:13.692226+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-16T18:47:41.248202+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -44,10 +44,10 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Kayshon Boutte | — | 1–3 | 10.90 | 0.00 | +10.90 | scored |
 | Dawg2003 | Wan'Dale Robinson | — | 5–5 | 8.30 | 0.00 | +8.30 | scored |
 | lfain20 | Tyler Higbee | Isaiah Williams | 4–5 | 25.00 | 16.70 | +8.30 | scored |
-| Dawg2003 | NE | — | 5–5 | 8.00 | 0.00 | +8.00 | scored |
+| Dawg2003 | New England Patriots | — | 5–5 | 8.00 | 0.00 | +8.00 | scored |
 | lfain20 | Efton Chism | Isaiah Williams | 5–5 | 8.40 | 2.40 | +6.00 | scored |
-| SethLL | CIN | JAX | 1–5 | 51.00 | 45.00 | +6.00 | scored |
-| SethLL | CHI | — | 1–1 | 6.00 | 0.00 | +6.00 | scored |
+| SethLL | Cincinnati Bengals | Jacksonville Jaguars | 1–5 | 51.00 | 45.00 | +6.00 | scored |
+| SethLL | Chicago Bears | — | 1–1 | 6.00 | 0.00 | +6.00 | scored |
 | lfain20 | DeMario Douglas | — | 2–3 | 5.70 | 0.00 | +5.70 | scored |
 | lfain20 | Jalen Nailor | — | 1–2 | 5.60 | 0.00 | +5.60 | scored |
 | lfain20 | Darren Waller | Chig Okonkwo | 3–5 | 16.70 | 12.50 | +4.20 | scored |
@@ -55,28 +55,28 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Mike Washington | — | 4–5 | 3.70 | 0.00 | +3.70 | scored |
 | lfain20 | Chris Rodriguez | Isiah Pacheco | 1–2 | 3.60 | 0.00 | +3.60 | scored |
 | oneyjb | Malachi Fields | Rashid Shaheed | 1–1 | 3.50 | 0.00 | +3.50 | scored |
-| Potatomain | NYG | George Holani | 5–5 | 6.00 | 3.10 | +2.90 | scored |
+| Potatomain | New York Giants | George Holani | 5–5 | 6.00 | 3.10 | +2.90 | scored |
 | JabneyTheKing | Antonio Williams | Kalif Raymond | 5–5 | 4.60 | 1.90 | +2.70 | scored |
 | JabneyTheKing | Tre' Harris | Joe Mixon | 5–5 | 2.60 | 0.00 | +2.60 | scored |
 | lfain20 | Isaiah Williams | — | 3–3 | 2.60 | 0.00 | +2.60 | scored |
-| DiscipleJack | CHI | PHI | 4–4 | 7.00 | 5.00 | +2.00 | scored |
+| DiscipleJack | Chicago Bears | Philadelphia Eagles | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | JabneyTheKing | Zach Ertz | — | 3–3 | 1.90 | 0.00 | +1.90 | scored |
 | JabneyTheKing | Travis Hunter | — | 1–2 | 1.60 | 0.00 | +1.60 | scored |
 | RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | lfain20 | Caleb Douglas | Chris Bell | 1–5 | 14.80 | 14.30 | +0.50 | scored |
-| AfootCoronet56 | ATL | LAR | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| AfootCoronet56 | SF | ATL | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| DiscipleJack | NYJ | CHI | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Cam Ward | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| DiscipleJack | BAL | NYJ | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Baltimore Ravens | New York Jets | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Jauan Jennings | — | 1–2 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| krunky | DET | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| krunky | LAC | DET | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| krunky | LV | LAC | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Detroit Lions | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Los Angeles Chargers | Detroit Lions | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Las Vegas Raiders | Los Angeles Chargers | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Michael Penix | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -85,11 +85,11 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Kimani Vidal | Rico Dowdle | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Blake Grupe | Mike Washington | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
-| oneyjb | WAS | BAL | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| oneyjb | KC | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | Kansas City Chiefs | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Chase McLaughlin | Oronde Gadsden | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| SethLL | JAX | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| SethLL | LAR | CIN | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| SethLL | Jacksonville Jaguars | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| SethLL | Los Angeles Rams | Cincinnati Bengals | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Tyler Bass | Brian Thomas | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Malik Willis | Cam Ward | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–5 | 0.00 | 0.00 | +0.00 | scored |
@@ -99,14 +99,14 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
 | lfain20 | Jauan Jennings | DeMario Douglas | 4–4 | 1.30 | 2.50 | -1.20 | scored |
-| oneyjb | JAX | Jordan Love | 1–1 | 15.00 | 20.48 | -5.48 | scored |
+| oneyjb | Jacksonville Jaguars | Jordan Love | 1–1 | 15.00 | 20.48 | -5.48 | scored |
 | JabneyTheKing | Kaleb Johnson | Samaje Perine | 1–3 | 5.30 | 11.10 | -5.80 | scored |
 | JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |
 | therealbulker | Joe Flacco | Justice Hill | 1–2 | 0.00 | 6.10 | -6.10 | scored |
 | lfain20 | Ted Hurst | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
 | therealbulker | Chase McLaughlin | Cameron Dicker | 3–4 | 14.00 | 21.00 | -7.00 | scored |
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–5 | 21.30 | 31.20 | -9.90 | scored |
-| Potatomain | GB | MIN | 2–2 | 5.00 | 18.00 | -13.00 | scored |
-| krunky | LAC | LV | 1–1 | 1.00 | 15.00 | -14.00 | scored |
+| Potatomain | Green Bay Packers | Minnesota Vikings | 2–2 | 5.00 | 18.00 | -13.00 | scored |
+| krunky | Los Angeles Chargers | Las Vegas Raiders | 1–1 | 1.00 | 15.00 | -14.00 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–5 | 7.70 | 22.10 | -14.40 | scored |
-| krunky | James Conner | LAC | 1–5 | 0.00 | 34.00 | -34.00 | scored |
+| krunky | James Conner | Los Angeles Chargers | 1–5 | 0.00 | 34.00 | -34.00 | scored |
