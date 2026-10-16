@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-16T04:44:10.631052+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-16T11:39:09.048084+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -9,13 +9,13 @@ Player production includes bench points and continues after subsequent trades or
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
 | 1 | TheRealNoodleMan | Gibbs of War | +51.52 | 4 | 4 | No |
-| 2 | krunky | Grand Theft Aubrey | +45.36 | 4 | 4 | Yes |
+| 2 | krunky | Grand Theft Aubrey | +45.36 | 4 | 5 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +41.90 | 2 | 2 | No |
 | 4 | oneyjb | Bower's Inside Story | +21.86 | 4 | 5 | Yes |
 | 5 | Potatomain | The Lost Cause Fallacy | +16.20 | 4 | 4 | No |
 | 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
 | 7 | therealbulker | MidnightClub Rice Edition | -0.28 | 1 | 1 | No |
-| 8 | RollnWithJesus | Breach & Touchdown | -4.20 | 2 | 2 | No |
+| 8 | RollnWithJesus | Breach & Touchdown | -4.20 | 2 | 3 | Yes |
 | 9 | lfain20 | Mortal Kombat: DARTside | -13.16 | 2 | 4 | Yes |
 | 10 | AfootCoronet56 | Suicide Squad (the game) | -22.86 | 3 | 3 | Yes |
 | 11 | Dawg2003 | The Windhelm Nords  | -37.80 | 2 | 2 | No |
@@ -215,3 +215,20 @@ JabneyTheKing picks sent: 2027 round 4 (original roster 5). Value not included i
 lfain20 picks received: 2027 round 4 (original roster 5). Value not included in points.
 
 lfain20 picks sent: 2027 round 6 (original roster 4). Value not included in points.
+
+### Trade 1416185844158537728
+
+First scoring week: **6**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Stefon Diggs (0.00), D'Andre Swift (0.00) | Ollie Gordon (0.00), DJ Moore (0.00), Kendre Miller (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus / Breach & Touchdown | Ollie Gordon (0.00), DJ Moore (0.00), Kendre Miller (0.00) | Stefon Diggs (0.00), D'Andre Swift (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
+
+krunky picks sent: 2027 round 13 (original roster 1), 2027 round 15 (original roster 1). Value not included in points.
+
+RollnWithJesus picks received: 2027 round 13 (original roster 1), 2027 round 15 (original roster 1). Value not included in points.
+
+RollnWithJesus picks sent: 2028 round 16 (original roster 11). Value not included in points.

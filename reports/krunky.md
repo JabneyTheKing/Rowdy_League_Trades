@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-16T04:44:10.631052+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-16T11:39:09.048084+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -41,3 +41,15 @@ First scoring week: **5**
 krunky picks received: 2027 round 15 (original roster 4). Value not included in points.
 
 krunky picks sent: 2027 round 16 (original roster 1). Value not included in points.
+
+### Trade 1416185844158537728
+
+First scoring week: **6**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Stefon Diggs (0.00), D'Andre Swift (0.00) | Ollie Gordon (0.00), DJ Moore (0.00), Kendre Miller (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
+
+krunky picks sent: 2027 round 13 (original roster 1), 2027 round 15 (original roster 1). Value not included in points.

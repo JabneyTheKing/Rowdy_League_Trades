@@ -24,11 +24,11 @@
       "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "krunky",
-      "pending_trades": 0,
+      "pending_trades": 1,
       "roster_id": 1,
       "scored_trades": 4,
       "team": "Grand Theft Aubrey",
-      "trade_count": 4
+      "trade_count": 5
     },
     {
       "delta": 41.9,
@@ -87,14 +87,14 @@
     },
     {
       "delta": -4.2,
-      "has_unvalued_assets": false,
+      "has_unvalued_assets": true,
       "incomplete_trades": 0,
       "manager": "RollnWithJesus",
-      "pending_trades": 0,
+      "pending_trades": 1,
       "roster_id": 11,
       "scored_trades": 2,
       "team": "Breach & Touchdown",
-      "trade_count": 2
+      "trade_count": 3
     },
     {
       "delta": -13.16,
@@ -563,6 +563,11 @@
       "position": "QB",
       "team": "NYG"
     },
+    "2449": {
+      "full_name": "Stefon Diggs",
+      "position": "WR",
+      "team": "WAS"
+    },
     "2505": {
       "full_name": "Darren Waller",
       "position": "TE",
@@ -653,6 +658,11 @@
       "position": "QB",
       "team": "SEA"
     },
+    "4983": {
+      "full_name": "DJ Moore",
+      "position": "WR",
+      "team": "BUF"
+    },
     "4984": {
       "full_name": "Josh Allen",
       "position": "QB",
@@ -682,6 +692,11 @@
       "full_name": "Eddy Pineiro",
       "position": "K",
       "team": "SF"
+    },
+    "5844": {
+      "full_name": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN"
     },
     "5846": {
       "full_name": "DK Metcalf",
@@ -732,6 +747,11 @@
       "full_name": "Tua Tagovailoa",
       "position": "QB",
       "team": "ATL"
+    },
+    "6790": {
+      "full_name": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI"
     },
     "6794": {
       "full_name": "Justin Jefferson",
@@ -1686,7 +1706,7 @@
         "pickup_points": 0,
         "player_id": "9757",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "pending",
         "transaction_id": "1416114771886886912"
@@ -2092,7 +2112,7 @@
         "roster_id": 1,
         "score": 61.76,
         "team": "Grand Theft Aubrey",
-        "trade_count": 3,
+        "trade_count": 4,
         "trade_delta": 16.36,
         "waiver_claims": 5,
         "waiver_points": 45.4
@@ -2154,7 +2174,7 @@
         "team": "Suicide Squad (the game)",
         "trade_count": 2,
         "trade_delta": 3.2,
-        "waiver_claims": 2,
+        "waiver_claims": 3,
         "waiver_points": -0.5
       },
       {
@@ -2188,7 +2208,7 @@
         "roster_id": 11,
         "score": 0.9,
         "team": "Breach & Touchdown",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": -4.2,
         "waiver_claims": 2,
         "waiver_points": -26.8
@@ -3084,7 +3104,7 @@
         "pickup_points": 0,
         "player_id": "9757",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "pending",
         "transaction_id": "1416114771886886912"
@@ -3654,7 +3674,7 @@
         "roster_id": 1,
         "score": 46.46,
         "team": "Grand Theft Aubrey",
-        "trade_count": 4,
+        "trade_count": 5,
         "trade_delta": 45.36,
         "waiver_claims": 6,
         "waiver_points": 45.4
@@ -3702,7 +3722,7 @@
         "roster_id": 11,
         "score": 0.9,
         "team": "Breach & Touchdown",
-        "trade_count": 2,
+        "trade_count": 3,
         "trade_delta": -4.2,
         "waiver_claims": 2,
         "waiver_points": -26.8
@@ -3716,7 +3736,7 @@
         "team": "Suicide Squad (the game)",
         "trade_count": 3,
         "trade_delta": -22.86,
-        "waiver_claims": 2,
+        "waiver_claims": 3,
         "waiver_points": -0.5
       },
       {
@@ -5598,9 +5618,169 @@
           "team": "Mortal Kombat: DARTside"
         }
       ]
+    },
+    {
+      "first_scoring_week": 6,
+      "id": "1416185844158537728",
+      "player_first_scoring_week": {
+        "12495": 6,
+        "2449": 6,
+        "4983": 6,
+        "6790": 6,
+        "9757": 6
+      },
+      "processed_at": 1792131387996,
+      "sides": [
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "krunky",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 1,
+              "previous_owner_id": 11,
+              "roster_id": 11,
+              "round": 16,
+              "season": "2028"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 11,
+              "previous_owner_id": 1,
+              "roster_id": 1,
+              "round": 13,
+              "season": "2027"
+            },
+            {
+              "league_id": null,
+              "owner_id": 11,
+              "previous_owner_id": 1,
+              "roster_id": 1,
+              "round": 15,
+              "season": "2027"
+            }
+          ],
+          "received": [
+            "2449",
+            "6790"
+          ],
+          "received_players": [
+            {
+              "player_id": "2449",
+              "points": 0
+            },
+            {
+              "player_id": "6790",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 1,
+          "sent": [
+            "12495",
+            "4983",
+            "9757"
+          ],
+          "sent_players": [
+            {
+              "player_id": "12495",
+              "points": 0
+            },
+            {
+              "player_id": "4983",
+              "points": 0
+            },
+            {
+              "player_id": "9757",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Grand Theft Aubrey"
+        },
+        {
+          "delta": 0,
+          "faab_received": 0,
+          "faab_sent": 0,
+          "manager": "RollnWithJesus",
+          "missing_scores": [],
+          "picks_received": [
+            {
+              "league_id": null,
+              "owner_id": 11,
+              "previous_owner_id": 1,
+              "roster_id": 1,
+              "round": 13,
+              "season": "2027"
+            },
+            {
+              "league_id": null,
+              "owner_id": 11,
+              "previous_owner_id": 1,
+              "roster_id": 1,
+              "round": 15,
+              "season": "2027"
+            }
+          ],
+          "picks_sent": [
+            {
+              "league_id": null,
+              "owner_id": 1,
+              "previous_owner_id": 11,
+              "roster_id": 11,
+              "round": 16,
+              "season": "2028"
+            }
+          ],
+          "received": [
+            "12495",
+            "4983",
+            "9757"
+          ],
+          "received_players": [
+            {
+              "player_id": "12495",
+              "points": 0
+            },
+            {
+              "player_id": "4983",
+              "points": 0
+            },
+            {
+              "player_id": "9757",
+              "points": 0
+            }
+          ],
+          "received_points": 0,
+          "roster_id": 11,
+          "sent": [
+            "2449",
+            "6790"
+          ],
+          "sent_players": [
+            {
+              "player_id": "2449",
+              "points": 0
+            },
+            {
+              "player_id": "6790",
+              "points": 0
+            }
+          ],
+          "sent_points": 0,
+          "status": "pending",
+          "team": "Breach & Touchdown"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-16T04:44:10.631052+00:00",
+  "updated_at": "2026-10-16T11:39:09.048084+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
@@ -5896,7 +6076,7 @@
         "pickup_points": 31.8,
         "player_id": "12495",
         "points": 24.1,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "scored",
         "transaction_id": "1410107958943031296"
@@ -6172,6 +6352,22 @@
         "roster_id": 5,
         "status": "pending",
         "transaction_id": "1415687667789639680"
+      },
+      {
+        "dropped_player_id": "5844",
+        "dropped_points": 0,
+        "faab": 5,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "AfootCoronet56",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "5012",
+        "points": 0,
+        "released": false,
+        "roster_id": 5,
+        "status": "pending",
+        "transaction_id": "1416054683121840128"
       },
       {
         "dropped_player_id": "12472",
@@ -6706,10 +6902,10 @@
       {
         "best_pickup": "11577",
         "best_pickup_points": -0.5,
-        "claim_count": 2,
-        "faab_spent": 35,
+        "claim_count": 3,
+        "faab_spent": 40,
         "manager": "AfootCoronet56",
-        "pending_claims": 1,
+        "pending_claims": 2,
         "points": -0.5,
         "roster_id": 5,
         "scored_claims": 1,
