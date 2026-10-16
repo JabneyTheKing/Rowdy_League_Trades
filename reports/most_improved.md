@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-15T21:32:40.326504+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-16T04:44:10.631052+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -86,6 +86,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | WAS | BAL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | KC | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | Chase McLaughlin | Oronde Gadsden | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | JAX | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | LAR | CIN | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Tyler Bass | Brian Thomas | No completed week | 0.00 | 0.00 | +0.00 | pending |

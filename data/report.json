@@ -363,6 +363,11 @@
       "position": "RB",
       "team": "DEN"
     },
+    "12493": {
+      "full_name": "Oronde Gadsden",
+      "position": "TE",
+      "team": "LAC"
+    },
     "12495": {
       "full_name": "Ollie Gordon",
       "position": "RB",
@@ -1799,6 +1804,22 @@
         "transaction_id": "1415098345038331904"
       },
       {
+        "dropped_player_id": "12493",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "Potatomain",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "6650",
+        "points": 0,
+        "released": false,
+        "roster_id": 6,
+        "status": "pending",
+        "transaction_id": "1416590513477279744"
+      },
+      {
         "dropped_player_id": "CIN",
         "dropped_points": 0,
         "faab": 0,
@@ -2053,7 +2074,7 @@
         "waiver_points": 68.54
       },
       {
-        "free_agent_adds": 3,
+        "free_agent_adds": 4,
         "free_agent_points": -11.2,
         "manager": "Potatomain",
         "roster_id": 6,
@@ -3197,6 +3218,22 @@
         "transaction_id": "1415098345038331904"
       },
       {
+        "dropped_player_id": "12493",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "Potatomain",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "6650",
+        "points": 0,
+        "released": false,
+        "roster_id": 6,
+        "status": "pending",
+        "transaction_id": "1416590513477279744"
+      },
+      {
         "dropped_player_id": "7538",
         "dropped_points": 0,
         "faab": 0,
@@ -3599,7 +3636,7 @@
         "waiver_points": 48.4
       },
       {
-        "free_agent_adds": 4,
+        "free_agent_adds": 5,
         "free_agent_points": 33.32,
         "manager": "Potatomain",
         "roster_id": 6,
@@ -5563,7 +5600,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-15T21:32:40.326504+00:00",
+  "updated_at": "2026-10-16T04:44:10.631052+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

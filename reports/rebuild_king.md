@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-15T21:32:40.326504+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-16T04:44:10.631052+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -65,6 +65,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | WAS | BAL | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | KC | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | Chase McLaughlin | Oronde Gadsden | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | LAR | CIN | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Tyler Bass | Brian Thomas | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–5 | 0.00 | 0.00 | +0.00 | scored |
