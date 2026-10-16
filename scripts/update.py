@@ -9,6 +9,11 @@ import time
 import urllib.request
 from zoneinfo import ZoneInfo
 
+try:
+    from . import advanced_trackers as advanced
+except ImportError:
+    import advanced_trackers as advanced
+
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://api.sleeper.app'
 
@@ -387,10 +392,20 @@ def run():
     cache = ROOT / f'.cache/players-{season}.json'
     if not cache.exists() or time.time() - cache.stat().st_mtime > 86400:
         players_all = fetch('/v1/players/nfl')
-        players = {pid: {k: p.get(k) for k in ('full_name', 'position', 'team')} for pid, p in players_all.items()}
+        players = {pid: {k: p.get(k) for k in ('full_name', 'position', 'team', 'fantasy_positions')} for pid, p in players_all.items()}
         write_json(cache, players)
     else:
         players = json.loads(cache.read_text())
+    drafts = fetch(prefix + '/drafts')
+    draft = next((d for d in drafts if d['draft_id'] == league.get('draft_id') and d['status'] == 'complete'), None)
+    if draft is None:
+        raise ValueError('The league draft is unavailable or incomplete')
+    picks = fetch(f"/v1/draft/{draft['draft_id']}/picks")
+    if len(picks) != draft['settings']['rounds'] * draft['settings']['teams']:
+        raise ValueError('Incomplete draft pick coverage; refusing to publish lineup comparisons')
+    for pick in picks:
+        pid = str(pick['player_id']); meta = pick.get('metadata') or {}
+        players.setdefault(pid, {'full_name': (meta.get('first_name', '') + ' ' + meta.get('last_name', '')).strip(), 'position': meta.get('position')})
     users = {u['user_id']: u for u in raw['users']}
     managers = {}
     for r in raw['rosters']:
@@ -413,18 +428,27 @@ def run():
                    for pid in [*(t.get('adds') or {}), *(t.get('drops') or {})])
     tracked.update(pid for t in vetoes for s in t['sides'] for direction in ('received', 'sent') for pid in s[direction])
     tracked.update(('5846', '4137'))
-    weekly, starts, checks, game_dates = {}, {}, [], {}
+    tracked.update(str(p['player_id']) for p in picks)
+    weekly, starts, checks, game_dates, stat_rows = {}, {}, [], {}, {}
     for w in range(1, through + 1):
         rows = stat_map(payloads[f'stats/{w}'])
+        stat_rows[str(w)] = rows
+        for pid, row in rows.items():
+            meta = row.get('player') or {}
+            if meta:
+                players.setdefault(pid, {})
+                players[pid].update({k: meta[k] for k in ('position', 'fantasy_positions') if meta.get(k)})
+                if not players[pid].get('full_name'):
+                    players[pid]['full_name'] = (meta.get('first_name', '') + ' ' + meta.get('last_name', '')).strip()
         starts[w] = min(r['date'][:10] for r in rows.values() if r.get('date'))
         game_dates[str(w)] = {pid: row['date'][:10] for pid, row in rows.items() if row.get('date')}
         matchup_points = {pid: value for m in payloads[f'matchups/{w}'] for pid, value in (m.get('players_points') or {}).items() if value is not None}
         values = {}
-        for pid in tracked:
+        for pid in tracked | set(rows) | set(matchup_points):
             calculated = round(score(rows.get(pid, {}).get('stats', {}), league['scoring_settings']), 2)
             if pid in matchup_points:
                 values[pid] = matchup_points[pid]
-                if w != partial_week and abs(calculated - matchup_points[pid]) > .011:
+                if pid in tracked and w != partial_week and abs(calculated - matchup_points[pid]) > .011:
                     checks.append({'week': w, 'player_id': pid, 'stats_points': calculated, 'matchup_points': matchup_points[pid]})
             else:
                 # Full completed-week stats: no stat row means no recorded production.
@@ -459,12 +483,56 @@ def run():
               'rebuild_king': rebuild_king,
               'leaderboard': trade_board,
               'conner_metcalf': conner_metcalf(payloads, weekly, through)}
+    adjusted, baselines = advanced.positional_scores(weekly, stat_rows, players)
+    adjusted_trades = [evaluate(t, adjusted, through) for t in trades]
+    adjusted_waivers = waiver_champion(list(all_tx.values()), managers, starts, adjusted, through, game_dates)
+    adjusted_fa = acquisition_results(list(all_tx.values()), managers, starts, adjusted, through, 'free_agent', game_dates=game_dates)
+    report['positional_value'] = {'baselines': baselines}
+    report['draft_vs_trades'] = {'draft_id': draft['draft_id'], 'slots': league['roster_positions']}
+    for key in ('jabney', 'krunky'):
+        rid = config['trackers'][key]
+        report['positional_value'][key] = advanced.positional_summary(key, rid, trades, adjusted_trades,
+            waivers, adjusted_waivers, free_agents, adjusted_fa)
+        report['draft_vs_trades'][key] = advanced.draft_comparison(picks, trades, rid,
+            league['roster_positions'], players, weekly, through)
+    # Replay all completed roster moves, keeping trade and wire scenarios separate.
+    trade_by_id = {t['id']: t for t in trades}
+    events = []
+    for transaction in sorted(all_tx.values(), key=lambda t: (t['status_updated'], t['transaction_id'])):
+        if transaction['status'] != 'complete' or transaction['type'] not in ('trade','waiver','free_agent'):
+            continue
+        event = {'id': transaction['transaction_id'], 'kind': transaction['type'],
+                 'processed_at': transaction['status_updated'], 'sent': [], 'received': []}
+        for field, direction in [('drops','sent'),('adds','received')]:
+            for pid, rid in (transaction.get(field) or {}).items():
+                if transaction['type'] == 'trade':
+                    trade = trade_by_id[transaction['transaction_id']]
+                    first = trade['player_first_scoring_week'].get(pid, trade['first_scoring_week'])
+                else:
+                    first = player_first_week(transaction, pid, starts, game_dates, through, release=direction == 'sent')
+                event[direction].append({'player_id': pid, 'roster_id': rid, 'first_week': first})
+        events.append(event)
+    report['team_impact'] = {}
+    for key in ('jabney','krunky'):
+        rid = config['trackers'][key]
+        result = advanced.team_impact(picks, events, rid, league['roster_positions'], players, weekly, through)
+        replay = set(result['draft_roster'])
+        for event in events:
+            replay.difference_update(a['player_id'] for a in event['sent'] if a['roster_id'] == rid)
+            replay.update(a['player_id'] for a in event['received'] if a['roster_id'] == rid)
+        current = set(next(r for r in raw['rosters'] if r['roster_id'] == rid).get('players') or [])
+        if replay != current:
+            raise ValueError(f'Roster replay mismatch for {key}: missing={current-replay}, extra={replay-current}')
+        result['current_roster'] = sorted(current)
+        report['team_impact'][key] = result
     # Publish only after all endpoints and scoring consistency checks have passed.
-    write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings')},
-                                           'managers': managers, 'transactions': list(all_tx.values()),
+    write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings','roster_positions')},
+                                           'managers': managers, 'transactions': list(all_tx.values()), 'draft_picks': picks,
                                            'weekly_points': weekly, 'week_start_dates': starts, 'player_game_dates': game_dates})
     write_json(ROOT / 'data/report.json', report)
     markdown(report, players)
+    advanced.write_reports(report, ROOT)
+    advanced.write_team_reports(report, ROOT)
     comparison = report['conner_metcalf']
     start = comparison['first_scoring_week']
     (ROOT / 'reports/metcalf_vs_conner.md').write_text(

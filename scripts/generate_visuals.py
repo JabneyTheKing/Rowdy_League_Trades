@@ -381,6 +381,168 @@ def render_conner_metcalf(report):
     return im
 
 
+def advanced_header(key, title, subtitle, height):
+    canvas = Image.new('RGB', (W, height), '#080e17')
+    header = 'jabney_underdog_v2.jpg' if key == 'jabney' else 'krunky_header.jpg'
+    banner = ImageOps.fit(art(header), (W, 354), method=Image.Resampling.LANCZOS, centering=(.5,.07))
+    canvas.paste(banner, (0, 0))
+    d = ImageDraw.Draw(canvas)
+    accent = '#5ccfea' if key == 'jabney' else '#ecc356'
+    d.rectangle((0, 354, W, 466), fill='#101c2a')
+    text(d, (800, 389), (key + ' • ' + title).upper(), 44, accent, True, 'mm')
+    text(d, (800, 440), subtitle, 20, '#d6e2ef', True, 'mm')
+    return canvas, d, accent
+
+
+def advanced_footer(d, report, y, note):
+    text(d, (800, y), note, 20, '#b8c9da', False, 'mm')
+    text(d, (800, y+35), f"THROUGH WEEK {report['through_week']}" + (' • PARTIAL / PROVISIONAL' if report.get('partial_week') else ' • COMPLETE') + ' • TRADES SINCE AUGUST 23', 20, '#b8c9da', True, 'mm')
+
+
+def render_positional(report, key):
+    p = report['positional_value'][key]
+    rows = p['moves']
+    height = 890 + max(1,len(rows))*72
+    im, d, accent = advanced_header(key, 'POSITIONAL VALUE',
+        'Performance above the weekly positional benchmark • A separate view from raw points', height)
+    for i, c in enumerate(p['components']):
+        x = 45 + i*505
+        rect(d, (x,485,x+485,588), '#142538', accent, 2, 14)
+        text(d, (x+24,513), c['label'].upper(), 21, accent, True)
+        text(d, (x+24,555), f"RAW {c['raw']:+.2f}", 23, 'white', True)
+        text(d, (x+465,555), f"ADJ {c['adjusted']:+.2f}", 27, '#6cf3a0' if c['adjusted']>=0 else '#ff8390', True,'ra')
+    y=625
+    for x,label in [(48,'MOVE'),(265,'RECEIVED / ADDED'),(660,'SENT / DROPPED'),(1215,'RAW NET'),(1515,'POSITIONAL NET')]:
+        text(d,(x,y),label,19,accent,True,'ra' if x>1200 else None)
+    for i,row in enumerate(rows):
+        yy=660+i*72
+        rect(d,(35,yy-10,1565,yy+53),'#132033' if i%2==0 else '#0e1827',None,1,8)
+        text(d,(50,yy+14),fit(row['label'],23),19,'#c1d1e0',True,'lm')
+        for x,field in [(265,'received'),(660,'sent')]:
+            names=[player_name(report,pid) for pid in row[field]]
+            # Split into up to two lines; full names and assets remain in the companion report.
+            label=', '.join(names) or '—'
+            if len(label)>32:
+                text(d,(x,yy+2),fit(label[:32],32),17,'white')
+                text(d,(x,yy+25),fit(label[32:],32),17,'white')
+            else:
+                text(d,(x,yy+14),label,18,'white',False,'lm')
+        text(d,(1215,yy+14),f"{row['raw']:+.2f}",25,'#cad8e6',True,'rm')
+        label='PENDING' if row['status']=='pending' else f"{row['adjusted']:+.2f}"
+        text(d,(1515,yy+14),label,28,'#6cf3a0' if row['adjusted']>=0 else '#ff8390',True,'rm')
+    y=660+max(1,len(rows))*72
+    rect(d,(35,y,1565,y+100),'#1a2b3a',accent,3,12)
+    text(d,(65,y+29),'TOTAL POSITIONAL IMPACT',26,accent,True)
+    text(d,(65,y+68),'Byes / missed games = 0 • Active below-average games can be negative',19,'#c5d1db')
+    text(d,(1515,y+48),f"{p['total']:+.2f}",61,'#6cf3a0' if p['total']>=0 else '#ff8390',True,'rm')
+    advanced_footer(d,report,y+139,'Weekly top-player averages: QB 12 • RB 30 • WR 42 • TE 12 • K 12 • DEF 12')
+    return im
+
+
+def render_draft_vs_trades(report, key):
+    c=report['draft_vs_trades'][key]
+    weeks=c['weeks']; latest=weeks[-1] if weeks else None
+    height=1680+len(weeks)*56
+    im,d,accent=advanced_header(key,'DRAFT vs. TRADES',
+        'Your best legal starting lineup each week • Original draft versus trades-only roster',height)
+    for i,(label,value,color) in enumerate([('DRAFTED TEAM',c['draft_total'],'#c8d6e7'),('AFTER TRADES',c['trade_total'],accent),('TRADING IMPACT',c['delta'],'#6cf3a0' if c['delta']>=0 else '#ff8390')]):
+        x=40+i*510
+        rect(d,(x,490,x+495,626),'#142538',color,2,14)
+        text(d,(x+247,523),label,23,color,True,'mm')
+        text(d,(x+247,582),f'{value:+.2f}' if i==2 else f'{value:.2f}',49,'white',True,'mm')
+    text(d,(800,664),'WEEKLY BEST-LINEUP COMPARISON',28,accent,True,'mm')
+    for x,label in [(75,'WEEK'),(670,'DRAFTED'),(1090,'AFTER TRADES'),(1500,'IMPACT')]:
+        text(d,(x,706),label,20,'#b8cbde',True,'ra' if x>100 else None)
+    for i,row in enumerate(weeks):
+        y=750+i*56
+        rect(d,(40,y-16,1560,y+31),'#142235',None,1,7)
+        text(d,(75,y+7),str(row['week']),24,'white',True,'lm')
+        for x,value in [(670,row['drafted']['points']),(1090,row['traded']['points']),(1500,row['delta'])]:
+            text(d,(x,y+7),f'{value:+.2f}' if x==1500 else f'{value:.2f}',26,('#6cf3a0' if value>=0 else '#ff8390') if x==1500 else 'white',True,'rm')
+    y=765+len(weeks)*56
+    if latest:
+        text(d,(800,y+18),f"WEEK {latest['week']} • OPTIMAL STARTERS",29,accent,True,'mm')
+        text(d,(390,y+65),'ORIGINAL DRAFT',22,'#cbd9e9',True,'mm')
+        text(d,(1190,y+65),'DRAFT + TRADES',22,accent,True,'mm')
+        for i,(a,b) in enumerate(zip(latest['drafted']['lineup'],latest['traded']['lineup'])):
+            yy=y+102+i*46
+            for x,item in [(40,a),(830,b)]:
+                rect(d,(x,yy-12,x+730,yy+28),'#132033',None,1,6)
+                text(d,(x+12,yy+8),item['slot'],18,accent,True,'lm')
+                text(d,(x+105,yy+8),fit(player_name(report,item['player_id']) if item['player_id'] else 'Empty slot',29),21,'white',True,'lm')
+                text(d,(x+710,yy+8),f"{item['points']:.2f}",23,'#cbd9e9',True,'rm')
+    method_y=height-300
+    rect(d,(35,method_y,1565,method_y+185),'#142538',accent,2,12)
+    text(d,(65,method_y+22),'METHODOLOGY',25,accent,True)
+    for i,line in enumerate([
+        'Compare the original draft with that draft adjusted only for eligible trades since August 23.',
+        'Optimize all 10 legal starting slots separately each week using league scoring; one player per slot.',
+        'Ignore waiver / FA adds and non-trade drops. Trade-outs leave; trade-ins enter when eligible.',
+        'Sum weekly lineup differences. Hindsight potential, not actual start / sit results; picks remain unvalued.',
+    ]):
+        text(d,(65,method_y+64+i*28),line,21,'#d0dce7')
+    advanced_footer(d,report,height-83,'No waiver / free-agent moves • One player per slot • Earlier weeks never use later trades')
+    return im
+
+
+def render_team_impact(report,key):
+    c=report['team_impact'][key]; t=c['totals']; weeks=c['weeks']
+    height=2070+len(weeks)*56
+    im,d,accent=advanced_header(key,'TEAM IMPACT',
+        'Drafted team vs. rebuilt team • Optimal lineups isolate trade impact with wire moves held fixed',height)
+    for i,(field,label) in enumerate([('drafted','ORIGINAL DRAFT'),('trades_only','TRADES ONLY'),('wire_only','WAIVERS + FA ONLY'),('all_moves','ALL MOVES')]):
+        x=35+i*392
+        rect(d,(x,490,x+376,625),'#142538',accent,2,13)
+        text(d,(x+188,525),label,21,accent,True,'mm')
+        text(d,(x+188,583),f"{t[field]:.2f}",46,'white',True,'mm')
+    for i,(field,label,note) in enumerate([('wire_impact','WIRE IMPACT','Wire-only minus draft'),('trade_impact','TRADE IMPACT','All moves minus wire-only'),('total_impact','TOTAL IMPROVEMENT','All moves minus draft')]):
+        x=35+i*525; value=t[field]; color='#6cf3a0' if value>=0 else '#ff8390'
+        rect(d,(x,649,x+505,807),'#172939',color,3,14)
+        text(d,(x+252,679),label,23,color,True,'mm')
+        text(d,(x+252,735),f'{value:+.2f}',53,'white',True,'mm')
+        text(d,(x+252,781),note,20,'#bdcfe0',False,'mm')
+    text(d,(800,844),f"Trades alone: {t['trade_only_impact']:+.2f}  •  Trade / wire interaction: {t['interaction']:+.2f} (included in trade impact)",23,accent,True,'mm')
+    text(d,(800,882),'Trade impact + wire impact = total improvement. No bench points or double-counted lineup gains.',20,'#c4d1df',False,'mm')
+    cols=[(80,'WK'),(315,'DRAFT'),(555,'TRADES ONLY'),(795,'WIRE ONLY'),(1035,'ALL MOVES'),(1280,'WIRE +/-'),(1520,'TRADE +/-')]
+    for x,label in cols: text(d,(x,936),label,19,accent,True,'rm')
+    for i,row in enumerate(weeks):
+        y=977+i*56
+        rect(d,(35,y-20,1565,y+28),'#142235',None,1,8)
+        vals=[row['week']]+[row[f]['points'] for f in ('drafted','trades_only','wire_only','all_moves')]+[row['wire_impact'],row['trade_impact']]
+        for j,((x,_),value) in enumerate(zip(cols,vals)):
+            label=str(value) if j==0 else (f'{value:+.2f}' if j>4 else f'{value:.2f}')
+            text(d,(x,y+5),label,24,('#6cf3a0' if value>=0 else '#ff8390') if j>4 else 'white',True,'rm')
+    y=992+len(weeks)*56
+    if weeks:
+        latest=weeks[-1]
+        text(d,(800,y+14),f"WEEK {latest['week']} • TRADE IMPACT IN THE STARTING LINEUP",28,accent,True,'mm')
+        text(d,(395,y+63),'WITHOUT TRADES • WIRE MOVES INCLUDED',20,'#c6d8e9',True,'mm')
+        text(d,(1190,y+63),'WITH TRADES • ALL MOVES INCLUDED',20,accent,True,'mm')
+        for i,(a,b) in enumerate(zip(latest['wire_only']['lineup'],latest['all_moves']['lineup'])):
+            yy=y+102+i*46
+            for x,item in [(40,a),(830,b)]:
+                rect(d,(x,yy-12,x+730,yy+28),'#132033',None,1,6)
+                text(d,(x+12,yy+8),item['slot'],18,accent,True,'lm')
+                text(d,(x+105,yy+8),fit(player_name(report,item['player_id']) if item['player_id'] else 'Empty slot',29),21,'white',True,'lm')
+                text(d,(x+710,yy+8),f"{item['points']:.2f}",23,'#cbd9e9',True,'rm')
+    method_y = height-450
+    rect(d,(35,method_y,1565,method_y+330),'#142538',accent,2,12)
+    text(d,(65,method_y+30),'METHODOLOGY',26,accent,True)
+    rules = [
+        '1. Start with the draft; replay eligible moves since August 23. Later moves never change earlier weeks.',
+        '2. Maximize actual league points in 10 legal slots: QB, 2 RB, 2 WR, TE, 2 FLEX, K, DEF. No bench points.',
+        '3. Each player fills one slot. Adds and drops change availability, including standalone releases.',
+        '4. Wire impact = wire-only minus draft. Trade impact = all moves minus wire-only. Their sum is total gain.',
+        '5. Trade impact includes trade / wire interaction. The same recorded wire decisions are held fixed.',
+        '6. Hypothetical roster caps / budgets are not enforced. This is hindsight potential, not proof of causation.',
+        '7. Partial-week scores are provisional; every refresh recalculates totals instead of appending scores.',
+    ]
+    for i,line in enumerate(rules):
+        text(d,(65,method_y+80+i*33),line,21,'#d0dce7')
+    advanced_footer(d,report,height-83,'Hindsight-optimal legal lineups • Departed players removed • Full weekly breakdown in report')
+    return im
+
+
 def main():
     report=json.loads((ROOT/'data/report.json').read_text()); OUT.mkdir(exist_ok=True)
     jobs={
@@ -394,6 +556,10 @@ def main():
         'most_improved.png':render_improved(report),
         'rebuild_king.png':render_improved(report,'rebuild_king','Rebuild King','Who pivoted best after Week 1 • Net roster-building impact','#f4c542','#101007','CURRENT REBUILD KING'),
     }
+    for key in ('jabney', 'krunky'):
+        jobs[f'{key}_team_impact.png'] = render_team_impact(report, key)
+        jobs[f'{key}_positional.png'] = render_positional(report, key)
+        jobs[f'{key}_draft_vs_trades.png'] = render_draft_vs_trades(report, key)
     # Stamp every render and publish a single mutable gallery with fresh image URLs.
     stamp = report['updated_at'][:19].replace('T', ' ') + ' UTC'
     version = ''.join(c for c in report['updated_at'] if c.isdigit())

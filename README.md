@@ -66,3 +66,22 @@ Sources: [Sleeper API documentation](https://docs.sleeper.com/) and live Sleeper
 [Comparison report](reports/metcalf_vs_conner.md) · [Visual](visuals/metcalf_vs_conner.png)
 
 Both counters stay at zero until Conner records on-field participation after his current IR absence. Both start in his return week (Week 6 or later), including his return game; no earlier points count. Subsequent updates recalculate totals using league scoring.
+
+
+## Positional value and team-context trackers
+
+The original trackers remain available. Six additional views refresh in the same six-hour workflow:
+
+| View | Jabney | Krunky |
+|---|---|---|
+| Positional value | [Report](reports/jabney_positional.md) · [Visual](visuals/jabney_positional.png) | [Report](reports/krunky_positional.md) · [Visual](visuals/krunky_positional.png) |
+| Draft vs. trades only | [Report](reports/jabney_draft_vs_trades.md) · [Visual](visuals/jabney_draft_vs_trades.png) | [Report](reports/krunky_draft_vs_trades.md) · [Visual](visuals/krunky_draft_vs_trades.png) |
+| Team impact, including wire moves | [Report](reports/jabney_team_impact.md) · [Visual](visuals/jabney_team_impact.png) | [Report](reports/krunky_team_impact.md) · [Visual](visuals/krunky_team_impact.png) |
+
+**Positional value:** subtract the average of each week's top participating QB12/RB30/WR42/TE12/K12/DEF12 from each player's league-scored points. Missed games/byes contribute zero; active zero-point games can be negative. These are above-benchmark points, not percentages. Jabney includes trades plus net waiver/FA moves; Krunky includes trades. Existing ownership and eligibility windows apply.
+
+**Draft vs. trades:** optimize the original drafted roster and its trades-only evolution independently each week. Waiver/FA moves and non-trade drops are ignored. Trades out remove players, trades in add players. The draft establishes inventory only; no pre-August-23 transaction is scored.
+
+**Team impact:** optimize four weekly worlds: draft, trades only, wire only, and all moves. All completed eligible adds and drops change roster availability, including standalone releases (not individually scored). Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only. These sum to total improvement; the trade/wire interaction is explicitly shown and included in trade impact. Recorded wire moves are held fixed; hypothetical worlds do not enforce roster caps or invent alternate decisions. This estimates hindsight lineup impact, not causal proof, actual win/loss impact, or dynasty value.
+
+The exact optimizer honors every starting slot, including both flex spots, kicker and defense, with no player used twice. Earlier weeks use only then-eligible transactions. Reports show every weekly lineup; visuals show weekly totals and the latest scoring week's optimum. Live roster inventory is separately captured and checked against draft-plus-transaction replay.
