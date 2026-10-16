@@ -233,6 +233,11 @@
       "position": "RB",
       "team": "SEA"
     },
+    "11559": {
+      "full_name": "Michael Penix",
+      "position": "QB",
+      "team": "ATL"
+    },
     "11576": {
       "full_name": "Braelon Allen",
       "position": "RB",
@@ -1715,6 +1720,22 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "11559",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1416836985586270208"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
         "first_week": 4,
         "last_week": 3,
         "manager": "lfain20",
@@ -2106,7 +2127,7 @@
         "waiver_points": 30.1
       },
       {
-        "free_agent_adds": 1,
+        "free_agent_adds": 2,
         "free_agent_points": 0,
         "manager": "krunky",
         "roster_id": 1,
@@ -3113,6 +3134,22 @@
         "dropped_player_id": null,
         "dropped_points": 0,
         "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "11559",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1416836985586270208"
+      },
+      {
+        "dropped_player_id": null,
+        "dropped_points": 0,
+        "faab": 0,
         "first_week": 1,
         "last_week": 0,
         "manager": "lfain20",
@@ -3668,7 +3705,7 @@
         "waiver_points": 30.1
       },
       {
-        "free_agent_adds": 7,
+        "free_agent_adds": 8,
         "free_agent_points": -44.3,
         "manager": "krunky",
         "roster_id": 1,
@@ -5780,7 +5817,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-16T11:39:09.048084+00:00",
+  "updated_at": "2026-10-16T16:48:13.692226+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,
