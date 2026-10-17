@@ -104,3 +104,17 @@ Actual scores remain unchanged. For supported completed-game injury absences, th
 Evidence comes from archived [NFL weekly injury reports](https://www.nfl.com/injuries/league/2026/reg5) and [dated reserve transactions](https://www.nfl.com/transactions/league/reserve-list/2026/10), cached in `data/injury_evidence.json`. Qualifying evidence is injury-related OUT status or the first four team games after an explicit Reserve/Injured placement. In-game injuries, PUP/NFI, byes, unplayed games, longer IR absences without fresh evidence, and insufficient baselines remain unadjusted. Today's injury label is never applied backward.
 
 This is intentionally a **limited injury estimate**, not a fully healthy-team simulation. The reports list every estimate, its earlier sample and source, confirmed absences without a baseline, and other zero-participation games left unchanged. Source failures are shown on the visuals and reports; previously verified archive records are retained. All 19 visuals run in the existing six-hour update workflow.
+
+## Realistic waiver coverage in lineup comparisons
+
+Jabney, Krunky and Gibbs of War's team-impact and separate injury-adjusted views, plus the draft-versus-trades views, use participating rostered players first. When a legal starting slot remains uncovered, use the mean league-scoring output of the **five highest-scoring actually available waiver players at that position that week** (or fewer if fewer exist). This replaces earlier empty-slot/zero assumptions. It is a hindsight estimate of a strong waiver pickup, not a top-12/24 starter average or a guaranteed claim.
+
+Availability is reconstructed from league draft picks and transactions: candidates must be unowned at the start of the first game day, clear the league's drop waiver delay, and remain unclaimed during the week. Exclude players in the hypothetical roster. Use distinct candidates for multiple holes, never upgrade a participating player just for scoring poorly, and apply the same rule to every roster scenario. Temporary cover does not persist or count as a real acquisition. Partial weeks receive no coverage estimates until complete. Supported injury estimates are applied first; a slot never receives both credits.
+
+The original production-based trackers are unchanged. These assumptions affect lineup-based counterfactual comparisons.
+
+- [How Krunky's trades impacted the season](reports/krunky_season_trade_impact.md)
+- [Full replacement methodology and weekly player samples](reports/waiver_replacement_methodology.md)
+- [Updated tracker visuals](reports/latest_visuals.md)
+
+The explanation, samples, totals and visuals are regenerated together by the scheduled workflow.

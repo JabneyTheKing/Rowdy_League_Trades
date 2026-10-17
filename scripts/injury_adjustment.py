@@ -220,7 +220,11 @@ def adjust_scores(weekly, stat_rows, players, evidence, through, minimum_games=2
                      'confirmed':confirmed,'team_games':team_games,'source_errors':evidence.get('errors',[]),'other_absences':other_absences}
 
 
-def adjusted_team(actual, adjusted, players, slots, audit):
+def adjusted_team(actual, adjusted, players, slots, audit, replacement_context=None):
+    try:
+        from .waiver_replacements import lineup_with_cover
+    except ImportError:
+        from waiver_replacements import lineup_with_cover
     result={'weeks':[],'current_roster':actual['current_roster'],'draft_roster':actual['draft_roster']}
     scenarios=('drafted','trades_only','wire_only','all_moves')
     relevant=set();coverage=[]
@@ -229,7 +233,8 @@ def adjusted_team(actual, adjusted, players, slots, audit):
         pool=set()
         for key in scenarios:
             roster=original[key]['roster'];pool.update(roster)
-            row[key]=optimal_lineup(roster,slots,players,adjusted[w]);row[key]['roster']=roster
+            restored=[r['player_id'] for r in audit['adjustments'] if r['week']==int(w)]
+            row[key]=lineup_with_cover(roster,slots,players,adjusted[w],w,replacement_context,restored);row[key]['roster']=roster
         relevant.update((int(w),pid) for pid in pool)
         d,t,wire,all_moves=(row[s]['points'] for s in scenarios)
         row.update({'total_impact':round(all_moves-d,2),'trade_impact':round(all_moves-wire,2),
@@ -288,4 +293,5 @@ def write_reports(report,root):
                 lines.append(f"| {a['slot']} | {name(a['player_id']) if a['player_id'] else 'Empty'} | {a['points']:.2f} | {name(b['player_id']) if b['player_id'] else 'Empty'} | {b['points']:.2f} |")
         lines += ['', '## Source health', '', 'Archived NFL injury reports and reserve transactions: `data/injury_evidence.json`.']
         lines += [f'- {e}' for e in c['source_errors']] or ['No retrieval errors this refresh.']
+        lines[3:3] = ['## Temporary waiver coverage', '', report.get('waiver_replacements',{}).get('methodology',''), '', 'A restored injury estimate fills its slot before waiver coverage; the same slot never gets both.', '']
         (root/f'reports/{key}_injury_adjusted.md').write_text('\n'.join(lines)+'\n')

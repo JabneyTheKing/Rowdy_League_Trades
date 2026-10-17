@@ -498,11 +498,11 @@ def render_draft_vs_trades(report, key):
     for i,line in enumerate([
         'Compare the original draft with that draft adjusted only for eligible trades since August 23.',
         'Optimize all 10 legal starting slots separately each week using league scoring; one player per slot.',
-        'Ignore waiver / FA adds and non-trade drops. Trade-outs leave; trade-ins enter when eligible.',
+        'Ignore actual wire moves; fill uncovered slots with the mean of top 5 available waiver players by position.',
         'Sum weekly lineup differences. Hindsight potential, not actual start / sit results; picks remain unvalued.',
     ]):
         text(d,(65,method_y+64+i*28),line,21,'#d0dce7')
-    advanced_footer(d,report,height-83,'No waiver / free-agent moves • One player per slot • Earlier weeks never use later trades')
+    advanced_footer(d,report,height-83,'Rostered starters first • Temporary waiver coverage for holes • No later trades applied to earlier weeks')
     return im
 
 
@@ -551,12 +551,12 @@ def render_team_impact(report,key):
     text(d,(65,method_y+30),'METHODOLOGY',26,accent,True)
     rules = [
         '1. Start with the draft; replay eligible moves since August 23. Later moves never change earlier weeks.',
-        '2. Maximize actual league points in 10 legal slots: QB, 2 RB, 2 WR, TE, 2 FLEX, K, DEF. No bench points.',
-        '3. Each player fills one slot. Adds and drops change availability, including standalone releases.',
+        '2. Use participating rostered players first in 10 legal slots; each player fills one slot. No bench points.',
+        '3. Fill holes with mean points of top 5 available waiver players by position, excluding held / uncleared players.',
         '4. Wire impact = wire-only minus draft. Trade impact = all moves minus wire-only. Their sum is total gain.',
         '5. Trade impact includes trade / wire interaction. The same recorded wire decisions are held fixed.',
-        '6. Hypothetical roster caps / budgets are not enforced. This is hindsight potential, not proof of causation.',
-        '7. Partial-week scores are provisional; every refresh recalculates totals instead of appending scores.',
+        '6. Coverage is temporary and hindsight-based, not top-12/24 averages. No claim, budget or roster-cap simulation.',
+        '7. No cover until a week is complete. Same rule for all scenarios; weekly waiver samples are listed in the report.',
     ]
     for i,line in enumerate(rules):
         text(d,(65,method_y+80+i*33),line,21,'#d0dce7')
@@ -568,9 +568,9 @@ def render_injury_adjusted(report,key):
     c=report['injury_adjusted'][key];rows=c['adjustments'];weeks=c['weeks']
     height=1550+len(weeks)*54+max(1,len(rows))*49
     im,d,accent=advanced_header(key,'INJURY-ADJUSTED IMPACT',
-        'A separate estimate • Actual results preserved • Lineups reoptimized in every scenario',height)
-    text(d,(800,502),'ACTUAL RESULTS vs. SUPPORTED INJURY ESTIMATES',27,accent,True,'mm')
-    for x,label in [(60,'METRIC'),(810,'ACTUAL'),(1190,'ADJUSTED ESTIMATE'),(1520,'CHANGE')]:
+        'A separate injury estimate • Temporary waiver coverage in both comparisons • Reoptimized lineups',height)
+    text(d,(800,502),'BASELINE WITH WAIVER COVER vs. INJURY ESTIMATE',27,accent,True,'mm')
+    for x,label in [(60,'METRIC'),(810,'BASELINE + COVER'),(1190,'ADJUSTED ESTIMATE'),(1520,'CHANGE')]:
         text(d,(x,552),label,19,'#b9cddd',True,'rm' if x>100 else 'lm')
     for i,(field,label) in enumerate([('trade_impact','TRADE IMPACT'),('wire_impact','WAIVER / FA IMPACT'),('total_impact','TOTAL TEAM IMPROVEMENT')]):
         y=600+i*72
@@ -584,7 +584,7 @@ def render_injury_adjusted(report,key):
         text(d,(800,902),'SOURCE RETRIEVAL WARNING — cached / partial evidence; see report',22,'#ffc759',True,'mm')
     else:
         text(d,(800,902),'Estimates may improve either side of a trade; an adjustment is not automatically a credit.',20,'#c1cfdb',False,'mm')
-    cols=[(85,'WK'),(520,'ACTUAL TRADE +/-'),(1000,'ADJ. TRADE +/-'),(1510,'ADJ. TOTAL GAIN')]
+    cols=[(85,'WK'),(520,'BASELINE TRADE +/-'),(1000,'ADJ. TRADE +/-'),(1510,'ADJ. TOTAL GAIN')]
     for x,label in cols:text(d,(x,950),label,20,accent,True,'rm')
     actual=report['team_impact'][key]['weeks']
     for i,(row,original) in enumerate(zip(weeks,actual)):
@@ -613,9 +613,9 @@ def render_injury_adjusted(report,key):
         '3. Estimate = mean league points in 2+ earlier participating games with no archived weekly injury listing.',
         '4. Reoptimize all 10 legal starting slots in every scenario. Backups count; no bench points or duplicated players.',
         '5. Wire impact = wire-only minus draft; trade impact = all moves minus wire-only, including their interaction.',
-        '6. Byes, in-game injuries, uncertain absences, longer unconfirmed IR, and insufficient baselines stay unchanged.',
-        '7. No future scores, previous-season scores or guessed injuries. This is not a fully healthy-team simulation.',
-        '8. Recorded roster moves held fixed; hypothetical caps/budgets not enforced. Full sources and samples in report.',
+        '6. After eligible injury estimates, fill remaining holes with mean points of top 5 available waiver players by position.',
+        '7. Rostered starters first; no injury estimate plus waiver credit in the same slot. No cover during partial weeks.',
+        '8. Waiver cover is hindsight-based, not top-12/24 averages. Fixed moves; no cap/budget simulation. Samples in report.',
     ]
     for i,line in enumerate(rules):text(d,(65,method_y+78+i*31),line,20,'#d0dce7')
     # Content height is derived from the panels so it cannot collide with the footer.

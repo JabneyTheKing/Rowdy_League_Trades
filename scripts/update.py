@@ -12,9 +12,11 @@ from zoneinfo import ZoneInfo
 try:
     from . import advanced_trackers as advanced
     from . import injury_adjustment as injuries
+    from . import waiver_replacements as cover
 except ImportError:
     import advanced_trackers as advanced
     import injury_adjustment as injuries
+    import waiver_replacements as cover
 
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://api.sleeper.app'
@@ -458,6 +460,12 @@ def run():
         weekly[str(w)] = values
     if checks:
         raise ValueError('Weekly stats do not reproduce league player points: ' + json.dumps(checks))
+    replacement_context = cover.build_context(picks, list(all_tx.values()), starts, weekly, players, stat_rows,
+        partial_week, int(league['settings'].get('waiver_clear_days', 2)))
+    tracked.update(p['player_id'] for pool in replacement_context['pools'].values() for rows in pool.values() for p in rows)
+    for pos in cover.POSITIONS:
+        for i in range(1,6):
+            pid=f'__wire_{pos}_{i}';players[pid]={'full_name':f'Waiver cover ({pos})','position':pos};tracked.add(pid)
     trades = []
     for t in completed:
         first, player_weeks = trade_scoring_windows(t, config, starts, game_dates, through)
@@ -496,7 +504,7 @@ def run():
         report['positional_value'][key] = advanced.positional_summary(key, rid, trades, adjusted_trades,
             waivers, adjusted_waivers, free_agents, adjusted_fa)
         report['draft_vs_trades'][key] = advanced.draft_comparison(picks, trades, rid,
-            league['roster_positions'], players, weekly, through)
+            league['roster_positions'], players, weekly, through, replacement_context)
     # Replay all completed roster moves, keeping trade and wire scenarios separate.
     trade_by_id = {t['id']: t for t in trades}
     events = []
@@ -517,7 +525,7 @@ def run():
     report['team_impact'] = {}
     report['team_impact_trackers'] = config.get('team_impact_trackers', {k:config['trackers'][k] for k in ('jabney','krunky')})
     for key, rid in report['team_impact_trackers'].items():
-        result = advanced.team_impact(picks, events, rid, league['roster_positions'], players, weekly, through)
+        result = advanced.team_impact(picks, events, rid, league['roster_positions'], players, weekly, through, replacement_context)
         replay = set(result['draft_roster'])
         for event in events:
             replay.difference_update(a['player_id'] for a in event['sent'] if a['roster_id'] == rid)
@@ -530,7 +538,8 @@ def run():
     injury_evidence = injuries.collect_evidence(ROOT, season, through, partial_week, tracking_start)
     adjusted_injury_points, injury_audit = injuries.adjust_scores(weekly, stat_rows, players, injury_evidence, through)
     report['injury_adjusted'] = {key: injuries.adjusted_team(actual, adjusted_injury_points, players,
-        league['roster_positions'], injury_audit) for key,actual in report['team_impact'].items()}
+        league['roster_positions'], injury_audit, replacement_context) for key,actual in report['team_impact'].items()}
+    report['waiver_replacements'] = replacement_context
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings','roster_positions')},
                                            'managers': managers, 'transactions': list(all_tx.values()), 'draft_picks': picks,
@@ -540,6 +549,8 @@ def run():
     advanced.write_reports(report, ROOT)
     advanced.write_team_reports(report, ROOT)
     injuries.write_reports(report, ROOT)
+    cover.write_audit(report, ROOT)
+    cover.write_krunky_analysis(report, ROOT)
     comparison = report['conner_metcalf']
     start = comparison['first_scoring_week']
     (ROOT / 'reports/metcalf_vs_conner.md').write_text(

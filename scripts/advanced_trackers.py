@@ -1,5 +1,9 @@
 """Separate positional-value and draft-versus-trade optimal-lineup reports."""
 from pathlib import Path
+try:
+    from .waiver_replacements import lineup_with_cover
+except ImportError:
+    from waiver_replacements import lineup_with_cover
 
 BASELINE_SIZES = {'QB': 12, 'RB': 30, 'WR': 42, 'TE': 12, 'K': 12, 'DEF': 12}
 FLEX = {'FLEX': {'RB', 'WR', 'TE'}, 'SUPER_FLEX': {'QB', 'RB', 'WR', 'TE'},
@@ -34,12 +38,15 @@ def positional_scores(weekly, stat_rows, players, sizes=None):
     return adjusted, baselines
 
 
-def optimal_lineup(roster, slots, players, points):
+def optimal_lineup(roster, slots, players, points, replacement_ids=()):
     """Exact assignment by slot bitmask; fill legal slots, then maximize points."""
     slots = [s for s in slots if s not in ('BN', 'IR')]
     supported = set(BASELINE_SIZES) | set(FLEX)
     if set(slots) - supported:
         raise ValueError('Unsupported starting slots: ' + str(set(slots) - supported))
+    replacement_ids=set(replacement_ids)
+    def quality(total, lineup):
+        return (sum(pid not in replacement_ids for _,pid,_ in lineup), total)
     dp = {0: (0.0, [])}
     for pid in sorted(set(roster)):
         player = players.get(pid, {})
@@ -51,9 +58,9 @@ def optimal_lineup(roster, slots, players, points):
                     continue
                 next_mask = mask | (1 << i)
                 candidate = total + value
-                if next_mask not in dp or candidate > dp[next_mask][0]:
+                if next_mask not in dp or quality(candidate,lineup+[(i,pid,value)]) > quality(*dp[next_mask]):
                     dp[next_mask] = (candidate, lineup + [(i, pid, value)])
-    mask = max(dp, key=lambda m: (m.bit_count(), dp[m][0]))
+    mask = max(dp, key=lambda m: (quality(*dp[m])[0], m.bit_count(), dp[m][0]))
     total, selected = dp[mask]
     selected = {i: (pid, value) for i, pid, value in selected}
     return {'points': round(total, 2), 'filled_slots': mask.bit_count(),
@@ -61,7 +68,7 @@ def optimal_lineup(roster, slots, players, points):
                         'points': selected.get(i, (None, 0))[1]} for i, slot in enumerate(slots)]}
 
 
-def draft_comparison(picks, trades, rid, slots, players, weekly, through):
+def draft_comparison(picks, trades, rid, slots, players, weekly, through, replacement_context=None):
     original = {str(p['player_id']) for p in picks if p['roster_id'] == rid}
     if not original:
         raise ValueError(f'No verified draft picks for roster {rid}')
@@ -80,8 +87,8 @@ def draft_comparison(picks, trades, rid, slots, players, weekly, through):
                                 roster.discard(pid)
                             else:
                                 roster.add(pid)
-        before = optimal_lineup(original, slots, players, weekly[str(week)])
-        after = optimal_lineup(roster, slots, players, weekly[str(week)])
+        before = lineup_with_cover(original, slots, players, weekly[str(week)], week, replacement_context)
+        after = lineup_with_cover(roster, slots, players, weekly[str(week)], week, replacement_context)
         rows.append({'week': week, 'drafted': before, 'traded': after,
                      'trade_roster': sorted(roster), 'delta': round(after['points']-before['points'], 2)})
     draft_total = round(sum(r['drafted']['points'] for r in rows), 2)
@@ -128,7 +135,7 @@ def write_reports(report, root):
             'and players received through trades are included even if originally obtained elsewhere via free agency. '
             'The draft is the starting inventory, not a scored pre-cutoff transaction. '
             'No bench points are added; each player fills at most one slot. Kicker, defense and both flex slots count. '
-            'Fill all possible slots, then maximize points; unfillable slots score zero. '
+            'Use participating rostered players first, then temporary waiver coverage for holes; only holes without any available candidate stay unfilled. '
             'This measures potential lineup production, not actual start/sit decisions, record, or dynasty value.', '',
             '| Week | Drafted team optimum | Trade-adjusted optimum | Trading impact |', '|---:|---:|---:|---:|']
         for row in c['weeks']:
@@ -138,6 +145,7 @@ def write_reports(report, root):
             lines += [f"## Week {row['week']} optimal lineups", '', '| Slot | Drafted player | Points | Trade-adjusted player | Points |', '|---|---|---:|---|---:|']
             for a,b in zip(row['drafted']['lineup'], row['traded']['lineup']):
                 lines.append(f"| {a['slot']} | {name(a['player_id'])} | {a['points']:.2f} | {name(b['player_id'])} | {b['points']:.2f} |")
+        lines[3:3] = ['## Temporary waiver coverage', '', report.get('waiver_replacements',{}).get('methodology',''), '', '[Replacement samples](waiver_replacement_methodology.md)', '']
         (root / f'reports/{key}_draft_vs_trades.md').write_text('\n'.join(lines)+'\n')
 
 
@@ -172,7 +180,7 @@ def positional_summary(key, rid, raw_trades, adjusted_trades, raw_waivers, adj_w
             'total': round(sum(c['adjusted'] for c in components),2)}
 
 
-def team_impact(picks, events, rid, slots, players, weekly, through):
+def team_impact(picks, events, rid, slots, players, weekly, through, replacement_context=None):
     """Four fixed-move counterfactuals; wire-first attribution sums to total gain."""
     original = {str(p['player_id']) for p in picks if p['roster_id'] == rid}
     if not original:
@@ -195,7 +203,7 @@ def team_impact(picks, events, rid, slots, players, weekly, through):
                             roster.discard(asset['player_id'])
                         else:
                             roster.add(asset['player_id'])
-            row[scenario] = optimal_lineup(roster, slots, players, weekly[str(week)])
+            row[scenario] = lineup_with_cover(roster, slots, players, weekly[str(week)], week, replacement_context)
             row[scenario]['roster'] = sorted(roster)
         d,t,w,a = (row[s]['points'] for s in scenarios)
         row.update({'total_impact': round(a-d,2), 'trade_impact': round(a-w,2),
@@ -252,4 +260,5 @@ def write_team_reports(report, root):
                       '| Slot | Wire-only player | Points | All-moves player | Points |', '|---|---|---:|---|---:|']
             for a,b in zip(row['wire_only']['lineup'],row['all_moves']['lineup']):
                 lines.append(f"| {a['slot']} | {name(a['player_id'])} | {a['points']:.2f} | {name(b['player_id'])} | {b['points']:.2f} |")
+        lines[3:3] = ['## Temporary waiver coverage', '', report.get('waiver_replacements',{}).get('methodology',''), '', '[Replacement samples](waiver_replacement_methodology.md)', '']
         (root/f'reports/{key}_team_impact.md').write_text('\n'.join(lines)+'\n')
