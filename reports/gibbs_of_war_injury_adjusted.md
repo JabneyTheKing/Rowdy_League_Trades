@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-10-17T06:31:10.537873+00:00; through Week 5.
+Updated 2026-10-17T10:58:18.174535+00:00; through Week 5.
 
 **Estimate, not actual fantasy points.** The original Team Impact report is unchanged. The same four roster scenarios and legal starting slots are reoptimized with injury estimates applied equally in every scenario.
 

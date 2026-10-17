@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-10-17T06:31:10.537873+00:00. Through Week 5 (complete).
+Updated 2026-10-17T10:58:18.174535+00:00. Through Week 5 (complete).
 
 Each week compares two hindsight-optimal legal starting lineups using raw league fantasy points: the original drafted roster, and that roster adjusted only for eligible trades completed since August 23. Trades take effect using the existing verified player/week windows; future trades cannot change earlier weeks. Waiver/free-agent adds and all non-trade drops are ignored. Drafted players remain available until traded away, and players received through trades are included even if originally obtained elsewhere via free agency. The draft is the starting inventory, not a scored pre-cutoff transaction. No bench points are added; each player fills at most one slot. Kicker, defense and both flex slots count. Fill all possible slots, then maximize points; unfillable slots score zero. This measures potential lineup production, not actual start/sit decisions, record, or dynasty value.
 

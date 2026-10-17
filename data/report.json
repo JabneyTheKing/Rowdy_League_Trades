@@ -3311,11 +3311,6 @@
       ],
       "other_absences": [
         {
-          "player_id": "5850",
-          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 1
-        },
-        {
           "player_id": "9753",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 1
@@ -3323,7 +3318,7 @@
         {
           "player_id": "5850",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 2
+          "week": 1
         },
         {
           "player_id": "9753",
@@ -3333,6 +3328,11 @@
         {
           "player_id": "5850",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 2
+        },
+        {
+          "player_id": "13276",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 3
         },
         {
@@ -3341,27 +3341,27 @@
           "week": 3
         },
         {
-          "player_id": "13276",
+          "player_id": "5850",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 3
         },
         {
-          "player_id": "5850",
-          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 4
-        },
-        {
           "player_id": "13276",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 4
         },
         {
           "player_id": "5850",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "13276",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 5
         },
         {
-          "player_id": "13276",
+          "player_id": "5850",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 5
         }
@@ -4969,11 +4969,6 @@
       "insufficient_baselines": [],
       "other_absences": [
         {
-          "player_id": "4137",
-          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 1
-        },
-        {
           "player_id": "12484",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 1
@@ -4981,7 +4976,7 @@
         {
           "player_id": "4137",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 2
+          "week": 1
         },
         {
           "player_id": "12484",
@@ -4991,7 +4986,7 @@
         {
           "player_id": "4137",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 3
+          "week": 2
         },
         {
           "player_id": "12484",
@@ -5001,7 +4996,7 @@
         {
           "player_id": "4137",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
-          "week": 4
+          "week": 3
         },
         {
           "player_id": "12484",
@@ -5010,11 +5005,16 @@
         },
         {
           "player_id": "4137",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "12484",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 5
         },
         {
-          "player_id": "12484",
+          "player_id": "4137",
           "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
           "week": 5
         }
@@ -19176,7 +19176,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-17T06:31:10.537873+00:00",
+  "updated_at": "2026-10-17T10:58:18.174535+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

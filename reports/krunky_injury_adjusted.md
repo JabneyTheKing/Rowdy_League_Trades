@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-10-17T06:31:10.537873+00:00; through Week 5.
+Updated 2026-10-17T10:58:18.174535+00:00; through Week 5.
 
 **Estimate, not actual fantasy points.** The original Team Impact report is unchanged. The same four roster scenarios and legal starting slots are reoptimized with injury estimates applied equally in every scenario.
 
@@ -27,16 +27,16 @@ None.
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: James Conner.
 - Week 1: Jayden Higgins.
-- Week 2: James Conner.
+- Week 1: James Conner.
 - Week 2: Jayden Higgins.
-- Week 3: James Conner.
+- Week 2: James Conner.
 - Week 3: Jayden Higgins.
-- Week 4: James Conner.
+- Week 3: James Conner.
 - Week 4: Jayden Higgins.
-- Week 5: James Conner.
+- Week 4: James Conner.
 - Week 5: Jayden Higgins.
+- Week 5: James Conner.
 
 ## Weekly impact
 

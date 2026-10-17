@@ -1,6 +1,6 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-10-17T06:31:10.537873+00:00. Through Week 5 (complete).
+Updated 2026-10-17T10:58:18.174535+00:00. Through Week 5 (complete).
 
 Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. The original draft is the baseline; only eligible transactions since August 23 change a scenario. Later moves do not affect earlier weeks. Actual weekly rosters are reconstructed using the existing per-player eligibility rules. Both adds and drops change availability, including standalone releases so departed players cannot keep filling a starting slot. Standalone releases are not separately awarded a transaction score.
 
