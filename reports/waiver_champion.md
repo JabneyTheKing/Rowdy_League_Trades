@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-17T10:58:18.174535+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-17T14:35:34.010386+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 

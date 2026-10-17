@@ -1,6 +1,12 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-10-17T10:58:18.174535+00:00; through Week 5.
+Updated 2026-10-17T14:35:34.010386+00:00; through Week 5.
+## Temporary waiver coverage
+
+Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
+
+A restored injury estimate fills its slot before waiver coverage; the same slot never gets both.
+
 
 **Estimate, not actual fantasy points.** The original Team Impact report is unchanged. The same four roster scenarios and legal starting slots are reoptimized with injury estimates applied equally in every scenario.
 
@@ -10,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +65.26 | +65.26 | +0.00 |
-| Wire Impact | +67.70 | +67.70 | +0.00 |
-| Total Impact | +132.96 | +132.96 | +0.00 |
+| Trade Impact | +36.92 | +36.92 | +0.00 |
+| Wire Impact | -23.76 | -23.76 | +0.00 |
+| Total Impact | +13.16 | +13.16 | +0.00 |
 
 ## Estimated absences
 
@@ -27,26 +33,26 @@ None.
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Jayden Higgins.
 - Week 1: James Conner.
-- Week 2: Jayden Higgins.
+- Week 1: Jayden Higgins.
 - Week 2: James Conner.
-- Week 3: Jayden Higgins.
+- Week 2: Jayden Higgins.
 - Week 3: James Conner.
-- Week 4: Jayden Higgins.
+- Week 3: Jayden Higgins.
 - Week 4: James Conner.
-- Week 5: Jayden Higgins.
+- Week 4: Jayden Higgins.
 - Week 5: James Conner.
+- Week 5: Jayden Higgins.
 
 ## Weekly impact
 
 | Week | Actual trade impact | Adjusted trade impact | Actual total gain | Adjusted total gain |
 |---:|---:|---:|---:|---:|
-| 1 | +19.70 | +19.70 | +20.70 | +20.70 |
-| 2 | +11.10 | +11.10 | +15.60 | +15.60 |
-| 3 | +11.60 | +11.60 | +36.14 | +36.14 |
-| 4 | +19.60 | +19.60 | +50.16 | +50.16 |
-| 5 | +3.26 | +3.26 | +10.36 | +10.36 |
+| 1 | +19.70 | +19.70 | +10.30 | +10.30 |
+| 2 | +11.10 | +11.10 | +6.00 | +6.00 |
+| 3 | +11.60 | +11.60 | -0.50 | -0.50 |
+| 4 | +19.60 | +19.60 | +27.74 | +27.74 |
+| 5 | -25.08 | -25.08 | -30.38 | -30.38 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -98,12 +104,12 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
 | QB | Bryce Young | 21.46 | Bryce Young | 21.46 |
-| RB | Jonathan Taylor | 22.20 | Jonathan Taylor | 22.20 |
+| RB | Ollie Gordon | 17.00 | Ollie Gordon | 17.00 |
 | RB | Chase Brown | 13.60 | Kenneth Walker | 30.40 |
 | WR | Malik Nabers | 20.20 | Malik Nabers | 20.20 |
 | WR | DK Metcalf | 14.00 | DK Metcalf | 14.00 |
 | TE | Travis Kelce | 3.50 | Colston Loveland | 11.70 |
-| FLEX | Ollie Gordon | 17.00 | Ollie Gordon | 17.00 |
+| FLEX | Jonathan Taylor | 22.20 | Jonathan Taylor | 22.20 |
 | FLEX | Rhamondre Stevenson | 16.90 | Amon-Ra St. Brown | 11.50 |
 | K | Brandon Aubrey | 10.00 | Brandon Aubrey | 10.00 |
 | DEF | Kansas City Chiefs | 4.00 | Kansas City Chiefs | 4.00 |
@@ -112,12 +118,12 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Caleb Williams | 0.00 | Kyler Murray | 18.26 |
+| QB | Waiver cover (QB) | 17.08 | Kyler Murray | 18.26 |
 | RB | Ollie Gordon | 14.80 | Ollie Gordon | 14.80 |
 | RB | Rhamondre Stevenson | 16.00 | Jonathan Taylor | 9.70 |
 | WR | Malik Nabers | 23.60 | Malik Nabers | 23.60 |
 | WR | Emeka Egbuka | 14.20 | DK Metcalf | 3.80 |
-| TE | Travis Kelce | 0.00 | Colston Loveland | 3.90 |
+| TE | Waiver cover (TE) | 11.26 | Colston Loveland | 3.90 |
 | FLEX | Denzel Boston | 12.10 | Amon-Ra St. Brown | 9.90 |
 | FLEX | Parker Washington | 27.40 | Parker Washington | 27.40 |
 | K | Brandon Aubrey | 5.00 | Brandon Aubrey | 5.00 |

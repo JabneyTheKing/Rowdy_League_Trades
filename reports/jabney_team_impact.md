@@ -1,6 +1,12 @@
 # Jabney — Team Impact
 
-Updated 2026-10-17T10:58:18.174535+00:00. Through Week 5 (complete).
+Updated 2026-10-17T14:35:34.010386+00:00. Through Week 5 (complete).
+## Temporary waiver coverage
+
+Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
+
+[Replacement samples](waiver_replacement_methodology.md)
+
 
 Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. The original draft is the baseline; only eligible transactions since August 23 change a scenario. Later moves do not affect earlier weeks. Actual weekly rosters are reconstructed using the existing per-player eligibility rules. Both adds and drops change availability, including standalone releases so departed players cannot keep filling a starting slot. Standalone releases are not separately awarded a transaction score.
 
@@ -8,26 +14,26 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 632.76 |
-| Draft + trades only | 561.00 |
+| Original draft | 649.38 |
+| Draft + trades only | 623.30 |
 | Draft + waiver / FA moves only | 687.94 |
 | All moves (weekly team) | 629.32 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +55.18 |
+| Waiver / FA baseline impact | +38.56 |
 | Trade impact with wire moves held fixed | -58.62 |
-| **Total improvement** | **-3.44** |
-| Trades-only effect (reference, not additive) | -71.76 |
-| Trade / wire interaction (included in trade impact) | +13.14 |
+| **Total improvement** | **-20.06** |
+| Trades-only effect (reference, not additive) | -26.08 |
+| Trade / wire interaction (included in trade impact) | -32.54 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | 110.66 | 112.56 | 102.66 | 104.56 | -8.00 | 1.90 | -6.10 |
 | 2 | 165.72 | 140.32 | 175.22 | 150.02 | 9.50 | -25.20 | -15.70 |
 | 3 | 146.06 | 126.02 | 153.26 | 134.62 | 7.20 | -18.64 | -11.44 |
-| 4 | 87.62 | 91.02 | 108.40 | 114.10 | 20.78 | 5.70 | 26.48 |
-| 5 | 122.70 | 91.08 | 148.40 | 126.02 | 25.70 | -22.38 | 3.32 |
+| 4 | 96.28 | 131.20 | 108.40 | 114.10 | 12.12 | 5.70 | 17.82 |
+| 5 | 130.66 | 113.20 | 148.40 | 126.02 | 17.74 | -22.38 | -4.64 |
 
 ## Current roster inventory
 
@@ -72,11 +78,11 @@ Replaying completed eligible moves from the draft matches this live roster.
 | QB | Josh Allen | 18.96 | Josh Allen | 18.96 |
 | RB | Quinshon Judkins | 8.90 | Quinshon Judkins | 8.90 |
 | RB | Tyler Allgeier | 2.90 | Tyler Allgeier | 2.90 |
-| WR | Davante Adams | 17.20 | Luther Burden | 16.30 |
-| WR | Ja'Marr Chase | 20.30 | Terry McLaurin | 16.70 |
+| WR | Davante Adams | 17.20 | Terry McLaurin | 16.70 |
+| WR | Chris Olave | 15.20 | Kayshon Boutte | 3.10 |
 | TE | Kenyon Sadiq | 23.50 | Sam LaPorta | 7.40 |
-| FLEX | Luther Burden | 16.30 | Jaxon Smith-Njigba | 30.36 |
-| FLEX | Chris Olave | 15.20 | Kayshon Boutte | 3.10 |
+| FLEX | Luther Burden | 16.30 | Luther Burden | 16.30 |
+| FLEX | Ja'Marr Chase | 20.30 | Jaxon Smith-Njigba | 30.36 |
 | K | Spencer Shrader | 17.00 | Spencer Shrader | 17.00 |
 | DEF | Houston Texans | 13.00 | Houston Texans | 13.00 |
 ## Week 4 — lineup with and without trades

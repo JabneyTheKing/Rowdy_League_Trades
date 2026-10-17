@@ -1,6 +1,12 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-10-17T10:58:18.174535+00:00. Through Week 5 (complete).
+Updated 2026-10-17T14:35:34.010386+00:00. Through Week 5 (complete).
+## Temporary waiver coverage
+
+Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
+
+[Replacement samples](waiver_replacement_methodology.md)
+
 
 Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. The original draft is the baseline; only eligible transactions since August 23 change a scenario. Later moves do not affect earlier weeks. Actual weekly rosters are reconstructed using the existing per-player eligibility rules. Both adds and drops change availability, including standalone releases so departed players cannot keep filling a starting slot. Standalone releases are not separately awarded a transaction score.
 

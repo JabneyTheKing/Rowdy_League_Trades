@@ -1,6 +1,12 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-10-17T10:58:18.174535+00:00; through Week 5.
+Updated 2026-10-17T14:35:34.010386+00:00; through Week 5.
+## Temporary waiver coverage
+
+Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
+
+A restored injury estimate fills its slot before waiver coverage; the same slot never gets both.
+
 
 **Estimate, not actual fantasy points.** The original Team Impact report is unchanged. The same four roster scenarios and legal starting slots are reoptimized with injury estimates applied equally in every scenario.
 
@@ -11,8 +17,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
 | Trade Impact | -58.62 | -53.75 | +4.87 |
-| Wire Impact | +55.18 | +47.18 | -8.00 |
-| Total Impact | -3.44 | -6.57 | -3.13 |
+| Wire Impact | +38.56 | +47.18 | +8.62 |
+| Total Impact | -20.06 | -6.57 | +13.49 |
 
 ## Estimated absences
 
@@ -33,17 +39,17 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Zach Charbonnet.
 - Week 1: Josh Jacobs.
-- Week 2: Zach Charbonnet.
+- Week 1: Zach Charbonnet.
 - Week 2: Josh Jacobs.
+- Week 2: Zach Charbonnet.
+- Week 3: Josh Jacobs.
 - Week 3: Omar Cooper.
 - Week 3: Zach Charbonnet.
-- Week 3: Josh Jacobs.
-- Week 4: Omar Cooper.
 - Week 4: Josh Jacobs.
-- Week 5: Omar Cooper.
+- Week 4: Omar Cooper.
 - Week 5: Josh Jacobs.
+- Week 5: Omar Cooper.
 
 ## Weekly impact
 
@@ -52,8 +58,8 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 1 | +1.90 | +1.90 | -6.10 | -6.10 |
 | 2 | -25.20 | -25.20 | -15.70 | -15.70 |
 | 3 | -18.64 | -18.64 | -11.44 | -11.44 |
-| 4 | +5.70 | +9.00 | +26.48 | +25.78 |
-| 5 | -22.38 | -20.81 | +3.32 | +0.89 |
+| 4 | +5.70 | +9.00 | +17.82 | +25.78 |
+| 5 | -22.38 | -20.81 | -4.64 | +0.89 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -92,11 +98,11 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | QB | Josh Allen | 18.96 | Josh Allen | 18.96 |
 | RB | Quinshon Judkins | 8.90 | Quinshon Judkins | 8.90 |
 | RB | Tyler Allgeier | 2.90 | Tyler Allgeier | 2.90 |
-| WR | Davante Adams | 17.20 | Luther Burden | 16.30 |
-| WR | Ja'Marr Chase | 20.30 | Terry McLaurin | 16.70 |
+| WR | Davante Adams | 17.20 | Terry McLaurin | 16.70 |
+| WR | Chris Olave | 15.20 | Kayshon Boutte | 3.10 |
 | TE | Kenyon Sadiq | 23.50 | Sam LaPorta | 7.40 |
-| FLEX | Luther Burden | 16.30 | Jaxon Smith-Njigba | 30.36 |
-| FLEX | Chris Olave | 15.20 | Kayshon Boutte | 3.10 |
+| FLEX | Luther Burden | 16.30 | Luther Burden | 16.30 |
+| FLEX | Ja'Marr Chase | 20.30 | Jaxon Smith-Njigba | 30.36 |
 | K | Spencer Shrader | 17.00 | Spencer Shrader | 17.00 |
 | DEF | Houston Texans | 13.00 | Houston Texans | 13.00 |
 
@@ -108,10 +114,10 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | RB | Braelon Allen | 7.70 | Braelon Allen | 7.70 |
 | RB | Quinshon Judkins | 18.60 | Quinshon Judkins | 18.60 |
 | WR | Davante Adams | 5.20 | Luther Burden | 9.40 |
-| WR | Ja'Marr Chase | 4.20 | Kalif Raymond | 1.60 |
+| WR | Chris Olave | 15.60 | Jaxon Smith-Njigba | 10.10 |
 | TE | Jake Ferguson | 4.10 | Sam LaPorta | 22.40 |
 | FLEX | Luther Burden | 9.40 | Jadarian Price | 4.00 |
-| FLEX | Chris Olave | 15.60 | Jaxon Smith-Njigba | 10.10 |
+| FLEX | Ja'Marr Chase | 4.20 | Kalif Raymond | 1.60 |
 | K | Spencer Shrader | 16.00 | Spencer Shrader | 16.00 |
 | DEF | Houston Texans | 4.00 | Houston Texans | 4.00 |
 
