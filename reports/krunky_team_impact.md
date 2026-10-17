@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-10-17T04:42:04.608927+00:00. Through Week 5 (complete).
+Updated 2026-10-17T06:31:10.537873+00:00. Through Week 5 (complete).
 
 Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. The original draft is the baseline; only eligible transactions since August 23 change a scenario. Later moves do not affect earlier weeks. Actual weekly rosters are reconstructed using the existing per-player eligibility rules. Both adds and drops change availability, including standalone releases so departed players cannot keep filling a starting slot. Standalone releases are not separately awarded a transaction score.
 
@@ -33,7 +33,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Brandon Aubrey, Michael Penix, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Colston Loveland, Travis Kelce, Stefon Diggs, James Conner, DK Metcalf, Kyler Murray, D'Andre Swift, Jonathan Taylor, Amon-Ra St. Brown, Kenneth Walker, Parker Washington, Carolina Panthers
+Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Colston Loveland, Travis Kelce, Stefon Diggs, James Conner, DK Metcalf, Kyler Murray, D'Andre Swift, Jonathan Taylor, Amon-Ra St. Brown, Rachaad White, Kenneth Walker, Parker Washington, Carolina Panthers
 
 Replaying completed eligible moves from the draft matches this live roster.
 

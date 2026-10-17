@@ -1407,6 +1407,5180 @@
     ]
   },
   "excluded_transaction_count": 13,
+  "injury_adjusted": {
+    "gibbs_of_war": {
+      "actual_totals": {
+        "all_moves": 756.62,
+        "drafted": 658.6,
+        "interaction": -14.7,
+        "total_impact": 98.02,
+        "trade_impact": 73.58,
+        "trade_only_impact": 88.28,
+        "trades_only": 746.88,
+        "wire_impact": 24.44,
+        "wire_only": 683.04
+      },
+      "adjustments": [
+        {
+          "actual": 0.0,
+          "estimated": 7.03,
+          "kind": "ir_minimum",
+          "placed_on": "2026-09-28",
+          "player_id": "9226",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 8.6,
+              "week": 1
+            },
+            {
+              "points": 10.8,
+              "week": 2
+            },
+            {
+              "points": 1.7,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=",
+          "week": 4
+        },
+        {
+          "actual": 0.0,
+          "estimated": 4.9,
+          "kind": "ir_minimum",
+          "placed_on": "2026-10-10",
+          "player_id": "6819",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 7.3,
+              "week": 1
+            },
+            {
+              "points": 2.5,
+              "week": 4
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAJAAAAAAAOld0=",
+          "week": 5
+        },
+        {
+          "actual": 0.0,
+          "estimated": 7.03,
+          "kind": "ir_minimum",
+          "placed_on": "2026-09-28",
+          "player_id": "9226",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 8.6,
+              "week": 1
+            },
+            {
+              "points": 10.8,
+              "week": 2
+            },
+            {
+              "points": 1.7,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=",
+          "week": 5
+        }
+      ],
+      "current_roster": [
+        "11584",
+        "11620",
+        "12474",
+        "12489",
+        "12534",
+        "13281",
+        "13298",
+        "421",
+        "650",
+        "6904",
+        "7569",
+        "8130",
+        "8137",
+        "9221",
+        "9480",
+        "9997",
+        "IND"
+      ],
+      "draft_roster": [
+        "10859",
+        "12015",
+        "12474",
+        "12534",
+        "13281",
+        "13294",
+        "13298",
+        "5849",
+        "5927",
+        "6797",
+        "6904",
+        "7569",
+        "9221",
+        "9226",
+        "9997",
+        "BAL"
+      ],
+      "injury_swing": {
+        "total_impact": -0.23,
+        "trade_impact": 0.0,
+        "wire_impact": -0.23
+      },
+      "insufficient_baselines": [],
+      "other_absences": [
+        {
+          "player_id": "13281",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 1
+        },
+        {
+          "player_id": "13281",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 2
+        },
+        {
+          "player_id": "13281",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 3
+        },
+        {
+          "player_id": "13281",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "13281",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 5
+        }
+      ],
+      "source_errors": [
+        "Reserve archive pagination incomplete; retained verified rows only",
+        "Reserve archive pagination incomplete; retained verified rows only"
+      ],
+      "totals": {
+        "all_moves": 756.62,
+        "drafted": 658.83,
+        "interaction": -14.47,
+        "total_impact": 97.79,
+        "trade_impact": 73.58,
+        "trade_only_impact": 88.05,
+        "trades_only": 746.88,
+        "wire_impact": 24.21,
+        "wire_only": 683.04
+      },
+      "weeks": [
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13414",
+                "points": 7.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 2.6,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12527",
+                "points": 29.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 164.22,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 5.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 9.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 8.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 148.62,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -1.5,
+          "total_impact": 15.6,
+          "trade_impact": 13.9,
+          "trade_only_impact": 15.4,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12527",
+                "points": 29.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "6819",
+                "points": 7.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 2.6,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 164.02,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 1,
+          "wire_impact": 1.7,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13414",
+                "points": 7.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 9.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 8.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 150.32,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12527",
+                "points": 8.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "2133",
+                "points": 35.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7571",
+                "points": 18.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 20.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 139.66,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "2133",
+              "6819",
+              "6904",
+              "7569",
+              "7571",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 5.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 6.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 17.2,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 10.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 96.46,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -0.6,
+          "total_impact": 43.2,
+          "trade_impact": 30.1,
+          "trade_only_impact": 30.7,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 8.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 5.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 35.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 20.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 127.16,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 2,
+          "wire_impact": 13.1,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 6.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7571",
+                "points": 18.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 17.2,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 10.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 109.56,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "7571",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.62,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 10.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 5.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 17.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 9.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "CAR",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 125.22,
+            "roster": [
+              "11620",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "2133",
+              "4227",
+              "6819",
+              "6904",
+              "7569",
+              "7571",
+              "8110",
+              "9221",
+              "9997",
+              "CAR"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6797",
+                "points": 13.74,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 3.1,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13294",
+                "points": 4.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 16.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 7.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 126.74,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -1.6,
+          "total_impact": -1.52,
+          "trade_impact": 9.88,
+          "trade_only_impact": 11.48,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.62,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 10.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 5.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 17.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 9.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 138.22,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 3,
+          "wire_impact": -11.4,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6797",
+                "points": 13.74,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 16.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7571",
+                "points": 4.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 7.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13294",
+                "points": 4.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "CAR",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 115.34,
+            "roster": [
+              "10859",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "4227",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "7571",
+              "9221",
+              "9226",
+              "9997",
+              "CAR"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 12.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9480",
+                "points": 16.5,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8130",
+                "points": 10.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BUF",
+                "points": 5.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 155.82,
+            "roster": [
+              "11584",
+              "11620",
+              "12474",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "4227",
+              "6819",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9480",
+              "9997",
+              "BUF"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 8.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 22.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 158.32,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -0.7,
+          "total_impact": -2.5,
+          "trade_impact": -8.8,
+          "trade_only_impact": -8.1,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 12.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8130",
+                "points": 10.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13298",
+                "points": 8.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 150.22,
+            "roster": [
+              "11584",
+              "11620",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13298",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 4,
+          "wire_impact": 6.3,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 8.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 22.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9480",
+                "points": 16.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BUF",
+                "points": 5.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 164.62,
+            "roster": [
+              "10859",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "4227",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9480",
+              "9997",
+              "BUF"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11584",
+                "points": 30.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8137",
+                "points": 23.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9480",
+                "points": 13.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8130",
+                "points": 21.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "650",
+                "points": 12.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "DAL",
+                "points": 1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 171.7,
+            "roster": [
+              "11584",
+              "11620",
+              "12474",
+              "12489",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "650",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9480",
+              "9997",
+              "DAL"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "5849",
+                "points": 18.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 10.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 8.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 19.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 7.03,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 2.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 128.69,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -10.07,
+          "total_impact": 43.01,
+          "trade_impact": 28.5,
+          "trade_only_impact": 38.57,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "5849",
+                "points": 18.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11584",
+                "points": 30.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7569",
+                "points": 8.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8130",
+                "points": 21.6,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8137",
+                "points": 23.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 2.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 167.26,
+            "roster": [
+              "11584",
+              "11620",
+              "12015",
+              "12474",
+              "12489",
+              "12534",
+              "13281",
+              "13298",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 5,
+          "wire_impact": 14.51,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "96",
+                "points": 22.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 10.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 8.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 19.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9480",
+                "points": 13.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "650",
+                "points": 12.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "DAL",
+                "points": 1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 143.2,
+            "roster": [
+              "10859",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "5927",
+              "650",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9480",
+              "96",
+              "9997",
+              "DAL"
+            ]
+          }
+        }
+      ]
+    },
+    "jabney": {
+      "actual_totals": {
+        "all_moves": 629.32,
+        "drafted": 632.76,
+        "interaction": 13.14,
+        "total_impact": -3.44,
+        "trade_impact": -58.62,
+        "trade_only_impact": -71.76,
+        "trades_only": 561.0,
+        "wire_impact": 55.18,
+        "wire_only": 687.94
+      },
+      "adjustments": [
+        {
+          "actual": 0.0,
+          "estimated": 4.0,
+          "kind": "ir_minimum",
+          "placed_on": "2026-10-03",
+          "player_id": "13286",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 6.8,
+              "week": 1
+            },
+            {
+              "points": 4.5,
+              "week": 2
+            },
+            {
+              "points": 0.7,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=",
+          "week": 4
+        },
+        {
+          "actual": 0.0,
+          "estimated": 7.03,
+          "kind": "ir_minimum",
+          "placed_on": "2026-09-28",
+          "player_id": "9226",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 8.6,
+              "week": 1
+            },
+            {
+              "points": 10.8,
+              "week": 2
+            },
+            {
+              "points": 1.7,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=",
+          "week": 4
+        },
+        {
+          "actual": 0.0,
+          "estimated": 7.03,
+          "kind": "ir_minimum",
+          "placed_on": "2026-09-28",
+          "player_id": "9226",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 8.6,
+              "week": 1
+            },
+            {
+              "points": 10.8,
+              "week": 2
+            },
+            {
+              "points": 1.7,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=",
+          "week": 5
+        },
+        {
+          "actual": 0.0,
+          "estimated": 8.47,
+          "kind": "ir_minimum",
+          "placed_on": "2026-10-01",
+          "player_id": "7543",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 11.3,
+              "week": 1
+            },
+            {
+              "points": 6.1,
+              "week": 2
+            },
+            {
+              "points": 8.0,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=",
+          "week": 5
+        },
+        {
+          "actual": 0.0,
+          "estimated": 4.0,
+          "kind": "ir_minimum",
+          "placed_on": "2026-10-03",
+          "player_id": "13286",
+          "reason": "Injured reserve: first four team games after placement",
+          "sample": [
+            {
+              "points": 6.8,
+              "week": 1
+            },
+            {
+              "points": 4.5,
+              "week": 2
+            },
+            {
+              "points": 0.7,
+              "week": 3
+            }
+          ],
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=",
+          "week": 5
+        }
+      ],
+      "current_roster": [
+        "11576",
+        "11637",
+        "1166",
+        "12185",
+        "12506",
+        "12509",
+        "12519",
+        "12527",
+        "13301",
+        "1479",
+        "5850",
+        "6794",
+        "7543",
+        "7564",
+        "8110",
+        "8155",
+        "9758",
+        "HOU"
+      ],
+      "draft_roster": [
+        "12512",
+        "12519",
+        "12711",
+        "13276",
+        "13286",
+        "13330",
+        "2133",
+        "4984",
+        "5850",
+        "5870",
+        "7564",
+        "8110",
+        "8144",
+        "9753",
+        "HOU"
+      ],
+      "injury_swing": {
+        "total_impact": -3.13,
+        "trade_impact": 4.87,
+        "wire_impact": -8.0
+      },
+      "insufficient_baselines": [
+        {
+          "player_id": "13276",
+          "reason": "Not enough prior injury-unlisted games",
+          "sample_games": 1,
+          "source": "https://www.nfl.com/injuries/league/2026/reg2",
+          "week": 2
+        },
+        {
+          "player_id": "9753",
+          "reason": "Not enough prior injury-unlisted games",
+          "sample_games": 0,
+          "source": "https://www.nfl.com/injuries/league/2026/reg4",
+          "week": 4
+        },
+        {
+          "player_id": "9753",
+          "reason": "Not enough prior injury-unlisted games",
+          "sample_games": 0,
+          "source": "https://www.nfl.com/injuries/league/2026/reg5",
+          "week": 5
+        }
+      ],
+      "other_absences": [
+        {
+          "player_id": "5850",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 1
+        },
+        {
+          "player_id": "9753",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 1
+        },
+        {
+          "player_id": "5850",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 2
+        },
+        {
+          "player_id": "9753",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 2
+        },
+        {
+          "player_id": "5850",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 3
+        },
+        {
+          "player_id": "9753",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 3
+        },
+        {
+          "player_id": "13276",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 3
+        },
+        {
+          "player_id": "5850",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "13276",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "5850",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 5
+        },
+        {
+          "player_id": "13276",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 5
+        }
+      ],
+      "source_errors": [
+        "Reserve archive pagination incomplete; retained verified rows only",
+        "Reserve archive pagination incomplete; retained verified rows only"
+      ],
+      "totals": {
+        "all_moves": 634.19,
+        "drafted": 640.76,
+        "interaction": -0.52,
+        "total_impact": -6.57,
+        "trade_impact": -53.75,
+        "trade_only_impact": -53.23,
+        "trades_only": 587.53,
+        "wire_impact": 47.18,
+        "wire_only": 687.94
+      },
+      "weeks": [
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 35.66,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 7.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13276",
+                "points": 3.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 9.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 8.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9488",
+                "points": 22.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": -1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 104.56,
+            "roster": [
+              "10859",
+              "12185",
+              "12504",
+              "12512",
+              "12519",
+              "12530",
+              "13276",
+              "13286",
+              "4984",
+              "5850",
+              "5870",
+              "5927",
+              "7049",
+              "9226",
+              "9488",
+              "9504",
+              "9753",
+              "HOU"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 35.66,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 7.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13276",
+                "points": 3.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13330",
+                "points": 11.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "2133",
+                "points": 4.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 23.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 14.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": -1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 110.66,
+            "roster": [
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          },
+          "interaction": 0.0,
+          "total_impact": -6.1,
+          "trade_impact": 1.9,
+          "trade_only_impact": 1.9,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 35.66,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 7.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13276",
+                "points": 3.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 9.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 8.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9488",
+                "points": 22.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 14.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": -1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 112.56,
+            "roster": [
+              "10859",
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "4984",
+              "5850",
+              "5870",
+              "5927",
+              "9226",
+              "9488",
+              "9753",
+              "HOU"
+            ]
+          },
+          "week": 1,
+          "wire_impact": -8.0,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 35.66,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 7.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13276",
+                "points": 3.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13330",
+                "points": 11.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "2133",
+                "points": 4.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 23.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": -1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 102.66,
+            "roster": [
+              "12185",
+              "12504",
+              "12512",
+              "12519",
+              "12530",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7049",
+              "7564",
+              "8110",
+              "8144",
+              "9504",
+              "9753",
+              "HOU"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 40.82,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 7.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9226",
+                "points": 10.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 4.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 6.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 17.2,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9488",
+                "points": 38.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9504",
+                "points": 5.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 14.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 150.02,
+            "roster": [
+              "10859",
+              "12185",
+              "12504",
+              "12512",
+              "12519",
+              "12530",
+              "13276",
+              "13286",
+              "4984",
+              "5850",
+              "5870",
+              "5927",
+              "7049",
+              "9226",
+              "9488",
+              "9504",
+              "9753",
+              "HOU"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 40.82,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 7.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 4.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 35.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 20.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7564",
+                "points": 23.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 18.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 165.72,
+            "roster": [
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          },
+          "interaction": 0.2,
+          "total_impact": -15.7,
+          "trade_impact": -25.2,
+          "trade_only_impact": -25.4,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 40.82,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 7.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 4.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 6.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 17.2,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 10.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9488",
+                "points": 38.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 140.32,
+            "roster": [
+              "10859",
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "4984",
+              "5850",
+              "5870",
+              "5927",
+              "9226",
+              "9488",
+              "9753",
+              "HOU"
+            ]
+          },
+          "week": 2,
+          "wire_impact": 9.5,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 40.82,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 7.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "2133",
+                "points": 35.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7564",
+                "points": 23.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 20.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8144",
+                "points": 18.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9504",
+                "points": 5.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 14.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 175.22,
+            "roster": [
+              "12185",
+              "12504",
+              "12512",
+              "12519",
+              "12530",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7049",
+              "7564",
+              "8110",
+              "8144",
+              "9504",
+              "9753",
+              "HOU"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 18.96,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 8.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8132",
+                "points": 2.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 16.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 16.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 7.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9488",
+                "points": 30.36,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9504",
+                "points": 3.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 17.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 13.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 134.62,
+            "roster": [
+              "10859",
+              "12185",
+              "12504",
+              "12512",
+              "12519",
+              "13276",
+              "13286",
+              "1339",
+              "4984",
+              "5850",
+              "5927",
+              "8132",
+              "9225",
+              "9226",
+              "9488",
+              "9504",
+              "9753",
+              "HOU"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 18.96,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 8.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 0.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 16.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 17.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13330",
+                "points": 23.5,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7564",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 15.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 12.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 13.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 146.06,
+            "roster": [
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          },
+          "interaction": 1.4,
+          "total_impact": -11.44,
+          "trade_impact": -18.64,
+          "trade_only_impact": -20.04,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 18.96,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 8.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 0.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 16.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 16.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 7.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 1.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9488",
+                "points": 30.36,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 12.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 13.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 126.02,
+            "roster": [
+              "10859",
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "4984",
+              "5850",
+              "5870",
+              "5927",
+              "9226",
+              "9488",
+              "9753",
+              "HOU"
+            ]
+          },
+          "week": 3,
+          "wire_impact": 7.2,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 18.96,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 8.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8132",
+                "points": 2.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "2133",
+                "points": 17.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7564",
+                "points": 20.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13330",
+                "points": 23.5,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12519",
+                "points": 16.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 15.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 17.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 13.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 153.26,
+            "roster": [
+              "12185",
+              "12504",
+              "12512",
+              "12519",
+              "13276",
+              "13286",
+              "13330",
+              "1339",
+              "2133",
+              "4984",
+              "5850",
+              "7564",
+              "8110",
+              "8132",
+              "8144",
+              "9225",
+              "9504",
+              "9753",
+              "HOU"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "1166",
+                "points": 23.6,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11576",
+                "points": 7.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12512",
+                "points": 18.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 9.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "3634",
+                "points": 1.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 22.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9488",
+                "points": 10.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 117.4,
+            "roster": [
+              "10859",
+              "11576",
+              "11643",
+              "1166",
+              "12185",
+              "12512",
+              "12519",
+              "13276",
+              "13286",
+              "13311",
+              "3634",
+              "4984",
+              "5850",
+              "5927",
+              "9488",
+              "9753",
+              "HOU"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 19.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 18.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 9.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 5.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 4.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7564",
+                "points": 4.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 15.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 7.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 91.62,
+            "roster": [
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          },
+          "interaction": -1.43,
+          "total_impact": 25.78,
+          "trade_impact": 9.0,
+          "trade_only_impact": 10.43,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 19.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 18.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 9.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13276",
+                "points": 0.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 22.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 7.03,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9488",
+                "points": 10.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 7.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 102.05,
+            "roster": [
+              "10859",
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "4984",
+              "5850",
+              "5870",
+              "5927",
+              "9226",
+              "9488",
+              "9753",
+              "HOU"
+            ]
+          },
+          "week": 4,
+          "wire_impact": 16.78,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "1166",
+                "points": 23.6,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11576",
+                "points": 7.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12512",
+                "points": 18.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "2133",
+                "points": 5.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7564",
+                "points": 4.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 4.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12519",
+                "points": 9.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 15.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 108.4,
+            "roster": [
+              "11576",
+              "11643",
+              "1166",
+              "12185",
+              "12512",
+              "12519",
+              "13276",
+              "13286",
+              "13311",
+              "13330",
+              "2133",
+              "3634",
+              "4984",
+              "5850",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "1166",
+                "points": 13.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11576",
+                "points": 18.1,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 9.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11637",
+                "points": 7.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "6794",
+                "points": 15.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12506",
+                "points": 1.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7543",
+                "points": 8.47,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "7564",
+                "points": 16.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 21.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 16.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 127.59,
+            "roster": [
+              "11576",
+              "11637",
+              "11643",
+              "1166",
+              "12185",
+              "12506",
+              "12509",
+              "12519",
+              "12527",
+              "13301",
+              "5850",
+              "6794",
+              "7543",
+              "7564",
+              "9753",
+              "HOU"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 31.5,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12512",
+                "points": 6.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13286",
+                "points": 4.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 6.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 19.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 4.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7564",
+                "points": 16.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8144",
+                "points": 6.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 14.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 16.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 126.7,
+            "roster": [
+              "12512",
+              "12519",
+              "12711",
+              "13276",
+              "13286",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "5870",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          },
+          "interaction": -0.69,
+          "total_impact": 0.89,
+          "trade_impact": -20.81,
+          "trade_only_impact": -20.12,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "5870",
+                "points": 11.08,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12527",
+                "points": 9.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7543",
+                "points": 8.47,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12519",
+                "points": 6.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "6794",
+                "points": 15.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12506",
+                "points": 1.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7564",
+                "points": 16.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 7.03,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12711",
+                "points": 14.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 16.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 106.58,
+            "roster": [
+              "12506",
+              "12519",
+              "12527",
+              "12711",
+              "13276",
+              "5850",
+              "5870",
+              "6794",
+              "7543",
+              "7564",
+              "9226",
+              "9753",
+              "HOU"
+            ]
+          },
+          "week": 5,
+          "wire_impact": 21.7,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "4984",
+                "points": 31.5,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11576",
+                "points": 18.1,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12512",
+                "points": 6.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11637",
+                "points": 7.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12519",
+                "points": 6.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 4.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "2133",
+                "points": 19.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "7564",
+                "points": 16.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12185",
+                "points": 21.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "HOU",
+                "points": 16.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 148.4,
+            "roster": [
+              "11576",
+              "11637",
+              "11643",
+              "1166",
+              "12185",
+              "12509",
+              "12512",
+              "12519",
+              "13286",
+              "13301",
+              "13330",
+              "2133",
+              "4984",
+              "5850",
+              "7564",
+              "8110",
+              "8144",
+              "9753",
+              "HOU"
+            ]
+          }
+        }
+      ]
+    },
+    "krunky": {
+      "actual_totals": {
+        "all_moves": 739.24,
+        "drafted": 606.28,
+        "interaction": 6.2,
+        "total_impact": 132.96,
+        "trade_impact": 65.26,
+        "trade_only_impact": 59.06,
+        "trades_only": 665.34,
+        "wire_impact": 67.7,
+        "wire_only": 673.98
+      },
+      "adjustments": [],
+      "current_roster": [
+        "11533",
+        "11560",
+        "11632",
+        "11646",
+        "12484",
+        "12517",
+        "1466",
+        "2449",
+        "4137",
+        "5846",
+        "5849",
+        "6790",
+        "6813",
+        "7547",
+        "8136",
+        "8151",
+        "9487",
+        "CAR"
+      ],
+      "draft_roster": [
+        "10219",
+        "11533",
+        "11560",
+        "11632",
+        "11646",
+        "12484",
+        "12514",
+        "13346",
+        "1466",
+        "4983",
+        "5846",
+        "6813",
+        "7611",
+        "8132",
+        "9224",
+        "9487"
+      ],
+      "injury_swing": {
+        "total_impact": 0.0,
+        "trade_impact": 0.0,
+        "wire_impact": 0.0
+      },
+      "insufficient_baselines": [],
+      "other_absences": [
+        {
+          "player_id": "4137",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 1
+        },
+        {
+          "player_id": "12484",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 1
+        },
+        {
+          "player_id": "4137",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 2
+        },
+        {
+          "player_id": "12484",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 2
+        },
+        {
+          "player_id": "4137",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 3
+        },
+        {
+          "player_id": "12484",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 3
+        },
+        {
+          "player_id": "4137",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "12484",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 4
+        },
+        {
+          "player_id": "4137",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 5
+        },
+        {
+          "player_id": "12484",
+          "reason": "No qualifying injury evidence; may be healthy scratch or other absence",
+          "week": 5
+        }
+      ],
+      "source_errors": [
+        "Reserve archive pagination incomplete; retained verified rows only",
+        "Reserve archive pagination incomplete; retained verified rows only"
+      ],
+      "totals": {
+        "all_moves": 739.24,
+        "drafted": 606.28,
+        "interaction": 6.2,
+        "total_impact": 132.96,
+        "trade_impact": 65.26,
+        "trade_only_impact": 59.06,
+        "trades_only": 665.34,
+        "wire_impact": 67.7,
+        "wire_only": 673.98
+      },
+      "weeks": [
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 37.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "8151",
+                "points": 32.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 16.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11646",
+                "points": 29.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "4983",
+                "points": 18.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 10.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "6813",
+                "points": 23.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 16.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "LAC",
+                "points": 1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 186.96,
+            "roster": [
+              "11533",
+              "11560",
+              "11631",
+              "11632",
+              "11646",
+              "12484",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "8132",
+              "8136",
+              "8151",
+              "9224",
+              "9487",
+              "LAC"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 37.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 23.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 16.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13346",
+                "points": 12.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "4983",
+                "points": 18.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 10.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "11646",
+                "points": 29.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 16.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 166.26,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "9224",
+              "9487"
+            ]
+          },
+          "interaction": 0.0,
+          "total_impact": 20.7,
+          "trade_impact": 19.7,
+          "trade_only_impact": 19.7,
+          "trades_only": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 37.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 23.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 16.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11646",
+                "points": 29.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "4983",
+                "points": 18.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 10.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8151",
+                "points": 32.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 16.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 185.96,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11631",
+              "11632",
+              "11646",
+              "12484",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "8132",
+              "8151",
+              "9224",
+              "9487"
+            ]
+          },
+          "week": 1,
+          "wire_impact": 1.0,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 37.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 23.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 16.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11646",
+                "points": 29.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13346",
+                "points": 12.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 10.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "4983",
+                "points": 18.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 16.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "LAC",
+                "points": 1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 167.26,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "8136",
+              "9224",
+              "9487",
+              "LAC"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 8.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "8136",
+                "points": 11.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8151",
+                "points": 20.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11646",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13346",
+                "points": 18.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 25.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "6813",
+                "points": 27.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 13.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "TB",
+                "points": 2.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 153.02,
+            "roster": [
+              "11533",
+              "11560",
+              "11631",
+              "11632",
+              "11646",
+              "12484",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "8132",
+              "8136",
+              "8151",
+              "9224",
+              "9487",
+              "TB"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 8.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 27.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12514",
+                "points": 8.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13346",
+                "points": 18.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 25.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "11646",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 13.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 137.42,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "9224",
+              "9487"
+            ]
+          },
+          "interaction": -0.9,
+          "total_impact": 15.6,
+          "trade_impact": 11.1,
+          "trade_only_impact": 12.0,
+          "trades_only": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 8.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 27.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11646",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13346",
+                "points": 18.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 25.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8151",
+                "points": 20.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 13.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 149.42,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11631",
+              "11632",
+              "11646",
+              "12484",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "8132",
+              "8151",
+              "9224",
+              "9487"
+            ]
+          },
+          "week": 2,
+          "wire_impact": 4.5,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 8.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "8136",
+                "points": 11.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11646",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13346",
+                "points": 18.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 25.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "6813",
+                "points": 27.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 13.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "TB",
+                "points": 2.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 141.92,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "8136",
+              "9224",
+              "9487",
+              "TB"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "9228",
+                "points": 14.64,
+                "slot": "QB"
+              },
+              {
+                "player_id": "8136",
+                "points": 10.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8151",
+                "points": 20.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "4983",
+                "points": 9.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 13.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "6813",
+                "points": 8.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 11.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "KC",
+                "points": 9.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 118.44,
+            "roster": [
+              "11533",
+              "11560",
+              "11628",
+              "11632",
+              "11646",
+              "12484",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "8136",
+              "8151",
+              "9224",
+              "9228",
+              "9487",
+              "KC"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 0.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "10219",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "6813",
+                "points": 8.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12514",
+                "points": 8.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "4983",
+                "points": 9.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 13.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "5846",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 11.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 82.3,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "9224",
+              "9487"
+            ]
+          },
+          "interaction": -0.0,
+          "total_impact": 36.14,
+          "trade_impact": 11.6,
+          "trade_only_impact": 11.6,
+          "trades_only": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 0.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "10219",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8151",
+                "points": 20.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "4983",
+                "points": 9.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 13.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "6813",
+                "points": 8.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 11.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 93.9,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11628",
+              "11632",
+              "11646",
+              "12484",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "8132",
+              "8151",
+              "9224",
+              "9487"
+            ]
+          },
+          "week": 3,
+          "wire_impact": 24.54,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "9228",
+                "points": 14.64,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 8.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8136",
+                "points": 10.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12514",
+                "points": 8.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "4983",
+                "points": 9.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 13.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "5846",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 11.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "KC",
+                "points": 9.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 106.84,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8136",
+              "9224",
+              "9228",
+              "9487",
+              "KC"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "9228",
+                "points": 21.46,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 22.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8151",
+                "points": 30.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 20.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 14.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12517",
+                "points": 11.7,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12495",
+                "points": 17.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "7547",
+                "points": 11.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "KC",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 162.46,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12495",
+              "12517",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "7547",
+              "8136",
+              "8151",
+              "9228",
+              "9487",
+              "KC"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 0.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 22.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 13.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 20.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 14.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 3.5,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7611",
+                "points": 16.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8132",
+                "points": 11.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 112.3,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "9224",
+              "9487"
+            ]
+          },
+          "interaction": -0.0,
+          "total_impact": 50.16,
+          "trade_impact": 19.6,
+          "trade_only_impact": 19.6,
+          "trades_only": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 0.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 22.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8151",
+                "points": 30.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 20.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 14.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12517",
+                "points": 11.7,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7547",
+                "points": 11.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "8132",
+                "points": 11.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 131.9,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11628",
+              "11632",
+              "11646",
+              "12484",
+              "12517",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "7547",
+              "8132",
+              "8151",
+              "9487"
+            ]
+          },
+          "week": 4,
+          "wire_impact": 30.56,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "9228",
+                "points": 21.46,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 22.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9224",
+                "points": 13.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 20.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 14.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 3.5,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12495",
+                "points": 17.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "7611",
+                "points": 16.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 10.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "KC",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 142.86,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12495",
+              "12514",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8136",
+              "9224",
+              "9228",
+              "9487",
+              "KC"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "5849",
+                "points": 18.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12495",
+                "points": 14.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "6813",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 23.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 3.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12517",
+                "points": 3.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7547",
+                "points": 9.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 27.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "JAX",
+                "points": 2.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 118.36,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12495",
+              "12517",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "5849",
+              "6813",
+              "7547",
+              "8136",
+              "8151",
+              "9487",
+              "JAX"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 0.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7611",
+                "points": 16.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12514",
+                "points": 14.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "13346",
+                "points": 12.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 0.0,
+                "slot": "TE"
+              },
+              {
+                "player_id": "11632",
+                "points": 23.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 27.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 108.0,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12514",
+              "13346",
+              "1466",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8132",
+              "9224",
+              "9487"
+            ]
+          },
+          "interaction": 7.1,
+          "total_impact": 10.36,
+          "trade_impact": 3.26,
+          "trade_only_impact": -3.84,
+          "trades_only": {
+            "filled_slots": 9,
+            "lineup": [
+              {
+                "player_id": "5849",
+                "points": 18.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "6813",
+                "points": 9.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8132",
+                "points": 2.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 23.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5846",
+                "points": 3.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12517",
+                "points": 3.9,
+                "slot": "TE"
+              },
+              {
+                "player_id": "7547",
+                "points": 9.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 27.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": null,
+                "points": 0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 104.16,
+            "roster": [
+              "10219",
+              "11533",
+              "11560",
+              "11628",
+              "11632",
+              "11646",
+              "12484",
+              "12517",
+              "1466",
+              "4983",
+              "5846",
+              "5849",
+              "6813",
+              "7547",
+              "8132",
+              "8151",
+              "9487"
+            ]
+          },
+          "week": 5,
+          "wire_impact": 7.1,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "11560",
+                "points": 0.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12495",
+                "points": 14.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7611",
+                "points": 16.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11632",
+                "points": 23.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "12514",
+                "points": 14.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "1466",
+                "points": 0.0,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13346",
+                "points": 12.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9487",
+                "points": 27.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "11533",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "JAX",
+                "points": 2.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 115.1,
+            "roster": [
+              "11533",
+              "11560",
+              "11632",
+              "11646",
+              "12484",
+              "12495",
+              "12514",
+              "13346",
+              "1466",
+              "4137",
+              "4983",
+              "5846",
+              "6813",
+              "7611",
+              "8136",
+              "9224",
+              "9228",
+              "9487",
+              "JAX"
+            ]
+          }
+        }
+      ]
+    }
+  },
   "leaderboard": [
     {
       "delta": 51.52,
@@ -5083,7 +10257,7 @@
         "pickup_points": 0,
         "player_id": "11559",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "pending",
         "transaction_id": "1416836985586270208"
@@ -5103,6 +10277,22 @@
         "roster_id": 1,
         "status": "pending",
         "transaction_id": "1416914583519502336"
+      },
+      {
+        "dropped_player_id": "11559",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "8136",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1417060368282296320"
       },
       {
         "dropped_player_id": null,
@@ -5499,7 +10689,7 @@
         "waiver_points": 30.1
       },
       {
-        "free_agent_adds": 3,
+        "free_agent_adds": 4,
         "free_agent_points": 0,
         "manager": "krunky",
         "roster_id": 1,
@@ -6513,7 +11703,7 @@
         "pickup_points": 0,
         "player_id": "11559",
         "points": 0,
-        "released": false,
+        "released": true,
         "roster_id": 1,
         "status": "pending",
         "transaction_id": "1416836985586270208"
@@ -6533,6 +11723,22 @@
         "roster_id": 1,
         "status": "pending",
         "transaction_id": "1416914583519502336"
+      },
+      {
+        "dropped_player_id": "11559",
+        "dropped_points": 0,
+        "faab": 0,
+        "first_week": 6,
+        "last_week": 5,
+        "manager": "krunky",
+        "missing_scores": [],
+        "pickup_points": 0,
+        "player_id": "8136",
+        "points": 0,
+        "released": false,
+        "roster_id": 1,
+        "status": "pending",
+        "transaction_id": "1417060368282296320"
       },
       {
         "dropped_player_id": null,
@@ -7093,7 +12299,7 @@
         "waiver_points": 30.1
       },
       {
-        "free_agent_adds": 9,
+        "free_agent_adds": 10,
         "free_agent_points": -44.3,
         "manager": "krunky",
         "roster_id": 1,
@@ -7180,6 +12386,1590 @@
   },
   "season": "2026",
   "team_impact": {
+    "gibbs_of_war": {
+      "current_roster": [
+        "11584",
+        "11620",
+        "12474",
+        "12489",
+        "12534",
+        "13281",
+        "13298",
+        "421",
+        "650",
+        "6904",
+        "7569",
+        "8130",
+        "8137",
+        "9221",
+        "9480",
+        "9997",
+        "IND"
+      ],
+      "draft_roster": [
+        "10859",
+        "12015",
+        "12474",
+        "12534",
+        "13281",
+        "13294",
+        "13298",
+        "5849",
+        "5927",
+        "6797",
+        "6904",
+        "7569",
+        "9221",
+        "9226",
+        "9997",
+        "BAL"
+      ],
+      "totals": {
+        "all_moves": 756.62,
+        "drafted": 658.6,
+        "interaction": -14.7,
+        "total_impact": 98.02,
+        "trade_impact": 73.58,
+        "trade_only_impact": 88.28,
+        "trades_only": 746.88,
+        "wire_impact": 24.44,
+        "wire_only": 683.04
+      },
+      "weeks": [
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13414",
+                "points": 7.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 2.6,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12527",
+                "points": 29.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 164.22,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 5.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 9.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9226",
+                "points": 8.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 148.62,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -1.5,
+          "total_impact": 15.6,
+          "trade_impact": 13.9,
+          "trade_only_impact": 15.4,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12527",
+                "points": 29.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "6819",
+                "points": 7.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 2.6,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 164.02,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 1,
+          "wire_impact": 1.7,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 24.72,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 19.4,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13414",
+                "points": 7.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7569",
+                "points": 17.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 23.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 9.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 31.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 8.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 1.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 150.32,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12527",
+                "points": 8.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "2133",
+                "points": 35.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7571",
+                "points": 18.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 20.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 139.66,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "2133",
+              "6819",
+              "6904",
+              "7569",
+              "7571",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 5.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 6.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 17.2,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 10.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 96.46,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -0.6,
+          "total_impact": 43.2,
+          "trade_impact": 30.1,
+          "trade_only_impact": 30.7,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 8.3,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 5.8,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 35.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 20.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 127.16,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 2,
+          "wire_impact": 13.1,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 18.16,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 6.0,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 6.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 6.0,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7571",
+                "points": 18.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 17.2,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 20.3,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9226",
+                "points": 10.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 3.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 3.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 109.56,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "7571",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.62,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 10.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 5.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 17.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 9.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "CAR",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 125.22,
+            "roster": [
+              "11620",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "2133",
+              "4227",
+              "6819",
+              "6904",
+              "7569",
+              "7571",
+              "8110",
+              "9221",
+              "9997",
+              "CAR"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6797",
+                "points": 13.74,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 3.1,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13294",
+                "points": 4.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "5927",
+                "points": 16.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 7.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 126.74,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -1.6,
+          "total_impact": -1.52,
+          "trade_impact": 9.88,
+          "trade_only_impact": 11.48,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.62,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12527",
+                "points": 10.8,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 5.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "2133",
+                "points": 17.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8110",
+                "points": 9.3,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 16.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 6.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 138.22,
+            "roster": [
+              "11620",
+              "12015",
+              "12474",
+              "12527",
+              "12534",
+              "13281",
+              "13298",
+              "2133",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8110",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 3,
+          "wire_impact": -11.4,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6797",
+                "points": 13.74,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.6,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 37.9,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 16.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7571",
+                "points": 4.7,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 7.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13294",
+                "points": 4.4,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 12.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 5.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "CAR",
+                "points": 4.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 115.34,
+            "roster": [
+              "10859",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "4227",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "7571",
+              "9221",
+              "9226",
+              "9997",
+              "CAR"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 12.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9480",
+                "points": 16.5,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8130",
+                "points": 10.1,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BUF",
+                "points": 5.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 155.82,
+            "roster": [
+              "11584",
+              "11620",
+              "12474",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "4227",
+              "6819",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9480",
+              "9997",
+              "BUF"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 8.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 8.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 22.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 158.32,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -0.7,
+          "total_impact": -2.5,
+          "trade_impact": -8.8,
+          "trade_only_impact": -8.1,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "11620",
+                "points": 12.4,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8130",
+                "points": 10.1,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13298",
+                "points": 8.9,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 150.22,
+            "roster": [
+              "11584",
+              "11620",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13298",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 4,
+          "wire_impact": 6.3,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.52,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12534",
+                "points": 27.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 15.7,
+                "slot": "RB"
+              },
+              {
+                "player_id": "13298",
+                "points": 8.9,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 27.3,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 22.4,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9480",
+                "points": 16.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 21.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "4227",
+                "points": 6.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BUF",
+                "points": 5.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 164.62,
+            "roster": [
+              "10859",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "4227",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9480",
+              "9997",
+              "BUF"
+            ]
+          }
+        },
+        {
+          "all_moves": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "6904",
+                "points": 13.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11584",
+                "points": 30.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "8137",
+                "points": 23.5,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9480",
+                "points": 13.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8130",
+                "points": 21.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "650",
+                "points": 12.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "DAL",
+                "points": 1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 171.7,
+            "roster": [
+              "11584",
+              "11620",
+              "12474",
+              "12489",
+              "12534",
+              "13281",
+              "13298",
+              "13414",
+              "650",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9480",
+              "9997",
+              "DAL"
+            ]
+          },
+          "drafted": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "5849",
+                "points": 18.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 10.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 8.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 19.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "13294",
+                "points": 6.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 2.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 128.46,
+            "roster": [
+              "10859",
+              "12015",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "5849",
+              "5927",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9997",
+              "BAL"
+            ]
+          },
+          "interaction": -10.3,
+          "total_impact": 43.24,
+          "trade_impact": 28.5,
+          "trade_only_impact": 38.8,
+          "trades_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "5849",
+                "points": 18.26,
+                "slot": "QB"
+              },
+              {
+                "player_id": "11584",
+                "points": 30.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "7569",
+                "points": 8.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "WR"
+              },
+              {
+                "player_id": "8130",
+                "points": 21.6,
+                "slot": "TE"
+              },
+              {
+                "player_id": "8137",
+                "points": 23.5,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "12015",
+                "points": 2.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "BAL",
+                "points": 7.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 167.26,
+            "roster": [
+              "11584",
+              "11620",
+              "12015",
+              "12474",
+              "12489",
+              "12534",
+              "13281",
+              "13298",
+              "5849",
+              "6819",
+              "6904",
+              "7569",
+              "8130",
+              "8137",
+              "9221",
+              "9997",
+              "BAL"
+            ]
+          },
+          "week": 5,
+          "wire_impact": 14.74,
+          "wire_only": {
+            "filled_slots": 10,
+            "lineup": [
+              {
+                "player_id": "96",
+                "points": 22.0,
+                "slot": "QB"
+              },
+              {
+                "player_id": "12474",
+                "points": 10.5,
+                "slot": "RB"
+              },
+              {
+                "player_id": "9221",
+                "points": 35.2,
+                "slot": "RB"
+              },
+              {
+                "player_id": "5927",
+                "points": 10.2,
+                "slot": "WR"
+              },
+              {
+                "player_id": "7569",
+                "points": 8.1,
+                "slot": "WR"
+              },
+              {
+                "player_id": "10859",
+                "points": 19.8,
+                "slot": "TE"
+              },
+              {
+                "player_id": "9480",
+                "points": 13.8,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "9997",
+                "points": 10.6,
+                "slot": "FLEX"
+              },
+              {
+                "player_id": "650",
+                "points": 12.0,
+                "slot": "K"
+              },
+              {
+                "player_id": "DAL",
+                "points": 1.0,
+                "slot": "DEF"
+              }
+            ],
+            "points": 143.2,
+            "roster": [
+              "10859",
+              "12474",
+              "12534",
+              "13281",
+              "13294",
+              "13298",
+              "13414",
+              "5927",
+              "650",
+              "6797",
+              "6904",
+              "7569",
+              "9221",
+              "9226",
+              "9480",
+              "96",
+              "9997",
+              "DAL"
+            ]
+          }
+        }
+      ]
+    },
     "jabney": {
       "current_roster": [
         "11576",
@@ -8761,7 +15551,6 @@
     "krunky": {
       "current_roster": [
         "11533",
-        "11559",
         "11560",
         "11632",
         "11646",
@@ -8775,6 +15564,7 @@
         "6790",
         "6813",
         "7547",
+        "8136",
         "8151",
         "9487",
         "CAR"
@@ -10354,6 +17144,11 @@
         }
       ]
     }
+  },
+  "team_impact_trackers": {
+    "gibbs_of_war": 2,
+    "jabney": 3,
+    "krunky": 1
   },
   "through_week": 5,
   "trackers": {
@@ -12381,7 +19176,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-17T04:42:04.608927+00:00",
+  "updated_at": "2026-10-17T06:31:10.537873+00:00",
   "vetoed_trades": [
     {
       "first_scoring_week": 1,

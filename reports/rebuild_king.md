@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-17T04:42:04.608927+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-17T06:31:10.537873+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -60,6 +60,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Michael Penix | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Carolina Panthers | Jacksonville Jaguars | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| krunky | Rachaad White | Michael Penix | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | No completed week | 0.00 | 0.00 | +0.00 | pending |
