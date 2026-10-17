@@ -11,8 +11,10 @@ from zoneinfo import ZoneInfo
 
 try:
     from . import advanced_trackers as advanced
+    from . import injury_adjustment as injuries
 except ImportError:
     import advanced_trackers as advanced
+    import injury_adjustment as injuries
 
 ROOT = Path(__file__).resolve().parents[1]
 API = 'https://api.sleeper.app'
@@ -513,8 +515,8 @@ def run():
                 event[direction].append({'player_id': pid, 'roster_id': rid, 'first_week': first})
         events.append(event)
     report['team_impact'] = {}
-    for key in ('jabney','krunky'):
-        rid = config['trackers'][key]
+    report['team_impact_trackers'] = config.get('team_impact_trackers', {k:config['trackers'][k] for k in ('jabney','krunky')})
+    for key, rid in report['team_impact_trackers'].items():
         result = advanced.team_impact(picks, events, rid, league['roster_positions'], players, weekly, through)
         replay = set(result['draft_roster'])
         for event in events:
@@ -525,6 +527,10 @@ def run():
             raise ValueError(f'Roster replay mismatch for {key}: missing={current-replay}, extra={replay-current}')
         result['current_roster'] = sorted(current)
         report['team_impact'][key] = result
+    injury_evidence = injuries.collect_evidence(ROOT, season, through, partial_week, tracking_start)
+    adjusted_injury_points, injury_audit = injuries.adjust_scores(weekly, stat_rows, players, injury_evidence, through)
+    report['injury_adjusted'] = {key: injuries.adjusted_team(actual, adjusted_injury_points, players,
+        league['roster_positions'], injury_audit) for key,actual in report['team_impact'].items()}
     # Publish only after all endpoints and scoring consistency checks have passed.
     write_json(ROOT / 'data/snapshot.json', {'league': {k: league[k] for k in ('league_id','name','season','scoring_settings','settings','roster_positions')},
                                            'managers': managers, 'transactions': list(all_tx.values()), 'draft_picks': picks,
@@ -533,6 +539,7 @@ def run():
     markdown(report, players)
     advanced.write_reports(report, ROOT)
     advanced.write_team_reports(report, ROOT)
+    injuries.write_reports(report, ROOT)
     comparison = report['conner_metcalf']
     start = comparison['first_scoring_week']
     (ROOT / 'reports/metcalf_vs_conner.md').write_text(

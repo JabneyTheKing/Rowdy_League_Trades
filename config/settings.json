@@ -27,5 +27,10 @@
       "12506": 5,
       "13286": 5
     }
+  },
+  "team_impact_trackers": {
+    "jabney": 3,
+    "krunky": 1,
+    "gibbs_of_war": 2
   }
 }

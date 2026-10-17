@@ -85,3 +85,22 @@ The original trackers remain available. Six additional views refresh in the same
 **Team impact:** optimize four weekly worlds: draft, trades only, wire only, and all moves. All completed eligible adds and drops change roster availability, including standalone releases (not individually scored). Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only. These sum to total improvement; the trade/wire interaction is explicitly shown and included in trade impact. Recorded wire moves are held fixed; hypothetical worlds do not enforce roster caps or invent alternate decisions. This estimates hindsight lineup impact, not causal proof, actual win/loss impact, or dynasty value.
 
 The exact optimizer honors every starting slot, including both flex spots, kicker and defense, with no player used twice. Earlier weeks use only then-eligible transactions. Reports show every weekly lineup; visuals show weekly totals and the latest scoring week's optimum. Live roster inventory is separately captured and checked against draft-plus-transaction replay.
+
+
+## Injury-adjusted estimates and Gibbs of War
+
+Gibbs of War is roster 2, managed by TheRealNoodleMan. It now has the same four-scenario [Team Impact report](reports/gibbs_of_war_team_impact.md) and [visual](visuals/gibbs_of_war_team_impact.png).
+
+Separate injury-adjusted reports and visuals:
+
+| Team | Report | Visual |
+|---|---|---|
+| Jabney | [Injury-adjusted impact](reports/jabney_injury_adjusted.md) | [PNG](visuals/jabney_injury_adjusted.png) |
+| Krunky | [Injury-adjusted impact](reports/krunky_injury_adjusted.md) | [PNG](visuals/krunky_injury_adjusted.png) |
+| Gibbs of War | [Injury-adjusted impact](reports/gibbs_of_war_injury_adjusted.md) | [PNG](visuals/gibbs_of_war_injury_adjusted.png) |
+
+Actual scores remain unchanged. For supported completed-game injury absences, the estimate uses the player's mean league points in **at least two earlier participating games without a weekly injury listing**. This is a participation proxy, not guaranteed perfect health. No future games or previous-season scores inform the estimate. All four roster scenarios are reoptimized with the same estimated player scores, so replacements, depth, and positional needs still determine the effect.
+
+Evidence comes from archived [NFL weekly injury reports](https://www.nfl.com/injuries/league/2026/reg5) and [dated reserve transactions](https://www.nfl.com/transactions/league/reserve-list/2026/10), cached in `data/injury_evidence.json`. Qualifying evidence is injury-related OUT status or the first four team games after an explicit Reserve/Injured placement. In-game injuries, PUP/NFI, byes, unplayed games, longer IR absences without fresh evidence, and insufficient baselines remain unadjusted. Today's injury label is never applied backward.
+
+This is intentionally a **limited injury estimate**, not a fully healthy-team simulation. The reports list every estimate, its earlier sample and source, confirmed absences without a baseline, and other zero-participation games left unchanged. Source failures are shown on the visuals and reports; previously verified archive records are retained. All 19 visuals run in the existing six-hour update workflow.

@@ -383,13 +383,34 @@ def render_conner_metcalf(report):
 
 def advanced_header(key, title, subtitle, height):
     canvas = Image.new('RGB', (W, height), '#080e17')
-    header = 'jabney_underdog_v2.jpg' if key == 'jabney' else 'krunky_header.jpg'
-    banner = ImageOps.fit(art(header), (W, 354), method=Image.Resampling.LANCZOS, centering=(.5,.07))
-    canvas.paste(banner, (0, 0))
     d = ImageDraw.Draw(canvas)
-    accent = '#5ccfea' if key == 'jabney' else '#ecc356'
+    if key == 'gibbs_of_war':
+        import math
+        d.rectangle((0,0,W,354),fill='#151b22')
+        for x in range(-300,W,95):
+            d.line((x,0,x+240,354),fill='#263039',width=4)
+        d.polygon([(0,0),(390,0),(280,354),(0,354)],fill='#8a252d')
+        d.polygon([(1230,0),(W,0),(W,354),(1110,354)],fill='#8a252d')
+        cx,cy=205,177
+        gear=[]
+        for i in range(72):
+            theta=i*math.pi/36;radius=130 if i%4 in (0,1) else 111
+            gear.append((cx+radius*math.cos(theta),cy+radius*math.sin(theta)))
+        d.polygon(gear,fill='#d2d9dd')
+        d.ellipse((cx-86,cy-86,cx+86,cy+86),fill='#17232d')
+        text(d,(cx,cy),'GW',63,'#e9edf0',True,'mm')
+        text(d,(875,117),'GIBBS OF WAR',83,'#f1f3f5',True,'mm')
+        text(d,(875,211),'THE WAR ROOM',37,'#ff7f82',True,'mm')
+        text(d,(875,276),'TEAM BUILDING • LINEUP IMPACT • EVERY MOVE COUNTS',20,'#c6d2db',True,'mm')
+        accent='#f77c82'
+    else:
+        header = 'jabney_underdog_v2.jpg' if key == 'jabney' else 'krunky_header.jpg'
+        banner = ImageOps.fit(art(header), (W, 354), method=Image.Resampling.LANCZOS, centering=(.5,.07))
+        canvas.paste(banner, (0, 0))
+        accent = '#5ccfea' if key == 'jabney' else '#ecc356'
+    display_name = 'Gibbs of War' if key == 'gibbs_of_war' else key
     d.rectangle((0, 354, W, 466), fill='#101c2a')
-    text(d, (800, 389), (key + ' • ' + title).upper(), 44, accent, True, 'mm')
+    text(d, (800, 389), (display_name + ' • ' + title).upper(), 40 if key == 'gibbs_of_war' or title.startswith('INJURY') else 44, accent, True, 'mm')
     text(d, (800, 440), subtitle, 20, '#d6e2ef', True, 'mm')
     return canvas, d, accent
 
@@ -543,6 +564,68 @@ def render_team_impact(report,key):
     return im
 
 
+def render_injury_adjusted(report,key):
+    c=report['injury_adjusted'][key];rows=c['adjustments'];weeks=c['weeks']
+    height=1550+len(weeks)*54+max(1,len(rows))*49
+    im,d,accent=advanced_header(key,'INJURY-ADJUSTED IMPACT',
+        'A separate estimate • Actual results preserved • Lineups reoptimized in every scenario',height)
+    text(d,(800,502),'ACTUAL RESULTS vs. SUPPORTED INJURY ESTIMATES',27,accent,True,'mm')
+    for x,label in [(60,'METRIC'),(810,'ACTUAL'),(1190,'ADJUSTED ESTIMATE'),(1520,'CHANGE')]:
+        text(d,(x,552),label,19,'#b9cddd',True,'rm' if x>100 else 'lm')
+    for i,(field,label) in enumerate([('trade_impact','TRADE IMPACT'),('wire_impact','WAIVER / FA IMPACT'),('total_impact','TOTAL TEAM IMPROVEMENT')]):
+        y=600+i*72
+        rect(d,(35,y-23,1565,y+37),'#152639',accent if i==2 else None,2,10)
+        text(d,(60,y+5),label,25,'white',True,'lm')
+        for x,value in [(810,c['actual_totals'][field]),(1190,c['totals'][field]),(1520,c['injury_swing'][field])]:
+            text(d,(x,y+5),f'{value:+.2f}',34,'#6cf3a0' if value>=0 else '#ff8390',True,'rm')
+    text(d,(800,829),f"{len(rows)} player-weeks estimated • {len(c['insufficient_baselines'])} confirmed absences lack a baseline",24,accent,True,'mm')
+    text(d,(800,865),f"{len(c['other_absences'])} other zero-participation games unchanged • Injury evidence is deliberately limited",20,'#c1cfdb',False,'mm')
+    if c['source_errors']:
+        text(d,(800,902),'SOURCE RETRIEVAL WARNING — cached / partial evidence; see report',22,'#ffc759',True,'mm')
+    else:
+        text(d,(800,902),'Estimates may improve either side of a trade; an adjustment is not automatically a credit.',20,'#c1cfdb',False,'mm')
+    cols=[(85,'WK'),(520,'ACTUAL TRADE +/-'),(1000,'ADJ. TRADE +/-'),(1510,'ADJ. TOTAL GAIN')]
+    for x,label in cols:text(d,(x,950),label,20,accent,True,'rm')
+    actual=report['team_impact'][key]['weeks']
+    for i,(row,original) in enumerate(zip(weeks,actual)):
+        y=990+i*54
+        rect(d,(35,y-19,1565,y+27),'#142235',None,1,7)
+        for j,((x,_),value) in enumerate(zip(cols,[row['week'],original['trade_impact'],row['trade_impact'],row['total_impact']])):
+            text(d,(x,y+4),str(value) if j==0 else f'{value:+.2f}',25,'white',True,'rm')
+    y=1000+len(weeks)*54
+    text(d,(800,y+25),'PLAYER-WEEKS REPLACED WITH AN ESTIMATE',26,accent,True,'mm')
+    for x,label in [(75,'WK'),(170,'PLAYER'),(890,'ACTUAL'),(1180,'ESTIMATE'),(1510,'PRIOR GAMES')]:
+        text(d,(x,y+68),label,19,'#b9cddd',True,'rm' if x>800 else 'lm')
+    for i,row in enumerate(rows):
+        yy=y+111+i*49
+        rect(d,(35,yy-16,1565,yy+26),'#142235',None,1,7)
+        text(d,(75,yy+5),str(row['week']),22,'white',True,'lm')
+        text(d,(170,yy+5),fit(player_name(report,row['player_id']),34),23,'white',True,'lm')
+        for x,label in [(890,f"{row['actual']:.2f}"),(1180,f"{row['estimated']:.2f}"),(1510,str(len(row['sample'])))]:
+            text(d,(x,yy+5),label,24,'#d3e1ec',True,'rm')
+    if not rows:text(d,(800,y+115),'No supported player-week estimates yet; actual results retained.',22,'white',False,'mm')
+    method_y=y+150+max(1,len(rows))*49
+    rect(d,(35,method_y,1565,method_y+350),'#142538',accent,2,12)
+    text(d,(65,method_y+28),'METHODOLOGY • LIMITED INJURY ESTIMATE',25,accent,True)
+    rules=[
+        '1. Same weekly draft / trades / wire / all-moves rosters, eligibility rules and August 23 transaction cutoff.',
+        '2. Replace only completed-game absences: zero participation plus NFL injury OUT or documented first-four-game IR.',
+        '3. Estimate = mean league points in 2+ earlier participating games with no archived weekly injury listing.',
+        '4. Reoptimize all 10 legal starting slots in every scenario. Backups count; no bench points or duplicated players.',
+        '5. Wire impact = wire-only minus draft; trade impact = all moves minus wire-only, including their interaction.',
+        '6. Byes, in-game injuries, uncertain absences, longer unconfirmed IR, and insufficient baselines stay unchanged.',
+        '7. No future scores, previous-season scores or guessed injuries. This is not a fully healthy-team simulation.',
+        '8. Recorded roster moves held fixed; hypothetical caps/budgets not enforced. Full sources and samples in report.',
+    ]
+    for i,line in enumerate(rules):text(d,(65,method_y+78+i*31),line,20,'#d0dce7')
+    # Content height is derived from the panels so it cannot collide with the footer.
+    bottom=method_y+440
+    if bottom>im.height:
+        expanded=Image.new('RGB',(W,bottom),'#080e17');expanded.paste(im,(0,0));im=expanded;d=ImageDraw.Draw(im)
+    advanced_footer(d,report,im.height-65,'NFL injury reports + dated reserve placements • ESTIMATES, NOT ACTUAL SCORES')
+    return im
+
+
 def main():
     report=json.loads((ROOT/'data/report.json').read_text()); OUT.mkdir(exist_ok=True)
     jobs={
@@ -557,9 +640,11 @@ def main():
         'rebuild_king.png':render_improved(report,'rebuild_king','Rebuild King','Who pivoted best after Week 1 • Net roster-building impact','#f4c542','#101007','CURRENT REBUILD KING'),
     }
     for key in ('jabney', 'krunky'):
-        jobs[f'{key}_team_impact.png'] = render_team_impact(report, key)
         jobs[f'{key}_positional.png'] = render_positional(report, key)
         jobs[f'{key}_draft_vs_trades.png'] = render_draft_vs_trades(report, key)
+    for key in report['team_impact']:
+        jobs[f'{key}_team_impact.png'] = render_team_impact(report, key)
+        jobs[f'{key}_injury_adjusted.png'] = render_injury_adjusted(report, key)
     # Stamp every render and publish a single mutable gallery with fresh image URLs.
     stamp = report['updated_at'][:19].replace('T', ' ') + ' UTC'
     version = ''.join(c for c in report['updated_at'] if c.isdigit())

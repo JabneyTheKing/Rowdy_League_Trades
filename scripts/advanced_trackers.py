@@ -211,9 +211,10 @@ def team_impact(picks, events, rid, slots, players, weekly, through):
 def write_team_reports(report, root):
     def name(pid):
         return (report['players'].get(pid, {}).get('full_name') or pid or 'Empty slot').replace('|','/')
-    for key in ('jabney','krunky'):
+    for key in report['team_impact']:
         c=report['team_impact'][key]; t=c['totals']
-        lines=[f'# {key.title()} — Team Impact', '',
+        title = 'Gibbs of War' if key == 'gibbs_of_war' else key.title()
+        lines=[f'# {title} — Team Impact', '',
             f"Updated {report['updated_at']}. Through Week {report['through_week']}" + (' (PARTIAL).' if report.get('partial_week') else ' (complete).'), '',
             'Each week optimizes the legal starting lineup for four roster scenarios, using that week’s raw league fantasy points. '
             'This accounts for positional need, flex competition and bench depth without adding arbitrary positional multipliers. '
