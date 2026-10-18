@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-18T11:24:57.760656+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-18T15:59:43.087029+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -69,10 +69,13 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Chase McLaughlin | Oronde Gadsden | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Los Angeles Rams | Cincinnati Bengals | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Tyler Bass | Brian Thomas | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–5 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Jacoby Brissett | Brian Robinson | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Chig Okonkwo | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Tyler Loop | Cam Little | 4–5 | 21.00 | 22.00 | -1.00 | scored |

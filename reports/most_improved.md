@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-18T11:24:57.760656+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-18T15:59:43.087029+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -90,12 +90,15 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Chase McLaughlin | Oronde Gadsden | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Jacksonville Jaguars | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Los Angeles Rams | Cincinnati Bengals | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Tyler Bass | Brian Thomas | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Malik Willis | Cam Ward | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–5 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Jacoby Brissett | Brian Robinson | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Chig Okonkwo | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Tyler Loop | Cam Little | 4–5 | 21.00 | 22.00 | -1.00 | scored |
