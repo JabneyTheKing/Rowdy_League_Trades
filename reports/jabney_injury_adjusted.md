@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-10-18T15:59:43.087029+00:00; through Week 5.
+Updated 2026-10-18T20:54:51.798645+00:00; through Week 5.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -24,11 +24,11 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Week | Player | Actual | Estimate | Earlier sample | Evidence |
 |---:|---|---:|---:|---|---|
-| 4 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=) |
+| 4 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAKAAAAAAAOliY=) |
 | 4 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
 | 5 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
 | 5 | Travis Etienne | 0.00 | 8.47 | W1: 11.30, W2: 6.10, W3: 8.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=) |
-| 5 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=) |
+| 5 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAKAAAAAAAOliY=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -39,12 +39,12 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Josh Jacobs.
 - Week 1: Zach Charbonnet.
-- Week 2: Josh Jacobs.
+- Week 1: Josh Jacobs.
 - Week 2: Zach Charbonnet.
-- Week 3: Josh Jacobs.
+- Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
+- Week 3: Josh Jacobs.
 - Week 3: Omar Cooper.
 - Week 4: Josh Jacobs.
 - Week 4: Omar Cooper.

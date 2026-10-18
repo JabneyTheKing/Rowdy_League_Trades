@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-18T15:59:43.087029+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-18T20:54:51.798645+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -66,6 +66,8 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Caleb Douglas | Chris Bell | 1–5 | 14.80 | 14.30 | +0.50 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | Darnell Washington | Courtland Sutton | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Cam Ward | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Baltimore Ravens | New York Jets | No completed week | 0.00 | 0.00 | +0.00 | pending |

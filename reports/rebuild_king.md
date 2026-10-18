@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-18T15:59:43.087029+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-18T20:54:51.798645+00:00. Season 2026; scored through Week 5. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -51,6 +51,8 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | Darnell Washington | Courtland Sutton | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Cam Ward | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Baltimore Ravens | New York Jets | No completed week | 0.00 | 0.00 | +0.00 | pending |
