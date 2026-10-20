@@ -5087,7 +5087,7 @@
       "disable_trades": 0,
       "draft_rounds": 3,
       "faab_suggestions": 0,
-      "last_report": 5,
+      "last_report": 6,
       "last_scored_leg": 6,
       "league_average_match": 0,
       "leg": 6,
@@ -24820,6 +24820,75 @@
       "status": "complete",
       "status_updated": 1791371437567,
       "transaction_id": "1413517895861903360",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        7
+      ],
+      "created": 1792505456260,
+      "creator": "994445675729321984",
+      "draft_picks": [],
+      "drops": {
+        "13413": 7
+      },
+      "leg": 6,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1792505456260,
+      "transaction_id": "1418274315002003456",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        7
+      ],
+      "created": 1792505429509,
+      "creator": "994445675729321984",
+      "draft_picks": [],
+      "drops": {
+        "3257": 7
+      },
+      "leg": 6,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1792505429509,
+      "transaction_id": "1418274202796015616",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        4
+      ],
+      "created": 1792501167906,
+      "creator": "994030135634411520",
+      "draft_picks": [],
+      "drops": {
+        "11058": 4
+      },
+      "leg": 6,
+      "metadata": null,
+      "roster_ids": [
+        4
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1792501167906,
+      "transaction_id": "1418256328341618688",
       "type": "free_agent",
       "waiver_budget": []
     },
