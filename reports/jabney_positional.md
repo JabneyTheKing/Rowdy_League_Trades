@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-10-20T17:21:41.466914+00:00. Through Week 6 (complete).
+Updated 2026-10-20T21:44:07.624915+00:00. Through Week 6 (complete).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -54,4 +54,4 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | 3 | 24.93 (n=12) | 14.61 (n=30) | 14.42 (n=42) | 19.74 (n=12) | 13.33 (n=12) | 12.75 (n=12) |
 | 4 | 21.80 (n=12) | 17.81 (n=30) | 15.19 (n=42) | 16.50 (n=12) | 14.00 (n=12) | 8.92 (n=12) |
 | 5 | 27.47 (n=12) | 15.55 (n=30) | 13.92 (n=42) | 18.54 (n=12) | 13.92 (n=12) | 13.92 (n=12) |
-| 6 | 21.73 (n=12) | 13.61 (n=30) | 12.78 (n=42) | 17.07 (n=12) | 14.25 (n=12) | 11.25 (n=12) |
+| 6 | 21.73 (n=12) | 13.61 (n=30) | 12.78 (n=42) | 17.07 (n=12) | 14.25 (n=12) | 11.33 (n=12) |
