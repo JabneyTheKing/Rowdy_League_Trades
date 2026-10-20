@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-10-19T22:29:42.036205+00:00; through Week 5.
+Updated 2026-10-20T05:01:53.286952+00:00; through Week 6.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +36.92 | +36.92 | +0.00 |
-| Wire Impact | -23.76 | -23.76 | +0.00 |
-| Total Impact | +13.16 | +13.16 | +0.00 |
+| Trade Impact | +63.68 | +63.68 | +0.00 |
+| Wire Impact | -21.42 | -21.42 | +0.00 |
+| Total Impact | +42.26 | +42.26 | +0.00 |
 
 ## Estimated absences
 
@@ -33,16 +33,18 @@ None.
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Jayden Higgins.
 - Week 1: James Conner.
-- Week 2: Jayden Higgins.
+- Week 1: Jayden Higgins.
 - Week 2: James Conner.
-- Week 3: Jayden Higgins.
+- Week 2: Jayden Higgins.
 - Week 3: James Conner.
-- Week 4: Jayden Higgins.
+- Week 3: Jayden Higgins.
 - Week 4: James Conner.
-- Week 5: Jayden Higgins.
+- Week 4: Jayden Higgins.
 - Week 5: James Conner.
+- Week 5: Jayden Higgins.
+- Week 6: James Conner.
+- Week 6: Jayden Higgins.
 
 ## Weekly impact
 
@@ -53,6 +55,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 3 | +11.60 | +11.60 | -0.50 | -0.50 |
 | 4 | +19.60 | +19.60 | +27.74 | +27.74 |
 | 5 | -25.08 | -25.08 | -30.38 | -30.38 |
+| 6 | +26.76 | +26.76 | +29.10 | +29.10 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -128,6 +131,21 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | FLEX | Parker Washington | 27.40 | Parker Washington | 27.40 |
 | K | Brandon Aubrey | 5.00 | Brandon Aubrey | 5.00 |
 | DEF | Jacksonville Jaguars | 2.00 | Jacksonville Jaguars | 2.00 |
+
+## Week 6 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Bryce Young | 19.84 | Caleb Williams | 16.50 |
+| RB | Jonathan Taylor | 20.10 | Rachaad White | 13.70 |
+| RB | Rachaad White | 13.70 | Kenneth Walker | 26.90 |
+| WR | Malik Nabers | 22.50 | Malik Nabers | 22.50 |
+| WR | Jalen Coker | 12.70 | DK Metcalf | 14.80 |
+| TE | Travis Kelce | 9.30 | Colston Loveland | 18.50 |
+| FLEX | Emeka Egbuka | 14.30 | D'Andre Swift | 21.00 |
+| FLEX | DK Metcalf | 14.80 | Jonathan Taylor | 20.10 |
+| K | Brandon Aubrey | 1.00 | Brandon Aubrey | 1.00 |
+| DEF | Carolina Panthers | 4.00 | Carolina Panthers | 4.00 |
 
 ## Source health
 

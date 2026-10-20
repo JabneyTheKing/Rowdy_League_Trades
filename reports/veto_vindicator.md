@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-19T22:29:42.036205+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 5.
+Updated 2026-10-20T05:01:53.286952+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,8 +14,8 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| SethLL / Red Dead Zachdemption | Jaxon Smith-Njigba (120.96) | Xavier Worthy (26.30), Marvin Harrison (17.00) | 120.96 | 43.30 | +77.66 | scored |
-| AfootCoronet56 / Risk of Rome | Xavier Worthy (26.30), Marvin Harrison (17.00) | Jaxon Smith-Njigba (120.96) | 43.30 | 120.96 | -77.66 | scored |
+| SethLL / Red Dead Zachdemption | Jaxon Smith-Njigba (140.36) | Xavier Worthy (37.10), Marvin Harrison (21.90) | 140.36 | 59.00 | +81.36 | scored |
+| AfootCoronet56 / Risk of Rome | Xavier Worthy (37.10), Marvin Harrison (21.90) | Jaxon Smith-Njigba (140.36) | 59.00 | 140.36 | -81.36 | scored |
 
 SethLL picks sent: 2027 round 2. Value not included in points.
 
@@ -27,8 +27,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Krunky | Aaron Jones (17.20) | Rachaad White (2.50) | 17.20 | 2.50 | +14.70 | scored |
-| Ryan | Rachaad White (2.50) | Aaron Jones (17.20) | 2.50 | 17.20 | -14.70 | scored |
+| Krunky | Aaron Jones (17.20) | Rachaad White (16.20) | 17.20 | 16.20 | +1.00 | scored |
+| Ryan | Rachaad White (16.20) | Aaron Jones (17.20) | 16.20 | 17.20 | -1.00 | scored |
 
 ### Before Week 5: Jabney sends Jadarian Price; Krunky sends James Conner
 

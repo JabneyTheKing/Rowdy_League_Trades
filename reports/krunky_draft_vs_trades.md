@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-10-19T22:29:42.036205+00:00. Through Week 5 (complete).
+Updated 2026-10-20T05:01:53.286952+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -17,7 +17,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 3 | 118.94 | 130.54 | +11.60 |
 | 4 | 134.72 | 154.32 | +19.60 |
 | 5 | 148.74 | 116.56 | -32.18 |
-| **Total** | **726.08** | **756.80** | **+30.72** |
+| 6 | 129.90 | 167.90 | +38.00 |
+| **Total** | **855.98** | **924.70** | **+68.72** |
 
 ## Original drafted roster
 
@@ -93,3 +94,17 @@ Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayd
 | FLEX | Parker Washington | 27.40 | Parker Washington | 27.40 |
 | K | Brandon Aubrey | 5.00 | Brandon Aubrey | 5.00 |
 | DEF | Waiver cover (DEF) | 12.40 | Waiver cover (DEF) | 12.40 |
+## Week 6 optimal lineups
+
+| Slot | Drafted player | Points | Trade-adjusted player | Points |
+|---|---|---:|---|---:|
+| QB | Caleb Williams | 16.50 | Caleb Williams | 16.50 |
+| RB | Chris Rodriguez | 5.50 | D'Andre Swift | 21.00 |
+| RB | Jonathan Taylor | 20.10 | Kenneth Walker | 26.90 |
+| WR | Malik Nabers | 22.50 | Stefon Diggs | 13.40 |
+| WR | Jalen Coker | 12.70 | DK Metcalf | 14.80 |
+| TE | Travis Kelce | 9.30 | Colston Loveland | 18.50 |
+| FLEX | Emeka Egbuka | 14.30 | Malik Nabers | 22.50 |
+| FLEX | DK Metcalf | 14.80 | Jonathan Taylor | 20.10 |
+| K | Brandon Aubrey | 1.00 | Brandon Aubrey | 1.00 |
+| DEF | Waiver cover (DEF) | 13.20 | Waiver cover (DEF) | 13.20 |

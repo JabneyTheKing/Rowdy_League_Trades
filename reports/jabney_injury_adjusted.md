@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-10-19T22:29:42.036205+00:00; through Week 5.
+Updated 2026-10-20T05:01:53.286952+00:00; through Week 6.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | -58.62 | -53.75 | +4.87 |
-| Wire Impact | +38.56 | +47.18 | +8.62 |
-| Total Impact | -20.06 | -6.57 | +13.49 |
+| Trade Impact | -63.12 | -47.78 | +15.34 |
+| Wire Impact | +50.54 | +59.16 | +8.62 |
+| Total Impact | -12.58 | +11.38 | +23.96 |
 
 ## Estimated absences
 
@@ -29,27 +29,31 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | 5 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
 | 5 | Travis Etienne | 0.00 | 8.47 | W1: 11.30, W2: 6.10, W3: 8.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=) |
 | 5 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAKAAAAAAAOliY=) |
+| 6 | Travis Etienne | 0.00 | 8.47 | W1: 11.30, W2: 6.10, W3: 8.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAHAAAAAAAOlZU=) |
+| 6 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAKAAAAAAAOliY=) |
 
 ## Confirmed absences without enough baseline data
 
 - Week 2: Omar Cooper; 1 earlier qualifying games. [Evidence](https://www.nfl.com/injuries/league/2026/reg2).
 - Week 4: Zach Charbonnet; 0 earlier qualifying games. [Evidence](https://www.nfl.com/injuries/league/2026/reg4).
 - Week 5: Zach Charbonnet; 0 earlier qualifying games. [Evidence](https://www.nfl.com/injuries/league/2026/reg5).
+- Week 6: Zach Charbonnet; 0 earlier qualifying games. [Evidence](https://www.nfl.com/injuries/league/2026/reg6).
 
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Josh Jacobs.
 - Week 1: Zach Charbonnet.
-- Week 2: Josh Jacobs.
+- Week 1: Josh Jacobs.
 - Week 2: Zach Charbonnet.
-- Week 3: Omar Cooper.
-- Week 3: Josh Jacobs.
+- Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
-- Week 4: Omar Cooper.
+- Week 3: Josh Jacobs.
+- Week 3: Omar Cooper.
 - Week 4: Josh Jacobs.
-- Week 5: Omar Cooper.
+- Week 4: Omar Cooper.
 - Week 5: Josh Jacobs.
+- Week 5: Omar Cooper.
+- Week 6: Josh Jacobs.
 
 ## Weekly impact
 
@@ -60,6 +64,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 3 | -18.64 | -18.64 | -11.44 | -11.44 |
 | 4 | +5.70 | +9.00 | +17.82 | +25.78 |
 | 5 | -22.38 | -20.81 | -4.64 | +0.89 |
+| 6 | -4.50 | +5.97 | +7.48 | +17.95 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -135,6 +140,21 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | FLEX | Ja'Marr Chase | 16.70 | Ja'Marr Chase | 16.70 |
 | K | Spencer Shrader | 21.00 | Spencer Shrader | 21.00 |
 | DEF | Houston Texans | 16.00 | Houston Texans | 16.00 |
+
+## Week 6 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | C.J. Stroud | 23.98 | C.J. Stroud | 23.98 |
+| RB | Braelon Allen | 11.40 | Braelon Allen | 11.40 |
+| RB | Jadarian Price | 4.00 | Ashton Jeanty | 13.80 |
+| WR | Keon Coleman | 13.90 | Keon Coleman | 13.90 |
+| WR | Luther Burden | 13.50 | Keenan Allen | 12.20 |
+| TE | Jake Ferguson | 3.30 | Jake Ferguson | 3.30 |
+| FLEX | Keenan Allen | 12.20 | Luther Burden | 13.50 |
+| FLEX | Chris Olave | 12.30 | Travis Etienne | 8.47 |
+| K | Spencer Shrader | 9.00 | Spencer Shrader | 9.00 |
+| DEF | Houston Texans | 1.00 | Houston Texans | 1.00 |
 
 ## Source health
 

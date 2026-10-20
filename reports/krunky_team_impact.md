@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-10-19T22:29:42.036205+00:00. Through Week 5 (complete).
+Updated 2026-10-20T05:01:53.286952+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 726.08 |
-| Draft + trades only | 756.80 |
-| Draft + waiver / FA moves only | 702.32 |
-| All moves (weekly team) | 739.24 |
+| Original draft | 855.98 |
+| Draft + trades only | 924.70 |
+| Draft + waiver / FA moves only | 834.56 |
+| All moves (weekly team) | 898.24 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | -23.76 |
-| Trade impact with wire moves held fixed | +36.92 |
-| **Total improvement** | **+13.16** |
-| Trades-only effect (reference, not additive) | +30.72 |
-| Trade / wire interaction (included in trade impact) | +6.20 |
+| Waiver / FA baseline impact | -21.42 |
+| Trade impact with wire moves held fixed | +63.68 |
+| **Total improvement** | **+42.26** |
+| Trades-only effect (reference, not additive) | +68.72 |
+| Trade / wire interaction (included in trade impact) | -5.04 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -34,6 +34,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 3 | 118.94 | 130.54 | 106.84 | 118.44 | -12.10 | 11.60 | -0.50 |
 | 4 | 134.72 | 154.32 | 142.86 | 162.46 | 8.14 | 19.60 | 27.74 |
 | 5 | 148.74 | 116.56 | 143.44 | 118.36 | -5.30 | -25.08 | -30.38 |
+| 6 | 129.90 | 167.90 | 132.24 | 159.00 | 2.34 | 26.76 | 29.10 |
 
 ## Current roster inventory
 
@@ -113,3 +114,17 @@ Replaying completed eligible moves from the draft matches this live roster.
 | FLEX | Parker Washington | 27.40 | Parker Washington | 27.40 |
 | K | Brandon Aubrey | 5.00 | Brandon Aubrey | 5.00 |
 | DEF | Jacksonville Jaguars | 2.00 | Jacksonville Jaguars | 2.00 |
+## Week 6 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Bryce Young | 19.84 | Caleb Williams | 16.50 |
+| RB | Jonathan Taylor | 20.10 | Rachaad White | 13.70 |
+| RB | Rachaad White | 13.70 | Kenneth Walker | 26.90 |
+| WR | Malik Nabers | 22.50 | Malik Nabers | 22.50 |
+| WR | Jalen Coker | 12.70 | DK Metcalf | 14.80 |
+| TE | Travis Kelce | 9.30 | Colston Loveland | 18.50 |
+| FLEX | Emeka Egbuka | 14.30 | D'Andre Swift | 21.00 |
+| FLEX | DK Metcalf | 14.80 | Jonathan Taylor | 20.10 |
+| K | Brandon Aubrey | 1.00 | Brandon Aubrey | 1.00 |
+| DEF | Carolina Panthers | 4.00 | Carolina Panthers | 4.00 |
