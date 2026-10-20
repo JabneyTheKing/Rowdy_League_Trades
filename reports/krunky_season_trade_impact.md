@@ -1,6 +1,6 @@
 # How Krunky’s trades have impacted the season
 
-Updated 2026-10-20T05:01:53.286952+00:00. Through Week 6 (complete).
+Updated 2026-10-20T11:52:06.128549+00:00. Through Week 6 (complete).
 
 Under the stated lineup and waiver assumptions, Krunky’s trades have **added 63.68 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
 
