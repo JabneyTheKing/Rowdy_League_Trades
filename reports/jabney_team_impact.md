@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-10-21T12:04:05.656231+00:00. Through Week 6 (complete).
+Updated 2026-10-21T17:23:59.564186+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 746.68 |
-| Draft + trades only | 719.98 |
-| Draft + waiver / FA moves only | 799.12 |
+| Original draft | 744.44 |
+| Draft + trades only | 717.70 |
+| Draft + waiver / FA moves only | 798.00 |
 | All moves (weekly team) | 737.90 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +52.44 |
-| Trade impact with wire moves held fixed | -61.22 |
-| **Total improvement** | **-8.78** |
-| Trades-only effect (reference, not additive) | -26.70 |
-| Trade / wire interaction (included in trade impact) | -34.52 |
+| Waiver / FA baseline impact | +53.56 |
+| Trade impact with wire moves held fixed | -60.10 |
+| **Total improvement** | **-6.54** |
+| Trades-only effect (reference, not additive) | -26.74 |
+| Trade / wire interaction (included in trade impact) | -33.36 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -34,13 +34,13 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 3 | 146.06 | 126.02 | 153.26 | 134.62 | 7.20 | -18.64 | -11.44 |
 | 4 | 96.28 | 131.20 | 108.40 | 114.10 | 12.12 | 5.70 | 17.82 |
 | 5 | 130.66 | 113.20 | 148.40 | 126.02 | 17.74 | -22.38 | -4.64 |
-| 6 | 97.30 | 96.68 | 111.18 | 108.58 | 13.88 | -2.60 | 11.28 |
+| 6 | 95.06 | 94.40 | 110.06 | 108.58 | 15.00 | -1.48 | 13.52 |
 
 ## Current roster inventory
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Braelon Allen, Keon Coleman, Kirk Cousins, Spencer Shrader, Harold Fannin, Tre' Harris, Luther Burden, Antonio Williams, Keenan Allen, Lamar Jackson, Josh Jacobs, A.J. Brown, CeeDee Lamb, Travis Etienne, Ja'Marr Chase, Breece Hall, Puka Nacua, C.J. Stroud, Houston Texans
+Braelon Allen, Keon Coleman, Spencer Shrader, Harold Fannin, Luther Burden, Antonio Williams, Keenan Allen, Lamar Jackson, Josh Jacobs, A.J. Brown, CeeDee Lamb, Travis Etienne, Ja'Marr Chase, Breece Hall, Puka Nacua, C.J. Stroud, Houston Texans
 
 Replaying completed eligible moves from the draft matches this live roster.
 
@@ -120,7 +120,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 |---|---|---:|---|---:|
 | QB | C.J. Stroud | 23.98 | C.J. Stroud | 23.98 |
 | RB | Braelon Allen | 11.40 | Braelon Allen | 11.40 |
-| RB | Waiver cover (RB) | 10.60 | Ashton Jeanty | 13.80 |
+| RB | Waiver cover (RB) | 9.48 | Ashton Jeanty | 13.80 |
 | WR | Keon Coleman | 13.90 | Keon Coleman | 13.90 |
 | WR | Luther Burden | 13.50 | Antonio Williams | 6.50 |
 | TE | Jake Ferguson | 3.30 | Jake Ferguson | 3.30 |

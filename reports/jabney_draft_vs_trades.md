@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-10-21T12:04:05.656231+00:00. Through Week 6 (complete).
+Updated 2026-10-21T17:23:59.564186+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -17,8 +17,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 3 | 146.06 | 126.02 | -20.04 |
 | 4 | 96.28 | 131.20 | +34.92 |
 | 5 | 130.66 | 113.20 | -17.46 |
-| 6 | 97.30 | 96.68 | -0.62 |
-| **Total** | **746.68** | **719.98** | **-26.70** |
+| 6 | 95.06 | 94.40 | -0.66 |
+| **Total** | **744.44** | **717.70** | **-26.74** |
 
 ## Original drafted roster
 
@@ -99,12 +99,12 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
 | QB | Josh Allen | 18.30 | Daniel Jones | 15.76 |
-| RB | Waiver cover (RB) | 10.60 | Ashton Jeanty | 13.80 |
-| RB | Waiver cover (RB) | 10.60 | Waiver cover (RB) | 10.60 |
+| RB | Waiver cover (RB) | 9.48 | Ashton Jeanty | 13.80 |
+| RB | Waiver cover (RB) | 9.48 | Waiver cover (RB) | 9.48 |
 | WR | Luther Burden | 13.50 | Luther Burden | 13.50 |
 | WR | Omar Cooper | 19.30 | Omar Cooper | 19.30 |
 | TE | Jake Ferguson | 3.30 | Harold Fannin | 1.90 |
 | FLEX | Davante Adams | 5.40 | Jake Ferguson | 3.30 |
-| FLEX | Chris Olave | 12.30 | Waiver cover (TE) | 14.52 |
+| FLEX | Chris Olave | 12.30 | Waiver cover (TE) | 13.36 |
 | K | Tyler Loop | 3.00 | Tyler Loop | 3.00 |
 | DEF | Houston Texans | 1.00 | Houston Texans | 1.00 |

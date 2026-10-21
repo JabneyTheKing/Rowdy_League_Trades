@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-21T12:04:05.656231+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-21T17:23:59.564186+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -63,6 +63,8 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | AfootCoronet56 | Rico Dowdle | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Darnell Washington | Courtland Sutton | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| DiscipleJack | Roschon Johnson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | T.J. Hockenson | AJ Barner | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -79,6 +81,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | therealbulker | Tyreek Hill | Joe Flacco | 4–6 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Tennessee Titans | Indianapolis Colts | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
