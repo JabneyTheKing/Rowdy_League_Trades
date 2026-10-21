@@ -1,6 +1,6 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-10-21T05:01:49.663656+00:00. Through Week 6 (complete).
+Updated 2026-10-21T12:04:05.656231+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 758.28 |
-| Draft + trades only | 856.58 |
-| Draft + waiver / FA moves only | 772.96 |
+| Original draft | 756.38 |
+| Draft + trades only | 855.64 |
+| Draft + waiver / FA moves only | 771.06 |
 | All moves (weekly team) | 854.30 |
 
 | Attribution | Improvement |
 |---|---:|
 | Waiver / FA baseline impact | +14.68 |
-| Trade impact with wire moves held fixed | +81.34 |
-| **Total improvement** | **+96.02** |
-| Trades-only effect (reference, not additive) | +98.30 |
-| Trade / wire interaction (included in trade impact) | -16.96 |
+| Trade impact with wire moves held fixed | +83.24 |
+| **Total improvement** | **+97.92** |
+| Trades-only effect (reference, not additive) | +99.26 |
+| Trade / wire interaction (included in trade impact) | -16.02 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -34,13 +34,13 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 3 | 126.74 | 138.22 | 115.34 | 125.22 | -11.40 | 9.88 | -1.52 |
 | 4 | 158.32 | 150.22 | 164.62 | 155.82 | 6.30 | -8.80 | -2.50 |
 | 5 | 128.46 | 167.26 | 143.20 | 171.70 | 14.74 | 28.50 | 43.24 |
-| 6 | 99.68 | 109.70 | 89.92 | 97.68 | -9.76 | 7.76 | -2.00 |
+| 6 | 97.78 | 108.76 | 88.02 | 97.68 | -9.76 | 9.66 | -0.10 |
 
 ## Current roster inventory
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Bucky Irving, Rome Odunze, Woody Marks, RJ Harvey, Kyle Monangai, Jordyn Tyson, KC Concepcion, Matthew Stafford, Nick Folk, Nico Collins, Trey McBride, George Pickens, Chig Okonkwo, Jahmyr Gibbs, Brenton Strange, Zay Flowers, Indianapolis Colts
+Bucky Irving, Rome Odunze, Woody Marks, Kyle Monangai, Jordyn Tyson, KC Concepcion, Matthew Stafford, Nick Folk, Nico Collins, Trey McBride, George Pickens, James Cook, Chig Okonkwo, Jahmyr Gibbs, Brenton Strange, Zay Flowers, Tennessee Titans
 
 Replaying completed eligible moves from the draft matches this live roster.
 
@@ -120,7 +120,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 |---|---|---:|---|---:|
 | QB | Aaron Rodgers | 17.02 | Matthew Stafford | 16.88 |
 | RB | Woody Marks | 9.10 | Woody Marks | 9.10 |
-| RB | Waiver cover (RB) | 12.50 | RJ Harvey | 13.10 |
+| RB | Waiver cover (RB) | 10.60 | RJ Harvey | 13.10 |
 | WR | KC Concepcion | 5.90 | Nico Collins | 9.40 |
 | WR | Nico Collins | 9.40 | George Pickens | 10.30 |
 | TE | Brenton Strange | 9.40 | Chig Okonkwo | 13.90 |

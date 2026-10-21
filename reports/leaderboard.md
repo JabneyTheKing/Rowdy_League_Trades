@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-21T05:01:49.663656+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-21T12:04:05.656231+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,18 +8,18 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | krunky | Grand Theft Aubrey | +82.32 | 5 | 5 | Yes |
-| 2 | TheRealNoodleMan | Gibbs of War | +65.14 | 4 | 4 | No |
-| 3 | SethLL | Red Dead Zachdemption | +65.10 | 2 | 2 | No |
+| 1 | krunky | Grand Theft Aubrey | +82.32 | 5 | 6 | Yes |
+| 2 | TheRealNoodleMan | Gibbs of War | +65.14 | 4 | 5 | Yes |
+| 3 | SethLL | Red Dead Zachdemption | +65.10 | 2 | 3 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +45.58 | 5 | 5 | Yes |
-| 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 4 | No |
-| 6 | DiscipleJack | Super Lamario | +0.00 | 0 | 0 | No |
-| 7 | Dawg2003 | The Windhelm Nords  | -25.80 | 2 | 2 | No |
+| 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 5 | Yes |
+| 6 | DiscipleJack | JEFFERSON'S CREED | +0.00 | 0 | 1 | No |
+| 7 | Dawg2003 | The Windhelm Nords  | -25.80 | 2 | 4 | Yes |
 | 8 | lfain20 | Mortal Kombat: DARTside | -26.82 | 4 | 4 | Yes |
 | 9 | RollnWithJesus | Breach & Touchdown | -27.08 | 3 | 3 | Yes |
 | 10 | therealbulker | MidnightClub Rice Edition | -27.24 | 1 | 1 | No |
-| 11 | AfootCoronet56 | Suicide Squad (the game) | -34.36 | 3 | 3 | Yes |
-| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -121.04 | 6 | 6 | Yes |
+| 11 | AfootCoronet56 | Suicide Squad (the game) | -34.36 | 3 | 4 | Yes |
+| 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -121.04 | 6 | 8 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -232,3 +232,80 @@ krunky picks sent: 2027 round 13 (original roster 1), 2027 round 15 (original ro
 RollnWithJesus picks received: 2027 round 13 (original roster 1), 2027 round 15 (original roster 1). Value not included in points.
 
 RollnWithJesus picks sent: 2028 round 16 (original roster 11). Value not included in points.
+
+### Trade 1418087545975111680
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Puka Nacua (0.00) | Jake Ferguson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain / The Lost Cause Fallacy | Jake Ferguson (0.00) | Puka Nacua (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 5 (original roster 6). Value not included in points.
+
+JabneyTheKing picks sent: 2027 round 2 (original roster 3), 2027 round 6 (original roster 4). Value not included in points.
+
+Potatomain picks received: 2027 round 2 (original roster 3), 2027 round 6 (original roster 4). Value not included in points.
+
+Potatomain picks sent: 2027 round 5 (original roster 6). Value not included in points.
+
+### Trade 1418058524688240640
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Lamar Jackson (0.00), A.J. Brown (0.00), CeeDee Lamb (0.00) | Ashton Jeanty (0.00), Justin Jefferson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack / JEFFERSON'S CREED | Ashton Jeanty (0.00), Justin Jefferson (0.00) | Lamar Jackson (0.00), A.J. Brown (0.00), CeeDee Lamb (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1418036980532432896
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| Dawg2003 / The Windhelm Nords  | Bo Nix (0.00) | Drake Maye (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| SethLL / Red Dead Zachdemption | Drake Maye (0.00) | Bo Nix (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+Dawg2003 picks received: 2027 round 8 (original roster 10). Value not included in points.
+
+FAAB received: 20; sent: 0. Not included in points.
+
+SethLL picks sent: 2027 round 8 (original roster 10). Value not included in points.
+
+FAAB received: 0; sent: 20. Not included in points.
+
+### Trade 1418031898336256000
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| TheRealNoodleMan / Gibbs of War | James Cook (0.00) | RJ Harvey (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 / The Windhelm Nords  | RJ Harvey (0.00) | James Cook (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+TheRealNoodleMan picks received: 2027 round 8 (original roster 9). Value not included in points.
+
+TheRealNoodleMan picks sent: 2027 round 3 (original roster 2). Value not included in points.
+
+Dawg2003 picks received: 2027 round 3 (original roster 2). Value not included in points.
+
+Dawg2003 picks sent: 2027 round 8 (original roster 9). Value not included in points.
+
+### Trade 1418017272269651968
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Kenyon Sadiq (0.00) | Rachaad White (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 / Suicide Squad (the game) | Rachaad White (0.00) | Kenyon Sadiq (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 16 (original roster 5). Value not included in points.
+
+FAAB received: 10; sent: 0. Not included in points.
+
+AfootCoronet56 picks sent: 2027 round 16 (original roster 5). Value not included in points.
+
+FAAB received: 0; sent: 10. Not included in points.

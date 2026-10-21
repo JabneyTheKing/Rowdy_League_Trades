@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-21T05:01:49.663656+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-21T12:04:05.656231+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -39,3 +39,15 @@ First scoring week: **5**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | Potatomain / The Lost Cause Fallacy | Jaylen Warren (42.60), Puka Nacua (40.20) | Aaron Jones (17.20), Jaxon Smith-Njigba (39.70) | 82.80 | 56.90 | +25.90 | scored |
+
+### Trade 1418087545975111680
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| Potatomain / The Lost Cause Fallacy | Jake Ferguson (0.00) | Puka Nacua (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+Potatomain picks received: 2027 round 2 (original roster 3), 2027 round 6 (original roster 4). Value not included in points.
+
+Potatomain picks sent: 2027 round 5 (original roster 6). Value not included in points.

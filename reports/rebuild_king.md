@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-21T05:01:49.663656+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-21T12:04:05.656231+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -12,7 +12,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | 4 | lfain20 | Mortal Kombat: DARTside | -26.82 | 83.92 | 10.20 | +67.30 |
 | 5 | Potatomain | The Lost Cause Fallacy | +42.20 | 22.40 | 1.10 | +65.70 |
 | 6 | SethLL | Red Dead Zachdemption | -8.10 | 0.00 | 62.48 | +54.38 |
-| 7 | DiscipleJack | Super Lamario | +0.00 | 0.00 | 44.58 | +44.58 |
+| 7 | DiscipleJack | JEFFERSON'S CREED | +0.00 | 0.00 | 44.58 | +44.58 |
 | 8 | AfootCoronet56 | Suicide Squad (the game) | +12.40 | 13.90 | 18.00 | +44.30 |
 | 9 | Dawg2003 | The Windhelm Nords  | -25.80 | 1.50 | 63.30 | +39.00 |
 | 10 | oneyjb | Bower's Inside Story | +60.74 | -28.50 | 2.10 | +34.34 |
@@ -59,6 +59,8 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Courtland Sutton | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Rico Dowdle | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Darnell Washington | Courtland Sutton | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -68,13 +70,17 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | krunky | Michael Penix | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | DeMario Douglas | Efton Chism | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | Brian Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–6 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Tennessee Titans | Indianapolis Colts | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
