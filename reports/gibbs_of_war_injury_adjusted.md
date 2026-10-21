@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-10-21T17:23:59.564186+00:00; through Week 6.
+Updated 2026-10-21T21:50:43.278742+00:00; through Week 6.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -25,10 +25,10 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Week | Player | Actual | Estimate | Earlier sample | Evidence |
 |---:|---|---:|---:|---|---|
 | 4 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
-| 5 | Michael Pittman | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAMAAAAAAAOlzo=) |
+| 5 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAMAAAAAAAOlzo=) |
 | 5 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
-| 6 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAMAAAAAAAOlzo=) |
-| 6 | Michael Pittman | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAMAAAAAAAOlzo=) |
+| 6 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAANAAAAAAAOl5s=) |
+| 6 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAMAAAAAAAOlzo=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -106,7 +106,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | QB | Jalen Hurts | 13.52 | Jalen Hurts | 13.52 |
 | RB | Kyle Monangai | 27.50 | Kyle Monangai | 27.50 |
 | RB | Jahmyr Gibbs | 15.70 | Jahmyr Gibbs | 15.70 |
-| WR | KC Concepcion | 8.90 | Rome Odunze | 12.40 |
+| WR | KC Concepcion Jr. | 8.90 | Rome Odunze | 12.40 |
 | WR | Nico Collins | 27.30 | Nico Collins | 27.30 |
 | TE | Sam LaPorta | 22.40 | Brenton Strange | 16.50 |
 | FLEX | Brenton Strange | 16.50 | Trey McBride | 10.10 |
@@ -136,7 +136,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | QB | Aaron Rodgers | 17.02 | Matthew Stafford | 16.88 |
 | RB | Woody Marks | 9.10 | Woody Marks | 9.10 |
 | RB | Waiver cover (RB) | 9.48 | RJ Harvey | 13.10 |
-| WR | KC Concepcion | 5.90 | Nico Collins | 9.40 |
+| WR | KC Concepcion Jr. | 5.90 | Nico Collins | 9.40 |
 | WR | Nico Collins | 9.40 | George Pickens | 10.30 |
 | TE | Brenton Strange | 9.40 | Chig Okonkwo | 13.90 |
 | FLEX | Chig Okonkwo | 13.90 | Trey McBride | 12.30 |

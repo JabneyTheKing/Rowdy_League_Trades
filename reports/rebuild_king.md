@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-21T17:23:59.564186+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-21T21:50:43.278742+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -31,7 +31,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–6 | 39.70 | 14.30 | +25.40 | scored |
 | AfootCoronet56 | Malik Washington | Tyjae Spears | 3–6 | 27.20 | 8.20 | +19.00 | scored |
 | RollnWithJesus | MarShawn Lloyd | — | 5–6 | 17.20 | 0.00 | +17.20 | scored |
-| SethLL | Tyler Bass | Brian Thomas | 6–6 | 17.00 | 0.00 | +17.00 | scored |
+| SethLL | Tyler Bass | Brian Thomas Jr. | 6–6 | 17.00 | 0.00 | +17.00 | scored |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | 6–6 | 16.00 | 0.00 | +16.00 | scored |
 | RollnWithJesus | Darius Cooper | — | 5–6 | 15.50 | 0.00 | +15.50 | scored |
 | Dawg2003 | New England Patriots | — | 5–6 | 14.00 | 0.00 | +14.00 | scored |
@@ -43,12 +43,12 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
 | DiscipleJack | Cam Ward | — | 6–6 | 7.78 | 0.00 | +7.78 | scored |
 | JabneyTheKing | Antonio Williams | Kalif Raymond | 5–6 | 11.10 | 4.70 | +6.40 | scored |
-| therealbulker | Jacoby Brissett | Brian Robinson | 6–6 | 7.92 | 2.00 | +5.92 | scored |
+| therealbulker | Jacoby Brissett | Brian Robinson Jr. | 6–6 | 7.92 | 2.00 | +5.92 | scored |
 | lfain20 | DeMario Douglas | — | 2–3 | 5.70 | 0.00 | +5.70 | scored |
-| lfain20 | Efton Chism | Isaiah Williams | 5–6 | 8.40 | 2.80 | +5.60 | scored |
+| lfain20 | Efton Chism III | Isaiah Williams | 5–6 | 8.40 | 2.80 | +5.60 | scored |
 | SethLL | Los Angeles Rams | Cincinnati Bengals | 6–6 | 4.00 | 0.00 | +4.00 | scored |
 | TheRealNoodleMan | Nick Folk | Ryan Fitzgerald | 5–6 | 13.00 | 9.00 | +4.00 | scored |
-| lfain20 | Mike Washington | — | 4–5 | 3.70 | 0.00 | +3.70 | scored |
+| lfain20 | Mike Washington Jr. | — | 4–5 | 3.70 | 0.00 | +3.70 | scored |
 | krunky | Carolina Panthers | Jacksonville Jaguars | 6–6 | 4.00 | 1.00 | +3.00 | scored |
 | Potatomain | New York Giants | George Holani | 5–5 | 6.00 | 3.10 | +2.90 | scored |
 | JabneyTheKing | Tre' Harris | Joe Mixon | 5–6 | 2.60 | 0.00 | +2.60 | scored |
@@ -56,7 +56,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | DiscipleJack | Chicago Bears | Philadelphia Eagles | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | DiscipleJack | Baltimore Ravens | New York Jets | 6–6 | 9.00 | 7.00 | +2.00 | scored |
 | JabneyTheKing | Zach Ertz | — | 3–3 | 1.90 | 0.00 | +1.90 | scored |
-| RollnWithJesus | Chris Rodriguez | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
+| RollnWithJesus | Chris Rodriguez Jr. | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | Courtland Sutton | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
@@ -69,32 +69,32 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| krunky | Michael Penix | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| lfain20 | DeMario Douglas | Efton Chism | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | DeMario Douglas | Efton Chism III | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| Potatomain | Brian Robinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Potatomain | Brian Robinson Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–6 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
-| TheRealNoodleMan | Aaron Rodgers | Michael Pittman | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Tennessee Titans | Indianapolis Colts | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
 | lfain20 | Jauan Jennings | DeMario Douglas | 4–4 | 1.30 | 2.50 | -1.20 | scored |
-| lfain20 | Blake Grupe | Mike Washington | 6–6 | 4.00 | 5.50 | -1.50 | scored |
+| lfain20 | Blake Grupe | Mike Washington Jr. | 6–6 | 4.00 | 5.50 | -1.50 | scored |
 | JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |
-| lfain20 | Ted Hurst | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
+| lfain20 | Ted Hurst III | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
 | Dawg2003 | Tyler Loop | Cam Little | 4–6 | 24.00 | 31.00 | -7.00 | scored |
 | therealbulker | Chase McLaughlin | Cameron Dicker | 3–4 | 14.00 | 21.00 | -7.00 | scored |
-| krunky | Rachaad White | Michael Penix | 6–6 | 13.70 | 23.10 | -9.40 | scored |
+| krunky | Rachaad White | Michael Penix Jr. | 6–6 | 13.70 | 23.10 | -9.40 | scored |
 | lfain20 | Darren Waller | Chig Okonkwo | 3–6 | 16.70 | 26.40 | -9.70 | scored |
 | Potatomain | Green Bay Packers | Minnesota Vikings | 2–2 | 5.00 | 18.00 | -13.00 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–6 | 11.10 | 25.00 | -13.90 | scored |

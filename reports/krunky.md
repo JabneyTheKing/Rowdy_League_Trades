@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-21T17:23:59.564186+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-21T21:50:43.278742+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -12,7 +12,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Brian Thomas (21.00), Kenneth Walker (131.00) | Emeka Egbuka (57.10), Rhamondre Stevenson (56.90) | 152.00 | 114.00 | +38.00 | scored |
+| krunky / Grand Theft Aubrey | Brian Thomas Jr. (21.00), Kenneth Walker III (131.00) | Emeka Egbuka (57.10), Rhamondre Stevenson (56.90) | 152.00 | 114.00 | +38.00 | scored |
 
 ### Trade 1408228309090742272
 
@@ -20,7 +20,7 @@ First scoring week: **3**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Marvin Harrison (18.10) | Brian Thomas (10.00) | 18.10 | 10.00 | +8.10 | scored |
+| krunky / Grand Theft Aubrey | Marvin Harrison Jr. (18.10) | Brian Thomas Jr. (10.00) | 18.10 | 10.00 | +8.10 | scored |
 
 ### Trade 1410837390251110400
 
@@ -48,7 +48,7 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (13.40), D'Andre Swift (21.00) | Ollie Gordon (0.00), DJ Moore (0.00), Kendre Miller (8.00) | 34.40 | 8.00 | +26.40 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (13.40), D'Andre Swift (21.00) | Ollie Gordon II (0.00), DJ Moore (0.00), Kendre Miller (8.00) | 34.40 | 8.00 | +26.40 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 

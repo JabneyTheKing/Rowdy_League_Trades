@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-10-21T17:23:59.564186+00:00. Through Week 6 (complete).
+Updated 2026-10-21T21:50:43.278742+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -22,7 +22,7 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 
 ## Original drafted roster
 
-Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon Sadiq, Davante Adams, Josh Allen, Josh Jacobs, Daniel Jones, Ja'Marr Chase, Jake Ferguson, Chris Olave, Zach Charbonnet, Houston Texans
+Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price, Kenyon Sadiq, Davante Adams, Josh Allen, Josh Jacobs, Daniel Jones, Ja'Marr Chase, Jake Ferguson, Chris Olave, Zach Charbonnet, Houston Texans
 
 ## Week 1 optimal lineups
 
@@ -31,8 +31,8 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | QB | Josh Allen | 35.66 | Josh Allen | 35.66 |
 | RB | Quinshon Judkins | 6.00 | Quinshon Judkins | 6.00 |
 | RB | Jadarian Price | 6.80 | Jadarian Price | 6.80 |
-| WR | Luther Burden | 7.00 | Luther Burden | 7.00 |
-| WR | Omar Cooper | 3.50 | Omar Cooper | 3.50 |
+| WR | Luther Burden III | 7.00 | Luther Burden III | 7.00 |
+| WR | Omar Cooper Jr. | 3.50 | Omar Cooper Jr. | 3.50 |
 | TE | Kenyon Sadiq | 11.40 | Sam LaPorta | 9.80 |
 | FLEX | Davante Adams | 4.10 | De'Von Achane | 8.60 |
 | FLEX | Chris Olave | 23.20 | Jaxon Smith-Njigba | 22.20 |
@@ -45,7 +45,7 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | QB | Josh Allen | 40.82 | Josh Allen | 40.82 |
 | RB | Quinshon Judkins | 7.30 | Quinshon Judkins | 7.30 |
 | RB | Jadarian Price | 4.50 | Jadarian Price | 4.50 |
-| WR | Luther Burden | 4.70 | Luther Burden | 4.70 |
+| WR | Luther Burden III | 4.70 | Luther Burden III | 4.70 |
 | WR | Ja'Marr Chase | 23.00 | Terry McLaurin | 6.00 |
 | TE | Jake Ferguson | 20.30 | Sam LaPorta | 17.20 |
 | FLEX | Davante Adams | 35.50 | De'Von Achane | 10.80 |
@@ -59,7 +59,7 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | QB | Josh Allen | 18.96 | Josh Allen | 18.96 |
 | RB | Quinshon Judkins | 8.90 | Quinshon Judkins | 8.90 |
 | RB | Jadarian Price | 0.70 | Jadarian Price | 0.70 |
-| WR | Luther Burden | 16.30 | Luther Burden | 16.30 |
+| WR | Luther Burden III | 16.30 | Luther Burden III | 16.30 |
 | WR | Davante Adams | 17.20 | Terry McLaurin | 16.70 |
 | TE | Kenyon Sadiq | 23.50 | Sam LaPorta | 7.40 |
 | FLEX | Ja'Marr Chase | 20.30 | De'Von Achane | 1.70 |
@@ -73,7 +73,7 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | QB | Josh Allen | 19.52 | Josh Allen | 19.52 |
 | RB | Quinshon Judkins | 18.60 | Quinshon Judkins | 18.60 |
 | RB | Waiver cover (RB) | 8.66 | Waiver cover (RB) | 8.66 |
-| WR | Luther Burden | 9.40 | Luther Burden | 9.40 |
+| WR | Luther Burden III | 9.40 | Luther Burden III | 9.40 |
 | WR | Ja'Marr Chase | 4.20 | Jaxon Smith-Njigba | 10.10 |
 | TE | Jake Ferguson | 4.10 | Sam LaPorta | 22.40 |
 | FLEX | Davante Adams | 5.20 | Waiver cover (WR) | 15.76 |
@@ -87,9 +87,9 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | QB | Josh Allen | 31.50 | Daniel Jones | 11.08 |
 | RB | Quinshon Judkins | 6.50 | Ashton Jeanty | 9.20 |
 | RB | Waiver cover (RB) | 7.96 | Waiver cover (RB) | 7.96 |
-| WR | Luther Burden | 6.90 | Luther Burden | 6.90 |
+| WR | Luther Burden III | 6.90 | Luther Burden III | 6.90 |
 | WR | Ja'Marr Chase | 16.70 | Justin Jefferson | 15.80 |
-| TE | Jake Ferguson | 4.90 | Harold Fannin | 1.40 |
+| TE | Jake Ferguson | 4.90 | Harold Fannin Jr. | 1.40 |
 | FLEX | Davante Adams | 19.60 | Ja'Marr Chase | 16.70 |
 | FLEX | Chris Olave | 6.60 | Waiver cover (WR) | 14.16 |
 | K | Tyler Loop | 14.00 | Tyler Loop | 14.00 |
@@ -101,9 +101,9 @@ Quinshon Judkins, Luther Burden, Tyler Loop, Omar Cooper, Jadarian Price, Kenyon
 | QB | Josh Allen | 18.30 | Daniel Jones | 15.76 |
 | RB | Waiver cover (RB) | 9.48 | Ashton Jeanty | 13.80 |
 | RB | Waiver cover (RB) | 9.48 | Waiver cover (RB) | 9.48 |
-| WR | Luther Burden | 13.50 | Luther Burden | 13.50 |
-| WR | Omar Cooper | 19.30 | Omar Cooper | 19.30 |
-| TE | Jake Ferguson | 3.30 | Harold Fannin | 1.90 |
+| WR | Luther Burden III | 13.50 | Luther Burden III | 13.50 |
+| WR | Omar Cooper Jr. | 19.30 | Omar Cooper Jr. | 19.30 |
+| TE | Jake Ferguson | 3.30 | Harold Fannin Jr. | 1.90 |
 | FLEX | Davante Adams | 5.40 | Jake Ferguson | 3.30 |
 | FLEX | Chris Olave | 12.30 | Waiver cover (TE) | 13.36 |
 | K | Tyler Loop | 3.00 | Tyler Loop | 3.00 |

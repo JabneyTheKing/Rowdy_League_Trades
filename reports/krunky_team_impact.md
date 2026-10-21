@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-10-21T17:23:59.564186+00:00. Through Week 6 (complete).
+Updated 2026-10-21T21:50:43.278742+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -40,7 +40,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Colston Loveland, Omar Cooper, Kenyon Sadiq, Travis Kelce, Stefon Diggs, James Conner, DK Metcalf, D'Andre Swift, Jonathan Taylor, Amon-Ra St. Brown, Kenneth Walker, Parker Washington, Dallas Cowboys
+Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Colston Loveland, Omar Cooper Jr., Kenyon Sadiq, Travis Kelce, Stefon Diggs, James Conner, DK Metcalf, D'Andre Swift, Jonathan Taylor, Amon-Ra St. Brown, Kenneth Walker III, Parker Washington, Dallas Cowboys
 
 Replaying completed eligible moves from the draft matches this live roster.
 
@@ -49,7 +49,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
 | QB | Caleb Williams | 37.26 | Caleb Williams | 37.26 |
-| RB | Jonathan Taylor | 23.60 | Kenneth Walker | 32.60 |
+| RB | Jonathan Taylor | 23.60 | Kenneth Walker III | 32.60 |
 | RB | Chase Brown | 16.30 | Chase Brown | 16.30 |
 | WR | Jalen Coker | 29.80 | Jalen Coker | 29.80 |
 | WR | Denzel Boston | 12.90 | DJ Moore | 18.50 |
@@ -64,7 +64,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 |---|---|---:|---|---:|
 | QB | Caleb Williams | 8.72 | Caleb Williams | 8.72 |
 | RB | Rachaad White | 11.30 | Rachaad White | 11.30 |
-| RB | Chase Brown | 9.70 | Kenneth Walker | 20.80 |
+| RB | Chase Brown | 9.70 | Kenneth Walker III | 20.80 |
 | WR | Jalen Coker | 10.60 | Jalen Coker | 10.60 |
 | WR | Denzel Boston | 18.00 | Denzel Boston | 18.00 |
 | TE | Travis Kelce | 25.10 | Travis Kelce | 25.10 |
@@ -78,7 +78,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 |---|---|---:|---|---:|
 | QB | Bryce Young | 14.64 | Bryce Young | 14.64 |
 | RB | Jonathan Taylor | 8.20 | Rachaad White | 10.60 |
-| RB | Rachaad White | 10.60 | Kenneth Walker | 20.30 |
+| RB | Rachaad White | 10.60 | Kenneth Walker III | 20.30 |
 | WR | Emeka Egbuka | 8.70 | DJ Moore | 9.70 |
 | WR | DJ Moore | 9.70 | DK Metcalf | 10.60 |
 | TE | Travis Kelce | 13.90 | Travis Kelce | 13.90 |
@@ -91,8 +91,8 @@ Replaying completed eligible moves from the draft matches this live roster.
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
 | QB | Bryce Young | 21.46 | Bryce Young | 21.46 |
-| RB | Ollie Gordon | 17.00 | Ollie Gordon | 17.00 |
-| RB | Chase Brown | 13.60 | Kenneth Walker | 30.40 |
+| RB | Ollie Gordon II | 17.00 | Ollie Gordon II | 17.00 |
+| RB | Chase Brown | 13.60 | Kenneth Walker III | 30.40 |
 | WR | Malik Nabers | 20.20 | Malik Nabers | 20.20 |
 | WR | DK Metcalf | 14.00 | DK Metcalf | 14.00 |
 | TE | Travis Kelce | 3.50 | Colston Loveland | 11.70 |
@@ -105,7 +105,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
 | QB | Waiver cover (QB) | 17.08 | Kyler Murray | 18.26 |
-| RB | Ollie Gordon | 14.80 | Ollie Gordon | 14.80 |
+| RB | Ollie Gordon II | 14.80 | Ollie Gordon II | 14.80 |
 | RB | Rhamondre Stevenson | 16.00 | Jonathan Taylor | 9.70 |
 | WR | Malik Nabers | 23.60 | Malik Nabers | 23.60 |
 | WR | Emeka Egbuka | 14.20 | DK Metcalf | 3.80 |
@@ -120,7 +120,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 |---|---|---:|---|---:|
 | QB | Bryce Young | 19.84 | Caleb Williams | 16.50 |
 | RB | Jonathan Taylor | 20.10 | Rachaad White | 13.70 |
-| RB | Rachaad White | 13.70 | Kenneth Walker | 26.90 |
+| RB | Rachaad White | 13.70 | Kenneth Walker III | 26.90 |
 | WR | Malik Nabers | 22.50 | Malik Nabers | 22.50 |
 | WR | Jalen Coker | 12.70 | DK Metcalf | 14.80 |
 | TE | Travis Kelce | 9.30 | Colston Loveland | 18.50 |

@@ -1,6 +1,6 @@
 # Krunky — Positional Value
 
-Updated 2026-10-21T17:23:59.564186+00:00. Through Week 6 (complete).
+Updated 2026-10-21T21:50:43.278742+00:00. Through Week 6 (complete).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -15,11 +15,11 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 
 | Move | Received / added | Sent / dropped | Raw net | Adjusted net | Status |
 |---|---|---|---:|---:|---|
-| Trade 1 | Brian Thomas, Kenneth Walker | Emeka Egbuka, Rhamondre Stevenson | +38.00 | +53.55 | scored |
-| Trade 2 | Marvin Harrison | Brian Thomas | +8.10 | +22.02 | scored |
+| Trade 1 | Brian Thomas Jr., Kenneth Walker III | Emeka Egbuka, Rhamondre Stevenson | +38.00 | +53.55 | scored |
+| Trade 2 | Marvin Harrison Jr. | Brian Thomas Jr. | +8.10 | +22.02 | scored |
 | Trade 3 | Colston Loveland, Amon-Ra St. Brown | Denzel Boston, Chase Brown | +11.40 | +5.43 | scored |
 | Trade 4 | Kyler Murray | Bryce Young | -1.58 | -7.32 | scored |
-| Trade 5 | Stefon Diggs, D'Andre Swift | Ollie Gordon, DJ Moore, Kendre Miller | +26.40 | +13.62 | scored |
+| Trade 5 | Stefon Diggs, D'Andre Swift | Ollie Gordon II, DJ Moore, Kendre Miller | +26.40 | +13.62 | scored |
 | Trade 6 | Kenyon Sadiq | Rachaad White | +0.00 | +0.00 | pending |
 
 ## Weekly positional baselines

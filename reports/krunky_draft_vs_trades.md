@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-10-21T17:23:59.564186+00:00. Through Week 6 (complete).
+Updated 2026-10-21T21:50:43.278742+00:00. Through Week 6 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -22,7 +22,7 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 
 ## Original drafted roster
 
-Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Emeka Egbuka, Denzel Boston, Travis Kelce, DJ Moore, DK Metcalf, Jonathan Taylor, Rhamondre Stevenson, Tyler Allgeier, Chase Brown, Parker Washington
+Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Emeka Egbuka, Denzel Boston, Travis Kelce, DJ Moore, DK Metcalf, Jonathan Taylor, Rhamondre Stevenson, Tyler Allgeier, Chase Brown, Parker Washington
 
 ## Week 1 optimal lineups
 
@@ -34,7 +34,7 @@ Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayd
 | WR | Denzel Boston | 12.90 | Jalen Coker | 29.80 |
 | WR | DJ Moore | 18.50 | DJ Moore | 18.50 |
 | TE | Travis Kelce | 10.10 | Travis Kelce | 10.10 |
-| FLEX | Jalen Coker | 29.80 | Kenneth Walker | 32.60 |
+| FLEX | Jalen Coker | 29.80 | Kenneth Walker III | 32.60 |
 | FLEX | Parker Washington | 16.80 | Parker Washington | 16.80 |
 | K | Brandon Aubrey | 1.00 | Brandon Aubrey | 1.00 |
 | DEF | Waiver cover (DEF) | 10.40 | Waiver cover (DEF) | 10.40 |
@@ -48,7 +48,7 @@ Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayd
 | WR | Emeka Egbuka | 8.80 | Jalen Coker | 10.60 |
 | WR | Denzel Boston | 18.00 | Denzel Boston | 18.00 |
 | TE | Travis Kelce | 25.10 | Travis Kelce | 25.10 |
-| FLEX | Jalen Coker | 10.60 | Kenneth Walker | 20.80 |
+| FLEX | Jalen Coker | 10.60 | Kenneth Walker III | 20.80 |
 | FLEX | Parker Washington | 13.30 | Parker Washington | 13.30 |
 | K | Brandon Aubrey | 16.00 | Brandon Aubrey | 16.00 |
 | DEF | Waiver cover (DEF) | 9.60 | Waiver cover (DEF) | 9.60 |
@@ -57,8 +57,8 @@ Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayd
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
 | QB | Waiver cover (QB) | 24.04 | Waiver cover (QB) | 24.04 |
-| RB | Chris Rodriguez | 9.70 | Chris Rodriguez | 9.70 |
-| RB | Jonathan Taylor | 8.20 | Kenneth Walker | 20.30 |
+| RB | Chris Rodriguez Jr. | 9.70 | Chris Rodriguez Jr. | 9.70 |
+| RB | Jonathan Taylor | 8.20 | Kenneth Walker III | 20.30 |
 | WR | Emeka Egbuka | 8.70 | DJ Moore | 9.70 |
 | WR | DJ Moore | 9.70 | DK Metcalf | 10.60 |
 | TE | Travis Kelce | 13.90 | Travis Kelce | 13.90 |
@@ -72,7 +72,7 @@ Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayd
 |---|---|---:|---|---:|
 | QB | Waiver cover (QB) | 14.02 | Waiver cover (QB) | 14.02 |
 | RB | Jonathan Taylor | 22.20 | Jonathan Taylor | 22.20 |
-| RB | Chase Brown | 13.60 | Kenneth Walker | 30.40 |
+| RB | Chase Brown | 13.60 | Kenneth Walker III | 30.40 |
 | WR | Malik Nabers | 20.20 | Malik Nabers | 20.20 |
 | WR | DK Metcalf | 14.00 | DK Metcalf | 14.00 |
 | TE | Travis Kelce | 3.50 | Colston Loveland | 11.70 |
@@ -99,8 +99,8 @@ Chris Rodriguez, Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayd
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
 | QB | Caleb Williams | 16.50 | Caleb Williams | 16.50 |
-| RB | Chris Rodriguez | 5.50 | D'Andre Swift | 21.00 |
-| RB | Jonathan Taylor | 20.10 | Kenneth Walker | 26.90 |
+| RB | Chris Rodriguez Jr. | 5.50 | D'Andre Swift | 21.00 |
+| RB | Jonathan Taylor | 20.10 | Kenneth Walker III | 26.90 |
 | WR | Malik Nabers | 22.50 | Stefon Diggs | 13.40 |
 | WR | Jalen Coker | 12.70 | DK Metcalf | 14.80 |
 | TE | Travis Kelce | 9.30 | Colston Loveland | 18.50 |

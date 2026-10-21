@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-21T17:23:59.564186+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-21T21:50:43.278742+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -26,7 +26,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook (45.10), Chris Olave (18.90) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (39.70) | 64.00 | 46.20 | +17.80 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook III (45.10), Chris Olave (18.90) | Quinshon Judkins (6.50), Jaxon Smith-Njigba (39.70) | 64.00 | 46.20 | +17.80 | scored |
 
 ### Trade 1413594244643360768
 
@@ -34,7 +34,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (23.00), Justin Jefferson (15.80), Jake Ferguson (3.30) | James Cook (45.10), Chris Olave (18.90) | 42.10 | 64.00 | -21.90 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (23.00), Justin Jefferson (15.80), Jake Ferguson (3.30) | James Cook III (45.10), Chris Olave (18.90) | 42.10 | 64.00 | -21.90 | scored |
 
 ### Trade 1413998894823612416
 
@@ -50,7 +50,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin (3.30), Travis Etienne (0.00) | Sam LaPorta (19.80), Jadarian Price (0.00) | 3.30 | 19.80 | -16.50 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin Jr. (3.30), Travis Etienne Jr. (0.00) | Sam LaPorta (19.80), Jadarian Price (0.00) | 3.30 | 19.80 | -16.50 | scored |
 
 ### Trade 1415375515950268416
 
