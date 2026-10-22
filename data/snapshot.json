@@ -25094,6 +25094,60 @@
     },
     {
       "adds": {
+        "11786": 4,
+        "12507": 4,
+        "7839": 7,
+        "9224": 7
+      },
+      "consenter_ids": [
+        4,
+        7
+      ],
+      "created": 1792505135198,
+      "creator": "994445675729321984",
+      "draft_picks": [
+        {
+          "league_id": null,
+          "owner_id": 7,
+          "previous_owner_id": 4,
+          "roster_id": 4,
+          "round": 5,
+          "season": "2027"
+        },
+        {
+          "league_id": null,
+          "owner_id": 4,
+          "previous_owner_id": 7,
+          "roster_id": 7,
+          "round": 3,
+          "season": "2027"
+        }
+      ],
+      "drops": {
+        "11786": 7,
+        "12507": 7,
+        "7839": 4,
+        "9224": 4
+      },
+      "leg": 6,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1418439273111101441",
+        "veto_msg_id": "1418439273203376128"
+      },
+      "roster_ids": [
+        4,
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1792649811817,
+      "transaction_id": "1418272968366206976",
+      "type": "trade",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
         "13276": 11
       },
       "consenter_ids": [
@@ -25118,6 +25172,68 @@
       "status_updated": 1792566547976,
       "transaction_id": "1418270622424817664",
       "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "6801": 7,
+        "8167": 6,
+        "8228": 7
+      },
+      "consenter_ids": [
+        6,
+        7
+      ],
+      "created": 1792502410429,
+      "creator": "1042263426653339648",
+      "draft_picks": [
+        {
+          "league_id": null,
+          "owner_id": 7,
+          "previous_owner_id": 6,
+          "roster_id": 6,
+          "round": 13,
+          "season": "2027"
+        },
+        {
+          "league_id": null,
+          "owner_id": 6,
+          "previous_owner_id": 7,
+          "roster_id": 7,
+          "round": 12,
+          "season": "2027"
+        },
+        {
+          "league_id": null,
+          "owner_id": 6,
+          "previous_owner_id": 7,
+          "roster_id": 7,
+          "round": 5,
+          "season": "2027"
+        }
+      ],
+      "drops": {
+        "6801": 6,
+        "8167": 7,
+        "8228": 6
+      },
+      "leg": 6,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1418261629249843200",
+        "veto_msg_id": "1418261629363068928"
+      },
+      "roster_ids": [
+        6,
+        7
+      ],
+      "settings": {
+        "is_counter": 1
+      },
+      "status": "complete",
+      "status_updated": 1792649811817,
+      "transaction_id": "1418261539860819968",
+      "type": "trade",
       "waiver_budget": []
     },
     {
@@ -26346,6 +26462,52 @@
       "status": "complete",
       "status_updated": 1791961818916,
       "transaction_id": "1415994134715494400",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12536": 6
+      },
+      "consenter_ids": [
+        6
+      ],
+      "created": 1792669174114,
+      "creator": "1042263426653339648",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 7,
+      "metadata": null,
+      "roster_ids": [
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1792669174114,
+      "transaction_id": "1418960997451923456",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        7
+      ],
+      "created": 1792665877193,
+      "creator": "994445675729321984",
+      "draft_picks": [],
+      "drops": {
+        "11565": 7
+      },
+      "leg": 7,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1792665877193,
+      "transaction_id": "1418947169162903552",
       "type": "free_agent",
       "waiver_budget": []
     },

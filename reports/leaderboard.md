@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-22T05:04:32.602145+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-22T12:07:00.935082+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -12,12 +12,12 @@ Player production includes bench points and continues after subsequent trades or
 | 2 | TheRealNoodleMan | Gibbs of War | +65.14 | 4 | 5 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +65.10 | 2 | 3 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +45.58 | 5 | 5 | Yes |
-| 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 5 | Yes |
+| 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 6 | Yes |
 | 6 | DiscipleJack | JEFFERSON'S CREED | +0.00 | 0 | 1 | No |
 | 7 | Dawg2003 | The Windhelm Nords  | -25.80 | 2 | 4 | Yes |
-| 8 | lfain20 | Mortal Kombat: DARTside | -26.82 | 4 | 4 | Yes |
+| 8 | lfain20 | Mortal Kombat: DARTside | -26.82 | 4 | 5 | Yes |
 | 9 | RollnWithJesus | Breach & Touchdown | -27.08 | 3 | 3 | Yes |
-| 10 | therealbulker | MidnightClub Rice Edition | -27.24 | 1 | 1 | No |
+| 10 | therealbulker | MidnightClub Rice Edition | -27.24 | 1 | 3 | Yes |
 | 11 | AfootCoronet56 | Suicide Squad (the game) | -34.36 | 3 | 4 | Yes |
 | 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -121.04 | 6 | 8 | Yes |
 
@@ -309,3 +309,37 @@ FAAB received: 10; sent: 0. Not included in points.
 AfootCoronet56 picks sent: 2027 round 16 (original roster 5). Value not included in points.
 
 FAAB received: 0; sent: 10. Not included in points.
+
+### Trade 1418272968366206976
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| lfain20 / Mortal Kombat: DARTside | Cam Little (0.00), Omarion Hampton (0.00) | Evan McPherson (0.00), Chase Brown (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker / MidnightClub Rice Edition | Evan McPherson (0.00), Chase Brown (0.00) | Cam Little (0.00), Omarion Hampton (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+lfain20 picks received: 2027 round 3 (original roster 7). Value not included in points.
+
+lfain20 picks sent: 2027 round 5 (original roster 4). Value not included in points.
+
+therealbulker picks received: 2027 round 5 (original roster 4). Value not included in points.
+
+therealbulker picks sent: 2027 round 3 (original roster 7). Value not included in points.
+
+### Trade 1418261539860819968
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| Potatomain / The Lost Cause Fallacy | Christian Watson (0.00) | Tee Higgins (0.00), Jaylen Warren (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker / MidnightClub Rice Edition | Tee Higgins (0.00), Jaylen Warren (0.00) | Christian Watson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
+
+Potatomain picks sent: 2027 round 13 (original roster 6). Value not included in points.
+
+therealbulker picks received: 2027 round 13 (original roster 6). Value not included in points.
+
+therealbulker picks sent: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.

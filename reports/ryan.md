@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-22T05:04:32.602145+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-22T12:07:00.935082+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -51,3 +51,15 @@ First scoring week: **7**
 Potatomain picks received: 2027 round 2 (original roster 3), 2027 round 6 (original roster 4). Value not included in points.
 
 Potatomain picks sent: 2027 round 5 (original roster 6). Value not included in points.
+
+### Trade 1418261539860819968
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| Potatomain / The Lost Cause Fallacy | Christian Watson (0.00) | Tee Higgins (0.00), Jaylen Warren (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
+
+Potatomain picks sent: 2027 round 13 (original roster 6). Value not included in points.
