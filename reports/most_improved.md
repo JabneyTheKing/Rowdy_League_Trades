@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-21T21:50:43.278742+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-22T05:04:32.602145+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -94,6 +94,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | DeMario Douglas | Efton Chism III | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | pending |
