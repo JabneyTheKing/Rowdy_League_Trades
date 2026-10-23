@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-23T11:51:04.687282+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-23T17:18:29.050096+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -88,6 +88,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Tennessee Titans | Indianapolis Colts | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Chase McLaughlin | Nick Folk | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| TheRealNoodleMan | Ryan Flournoy | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
