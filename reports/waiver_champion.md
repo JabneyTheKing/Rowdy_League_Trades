@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-23T05:04:12.659588+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-23T11:51:04.687282+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -12,7 +12,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 4 | krunky | Grand Theft Aubrey | 45.40 | 8 | $84 | Ollie Gordon II (24.10) |
 | 5 | therealbulker | MidnightClub Rice Edition | 23.40 | 9 | $99 | Brian Robinson Jr. (22.30) |
 | 6 | Potatomain | The Lost Cause Fallacy | 22.40 | 6 | $82 | Alvin Kamara (40.40) |
-| 7 | AfootCoronet56 | Suicide Squad (the game) | 13.90 | 4 | $40 | Dameon Pierce (13.00) |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | 13.90 | 5 | $40 | Dameon Pierce (13.00) |
 | 8 | Dawg2003 | The Windhelm Nords  | 1.50 | 3 | $23 | Kenny Gainwell (2.90) |
 | 9 | SethLL | Red Dead Zachdemption | 0.00 | 3 | $12 | Carson Wentz (0.00) |
 | 10 | TheRealNoodleMan | Gibbs of War | -0.32 | 7 | $38 | Matthew Stafford (12.68) |
@@ -51,6 +51,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | Kansas City Chiefs | Tampa Bay Buccaneers | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
 | AfootCoronet56 | Konata Mumpfield | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | New York Jets | San Francisco 49ers | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Cleveland Browns | Baltimore Ravens | $4 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Omar Cooper Jr. | Kyler Murray | $23 | No completed week | 0.00 | 0.00 | +0.00 | pending |
