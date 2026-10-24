@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-24T04:48:59.443658+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-24T11:18:25.501086+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -10,14 +10,14 @@ Player production includes bench points and continues after subsequent trades or
 |---:|---|---|---:|---:|---:|---|
 | 1 | krunky | Grand Theft Aubrey | +82.32 | 5 | 7 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +65.14 | 4 | 6 | Yes |
-| 3 | SethLL | Red Dead Zachdemption | +65.10 | 2 | 3 | Yes |
+| 3 | SethLL | Red Dead Zachdemption | +65.10 | 2 | 4 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +45.58 | 5 | 5 | Yes |
 | 5 | Potatomain | The Lost Cause Fallacy | +4.20 | 4 | 6 | Yes |
 | 6 | DiscipleJack | JEFFERSON'S CREED | +0.00 | 0 | 1 | No |
 | 7 | Dawg2003 | The Windhelm Nords  | -25.80 | 2 | 5 | Yes |
 | 8 | lfain20 | Mortal Kombat: DARTside | -26.82 | 4 | 5 | Yes |
 | 9 | RollnWithJesus | Breach & Touchdown | -27.08 | 3 | 4 | Yes |
-| 10 | therealbulker | MidnightClub Rice Edition | -27.24 | 1 | 6 | Yes |
+| 10 | therealbulker | MidnightClub Rice Edition | -27.24 | 1 | 7 | Yes |
 | 11 | AfootCoronet56 | Suicide Squad (the game) | -34.36 | 3 | 4 | Yes |
 | 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -121.04 | 6 | 9 | Yes |
 
@@ -403,3 +403,16 @@ First scoring week: **7**
 |---|---|---|---:|---:|---:|---|
 | krunky / Grand Theft Aubrey | Michael Mayer (0.00) | DK Metcalf (0.00) | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker / MidnightClub Rice Edition | DK Metcalf (0.00) | Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+### Trade 1418998741427363840
+
+First scoring week: **7**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| therealbulker / MidnightClub Rice Edition | Kyle Pitts Sr. (0.00), Tank Dell (0.00) | Devaughn Vele (0.00), Alec Pierce (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| SethLL / Red Dead Zachdemption | Devaughn Vele (0.00), Alec Pierce (0.00) | Kyle Pitts Sr. (0.00), Tank Dell (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+therealbulker picks sent: 2027 round 13 (original roster 7). Value not included in points.
+
+SethLL picks received: 2027 round 13 (original roster 7). Value not included in points.
