@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-24T16:05:42.300060+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-24T20:59:28.380938+00:00. Season 2026; scored through Week 6. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -82,6 +82,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Brian Robinson Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Jaylin Noel | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| SethLL | Seth McGowan | Fernando Mendoza | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–6 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
