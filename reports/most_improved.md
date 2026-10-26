@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-25T20:59:27.392482+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
+Updated 2026-10-26T05:01:07.538702+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 6.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
