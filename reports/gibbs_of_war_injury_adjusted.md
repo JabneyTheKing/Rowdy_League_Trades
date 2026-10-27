@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-10-27T03:30:31.617943+00:00; through Week 7.
+Updated 2026-10-27T03:32:28.215956+00:00; through Week 7.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -25,10 +25,10 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Week | Player | Actual | Estimate | Earlier sample | Evidence |
 |---:|---|---:|---:|---|---|
 | 4 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
-| 5 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAARAAAAAAAOmSI=) |
+| 5 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAOAAAAAAAOmKk=) |
 | 5 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
 | 6 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAPAAAAAAAOmMc=) |
-| 6 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAARAAAAAAAOmSI=) |
+| 6 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAOAAAAAAAOmKk=) |
 
 ## Confirmed absences without enough baseline data
 
