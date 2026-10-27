@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-27T12:28:11.162004+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-27T22:25:47.030710+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -10,7 +10,7 @@ Player production includes bench points and continues after subsequent trades or
 |---:|---|---|---:|---:|---:|---|
 | 1 | krunky | Grand Theft Aubrey | +108.30 | 7 | 7 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +106.26 | 5 | 6 | Yes |
-| 3 | SethLL | Red Dead Zachdemption | +71.56 | 4 | 4 | Yes |
+| 3 | SethLL | Red Dead Zachdemption | +71.66 | 4 | 4 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +32.70 | 5 | 5 | Yes |
 | 5 | therealbulker | MidnightClub Rice Edition | +4.94 | 6 | 7 | Yes |
 | 6 | DiscipleJack | JEFFERSON'S CREED | -4.20 | 1 | 1 | No |
@@ -18,7 +18,7 @@ Player production includes bench points and continues after subsequent trades or
 | 8 | RollnWithJesus | Breach & Touchdown | -26.00 | 3 | 4 | Yes |
 | 9 | AfootCoronet56 | Suicide Squad (the game) | -36.86 | 4 | 4 | Yes |
 | 10 | lfain20 | Mortal Kombat: DARTside | -73.70 | 5 | 5 | Yes |
-| 11 | Dawg2003 | The Windhelm Nords  | -74.06 | 5 | 5 | Yes |
+| 11 | Dawg2003 | The Windhelm Nords  | -74.16 | 5 | 5 | Yes |
 | 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -95.04 | 8 | 9 | Yes |
 
 ### Trade 1397438171741986816
@@ -265,8 +265,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Dawg2003 / The Windhelm Nords  | Bo Nix (26.28) | Drake Maye (28.44) | 26.28 | 28.44 | -2.16 | scored |
-| SethLL / Red Dead Zachdemption | Drake Maye (28.44) | Bo Nix (26.28) | 28.44 | 26.28 | +2.16 | scored |
+| Dawg2003 / The Windhelm Nords  | Bo Nix (26.18) | Drake Maye (28.44) | 26.18 | 28.44 | -2.26 | scored |
+| SethLL / Red Dead Zachdemption | Drake Maye (28.44) | Bo Nix (26.18) | 28.44 | 26.18 | +2.26 | scored |
 
 Dawg2003 picks received: 2027 round 8 (original roster 10). Value not included in points.
 

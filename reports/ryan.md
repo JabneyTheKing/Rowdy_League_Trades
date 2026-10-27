@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-27T12:28:11.162004+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-27T22:25:47.030710+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 

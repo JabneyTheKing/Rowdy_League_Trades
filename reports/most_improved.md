@@ -1,13 +1,13 @@
 # Most Improved
 
-Updated 2026-10-27T12:28:11.162004+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-27T22:25:47.030710+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |
 |---:|---|---|---:|---:|---:|---:|
 | 1 | TheRealNoodleMan | Gibbs of War | +106.26 | 7.78 | 75.18 | +189.22 |
-| 2 | SethLL | Red Dead Zachdemption | +71.56 | 16.20 | 83.78 | +171.54 |
+| 2 | SethLL | Red Dead Zachdemption | +71.66 | 16.20 | 83.78 | +171.64 |
 | 3 | DiscipleJack | JEFFERSON'S CREED | -4.20 | 73.20 | 48.08 | +117.08 |
 | 4 | krunky | Grand Theft Aubrey | +108.30 | 58.50 | -54.70 | +112.10 |
 | 5 | JabneyTheKing | Josh Jacobs: Most Wanted | -95.04 | 114.10 | 91.44 | +110.50 |
@@ -15,7 +15,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | 7 | Potatomain | The Lost Cause Fallacy | -13.90 | 36.00 | 83.52 | +105.62 |
 | 8 | oneyjb | Bower's Inside Story | +32.70 | -34.42 | 74.22 | +72.50 |
 | 9 | therealbulker | MidnightClub Rice Edition | +4.94 | 25.70 | 24.02 | +54.66 |
-| 10 | Dawg2003 | The Windhelm Nords  | -74.06 | 10.30 | 84.00 | +20.24 |
+| 10 | Dawg2003 | The Windhelm Nords  | -74.16 | 10.30 | 84.00 | +20.14 |
 | 11 | AfootCoronet56 | Suicide Squad (the game) | -36.86 | 21.00 | 24.40 | +8.54 |
 | 12 | RollnWithJesus | Breach & Touchdown | -26.00 | -31.80 | 36.50 | -21.30 |
 
