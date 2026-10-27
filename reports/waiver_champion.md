@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-27T03:32:28.215956+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-27T05:17:45.013017+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -84,7 +84,3 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | RollnWithJesus | Devin Singletary | Kenny Gainwell | $0 | 2–4 | 0.90 | 14.70 | -13.80 | scored |
 | RollnWithJesus | Las Vegas Raiders | New England Patriots | $20 | 4–7 | 4.00 | 22.00 | -18.00 | scored |
 | oneyjb | Tyler Allgeier | C.J. Stroud | $5 | 5–7 | 14.30 | 61.44 | -47.14 | scored |
-
-
-Week 7 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

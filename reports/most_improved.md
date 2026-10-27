@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-27T03:32:28.215956+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-27T05:17:45.013017+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -134,7 +134,3 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | oneyjb | Emmett Johnson | Malachi Fields | 2–7 | 13.80 | 35.30 | -21.50 | scored |
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–7 | 21.30 | 54.80 | -33.50 | scored |
 | krunky | James Conner | Los Angeles Chargers | 1–7 | 0.00 | 38.00 | -38.00 | scored |
-
-
-Week 7 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

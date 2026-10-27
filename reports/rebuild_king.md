@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-27T03:32:28.215956+00:00. Season 2026; scored through Week 7. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-27T05:17:45.013017+00:00. Season 2026; scored through Week 7. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -106,7 +106,3 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | 7–7 | 0.00 | 16.20 | -16.20 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–7 | 13.80 | 35.30 | -21.50 | scored |
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–7 | 21.30 | 54.80 | -33.50 | scored |
-
-
-Week 7 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

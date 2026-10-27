@@ -1,6 +1,6 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-10-27T03:32:28.215956+00:00. Through Week 7 (PARTIAL).
+Updated 2026-10-27T05:17:45.013017+00:00. Through Week 7 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,16 +14,16 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 852.90 |
-| Draft + trades only | 998.44 |
+| Original draft | 863.70 |
+| Draft + trades only | 1009.24 |
 | Draft + waiver / FA moves only | 900.74 |
 | All moves (weekly team) | 1021.80 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +47.84 |
+| Waiver / FA baseline impact | +37.04 |
 | Trade impact with wire moves held fixed | +121.06 |
-| **Total improvement** | **+168.90** |
+| **Total improvement** | **+158.10** |
 | Trades-only effect (reference, not additive) | +145.54 |
 | Trade / wire interaction (included in trade impact) | -24.48 |
 
@@ -35,7 +35,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 4 | 158.32 | 150.22 | 164.62 | 155.82 | 6.30 | -8.80 | -2.50 |
 | 5 | 128.46 | 167.26 | 143.20 | 171.70 | 14.74 | 28.50 | 43.24 |
 | 6 | 95.50 | 108.76 | 86.90 | 97.68 | -8.60 | 10.78 | 2.18 |
-| 7 | 98.80 | 142.80 | 130.80 | 167.50 | 32.00 | 36.70 | 68.70 |
+| 7 | 109.60 | 153.60 | 130.80 | 167.50 | 21.20 | 36.70 | 57.90 |
 
 ## Current roster inventory
 
@@ -137,9 +137,9 @@ Replaying completed eligible moves from the draft matches this live roster.
 | RB | Woody Marks | 8.60 | Bucky Irving | 23.50 |
 | RB | Jahmyr Gibbs | 14.80 | Jahmyr Gibbs | 14.80 |
 | WR | Ryan Flournoy | 9.00 | Ryan Flournoy | 9.00 |
-| WR | KC Concepcion Jr. | 19.20 | KC Concepcion Jr. | 19.20 |
+| WR | Makai Lemon | 16.20 | KC Concepcion Jr. | 19.20 |
 | TE | Sam LaPorta | 2.80 | Trey McBride | 27.10 |
-| FLEX | Makai Lemon | 16.20 | George Pickens | 13.70 |
+| FLEX | KC Concepcion Jr. | 19.20 | George Pickens | 13.70 |
 | FLEX | Zay Flowers | 23.70 | Zay Flowers | 23.70 |
 | K | Chase McLaughlin | 12.00 | Chase McLaughlin | 12.00 |
 | DEF | Tennessee Titans | 6.00 | Tennessee Titans | 6.00 |
