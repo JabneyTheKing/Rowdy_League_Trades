@@ -48,6 +48,18 @@ def stat_map(payload):
     return {str(row['player_id']): row for row in payload}
 
 
+def live_scoring_week(state, season, completed, rows):
+    """Include the current regular-season week only once actual play is recorded."""
+    week = int(state.get('week') or 0)
+    if (str(state.get('season')) != str(season)
+            or state.get('season_type') != 'regular'
+            or not completed < week <= 18):
+        return None
+    if any(advanced.participated(row, 0) for row in rows):
+        return week
+    return None
+
+
 def score(stats, settings):
     return float(sum((Decimal(str(value)) * Decimal(str(stats.get(key, 0)))
                       for key, value in settings.items()), Decimal(0)))
@@ -393,6 +405,22 @@ def run():
     completed_through = through
     through = max(through, int(config.get('minimum_through_week', 0)))
     partial_week = through if through > completed_through else None
+    live_payloads = {}
+    # Finalized league weeks lag live play. Probe current-week actual stats so
+    # new trades score automatically without a manually maintained week floor.
+    current_week = int(state.get('week') or 0)
+    if (args.through_week is None and str(state.get('season')) == str(season)
+            and state.get('season_type') == 'regular' and through < current_week <= 18):
+        live_rows = fetch(f'/stats/nfl/{season}/{current_week}?season_type=regular')
+        if not isinstance(live_rows, list):
+            raise ValueError('Unsupported current-week stats response')
+        if live_rows:
+            stat_map(live_rows)
+        live_week = live_scoring_week(state, season, completed_through, live_rows)
+        if live_week is not None:
+            through = live_week
+            partial_week = live_week
+            live_payloads[f'stats/{live_week}'] = live_rows
     cache = ROOT / f'.cache/players-{season}.json'
     if not cache.exists() or time.time() - cache.stat().st_mtime > 86400:
         players_all = fetch('/v1/players/nfl')
@@ -421,8 +449,8 @@ def run():
         paths[f'matchups/{w}'] = f'{prefix}/matchups/{w}'
         paths[f'stats/{w}'] = f'/stats/nfl/{season}/{w}?season_type=regular'
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        jobs = {k: pool.submit(fetch, path) for k, path in paths.items()}
-        payloads = {k: task.result() for k, task in jobs.items()}
+        jobs = {k: pool.submit(fetch, path) for k, path in paths.items() if k not in live_payloads}
+        payloads = {**live_payloads, **{k: task.result() for k, task in jobs.items()}}
     fetched_tx = {t['transaction_id']: t for k, rows in payloads.items() if k.startswith('transactions/') for t in rows}
     all_tx = {tid: t for tid, t in fetched_tx.items() if on_or_after(t, tracking_start)}
     tx = {tid: t for tid, t in all_tx.items() if t['type'] == 'trade'}
