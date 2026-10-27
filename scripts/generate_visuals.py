@@ -132,7 +132,9 @@ def render_jabney(report):
     rid=report['trackers']['jabney']; trades=[]
     for trade in report['trades']:
         side=next((s for s in trade['sides'] if s.get('roster_id')==rid),None)
-        if side: trades.append((trade,side))
+        # Pick/FAAB-only swaps remain in reports but have no production round.
+        if side and (side.get('sent_players') or side.get('received_players')):
+            trades.append((trade,side))
     waivers=[row for row in report['waiver_champion']['claims'] if row['roster_id']==rid]
     free_agents=[row for row in report['rebuild_master']['free_agent_pickups'] if row['roster_id']==rid]
     improvement=next(row for row in report['rebuild_master']['standings'] if row['roster_id']==rid)
