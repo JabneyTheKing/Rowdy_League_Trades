@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-10-27T03:23:40.525180+00:00; through Week 6.
+Updated 2026-10-27T03:30:31.617943+00:00; through Week 7.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +84.36 | +84.36 | +0.00 |
-| Wire Impact | +15.84 | +8.77 | -7.07 |
-| Total Impact | +100.20 | +93.13 | -7.07 |
+| Trade Impact | +121.06 | +121.06 | +0.00 |
+| Wire Impact | +47.84 | +40.77 | -7.07 |
+| Total Impact | +168.90 | +161.83 | -7.07 |
 
 ## Estimated absences
 
@@ -42,6 +42,7 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 These are not classified as injuries; they may be healthy scratches or other absences.
 - Week 5: Jordyn Tyson.
 - Week 6: Jordyn Tyson.
+- Week 7: Jordyn Tyson.
 
 ## Weekly impact
 
@@ -53,6 +54,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 4 | -8.80 | -8.80 | -2.50 | -2.50 |
 | 5 | +28.50 | +28.50 | +43.24 | +43.01 |
 | 6 | +10.78 | +10.78 | +2.18 | -4.66 |
+| 7 | +36.70 | +36.70 | +68.70 | +68.70 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -143,6 +145,21 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | FLEX | Zay Flowers | 9.70 | Zay Flowers | 9.70 |
 | K | Nick Folk | 1.00 | Nick Folk | 1.00 |
 | DEF | Indianapolis Colts | 2.00 | Indianapolis Colts | 2.00 |
+
+## Week 7 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Matthew Stafford | 18.50 | Matthew Stafford | 18.50 |
+| RB | Woody Marks | 8.60 | Bucky Irving | 23.50 |
+| RB | Jahmyr Gibbs | 14.80 | Jahmyr Gibbs | 14.80 |
+| WR | Ryan Flournoy | 9.00 | Ryan Flournoy | 9.00 |
+| WR | KC Concepcion Jr. | 19.20 | KC Concepcion Jr. | 19.20 |
+| TE | Sam LaPorta | 2.80 | Trey McBride | 27.10 |
+| FLEX | Makai Lemon | 16.20 | George Pickens | 13.70 |
+| FLEX | Zay Flowers | 23.70 | Zay Flowers | 23.70 |
+| K | Chase McLaughlin | 12.00 | Chase McLaughlin | 12.00 |
+| DEF | Tennessee Titans | 6.00 | Tennessee Titans | 6.00 |
 
 ## Source health
 

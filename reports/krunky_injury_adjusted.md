@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-10-27T03:23:40.525180+00:00; through Week 6.
+Updated 2026-10-27T03:30:31.617943+00:00; through Week 7.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +63.68 | +63.68 | +0.00 |
-| Wire Impact | -17.82 | -17.82 | +0.00 |
-| Total Impact | +45.86 | +45.86 | +0.00 |
+| Trade Impact | +75.68 | +75.68 | +0.00 |
+| Wire Impact | +9.98 | +9.98 | +0.00 |
+| Total Impact | +85.66 | +85.66 | +0.00 |
 
 ## Estimated absences
 
@@ -45,6 +45,8 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 5: Jayden Higgins.
 - Week 6: James Conner.
 - Week 6: Jayden Higgins.
+- Week 7: James Conner.
+- Week 7: Jayden Higgins.
 
 ## Weekly impact
 
@@ -56,6 +58,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 4 | +19.60 | +19.60 | +27.74 | +27.74 |
 | 5 | -25.08 | -25.08 | -30.38 | -30.38 |
 | 6 | +26.76 | +26.76 | +32.70 | +32.70 |
+| 7 | +12.00 | +12.00 | +39.80 | +39.80 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -146,6 +149,21 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | FLEX | DK Metcalf | 14.80 | Jonathan Taylor | 20.10 |
 | K | Brandon Aubrey | 1.00 | Brandon Aubrey | 1.00 |
 | DEF | Carolina Panthers | 4.00 | Carolina Panthers | 4.00 |
+
+## Week 7 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Caleb Williams | 22.12 | Caleb Williams | 22.12 |
+| RB | Jonathan Taylor | 18.00 | D'Andre Swift | 17.00 |
+| RB | Chase Brown | 7.80 | Jonathan Taylor | 18.00 |
+| WR | Malik Nabers | 14.60 | Malik Nabers | 14.60 |
+| WR | Omar Cooper Jr. | 20.00 | Omar Cooper Jr. | 20.00 |
+| TE | Travis Kelce | 8.40 | Travis Kelce | 8.40 |
+| FLEX | Ollie Gordon II | 16.80 | Colston Loveland | 19.90 |
+| FLEX | Rhamondre Stevenson | 20.00 | Amon-Ra St. Brown | 19.70 |
+| K | Brandon Aubrey | 14.00 | Brandon Aubrey | 14.00 |
+| DEF | Dallas Cowboys | 4.00 | Dallas Cowboys | 4.00 |
 
 ## Source health
 

@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-10-27T03:23:40.525180+00:00. Through Week 6 (complete).
+Updated 2026-10-27T03:30:31.617943+00:00. Through Week 7 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -18,7 +18,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 4 | 96.28 | 131.20 | +34.92 |
 | 5 | 130.66 | 113.20 | -17.46 |
 | 6 | 95.06 | 94.40 | -0.66 |
-| **Total** | **744.44** | **717.70** | **-26.74** |
+| 7 | 121.72 | 126.72 | +5.00 |
+| **Total** | **866.16** | **844.42** | **-21.74** |
 
 ## Original drafted roster
 
@@ -108,3 +109,17 @@ Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price
 | FLEX | Chris Olave | 12.30 | Waiver cover (TE) | 13.36 |
 | K | Tyler Loop | 3.00 | Tyler Loop | 3.00 |
 | DEF | Houston Texans | 1.00 | Houston Texans | 1.00 |
+## Week 7 optimal lineups
+
+| Slot | Drafted player | Points | Trade-adjusted player | Points |
+|---|---|---:|---|---:|
+| QB | Daniel Jones | 4.62 | Daniel Jones | 4.62 |
+| RB | Quinshon Judkins | 22.90 | Josh Jacobs | 17.60 |
+| RB | Josh Jacobs | 17.60 | Travis Etienne Jr. | 0.00 |
+| WR | Luther Burden III | 21.70 | Luther Burden III | 21.70 |
+| WR | Omar Cooper Jr. | 20.00 | Omar Cooper Jr. | 20.00 |
+| TE | Kenyon Sadiq | 1.60 | Harold Fannin Jr. | 13.10 |
+| FLEX | Ja'Marr Chase | 14.70 | CeeDee Lamb | 21.90 |
+| FLEX | Chris Olave | 8.60 | Puka Nacua | 17.80 |
+| K | Tyler Loop | 7.00 | Tyler Loop | 7.00 |
+| DEF | Houston Texans | 3.00 | Houston Texans | 3.00 |
