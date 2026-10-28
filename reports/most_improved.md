@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-28T13:14:27.958808+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-28T22:43:05.662989+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -16,7 +16,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | 8 | oneyjb | Bower's Inside Story | +32.70 | -34.42 | 74.22 | +72.50 |
 | 9 | therealbulker | MidnightClub Rice Edition | +4.94 | 25.70 | 24.02 | +54.66 |
 | 10 | Dawg2003 | The Windhelm Nords  | -74.16 | 10.30 | 84.00 | +20.14 |
-| 11 | AfootCoronet56 | Suicide Squad (the game) | -36.86 | 21.00 | 24.40 | +8.54 |
+| 11 | AfootCoronet56 | Suicide Squad (the game) | -36.86 | 20.00 | 24.40 | +7.54 |
 | 12 | RollnWithJesus | Breach & Touchdown | -26.00 | -31.80 | 36.50 | -21.30 |
 
 ## Free-agent transactions
@@ -86,6 +86,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | Potatomain | Jaylin Noel | — | 7–7 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| AfootCoronet56 | Atlanta Falcons | Jaleel McLaughlin | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Tyler Loop | Cam Little | 4–7 | 31.00 | 31.00 | +0.00 | scored |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -93,6 +94,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| JabneyTheKing | Chicago Bears | Keon Coleman | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Detroit Lions | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Los Angeles Chargers | Detroit Lions | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Las Vegas Raiders | Los Angeles Chargers | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -104,6 +106,9 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Dylan Sampson | DeMario Douglas | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Mason Taylor | Tyler Higbee | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Malik Willis | Jameis Winston | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -117,6 +122,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Washington Commanders | Tennessee Titans | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| TheRealNoodleMan | Sione Vaki | Chig Okonkwo | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |

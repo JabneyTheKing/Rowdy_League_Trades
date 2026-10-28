@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-10-28T13:14:27.958808+00:00. Through Week 7 (complete).
+Updated 2026-10-28T22:43:05.662989+00:00. Through Week 7 (complete).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -39,6 +39,7 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Free agents: W1–2 | Travis Hunter | — | +1.60 | +0.00 | scored |
 | Free agents: pending | Tyreek Hill | — | +0.00 | +0.00 | scored |
 | Free agents: pending | Joe Mixon | Tyler Allgeier | +0.00 | +0.00 | scored |
+| Free agents: pending | Chicago Bears | Keon Coleman | +0.00 | +0.00 | pending |
 | Free agents: W1–3 | Kaleb Johnson | Samaje Perine | -5.80 | -5.80 | scored |
 | Free agents: W5–6 | Tre' Harris | Joe Mixon | +2.60 | -11.32 | scored |
 | Free agents: W1–2 | Jauan Jennings | — | +0.00 | -13.79 | scored |

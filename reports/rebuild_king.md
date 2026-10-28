@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-10-28T13:14:27.958808+00:00. Season 2026; scored through Week 7. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-10-28T22:43:05.662989+00:00. Season 2026; scored through Week 7. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -11,7 +11,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | 3 | TheRealNoodleMan | Gibbs of War | +56.10 | 7.78 | 60.58 | +124.46 |
 | 4 | lfain20 | Mortal Kombat: DARTside | -73.70 | 110.72 | 43.40 | +80.42 |
 | 5 | SethLL | Red Dead Zachdemption | -17.24 | 16.20 | 71.78 | +70.74 |
-| 6 | AfootCoronet56 | Suicide Squad (the game) | +22.10 | 21.00 | 24.40 | +67.50 |
+| 6 | AfootCoronet56 | Suicide Squad (the game) | +22.10 | 20.00 | 24.40 | +66.50 |
 | 7 | DiscipleJack | JEFFERSON'S CREED | -4.20 | 8.00 | 48.08 | +51.88 |
 | 8 | Potatomain | The Lost Cause Fallacy | +11.80 | 36.00 | 1.80 | +49.60 |
 | 9 | therealbulker | MidnightClub Rice Edition | +4.94 | 25.70 | -1.08 | +29.56 |
@@ -71,11 +71,13 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | Potatomain | Jaylin Noel | — | 7–7 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| AfootCoronet56 | Atlanta Falcons | Jaleel McLaughlin | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Tyler Loop | Cam Little | 4–7 | 31.00 | 31.00 | +0.00 | scored |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| JabneyTheKing | Chicago Bears | Keon Coleman | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Atlanta Falcons | Dallas Cowboys | No completed week | 0.00 | 0.00 | +0.00 | pending |
@@ -83,6 +85,9 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Dylan Sampson | DeMario Douglas | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Mason Taylor | Tyler Higbee | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Malik Willis | Jameis Winston | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -94,6 +99,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Washington Commanders | Tennessee Titans | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| TheRealNoodleMan | Sione Vaki | Chig Okonkwo | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
