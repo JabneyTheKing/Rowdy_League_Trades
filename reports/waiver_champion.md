@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-28T05:56:51.199094+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-28T13:14:27.958808+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -12,12 +12,12 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 4 | krunky | Grand Theft Aubrey | 58.50 | 8 | $84 | Ollie Gordon II (24.10) |
 | 5 | Potatomain | The Lost Cause Fallacy | 36.00 | 6 | $82 | Alvin Kamara (50.10) |
 | 6 | therealbulker | MidnightClub Rice Edition | 25.70 | 9 | $99 | Brian Robinson Jr. (22.30) |
-| 7 | AfootCoronet56 | Suicide Squad (the game) | 21.00 | 5 | $40 | Dameon Pierce (24.30) |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | 21.00 | 6 | $42 | Dameon Pierce (24.30) |
 | 8 | SethLL | Red Dead Zachdemption | 16.20 | 3 | $12 | Tyrone Tracy Jr. (8.20) |
 | 9 | Dawg2003 | The Windhelm Nords  | 10.30 | 3 | $23 | Kenny Gainwell (11.70) |
-| 10 | TheRealNoodleMan | Gibbs of War | 7.78 | 7 | $38 | Matthew Stafford (20.78) |
-| 11 | RollnWithJesus | Breach & Touchdown | -31.80 | 2 | $20 | Devin Singletary (-13.80) |
-| 12 | oneyjb | Bower's Inside Story | -34.42 | 6 | $27 | Germie Bernard (19.40) |
+| 10 | TheRealNoodleMan | Gibbs of War | 7.78 | 8 | $48 | Matthew Stafford (20.78) |
+| 11 | RollnWithJesus | Breach & Touchdown | -31.80 | 3 | $20 | Devin Singletary (-13.80) |
+| 12 | oneyjb | Bower's Inside Story | -34.42 | 9 | $58 | Germie Bernard (19.40) |
 
 ## Individual waiver transactions
 
@@ -58,12 +58,18 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | Kansas City Chiefs | Tampa Bay Buccaneers | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
+| AfootCoronet56 | Chad Ryland | New York Jets | $2 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| oneyjb | Tyler Bass | Trey Smack | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | Jacksonville Jaguars | Kansas City Chiefs | $5 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | Kaelon Black | Emmett Johnson | $26 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Cade Otton | Chase McLaughlin | $11 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| RollnWithJesus | Tampa Bay Buccaneers | Las Vegas Raiders | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Carson Wentz | Chicago Bears | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Alec Pierce | — | $7 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Terrance Ferguson | — | $5 | 7–7 | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Ryan Fitzgerald | Harrison Butker | $1 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | AfootCoronet56 | Will Shipley | Wan'Dale Robinson | $20 | 5–5 | 7.80 | 8.30 | -0.50 | scored |
 | TheRealNoodleMan | Dallas Cowboys | Buffalo Bills | $3 | 5–5 | 1.00 | 2.00 | -1.00 | scored |
 | JabneyTheKing | Jaylen Wright | Zach Ertz | $27 | 4–5 | 1.80 | 3.30 | -1.50 | scored |

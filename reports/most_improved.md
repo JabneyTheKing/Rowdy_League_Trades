@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-28T05:56:51.199094+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-28T13:14:27.958808+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -98,6 +98,8 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | Las Vegas Raiders | Los Angeles Chargers | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Atlanta Falcons | Dallas Cowboys | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| krunky | Los Angeles Rams | Atlanta Falcons | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -114,6 +116,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Washington Commanders | Tennessee Titans | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
