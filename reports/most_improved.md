@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-10-29T13:21:50.531913+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-29T22:51:57.165032+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -95,6 +95,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chicago Bears | Keon Coleman | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing | Kirk Cousins | C.J. Stroud | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Detroit Lions | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Los Angeles Chargers | Detroit Lions | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Las Vegas Raiders | Los Angeles Chargers | No completed week | 0.00 | 0.00 | +0.00 | scored |
