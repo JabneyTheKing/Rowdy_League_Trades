@@ -1,12 +1,12 @@
 {
   "errors": [
-    "https://www.nfl.com/transactions/league/reserve-list/2026/8: HTTP Error 503: No healthy backends; https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAeAAAAAAAOfUo=: The read operation timed out; Reserve archive pagination incomplete; retained verified rows only",
+    "Reserve archive pagination incomplete; retained verified rows only",
     "Reserve archive pagination incomplete; retained verified rows only"
   ],
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-10-30T06:04:02.952217+00:00",
+      "fetched_at": "2026-10-30T13:13:02.031549+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -1220,7 +1220,7 @@
     },
     "2026-10": {
       "complete": false,
-      "fetched_at": "2026-10-30T06:03:33.969376+00:00",
+      "fetched_at": "2026-10-30T13:13:02.198895+00:00",
       "rows": [
         {
           "date": "2026-10-01",
@@ -1869,7 +1869,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-10-30T06:04:02.952584+00:00",
+  "updated_at": "2026-10-30T13:13:02.199196+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -16895,7 +16895,7 @@
     },
     "8": {
       "complete": false,
-      "fetched_at": "2026-10-30T06:03:31.006228+00:00",
+      "fetched_at": "2026-10-30T13:13:00.929288+00:00",
       "rows": [
         {
           "injury": "Hand",

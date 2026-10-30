@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-10-30T06:03:21.485925+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-10-30T13:12:49.148314+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -8,11 +8,11 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 |---:|---|---|---:|---:|---:|---|
 | 1 | JabneyTheKing | Josh Jacobs: Most Wanted | 114.10 | 6 | $100 | Braelon Allen (48.10) |
 | 2 | lfain20 | Mortal Kombat: DARTside | 110.72 | 4 | $85 | Emanuel Wilson (62.30) |
-| 3 | DiscipleJack | JEFFERSON'S CREED | 73.20 | 2 | $11 | Dalton Schultz (65.20) |
+| 3 | DiscipleJack | JEFFERSON'S CREED | 73.20 | 3 | $16 | Dalton Schultz (65.20) |
 | 4 | krunky | Grand Theft Aubrey | 58.50 | 8 | $84 | Ollie Gordon II (24.10) |
 | 5 | therealbulker | MidnightClub Rice Edition | 25.70 | 9 | $99 | Brian Robinson Jr. (22.30) |
 | 6 | Potatomain | The Lost Cause Fallacy | 24.00 | 6 | $82 | Alvin Kamara (50.10) |
-| 7 | AfootCoronet56 | Suicide Squad (the game) | 20.00 | 6 | $42 | Dameon Pierce (24.30) |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | 20.00 | 7 | $42 | Dameon Pierce (24.30) |
 | 8 | SethLL | Red Dead Zachdemption | 16.20 | 3 | $12 | Tyrone Tracy Jr. (8.20) |
 | 9 | Dawg2003 | The Windhelm Nords  | 10.30 | 3 | $23 | Kenny Gainwell (11.70) |
 | 10 | TheRealNoodleMan | Gibbs of War | 7.78 | 8 | $48 | Matthew Stafford (20.78) |
@@ -58,6 +58,8 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
 | AfootCoronet56 | Chad Ryland | New York Jets | $2 | 8–8 | 0.00 | 0.00 | +0.00 | scored |
+| AfootCoronet56 | Ryan Flournoy | Dameon Pierce | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Zonovan Knight | Roschon Johnson | $5 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Jacksonville Jaguars | Kansas City Chiefs | $5 | 8–8 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–8 | 0.00 | 0.00 | +0.00 | scored |
