@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-10-29T22:51:57.165032+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 7.
+Updated 2026-10-30T06:03:21.485925+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,16 +8,16 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | krunky | Grand Theft Aubrey | +108.30 | 7 | 7 | Yes |
-| 2 | TheRealNoodleMan | Gibbs of War | +106.26 | 5 | 6 | Yes |
+| 1 | TheRealNoodleMan | Gibbs of War | +106.26 | 6 | 6 | Yes |
+| 2 | krunky | Grand Theft Aubrey | +96.94 | 7 | 7 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +71.66 | 4 | 4 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +32.70 | 5 | 5 | Yes |
-| 5 | therealbulker | MidnightClub Rice Edition | +4.94 | 6 | 7 | Yes |
+| 5 | Potatomain | The Lost Cause Fallacy | -0.60 | 6 | 6 | Yes |
 | 6 | DiscipleJack | JEFFERSON'S CREED | -4.20 | 1 | 1 | No |
-| 7 | Potatomain | The Lost Cause Fallacy | -13.90 | 6 | 6 | Yes |
-| 8 | RollnWithJesus | Breach & Touchdown | -26.00 | 3 | 4 | Yes |
+| 7 | therealbulker | MidnightClub Rice Edition | -8.36 | 6 | 7 | Yes |
+| 8 | RollnWithJesus | Breach & Touchdown | -26.00 | 4 | 4 | Yes |
 | 9 | AfootCoronet56 | Suicide Squad (the game) | -36.86 | 4 | 4 | Yes |
-| 10 | lfain20 | Mortal Kombat: DARTside | -73.70 | 5 | 5 | Yes |
+| 10 | lfain20 | Mortal Kombat: DARTside | -62.34 | 5 | 5 | Yes |
 | 11 | Dawg2003 | The Windhelm Nords  | -74.16 | 5 | 5 | Yes |
 | 12 | JabneyTheKing | Josh Jacobs: Most Wanted | -95.04 | 8 | 9 | Yes |
 
@@ -126,8 +126,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Kyler Murray (32.16) | Bryce Young (27.26) | 32.16 | 27.26 | +4.90 | scored |
-| lfain20 / Mortal Kombat: DARTside | Bryce Young (27.26) | Kyler Murray (32.16) | 27.26 | 32.16 | -4.90 | scored |
+| krunky / Grand Theft Aubrey | Kyler Murray (32.16) | Bryce Young (38.62) | 32.16 | 38.62 | -6.46 | scored |
+| lfain20 / Mortal Kombat: DARTside | Bryce Young (38.62) | Kyler Murray (32.16) | 38.62 | 32.16 | +6.46 | scored |
 
 krunky picks received: 2027 round 15 (original roster 4). Value not included in points.
 
@@ -333,8 +333,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Christian Watson (8.20) | Tee Higgins (23.80), Jaylen Warren (15.20) | 8.20 | 39.00 | -30.80 | scored |
-| therealbulker / MidnightClub Rice Edition | Tee Higgins (23.80), Jaylen Warren (15.20) | Christian Watson (8.20) | 39.00 | 8.20 | +30.80 | scored |
+| Potatomain / The Lost Cause Fallacy | Christian Watson (21.50) | Tee Higgins (23.80), Jaylen Warren (15.20) | 21.50 | 39.00 | -17.50 | scored |
+| therealbulker / MidnightClub Rice Edition | Tee Higgins (23.80), Jaylen Warren (15.20) | Christian Watson (21.50) | 39.00 | 21.50 | +17.50 | scored |
 
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 
@@ -371,8 +371,8 @@ First scoring week: **8**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | — | — | 0.00 | 0.00 | +0.00 | pending |
-| therealbulker / MidnightClub Rice Edition | — | — | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | — | — | 0.00 | 0.00 | +0.00 | scored |
+| therealbulker / MidnightClub Rice Edition | — | — | 0.00 | 0.00 | +0.00 | scored |
 
 JabneyTheKing picks received: 2027 round 16 (original roster 7). Value not included in points.
 
@@ -388,8 +388,8 @@ First scoring week: **8**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| TheRealNoodleMan / Gibbs of War | — | James Cook III (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| RollnWithJesus / Breach & Touchdown | James Cook III (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+| TheRealNoodleMan / Gibbs of War | — | James Cook III (0.00) | 0.00 | 0.00 | +0.00 | scored |
+| RollnWithJesus / Breach & Touchdown | James Cook III (0.00) | — | 0.00 | 0.00 | +0.00 | scored |
 
 TheRealNoodleMan picks received: 2027 round 2 (original roster 11). Value not included in points.
 
@@ -416,3 +416,7 @@ First scoring week: **7**
 therealbulker picks sent: 2027 round 13 (original roster 7). Value not included in points.
 
 SethLL picks received: 2027 round 13 (original roster 7). Value not included in points.
+
+
+Week 8 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

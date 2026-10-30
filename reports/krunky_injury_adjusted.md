@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-10-29T22:51:57.165032+00:00; through Week 7.
+Updated 2026-10-30T06:03:21.485925+00:00; through Week 8.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,8 +16,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +75.68 | +75.68 | +0.00 |
-| Wire Impact | +5.38 | +5.38 | +0.00 |
+| Trade Impact | +64.32 | +64.32 | +0.00 |
+| Wire Impact | +16.74 | +16.74 | +0.00 |
 | Total Impact | +81.06 | +81.06 | +0.00 |
 
 ## Estimated absences
@@ -33,20 +33,20 @@ None.
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Jayden Higgins.
 - Week 1: James Conner.
-- Week 2: Jayden Higgins.
+- Week 1: Jayden Higgins.
 - Week 2: James Conner.
-- Week 3: Jayden Higgins.
+- Week 2: Jayden Higgins.
 - Week 3: James Conner.
-- Week 4: Jayden Higgins.
+- Week 3: Jayden Higgins.
 - Week 4: James Conner.
-- Week 5: Jayden Higgins.
+- Week 4: Jayden Higgins.
 - Week 5: James Conner.
-- Week 6: Jayden Higgins.
+- Week 5: Jayden Higgins.
 - Week 6: James Conner.
-- Week 7: Jayden Higgins.
+- Week 6: Jayden Higgins.
 - Week 7: James Conner.
+- Week 7: Jayden Higgins.
 
 ## Weekly impact
 
@@ -59,6 +59,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 5 | -25.08 | -25.08 | -30.38 | -30.38 |
 | 6 | +26.76 | +26.76 | +32.70 | +32.70 |
 | 7 | +12.00 | +12.00 | +35.20 | +35.20 |
+| 8 | -11.36 | -11.36 | +0.00 | +0.00 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -165,8 +166,23 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | K | Brandon Aubrey | 14.00 | Brandon Aubrey | 14.00 |
 | DEF | Dallas Cowboys | 4.00 | Dallas Cowboys | 4.00 |
 
+## Week 8 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Bryce Young | 11.36 | Caleb Williams | 0.00 |
+| RB | Ollie Gordon II | 0.00 | James Conner | 0.00 |
+| RB | James Conner | 0.00 | D'Andre Swift | 0.00 |
+| WR | Malik Nabers | 0.00 | Malik Nabers | 0.00 |
+| WR | Jalen Coker | 8.60 | Jalen Coker | 8.60 |
+| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
+| FLEX | Jayden Higgins | 0.00 | Jayden Higgins | 0.00 |
+| FLEX | Emeka Egbuka | 0.00 | Omar Cooper Jr. | 0.00 |
+| K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
+| DEF | Los Angeles Rams | 0.00 | Los Angeles Rams | 0.00 |
+
 ## Source health
 
 Archived NFL injury reports and reserve transactions: `data/injury_evidence.json`.
-- Reserve archive pagination incomplete; retained verified rows only
+- https://www.nfl.com/transactions/league/reserve-list/2026/8: HTTP Error 503: No healthy backends; https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAeAAAAAAAOfUo=: The read operation timed out; Reserve archive pagination incomplete; retained verified rows only
 - Reserve archive pagination incomplete; retained verified rows only

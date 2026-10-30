@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-10-29T22:51:57.165032+00:00. Through Week 7 (complete).
+Updated 2026-10-30T06:03:21.485925+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -19,7 +19,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 5 | 148.74 | 116.56 | -32.18 |
 | 6 | 126.30 | 164.30 | +38.00 |
 | 7 | 122.52 | 146.02 | +23.50 |
-| **Total** | **974.90** | **1067.12** | **+92.22** |
+| 8 | 8.60 | 8.60 | +0.00 |
+| **Total** | **983.50** | **1075.72** | **+92.22** |
 
 ## Original drafted roster
 
@@ -123,3 +124,17 @@ Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, 
 | FLEX | Rhamondre Stevenson | 20.00 | D'Andre Swift | 17.00 |
 | K | Brandon Aubrey | 14.00 | Brandon Aubrey | 14.00 |
 | DEF | Waiver cover (DEF) | 4.60 | Waiver cover (DEF) | 4.60 |
+## Week 8 optimal lineups
+
+| Slot | Drafted player | Points | Trade-adjusted player | Points |
+|---|---|---:|---|---:|
+| QB | Caleb Williams | 0.00 | Caleb Williams | 0.00 |
+| RB | Chris Rodriguez Jr. | 0.00 | Chris Rodriguez Jr. | 0.00 |
+| RB | Jonathan Taylor | 0.00 | D'Andre Swift | 0.00 |
+| WR | Malik Nabers | 0.00 | Marvin Harrison Jr. | 0.00 |
+| WR | Jalen Coker | 8.60 | Malik Nabers | 0.00 |
+| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
+| FLEX | Jayden Higgins | 0.00 | Jalen Coker | 8.60 |
+| FLEX | Emeka Egbuka | 0.00 | Jayden Higgins | 0.00 |
+| K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
+| DEF | Empty slot | 0.00 | Empty slot | 0.00 |
