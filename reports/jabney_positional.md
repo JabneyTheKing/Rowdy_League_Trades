@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-10-31T05:58:09.547835+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
+Updated 2026-10-31T12:49:40.022416+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
