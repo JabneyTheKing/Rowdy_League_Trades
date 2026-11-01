@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-11-01T17:59:19.618482+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-01T22:12:45.480710+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -19,8 +19,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 5 | 148.74 | 116.56 | -32.18 |
 | 6 | 126.30 | 164.30 | +38.00 |
 | 7 | 122.52 | 146.02 | +23.50 |
-| 8 | 8.60 | 8.60 | +0.00 |
-| **Total** | **983.50** | **1075.72** | **+92.22** |
+| 8 | 103.80 | 115.40 | +11.60 |
+| **Total** | **1078.70** | **1182.52** | **+103.82** |
 
 ## Original drafted roster
 
@@ -128,13 +128,13 @@ Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, 
 
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
-| QB | Caleb Williams | 0.00 | Caleb Williams | 0.00 |
-| RB | Chris Rodriguez Jr. | 0.00 | Chris Rodriguez Jr. | 0.00 |
-| RB | Jonathan Taylor | 0.00 | D'Andre Swift | 0.00 |
-| WR | Malik Nabers | 0.00 | Marvin Harrison Jr. | 0.00 |
-| WR | Jalen Coker | 8.60 | Malik Nabers | 0.00 |
-| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
-| FLEX | Jayden Higgins | 0.00 | Jalen Coker | 8.60 |
-| FLEX | Emeka Egbuka | 0.00 | Jayden Higgins | 0.00 |
-| K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
+| QB | Caleb Williams | 0.00 | Kyler Murray | 20.90 |
+| RB | Chris Rodriguez Jr. | 12.30 | Chris Rodriguez Jr. | 12.30 |
+| RB | Chase Brown | 12.10 | Tyler Allgeier | 33.60 |
+| WR | Jalen Coker | 8.60 | Jalen Coker | 8.60 |
+| WR | Denzel Boston | 6.70 | Amon-Ra St. Brown | 9.10 |
+| TE | Travis Kelce | 3.90 | Michael Mayer | 10.30 |
+| FLEX | DJ Moore | 14.60 | Travis Kelce | 3.90 |
+| FLEX | Tyler Allgeier | 33.60 | Jonathan Taylor | 4.70 |
+| K | Brandon Aubrey | 12.00 | Brandon Aubrey | 12.00 |
 | DEF | Empty slot | 0.00 | Empty slot | 0.00 |
