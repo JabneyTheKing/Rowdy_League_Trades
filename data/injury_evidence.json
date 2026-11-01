@@ -1,12 +1,13 @@
 {
   "errors": [
     "Reserve archive pagination incomplete; retained verified rows only",
-    "Reserve archive pagination incomplete; retained verified rows only"
+    "Reserve archive pagination incomplete; retained verified rows only",
+    "https://www.nfl.com/transactions/league/reserve-list/2026/11: Missing reserve transaction table; https://www.nfl.com/transactions/league/reserve-list/2026/11: Missing reserve transaction table; Reserve archive pagination incomplete; retained verified rows only"
   ],
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-10-31T21:45:20.798153+00:00",
+      "fetched_at": "2026-11-01T06:27:13.783233+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -1220,7 +1221,7 @@
     },
     "2026-10": {
       "complete": false,
-      "fetched_at": "2026-10-31T21:45:20.066961+00:00",
+      "fetched_at": "2026-11-01T06:27:14.601637+00:00",
       "rows": [
         {
           "date": "2026-10-01",
@@ -1709,141 +1710,176 @@
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Brashard Smith",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "KC"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Francisco Mauigoa",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "NYJ"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Jonah Elliss",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "DEN"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Michael Jerrell",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "ATL"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Tavius Robinson",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "BAL"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Teven Jenkins",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "CLE"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Thomas Incoom",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "CAR"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Tremaine Edmunds",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "NYG"
         },
         {
           "date": "2026-10-24",
           "description": "Reserve/Injured",
           "name": "Tyler Badie",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "DEN"
         },
         {
           "date": "2026-10-26",
           "description": "Reserve/Suspended By Commissioner-Less than One Year",
           "name": "C.J. Gardner-Johnson",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "BUF"
         },
         {
           "date": "2026-10-26",
           "description": "Reserve/Injured",
           "name": "Jacob Monk",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "GB"
         },
         {
           "date": "2026-10-27",
           "description": "Reserve/Injured",
           "name": "Cam Taylor-Britt",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "IND"
         },
         {
           "date": "2026-10-27",
           "description": "Reserve/Injured",
           "name": "Erick All",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "CIN"
         },
         {
           "date": "2026-10-27",
           "description": "Reserve/Injured",
           "name": "Jalen Brooks",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "ARI"
         },
         {
           "date": "2026-10-27",
           "description": "Reserve/Injured",
           "name": "Taylor Moton",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "CAR"
         },
         {
           "date": "2026-10-27",
           "description": "Reserve/Injured",
           "name": "Tyrone Tracy Jr.",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "NYG"
         },
         {
           "date": "2026-10-28",
           "description": "Reserve/Injured",
           "name": "Dameon Pierce",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "PHI"
         },
         {
           "date": "2026-10-28",
           "description": "Reserve/Injured",
           "name": "Jaylin Noel",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "HOU"
         },
         {
           "date": "2026-10-28",
           "description": "Reserve/Injured",
           "name": "Terry McLaurin",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "WAS"
         },
         {
           "date": "2026-10-29",
           "description": "Reserve/Injured",
           "name": "Akayleb Evans",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
           "team": "CAR"
+        },
+        {
+          "date": "2026-10-31",
+          "description": "Reserve/Injured",
+          "name": "Derwin James",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
+          "team": "LAC"
+        },
+        {
+          "date": "2026-10-31",
+          "description": "Reserve/Injured",
+          "name": "L'Jarius Sneed",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
+          "team": "KC"
+        },
+        {
+          "date": "2026-10-31",
+          "description": "Reserve/Injured",
+          "name": "Patrick Johnson",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
+          "team": "LV"
+        },
+        {
+          "date": "2026-10-31",
+          "description": "Reserve/Injured",
+          "name": "RJ Harvey",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
+          "team": "DEN"
+        },
+        {
+          "date": "2026-10-31",
+          "description": "Reserve/Injured",
+          "name": "T'Vondre Sweat",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=",
+          "team": "NYJ"
         }
       ],
       "sources": [
@@ -1864,12 +1900,21 @@
         "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAATAAAAAAAOmjM=",
         "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAUAAAAAAAOmr4=",
         "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAVAAAAAAAOmtA=",
-        "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A="
+        "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=",
+        "https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k="
+      ]
+    },
+    "2026-11": {
+      "complete": false,
+      "fetched_at": "2026-11-01T06:27:12.029344+00:00",
+      "rows": [],
+      "sources": [
+        "https://www.nfl.com/transactions/league/reserve-list/2026/11"
       ]
     }
   },
   "season": "2026",
-  "updated_at": "2026-10-31T21:45:20.798610+00:00",
+  "updated_at": "2026-11-01T06:27:14.601968+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -16895,7 +16940,7 @@
     },
     "8": {
       "complete": false,
-      "fetched_at": "2026-10-31T21:45:18.119087+00:00",
+      "fetched_at": "2026-11-01T06:27:11.962143+00:00",
       "rows": [
         {
           "injury": "Hand",
@@ -18963,32 +19008,32 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "D'Marco Jackson",
           "position": "LB",
-          "practice": "Did Not Participate In Practice",
-          "status": ""
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
         },
         {
           "injury": "",
           "name": "Colston Loveland",
           "position": "TE",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Thumb, Toe",
           "name": "Kyle Monangai",
           "position": "RB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
-          "injury": "",
+          "injury": "Toe",
           "name": "Malik Muhammad",
           "position": "CB",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -18998,38 +19043,38 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Knee",
           "name": "Anthony Bradford",
           "position": "G",
-          "practice": "Did Not Participate In Practice",
-          "status": ""
+          "practice": "Limited Participation in Practice",
+          "status": "Questionable"
         },
         {
           "injury": "",
           "name": "Zach Charbonnet",
           "position": "RB",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Charles Cross",
           "position": "T",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
-          "injury": "",
+          "injury": "Hamstring",
           "name": "Velus Jones Jr.",
           "position": "RB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
           "name": "Tyrice Knight",
           "position": "LB",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -19040,17 +19085,17 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Elbow",
           "name": "Drew Lock",
           "position": "QB",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
           "name": "Byron Murphy II",
           "position": "DT",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -19061,18 +19106,18 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Uchenna Nwosu",
           "position": "LB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Doubtful"
         },
         {
-          "injury": "",
+          "injury": "Toe",
           "name": "Patrick O'Connell",
           "position": "LB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -19082,11 +19127,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Back",
           "name": "Brandon Pili",
           "position": "DT",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -19103,11 +19148,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Knee",
           "name": "Rashid Shaheed",
           "position": "WR",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
