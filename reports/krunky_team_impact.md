@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-11-01T22:12:45.480710+00:00. Through Week 8 (PARTIAL).
+Updated 2026-11-02T06:28:35.490499+00:00. Through Week 8 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1078.70 |
-| Draft + trades only | 1182.52 |
-| Draft + waiver / FA moves only | 1067.34 |
-| All moves (weekly team) | 1118.66 |
+| Original draft | 1090.30 |
+| Draft + trades only | 1198.72 |
+| Draft + waiver / FA moves only | 1092.04 |
+| All moves (weekly team) | 1145.06 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | -11.36 |
-| Trade impact with wire moves held fixed | +51.32 |
-| **Total improvement** | **+39.96** |
-| Trades-only effect (reference, not additive) | +103.82 |
-| Trade / wire interaction (included in trade impact) | -52.50 |
+| Waiver / FA baseline impact | +1.74 |
+| Trade impact with wire moves held fixed | +53.02 |
+| **Total improvement** | **+54.76** |
+| Trades-only effect (reference, not additive) | +108.42 |
+| Trade / wire interaction (included in trade impact) | -55.40 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -36,7 +36,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 5 | 148.74 | 116.56 | 143.44 | 118.36 | -5.30 | -25.08 | -30.38 |
 | 6 | 126.30 | 164.30 | 132.24 | 159.00 | 5.94 | 26.76 | 32.70 |
 | 7 | 122.52 | 146.02 | 145.72 | 157.72 | 23.20 | 12.00 | 35.20 |
-| 8 | 103.80 | 115.40 | 87.06 | 62.70 | -16.74 | -24.36 | -41.10 |
+| 8 | 115.40 | 131.60 | 111.76 | 89.10 | -3.64 | -22.66 | -26.30 |
 
 ## Current roster inventory
 
@@ -149,12 +149,12 @@ Replaying completed eligible moves from the draft matches this live roster.
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
 | QB | Bryce Young | 11.36 | Caleb Williams | 0.00 |
-| RB | Jonathan Taylor | 4.70 | Jonathan Taylor | 4.70 |
-| RB | Chase Brown | 12.10 | Kenneth Walker III | 0.90 |
+| RB | Rhamondre Stevenson | 10.50 | Jonathan Taylor | 4.70 |
+| RB | Chase Brown | 12.10 | Kenneth Walker III | 10.40 |
 | WR | Jalen Coker | 8.60 | Jalen Coker | 8.60 |
-| WR | Denzel Boston | 6.70 | Amon-Ra St. Brown | 9.10 |
-| TE | Travis Kelce | 3.90 | Travis Kelce | 3.90 |
-| FLEX | DJ Moore | 14.60 | Kenyon Sadiq | 3.20 |
-| FLEX | Parker Washington | 3.10 | Michael Mayer | 10.30 |
+| WR | DJ Moore | 14.60 | Stefon Diggs | 11.30 |
+| TE | Travis Kelce | 11.70 | Travis Kelce | 11.70 |
+| FLEX | Ollie Gordon II | 6.90 | Amon-Ra St. Brown | 9.10 |
+| FLEX | Rachaad White | 13.00 | Michael Mayer | 10.30 |
 | K | Brandon Aubrey | 12.00 | Brandon Aubrey | 12.00 |
-| DEF | Los Angeles Rams | 10.00 | Los Angeles Rams | 10.00 |
+| DEF | Los Angeles Rams | 11.00 | Los Angeles Rams | 11.00 |

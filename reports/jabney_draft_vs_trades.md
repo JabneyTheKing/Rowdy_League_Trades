@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-11-01T22:12:45.480710+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-02T06:28:35.490499+00:00. Through Week 8 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -19,8 +19,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 5 | 130.66 | 113.20 | -17.46 |
 | 6 | 95.06 | 94.40 | -0.66 |
 | 7 | 121.72 | 135.58 | +13.86 |
-| 8 | 85.46 | 94.26 | +8.80 |
-| **Total** | **951.62** | **947.54** | **-4.08** |
+| 8 | 85.46 | 109.46 | +24.00 |
+| **Total** | **951.62** | **962.74** | **+11.12** |
 
 ## Original drafted roster
 
@@ -135,6 +135,6 @@ Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price
 | WR | Omar Cooper Jr. | 0.00 | CeeDee Lamb | 9.30 |
 | TE | Kenyon Sadiq | 3.20 | Harold Fannin Jr. | 23.40 |
 | FLEX | Josh Jacobs | 20.20 | Ja'Marr Chase | 25.60 |
-| FLEX | Ja'Marr Chase | 25.60 | Puka Nacua | 4.30 |
+| FLEX | Ja'Marr Chase | 25.60 | Puka Nacua | 19.50 |
 | K | Tyler Loop | 3.00 | Tyler Loop | 3.00 |
 | DEF | Houston Texans | 0.00 | Houston Texans | 0.00 |

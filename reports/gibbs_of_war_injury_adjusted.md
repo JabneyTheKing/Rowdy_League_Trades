@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-11-01T22:12:45.480710+00:00; through Week 8.
+Updated 2026-11-02T06:28:35.490499+00:00; through Week 8.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +155.48 | +155.48 | +0.00 |
-| Wire Impact | +48.02 | +32.82 | -15.20 |
-| Total Impact | +203.50 | +188.30 | -15.20 |
+| Trade Impact | +155.86 | +155.86 | +0.00 |
+| Wire Impact | +65.92 | +50.72 | -15.20 |
+| Total Impact | +221.78 | +206.58 | -15.20 |
 
 ## Estimated absences
 
@@ -58,7 +58,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 5 | +28.50 | +28.50 | +43.24 | +43.01 |
 | 6 | +10.78 | +10.78 | +2.18 | -4.66 |
 | 7 | +36.70 | +36.70 | +58.90 | +50.77 |
-| 8 | +34.42 | +34.42 | +44.40 | +44.40 |
+| 8 | +34.80 | +34.80 | +62.68 | +62.68 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -169,16 +169,16 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Aaron Rodgers | 5.88 | Matthew Stafford | -0.20 |
+| QB | Justin Herbert | 9.78 | Matthew Stafford | 9.28 |
 | RB | Sione Vaki | 7.50 | Bucky Irving | 21.00 |
 | RB | Woody Marks | 0.00 | Sione Vaki | 7.50 |
-| WR | Jordyn Tyson | 0.00 | KC Concepcion Jr. | 5.20 |
+| WR | Makai Lemon | 8.70 | Makai Lemon | 8.70 |
 | WR | KC Concepcion Jr. | 5.20 | George Pickens | 5.80 |
 | TE | Sam LaPorta | 6.50 | Brenton Strange | 7.50 |
 | FLEX | Jahmyr Gibbs | 23.80 | Trey McBride | 20.20 |
 | FLEX | Brenton Strange | 7.50 | Jahmyr Gibbs | 23.80 |
 | K | Chase McLaughlin | 12.00 | Chase McLaughlin | 12.00 |
-| DEF | Washington Commanders | 0.00 | Washington Commanders | 0.00 |
+| DEF | Washington Commanders | 14.00 | Washington Commanders | 14.00 |
 
 ## Source health
 

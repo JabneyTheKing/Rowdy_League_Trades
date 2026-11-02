@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-01T22:12:45.480710+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-02T06:28:35.490499+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -12,7 +12,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Brian Thomas Jr. (28.70), Kenneth Walker III (139.60) | Emeka Egbuka (57.10), Rhamondre Stevenson (77.90) | 168.30 | 135.00 | +33.30 | scored |
+| krunky / Grand Theft Aubrey | Brian Thomas Jr. (28.70), Kenneth Walker III (149.10) | Emeka Egbuka (57.10), Rhamondre Stevenson (87.40) | 177.80 | 144.50 | +33.30 | scored |
 
 ### Trade 1408228309090742272
 
@@ -48,7 +48,7 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (13.40), D'Andre Swift (38.00) | Ollie Gordon II (18.40), DJ Moore (14.60), Kendre Miller (12.30) | 51.40 | 45.30 | +6.10 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (24.70), D'Andre Swift (38.00) | Ollie Gordon II (23.70), DJ Moore (14.60), Kendre Miller (12.30) | 62.70 | 50.60 | +12.10 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 
@@ -60,7 +60,7 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Kenyon Sadiq (4.80) | Rachaad White (0.00) | 4.80 | 0.00 | +4.80 | scored |
+| krunky / Grand Theft Aubrey | Kenyon Sadiq (4.80) | Rachaad White (13.00) | 4.80 | 13.00 | -8.20 | scored |
 
 krunky picks received: 2027 round 16 (original roster 5). Value not included in points.
 
