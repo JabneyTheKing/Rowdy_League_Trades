@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-02T21:48:55.361395+00:00; through Week 8.
+Updated 2026-11-03T07:00:24.728199+00:00; through Week 8.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | -5.20 | +1.22 | +6.42 |
-| Wire Impact | +96.88 | +105.50 | +8.62 |
-| Total Impact | +91.68 | +106.72 | +15.04 |
+| Trade Impact | -8.60 | -8.78 | -0.18 |
+| Wire Impact | +80.68 | +85.80 | +5.12 |
+| Total Impact | +72.08 | +77.02 | +4.94 |
 
 ## Estimated absences
 
@@ -35,6 +35,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | 7 | Travis Etienne Jr. | 0.00 | 8.47 | W1: 11.30, W2: 6.10, W3: 8.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAWAAAAAAAOm9A=) |
 | 7 | Jadarian Price | 0.00 | 4.00 | W1: 6.80, W2: 4.50, W3: 0.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAPAAAAAAAOmMc=) |
 | 7 | Davante Adams | 0.00 | 14.50 | W1: 4.10, W2: 35.50, W3: 17.20, W4: 5.20, W5: 19.60, W6: 5.40 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
+| 8 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
+| 8 | Davante Adams | 0.00 | 14.50 | W1: 4.10, W2: 35.50, W3: 17.20, W4: 5.20, W5: 19.60, W6: 5.40 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -51,12 +53,12 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 2: Zach Charbonnet.
 - Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
-- Week 3: Josh Jacobs.
 - Week 3: Omar Cooper Jr..
-- Week 4: Josh Jacobs.
+- Week 3: Josh Jacobs.
 - Week 4: Omar Cooper Jr..
-- Week 5: Josh Jacobs.
+- Week 4: Josh Jacobs.
 - Week 5: Omar Cooper Jr..
+- Week 5: Josh Jacobs.
 - Week 6: Josh Jacobs.
 
 ## Weekly impact
@@ -70,7 +72,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 5 | -22.38 | -20.81 | -4.64 | +0.89 |
 | 6 | -1.48 | +5.97 | +13.52 | +20.97 |
 | 7 | +19.70 | +13.80 | +24.00 | +18.10 |
-| 8 | +35.20 | +35.20 | +74.22 | +74.22 |
+| 8 | +31.80 | +25.20 | +54.62 | +44.52 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -183,14 +185,14 @@ These are not classified as injuries; they may be healthy scratches or other abs
 |---|---|---:|---|---:|
 | QB | Kirk Cousins | 28.18 | Kirk Cousins | 28.18 |
 | RB | Braelon Allen | 22.30 | Braelon Allen | 22.30 |
-| RB | Quinshon Judkins | 5.90 | Josh Jacobs | 20.20 |
-| WR | Antonio Williams | 7.90 | Keenan Allen | 10.20 |
-| WR | Keenan Allen | 10.20 | CeeDee Lamb | 9.30 |
+| RB | Josh Jacobs | 20.20 | Josh Jacobs | 20.20 |
+| WR | Keenan Allen | 10.20 | Luther Burden III | 15.10 |
+| WR | Davante Adams | 14.50 | Keenan Allen | 10.20 |
 | TE | Kenyon Sadiq | 3.20 | Harold Fannin Jr. | 23.40 |
-| FLEX | Josh Jacobs | 20.20 | Ja'Marr Chase | 25.60 |
+| FLEX | Luther Burden III | 15.10 | Ja'Marr Chase | 25.60 |
 | FLEX | Ja'Marr Chase | 25.60 | Puka Nacua | 19.50 |
 | K | Spencer Shrader | 1.00 | Spencer Shrader | 1.00 |
-| DEF | Chicago Bears | 0.00 | Chicago Bears | 0.00 |
+| DEF | Chicago Bears | 8.00 | Chicago Bears | 8.00 |
 
 ## Source health
 

@@ -1,23 +1,23 @@
 # Rebuild King
 
-Updated 2026-11-02T21:48:55.361395+00:00. Season 2026; scored through Week 8. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-03T07:00:24.728199+00:00. Season 2026; scored through Week 8. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | -7.96 | 146.60 | 95.92 | +234.56 |
+| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | -37.86 | 146.60 | 97.62 | +206.36 |
 | 2 | TheRealNoodleMan | Gibbs of War | +88.42 | 14.16 | 88.68 | +191.26 |
 | 3 | AfootCoronet56 | Suicide Squad (the game) | +55.76 | 32.20 | 58.80 | +146.76 |
-| 4 | krunky | Grand Theft Aubrey | +64.14 | 37.60 | 1.60 | +103.34 |
-| 5 | DiscipleJack | JEFFERSON'S CREED | +7.10 | 11.30 | 73.88 | +92.28 |
-| 6 | lfain20 | Mortal Kombat: DARTside | -80.94 | 114.12 | 54.94 | +88.12 |
+| 4 | krunky | Grand Theft Aubrey | +102.54 | 37.60 | 1.60 | +141.74 |
+| 5 | DiscipleJack | JEFFERSON'S CREED | +7.10 | 8.00 | 69.58 | +84.68 |
+| 6 | lfain20 | Mortal Kombat: DARTside | -88.04 | 114.12 | 54.94 | +81.02 |
 | 7 | SethLL | Red Dead Zachdemption | -8.96 | -3.80 | 86.28 | +73.52 |
 | 8 | therealbulker | MidnightClub Rice Edition | +47.54 | 25.70 | -1.08 | +72.16 |
-| 9 | oneyjb | Bower's Inside Story | +46.66 | 0.88 | -2.50 | +45.04 |
+| 9 | oneyjb | Bower's Inside Story | +51.36 | 0.88 | -2.50 | +49.74 |
 | 10 | Dawg2003 | The Windhelm Nords  | -138.14 | 29.20 | 124.40 | +15.46 |
 | 11 | Potatomain | The Lost Cause Fallacy | -45.50 | 35.80 | 1.80 | -7.90 |
-| 12 | RollnWithJesus | Breach & Touchdown | -28.12 | -22.80 | 39.40 | -11.52 |
+| 12 | RollnWithJesus | Breach & Touchdown | -34.22 | -22.80 | 39.40 | -17.62 |
 
 ## Post-Week-1 free-agent transactions
 
@@ -34,15 +34,14 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–8 | 47.20 | 21.30 | +25.90 | scored |
 | Dawg2003 | New England Patriots | — | 5–8 | 24.00 | 0.00 | +24.00 | scored |
 | AfootCoronet56 | Rico Dowdle | — | 7–8 | 23.20 | 0.00 | +23.20 | scored |
-| DiscipleJack | T.J. Hockenson | AJ Barner | 7–8 | 29.30 | 8.60 | +20.70 | scored |
 | RollnWithJesus | Darius Cooper | — | 5–8 | 20.60 | 0.00 | +20.60 | scored |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | 6–7 | 19.00 | 0.00 | +19.00 | scored |
 | RollnWithJesus | MarShawn Lloyd | — | 5–6 | 17.20 | 0.00 | +17.20 | scored |
 | SethLL | Tyler Bass | Brian Thomas Jr. | 6–6 | 17.00 | 0.00 | +17.00 | scored |
+| DiscipleJack | T.J. Hockenson | AJ Barner | 7–8 | 29.30 | 12.90 | +16.40 | scored |
 | lfain20 | Malik Willis | Jameis Winston | 8–8 | 15.64 | 0.00 | +15.64 | scored |
 | lfain20 | Tyler Higbee | Isaiah Williams | 4–7 | 32.60 | 17.10 | +15.50 | scored |
 | TheRealNoodleMan | Chase McLaughlin | Nick Folk | 7–8 | 24.00 | 9.00 | +15.00 | scored |
-| JabneyTheKing | Antonio Williams | Kalif Raymond | 5–8 | 19.00 | 4.70 | +14.30 | scored |
 | TheRealNoodleMan | Chig Okonkwo | — | 6–7 | 13.90 | 0.00 | +13.90 | scored |
 | AfootCoronet56 | Courtland Sutton | — | 7–8 | 13.30 | 0.00 | +13.30 | scored |
 | Dawg2003 | Raheim Sanders | — | 2–5 | 13.10 | 0.00 | +13.10 | scored |
@@ -50,10 +49,12 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
 | TheRealNoodleMan | Ryan Flournoy | — | 7–7 | 9.00 | 0.00 | +9.00 | scored |
 | SethLL | Seth McGowan | Fernando Mendoza | 7–8 | 8.20 | 0.00 | +8.20 | scored |
+| JabneyTheKing | Antonio Williams | Kalif Raymond | 5–8 | 19.00 | 11.00 | +8.00 | scored |
 | krunky | Los Angeles Rams | Atlanta Falcons | 8–8 | 11.00 | 3.00 | +8.00 | scored |
 | lfain20 | Chris Boswell | Mike Washington Jr. | 7–8 | 19.00 | 11.00 | +8.00 | scored |
 | lfain20 | Zonovan Knight | — | 7–7 | 7.80 | 0.00 | +7.80 | scored |
 | DiscipleJack | Cam Ward | — | 6–6 | 7.78 | 0.00 | +7.78 | scored |
+| JabneyTheKing | Chicago Bears | Keon Coleman | 8–8 | 8.00 | 0.90 | +7.10 | scored |
 | Dawg2003 | Darnell Washington | Courtland Sutton | 7–8 | 19.80 | 13.30 | +6.50 | scored |
 | TheRealNoodleMan | Washington Commanders | Tennessee Titans | 8–8 | 14.00 | 8.00 | +6.00 | scored |
 | therealbulker | Jacoby Brissett | Brian Robinson Jr. | 6–6 | 7.92 | 2.00 | +5.92 | scored |
@@ -74,7 +75,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | JabneyTheKing | Zach Ertz | — | 3–3 | 1.90 | 0.00 | +1.90 | scored |
 | lfain20 | DeMario Douglas | Efton Chism III | 7–7 | 3.80 | 2.10 | +1.70 | scored |
 | RollnWithJesus | Chris Rodriguez Jr. | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
-| DiscipleJack | Roschon Johnson | — | 7–8 | 1.30 | 0.00 | +1.30 | scored |
+| DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | lfain20 | Darren Waller | Chig Okonkwo | 3–8 | 30.80 | 29.60 | +1.20 | scored |
 | Potatomain | Jaylin Noel | — | 7–8 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -98,7 +99,6 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| JabneyTheKing | Chicago Bears | Keon Coleman | 8–8 | 0.00 | 0.90 | -0.90 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
@@ -116,7 +116,3 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | 7–7 | 0.00 | 16.20 | -16.20 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–7 | 13.80 | 35.30 | -21.50 | scored |
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–8 | 21.30 | 54.80 | -33.50 | scored |
-
-
-Week 8 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

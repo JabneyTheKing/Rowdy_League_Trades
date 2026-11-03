@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-11-02T21:48:55.361395+00:00; through Week 8.
+Updated 2026-11-03T07:00:24.728199+00:00; through Week 8.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +155.86 | +155.86 | +0.00 |
-| Wire Impact | +65.92 | +50.72 | -15.20 |
-| Total Impact | +221.78 | +206.58 | -15.20 |
+| Trade Impact | +160.76 | +151.85 | -8.91 |
+| Wire Impact | +31.34 | +33.32 | +1.98 |
+| Total Impact | +192.10 | +185.17 | -6.93 |
 
 ## Estimated absences
 
@@ -32,6 +32,10 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | 7 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
 | 7 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAOAAAAAAAOmKk=) |
 | 7 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
+| 8 | De'Von Achane | 0.00 | 7.03 | W1: 8.60, W2: 10.80, W3: 1.70 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/9?after=AAAH6gAAAAkAAAAaAAAAAAAOj2M=) |
+| 8 | Michael Pittman Jr. | 0.00 | 4.90 | W1: 7.30, W4: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAOAAAAAAAOmKk=) |
+| 8 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
+| 8 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -58,7 +62,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 5 | +28.50 | +28.50 | +43.24 | +43.01 |
 | 6 | +10.78 | +10.78 | +2.18 | -4.66 |
 | 7 | +36.70 | +36.70 | +58.90 | +50.77 |
-| 8 | +34.80 | +34.80 | +62.68 | +62.68 |
+| 8 | +39.70 | +30.79 | +33.00 | +41.27 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -171,12 +175,12 @@ These are not classified as injuries; they may be healthy scratches or other abs
 |---|---|---:|---|---:|
 | QB | Justin Herbert | 9.78 | Matthew Stafford | 9.28 |
 | RB | Sione Vaki | 7.50 | Bucky Irving | 21.00 |
-| RB | Woody Marks | 0.00 | Sione Vaki | 7.50 |
-| WR | Makai Lemon | 8.70 | Makai Lemon | 8.70 |
-| WR | KC Concepcion Jr. | 5.20 | George Pickens | 5.80 |
-| TE | Sam LaPorta | 6.50 | Brenton Strange | 7.50 |
-| FLEX | Jahmyr Gibbs | 23.80 | Trey McBride | 20.20 |
-| FLEX | Brenton Strange | 7.50 | Jahmyr Gibbs | 23.80 |
+| RB | De'Von Achane | 7.03 | Sione Vaki | 7.50 |
+| WR | Makai Lemon | 8.70 | Rome Odunze | 10.70 |
+| WR | Terry McLaurin | 7.08 | Makai Lemon | 8.70 |
+| TE | Sam LaPorta | 6.50 | Trey McBride | 20.20 |
+| FLEX | Jahmyr Gibbs | 23.80 | Jahmyr Gibbs | 23.80 |
+| FLEX | Brenton Strange | 7.50 | Brenton Strange | 7.50 |
 | K | Chase McLaughlin | 12.00 | Chase McLaughlin | 12.00 |
 | DEF | Washington Commanders | 14.00 | Washington Commanders | 14.00 |
 

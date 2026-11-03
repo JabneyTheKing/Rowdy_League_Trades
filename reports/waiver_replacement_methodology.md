@@ -2,7 +2,7 @@
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
 
-Updated 2026-11-02T21:48:55.361395+00:00. Through Week 8.
+Updated 2026-11-03T07:00:24.728199+00:00. Through Week 8.
 
 The samples below belong to each hypothetical roster; they are not real claims. All source pool candidates are stored in data/report.json.
 
@@ -21,6 +21,9 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Jabney | team_impact | 6 | trades_only | FLEX | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
 | Jabney | team_impact | 6 | wire_only | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Jabney | team_impact | 7 | trades_only | RB | 8.86 | Devin Singletary (13.00), Sean Tucker (11.20), Anthony Tyus III (8.30), Isaiah Davis (6.90), Elijah Mitchell (4.90) |
+| Jabney | team_impact | 8 | drafted | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
+| Jabney | team_impact | 8 | trades_only | RB | 7.58 | Chris Rodriguez Jr. (12.30), Mike Washington Jr. (8.30), Dylan Laube (6.00), Elijah Mitchell (5.70), Austin Ekeler (5.60) |
+| Jabney | team_impact | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Krunky | team_impact | 1 | drafted | DEF | 10.40 | Kansas City Chiefs (13.00), Arizona Cardinals (11.00), Detroit Lions (11.00), New York Jets (9.00), Buffalo Bills (8.00) |
 | Krunky | team_impact | 1 | trades_only | DEF | 10.40 | Kansas City Chiefs (13.00), Arizona Cardinals (11.00), Detroit Lions (11.00), New York Jets (9.00), Buffalo Bills (8.00) |
 | Krunky | team_impact | 2 | drafted | DEF | 9.60 | Las Vegas Raiders (16.00), New York Jets (10.00), New Orleans Saints (8.00), Cleveland Browns (7.00), Tennessee Titans (7.00) |
@@ -43,6 +46,8 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Krunky | team_impact | 6 | trades_only | DEF | 9.60 | New Orleans Saints (13.00), Chicago Bears (12.00), Green Bay Packers (9.00), Arizona Cardinals (7.00), Tampa Bay Buccaneers (7.00) |
 | Krunky | team_impact | 7 | drafted | DEF | 4.60 | Green Bay Packers (8.00), Detroit Lions (6.00), Miami Dolphins (4.00), New Orleans Saints (4.00), New York Giants (1.00) |
 | Krunky | team_impact | 7 | trades_only | DEF | 4.60 | Green Bay Packers (8.00), Detroit Lions (6.00), Miami Dolphins (4.00), New Orleans Saints (4.00), New York Giants (1.00) |
+| Krunky | team_impact | 8 | drafted | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
+| Krunky | team_impact | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Gibbs Of War | team_impact | 6 | drafted | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Gibbs Of War | team_impact | 6 | drafted | TE | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
 | Gibbs Of War | team_impact | 6 | drafted | K | 16.40 | Chad Ryland (19.00), Joey Slye (18.00), Chris Boswell (17.00), Jason Sanders (15.00), Daniel Carlson (13.00) |
@@ -51,9 +56,15 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Gibbs Of War | team_impact | 6 | wire_only | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Gibbs Of War | team_impact | 7 | drafted | K | 9.80 | Cairo Santos (14.00), Wil Lutz (14.00), Andre Szmyt (8.00), Andy Borregales (7.00), Joey Slye (6.00) |
 | Gibbs Of War | team_impact | 7 | trades_only | K | 9.80 | Cairo Santos (14.00), Wil Lutz (14.00), Andre Szmyt (8.00), Andy Borregales (7.00), Joey Slye (6.00) |
+| Gibbs Of War | team_impact | 8 | drafted | RB | 7.58 | Chris Rodriguez Jr. (12.30), Mike Washington Jr. (8.30), Dylan Laube (6.00), Elijah Mitchell (5.70), Austin Ekeler (5.60) |
+| Gibbs Of War | team_impact | 8 | drafted | FLEX | 14.80 | Adonai Mitchell (23.70), Chimere Dike (15.60), Kevin Coleman Jr. (12.10), Jalen Nailor (11.80), Kyle Williams (10.80) |
+| Gibbs Of War | team_impact | 8 | drafted | K | 12.20 | Drew Stevens (15.00), Jason Sanders (15.00), Cairo Santos (11.00), Cameron Dicker (11.00), Ryan Fitzgerald (9.00) |
+| Gibbs Of War | team_impact | 8 | trades_only | K | 12.20 | Drew Stevens (15.00), Jason Sanders (15.00), Cairo Santos (11.00), Cameron Dicker (11.00), Ryan Fitzgerald (9.00) |
 | Jabney | injury_adjusted | 4 | trades_only | FLEX | 15.76 | Tyquan Thornton (25.60), Darius Cooper (16.80), Jahan Dotson (12.40), Malachi Fields (12.20), Rashid Shaheed (11.80) |
 | Jabney | injury_adjusted | 6 | drafted | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Jabney | injury_adjusted | 6 | trades_only | FLEX | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
+| Jabney | injury_adjusted | 8 | drafted | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
+| Jabney | injury_adjusted | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Krunky | injury_adjusted | 1 | drafted | DEF | 10.40 | Kansas City Chiefs (13.00), Arizona Cardinals (11.00), Detroit Lions (11.00), New York Jets (9.00), Buffalo Bills (8.00) |
 | Krunky | injury_adjusted | 1 | trades_only | DEF | 10.40 | Kansas City Chiefs (13.00), Arizona Cardinals (11.00), Detroit Lions (11.00), New York Jets (9.00), Buffalo Bills (8.00) |
 | Krunky | injury_adjusted | 2 | drafted | DEF | 9.60 | Las Vegas Raiders (16.00), New York Jets (10.00), New Orleans Saints (8.00), Cleveland Browns (7.00), Tennessee Titans (7.00) |
@@ -76,6 +87,8 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Krunky | injury_adjusted | 6 | trades_only | DEF | 9.60 | New Orleans Saints (13.00), Chicago Bears (12.00), Green Bay Packers (9.00), Arizona Cardinals (7.00), Tampa Bay Buccaneers (7.00) |
 | Krunky | injury_adjusted | 7 | drafted | DEF | 4.60 | Green Bay Packers (8.00), Detroit Lions (6.00), Miami Dolphins (4.00), New Orleans Saints (4.00), New York Giants (1.00) |
 | Krunky | injury_adjusted | 7 | trades_only | DEF | 4.60 | Green Bay Packers (8.00), Detroit Lions (6.00), Miami Dolphins (4.00), New Orleans Saints (4.00), New York Giants (1.00) |
+| Krunky | injury_adjusted | 8 | drafted | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
+| Krunky | injury_adjusted | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Gibbs Of War | injury_adjusted | 6 | drafted | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Gibbs Of War | injury_adjusted | 6 | drafted | TE | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
 | Gibbs Of War | injury_adjusted | 6 | drafted | K | 16.40 | Chad Ryland (19.00), Joey Slye (18.00), Chris Boswell (17.00), Jason Sanders (15.00), Daniel Carlson (13.00) |
@@ -83,3 +96,5 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Gibbs Of War | injury_adjusted | 6 | wire_only | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Gibbs Of War | injury_adjusted | 7 | drafted | K | 9.80 | Cairo Santos (14.00), Wil Lutz (14.00), Andre Szmyt (8.00), Andy Borregales (7.00), Joey Slye (6.00) |
 | Gibbs Of War | injury_adjusted | 7 | trades_only | K | 9.80 | Cairo Santos (14.00), Wil Lutz (14.00), Andre Szmyt (8.00), Andy Borregales (7.00), Joey Slye (6.00) |
+| Gibbs Of War | injury_adjusted | 8 | drafted | K | 12.20 | Drew Stevens (15.00), Jason Sanders (15.00), Cairo Santos (11.00), Cameron Dicker (11.00), Ryan Fitzgerald (9.00) |
+| Gibbs Of War | injury_adjusted | 8 | trades_only | K | 12.20 | Drew Stevens (15.00), Jason Sanders (15.00), Cairo Santos (11.00), Cameron Dicker (11.00), Ryan Fitzgerald (9.00) |

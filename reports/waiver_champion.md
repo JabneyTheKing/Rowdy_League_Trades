@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-02T21:48:55.361395+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-03T07:00:24.728199+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -8,7 +8,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 |---:|---|---|---:|---:|---:|---|
 | 1 | JabneyTheKing | Josh Jacobs: Most Wanted | 146.60 | 6 | $100 | Braelon Allen (70.40) |
 | 2 | lfain20 | Mortal Kombat: DARTside | 114.12 | 4 | $85 | Emanuel Wilson (62.30) |
-| 3 | DiscipleJack | JEFFERSON'S CREED | 76.50 | 3 | $16 | Dalton Schultz (65.20) |
+| 3 | DiscipleJack | JEFFERSON'S CREED | 73.20 | 3 | $16 | Dalton Schultz (65.20) |
 | 4 | krunky | Grand Theft Aubrey | 37.60 | 8 | $84 | Ollie Gordon II (24.10) |
 | 5 | Potatomain | The Lost Cause Fallacy | 35.80 | 6 | $82 | Alvin Kamara (50.10) |
 | 6 | AfootCoronet56 | Suicide Squad (the game) | 32.20 | 7 | $42 | Dameon Pierce (24.30) |
@@ -61,7 +61,6 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | Kansas City Chiefs | Tampa Bay Buccaneers | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
-| DiscipleJack | Zonovan Knight | Roschon Johnson | $5 | 8–8 | 0.30 | 0.00 | +0.30 | scored |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cade Otton | Chase McLaughlin | $11 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Carson Wentz | Chicago Bears | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -74,6 +73,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | JabneyTheKing | Jaylen Wright | Zach Ertz | $27 | 4–5 | 1.80 | 3.30 | -1.50 | scored |
 | TheRealNoodleMan | Carolina Panthers | Baltimore Ravens | $3 | 3–3 | 4.00 | 6.00 | -2.00 | scored |
 | TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | 8–8 | 8.70 | 11.60 | -2.90 | scored |
+| DiscipleJack | Zonovan Knight | Roschon Johnson | $5 | 8–8 | 0.30 | 3.30 | -3.00 | scored |
 | krunky | Tampa Bay Buccaneers | Los Angeles Chargers | $2 | 2–2 | 2.00 | 5.00 | -3.00 | scored |
 | TheRealNoodleMan | Indianapolis Colts | Dallas Cowboys | $3 | 6–6 | 2.00 | 5.00 | -3.00 | scored |
 | JabneyTheKing | Kalif Raymond | Kayshon Boutte | $28 | 4–4 | 1.60 | 5.10 | -3.50 | scored |
@@ -92,7 +92,3 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | RollnWithJesus | Las Vegas Raiders | New England Patriots | $20 | 4–7 | 4.00 | 22.00 | -18.00 | scored |
 | AfootCoronet56 | Mark Andrews | T.J. Hockenson | $5 | 6–8 | 11.10 | 29.30 | -18.20 | scored |
 | oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–8 | 0.00 | 22.80 | -22.80 | scored |
-
-
-Week 8 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

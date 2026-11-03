@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-02T21:48:55.361395+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-03T07:00:24.728199+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -28,7 +28,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Colston Loveland (54.00), Amon-Ra St. Brown (50.20) | Denzel Boston (35.90), Chase Brown (39.00) | 104.20 | 74.90 | +29.30 | scored |
+| krunky / Grand Theft Aubrey | Colston Loveland (65.50), Amon-Ra St. Brown (50.20) | Denzel Boston (35.90), Chase Brown (39.00) | 115.70 | 74.90 | +40.80 | scored |
 
 ### Trade 1413043102498734080
 
@@ -48,7 +48,7 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (24.70), D'Andre Swift (38.00) | Ollie Gordon II (23.70), DJ Moore (14.60), Kendre Miller (12.30) | 62.70 | 50.60 | +12.10 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (24.70), D'Andre Swift (64.90) | Ollie Gordon II (23.70), DJ Moore (14.60), Kendre Miller (12.30) | 89.60 | 50.60 | +39.00 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 
@@ -73,7 +73,3 @@ First scoring week: **7**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | krunky / Grand Theft Aubrey | Michael Mayer (16.50) | DK Metcalf (7.50) | 16.50 | 7.50 | +9.00 | scored |
-
-
-Week 8 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-
