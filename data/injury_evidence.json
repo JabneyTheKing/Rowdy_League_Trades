@@ -1,13 +1,12 @@
 {
   "errors": [
     "Reserve archive pagination incomplete; retained verified rows only",
-    "Reserve archive pagination incomplete; retained verified rows only",
-    "https://www.nfl.com/transactions/league/reserve-list/2026/11: Missing reserve transaction table; https://www.nfl.com/transactions/league/reserve-list/2026/11: Missing reserve transaction table; Reserve archive pagination incomplete; retained verified rows only"
+    "Reserve archive pagination incomplete; retained verified rows only"
   ],
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-03T19:39:03.471149+00:00",
+      "fetched_at": "2026-11-04T06:43:26.912902+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -1221,7 +1220,7 @@
     },
     "2026-10": {
       "complete": false,
-      "fetched_at": "2026-11-03T19:39:04.849048+00:00",
+      "fetched_at": "2026-11-04T06:43:29.441249+00:00",
       "rows": [
         {
           "date": "2026-10-01",
@@ -1906,16 +1905,108 @@
       ]
     },
     "2026-11": {
-      "complete": false,
-      "fetched_at": "2026-11-03T19:39:01.611619+00:00",
-      "rows": [],
+      "complete": true,
+      "fetched_at": "2026-11-04T06:43:25.018308+00:00",
+      "rows": [
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Cashius Howell",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "CIN"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "DaVon Hamilton",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "JAX"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Daron Payne",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "WAS"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Dean Connors",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "LAR"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Eric Murray",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "JAX"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Javon Kinlaw",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "WAS"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Jeremiyah Love",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "ARI"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Jeremy McNichols",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "WAS"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Jimmy Rolder",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "DET"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Kendrick Bourne",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "ARI"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Max Mitchell",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "NYJ"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Samson Ebukam",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "ATL"
+        },
+        {
+          "date": "2026-11-03",
+          "description": "Reserve/Injured",
+          "name": "Tyler Loop",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "BAL"
+        }
+      ],
       "sources": [
         "https://www.nfl.com/transactions/league/reserve-list/2026/11"
       ]
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-03T19:39:04.849494+00:00",
+  "updated_at": "2026-11-04T06:43:29.441700+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -16941,7 +17032,7 @@
     },
     "8": {
       "complete": true,
-      "fetched_at": "2026-11-03T19:39:01.586317+00:00",
+      "fetched_at": "2026-11-04T06:43:24.943918+00:00",
       "rows": [
         {
           "injury": "Hand",
