@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-11-04T06:43:13.615414+00:00. Through Week 8 (complete).
+Updated 2026-11-04T19:54:37.753081+00:00. Through Week 8 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -19,8 +19,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 5 | 130.66 | 113.20 | -17.46 |
 | 6 | 95.06 | 94.40 | -0.66 |
 | 7 | 121.72 | 135.58 | +13.86 |
-| 8 | 118.86 | 141.34 | +22.48 |
-| **Total** | **985.02** | **994.62** | **+9.60** |
+| 8 | 118.86 | 140.78 | +21.92 |
+| **Total** | **985.02** | **994.06** | **+9.04** |
 
 ## Original drafted roster
 
@@ -130,7 +130,7 @@ Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price
 |---|---|---:|---|---:|
 | QB | Josh Allen | 27.56 | Daniel Jones | 8.46 |
 | RB | Quinshon Judkins | 5.90 | Josh Jacobs | 20.20 |
-| RB | Josh Jacobs | 20.20 | Waiver cover (RB) | 7.58 |
+| RB | Josh Jacobs | 20.20 | Waiver cover (RB) | 7.02 |
 | WR | Luther Burden III | 15.10 | Luther Burden III | 15.10 |
 | WR | Ja'Marr Chase | 25.60 | CeeDee Lamb | 9.30 |
 | TE | Kenyon Sadiq | 3.20 | Harold Fannin Jr. | 23.40 |

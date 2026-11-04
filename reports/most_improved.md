@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-04T06:43:13.615414+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-04T19:54:37.753081+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -94,6 +94,8 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Darren Waller | Chig Okonkwo | 3–8 | 30.80 | 29.60 | +1.20 | scored |
 | Potatomain | Jaylin Noel | — | 7–8 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| Dawg2003 | Cairo Santos | Tyler Loop | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 | Devin Singletary | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Jauan Jennings | — | 1–2 | 0.00 | 0.00 | +0.00 | scored |
@@ -116,11 +118,13 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Brian Robinson Jr. | — | 7–8 | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Jacksonville Jaguars | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| SethLL | Greg Dulcich | Xavier Worthy | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Malik Willis | Cam Ward | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–8 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| therealbulker | Adonai Mitchell | Tyreek Hill | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
