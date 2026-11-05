@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-11-04T19:54:37.753081+00:00. Season 2026; scored through Week 8. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-05T07:02:15.258361+00:00. Season 2026; scored through Week 8. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -79,6 +79,8 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | lfain20 | Darren Waller | Chig Okonkwo | 3–8 | 30.80 | 29.60 | +1.20 | scored |
 | Potatomain | Jaylin Noel | — | 7–8 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| AfootCoronet56 | New Orleans Saints | Atlanta Falcons | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Kimani Vidal | Chad Ryland | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Cairo Santos | Tyler Loop | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Devin Singletary | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -91,6 +93,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Jahan Dotson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |

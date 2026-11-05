@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-04T19:54:37.753081+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-05T07:02:15.258361+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -94,6 +94,8 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Darren Waller | Chig Okonkwo | 3–8 | 30.80 | 29.60 | +1.20 | scored |
 | Potatomain | Jaylin Noel | — | 7–8 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| AfootCoronet56 | New Orleans Saints | Atlanta Falcons | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 | Kimani Vidal | Chad Ryland | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Cairo Santos | Tyler Loop | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Devin Singletary | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -112,6 +114,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Jahan Dotson | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |
