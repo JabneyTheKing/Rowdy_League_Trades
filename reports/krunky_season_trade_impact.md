@@ -1,6 +1,6 @@
 # How Krunky’s trades have impacted the season
 
-Updated 2026-11-05T20:07:53.376575+00:00. Through Week 8 (complete).
+Updated 2026-11-06T07:02:06.715275+00:00. Through Week 9 (partial).
 
 Under the stated lineup and waiver assumptions, Krunky’s trades have **added 89.48 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
 
@@ -14,16 +14,16 @@ The drafted roster is a starting inventory, not a requirement to field unavailab
 
 | Roster scenario | Season-to-date optimal points, including temporary cover |
 |---|---:|
-| Original drafted team | 1113.48 |
-| Draft plus eligible trades only | 1225.62 |
-| Draft plus recorded waiver/free-agent moves only | 1094.66 |
-| Team after all eligible moves | 1184.14 |
+| Original drafted team | 1136.78 |
+| Draft plus eligible trades only | 1248.92 |
+| Draft plus recorded waiver/free-agent moves only | 1107.76 |
+| Team after all eligible moves | 1197.24 |
 
 **Trade impact with wire moves held fixed: +89.48.** All moves minus wire-only is the main measure of how trading changed the team’s available starting production.
 
 **Trades considered without wire moves: +112.14.** This answers a different question: how did trades change the original draft, with temporary waiver coverage allowed on both sides?
 
-**Wire baseline impact: -18.82.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+70.66 total improvement**.
+**Wire baseline impact: -29.02.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+60.46 total improvement**.
 
 The trade/wire interaction is **-22.66**, already included in the main trade impact. It measures how the value of trading changes when the recorded wire moves are also available; it must not be added again.
 
@@ -39,6 +39,7 @@ The trade/wire interaction is **-22.66**, already included in the main trade imp
 | 6 | 126.30 | 132.24 | 159.00 | +26.76 |
 | 7 | 122.52 | 145.72 | 157.72 | +12.00 |
 | 8 | 138.58 | 114.38 | 128.18 | +13.80 |
+| 9 | 23.30 | 13.10 | 13.10 | +0.00 |
 
 The highest weekly trading impact was Week 6 (+26.76); the lowest was Week 5 (-25.08).
 

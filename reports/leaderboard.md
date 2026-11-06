@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-05T20:07:53.376575+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-06T07:02:06.715275+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,13 +11,13 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | krunky | Grand Theft Aubrey | +135.84 | 7 | 7 | Yes |
 | 2 | TheRealNoodleMan | Gibbs of War | +133.10 | 6 | 6 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +81.24 | 4 | 4 | Yes |
-| 4 | therealbulker | MidnightClub Rice Edition | +47.54 | 6 | 7 | Yes |
+| 4 | therealbulker | MidnightClub Rice Edition | +30.54 | 6 | 7 | Yes |
 | 5 | oneyjb | Bower's Inside Story | +28.98 | 5 | 5 | Yes |
 | 6 | DiscipleJack | JEFFERSON'S CREED | +7.10 | 1 | 1 | No |
 | 7 | AfootCoronet56 | Suicide Squad (the game) | -6.00 | 4 | 4 | Yes |
 | 8 | RollnWithJesus | Breach & Touchdown | -34.22 | 4 | 4 | Yes |
-| 9 | Potatomain | The Lost Cause Fallacy | -78.80 | 6 | 6 | Yes |
-| 10 | lfain20 | Mortal Kombat: DARTside | -88.04 | 5 | 5 | Yes |
+| 9 | lfain20 | Mortal Kombat: DARTside | -71.04 | 5 | 5 | Yes |
+| 10 | Potatomain | The Lost Cause Fallacy | -78.80 | 6 | 6 | Yes |
 | 11 | JabneyTheKing | Josh Jacobs: Most Wanted | -88.60 | 8 | 9 | Yes |
 | 12 | Dawg2003 | The Windhelm Nords  | -138.14 | 5 | 5 | Yes |
 
@@ -316,8 +316,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| lfain20 / Mortal Kombat: DARTside | Cam Little (6.00), Omarion Hampton (3.70) | Evan McPherson (10.00), Chase Brown (19.90) | 9.70 | 29.90 | -20.20 | scored |
-| therealbulker / MidnightClub Rice Edition | Evan McPherson (10.00), Chase Brown (19.90) | Cam Little (6.00), Omarion Hampton (3.70) | 29.90 | 9.70 | +20.20 | scored |
+| lfain20 / Mortal Kombat: DARTside | Cam Little (23.00), Omarion Hampton (3.70) | Evan McPherson (10.00), Chase Brown (19.90) | 26.70 | 29.90 | -3.20 | scored |
+| therealbulker / MidnightClub Rice Edition | Evan McPherson (10.00), Chase Brown (19.90) | Cam Little (23.00), Omarion Hampton (3.70) | 29.90 | 26.70 | +3.20 | scored |
 
 lfain20 picks received: 2027 round 3 (original roster 7). Value not included in points.
 
@@ -416,3 +416,7 @@ First scoring week: **7**
 therealbulker picks sent: 2027 round 13 (original roster 7). Value not included in points.
 
 SethLL picks received: 2027 round 13 (original roster 7). Value not included in points.
+
+
+Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

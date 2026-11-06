@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-05T20:07:53.376575+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 8.
+Updated 2026-11-06T07:02:06.715275+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -95,3 +95,7 @@ First scoring week: **8**
 JabneyTheKing picks received: 2027 round 16 (original roster 7). Value not included in points.
 
 JabneyTheKing picks sent: 2027 round 16 (original roster 3). Value not included in points.
+
+
+Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+
