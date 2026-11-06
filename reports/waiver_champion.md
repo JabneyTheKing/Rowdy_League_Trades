@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-06T07:02:06.715275+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-06T19:33:41.130953+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -10,7 +10,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 2 | lfain20 | Mortal Kombat: DARTside | 114.12 | 4 | $85 | Emanuel Wilson (62.30) |
 | 3 | DiscipleJack | JEFFERSON'S CREED | 71.20 | 3 | $16 | Dalton Schultz (65.20) |
 | 4 | krunky | Grand Theft Aubrey | 37.60 | 8 | $84 | Ollie Gordon II (24.10) |
-| 5 | AfootCoronet56 | Suicide Squad (the game) | 36.10 | 7 | $42 | Dameon Pierce (24.30) |
+| 5 | AfootCoronet56 | Suicide Squad (the game) | 36.10 | 8 | $42 | Dameon Pierce (24.30) |
 | 6 | Potatomain | The Lost Cause Fallacy | 35.80 | 7 | $95 | Alvin Kamara (50.10) |
 | 7 | Dawg2003 | The Windhelm Nords  | 29.20 | 4 | $45 | Kenny Gainwell (25.70) |
 | 8 | therealbulker | MidnightClub Rice Edition | 25.70 | 9 | $99 | Brian Robinson Jr. (22.30) |
@@ -61,6 +61,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | Kansas City Chiefs | Tampa Bay Buccaneers | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
+| AfootCoronet56 | Xavier Worthy | Konata Mumpfield | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Dawg2003 | Emmett Johnson | Dohnte Meyers | $22 | 9–9 | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cade Otton | Chase McLaughlin | $11 | No completed week | 0.00 | 0.00 | +0.00 | scored |

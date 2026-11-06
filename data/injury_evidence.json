@@ -5,7 +5,7 @@
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-06T07:02:27.025085+00:00",
+      "fetched_at": "2026-11-06T19:33:56.268822+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -1905,7 +1905,7 @@
     },
     "2026-11": {
       "complete": true,
-      "fetched_at": "2026-11-06T07:02:24.321601+00:00",
+      "fetched_at": "2026-11-06T19:33:54.607111+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2033,7 +2033,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-06T07:02:27.025523+00:00",
+  "updated_at": "2026-11-06T19:33:56.269190+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -19306,7 +19306,7 @@
     },
     "9": {
       "complete": false,
-      "fetched_at": "2026-11-06T07:02:24.394396+00:00",
+      "fetched_at": "2026-11-06T19:33:54.495096+00:00",
       "rows": [
         {
           "injury": "",
@@ -20348,7 +20348,7 @@
           "injury": "",
           "name": "Steve Avila",
           "position": "G",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -20411,7 +20411,7 @@
           "injury": "",
           "name": "Grant Stuard",
           "position": "LB",
-          "practice": "Limited Participation in Practice",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
@@ -20796,14 +20796,14 @@
           "injury": "",
           "name": "Bud Dupree",
           "position": "DE",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
           "injury": "",
           "name": "Daiyan Henley",
           "position": "LB",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -20817,14 +20817,14 @@
           "injury": "",
           "name": "Deane Leonard",
           "position": "CB",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Limited Participation in Practice",
           "status": ""
         },
         {
           "injury": "",
           "name": "Khalil Mack",
           "position": "DE",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -20957,7 +20957,7 @@
           "injury": "",
           "name": "Anthony Bradford",
           "position": "G",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -20983,9 +20983,23 @@
         },
         {
           "injury": "",
+          "name": "Derick Hall",
+          "position": "LB",
+          "practice": "Did Not Participate In Practice",
+          "status": ""
+        },
+        {
+          "injury": "",
           "name": "Tory Horton",
           "position": "WR",
           "practice": "Full Participation in Practice",
+          "status": ""
+        },
+        {
+          "injury": "",
+          "name": "Ernest Jones",
+          "position": "LB",
+          "practice": "Limited Participation in Practice",
           "status": ""
         },
         {
@@ -21013,14 +21027,14 @@
           "injury": "",
           "name": "Quenton Nelson",
           "position": "G",
-          "practice": "Limited Participation in Practice",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
           "injury": "",
           "name": "Uchenna Nwosu",
           "position": "LB",
-          "practice": "Limited Participation in Practice",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
@@ -21048,7 +21062,7 @@
           "injury": "",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
