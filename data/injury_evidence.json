@@ -5,7 +5,7 @@
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-07T22:03:55.367164+00:00",
+      "fetched_at": "2026-11-08T06:21:15.745785+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -1905,7 +1905,7 @@
     },
     "2026-11": {
       "complete": true,
-      "fetched_at": "2026-11-07T22:03:54.443281+00:00",
+      "fetched_at": "2026-11-08T06:21:13.721918+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2025,6 +2025,55 @@
           "name": "Zavier Scott",
           "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "CHI"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Brian Robinson",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "ATL"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Christian Kirk",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "SF"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Dyami Brown",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "WAS"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Eyioma Uwazurike",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "DEN"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Jack Campbell",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "DET"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Jaylen Watson",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "LAR"
+        },
+        {
+          "date": "2026-11-07",
+          "description": "Reserve/Injured",
+          "name": "Malachi Lawrence",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+          "team": "DAL"
         }
       ],
       "sources": [
@@ -2033,7 +2082,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-07T22:03:55.367720+00:00",
+  "updated_at": "2026-11-08T06:21:15.746184+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -19306,7 +19355,7 @@
     },
     "9": {
       "complete": false,
-      "fetched_at": "2026-11-07T22:03:54.219646+00:00",
+      "fetched_at": "2026-11-08T06:21:13.660708+00:00",
       "rows": [
         {
           "injury": "",
@@ -19607,7 +19656,7 @@
           "name": "Cameron Williams",
           "position": "T",
           "practice": "Full Participation in Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "Calf",
@@ -19761,7 +19810,7 @@
           "name": "A.J. Haulcy",
           "position": "S",
           "practice": "Limited Participation in Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "",
@@ -20118,14 +20167,14 @@
           "name": "Joseph Ossai",
           "position": "DE",
           "practice": "Limited Participation in Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "Knee",
           "name": "VJ Payne",
           "position": "S",
           "practice": "Full Participation in Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "Ankle",
@@ -20160,7 +20209,7 @@
           "name": "Nahshon Wright",
           "position": "CB",
           "practice": "Did Not Participate In Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "",
@@ -20835,11 +20884,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Concussion, Hand",
           "name": "Reed Blankenship",
           "position": "S",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -20856,11 +20905,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Groin",
           "name": "David Montgomery",
           "position": "RB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -21469,7 +21518,7 @@
           "name": "Greg Van Roten",
           "position": "G",
           "practice": "Limited Participation in Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "Knee",
@@ -21619,11 +21668,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Alec Anderson",
           "position": "G",
-          "practice": "Did Not Participate In Practice",
-          "status": ""
+          "practice": "Limited Participation in Practice",
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -21634,9 +21683,16 @@
         },
         {
           "injury": "",
+          "name": "Terrel Bernard",
+          "position": "LB",
+          "practice": "Did Not Participate In Practice",
+          "status": ""
+        },
+        {
+          "injury": "",
           "name": "Spencer Brown",
           "position": "T",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -21654,11 +21710,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Rib",
           "name": "Dion Dawkins",
           "position": "T",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -21671,22 +21727,22 @@
           "injury": "",
           "name": "Sam Franklin Jr.",
           "position": "S",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Calf",
           "name": "Greg Gaines",
           "position": "DT",
-          "practice": "Did Not Participate In Practice",
-          "status": ""
+          "practice": "Limited Participation in Practice",
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Hamstring",
           "name": "Jordan Hancock",
           "position": "CB",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -21713,15 +21769,15 @@
           "injury": "",
           "name": "Ed Oliver",
           "position": "DE",
-          "practice": "Full Participation in Practice",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Hamstring",
           "name": "Josh Palmer",
           "position": "WR",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -21748,15 +21804,15 @@
           "injury": "",
           "name": "Khalil Shakir",
           "position": "WR",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Knee",
           "name": "Tyrell Shavers",
           "position": "WR",
           "practice": "Full Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -21766,17 +21822,17 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Knee",
           "name": "Demond Claiborne",
           "position": "RB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
           "name": "Christian Darrisaw",
           "position": "T",
-          "practice": "Full Participation in Practice",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
@@ -21787,25 +21843,25 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Quadricep",
           "name": "Theo Jackson",
           "position": "S",
-          "practice": "Did Not Participate In Practice",
-          "status": ""
+          "practice": "Limited Participation in Practice",
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Calf",
           "name": "Jauan Jennings",
           "position": "WR",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
-          "injury": "",
+          "injury": "Hamstring",
           "name": "Kyler Murray",
           "position": "QB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -21816,17 +21872,24 @@
         },
         {
           "injury": "",
-          "name": "Andrew Van Ginkel",
-          "position": "LB",
+          "name": "Harrison Smith",
+          "position": "S",
           "practice": "Limited Participation in Practice",
           "status": ""
         },
         {
           "injury": "",
+          "name": "Andrew Van Ginkel",
+          "position": "LB",
+          "practice": "Full Participation in Practice",
+          "status": ""
+        },
+        {
+          "injury": "Knee",
           "name": "Jay Ward",
           "position": "S",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         }
       ],
       "url": "https://www.nfl.com/injuries/league/2026/reg9"
