@@ -1,6 +1,6 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-11-08T13:42:38.056083+00:00. Through Week 9 (PARTIAL).
+Updated 2026-11-08T22:16:40.756220+00:00. Through Week 9 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 966.40 |
-| Draft + trades only | 1135.44 |
-| Draft + waiver / FA moves only | 1003.72 |
-| All moves (weekly team) | 1164.48 |
+| Original draft | 1021.80 |
+| Draft + trades only | 1177.24 |
+| Draft + waiver / FA moves only | 1077.74 |
+| All moves (weekly team) | 1235.10 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +37.32 |
-| Trade impact with wire moves held fixed | +160.76 |
-| **Total improvement** | **+198.08** |
-| Trades-only effect (reference, not additive) | +169.04 |
-| Trade / wire interaction (included in trade impact) | -8.28 |
+| Waiver / FA baseline impact | +55.94 |
+| Trade impact with wire moves held fixed | +157.36 |
+| **Total improvement** | **+213.30** |
+| Trades-only effect (reference, not additive) | +155.44 |
+| Trade / wire interaction (included in trade impact) | +1.92 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -37,7 +37,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 6 | 95.50 | 108.76 | 86.90 | 97.68 | -8.60 | 10.78 | 2.18 |
 | 7 | 108.60 | 152.60 | 130.80 | 167.50 | 22.20 | 36.70 | 58.90 |
 | 8 | 97.90 | 121.40 | 94.98 | 134.68 | -2.92 | 39.70 | 36.78 |
-| 9 | 5.80 | 5.80 | 8.00 | 8.00 | 2.20 | 0.00 | 2.20 |
+| 9 | 61.20 | 47.60 | 82.02 | 78.62 | 20.82 | -3.40 | 17.42 |
 
 ## Current roster inventory
 
@@ -163,13 +163,13 @@ Replaying completed eligible moves from the draft matches this live roster.
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Matthew Stafford | 0.00 | Matthew Stafford | 0.00 |
-| RB | Sione Vaki | 0.00 | Bucky Irving | 0.00 |
-| RB | Woody Marks | 0.00 | Sione Vaki | 0.00 |
-| WR | Jordyn Tyson | 0.00 | Rome Odunze | 0.00 |
-| WR | Makai Lemon | 0.00 | Zay Flowers | 3.80 |
-| TE | Sam LaPorta | 0.00 | Brenton Strange | 4.20 |
-| FLEX | Brenton Strange | 4.20 | Woody Marks | 0.00 |
-| FLEX | Zay Flowers | 3.80 | Kyle Monangai | 0.00 |
+| QB | Matthew Stafford | 12.22 | Matthew Stafford | 12.22 |
+| RB | Woody Marks | 1.40 | Woody Marks | 1.40 |
+| RB | Jahmyr Gibbs | 13.40 | Jahmyr Gibbs | 13.40 |
+| WR | KC Concepcion Jr. | 16.80 | Makai Lemon | 9.10 |
+| WR | Nico Collins | 5.70 | Nico Collins | 5.70 |
+| TE | Sam LaPorta | 7.20 | Brenton Strange | 4.20 |
+| FLEX | Makai Lemon | 9.10 | KC Concepcion Jr. | 16.80 |
+| FLEX | Brenton Strange | 4.20 | Zay Flowers | 3.80 |
 | K | Chase McLaughlin | 0.00 | Chase McLaughlin | 0.00 |
-| DEF | Kansas City Chiefs | 0.00 | Kansas City Chiefs | 0.00 |
+| DEF | Kansas City Chiefs | 12.00 | Kansas City Chiefs | 12.00 |

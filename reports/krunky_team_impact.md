@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-11-08T13:42:38.056083+00:00. Through Week 9 (PARTIAL).
+Updated 2026-11-08T22:16:40.756220+00:00. Through Week 9 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1136.78 |
-| Draft + trades only | 1248.92 |
-| Draft + waiver / FA moves only | 1107.76 |
-| All moves (weekly team) | 1197.24 |
+| Original draft | 1198.58 |
+| Draft + trades only | 1337.92 |
+| Draft + waiver / FA moves only | 1216.80 |
+| All moves (weekly team) | 1312.04 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | -29.02 |
-| Trade impact with wire moves held fixed | +89.48 |
-| **Total improvement** | **+60.46** |
-| Trades-only effect (reference, not additive) | +112.14 |
-| Trade / wire interaction (included in trade impact) | -22.66 |
+| Waiver / FA baseline impact | +18.22 |
+| Trade impact with wire moves held fixed | +95.24 |
+| **Total improvement** | **+113.46** |
+| Trades-only effect (reference, not additive) | +139.34 |
+| Trade / wire interaction (included in trade impact) | -44.10 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -37,7 +37,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 6 | 126.30 | 164.30 | 132.24 | 159.00 | 5.94 | 26.76 | 32.70 |
 | 7 | 122.52 | 146.02 | 145.72 | 157.72 | 23.20 | 12.00 | 35.20 |
 | 8 | 138.58 | 158.50 | 114.38 | 128.18 | -24.20 | 13.80 | -10.40 |
-| 9 | 23.30 | 23.30 | 13.10 | 13.10 | -10.20 | 0.00 | -10.20 |
+| 9 | 85.10 | 112.30 | 122.14 | 127.90 | 37.04 | 5.76 | 42.80 |
 
 ## Current roster inventory
 
@@ -163,13 +163,13 @@ Replaying completed eligible moves from the draft matches this live roster.
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Caleb Williams | 0.00 | Caleb Williams | 0.00 |
-| RB | Ollie Gordon II | 0.00 | James Conner | 0.00 |
-| RB | James Conner | 0.00 | D'Andre Swift | 0.00 |
-| WR | Malik Nabers | 0.00 | Malik Nabers | 0.00 |
-| WR | Jalen Coker | 0.00 | Jalen Coker | 0.00 |
-| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
-| FLEX | Jayden Higgins | 0.00 | Jayden Higgins | 0.00 |
+| QB | Bryce Young | 21.34 | Caleb Williams | 0.00 |
+| RB | Jonathan Taylor | 6.90 | Jonathan Taylor | 6.90 |
+| RB | Chase Brown | 9.00 | Kenneth Walker III | 34.30 |
+| WR | Omar Cooper Jr. | 9.80 | Omar Cooper Jr. | 9.80 |
+| WR | Denzel Boston | 12.80 | Amon-Ra St. Brown | 12.60 |
+| TE | Travis Kelce | 17.30 | Travis Kelce | 17.30 |
+| FLEX | Ollie Gordon II | 6.90 | Kenyon Sadiq | 8.90 |
 | FLEX | Parker Washington | 13.10 | Parker Washington | 13.10 |
-| K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
-| DEF | Los Angeles Rams | 0.00 | Los Angeles Rams | 0.00 |
+| K | Brandon Aubrey | 9.00 | Brandon Aubrey | 9.00 |
+| DEF | Los Angeles Rams | 16.00 | Los Angeles Rams | 16.00 |

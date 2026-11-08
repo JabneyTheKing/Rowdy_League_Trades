@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-08T13:42:38.056083+00:00; through Week 9.
+Updated 2026-11-08T22:16:40.756220+00:00; through Week 9.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | -8.60 | -8.78 | -0.18 |
-| Wire Impact | +80.68 | +85.80 | +5.12 |
-| Total Impact | +72.08 | +77.02 | +4.94 |
+| Trade Impact | +33.00 | +32.82 | -0.18 |
+| Wire Impact | +96.40 | +101.52 | +5.12 |
+| Total Impact | +129.40 | +134.34 | +4.94 |
 
 ## Estimated absences
 
@@ -48,18 +48,20 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Zach Charbonnet.
 - Week 1: Josh Jacobs.
-- Week 2: Zach Charbonnet.
+- Week 1: Zach Charbonnet.
 - Week 2: Josh Jacobs.
-- Week 3: Zach Charbonnet.
+- Week 2: Zach Charbonnet.
 - Week 3: Josh Jacobs.
+- Week 3: Zach Charbonnet.
 - Week 3: Omar Cooper Jr..
 - Week 4: Josh Jacobs.
 - Week 4: Omar Cooper Jr..
 - Week 5: Josh Jacobs.
 - Week 5: Omar Cooper Jr..
 - Week 6: Josh Jacobs.
+- Week 9: De'Von Achane.
+- Week 9: Travis Etienne Jr..
 
 ## Weekly impact
 
@@ -73,7 +75,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 6 | -1.48 | +5.97 | +13.52 | +20.97 |
 | 7 | +19.70 | +13.80 | +24.00 | +18.10 |
 | 8 | +31.80 | +25.20 | +54.62 | +44.52 |
-| 9 | +0.00 | +0.00 | +0.00 | +0.00 |
+| 9 | +41.60 | +41.60 | +57.32 | +57.32 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -199,16 +201,16 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Kirk Cousins | 0.00 | Kirk Cousins | 0.00 |
-| RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
-| RB | Quinshon Judkins | 0.00 | Josh Jacobs | 0.00 |
-| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
-| WR | Antonio Williams | 0.00 | Antonio Williams | 0.00 |
-| TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
-| FLEX | Jadarian Price | 0.00 | Keenan Allen | 0.00 |
-| FLEX | Keenan Allen | 0.00 | A.J. Brown | 0.00 |
-| K | Spencer Shrader | 0.00 | Spencer Shrader | 0.00 |
-| DEF | Houston Texans | 0.00 | Houston Texans | 0.00 |
+| QB | Kirk Cousins | 8.12 | Kirk Cousins | 8.12 |
+| RB | Braelon Allen | 4.40 | Braelon Allen | 4.40 |
+| RB | Quinshon Judkins | 5.00 | Breece Hall | 10.20 |
+| WR | Ja'Marr Chase | 26.50 | CeeDee Lamb | 28.50 |
+| WR | Chris Olave | 13.30 | Ja'Marr Chase | 26.50 |
+| TE | Jake Ferguson | 10.10 | Harold Fannin Jr. | 12.20 |
+| FLEX | Kenyon Sadiq | 8.90 | Chig Okonkwo | 11.70 |
+| FLEX | Chig Okonkwo | 11.70 | Puka Nacua | 28.00 |
+| K | Spencer Shrader | 16.00 | Spencer Shrader | 16.00 |
+| DEF | Houston Texans | 6.00 | Houston Texans | 6.00 |
 
 ## Source health
 
