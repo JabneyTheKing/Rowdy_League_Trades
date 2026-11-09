@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-08T22:16:40.756220+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-09T06:54:14.783029+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,8 +14,8 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| SethLL / Red Dead Zachdemption | Jaxon Smith-Njigba (190.96) | Xavier Worthy (50.30), Marvin Harrison Jr. (30.00) | 190.96 | 80.30 | +110.66 | scored |
-| AfootCoronet56 / Risk of Rome | Xavier Worthy (50.30), Marvin Harrison Jr. (30.00) | Jaxon Smith-Njigba (190.96) | 80.30 | 190.96 | -110.66 | scored |
+| SethLL / Red Dead Zachdemption | Jaxon Smith-Njigba (196.56) | Xavier Worthy (50.30), Marvin Harrison Jr. (32.00) | 196.56 | 82.30 | +114.26 | scored |
+| AfootCoronet56 / Risk of Rome | Xavier Worthy (50.30), Marvin Harrison Jr. (32.00) | Jaxon Smith-Njigba (196.56) | 82.30 | 196.56 | -114.26 | scored |
 
 SethLL picks sent: 2027 round 2. Value not included in points.
 
@@ -36,8 +36,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Allen Wake | James Conner (0.00) | Jadarian Price (7.60) | 0.00 | 7.60 | -7.60 | scored |
-| krunky / Grand Theft Aubrey | Jadarian Price (7.60) | James Conner (0.00) | 7.60 | 0.00 | +7.60 | scored |
+| JabneyTheKing / Allen Wake | James Conner (0.00) | Jadarian Price (14.50) | 0.00 | 14.50 | -14.50 | scored |
+| krunky / Grand Theft Aubrey | Jadarian Price (14.50) | James Conner (0.00) | 14.50 | 0.00 | +14.50 | scored |
 
 
 Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.

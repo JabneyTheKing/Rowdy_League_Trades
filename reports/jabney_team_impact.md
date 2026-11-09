@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-11-08T22:16:40.756220+00:00. Through Week 9 (PARTIAL).
+Updated 2026-11-09T06:54:14.783029+00:00. Through Week 9 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1079.32 |
-| Draft + trades only | 1127.06 |
-| Draft + waiver / FA moves only | 1175.72 |
-| All moves (weekly team) | 1208.72 |
+| Original draft | 1105.12 |
+| Draft + trades only | 1141.46 |
+| Draft + waiver / FA moves only | 1208.04 |
+| All moves (weekly team) | 1228.74 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +96.40 |
-| Trade impact with wire moves held fixed | +33.00 |
-| **Total improvement** | **+129.40** |
-| Trades-only effect (reference, not additive) | +47.74 |
-| Trade / wire interaction (included in trade impact) | -14.74 |
+| Waiver / FA baseline impact | +102.92 |
+| Trade impact with wire moves held fixed | +20.70 |
+| **Total improvement** | **+123.62** |
+| Trades-only effect (reference, not additive) | +36.34 |
+| Trade / wire interaction (included in trade impact) | -15.64 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -37,7 +37,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 6 | 95.06 | 94.40 | 110.06 | 108.58 | 15.00 | -1.48 | 13.52 |
 | 7 | 121.72 | 135.58 | 126.02 | 145.72 | 4.30 | 19.70 | 24.00 |
 | 8 | 118.86 | 140.78 | 141.68 | 173.48 | 22.82 | 31.80 | 54.62 |
-| 9 | 94.30 | 133.00 | 110.02 | 151.62 | 15.72 | 41.60 | 57.32 |
+| 9 | 120.10 | 147.40 | 142.34 | 171.64 | 22.24 | 29.30 | 51.54 |
 
 ## Current roster inventory
 
@@ -163,13 +163,13 @@ Replaying completed eligible moves from the draft matches this live roster.
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Kirk Cousins | 8.12 | Kirk Cousins | 8.12 |
-| RB | Braelon Allen | 4.40 | Braelon Allen | 4.40 |
-| RB | Quinshon Judkins | 5.00 | Breece Hall | 10.20 |
-| WR | Ja'Marr Chase | 26.50 | CeeDee Lamb | 28.50 |
-| WR | Chris Olave | 13.30 | Ja'Marr Chase | 26.50 |
-| TE | Jake Ferguson | 10.10 | Harold Fannin Jr. | 12.20 |
-| FLEX | Kenyon Sadiq | 8.90 | Chig Okonkwo | 11.70 |
-| FLEX | Chig Okonkwo | 11.70 | Puka Nacua | 28.00 |
+| QB | Kirk Cousins | 15.64 | Kirk Cousins | 15.64 |
+| RB | Jadarian Price | 9.80 | Braelon Allen | 4.40 |
+| RB | Zach Charbonnet | 9.10 | Breece Hall | 10.20 |
+| WR | Ja'Marr Chase | 26.50 | Luther Burden III | 17.20 |
+| WR | Chris Olave | 13.30 | CeeDee Lamb | 28.50 |
+| TE | Chig Okonkwo | 11.70 | Harold Fannin Jr. | 12.20 |
+| FLEX | Luther Burden III | 17.20 | Ja'Marr Chase | 26.50 |
+| FLEX | Jake Ferguson | 10.10 | Puka Nacua | 28.00 |
 | K | Spencer Shrader | 16.00 | Spencer Shrader | 16.00 |
-| DEF | Houston Texans | 6.00 | Houston Texans | 6.00 |
+| DEF | Houston Texans | 13.00 | Houston Texans | 13.00 |
