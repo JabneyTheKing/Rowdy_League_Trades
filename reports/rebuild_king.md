@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-11-10T07:31:04.183976+00:00. Season 2026; scored through Week 9. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-10T19:53:03.965859+00:00. Season 2026; scored through Week 9. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 

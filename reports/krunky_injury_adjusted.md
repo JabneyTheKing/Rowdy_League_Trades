@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-11-10T07:31:04.183976+00:00; through Week 9.
+Updated 2026-11-10T19:53:03.965859+00:00; through Week 9.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -28,28 +28,27 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 ## Confirmed absences without enough baseline data
 
-None.
+- Week 1: James Conner; 0 earlier qualifying games. [Evidence](https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAeAAAAAAAOfx8=).
+- Week 2: James Conner; 0 earlier qualifying games. [Evidence](https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAeAAAAAAAOfx8=).
+- Week 3: James Conner; 0 earlier qualifying games. [Evidence](https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAeAAAAAAAOfx8=).
+- Week 4: James Conner; 0 earlier qualifying games. [Evidence](https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAeAAAAAAAOfx8=).
 
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
 - Week 1: Jayden Higgins.
-- Week 1: James Conner.
 - Week 2: Jayden Higgins.
-- Week 2: James Conner.
 - Week 3: Jayden Higgins.
-- Week 3: James Conner.
 - Week 4: Jayden Higgins.
-- Week 4: James Conner.
-- Week 5: Jayden Higgins.
 - Week 5: James Conner.
-- Week 6: Jayden Higgins.
+- Week 5: Jayden Higgins.
 - Week 6: James Conner.
-- Week 7: Jayden Higgins.
+- Week 6: Jayden Higgins.
 - Week 7: James Conner.
+- Week 7: Jayden Higgins.
 - Week 8: James Conner.
-- Week 9: Jayden Higgins.
 - Week 9: James Conner.
+- Week 9: Jayden Higgins.
 
 ## Weekly impact
 
