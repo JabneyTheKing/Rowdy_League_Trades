@@ -1,30 +1,30 @@
 # Rebuild King
 
-Updated 2026-11-09T22:31:30.447601+00:00. Season 2026; scored through Week 9. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-10T07:31:04.183976+00:00. Season 2026; scored through Week 9. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | +27.84 | 155.60 | 72.40 | +255.84 |
+| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | +13.98 | 155.60 | 72.40 | +241.98 |
 | 2 | TheRealNoodleMan | Gibbs of War | +112.72 | 27.18 | 97.78 | +237.68 |
-| 3 | krunky | Grand Theft Aubrey | +94.90 | 47.40 | 16.60 | +158.90 |
-| 4 | AfootCoronet56 | Suicide Squad (the game) | +25.66 | 47.20 | 80.00 | +152.86 |
+| 3 | AfootCoronet56 | Suicide Squad (the game) | +36.92 | 39.90 | 80.00 | +156.82 |
+| 4 | krunky | Grand Theft Aubrey | +89.80 | 47.40 | 16.60 | +153.80 |
 | 5 | lfain20 | Mortal Kombat: DARTside | -67.00 | 114.12 | 59.42 | +106.54 |
-| 6 | therealbulker | MidnightClub Rice Edition | +40.44 | 25.70 | -1.08 | +65.06 |
-| 7 | DiscipleJack | JEFFERSON'S CREED | -16.90 | 16.00 | 58.28 | +57.38 |
-| 8 | SethLL | Red Dead Zachdemption | -28.48 | -16.10 | 92.58 | +48.00 |
-| 9 | Potatomain | The Lost Cause Fallacy | -34.20 | 39.90 | 1.80 | +7.50 |
-| 10 | Dawg2003 | The Windhelm Nords  | -163.02 | 40.40 | 128.40 | +5.78 |
-| 11 | oneyjb | Bower's Inside Story | +64.46 | -56.28 | -2.50 | +5.68 |
-| 12 | RollnWithJesus | Breach & Touchdown | -56.42 | -12.80 | 42.90 | -26.32 |
+| 6 | DiscipleJack | JEFFERSON'S CREED | -9.60 | 16.00 | 65.58 | +71.98 |
+| 7 | therealbulker | MidnightClub Rice Edition | +45.64 | 25.70 | -1.08 | +70.26 |
+| 8 | SethLL | Red Dead Zachdemption | -28.48 | -16.10 | 93.34 | +48.76 |
+| 9 | oneyjb | Bower's Inside Story | +64.46 | -43.28 | -2.50 | +18.68 |
+| 10 | RollnWithJesus | Breach & Touchdown | -32.02 | -12.80 | 42.90 | -1.92 |
+| 11 | Potatomain | The Lost Cause Fallacy | -50.90 | 45.90 | 1.80 | -3.20 |
+| 12 | Dawg2003 | The Windhelm Nords  | -175.52 | 40.40 | 128.40 | -6.72 |
 
 ## Post-Week-1 free-agent transactions
 
 | Manager | Added | Dropped in transaction | Weeks compared | Added points | Dropped points | Net improvement | Status |
 |---|---|---|---|---:|---:|---:|---|
 | Dawg2003 | Mike Gesicki | Colbie Young | 2–9 | 61.40 | 1.90 | +59.50 | scored |
-| SethLL | Pat Freiermuth | Carson Wentz | 2–9 | 63.40 | 6.32 | +57.08 | scored |
+| SethLL | Pat Freiermuth | Carson Wentz | 2–9 | 63.40 | 5.56 | +57.84 | scored |
 | JabneyTheKing | Kirk Cousins | — | 4–6 | 56.84 | 0.00 | +56.84 | scored |
 | DiscipleJack | Matt Gay | Eddy Pineiro | 2–9 | 78.00 | 35.00 | +43.00 | scored |
 | AfootCoronet56 | Malik Washington | Tyjae Spears | 3–9 | 47.80 | 8.20 | +39.60 | scored |
@@ -50,6 +50,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
 | Dawg2003 | Cairo Santos | Tyler Loop | 9–9 | 9.00 | 0.00 | +9.00 | scored |
 | TheRealNoodleMan | Ryan Flournoy | — | 7–7 | 9.00 | 0.00 | +9.00 | scored |
+| DiscipleJack | T.J. Hockenson | AJ Barner | 7–9 | 36.60 | 27.90 | +8.70 | scored |
 | lfain20 | Chris Boswell | Mike Washington Jr. | 7–9 | 19.00 | 10.70 | +8.30 | scored |
 | lfain20 | Zonovan Knight | — | 7–7 | 7.80 | 0.00 | +7.80 | scored |
 | DiscipleJack | Cam Ward | — | 6–6 | 7.78 | 0.00 | +7.78 | scored |
@@ -78,7 +79,6 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | JabneyTheKing | Zach Ertz | — | 3–3 | 1.90 | 0.00 | +1.90 | scored |
 | lfain20 | DeMario Douglas | Efton Chism III | 7–7 | 3.80 | 2.10 | +1.70 | scored |
 | RollnWithJesus | Chris Rodriguez Jr. | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
-| DiscipleJack | T.J. Hockenson | AJ Barner | 7–9 | 29.30 | 27.90 | +1.40 | scored |
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | AfootCoronet56 | Kimani Vidal | Chad Ryland | 9–9 | 4.10 | 3.00 | +1.10 | scored |
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
@@ -124,7 +124,3 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | 7–7 | 0.00 | 16.20 | -16.20 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–7 | 13.80 | 35.30 | -21.50 | scored |
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–9 | 32.40 | 61.20 | -28.80 | scored |
-
-
-Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

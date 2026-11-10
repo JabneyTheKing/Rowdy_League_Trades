@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-09T22:31:30.447601+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-10T07:31:04.183976+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -10,14 +10,14 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 2 | lfain20 | Mortal Kombat: DARTside | 114.12 | 4 | $85 | Emanuel Wilson (62.30) |
 | 3 | DiscipleJack | JEFFERSON'S CREED | 87.40 | 3 | $16 | Dalton Schultz (71.40) |
 | 4 | krunky | Grand Theft Aubrey | 47.40 | 8 | $84 | Ollie Gordon II (24.10) |
-| 5 | AfootCoronet56 | Suicide Squad (the game) | 47.20 | 8 | $42 | Dameon Pierce (24.30) |
+| 5 | Potatomain | The Lost Cause Fallacy | 45.90 | 7 | $95 | Alvin Kamara (56.50) |
 | 6 | Dawg2003 | The Windhelm Nords  | 40.40 | 4 | $45 | Kenny Gainwell (34.80) |
-| 7 | Potatomain | The Lost Cause Fallacy | 39.90 | 7 | $95 | Alvin Kamara (56.50) |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | 39.90 | 8 | $42 | Dameon Pierce (24.30) |
 | 8 | TheRealNoodleMan | Gibbs of War | 27.18 | 9 | $51 | Matthew Stafford (35.28) |
 | 9 | therealbulker | MidnightClub Rice Edition | 25.70 | 9 | $99 | Brian Robinson Jr. (22.30) |
 | 10 | RollnWithJesus | Breach & Touchdown | -12.80 | 3 | $20 | Tampa Bay Buccaneers (19.00) |
 | 11 | SethLL | Red Dead Zachdemption | -16.10 | 4 | $47 | Carson Wentz (0.00) |
-| 12 | oneyjb | Bower's Inside Story | -56.28 | 9 | $58 | Jacksonville Jaguars (18.00) |
+| 12 | oneyjb | Bower's Inside Story | -43.28 | 9 | $58 | Jacksonville Jaguars (18.00) |
 
 ## Individual waiver transactions
 
@@ -46,6 +46,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | Potatomain | DeMario Douglas | — | $13 | 9–9 | 12.70 | 0.00 | +12.70 | scored |
 | AfootCoronet56 | Chad Ryland | New York Jets | $2 | 8–8 | 9.00 | -3.00 | +12.00 | scored |
 | oneyjb | C.J. Stroud | Justin Herbert | $0 | 4–4 | 23.08 | 11.56 | +11.52 | scored |
+| oneyjb | Tyler Bass | Trey Smack | $0 | 8–9 | 29.00 | 18.00 | +11.00 | scored |
 | krunky | Dallas Cowboys | Carolina Panthers | $4 | 7–7 | 4.00 | -3.00 | +7.00 | scored |
 | therealbulker | Devaughn Vele | Malik Washington | $25 | 2–6 | 39.00 | 33.90 | +5.10 | scored |
 | TheRealNoodleMan | Kansas City Chiefs | Washington Commanders | $3 | 9–9 | 12.00 | 7.00 | +5.00 | scored |
@@ -74,7 +75,6 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | AfootCoronet56 | Will Shipley | Wan'Dale Robinson | $20 | 5–5 | 7.80 | 8.30 | -0.50 | scored |
 | TheRealNoodleMan | Dallas Cowboys | Buffalo Bills | $3 | 5–5 | 1.00 | 2.00 | -1.00 | scored |
 | JabneyTheKing | Jaylen Wright | Zach Ertz | $27 | 4–5 | 1.80 | 3.30 | -1.50 | scored |
-| oneyjb | Tyler Bass | Trey Smack | $0 | 8–9 | 16.00 | 18.00 | -2.00 | scored |
 | TheRealNoodleMan | Carolina Panthers | Baltimore Ravens | $3 | 3–3 | 4.00 | 6.00 | -2.00 | scored |
 | DiscipleJack | Zonovan Knight | Roschon Johnson | $5 | 8–9 | 0.30 | 3.30 | -3.00 | scored |
 | krunky | Tampa Bay Buccaneers | Los Angeles Chargers | $2 | 2–2 | 2.00 | 5.00 | -3.00 | scored |
@@ -86,18 +86,14 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | Potatomain | Marvin Harrison Jr. | Tyrone Tracy Jr. | $31 | 4–9 | 22.70 | 29.70 | -7.00 | scored |
 | therealbulker | Cam Little | Chase McLaughlin | $1 | 5–6 | 17.00 | 24.00 | -7.00 | scored |
 | SethLL | Tyrone Tracy Jr. | Tyler Bass | $0 | 7–8 | 8.20 | 16.00 | -7.80 | scored |
+| Potatomain | Minnesota Vikings | Green Bay Packers | $2 | 3–9 | 60.00 | 68.00 | -8.00 | scored |
 | SethLL | Cincinnati Bengals | Los Angeles Rams | $10 | 7–9 | 21.00 | 29.00 | -8.00 | scored |
 | oneyjb | San Francisco 49ers | Jacksonville Jaguars | $3 | 2–3 | 10.00 | 20.00 | -10.00 | scored |
 | oneyjb | Adonai Mitchell | MarShawn Lloyd | $15 | 3–5 | 0.00 | 10.20 | -10.20 | scored |
 | TheRealNoodleMan | Harrison Butker | Harrison Mevis | $0 | 3–4 | 11.00 | 22.00 | -11.00 | scored |
 | Potatomain | Tyrone Tracy Jr. | Mike Washington Jr. | $17 | 3–3 | 0.30 | 11.40 | -11.10 | scored |
 | RollnWithJesus | Devin Singletary | Kenny Gainwell | $0 | 2–4 | 0.90 | 14.70 | -13.80 | scored |
-| Potatomain | Minnesota Vikings | Green Bay Packers | $2 | 3–9 | 54.00 | 68.00 | -14.00 | scored |
-| AfootCoronet56 | Mark Andrews | T.J. Hockenson | $5 | 6–9 | 15.00 | 29.30 | -14.30 | scored |
 | RollnWithJesus | Las Vegas Raiders | New England Patriots | $20 | 4–7 | 4.00 | 22.00 | -18.00 | scored |
+| AfootCoronet56 | Mark Andrews | T.J. Hockenson | $5 | 6–9 | 15.00 | 36.60 | -21.60 | scored |
 | oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–9 | 7.00 | 32.20 | -25.20 | scored |
 | oneyjb | Tyler Allgeier | C.J. Stroud | $5 | 5–9 | 53.50 | 97.80 | -44.30 | scored |
-
-
-Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

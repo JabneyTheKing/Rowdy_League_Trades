@@ -1,23 +1,23 @@
 # Most Improved
 
-Updated 2026-11-09T22:31:30.447601+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-10T07:31:04.183976+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |
 |---:|---|---|---:|---:|---:|---:|
 | 1 | TheRealNoodleMan | Gibbs of War | +158.28 | 27.18 | 112.38 | +297.84 |
-| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -65.90 | 155.60 | 117.10 | +206.80 |
-| 3 | krunky | Grand Theft Aubrey | +143.80 | 47.40 | -33.70 | +157.50 |
-| 4 | SethLL | Red Dead Zachdemption | +64.42 | -16.10 | 104.58 | +152.90 |
+| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -79.76 | 155.60 | 117.10 | +192.94 |
+| 3 | SethLL | Red Dead Zachdemption | +64.42 | -16.10 | 105.34 | +153.66 |
+| 4 | krunky | Grand Theft Aubrey | +138.70 | 47.40 | -33.70 | +152.40 |
 | 5 | lfain20 | Mortal Kombat: DARTside | -67.00 | 114.12 | 96.52 | +143.64 |
-| 6 | DiscipleJack | JEFFERSON'S CREED | -16.90 | 87.40 | 58.28 | +128.78 |
-| 7 | AfootCoronet56 | Suicide Squad (the game) | -5.40 | 47.20 | 80.00 | +121.80 |
-| 8 | Potatomain | The Lost Cause Fallacy | -83.10 | 39.90 | 142.22 | +99.02 |
-| 9 | therealbulker | MidnightClub Rice Edition | +40.44 | 25.70 | 24.02 | +90.16 |
-| 10 | oneyjb | Bower's Inside Story | +50.80 | -56.28 | 74.22 | +68.74 |
-| 11 | Dawg2003 | The Windhelm Nords  | -163.02 | 40.40 | 128.40 | +5.78 |
-| 12 | RollnWithJesus | Breach & Touchdown | -56.42 | -12.80 | 42.90 | -26.32 |
+| 6 | DiscipleJack | JEFFERSON'S CREED | -9.60 | 87.40 | 65.58 | +143.38 |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | +5.86 | 39.90 | 80.00 | +125.76 |
+| 8 | therealbulker | MidnightClub Rice Edition | +45.64 | 25.70 | 24.02 | +95.36 |
+| 9 | Potatomain | The Lost Cause Fallacy | -99.80 | 45.90 | 142.22 | +88.32 |
+| 10 | oneyjb | Bower's Inside Story | +50.80 | -43.28 | 74.22 | +81.74 |
+| 11 | RollnWithJesus | Breach & Touchdown | -32.02 | -12.80 | 42.90 | -1.92 |
+| 12 | Dawg2003 | The Windhelm Nords  | -175.52 | 40.40 | 128.40 | -6.72 |
 
 ## Free-agent transactions
 
@@ -25,7 +25,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 |---|---|---|---|---:|---:|---:|---|
 | Potatomain | Jordan Love | Brian Robinson Jr. | 1–9 | 191.02 | 50.60 | +140.42 | scored |
 | Dawg2003 | Mike Gesicki | Colbie Young | 2–9 | 61.40 | 1.90 | +59.50 | scored |
-| SethLL | Pat Freiermuth | Carson Wentz | 2–9 | 63.40 | 6.32 | +57.08 | scored |
+| SethLL | Pat Freiermuth | Carson Wentz | 2–9 | 63.40 | 5.56 | +57.84 | scored |
 | JabneyTheKing | Kirk Cousins | — | 4–6 | 56.84 | 0.00 | +56.84 | scored |
 | oneyjb | Juwan Johnson | — | 1–3 | 48.30 | 0.00 | +48.30 | scored |
 | DiscipleJack | Matt Gay | Eddy Pineiro | 2–9 | 78.00 | 35.00 | +43.00 | scored |
@@ -58,6 +58,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Kayshon Boutte | — | 1–3 | 10.90 | 0.00 | +10.90 | scored |
 | Dawg2003 | Cairo Santos | Tyler Loop | 9–9 | 9.00 | 0.00 | +9.00 | scored |
 | TheRealNoodleMan | Ryan Flournoy | — | 7–7 | 9.00 | 0.00 | +9.00 | scored |
+| DiscipleJack | T.J. Hockenson | AJ Barner | 7–9 | 36.60 | 27.90 | +8.70 | scored |
 | lfain20 | Chris Boswell | Mike Washington Jr. | 7–9 | 19.00 | 10.70 | +8.30 | scored |
 | lfain20 | Zonovan Knight | — | 7–7 | 7.80 | 0.00 | +7.80 | scored |
 | DiscipleJack | Cam Ward | — | 6–6 | 7.78 | 0.00 | +7.78 | scored |
@@ -93,7 +94,6 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | DeMario Douglas | Efton Chism III | 7–7 | 3.80 | 2.10 | +1.70 | scored |
 | JabneyTheKing | Travis Hunter | — | 1–2 | 1.60 | 0.00 | +1.60 | scored |
 | RollnWithJesus | Chris Rodriguez Jr. | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
-| DiscipleJack | T.J. Hockenson | AJ Barner | 7–9 | 29.30 | 27.90 | +1.40 | scored |
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | AfootCoronet56 | Kimani Vidal | Chad Ryland | 9–9 | 4.10 | 3.00 | +1.10 | scored |
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
@@ -152,7 +152,3 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | oneyjb | Emmett Johnson | Malachi Fields | 2–7 | 13.80 | 35.30 | -21.50 | scored |
 | DiscipleJack | Mack Hollins | Alvin Kamara | 2–9 | 32.40 | 61.20 | -28.80 | scored |
 | krunky | James Conner | Los Angeles Chargers | 1–9 | 0.00 | 40.00 | -40.00 | scored |
-
-
-Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

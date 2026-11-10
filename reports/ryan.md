@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-09T22:31:30.447601+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-10T07:31:04.183976+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -22,7 +22,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (40.10), Chris Olave (56.40) | Saquon Barkley (35.70), Jameson Williams (74.00) | 96.50 | 109.70 | -13.20 | scored |
+| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (42.70), Chris Olave (56.40) | Saquon Barkley (35.70), Jameson Williams (74.00) | 99.10 | 109.70 | -10.60 | scored |
 
 ### Trade 1412618520205746176
 
@@ -30,7 +30,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (40.30), Jaxon Smith-Njigba (95.90) | James Cook III (62.20), Chris Olave (40.80) | 136.20 | 103.00 | +33.20 | scored |
+| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (40.30), Jaxon Smith-Njigba (95.90) | James Cook III (78.90), Chris Olave (40.80) | 136.20 | 119.70 | +16.50 | scored |
 
 ### Trade 1413329747487772672
 
@@ -38,7 +38,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Jaylen Warren (78.60), Puka Nacua (105.50) | Aaron Jones Sr. (25.30), Jaxon Smith-Njigba (95.90) | 184.10 | 121.20 | +62.90 | scored |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (78.60), Puka Nacua (105.50) | Aaron Jones Sr. (27.90), Jaxon Smith-Njigba (95.90) | 184.10 | 123.80 | +60.30 | scored |
 
 ### Trade 1418087545975111680
 
@@ -63,7 +63,3 @@ First scoring week: **7**
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 
 Potatomain picks sent: 2027 round 13 (original roster 6). Value not included in points.
-
-
-Week 9 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-
