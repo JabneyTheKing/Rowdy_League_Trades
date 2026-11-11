@@ -5090,7 +5090,7 @@
       "last_report": 9,
       "last_scored_leg": 9,
       "league_average_match": 0,
-      "leg": 9,
+      "leg": 10,
       "max_keepers": 4,
       "max_subs": 3,
       "num_teams": 12,
@@ -23249,7 +23249,6 @@
       "10958": "2026-11-08",
       "10959": "2026-11-08",
       "10960": "2026-11-08",
-      "10961": "2026-11-08",
       "10962": "2026-11-08",
       "10963": "2026-11-08",
       "10964": "2026-11-08",
@@ -34580,6 +34579,182 @@
       "waiver_budget": []
     },
     {
+      "adds": {
+        "12492": 12
+      },
+      "consenter_ids": [
+        12
+      ],
+      "created": 1794364046684,
+      "creator": "1126743556305145856",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 9,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        12
+      ],
+      "settings": {
+        "seq": 2,
+        "waiver_bid": 4
+      },
+      "status": "complete",
+      "status_updated": 1794384533828,
+      "transaction_id": "1426069808247480320",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "12491": 10
+      },
+      "consenter_ids": [
+        10
+      ],
+      "created": 1794341705186,
+      "creator": "459827030242881536",
+      "draft_picks": [],
+      "drops": {
+        "8172": 10
+      },
+      "leg": 9,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        10
+      ],
+      "settings": {
+        "seq": 3,
+        "waiver_bid": 0
+      },
+      "status": "complete",
+      "status_updated": 1794384533828,
+      "transaction_id": "1425976101213065216",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "13269": 10
+      },
+      "consenter_ids": [
+        10
+      ],
+      "created": 1794341606878,
+      "creator": "459827030242881536",
+      "draft_picks": [],
+      "drops": {
+        "13305": 10
+      },
+      "leg": 9,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        10
+      ],
+      "settings": {
+        "seq": 0,
+        "waiver_bid": 33
+      },
+      "status": "complete",
+      "status_updated": 1794384533828,
+      "transaction_id": "1425975688879411200",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11579": 11
+      },
+      "consenter_ids": [
+        11
+      ],
+      "created": 1794281775966,
+      "creator": "871145118546190336",
+      "draft_picks": [],
+      "drops": {
+        "9757": 11
+      },
+      "leg": 9,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "roster_ids": [
+        11
+      ],
+      "settings": {
+        "seq": 1,
+        "waiver_bid": 5
+      },
+      "status": "complete",
+      "status_updated": 1794384533828,
+      "transaction_id": "1425724739845918720",
+      "type": "waiver",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "13276": 9,
+        "8126": 1,
+        "9482": 9
+      },
+      "consenter_ids": [
+        1,
+        9
+      ],
+      "created": 1794251533652,
+      "creator": "869144370069262336",
+      "draft_picks": [
+        {
+          "league_id": null,
+          "owner_id": 9,
+          "previous_owner_id": 1,
+          "roster_id": 4,
+          "round": 15,
+          "season": "2027"
+        },
+        {
+          "league_id": null,
+          "owner_id": 1,
+          "previous_owner_id": 9,
+          "roster_id": 9,
+          "round": 10,
+          "season": "2027"
+        }
+      ],
+      "drops": {
+        "13276": 1,
+        "8126": 9,
+        "9482": 1
+      },
+      "leg": 9,
+      "metadata": {
+        "notes": "Your trade was processed successfully!",
+        "poll_id": "1425597978298548224",
+        "veto_msg_id": "1425597978361479168"
+      },
+      "roster_ids": [
+        1,
+        9
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1794381383263,
+      "transaction_id": "1425597894391521280",
+      "type": "trade",
+      "waiver_budget": [
+        {
+          "amount": 10,
+          "receiver": 1,
+          "sender": 9
+        }
+      ]
+    },
+    {
       "adds": null,
       "consenter_ids": [
         8
@@ -34894,6 +35069,125 @@
       "status": "complete",
       "status_updated": 1793789677774,
       "transaction_id": "1423660730430840832",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "11603": 6
+      },
+      "consenter_ids": [
+        6
+      ],
+      "created": 1794409632710,
+      "creator": "1042263426653339648",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 10,
+      "metadata": null,
+      "roster_ids": [
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1794409632710,
+      "transaction_id": "1426261009902878720",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        6
+      ],
+      "created": 1794409563179,
+      "creator": "1042263426653339648",
+      "draft_picks": [],
+      "drops": {
+        "12536": 6
+      },
+      "leg": 10,
+      "metadata": null,
+      "roster_ids": [
+        6
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1794409563179,
+      "transaction_id": "1426260718268739584",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "BUF": 7
+      },
+      "consenter_ids": [
+        7
+      ],
+      "created": 1794397737730,
+      "creator": "994445675729321984",
+      "draft_picks": [],
+      "drops": {
+        "11625": 7
+      },
+      "leg": 10,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1794397737730,
+      "transaction_id": "1426211118736482304",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "9758": 1
+      },
+      "consenter_ids": [
+        1
+      ],
+      "created": 1794394923461,
+      "creator": "869144370069262336",
+      "draft_picks": [],
+      "drops": null,
+      "leg": 10,
+      "metadata": null,
+      "roster_ids": [
+        1
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1794394923461,
+      "transaction_id": "1426199314840973312",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": {
+        "6427": 4
+      },
+      "consenter_ids": [
+        4
+      ],
+      "created": 1794384661356,
+      "creator": "994030135634411520",
+      "draft_picks": [],
+      "drops": {
+        "8119": 4
+      },
+      "leg": 10,
+      "metadata": null,
+      "roster_ids": [
+        4
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1794384661356,
+      "transaction_id": "1426156272448712704",
       "type": "free_agent",
       "waiver_budget": []
     }
@@ -38957,6 +39251,7 @@
       "6386": 0.0,
       "6416": 0.0,
       "6419": 0.0,
+      "6427": 0.0,
       "6451": 0.0,
       "6453": 0.0,
       "6461": 0.0,
@@ -39888,6 +40183,7 @@
       "11575": 0.0,
       "11576": 3.2,
       "11577": 1.6,
+      "11579": 0.0,
       "11581": 2.8,
       "11582": 0.0,
       "11583": 0.0,
@@ -41326,6 +41622,7 @@
       "6386": 0.0,
       "6416": 0.0,
       "6419": 0.0,
+      "6427": 0.0,
       "6451": 0.0,
       "6453": 0.0,
       "6461": 0.0,
@@ -46054,6 +46351,7 @@
       "6353": 0.0,
       "6386": 0.0,
       "6419": 0.0,
+      "6427": 0.0,
       "6451": 0.0,
       "6453": 0.0,
       "6461": 0.0,
@@ -48242,6 +48540,7 @@
       "6353": 0.0,
       "6386": 0.0,
       "6419": 0.0,
+      "6427": 0.0,
       "6451": 0.0,
       "6453": 0.0,
       "6461": 0.0,
@@ -49097,6 +49396,7 @@
       "11574": 0.0,
       "11576": 16.4,
       "11577": 0.0,
+      "11579": 0.0,
       "11581": 4.5,
       "11583": 0.0,
       "11584": 23.5,
@@ -51239,6 +51539,7 @@
       "11575": 3.0,
       "11576": 22.3,
       "11577": 0.0,
+      "11579": 0.0,
       "11581": 2.1,
       "11583": 0.0,
       "11584": 21.0,
@@ -53253,7 +53554,6 @@
       "10958": 0.0,
       "10959": 0.0,
       "10960": 0.0,
-      "10961": 0.0,
       "10962": 0.0,
       "10963": 0.0,
       "10964": 0.0,

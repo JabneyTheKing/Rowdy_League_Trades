@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-11T06:48:28.513824+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-11T19:44:21.624687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -9,7 +9,7 @@ Player production includes bench points and continues after subsequent trades or
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
 | 1 | TheRealNoodleMan | Gibbs of War | +158.28 | 6 | 6 | Yes |
-| 2 | krunky | Grand Theft Aubrey | +138.70 | 7 | 7 | Yes |
+| 2 | krunky | Grand Theft Aubrey | +138.70 | 7 | 8 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +64.42 | 4 | 4 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +50.80 | 5 | 5 | Yes |
 | 5 | therealbulker | MidnightClub Rice Edition | +45.64 | 6 | 7 | Yes |
@@ -19,7 +19,7 @@ Player production includes bench points and continues after subsequent trades or
 | 9 | lfain20 | Mortal Kombat: DARTside | -67.00 | 5 | 5 | Yes |
 | 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -79.76 | 8 | 9 | Yes |
 | 11 | Potatomain | The Lost Cause Fallacy | -99.80 | 6 | 6 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -175.52 | 5 | 5 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -175.52 | 5 | 6 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -416,3 +416,24 @@ First scoring week: **7**
 therealbulker picks sent: 2027 round 13 (original roster 7). Value not included in points.
 
 SethLL picks received: 2027 round 13 (original roster 7). Value not included in points.
+
+### Trade 1425597894391521280
+
+First scoring week: **10**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Wan'Dale Robinson (0.00) | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 / The Windhelm Nords  | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | Wan'Dale Robinson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 10 (original roster 9). Value not included in points.
+
+krunky picks sent: 2027 round 15 (original roster 4). Value not included in points.
+
+FAAB received: 10; sent: 0. Not included in points.
+
+Dawg2003 picks received: 2027 round 15 (original roster 4). Value not included in points.
+
+Dawg2003 picks sent: 2027 round 10 (original roster 9). Value not included in points.
+
+FAAB received: 0; sent: 10. Not included in points.

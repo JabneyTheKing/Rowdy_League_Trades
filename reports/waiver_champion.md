@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-11T06:48:28.513824+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-11T19:44:21.624687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -15,9 +15,9 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 7 | AfootCoronet56 | Suicide Squad (the game) | 39.90 | 8 | $42 | Dameon Pierce (24.30) |
 | 8 | TheRealNoodleMan | Gibbs of War | 27.18 | 9 | $51 | Matthew Stafford (35.28) |
 | 9 | therealbulker | MidnightClub Rice Edition | 25.70 | 9 | $99 | Brian Robinson Jr. (22.30) |
-| 10 | RollnWithJesus | Breach & Touchdown | -12.80 | 3 | $20 | Tampa Bay Buccaneers (19.00) |
-| 11 | SethLL | Red Dead Zachdemption | -16.10 | 4 | $47 | Carson Wentz (0.00) |
-| 12 | oneyjb | Bower's Inside Story | -43.28 | 9 | $58 | Jacksonville Jaguars (18.00) |
+| 10 | RollnWithJesus | Breach & Touchdown | -12.80 | 4 | $25 | Tampa Bay Buccaneers (19.00) |
+| 11 | SethLL | Red Dead Zachdemption | -16.10 | 6 | $80 | Carson Wentz (0.00) |
+| 12 | oneyjb | Bower's Inside Story | -43.28 | 10 | $62 | Jacksonville Jaguars (18.00) |
 
 ## Individual waiver transactions
 
@@ -65,8 +65,12 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| oneyjb | Pat Bryant | — | $4 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Cade Otton | Chase McLaughlin | $11 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| RollnWithJesus | Audric Estime | Kendre Miller | $5 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Carson Wentz | Chicago Bears | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| SethLL | Corey Kiner | Greg Dulcich | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| SethLL | Fernando Mendoza | Mike Washington Jr. | $33 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Alec Pierce | — | $7 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Terrance Ferguson | — | $5 | 7–9 | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Ryan Fitzgerald | Harrison Butker | $1 | No completed week | 0.00 | 0.00 | +0.00 | scored |

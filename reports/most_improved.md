@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-11T06:48:28.513824+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-11T19:44:21.624687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -110,15 +110,18 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Atlanta Falcons | Dallas Cowboys | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | C.J. Stroud | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Ashton Dulin | Jahan Dotson | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Brian Robinson Jr. | — | 7–9 | 0.00 | 0.00 | +0.00 | scored |
+| Potatomain | AJ Barner | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Jacksonville Jaguars | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Malik Willis | Cam Ward | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–8 | 0.00 | 0.00 | +0.00 | scored |
@@ -126,6 +129,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Adonai Mitchell | Tyreek Hill | 9–9 | 0.00 | 0.00 | +0.00 | scored |
+| therealbulker | Buffalo Bills | Adonai Mitchell | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |

@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-11-11T06:48:28.513824+00:00. Through Week 9 (complete).
+Updated 2026-11-11T19:44:21.624687+00:00. Through Week 9 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,16 +14,16 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1236.24 |
-| Draft + trades only | 1371.58 |
+| Original draft | 1234.84 |
+| Draft + trades only | 1370.18 |
 | Draft + waiver / FA moves only | 1223.20 |
 | All moves (weekly team) | 1329.30 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | -13.04 |
+| Waiver / FA baseline impact | -11.64 |
 | Trade impact with wire moves held fixed | +106.10 |
-| **Total improvement** | **+93.06** |
+| **Total improvement** | **+94.46** |
 | Trades-only effect (reference, not additive) | +135.34 |
 | Trade / wire interaction (included in trade impact) | -29.24 |
 
@@ -37,13 +37,13 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 6 | 126.30 | 164.30 | 132.24 | 159.00 | 5.94 | 26.76 | 32.70 |
 | 7 | 122.52 | 146.02 | 145.72 | 157.72 | 23.20 | 12.00 | 35.20 |
 | 8 | 138.58 | 158.50 | 114.38 | 128.18 | -24.20 | 13.80 | -10.40 |
-| 9 | 122.76 | 145.96 | 128.54 | 145.16 | 5.78 | 16.62 | 22.40 |
+| 9 | 121.36 | 144.56 | 128.54 | 145.16 | 7.18 | 16.62 | 23.80 |
 
 ## Current roster inventory
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Colston Loveland, Omar Cooper Jr., Kenyon Sadiq, Travis Kelce, Stefon Diggs, James Conner, D'Andre Swift, Jonathan Taylor, Amon-Ra St. Brown, Kenneth Walker III, Michael Mayer, Parker Washington, Los Angeles Rams
+Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, Jayden Higgins, Colston Loveland, Kenyon Sadiq, Travis Kelce, Stefon Diggs, James Conner, D'Andre Swift, Jonathan Taylor, Amon-Ra St. Brown, Wan'Dale Robinson, Kenneth Walker III, Parker Washington, C.J. Stroud, Los Angeles Rams
 
 Replaying completed eligible moves from the draft matches this live roster.
 

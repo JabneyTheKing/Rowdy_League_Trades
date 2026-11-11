@@ -1,6 +1,6 @@
 # Krunky — Positional Value
 
-Updated 2026-11-11T06:48:28.513824+00:00. Through Week 9 (complete).
+Updated 2026-11-11T19:44:21.624687+00:00. Through Week 9 (complete).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -22,6 +22,7 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Trade 5 | Stefon Diggs, D'Andre Swift | Ollie Gordon II, DJ Moore, Kendre Miller | +36.70 | +39.96 | scored |
 | Trade 6 | Kenyon Sadiq | Rachaad White | -5.20 | -23.96 | scored |
 | Trade 7 | Michael Mayer | DK Metcalf | +13.70 | -8.96 | scored |
+| Trade 8 | Wan'Dale Robinson | Omar Cooper Jr., Michael Mayer | +0.00 | +0.00 | pending |
 
 ## Weekly positional baselines
 

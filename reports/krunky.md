@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-11T06:48:28.513824+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-11T19:44:21.624687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -73,3 +73,17 @@ First scoring week: **7**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | krunky / Grand Theft Aubrey | Michael Mayer (21.20) | DK Metcalf (7.50) | 21.20 | 7.50 | +13.70 | scored |
+
+### Trade 1425597894391521280
+
+First scoring week: **10**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Wan'Dale Robinson (0.00) | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 10 (original roster 9). Value not included in points.
+
+krunky picks sent: 2027 round 15 (original roster 4). Value not included in points.
+
+FAAB received: 10; sent: 0. Not included in points.
