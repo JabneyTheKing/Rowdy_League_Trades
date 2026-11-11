@@ -6,7 +6,7 @@
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-10T19:53:21.412541+00:00",
+      "fetched_at": "2026-11-11T06:48:50.329620+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -2082,7 +2082,7 @@
     },
     "2026-11": {
       "complete": false,
-      "fetched_at": "2026-11-10T19:53:18.902429+00:00",
+      "fetched_at": "2026-11-11T06:48:49.038052+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2272,16 +2272,59 @@
           "name": "Josh Palmer",
           "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
           "team": "BUF"
+        },
+        {
+          "date": "2026-11-10",
+          "description": "Reserve/Injured",
+          "name": "Gardner Minshew",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "team": "ARI"
+        },
+        {
+          "date": "2026-11-10",
+          "description": "Reserve/Injured",
+          "name": "Gracen Halton",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "team": "SF"
+        },
+        {
+          "date": "2026-11-10",
+          "description": "Reserve/Injured",
+          "name": "Jordan Whittington",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "team": "LAR"
+        },
+        {
+          "date": "2026-11-10",
+          "description": "Reserve/Injured",
+          "name": "Malik Willis",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "team": "MIA"
+        },
+        {
+          "date": "2026-11-10",
+          "description": "Reserve/Injured",
+          "name": "Michael Wilson",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "team": "ARI"
+        },
+        {
+          "date": "2026-11-10",
+          "description": "Reserve/Injured",
+          "name": "Zach Sieler",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "team": "MIA"
         }
       ],
       "sources": [
         "https://www.nfl.com/transactions/league/reserve-list/2026/11",
+        "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoGc=",
         "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc="
       ]
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-10T19:53:21.412888+00:00",
+  "updated_at": "2026-11-11T06:48:50.330039+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -19554,7 +19597,7 @@
     },
     "9": {
       "complete": true,
-      "fetched_at": "2026-11-10T19:53:18.817877+00:00",
+      "fetched_at": "2026-11-11T06:48:48.480754+00:00",
       "rows": [
         {
           "injury": "",
