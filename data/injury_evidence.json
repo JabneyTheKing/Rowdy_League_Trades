@@ -1,12 +1,11 @@
 {
   "errors": [
-    "Reserve archive pagination incomplete; retained verified rows only",
     "Reserve archive pagination incomplete; retained verified rows only"
   ],
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-12T07:26:32.947941+00:00",
+      "fetched_at": "2026-11-12T20:09:28.294153+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -19,7 +18,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Ali Gaye",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "HOU"
         },
         {
@@ -103,7 +102,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Brittain Brown",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
@@ -173,7 +172,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Dalys Beanum",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "NO"
         },
         {
@@ -187,7 +186,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "David Long",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "NO"
         },
         {
@@ -208,7 +207,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "Deatrich Wise",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "WAS"
         },
         {
@@ -222,7 +221,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Devin Neal",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "NO"
         },
         {
@@ -257,7 +256,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "E.J. Speed",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "HOU"
         },
         {
@@ -299,7 +298,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Ja'Marcus Ingram",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "HOU"
         },
         {
@@ -341,21 +340,21 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Jaylan Ford",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "NO"
         },
         {
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Jaylon Jones",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Jeremy McNichols",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "WAS"
         },
         {
@@ -376,7 +375,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Jordyn Tyson",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "NO"
         },
         {
@@ -397,14 +396,14 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Justin Dedich",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "LAR"
         },
         {
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Keagen Trost",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "LAR"
         },
         {
@@ -439,14 +438,14 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "Kyler Gordon",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "M.J. Stewart",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "HOU"
         },
         {
@@ -467,7 +466,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "Mason Tipton",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "NO"
         },
         {
@@ -516,7 +515,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "Noah Sewell",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
@@ -544,7 +543,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Ray-Ray McCloud",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
@@ -565,7 +564,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "Shemar Turner",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
@@ -579,7 +578,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Tank Dell",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "HOU"
         },
         {
@@ -607,7 +606,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Tony Fields II",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "CHI"
         },
         {
@@ -628,7 +627,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Trey Amos",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "WAS"
         },
         {
@@ -656,7 +655,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Physically Unable to Perform",
           "name": "Tyrell Shavers",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "BUF"
         },
         {
@@ -691,7 +690,7 @@
           "date": "2026-08-30",
           "description": "Reserve/Injured",
           "name": "Zane Durant",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOhE4=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/8?after=AAAH6gAAAAgAAAAfAAAAAAAOgt4=",
           "team": "BUF"
         },
         {
@@ -2081,8 +2080,8 @@
       ]
     },
     "2026-11": {
-      "complete": false,
-      "fetched_at": "2026-11-12T07:26:32.276372+00:00",
+      "complete": true,
+      "fetched_at": "2026-11-12T20:09:27.313384+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2102,7 +2101,7 @@
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Daron Payne",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "WAS"
         },
         {
@@ -2123,21 +2122,21 @@
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Javon Kinlaw",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "WAS"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Jeremiyah Love",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "ARI"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Jeremy McNichols",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "WAS"
         },
         {
@@ -2151,14 +2150,14 @@
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Kendrick Bourne",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "ARI"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Max Mitchell",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11",
           "team": "NYJ"
         },
         {
@@ -2324,7 +2323,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-12T07:26:35.140788+00:00",
+  "updated_at": "2026-11-12T20:09:29.656405+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -19597,7 +19596,7 @@
     },
     "9": {
       "complete": true,
-      "fetched_at": "2026-11-12T07:26:35.140359+00:00",
+      "fetched_at": "2026-11-12T20:09:29.655967+00:00",
       "rows": [
         {
           "injury": "",
