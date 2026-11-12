@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-11-11T19:44:21.624687+00:00; through Week 9.
+Updated 2026-11-12T07:26:17.092619+00:00; through Week 9.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -17,8 +17,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
 | Trade Impact | +194.36 | +182.57 | -11.79 |
-| Wire Impact | +41.52 | +34.54 | -6.98 |
-| Total Impact | +235.88 | +217.11 | -18.77 |
+| Wire Impact | +43.72 | +36.74 | -6.98 |
+| Total Impact | +238.08 | +219.31 | -18.77 |
 
 ## Estimated absences
 
@@ -66,7 +66,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 6 | +10.78 | +10.78 | +2.18 | -4.66 |
 | 7 | +36.70 | +36.70 | +58.90 | +50.77 |
 | 8 | +39.70 | +30.79 | +36.78 | +41.67 |
-| 9 | +33.60 | +30.72 | +40.00 | +31.54 |
+| 9 | +33.60 | +30.72 | +42.20 | +33.74 |
 
 ## Week 1 adjusted optimal lineups
 

@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-11-11T19:44:21.624687+00:00. Through Week 9 (complete).
+Updated 2026-11-12T07:26:17.092619+00:00. Through Week 9 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,16 +14,16 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1122.48 |
-| Draft + trades only | 1156.26 |
+| Original draft | 1120.28 |
+| Draft + trades only | 1154.06 |
 | Draft + waiver / FA moves only | 1208.04 |
 | All moves (weekly team) | 1228.74 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +85.56 |
+| Waiver / FA baseline impact | +87.76 |
 | Trade impact with wire moves held fixed | +20.70 |
-| **Total improvement** | **+106.26** |
+| **Total improvement** | **+108.46** |
 | Trades-only effect (reference, not additive) | +33.78 |
 | Trade / wire interaction (included in trade impact) | -13.08 |
 
@@ -37,7 +37,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 6 | 95.06 | 94.40 | 110.06 | 108.58 | 15.00 | -1.48 | 13.52 |
 | 7 | 121.72 | 135.58 | 126.02 | 145.72 | 4.30 | 19.70 | 24.00 |
 | 8 | 118.86 | 140.78 | 141.68 | 173.48 | 22.82 | 31.80 | 54.62 |
-| 9 | 137.46 | 162.20 | 142.34 | 171.64 | 4.88 | 29.30 | 34.18 |
+| 9 | 135.26 | 160.00 | 142.34 | 171.64 | 7.08 | 29.30 | 36.38 |
 
 ## Current roster inventory
 
