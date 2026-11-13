@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-12T20:09:11.969220+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-13T06:57:48.753348+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -9,17 +9,17 @@ Player production includes bench points and continues after subsequent trades or
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
 | 1 | TheRealNoodleMan | Gibbs of War | +158.28 | 6 | 6 | Yes |
-| 2 | krunky | Grand Theft Aubrey | +138.70 | 7 | 8 | Yes |
+| 2 | krunky | Grand Theft Aubrey | +150.30 | 8 | 8 | Yes |
 | 3 | SethLL | Red Dead Zachdemption | +64.42 | 4 | 4 | Yes |
 | 4 | oneyjb | Bower's Inside Story | +50.80 | 5 | 5 | Yes |
 | 5 | therealbulker | MidnightClub Rice Edition | +45.64 | 6 | 7 | Yes |
-| 6 | AfootCoronet56 | Suicide Squad (the game) | +5.86 | 4 | 4 | Yes |
+| 6 | AfootCoronet56 | Suicide Squad (the game) | +11.56 | 4 | 4 | Yes |
 | 7 | DiscipleJack | JEFFERSON'S CREED | -9.60 | 1 | 1 | No |
-| 8 | RollnWithJesus | Breach & Touchdown | -32.02 | 4 | 4 | Yes |
+| 8 | RollnWithJesus | Breach & Touchdown | -49.32 | 4 | 4 | Yes |
 | 9 | lfain20 | Mortal Kombat: DARTside | -67.00 | 5 | 5 | Yes |
 | 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -79.76 | 8 | 9 | Yes |
 | 11 | Potatomain | The Lost Cause Fallacy | -99.80 | 6 | 6 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -175.52 | 5 | 6 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -175.52 | 6 | 6 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -222,8 +222,8 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (31.30), D'Andre Swift (68.00) | Ollie Gordon II (30.60), DJ Moore (19.70), Kendre Miller (12.30) | 99.30 | 62.60 | +36.70 | scored |
-| RollnWithJesus / Breach & Touchdown | Ollie Gordon II (30.60), DJ Moore (19.70), Kendre Miller (12.30) | Stefon Diggs (31.30), D'Andre Swift (68.00) | 62.60 | 99.30 | -36.70 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (48.60), D'Andre Swift (68.00) | Ollie Gordon II (30.60), DJ Moore (19.70), Kendre Miller (12.30) | 116.60 | 62.60 | +54.00 | scored |
+| RollnWithJesus / Breach & Touchdown | Ollie Gordon II (30.60), DJ Moore (19.70), Kendre Miller (12.30) | Stefon Diggs (48.60), D'Andre Swift (68.00) | 62.60 | 116.60 | -54.00 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 
@@ -299,8 +299,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Kenyon Sadiq (13.70) | Rachaad White (18.90) | 13.70 | 18.90 | -5.20 | scored |
-| AfootCoronet56 / Suicide Squad (the game) | Rachaad White (18.90) | Kenyon Sadiq (13.70) | 18.90 | 13.70 | +5.20 | scored |
+| krunky / Grand Theft Aubrey | Kenyon Sadiq (13.70) | Rachaad White (24.60) | 13.70 | 24.60 | -10.90 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Rachaad White (24.60) | Kenyon Sadiq (13.70) | 24.60 | 13.70 | +10.90 | scored |
 
 krunky picks received: 2027 round 16 (original roster 5). Value not included in points.
 
@@ -423,8 +423,8 @@ First scoring week: **10**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Wan'Dale Robinson (0.00) | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| Dawg2003 / The Windhelm Nords  | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | Wan'Dale Robinson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| krunky / Grand Theft Aubrey | Wan'Dale Robinson (0.00) | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | scored |
+| Dawg2003 / The Windhelm Nords  | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | Wan'Dale Robinson (0.00) | 0.00 | 0.00 | +0.00 | scored |
 
 krunky picks received: 2027 round 10 (original roster 9). Value not included in points.
 
@@ -437,3 +437,7 @@ Dawg2003 picks received: 2027 round 15 (original roster 4). Value not included i
 Dawg2003 picks sent: 2027 round 10 (original roster 9). Value not included in points.
 
 FAAB received: 0; sent: 10. Not included in points.
+
+
+Week 10 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

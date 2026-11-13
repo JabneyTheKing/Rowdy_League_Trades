@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-12T20:09:11.969220+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 9.
+Updated 2026-11-13T06:57:48.753348+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -48,7 +48,7 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (31.30), D'Andre Swift (68.00) | Ollie Gordon II (30.60), DJ Moore (19.70), Kendre Miller (12.30) | 99.30 | 62.60 | +36.70 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (48.60), D'Andre Swift (68.00) | Ollie Gordon II (30.60), DJ Moore (19.70), Kendre Miller (12.30) | 116.60 | 62.60 | +54.00 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 
@@ -60,7 +60,7 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Kenyon Sadiq (13.70) | Rachaad White (18.90) | 13.70 | 18.90 | -5.20 | scored |
+| krunky / Grand Theft Aubrey | Kenyon Sadiq (13.70) | Rachaad White (24.60) | 13.70 | 24.60 | -10.90 | scored |
 
 krunky picks received: 2027 round 16 (original roster 5). Value not included in points.
 
@@ -80,10 +80,14 @@ First scoring week: **10**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Wan'Dale Robinson (0.00) | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| krunky / Grand Theft Aubrey | Wan'Dale Robinson (0.00) | Omar Cooper Jr. (0.00), Michael Mayer (0.00) | 0.00 | 0.00 | +0.00 | scored |
 
 krunky picks received: 2027 round 10 (original roster 9). Value not included in points.
 
 krunky picks sent: 2027 round 15 (original roster 4). Value not included in points.
 
 FAAB received: 10; sent: 0. Not included in points.
+
+
+Week 10 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

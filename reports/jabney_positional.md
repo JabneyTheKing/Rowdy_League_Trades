@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-11-12T20:09:11.969220+00:00. Through Week 9 (complete).
+Updated 2026-11-13T06:57:48.753348+00:00. Through Week 10 (PARTIAL; available scores and baselines will change).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -10,8 +10,8 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 |---|---:|---:|
 | Trades | -79.76 | +211.58 |
 | Waivers | +155.60 | +1.28 |
-| Free agents | +117.10 | -91.99 |
-| **Total** | **+192.94** | **+120.87** |
+| Free agents | +134.70 | -87.40 |
+| **Total** | **+210.54** | **+125.46** |
 
 ## Transactions
 
@@ -29,25 +29,25 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Waivers: W5–7 | Keon Coleman | Chris Bell | +14.50 | +14.24 | scored |
 | Waivers: W6–7 | C.J. Stroud | Jaylen Wright | +39.70 | +11.01 | scored |
 | Waivers: W4–5 | Jaylen Wright | Zach Ertz | -1.50 | +0.18 | scored |
-| Waivers: W4–9 | Braelon Allen | Tank Bigsby | +74.80 | +0.10 | scored |
+| Waivers: W4–10 | Braelon Allen | Tank Bigsby | +74.80 | +0.10 | scored |
 | Waivers: W4–4 | Kalif Raymond | Kayshon Boutte | -3.50 | -3.50 | scored |
-| Waivers: W6–9 | Keenan Allen | — | +31.60 | -20.75 | scored |
-| Free agents: W1–9 | Spencer Shrader | Tyler Loop | +38.00 | +23.33 | scored |
-| Free agents: W5–9 | Antonio Williams | Kalif Raymond | +6.80 | +19.32 | scored |
+| Waivers: W6–10 | Keenan Allen | — | +31.60 | -20.75 | scored |
+| Free agents: W5–10 | Antonio Williams | Kalif Raymond | +18.00 | +25.86 | scored |
+| Free agents: W1–10 | Spencer Shrader | Tyler Loop | +38.00 | +23.33 | scored |
 | Free agents: W8–8 | Chicago Bears | Keon Coleman | +7.10 | +7.42 | scored |
 | Free agents: W3–3 | Tyler Allgeier | Daniel Jones | -6.00 | +4.32 | scored |
 | Free agents: pending | Samaje Perine | — | +0.00 | +0.00 | scored |
 | Free agents: W1–2 | Travis Hunter | — | +1.60 | +0.00 | scored |
 | Free agents: pending | Tyreek Hill | — | +0.00 | +0.00 | scored |
 | Free agents: pending | Joe Mixon | Tyler Allgeier | +0.00 | +0.00 | scored |
-| Free agents: W9–9 | Chig Okonkwo | Chicago Bears | -3.30 | -4.23 | scored |
 | Free agents: W1–3 | Kaleb Johnson | Samaje Perine | -5.80 | -5.80 | scored |
+| Free agents: W9–10 | Chig Okonkwo | Chicago Bears | +3.10 | -6.18 | scored |
 | Free agents: W5–6 | Tre' Harris | Joe Mixon | +2.60 | -11.32 | scored |
 | Free agents: W1–2 | Jauan Jennings | — | +0.00 | -13.79 | scored |
 | Free agents: W4–6 | Kirk Cousins | — | +56.84 | -14.16 | scored |
 | Free agents: W4–4 | Chris Bell | — | +0.00 | -15.19 | scored |
 | Free agents: W3–3 | Tank Bigsby | Tyreek Hill | -1.00 | -15.61 | scored |
-| Free agents: W8–9 | Kirk Cousins | C.J. Stroud | +7.46 | -17.03 | scored |
+| Free agents: W8–10 | Kirk Cousins | C.J. Stroud | +7.46 | -17.03 | scored |
 | Free agents: W3–3 | Zach Ertz | — | +1.90 | -17.84 | scored |
 | Free agents: W1–3 | Kayshon Boutte | — | +10.90 | -31.41 | scored |
 
@@ -64,3 +64,4 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | 7 | 23.00 (n=12) | 16.04 (n=30) | 12.53 (n=42) | 16.84 (n=12) | 11.17 (n=12) | 9.67 (n=12) |
 | 8 | 24.48 (n=12) | 16.26 (n=30) | 13.07 (n=42) | 16.91 (n=12) | 11.50 (n=12) | 12.75 (n=12) |
 | 9 | 23.56 (n=12) | 13.24 (n=30) | 13.97 (n=42) | 14.51 (n=12) | 14.67 (n=12) | 13.58 (n=12) |
+| 10 | 13.66 (n=3) | 6.55 (n=6) | 4.66 (n=10) | 8.35 (n=6) | 4.50 (n=2) | 6.50 (n=2) |

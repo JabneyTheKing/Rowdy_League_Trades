@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-11-12T20:09:11.969220+00:00. Through Week 9 (complete).
+Updated 2026-11-13T06:57:48.753348+00:00. Through Week 10 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -21,6 +21,7 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 7 | 121.72 | 135.58 | +13.86 |
 | 8 | 118.86 | 140.78 | +21.92 |
 | 9 | 135.26 | 160.00 | +24.74 |
+| 10 | 0.00 | 0.00 | +0.00 |
 | **Total** | **1120.28** | **1154.06** | **+33.78** |
 
 ## Original drafted roster
@@ -153,3 +154,17 @@ Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price
 | FLEX | Chris Olave | 13.30 | Puka Nacua | 28.00 |
 | K | Waiver cover (K) | 12.60 | Waiver cover (K) | 12.60 |
 | DEF | Houston Texans | 13.00 | Houston Texans | 13.00 |
+## Week 10 optimal lineups
+
+| Slot | Drafted player | Points | Trade-adjusted player | Points |
+|---|---|---:|---|---:|
+| QB | Josh Allen | 0.00 | Lamar Jackson | 0.00 |
+| RB | Quinshon Judkins | 0.00 | Josh Jacobs | 0.00 |
+| RB | Jadarian Price | 0.00 | Travis Etienne Jr. | 0.00 |
+| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
+| WR | Omar Cooper Jr. | 0.00 | Omar Cooper Jr. | 0.00 |
+| TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
+| FLEX | Davante Adams | 0.00 | A.J. Brown | 0.00 |
+| FLEX | Josh Jacobs | 0.00 | CeeDee Lamb | 0.00 |
+| K | Tyler Loop | 0.00 | Tyler Loop | 0.00 |
+| DEF | Houston Texans | 0.00 | Houston Texans | 0.00 |

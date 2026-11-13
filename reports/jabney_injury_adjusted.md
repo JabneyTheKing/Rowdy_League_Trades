@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-12T20:09:11.969220+00:00; through Week 9.
+Updated 2026-11-13T06:57:48.753348+00:00; through Week 10.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -17,8 +17,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
 | Trade Impact | +20.70 | +16.50 | -4.20 |
-| Wire Impact | +87.76 | +97.06 | +9.30 |
-| Total Impact | +108.46 | +113.56 | +5.10 |
+| Wire Impact | +105.36 | +114.66 | +9.30 |
+| Total Impact | +126.06 | +131.16 | +5.10 |
 
 ## Estimated absences
 
@@ -51,20 +51,20 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Josh Jacobs.
 - Week 1: Zach Charbonnet.
-- Week 2: Josh Jacobs.
+- Week 1: Josh Jacobs.
 - Week 2: Zach Charbonnet.
-- Week 3: Omar Cooper Jr..
-- Week 3: Josh Jacobs.
+- Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
-- Week 4: Omar Cooper Jr..
+- Week 3: Josh Jacobs.
+- Week 3: Omar Cooper Jr..
 - Week 4: Josh Jacobs.
-- Week 5: Omar Cooper Jr..
+- Week 4: Omar Cooper Jr..
 - Week 5: Josh Jacobs.
+- Week 5: Omar Cooper Jr..
 - Week 6: Josh Jacobs.
-- Week 9: De'Von Achane.
 - Week 9: Travis Etienne Jr..
+- Week 9: De'Von Achane.
 
 ## Weekly impact
 
@@ -79,6 +79,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 7 | +19.70 | +13.80 | +24.00 | +18.10 |
 | 8 | +31.80 | +25.20 | +54.62 | +44.52 |
 | 9 | +29.30 | +25.28 | +36.38 | +36.54 |
+| 10 | +0.00 | +0.00 | +17.60 | +17.60 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -215,7 +216,23 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | K | Spencer Shrader | 16.00 | Spencer Shrader | 16.00 |
 | DEF | Houston Texans | 13.00 | Houston Texans | 13.00 |
 
+## Week 10 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Kirk Cousins | 0.00 | Kirk Cousins | 0.00 |
+| RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
+| RB | Quinshon Judkins | 0.00 | Josh Jacobs | 0.00 |
+| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
+| WR | Antonio Williams | 11.20 | Antonio Williams | 11.20 |
+| TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
+| FLEX | Jadarian Price | 0.00 | Keenan Allen | 0.00 |
+| FLEX | Chig Okonkwo | 6.40 | Chig Okonkwo | 6.40 |
+| K | Spencer Shrader | 0.00 | Spencer Shrader | 0.00 |
+| DEF | Houston Texans | 0.00 | Houston Texans | 0.00 |
+
 ## Source health
 
 Archived NFL injury reports and reserve transactions: `data/injury_evidence.json`.
+- Reserve archive pagination incomplete; retained verified rows only
 - Reserve archive pagination incomplete; retained verified rows only

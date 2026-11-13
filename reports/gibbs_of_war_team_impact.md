@@ -1,6 +1,6 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-11-12T20:09:11.969220+00:00. Through Week 9 (complete).
+Updated 2026-11-13T06:57:48.753348+00:00. Through Week 10 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,14 +16,14 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 |---|---:|
 | Original draft | 1058.32 |
 | Draft + trades only | 1263.61 |
-| Draft + waiver / FA moves only | 1102.04 |
-| All moves (weekly team) | 1296.40 |
+| Draft + waiver / FA moves only | 1104.04 |
+| All moves (weekly team) | 1298.40 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +43.72 |
+| Waiver / FA baseline impact | +45.72 |
 | Trade impact with wire moves held fixed | +194.36 |
-| **Total improvement** | **+238.08** |
+| **Total improvement** | **+240.08** |
 | Trades-only effect (reference, not additive) | +205.29 |
 | Trade / wire interaction (included in trade impact) | -10.93 |
 
@@ -38,6 +38,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 7 | 108.60 | 152.60 | 130.80 | 167.50 | 22.20 | 36.70 | 58.90 |
 | 8 | 97.90 | 121.40 | 94.98 | 134.68 | -2.92 | 39.70 | 36.78 |
 | 9 | 97.72 | 133.97 | 106.32 | 139.92 | 8.60 | 33.60 | 42.20 |
+| 10 | 0.00 | 0.00 | 2.00 | 2.00 | 2.00 | 0.00 | 2.00 |
 
 ## Current roster inventory
 
@@ -173,3 +174,17 @@ Replaying completed eligible moves from the draft matches this live roster.
 | FLEX | Brenton Strange | 4.20 | Nico Collins | 13.50 |
 | K | Chase McLaughlin | 10.00 | Chase McLaughlin | 10.00 |
 | DEF | Kansas City Chiefs | 12.00 | Kansas City Chiefs | 12.00 |
+## Week 10 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Matthew Stafford | 0.00 | Matthew Stafford | 0.00 |
+| RB | Woody Marks | 0.00 | Bucky Irving | 0.00 |
+| RB | Kyle Monangai | 0.00 | Woody Marks | 0.00 |
+| WR | Jordyn Tyson | 0.00 | Rome Odunze | 0.00 |
+| WR | Makai Lemon | 0.00 | Jordyn Tyson | 0.00 |
+| TE | Sam LaPorta | 0.00 | Trey McBride | 0.00 |
+| FLEX | KC Concepcion Jr. | 0.00 | Kyle Monangai | 0.00 |
+| FLEX | Terry McLaurin | 0.00 | Makai Lemon | 0.00 |
+| K | Dominic Zvada | 2.00 | Dominic Zvada | 2.00 |
+| DEF | Kansas City Chiefs | 0.00 | Kansas City Chiefs | 0.00 |
