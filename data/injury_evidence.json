@@ -6,7 +6,7 @@
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-14T18:19:22.974639+00:00",
+      "fetched_at": "2026-11-14T22:37:08.678263+00:00",
       "rows": [
         {
           "date": "2026-08-30",
@@ -2082,7 +2082,7 @@
     },
     "2026-11": {
       "complete": false,
-      "fetched_at": "2026-11-14T18:19:21.679194+00:00",
+      "fetched_at": "2026-11-14T22:37:07.453642+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2332,7 +2332,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-14T18:19:22.975443+00:00",
+  "updated_at": "2026-11-14T22:37:08.678599+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -3617,7 +3617,7 @@
     },
     "10": {
       "complete": false,
-      "fetched_at": "2026-11-14T18:19:20.970946+00:00",
+      "fetched_at": "2026-11-14T22:37:06.884010+00:00",
       "rows": [
         {
           "injury": "",
@@ -4740,11 +4740,11 @@
           "status": ""
         },
         {
-          "injury": "Hamstring",
+          "injury": "",
           "name": "Arden Key",
           "position": "DE",
           "practice": "Full Participation in Practice",
-          "status": "Questionable"
+          "status": ""
         },
         {
           "injury": "Hamstring",
@@ -5846,25 +5846,25 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Fibula",
           "name": "Kayode Awosika",
           "position": "G",
-          "practice": "Limited Participation in Practice",
-          "status": ""
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
         },
         {
           "injury": "",
           "name": "Bud Dupree",
           "position": "DE",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Justin Eboigbe",
           "position": "DE",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -5909,74 +5909,74 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Back",
           "name": "Ladd McConkey",
           "position": "WR",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
           "name": "Keaton Mitchell",
           "position": "RB",
-          "practice": "Limited Participation in Practice",
-          "status": ""
-        },
-        {
-          "injury": "",
-          "name": "David Njoku",
-          "position": "TE",
-          "practice": "Limited Participation in Practice",
-          "status": ""
-        },
-        {
-          "injury": "",
-          "name": "Denzel Perryman",
-          "position": "LB",
           "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Fibula",
+          "name": "David Njoku",
+          "position": "TE",
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
+        },
+        {
+          "injury": "Pectoral",
+          "name": "Denzel Perryman",
+          "position": "LB",
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
+        },
+        {
+          "injury": "Not injury related - personal matter, Knee",
           "name": "Trey Pipkins",
           "position": "T",
-          "practice": "Did Not Participate In Practice",
-          "status": ""
+          "practice": "Limited Participation in Practice",
+          "status": "Questionable"
         },
         {
           "injury": "",
           "name": "Rodney Shelley",
           "position": "CB",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Branson Taylor",
           "position": "G",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
-          "injury": "",
+          "injury": "Hamstring",
           "name": "Brenen Thompson",
           "position": "WR",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Doubtful"
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Isas Waxter",
           "position": "CB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
-          "injury": "",
+          "injury": "Calf",
           "name": "Kendall Williamson",
           "position": "S",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -5994,17 +5994,24 @@
         },
         {
           "injury": "",
+          "name": "Calais Campbell",
+          "position": "DT",
+          "practice": "Did Not Participate In Practice",
+          "status": ""
+        },
+        {
+          "injury": "",
           "name": "Kyle Hamilton",
           "position": "S",
           "practice": "Full Participation in Practice",
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Knee",
           "name": "Jaylinn Hawkins",
           "position": "S",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -6021,10 +6028,17 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Neck, Hamstring",
           "name": "Adam Randall",
           "position": "RB",
           "practice": "Full Participation in Practice",
+          "status": "Questionable"
+        },
+        {
+          "injury": "",
+          "name": "Ronnie Stanley",
+          "position": "T",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
