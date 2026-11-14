@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-13T19:53:09.176929+00:00; through Week 10.
+Updated 2026-11-14T06:45:45.835575+00:00; through Week 10.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -39,7 +39,7 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | 8 | Davante Adams | 0.00 | 14.50 | W1: 4.10, W2: 35.50, W3: 17.20, W4: 5.20, W5: 19.60, W6: 5.40 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAGAAAAAAAOlGo=) |
 | 9 | Lamar Jackson | 0.00 | 16.02 | W1: 24.96, W2: 15.80, W3: 20.44, W4: 18.88, W8: 0.00 | [Thumb](https://www.nfl.com/injuries/league/2026/reg9) |
 | 9 | Davante Adams | 0.00 | 14.50 | W1: 4.10, W2: 35.50, W3: 17.20, W4: 5.20, W5: 19.60, W6: 5.40 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAGAAAAAAAOlGo=) |
-| 9 | Tyler Loop | 0.00 | 8.12 | W1: 14.00, W2: 5.00, W3: 12.00, W4: 7.00, W5: 14.00, W6: 3.00, W7: 7.00, W8: 3.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=) |
+| 9 | Tyler Loop | 0.00 | 8.12 | W1: 14.00, W2: 5.00, W3: 12.00, W4: 7.00, W5: 14.00, W6: 3.00, W7: 7.00, W8: 3.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -51,17 +51,17 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Josh Jacobs.
 - Week 1: Zach Charbonnet.
-- Week 2: Josh Jacobs.
+- Week 1: Josh Jacobs.
 - Week 2: Zach Charbonnet.
-- Week 3: Josh Jacobs.
-- Week 3: Omar Cooper Jr..
+- Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
-- Week 4: Josh Jacobs.
+- Week 3: Omar Cooper Jr..
+- Week 3: Josh Jacobs.
 - Week 4: Omar Cooper Jr..
-- Week 5: Josh Jacobs.
+- Week 4: Josh Jacobs.
 - Week 5: Omar Cooper Jr..
+- Week 5: Josh Jacobs.
 - Week 6: Josh Jacobs.
 - Week 9: De'Von Achane.
 - Week 9: Travis Etienne Jr..
@@ -234,4 +234,5 @@ These are not classified as injuries; they may be healthy scratches or other abs
 ## Source health
 
 Archived NFL injury reports and reserve transactions: `data/injury_evidence.json`.
+- Reserve archive pagination incomplete; retained verified rows only
 - Reserve archive pagination incomplete; retained verified rows only

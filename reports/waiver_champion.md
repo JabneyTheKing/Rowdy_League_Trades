@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-13T19:53:09.176929+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-14T06:45:45.835575+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -14,7 +14,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 6 | Dawg2003 | The Windhelm Nords  | 40.40 | 4 | $45 | Kenny Gainwell (34.80) |
 | 7 | AfootCoronet56 | Suicide Squad (the game) | 39.90 | 8 | $42 | Dameon Pierce (24.30) |
 | 8 | therealbulker | MidnightClub Rice Edition | 25.70 | 9 | $99 | Brian Robinson Jr. (22.30) |
-| 9 | TheRealNoodleMan | Gibbs of War | 19.18 | 9 | $51 | Matthew Stafford (35.28) |
+| 9 | TheRealNoodleMan | Gibbs of War | 19.18 | 10 | $53 | Matthew Stafford (35.28) |
 | 10 | RollnWithJesus | Breach & Touchdown | -12.80 | 4 | $25 | Tampa Bay Buccaneers (19.00) |
 | 11 | SethLL | Red Dead Zachdemption | -16.10 | 6 | $80 | Carson Wentz (0.00) |
 | 12 | oneyjb | Bower's Inside Story | -51.28 | 10 | $62 | Jacksonville Jaguars (18.00) |
@@ -72,6 +72,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | therealbulker | Alec Pierce | — | $7 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Terrance Ferguson | — | $5 | 7–10 | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Ryan Fitzgerald | Harrison Butker | $1 | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Chase McLaughlin | Dominic Zvada | $2 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | 8–10 | 17.80 | 17.90 | -0.10 | scored |
 | SethLL | Mike Washington Jr. | — | $35 | 9–9 | -0.30 | 0.00 | -0.30 | scored |
 | AfootCoronet56 | Will Shipley | Wan'Dale Robinson | $20 | 5–5 | 7.80 | 8.30 | -0.50 | scored |
