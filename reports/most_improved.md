@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-14T06:45:45.835575+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-14T18:19:03.213884+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -115,6 +115,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Atlanta Falcons | Dallas Cowboys | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | C.J. Stroud | — | 10–10 | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Zonovan Knight | Wan'Dale Robinson | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
