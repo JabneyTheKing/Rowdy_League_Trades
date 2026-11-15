@@ -1,6 +1,6 @@
 # Krunky — Positional Value
 
-Updated 2026-11-15T06:50:49.306329+00:00. Through Week 10 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-15T18:58:41.991192+00:00. Through Week 10 (PARTIAL; available scores and baselines will change).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -8,21 +8,21 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 
 | Component | Raw net points | Positional net value |
 |---|---:|---:|
-| Trades | +150.30 | +140.11 |
-| **Total** | **+150.30** | **+140.11** |
+| Trades | +168.68 | +177.69 |
+| **Total** | **+168.68** | **+177.69** |
 
 ## Transactions
 
 | Move | Received / added | Sent / dropped | Raw net | Adjusted net | Status |
 |---|---|---|---:|---:|---|
-| Trade 1 | Brian Thomas Jr., Kenneth Walker III | Emeka Egbuka, Rhamondre Stevenson | +48.90 | +51.39 | scored |
-| Trade 2 | Marvin Harrison Jr. | Brian Thomas Jr. | +10.50 | +24.96 | scored |
-| Trade 3 | Colston Loveland, Amon-Ra St. Brown | Denzel Boston, Chase Brown | +41.00 | +32.31 | scored |
-| Trade 4 | Kyler Murray | Bryce Young | -6.90 | +10.92 | scored |
-| Trade 5 | Stefon Diggs, D'Andre Swift | Ollie Gordon II, DJ Moore, Kendre Miller | +54.00 | +52.60 | scored |
-| Trade 6 | Kenyon Sadiq | Rachaad White | -10.90 | -23.11 | scored |
+| Trade 1 | Brian Thomas Jr., Kenneth Walker III | Emeka Egbuka, Rhamondre Stevenson | +47.90 | +50.99 | scored |
+| Trade 2 | Marvin Harrison Jr. | Brian Thomas Jr. | +10.50 | +30.06 | scored |
+| Trade 3 | Colston Loveland, Amon-Ra St. Brown | Denzel Boston, Chase Brown | +64.80 | +56.11 | scored |
+| Trade 4 | Kyler Murray | Bryce Young | -9.02 | +19.61 | scored |
+| Trade 5 | Stefon Diggs, D'Andre Swift | Ollie Gordon II, DJ Moore, Kendre Miller | +48.30 | +57.26 | scored |
+| Trade 6 | Kenyon Sadiq | Rachaad White | -9.60 | -29.48 | scored |
 | Trade 7 | Michael Mayer | DK Metcalf | +13.70 | -8.96 | scored |
-| Trade 8 | Wan'Dale Robinson | Omar Cooper Jr., Michael Mayer | +0.00 | +0.00 | scored |
+| Trade 8 | Wan'Dale Robinson | Omar Cooper Jr., Michael Mayer | +2.10 | +2.10 | scored |
 
 ## Weekly positional baselines
 
@@ -37,4 +37,4 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | 7 | 23.00 (n=12) | 16.04 (n=30) | 12.53 (n=42) | 16.84 (n=12) | 11.17 (n=12) | 9.67 (n=12) |
 | 8 | 24.48 (n=12) | 16.26 (n=30) | 13.07 (n=42) | 16.91 (n=12) | 11.50 (n=12) | 12.75 (n=12) |
 | 9 | 23.56 (n=12) | 13.24 (n=30) | 13.97 (n=42) | 14.51 (n=12) | 14.67 (n=12) | 13.58 (n=12) |
-| 10 | 13.66 (n=3) | 6.55 (n=6) | 4.66 (n=10) | 8.35 (n=6) | 4.50 (n=2) | 6.50 (n=2) |
+| 10 | 10.80 (n=12) | 5.70 (n=30) | 5.10 (n=42) | 6.82 (n=12) | 4.00 (n=12) | 9.92 (n=12) |

@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-11-15T06:50:49.306329+00:00; through Week 10.
+Updated 2026-11-15T18:58:41.991192+00:00; through Week 10.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +117.70 | +117.70 | +0.00 |
-| Wire Impact | -5.94 | -5.94 | +0.00 |
-| Total Impact | +111.76 | +111.76 | +0.00 |
+| Trade Impact | +135.80 | +135.80 | +0.00 |
+| Wire Impact | +9.30 | +9.30 | +0.00 |
+| Total Impact | +145.10 | +145.10 | +0.00 |
 
 ## Estimated absences
 
@@ -40,15 +40,16 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 2: Jayden Higgins.
 - Week 3: Jayden Higgins.
 - Week 4: Jayden Higgins.
-- Week 5: Jayden Higgins.
 - Week 5: James Conner.
-- Week 6: Jayden Higgins.
+- Week 5: Jayden Higgins.
 - Week 6: James Conner.
-- Week 7: Jayden Higgins.
+- Week 6: Jayden Higgins.
 - Week 7: James Conner.
+- Week 7: Jayden Higgins.
 - Week 8: James Conner.
-- Week 9: Jayden Higgins.
 - Week 9: James Conner.
+- Week 9: Jayden Higgins.
+- Week 10: Jayden Higgins.
 
 ## Weekly impact
 
@@ -63,7 +64,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 7 | +12.00 | +12.00 | +35.20 | +35.20 |
 | 8 | +13.80 | +13.80 | -10.40 | -10.40 |
 | 9 | +16.62 | +16.62 | +23.80 | +23.80 |
-| 10 | +11.60 | +11.60 | +17.30 | +17.30 |
+| 10 | +29.70 | +29.70 | +50.64 | +50.64 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -204,14 +205,14 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Caleb Williams | 0.00 | Caleb Williams | 0.00 |
-| RB | Ollie Gordon II | 0.00 | James Conner | 0.00 |
-| RB | Rachaad White | 5.70 | D'Andre Swift | 0.00 |
+| QB | C.J. Stroud | 15.64 | C.J. Stroud | 15.64 |
+| RB | Jonathan Taylor | 2.00 | James Conner | 0.00 |
+| RB | Rachaad White | 5.70 | Jonathan Taylor | 2.00 |
 | WR | Malik Nabers | 4.90 | Malik Nabers | 4.90 |
-| WR | Jalen Coker | 0.00 | Jalen Coker | 0.00 |
-| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
-| FLEX | Jayden Higgins | 0.00 | Jayden Higgins | 0.00 |
-| FLEX | Emeka Egbuka | 0.00 | Stefon Diggs | 17.30 |
+| WR | DJ Moore | 4.10 | Stefon Diggs | 17.30 |
+| TE | Travis Kelce | 3.30 | Travis Kelce | 3.30 |
+| FLEX | Ollie Gordon II | 1.60 | Amon-Ra St. Brown | 23.80 |
+| FLEX | Parker Washington | 16.80 | Parker Washington | 16.80 |
 | K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
 | DEF | Los Angeles Rams | 0.00 | Los Angeles Rams | 0.00 |
 

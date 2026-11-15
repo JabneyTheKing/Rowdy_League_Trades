@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-15T06:50:49.306329+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-15T18:58:41.991192+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -27,8 +27,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Krunky | Aaron Jones Sr. (27.90) | Rachaad White (40.80) | 27.90 | 40.80 | -12.90 | scored |
-| Ryan | Rachaad White (40.80) | Aaron Jones Sr. (27.90) | 40.80 | 27.90 | +12.90 | scored |
+| Krunky | Aaron Jones Sr. (28.70) | Rachaad White (40.80) | 28.70 | 40.80 | -12.10 | scored |
+| Ryan | Rachaad White (40.80) | Aaron Jones Sr. (28.70) | 40.80 | 28.70 | +12.10 | scored |
 
 ### Before Week 5: Jabney sends Jadarian Price; Krunky sends James Conner
 
