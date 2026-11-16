@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-15T18:58:41.991192+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-16T06:50:30.682349+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,7 +14,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Emeka Egbuka (62.50), Rhamondre Stevenson (101.70) | Brian Thomas Jr. (28.70), Kenneth Walker III (183.40) | 164.20 | 212.10 | -47.90 | scored |
+| Potatomain / The Lost Cause Fallacy | Emeka Egbuka (62.50), Rhamondre Stevenson (101.70) | Brian Thomas Jr. (33.10), Kenneth Walker III (183.40) | 164.20 | 216.50 | -52.30 | scored |
 
 ### Trade 1410130087235375104
 
@@ -22,7 +22,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (43.50), Chris Olave (56.40) | Saquon Barkley (35.70), Jameson Williams (81.00) | 99.90 | 116.70 | -16.80 | scored |
+| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (54.70), Chris Olave (60.90) | Saquon Barkley (35.70), Jameson Williams (81.00) | 115.60 | 116.70 | -1.10 | scored |
 
 ### Trade 1412618520205746176
 
@@ -30,7 +30,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (41.70), Jaxon Smith-Njigba (95.90) | James Cook III (83.10), Chris Olave (40.80) | 137.60 | 123.90 | +13.70 | scored |
+| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (54.90), Jaxon Smith-Njigba (123.00) | James Cook III (100.60), Chris Olave (45.30) | 177.90 | 145.90 | +32.00 | scored |
 
 ### Trade 1413329747487772672
 
@@ -38,7 +38,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Jaylen Warren (78.60), Puka Nacua (105.50) | Aaron Jones Sr. (28.70), Jaxon Smith-Njigba (95.90) | 184.10 | 124.60 | +59.50 | scored |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (85.20), Puka Nacua (105.50) | Aaron Jones Sr. (39.90), Jaxon Smith-Njigba (123.00) | 190.70 | 162.90 | +27.80 | scored |
 
 ### Trade 1418087545975111680
 
@@ -58,7 +58,7 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Christian Watson (50.10) | Tee Higgins (74.00), Jaylen Warren (36.00) | 50.10 | 110.00 | -59.90 | scored |
+| Potatomain / The Lost Cause Fallacy | Christian Watson (53.30) | Tee Higgins (83.10), Jaylen Warren (42.60) | 53.30 | 125.70 | -72.40 | scored |
 
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 

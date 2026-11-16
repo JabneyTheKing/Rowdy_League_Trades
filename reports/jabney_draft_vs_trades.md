@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-11-15T18:58:41.991192+00:00. Through Week 10 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-16T06:50:30.682349+00:00. Through Week 10 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -21,8 +21,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 7 | 121.72 | 135.58 | +13.86 |
 | 8 | 118.86 | 140.78 | +21.92 |
 | 9 | 135.26 | 160.00 | +24.74 |
-| 10 | 19.12 | 22.20 | +3.08 |
-| **Total** | **1139.40** | **1176.26** | **+36.86** |
+| 10 | 99.64 | 97.02 | -2.62 |
+| **Total** | **1219.92** | **1251.08** | **+31.16** |
 
 ## Original drafted roster
 
@@ -158,13 +158,13 @@ Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price
 
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
-| QB | Josh Allen | 9.42 | Daniel Jones | 1.20 |
-| RB | Quinshon Judkins | 1.40 | Josh Jacobs | 0.00 |
-| RB | Jadarian Price | 0.00 | Breece Hall | 2.60 |
-| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
-| WR | Omar Cooper Jr. | 0.00 | Omar Cooper Jr. | 0.00 |
-| TE | Kenyon Sadiq | 1.30 | Harold Fannin Jr. | 4.40 |
-| FLEX | Davante Adams | 0.00 | A.J. Brown | 3.70 |
-| FLEX | Josh Jacobs | 0.00 | Travis Etienne Jr. | 3.30 |
+| QB | Josh Allen | 23.34 | Daniel Jones | 7.22 |
+| RB | Quinshon Judkins | 14.60 | Josh Jacobs | 0.00 |
+| RB | Jadarian Price | 10.90 | Breece Hall | 12.80 |
+| WR | Luther Burden III | 0.00 | A.J. Brown | 3.70 |
+| WR | Ja'Marr Chase | 28.60 | CeeDee Lamb | 16.70 |
+| TE | Kenyon Sadiq | 1.30 | Harold Fannin Jr. | 16.10 |
+| FLEX | Chris Olave | 4.50 | Travis Etienne Jr. | 4.90 |
+| FLEX | Zach Charbonnet | 9.40 | Ja'Marr Chase | 28.60 |
 | K | Tyler Loop | 0.00 | Tyler Loop | 0.00 |
 | DEF | Houston Texans | 7.00 | Houston Texans | 7.00 |

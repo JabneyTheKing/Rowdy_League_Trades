@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-15T18:58:41.991192+00:00; through Week 10.
+Updated 2026-11-16T06:50:30.682349+00:00; through Week 10.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +29.74 | +25.54 | -4.20 |
-| Wire Impact | +107.66 | +116.96 | +9.30 |
-| Total Impact | +137.40 | +142.50 | +5.10 |
+| Trade Impact | +23.14 | +18.94 | -4.20 |
+| Wire Impact | +116.16 | +125.46 | +9.30 |
+| Total Impact | +139.30 | +144.40 | +5.10 |
 
 ## Estimated absences
 
@@ -51,13 +51,13 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Zach Charbonnet.
 - Week 1: Josh Jacobs.
-- Week 2: Zach Charbonnet.
+- Week 1: Zach Charbonnet.
 - Week 2: Josh Jacobs.
-- Week 3: Zach Charbonnet.
+- Week 2: Zach Charbonnet.
 - Week 3: Omar Cooper Jr..
 - Week 3: Josh Jacobs.
+- Week 3: Zach Charbonnet.
 - Week 4: Omar Cooper Jr..
 - Week 4: Josh Jacobs.
 - Week 5: Omar Cooper Jr..
@@ -80,7 +80,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 7 | +19.70 | +13.80 | +24.00 | +18.10 |
 | 8 | +31.80 | +25.20 | +54.62 | +44.52 |
 | 9 | +29.30 | +25.28 | +36.38 | +36.54 |
-| 10 | +9.04 | +9.04 | +28.94 | +28.94 |
+| 10 | +2.44 | +2.44 | +30.84 | +30.84 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -221,15 +221,15 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Josh Allen | 9.42 | Kirk Cousins | 7.16 |
-| RB | Braelon Allen | 1.30 | Braelon Allen | 1.30 |
-| RB | Quinshon Judkins | 1.40 | Breece Hall | 2.60 |
-| WR | Luther Burden III | 0.00 | Antonio Williams | 11.20 |
-| WR | Antonio Williams | 11.20 | A.J. Brown | 3.70 |
-| TE | Kenyon Sadiq | 1.30 | Harold Fannin Jr. | 4.40 |
-| FLEX | Jadarian Price | 0.00 | Travis Etienne Jr. | 3.30 |
-| FLEX | Chig Okonkwo | 6.40 | Chig Okonkwo | 6.40 |
-| K | Spencer Shrader | 1.00 | Spencer Shrader | 1.00 |
+| QB | Josh Allen | 23.34 | Kirk Cousins | 16.38 |
+| RB | Quinshon Judkins | 14.60 | Braelon Allen | 5.10 |
+| RB | Jadarian Price | 10.90 | Breece Hall | 12.80 |
+| WR | Antonio Williams | 11.20 | Antonio Williams | 11.20 |
+| WR | Ja'Marr Chase | 28.60 | Keenan Allen | 8.60 |
+| TE | Chig Okonkwo | 6.40 | Harold Fannin Jr. | 16.10 |
+| FLEX | Keenan Allen | 8.60 | CeeDee Lamb | 16.70 |
+| FLEX | Zach Charbonnet | 9.40 | Ja'Marr Chase | 28.60 |
+| K | Spencer Shrader | 8.00 | Spencer Shrader | 8.00 |
 | DEF | Houston Texans | 7.00 | Houston Texans | 7.00 |
 
 ## Source health

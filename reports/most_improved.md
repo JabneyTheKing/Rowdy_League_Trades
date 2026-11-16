@@ -1,70 +1,70 @@
 # Most Improved
 
-Updated 2026-11-15T18:58:41.991192+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-16T06:50:30.682349+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | TheRealNoodleMan | Gibbs of War | +155.68 | 31.18 | 115.98 | +302.84 |
-| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -77.88 | 156.90 | 127.22 | +206.24 |
-| 3 | krunky | Grand Theft Aubrey | +168.68 | 47.40 | -22.06 | +194.02 |
-| 4 | DiscipleJack | JEFFERSON'S CREED | -11.50 | 88.40 | 91.00 | +167.90 |
-| 5 | AfootCoronet56 | Suicide Squad (the game) | +27.18 | 39.90 | 94.46 | +161.54 |
-| 6 | SethLL | Red Dead Zachdemption | +58.94 | -13.60 | 113.44 | +158.78 |
-| 7 | lfain20 | Mortal Kombat: DARTside | -86.28 | 114.12 | 90.02 | +117.86 |
-| 8 | therealbulker | MidnightClub Rice Edition | +46.46 | 25.70 | 32.02 | +104.18 |
-| 9 | Potatomain | The Lost Cause Fallacy | -106.60 | 55.80 | 143.82 | +93.02 |
-| 10 | oneyjb | Bower's Inside Story | +46.98 | -81.62 | 74.22 | +39.58 |
-| 11 | Dawg2003 | The Windhelm Nords  | -183.04 | 54.10 | 132.70 | +3.76 |
-| 12 | RollnWithJesus | Breach & Touchdown | -38.62 | -11.20 | 46.90 | -2.92 |
+| 1 | TheRealNoodleMan | Gibbs of War | +186.76 | 22.24 | 123.28 | +332.28 |
+| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.60 | 169.30 | 137.64 | +217.34 |
+| 3 | SethLL | Red Dead Zachdemption | +58.74 | -14.88 | 116.62 | +160.48 |
+| 4 | DiscipleJack | JEFFERSON'S CREED | -9.70 | 98.50 | 71.20 | +160.00 |
+| 5 | krunky | Grand Theft Aubrey | +97.10 | 47.40 | 6.14 | +150.64 |
+| 6 | lfain20 | Mortal Kombat: DARTside | -72.00 | 114.12 | 98.92 | +141.04 |
+| 7 | therealbulker | MidnightClub Rice Edition | +83.86 | 25.70 | 29.62 | +139.18 |
+| 8 | AfootCoronet56 | Suicide Squad (the game) | -5.60 | 46.40 | 90.96 | +131.76 |
+| 9 | Potatomain | The Lost Cause Fallacy | -121.20 | 74.70 | 149.62 | +103.12 |
+| 10 | RollnWithJesus | Breach & Touchdown | +51.40 | -11.20 | 55.90 | +96.10 |
+| 11 | oneyjb | Bower's Inside Story | +54.38 | -94.82 | 74.22 | +33.78 |
+| 12 | Dawg2003 | The Windhelm Nords  | -234.14 | 63.50 | 146.10 | -24.54 |
 
 ## Free-agent transactions
 
 | Manager | Added | Dropped in transaction | Weeks compared | Added points | Dropped points | Net improvement | Status |
 |---|---|---|---|---:|---:|---:|---|
-| Potatomain | Jordan Love | Brian Robinson Jr. | 1–10 | 191.62 | 50.60 | +141.02 | scored |
-| Dawg2003 | Mike Gesicki | Colbie Young | 2–10 | 61.40 | 1.90 | +59.50 | scored |
-| SethLL | Pat Freiermuth | Carson Wentz | 2–10 | 63.40 | 5.56 | +57.84 | scored |
+| Potatomain | Jordan Love | Brian Robinson Jr. | 1–10 | 202.82 | 50.60 | +152.22 | scored |
+| SethLL | Pat Freiermuth | Carson Wentz | 2–10 | 74.90 | 5.56 | +69.34 | scored |
+| Dawg2003 | Mike Gesicki | Colbie Young | 2–10 | 63.30 | 1.90 | +61.40 | scored |
 | JabneyTheKing | Kirk Cousins | — | 4–6 | 56.84 | 0.00 | +56.84 | scored |
 | oneyjb | Juwan Johnson | — | 1–3 | 48.30 | 0.00 | +48.30 | scored |
-| AfootCoronet56 | Malik Washington | Tyjae Spears | 3–10 | 54.96 | 7.90 | +47.06 | scored |
-| DiscipleJack | Matt Gay | Eddy Pineiro | 2–10 | 78.00 | 35.00 | +43.00 | scored |
-| JabneyTheKing | Spencer Shrader | Tyler Loop | 1–10 | 104.00 | 65.00 | +39.00 | scored |
+| AfootCoronet56 | Malik Washington | Tyjae Spears | 3–10 | 59.66 | 11.50 | +48.16 | scored |
+| JabneyTheKing | Spencer Shrader | Tyler Loop | 1–10 | 111.00 | 65.00 | +46.00 | scored |
+| DiscipleJack | Matt Gay | Eddy Pineiro | 2–10 | 86.00 | 43.00 | +43.00 | scored |
+| krunky | Los Angeles Rams | Atlanta Falcons | 8–10 | 44.00 | 2.00 | +42.00 | scored |
+| TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–10 | 60.30 | 22.40 | +37.90 | scored |
+| lfain20 | Caleb Douglas | Chris Bell | 1–10 | 59.70 | 23.20 | +36.50 | scored |
 | therealbulker | Tyler Shough | Malik Willis | 1–3 | 72.38 | 41.18 | +31.20 | scored |
-| TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–10 | 53.00 | 22.40 | +30.60 | scored |
 | oneyjb | Trey Smack | Tank Bigsby | 1–7 | 46.00 | 15.60 | +30.40 | scored |
 | DiscipleJack | Dontayvion Wicks | — | 2–9 | 29.60 | 0.00 | +29.60 | scored |
-| lfain20 | Caleb Douglas | Chris Bell | 1–10 | 51.10 | 23.20 | +27.90 | scored |
+| AfootCoronet56 | Rico Dowdle | — | 7–10 | 27.60 | 0.00 | +27.60 | scored |
 | Dawg2003 | Wan'Dale Robinson | — | 5–9 | 27.40 | 0.00 | +27.40 | scored |
-| SethLL | Seth McGowan | Fernando Mendoza | 7–10 | 27.00 | 0.00 | +27.00 | scored |
 | AfootCoronet56 | Courtland Sutton | — | 7–10 | 26.30 | 0.00 | +26.30 | scored |
 | RollnWithJesus | Darius Cooper | — | 5–10 | 24.10 | 0.00 | +24.10 | scored |
 | Dawg2003 | New England Patriots | — | 5–9 | 24.00 | 0.00 | +24.00 | scored |
-| AfootCoronet56 | Rico Dowdle | — | 7–10 | 23.20 | 0.00 | +23.20 | scored |
+| krunky | C.J. Stroud | — | 10–10 | 21.44 | 0.00 | +21.44 | scored |
 | TheRealNoodleMan | Chase McLaughlin | Nick Folk | 7–9 | 34.00 | 13.00 | +21.00 | scored |
-| krunky | Los Angeles Rams | Atlanta Falcons | 8–10 | 27.00 | 8.00 | +19.00 | scored |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | 6–7 | 19.00 | 0.00 | +19.00 | scored |
+| SethLL | Seth McGowan | Fernando Mendoza | 7–10 | 32.60 | 13.92 | +18.68 | scored |
 | DiscipleJack | J.J. McCarthy | Dontayvion Wicks | 10–10 | 18.12 | 0.00 | +18.12 | scored |
 | JabneyTheKing | Antonio Williams | Kalif Raymond | 5–10 | 34.20 | 16.20 | +18.00 | scored |
 | RollnWithJesus | MarShawn Lloyd | — | 5–6 | 17.20 | 0.00 | +17.20 | scored |
 | SethLL | Tyler Bass | Brian Thomas Jr. | 6–6 | 17.00 | 0.00 | +17.00 | scored |
-| krunky | C.J. Stroud | — | 10–10 | 15.64 | 0.00 | +15.64 | scored |
 | lfain20 | Tyler Higbee | Isaiah Williams | 4–7 | 32.60 | 17.10 | +15.50 | scored |
 | TheRealNoodleMan | Kaelon Black | — | 1–5 | 14.60 | 0.00 | +14.60 | scored |
+| Dawg2003 | Jason Sanders | Cairo Santos | 10–10 | 14.00 | 0.00 | +14.00 | scored |
 | TheRealNoodleMan | Chig Okonkwo | — | 6–7 | 13.90 | 0.00 | +13.90 | scored |
 | Dawg2003 | Raheim Sanders | — | 2–5 | 13.10 | 0.00 | +13.10 | scored |
+| RollnWithJesus | Indianapolis Colts | — | 10–10 | 13.00 | 0.00 | +13.00 | scored |
 | lfain20 | Malik Willis | Jameis Winston | 8–9 | 20.46 | 7.94 | +12.52 | scored |
 | Potatomain | Chase McLaughlin | Oronde Gadsden | 6–6 | 17.00 | 4.70 | +12.30 | scored |
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
-| AfootCoronet56 | New Orleans Saints | Atlanta Falcons | 9–10 | 16.00 | 5.00 | +11.00 | scored |
 | JabneyTheKing | Kayshon Boutte | — | 1–3 | 10.90 | 0.00 | +10.90 | scored |
+| lfain20 | Darren Waller | Chig Okonkwo | 3–10 | 58.20 | 47.70 | +10.50 | scored |
+| AfootCoronet56 | New Orleans Saints | Atlanta Falcons | 9–10 | 9.00 | -1.00 | +10.00 | scored |
 | Dawg2003 | Cairo Santos | Tyler Loop | 9–9 | 9.00 | 0.00 | +9.00 | scored |
 | TheRealNoodleMan | Ryan Flournoy | — | 7–7 | 9.00 | 0.00 | +9.00 | scored |
-| DiscipleJack | T.J. Hockenson | AJ Barner | 7–10 | 36.60 | 27.90 | +8.70 | scored |
-| lfain20 | Darren Waller | Chig Okonkwo | 3–10 | 56.10 | 47.70 | +8.40 | scored |
-| lfain20 | Chris Boswell | Mike Washington Jr. | 7–10 | 19.00 | 10.70 | +8.30 | scored |
-| therealbulker | Buffalo Bills | Adonai Mitchell | 10–10 | 8.00 | 0.00 | +8.00 | scored |
+| lfain20 | Chris Boswell | Mike Washington Jr. | 7–9 | 19.00 | 10.70 | +8.30 | scored |
 | lfain20 | Zonovan Knight | — | 7–7 | 7.80 | 0.00 | +7.80 | scored |
 | DiscipleJack | Cam Ward | — | 6–6 | 7.78 | 0.00 | +7.78 | scored |
 | JabneyTheKing | Chicago Bears | Keon Coleman | 8–8 | 8.00 | 0.90 | +7.10 | scored |
@@ -75,13 +75,12 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | DeMario Douglas | — | 2–3 | 5.70 | 0.00 | +5.70 | scored |
 | lfain20 | Jalen Nailor | — | 1–2 | 5.60 | 0.00 | +5.60 | scored |
 | lfain20 | Efton Chism III | Isaiah Williams | 5–6 | 8.40 | 2.80 | +5.60 | scored |
+| therealbulker | Buffalo Bills | Adonai Mitchell | 10–10 | 13.00 | 7.40 | +5.60 | scored |
 | Dawg2003 | Devin Singletary | — | 9–10 | 5.20 | 0.00 | +5.20 | scored |
 | TheRealNoodleMan | Sione Vaki | Chig Okonkwo | 8–8 | 7.50 | 3.20 | +4.30 | scored |
-| lfain20 | Mason Taylor | Tyler Higbee | 8–10 | 8.80 | 4.70 | +4.10 | scored |
-| Dawg2003 | Jason Sanders | Cairo Santos | 10–10 | 4.00 | 0.00 | +4.00 | scored |
-| RollnWithJesus | Indianapolis Colts | — | 10–10 | 4.00 | 0.00 | +4.00 | scored |
 | SethLL | Los Angeles Rams | Cincinnati Bengals | 6–6 | 4.00 | 0.00 | +4.00 | scored |
 | TheRealNoodleMan | Nick Folk | Ryan Fitzgerald | 5–6 | 13.00 | 9.00 | +4.00 | scored |
+| DiscipleJack | T.J. Hockenson | AJ Barner | 7–10 | 36.60 | 32.80 | +3.80 | scored |
 | krunky | Rachaad White | Chris Rodriguez Jr. | 1–5 | 28.10 | 24.40 | +3.70 | scored |
 | lfain20 | Mike Washington Jr. | — | 4–5 | 3.70 | 0.00 | +3.70 | scored |
 | lfain20 | Chris Rodriguez Jr. | Isiah Pacheco | 1–2 | 3.60 | 0.00 | +3.60 | scored |
@@ -93,6 +92,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Tre' Harris | Joe Mixon | 5–6 | 2.60 | 0.00 | +2.60 | scored |
 | lfain20 | Isaiah Williams | — | 3–3 | 2.60 | 0.00 | +2.60 | scored |
 | lfain20 | Jahan Dotson | — | 9–9 | 2.60 | 0.00 | +2.60 | scored |
+| JabneyTheKing | Kirk Cousins | C.J. Stroud | 8–10 | 60.20 | 57.80 | +2.40 | scored |
 | DiscipleJack | Chicago Bears | Philadelphia Eagles | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | DiscipleJack | Baltimore Ravens | New York Jets | 6–6 | 9.00 | 7.00 | +2.00 | scored |
 | TheRealNoodleMan | Dominic Zvada | Chase McLaughlin | 10–10 | 2.00 | 0.00 | +2.00 | scored |
@@ -101,8 +101,6 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | JabneyTheKing | Travis Hunter | — | 1–2 | 1.60 | 0.00 | +1.60 | scored |
 | RollnWithJesus | Chris Rodriguez Jr. | — | 5–5 | 1.60 | 0.00 | +1.60 | scored |
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
-| AfootCoronet56 | Kimani Vidal | Chad Ryland | 9–10 | 4.10 | 3.00 | +1.10 | scored |
-| Potatomain | Chris Rodriguez Jr. | AJ Barner | 10–10 | 1.00 | 0.00 | +1.00 | scored |
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -117,7 +115,6 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Atlanta Falcons | Dallas Cowboys | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| krunky | Zonovan Knight | Wan'Dale Robinson | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -138,31 +135,34 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | therealbulker | Colby Parkinson | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Adonai Mitchell | Tyreek Hill | 9–9 | 0.00 | 0.00 | +0.00 | scored |
 | TheRealNoodleMan | Aaron Rodgers | Michael Pittman Jr. | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Zonovan Knight | Wan'Dale Robinson | 10–10 | 1.90 | 2.50 | -0.60 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |
 | TheRealNoodleMan | Tennessee Titans | Indianapolis Colts | 7–7 | 6.00 | 7.00 | -1.00 | scored |
-| JabneyTheKing | Kirk Cousins | C.J. Stroud | 8–10 | 50.98 | 52.00 | -1.02 | scored |
 | Potatomain | George Holani | Antonio Williams | 4–4 | 2.50 | 3.60 | -1.10 | scored |
 | lfain20 | Jauan Jennings | DeMario Douglas | 4–4 | 1.30 | 2.50 | -1.20 | scored |
 | lfain20 | Blake Grupe | Mike Washington Jr. | 6–6 | 4.00 | 5.50 | -1.50 | scored |
+| lfain20 | Mason Taylor | Tyler Higbee | 8–10 | 13.00 | 15.40 | -2.40 | scored |
 | Dawg2003 | Tyler Loop | Cam Little | 4–8 | 34.00 | 37.00 | -3.00 | scored |
-| lfain20 | Ashton Dulin | Jahan Dotson | 10–10 | 0.00 | 3.60 | -3.60 | scored |
+| lfain20 | Ashton Dulin | Jahan Dotson | 10–10 | 3.50 | 7.80 | -4.30 | scored |
+| Potatomain | Chris Rodriguez Jr. | AJ Barner | 10–10 | 0.50 | 4.90 | -4.40 | scored |
 | SethLL | Greg Dulcich | Xavier Worthy | 9–9 | 3.40 | 7.80 | -4.40 | scored |
+| Dawg2003 | Darnell Washington | Courtland Sutton | 7–10 | 21.30 | 26.30 | -5.00 | scored |
 | oneyjb | Jacksonville Jaguars | Jordan Love | 1–1 | 15.00 | 20.48 | -5.48 | scored |
 | JabneyTheKing | Kaleb Johnson | Samaje Perine | 1–3 | 5.30 | 11.10 | -5.80 | scored |
 | JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |
 | therealbulker | Joe Flacco | Justice Hill | 1–2 | 0.00 | 6.10 | -6.10 | scored |
 | lfain20 | Ted Hurst III | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
-| Dawg2003 | Darnell Washington | Courtland Sutton | 7–10 | 19.80 | 26.30 | -6.50 | scored |
+| lfain20 | Dylan Sampson | DeMario Douglas | 8–10 | 21.90 | 28.70 | -6.80 | scored |
+| AfootCoronet56 | Kimani Vidal | Chad Ryland | 9–10 | 4.10 | 11.00 | -6.90 | scored |
 | therealbulker | Chase McLaughlin | Cameron Dicker | 3–4 | 14.00 | 21.00 | -7.00 | scored |
 | krunky | Rachaad White | Michael Penix Jr. | 6–6 | 13.70 | 23.10 | -9.40 | scored |
-| lfain20 | Dylan Sampson | DeMario Douglas | 8–10 | 16.50 | 28.70 | -12.20 | scored |
 | Potatomain | Green Bay Packers | Minnesota Vikings | 2–2 | 5.00 | 18.00 | -13.00 | scored |
 | krunky | Los Angeles Chargers | Las Vegas Raiders | 1–1 | 1.00 | 15.00 | -14.00 | scored |
 | AfootCoronet56 | Jaleel McLaughlin | Makai Lemon | 7–7 | 0.00 | 16.20 | -16.20 | scored |
-| DiscipleJack | Mack Hollins | Alvin Kamara | 2–10 | 39.70 | 61.20 | -21.50 | scored |
 | oneyjb | Emmett Johnson | Malachi Fields | 2–7 | 13.80 | 35.30 | -21.50 | scored |
+| DiscipleJack | Mack Hollins | Alvin Kamara | 2–10 | 39.70 | 76.10 | -36.40 | scored |
 | krunky | James Conner | Los Angeles Chargers | 1–10 | 0.00 | 40.00 | -40.00 | scored |
 
 

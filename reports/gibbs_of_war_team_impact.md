@@ -1,6 +1,6 @@
 # Gibbs of War — Team Impact
 
-Updated 2026-11-15T18:58:41.991192+00:00. Through Week 10 (PARTIAL).
+Updated 2026-11-16T06:50:30.682349+00:00. Through Week 10 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,18 +14,18 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1122.42 |
-| Draft + trades only | 1325.11 |
-| Draft + waiver / FA moves only | 1181.74 |
-| All moves (weekly team) | 1373.50 |
+| Original draft | 1152.22 |
+| Draft + trades only | 1401.61 |
+| Draft + waiver / FA moves only | 1239.60 |
+| All moves (weekly team) | 1469.36 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +59.32 |
-| Trade impact with wire moves held fixed | +191.76 |
-| **Total improvement** | **+251.08** |
-| Trades-only effect (reference, not additive) | +202.69 |
-| Trade / wire interaction (included in trade impact) | -10.93 |
+| Waiver / FA baseline impact | +87.38 |
+| Trade impact with wire moves held fixed | +229.76 |
+| **Total improvement** | **+317.14** |
+| Trades-only effect (reference, not additive) | +249.39 |
+| Trade / wire interaction (included in trade impact) | -19.63 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -38,7 +38,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 7 | 108.60 | 152.60 | 130.80 | 167.50 | 22.20 | 36.70 | 58.90 |
 | 8 | 97.90 | 121.40 | 94.98 | 134.68 | -2.92 | 39.70 | 36.78 |
 | 9 | 97.72 | 133.97 | 106.32 | 139.92 | 8.60 | 33.60 | 42.20 |
-| 10 | 64.10 | 61.50 | 79.70 | 77.10 | 15.60 | -2.60 | 13.00 |
+| 10 | 93.90 | 138.00 | 137.56 | 172.96 | 43.66 | 35.40 | 79.06 |
 
 ## Current roster inventory
 
@@ -178,13 +178,13 @@ Replaying completed eligible moves from the draft matches this live roster.
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Matthew Stafford | 0.00 | Matthew Stafford | 0.00 |
-| RB | Woody Marks | 5.00 | Bucky Irving | 0.00 |
-| RB | Jahmyr Gibbs | 40.70 | Woody Marks | 5.00 |
-| WR | KC Concepcion Jr. | 1.10 | Jordyn Tyson | 1.20 |
-| WR | Nico Collins | 13.50 | Nico Collins | 13.50 |
-| TE | Sam LaPorta | 2.60 | Brenton Strange | 1.60 |
-| FLEX | Jordyn Tyson | 1.20 | KC Concepcion Jr. | 1.10 |
-| FLEX | Brenton Strange | 1.60 | Jahmyr Gibbs | 40.70 |
+| QB | Matthew Stafford | 20.76 | Matthew Stafford | 20.76 |
+| RB | Woody Marks | 7.00 | Woody Marks | 7.00 |
+| RB | Jahmyr Gibbs | 40.70 | Jahmyr Gibbs | 40.70 |
+| WR | KC Concepcion Jr. | 10.20 | Jordyn Tyson | 13.50 |
+| WR | Nico Collins | 19.90 | George Pickens | 38.00 |
+| TE | Sam LaPorta | 2.60 | Brenton Strange | 8.90 |
+| FLEX | Jordyn Tyson | 13.50 | KC Concepcion Jr. | 10.20 |
+| FLEX | Brenton Strange | 8.90 | Nico Collins | 19.90 |
 | K | Dominic Zvada | 2.00 | Dominic Zvada | 2.00 |
 | DEF | Kansas City Chiefs | 12.00 | Kansas City Chiefs | 12.00 |
