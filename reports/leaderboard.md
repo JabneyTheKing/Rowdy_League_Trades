@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-16T22:21:32.539899+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-17T08:10:14.829545+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,18 +8,18 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | TheRealNoodleMan | Gibbs of War | +186.76 | 6 | 6 | Yes |
+| 1 | TheRealNoodleMan | Gibbs of War | +170.50 | 6 | 6 | Yes |
 | 2 | krunky | Grand Theft Aubrey | +97.10 | 8 | 8 | Yes |
-| 3 | therealbulker | MidnightClub Rice Edition | +83.86 | 6 | 7 | Yes |
-| 4 | SethLL | Red Dead Zachdemption | +58.74 | 4 | 4 | Yes |
-| 5 | oneyjb | Bower's Inside Story | +54.38 | 5 | 5 | Yes |
+| 3 | oneyjb | Bower's Inside Story | +70.64 | 5 | 6 | Yes |
+| 4 | therealbulker | MidnightClub Rice Edition | +66.86 | 6 | 8 | Yes |
+| 5 | SethLL | Red Dead Zachdemption | +58.74 | 4 | 5 | Yes |
 | 6 | RollnWithJesus | Breach & Touchdown | +51.40 | 4 | 4 | Yes |
 | 7 | AfootCoronet56 | Suicide Squad (the game) | -5.60 | 4 | 4 | Yes |
 | 8 | DiscipleJack | JEFFERSON'S CREED | -9.70 | 1 | 1 | No |
-| 9 | lfain20 | Mortal Kombat: DARTside | -72.00 | 5 | 5 | Yes |
+| 9 | lfain20 | Mortal Kombat: DARTside | -55.00 | 5 | 5 | Yes |
 | 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.60 | 8 | 9 | Yes |
 | 11 | Potatomain | The Lost Cause Fallacy | -121.20 | 6 | 6 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -234.14 | 6 | 6 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -234.14 | 6 | 7 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -54,8 +54,8 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| TheRealNoodleMan / Gibbs of War | Michael Pittman Jr. (12.40) | Justin Herbert (91.64) | 12.40 | 91.64 | -79.24 | scored |
-| oneyjb / Bower's Inside Story | Justin Herbert (91.64) | Michael Pittman Jr. (12.40) | 91.64 | 12.40 | +79.24 | scored |
+| TheRealNoodleMan / Gibbs of War | Michael Pittman Jr. (12.40) | Justin Herbert (107.90) | 12.40 | 107.90 | -95.50 | scored |
+| oneyjb / Bower's Inside Story | Justin Herbert (107.90) | Michael Pittman Jr. (12.40) | 107.90 | 12.40 | +95.50 | scored |
 
 ### Trade 1402742518440792064
 
@@ -316,8 +316,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| lfain20 / Mortal Kombat: DARTside | Cam Little (42.00), Omarion Hampton (9.70) | Evan McPherson (30.00), Chase Brown (53.20) | 51.70 | 83.20 | -31.50 | scored |
-| therealbulker / MidnightClub Rice Edition | Evan McPherson (30.00), Chase Brown (53.20) | Cam Little (42.00), Omarion Hampton (9.70) | 83.20 | 51.70 | +31.50 | scored |
+| lfain20 / Mortal Kombat: DARTside | Cam Little (42.00), Omarion Hampton (26.70) | Evan McPherson (30.00), Chase Brown (53.20) | 68.70 | 83.20 | -14.50 | scored |
+| therealbulker / MidnightClub Rice Edition | Evan McPherson (30.00), Chase Brown (53.20) | Cam Little (42.00), Omarion Hampton (26.70) | 83.20 | 68.70 | +14.50 | scored |
 
 lfain20 picks received: 2027 round 3 (original roster 7). Value not included in points.
 
@@ -438,6 +438,40 @@ Dawg2003 picks sent: 2027 round 10 (original roster 9). Value not included in po
 
 FAAB received: 0; sent: 10. Not included in points.
 
+### Trade 1427853593666420736
 
-Week 10 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+First scoring week: **11**
 
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| Dawg2003 / The Windhelm Nords  | — | Davante Adams (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb / Bower's Inside Story | Davante Adams (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+
+Dawg2003 picks received: 2027 round 7 (original roster 12). Value not included in points.
+
+Dawg2003 picks sent: 2027 round 12 (original roster 9). Value not included in points.
+
+FAAB received: 0; sent: 20. Not included in points.
+
+oneyjb picks received: 2027 round 12 (original roster 9). Value not included in points.
+
+oneyjb picks sent: 2027 round 7 (original roster 12). Value not included in points.
+
+FAAB received: 20; sent: 0. Not included in points.
+
+### Trade 1427785050950238208
+
+First scoring week: **11**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| therealbulker / MidnightClub Rice Edition | Bijan Robinson (0.00) | Jordan Mason (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| SethLL / Red Dead Zachdemption | Jordan Mason (0.00) | Bijan Robinson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+therealbulker picks received: 2027 round 4 (original roster 10). Value not included in points.
+
+therealbulker picks sent: 2027 round 5 (original roster 4), 2027 round 1 (original roster 7). Value not included in points.
+
+SethLL picks received: 2027 round 5 (original roster 4), 2027 round 1 (original roster 7). Value not included in points.
+
+SethLL picks sent: 2027 round 4 (original roster 10). Value not included in points.

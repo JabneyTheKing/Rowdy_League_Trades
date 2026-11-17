@@ -6,7 +6,7 @@
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-16T22:21:48.996456+00:00",
+      "fetched_at": "2026-11-17T08:10:30.504109+00:00",
       "rows": [
         {
           "date": "2026-08-24",
@@ -2258,7 +2258,7 @@
     },
     "2026-11": {
       "complete": false,
-      "fetched_at": "2026-11-16T22:21:47.976248+00:00",
+      "fetched_at": "2026-11-17T08:10:29.375090+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2560,6 +2560,20 @@
           "name": "Tyler Goodson",
           "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOohM=",
           "team": "DAL"
+        },
+        {
+          "date": "2026-11-16",
+          "description": "Reserve/Injured",
+          "name": "Branson Taylor",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOohM=",
+          "team": "LAC"
+        },
+        {
+          "date": "2026-11-16",
+          "description": "Reserve/Injured",
+          "name": "Dylan McMahon",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOohM=",
+          "team": "LAR"
         }
       ],
       "sources": [
@@ -2567,12 +2581,13 @@
         "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
         "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoGc=",
         "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoIc=",
+        "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
         "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOohM="
       ]
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-16T22:21:48.996786+00:00",
+  "updated_at": "2026-11-17T08:10:30.504630+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -3856,8 +3871,8 @@
       "url": "https://www.nfl.com/injuries/league/2026/reg1"
     },
     "10": {
-      "complete": false,
-      "fetched_at": "2026-11-16T22:21:47.415187+00:00",
+      "complete": true,
+      "fetched_at": "2026-11-17T08:10:28.722699+00:00",
       "rows": [
         {
           "injury": "",

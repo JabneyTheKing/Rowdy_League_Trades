@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-11-16T22:21:32.539899+00:00; through Week 10.
+Updated 2026-11-17T08:10:14.829545+00:00; through Week 10.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +229.76 | +217.97 | -11.79 |
-| Wire Impact | +87.38 | +80.40 | -6.98 |
-| Total Impact | +317.14 | +298.37 | -18.77 |
+| Trade Impact | +223.96 | +212.17 | -11.79 |
+| Wire Impact | +52.52 | +45.54 | -6.98 |
+| Total Impact | +276.48 | +257.71 | -18.77 |
 
 ## Estimated absences
 
@@ -38,6 +38,7 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | 8 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
 | 9 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAGAAAAAAAOlGo=) |
 | 9 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
+| 10 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -53,8 +54,9 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 6: Jordyn Tyson.
 - Week 7: Jordyn Tyson.
 - Week 9: De'Von Achane.
-- Week 10: Michael Pittman Jr..
 - Week 10: De'Von Achane.
+- Week 10: Harrison Mevis.
+- Week 10: Michael Pittman Jr..
 
 ## Weekly impact
 
@@ -69,7 +71,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 7 | +36.70 | +36.70 | +58.90 | +50.77 |
 | 8 | +39.70 | +30.79 | +36.78 | +41.67 |
 | 9 | +33.60 | +30.72 | +42.20 | +33.74 |
-| 10 | +35.40 | +35.40 | +79.06 | +79.06 |
+| 10 | +29.60 | +29.60 | +38.40 | +38.40 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -214,10 +216,10 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | RB | Woody Marks | 7.00 | Woody Marks | 7.00 |
 | RB | Jahmyr Gibbs | 40.70 | Jahmyr Gibbs | 40.70 |
 | WR | KC Concepcion Jr. | 10.20 | Jordyn Tyson | 13.50 |
-| WR | Nico Collins | 19.90 | George Pickens | 38.00 |
-| TE | Sam LaPorta | 2.60 | Brenton Strange | 8.90 |
-| FLEX | Jordyn Tyson | 13.50 | KC Concepcion Jr. | 10.20 |
-| FLEX | Brenton Strange | 8.90 | Nico Collins | 19.90 |
+| WR | Nico Collins | 19.90 | KC Concepcion Jr. | 10.20 |
+| TE | Brenton Strange | 8.90 | Brenton Strange | 8.90 |
+| FLEX | Jordyn Tyson | 13.50 | Nico Collins | 19.90 |
+| FLEX | Zay Flowers | 8.40 | George Pickens | 38.00 |
 | K | Dominic Zvada | 2.00 | Dominic Zvada | 2.00 |
 | DEF | Kansas City Chiefs | 12.00 | Kansas City Chiefs | 12.00 |
 

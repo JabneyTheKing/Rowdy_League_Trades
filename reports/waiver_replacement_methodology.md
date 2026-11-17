@@ -2,7 +2,7 @@
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
 
-Updated 2026-11-16T22:21:32.539899+00:00. Through Week 10.
+Updated 2026-11-17T08:10:14.829545+00:00. Through Week 10.
 
 The samples below belong to each hypothetical roster; they are not real claims. All source pool candidates are stored in data/report.json.
 
@@ -26,6 +26,8 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Jabney | team_impact | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Jabney | team_impact | 9 | drafted | K | 12.60 | Trey Smack (16.00), Andre Szmyt (13.00), Cameron Dicker (13.00), Charlie Smyth (11.00), Zane Gonzalez (10.00) |
 | Jabney | team_impact | 9 | trades_only | K | 12.60 | Trey Smack (16.00), Andre Szmyt (13.00), Cameron Dicker (13.00), Charlie Smyth (11.00), Zane Gonzalez (10.00) |
+| Jabney | team_impact | 10 | drafted | K | 12.00 | Joey Slye (18.00), Ryan Fitzgerald (11.00), Brandon McManus (11.00), Cameron Dicker (11.00), Andre Szmyt (9.00) |
+| Jabney | team_impact | 10 | trades_only | K | 12.00 | Joey Slye (18.00), Ryan Fitzgerald (11.00), Brandon McManus (11.00), Cameron Dicker (11.00), Andre Szmyt (9.00) |
 | Krunky | team_impact | 1 | drafted | DEF | 10.40 | Kansas City Chiefs (13.00), Arizona Cardinals (11.00), Detroit Lions (11.00), New York Jets (9.00), Buffalo Bills (8.00) |
 | Krunky | team_impact | 1 | trades_only | DEF | 10.40 | Kansas City Chiefs (13.00), Arizona Cardinals (11.00), Detroit Lions (11.00), New York Jets (9.00), Buffalo Bills (8.00) |
 | Krunky | team_impact | 2 | drafted | DEF | 9.60 | Las Vegas Raiders (16.00), New York Jets (10.00), New Orleans Saints (8.00), Cleveland Browns (7.00), Tennessee Titans (7.00) |
@@ -52,6 +54,10 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Krunky | team_impact | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Krunky | team_impact | 9 | drafted | DEF | 13.00 | San Francisco 49ers (19.00), New York Giants (14.00), Green Bay Packers (13.00), Philadelphia Eagles (10.00), Detroit Lions (9.00) |
 | Krunky | team_impact | 9 | trades_only | DEF | 13.00 | San Francisco 49ers (19.00), New York Giants (14.00), Green Bay Packers (13.00), Philadelphia Eagles (10.00), Detroit Lions (9.00) |
+| Krunky | team_impact | 10 | drafted | QB | 17.54 | Deshaun Watson (22.38), Cam Ward (20.14), Justin Herbert (16.26), Drew Lock (15.60), Michael Penix Jr. (13.34) |
+| Krunky | team_impact | 10 | drafted | DEF | 10.00 | Miami Dolphins (14.00), Detroit Lions (12.00), Carolina Panthers (8.00), Los Angeles Chargers (8.00), Las Vegas Raiders (8.00) |
+| Krunky | team_impact | 10 | trades_only | QB | 17.54 | Deshaun Watson (22.38), Cam Ward (20.14), Justin Herbert (16.26), Drew Lock (15.60), Michael Penix Jr. (13.34) |
+| Krunky | team_impact | 10 | trades_only | DEF | 10.00 | Miami Dolphins (14.00), Detroit Lions (12.00), Carolina Panthers (8.00), Los Angeles Chargers (8.00), Las Vegas Raiders (8.00) |
 | Gibbs Of War | team_impact | 6 | drafted | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Gibbs Of War | team_impact | 6 | drafted | TE | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
 | Gibbs Of War | team_impact | 6 | drafted | K | 16.40 | Chad Ryland (19.00), Joey Slye (18.00), Chris Boswell (17.00), Jason Sanders (15.00), Daniel Carlson (13.00) |
@@ -67,6 +73,9 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Gibbs Of War | team_impact | 9 | drafted | K | 12.60 | Trey Smack (16.00), Andre Szmyt (13.00), Cameron Dicker (13.00), Charlie Smyth (11.00), Zane Gonzalez (10.00) |
 | Gibbs Of War | team_impact | 9 | trades_only | QB | 14.87 | Shedeur Sanders (22.68), Michael Penix Jr. (14.48), Joe Milton (13.16), Drew Lock (12.60), Justin Herbert (11.42) |
 | Gibbs Of War | team_impact | 9 | trades_only | K | 12.60 | Trey Smack (16.00), Andre Szmyt (13.00), Cameron Dicker (13.00), Charlie Smyth (11.00), Zane Gonzalez (10.00) |
+| Gibbs Of War | team_impact | 10 | drafted | K | 12.00 | Joey Slye (18.00), Ryan Fitzgerald (11.00), Brandon McManus (11.00), Cameron Dicker (11.00), Andre Szmyt (9.00) |
+| Gibbs Of War | team_impact | 10 | trades_only | QB | 17.54 | Deshaun Watson (22.38), Cam Ward (20.14), Justin Herbert (16.26), Drew Lock (15.60), Michael Penix Jr. (13.34) |
+| Gibbs Of War | team_impact | 10 | trades_only | K | 12.00 | Joey Slye (18.00), Ryan Fitzgerald (11.00), Brandon McManus (11.00), Cameron Dicker (11.00), Andre Szmyt (9.00) |
 | Jabney | injury_adjusted | 4 | trades_only | FLEX | 15.76 | Tyquan Thornton (25.60), Darius Cooper (16.80), Jahan Dotson (12.40), Malachi Fields (12.20), Rashid Shaheed (11.80) |
 | Jabney | injury_adjusted | 6 | drafted | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Jabney | injury_adjusted | 6 | trades_only | FLEX | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
@@ -98,6 +107,10 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Krunky | injury_adjusted | 8 | trades_only | DEF | 9.20 | Buffalo Bills (15.00), Green Bay Packers (12.00), Carolina Panthers (7.00), Detroit Lions (6.00), Miami Dolphins (6.00) |
 | Krunky | injury_adjusted | 9 | drafted | DEF | 13.00 | San Francisco 49ers (19.00), New York Giants (14.00), Green Bay Packers (13.00), Philadelphia Eagles (10.00), Detroit Lions (9.00) |
 | Krunky | injury_adjusted | 9 | trades_only | DEF | 13.00 | San Francisco 49ers (19.00), New York Giants (14.00), Green Bay Packers (13.00), Philadelphia Eagles (10.00), Detroit Lions (9.00) |
+| Krunky | injury_adjusted | 10 | drafted | QB | 17.54 | Deshaun Watson (22.38), Cam Ward (20.14), Justin Herbert (16.26), Drew Lock (15.60), Michael Penix Jr. (13.34) |
+| Krunky | injury_adjusted | 10 | drafted | DEF | 10.00 | Miami Dolphins (14.00), Detroit Lions (12.00), Carolina Panthers (8.00), Los Angeles Chargers (8.00), Las Vegas Raiders (8.00) |
+| Krunky | injury_adjusted | 10 | trades_only | QB | 17.54 | Deshaun Watson (22.38), Cam Ward (20.14), Justin Herbert (16.26), Drew Lock (15.60), Michael Penix Jr. (13.34) |
+| Krunky | injury_adjusted | 10 | trades_only | DEF | 10.00 | Miami Dolphins (14.00), Detroit Lions (12.00), Carolina Panthers (8.00), Los Angeles Chargers (8.00), Las Vegas Raiders (8.00) |
 | Gibbs Of War | injury_adjusted | 6 | drafted | RB | 9.48 | Jawhar Jordan (11.50), Zonovan Knight (10.80), Pierre Strong Jr. (9.20), George Holani (8.00), Audric Estime (7.90) |
 | Gibbs Of War | injury_adjusted | 6 | drafted | TE | 13.36 | Tommy Tremble (20.60), Foster Moreau (14.70), Josh Cuevas (14.40), Nate Boerkircher (8.80), Noah Gray (8.30) |
 | Gibbs Of War | injury_adjusted | 6 | drafted | K | 16.40 | Chad Ryland (19.00), Joey Slye (18.00), Chris Boswell (17.00), Jason Sanders (15.00), Daniel Carlson (13.00) |
@@ -109,3 +122,6 @@ The samples below belong to each hypothetical roster; they are not real claims. 
 | Gibbs Of War | injury_adjusted | 8 | trades_only | K | 11.80 | Drew Stevens (15.00), Jason Sanders (15.00), Cameron Dicker (11.00), Ryan Fitzgerald (9.00), Wil Lutz (9.00) |
 | Gibbs Of War | injury_adjusted | 9 | drafted | K | 12.60 | Trey Smack (16.00), Andre Szmyt (13.00), Cameron Dicker (13.00), Charlie Smyth (11.00), Zane Gonzalez (10.00) |
 | Gibbs Of War | injury_adjusted | 9 | trades_only | K | 12.60 | Trey Smack (16.00), Andre Szmyt (13.00), Cameron Dicker (13.00), Charlie Smyth (11.00), Zane Gonzalez (10.00) |
+| Gibbs Of War | injury_adjusted | 10 | drafted | K | 12.00 | Joey Slye (18.00), Ryan Fitzgerald (11.00), Brandon McManus (11.00), Cameron Dicker (11.00), Andre Szmyt (9.00) |
+| Gibbs Of War | injury_adjusted | 10 | trades_only | QB | 17.54 | Deshaun Watson (22.38), Cam Ward (20.14), Justin Herbert (16.26), Drew Lock (15.60), Michael Penix Jr. (13.34) |
+| Gibbs Of War | injury_adjusted | 10 | trades_only | K | 12.00 | Joey Slye (18.00), Ryan Fitzgerald (11.00), Brandon McManus (11.00), Cameron Dicker (11.00), Andre Szmyt (9.00) |
