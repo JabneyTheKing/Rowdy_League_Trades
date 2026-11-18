@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-11-18T07:43:35.427729+00:00. Through Week 10 (complete).
+Updated 2026-11-18T20:44:06.817581+00:00. Through Week 10 (complete).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -21,8 +21,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 7 | 122.52 | 146.02 | +23.50 |
 | 8 | 138.58 | 158.50 | +19.92 |
 | 9 | 121.36 | 144.56 | +23.20 |
-| 10 | 140.74 | 127.14 | -13.60 |
-| **Total** | **1375.58** | **1497.32** | **+121.74** |
+| 10 | 138.47 | 124.87 | -13.60 |
+| **Total** | **1373.31** | **1495.05** | **+121.74** |
 
 ## Original drafted roster
 
@@ -158,7 +158,7 @@ Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, 
 
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
-| QB | Waiver cover (QB) | 17.54 | Waiver cover (QB) | 17.54 |
+| QB | Waiver cover (QB) | 16.07 | Waiver cover (QB) | 16.07 |
 | RB | Jonathan Taylor | 11.30 | Jonathan Taylor | 11.30 |
 | RB | Chase Brown | 24.30 | Tyler Allgeier | 1.40 |
 | WR | DJ Moore | 17.40 | Malik Nabers | 4.90 |
@@ -167,4 +167,4 @@ Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, 
 | FLEX | Malik Nabers | 4.90 | Amon-Ra St. Brown | 23.80 |
 | FLEX | Parker Washington | 24.70 | Parker Washington | 24.70 |
 | K | Brandon Aubrey | 11.00 | Brandon Aubrey | 11.00 |
-| DEF | Waiver cover (DEF) | 10.20 | Waiver cover (DEF) | 10.20 |
+| DEF | Waiver cover (DEF) | 9.40 | Waiver cover (DEF) | 9.40 |

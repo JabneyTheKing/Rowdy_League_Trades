@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-18T07:43:35.427729+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-18T20:44:06.817581+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -117,10 +117,14 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | krunky | Kendre Miller | Rachaad White | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Michael Penix Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Atlanta Falcons | Dallas Cowboys | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Elic Ayomanor | C.J. Stroud | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| krunky | Adonai Mitchell | Xavier Hutchinson | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | lfain20 | Isiah Pacheco | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Kenny Gainwell | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Isaiah Williams | Jauan Jennings | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| lfain20 | Emari Demercado | Dylan Sampson | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| lfain20 | Detroit Lions | — | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |
