@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-11-19T07:40:09.120156+00:00. Season 2026; scored through Week 10. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-19T20:49:19.903570+00:00. Season 2026; scored through Week 10. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -90,6 +90,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| AfootCoronet56 | Chimere Dike | Courtland Sutton | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | DiscipleJack | Carolina Panthers | Cleveland Browns | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | DiscipleJack | Cairo Santos | Matt Gay | No completed week | 0.00 | 0.00 | +0.00 | pending |
@@ -112,6 +113,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Brian Robinson Jr. | — | 7–10 | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | AJ Barner | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| RollnWithJesus | Chris Boswell | Jason Myers | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–8 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
