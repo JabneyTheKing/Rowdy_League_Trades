@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-11-18T20:44:06.817581+00:00. Season 2026; scored through Week 10. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-19T07:40:09.120156+00:00. Season 2026; scored through Week 10. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -91,6 +91,8 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| DiscipleJack | Carolina Panthers | Cleveland Browns | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Cairo Santos | Matt Gay | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Chris Bell | — | 4–4 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Joe Mixon | Tyler Allgeier | No completed week | 0.00 | 0.00 | +0.00 | scored |

@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-18T20:44:06.817581+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-19T07:40:09.120156+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -106,6 +106,8 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| DiscipleJack | Carolina Panthers | Cleveland Browns | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Cairo Santos | Matt Gay | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | JabneyTheKing | Samaje Perine | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Jauan Jennings | — | 1–2 | 0.00 | 0.00 | +0.00 | scored |
 | JabneyTheKing | Tyreek Hill | — | No completed week | 0.00 | 0.00 | +0.00 | scored |

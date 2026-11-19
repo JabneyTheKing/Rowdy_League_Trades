@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-18T20:44:06.817581+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-19T07:40:09.120156+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,10 +14,10 @@ Player production includes bench points and continues after subsequent trades or
 | 4 | therealbulker | MidnightClub Rice Edition | +66.86 | 6 | 8 | Yes |
 | 5 | SethLL | Red Dead Zachdemption | +58.74 | 4 | 5 | Yes |
 | 6 | RollnWithJesus | Breach & Touchdown | +51.40 | 4 | 4 | Yes |
-| 7 | AfootCoronet56 | Suicide Squad (the game) | -5.60 | 4 | 4 | Yes |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | -5.60 | 4 | 5 | Yes |
 | 8 | DiscipleJack | JEFFERSON'S CREED | -9.70 | 1 | 1 | No |
 | 9 | lfain20 | Mortal Kombat: DARTside | -55.00 | 5 | 5 | Yes |
-| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.60 | 8 | 9 | Yes |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.60 | 8 | 10 | Yes |
 | 11 | Potatomain | The Lost Cause Fallacy | -121.20 | 6 | 6 | Yes |
 | 12 | Dawg2003 | The Windhelm Nords  | -234.14 | 6 | 7 | Yes |
 
@@ -475,3 +475,16 @@ therealbulker picks sent: 2027 round 5 (original roster 4), 2027 round 1 (origin
 SethLL picks received: 2027 round 5 (original roster 4), 2027 round 1 (original roster 7). Value not included in points.
 
 SethLL picks sent: 2027 round 4 (original roster 10). Value not included in points.
+
+### Trade 1428594595616280576
+
+First scoring week: **11**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | — | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 / Suicide Squad (the game) | Ja'Marr Chase (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 1 (original roster 5). Value not included in points.
+
+AfootCoronet56 picks sent: 2027 round 1 (original roster 5). Value not included in points.

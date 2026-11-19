@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-11-18T20:44:06.817581+00:00. Through Week 10 (complete).
+Updated 2026-11-19T07:40:09.120156+00:00. Through Week 10 (complete).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -26,6 +26,7 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Trade 7 | Puka Nacua | Jake Ferguson | +55.20 | +63.89 | scored |
 | Trade 8 | Lamar Jackson, A.J. Brown, CeeDee Lamb | Ashton Jeanty, Justin Jefferson | +9.70 | +21.18 | scored |
 | Trade 9 | — | — | +0.00 | +0.00 | scored |
+| Trade 10 | — | Ja'Marr Chase | +0.00 | +0.00 | pending |
 | Waivers: W5–7 | Keon Coleman | Chris Bell | +14.50 | +14.24 | scored |
 | Waivers: W6–7 | C.J. Stroud | Jaylen Wright | +39.70 | +11.01 | scored |
 | Waivers: W4–5 | Jaylen Wright | Zach Ertz | -1.50 | +0.18 | scored |
