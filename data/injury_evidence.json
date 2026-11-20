@@ -1,12 +1,11 @@
 {
   "errors": [
-    "Reserve archive pagination incomplete; retained verified rows only",
     "Reserve archive pagination incomplete; retained verified rows only"
   ],
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-20T07:31:43.636955+00:00",
+      "fetched_at": "2026-11-20T20:33:55.389890+00:00",
       "rows": [
         {
           "date": "2026-08-24",
@@ -2257,8 +2256,8 @@
       ]
     },
     "2026-11": {
-      "complete": false,
-      "fetched_at": "2026-11-20T07:31:43.324544+00:00",
+      "complete": true,
+      "fetched_at": "2026-11-20T20:33:54.245760+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2271,14 +2270,14 @@
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "DaVon Hamilton",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "JAX"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Daron Payne",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "WAS"
         },
         {
@@ -2292,28 +2291,28 @@
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Eric Murray",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "JAX"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Javon Kinlaw",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "WAS"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Jeremiyah Love",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "ARI"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Jeremy McNichols",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "WAS"
         },
         {
@@ -2327,14 +2326,14 @@
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Kendrick Bourne",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "ARI"
         },
         {
           "date": "2026-11-03",
           "description": "Reserve/Injured",
           "name": "Max Mitchell",
-          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAADAAAAAAAOoFk=",
+          "source": "https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAHAAAAAAAOogQ=",
           "team": "NYJ"
         },
         {
@@ -2681,7 +2680,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-20T07:31:43.637260+00:00",
+  "updated_at": "2026-11-20T20:33:55.390223+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -6402,7 +6401,7 @@
     },
     "11": {
       "complete": false,
-      "fetched_at": "2026-11-20T07:31:42.750181+00:00",
+      "fetched_at": "2026-11-20T20:33:53.235284+00:00",
       "rows": [
         {
           "injury": "",
@@ -7750,6 +7749,13 @@
         },
         {
           "injury": "",
+          "name": "Bud Dupree",
+          "position": "LB",
+          "practice": "Did Not Participate In Practice",
+          "status": ""
+        },
+        {
+          "injury": "",
           "name": "Justin Eboigbe",
           "position": "DE",
           "practice": "Limited Participation in Practice",
@@ -7779,8 +7785,8 @@
         {
           "injury": "",
           "name": "Khalil Mack",
-          "position": "DE",
-          "practice": "Did Not Participate In Practice",
+          "position": "LB",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -7794,7 +7800,7 @@
           "injury": "",
           "name": "Trey Pipkins",
           "position": "T",
-          "practice": "Limited Participation in Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -7813,16 +7819,23 @@
         },
         {
           "injury": "",
+          "name": "Dalvin Tomlinson",
+          "position": "DT",
+          "practice": "Did Not Participate In Practice",
+          "status": ""
+        },
+        {
+          "injury": "",
           "name": "Isas Waxter",
           "position": "CB",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Limited Participation in Practice",
           "status": ""
         },
         {
           "injury": "",
           "name": "Kendall Williamson",
           "position": "S",
-          "practice": "Limited Participation in Practice",
+          "practice": "Did Not Participate In Practice",
           "status": ""
         },
         {
