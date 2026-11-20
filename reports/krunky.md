@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-19T20:49:19.903570+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-20T07:31:26.594466+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -87,3 +87,19 @@ krunky picks received: 2027 round 10 (original roster 9). Value not included in 
 krunky picks sent: 2027 round 15 (original roster 4). Value not included in points.
 
 FAAB received: 10; sent: 0. Not included in points.
+
+### Trade 1428973505470296064
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Jaxon Smith-Njigba (0.00) | Stefon Diggs (0.00), Parker Washington (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 16 (original roster 11). Value not included in points.
+
+krunky picks sent: 2027 round 5 (original roster 1). Value not included in points.
+
+
+Week 11 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

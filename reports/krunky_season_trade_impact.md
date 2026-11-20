@@ -1,6 +1,6 @@
 # How Krunky’s trades have impacted the season
 
-Updated 2026-11-19T20:49:19.903570+00:00. Through Week 10 (complete).
+Updated 2026-11-20T07:31:26.594466+00:00. Through Week 11 (partial).
 
 Under the stated lineup and waiver assumptions, Krunky’s trades have **added 84.40 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
 
@@ -14,10 +14,10 @@ The drafted roster is a starting inventory, not a requirement to field unavailab
 
 | Roster scenario | Season-to-date optimal points, including temporary cover |
 |---|---:|
-| Original drafted team | 1372.71 |
-| Draft plus eligible trades only | 1494.45 |
-| Draft plus recorded waiver/free-agent moves only | 1383.24 |
-| Team after all eligible moves | 1467.64 |
+| Original drafted team | 1377.41 |
+| Draft plus eligible trades only | 1499.15 |
+| Draft plus recorded waiver/free-agent moves only | 1387.94 |
+| Team after all eligible moves | 1472.34 |
 
 **Trade impact with wire moves held fixed: +84.40.** All moves minus wire-only is the main measure of how trading changed the team’s available starting production.
 
@@ -41,6 +41,7 @@ The trade/wire interaction is **-37.34**, already included in the main trade imp
 | 8 | 138.58 | 114.38 | 128.18 | +13.80 |
 | 9 | 121.36 | 128.54 | 145.16 | +16.62 |
 | 10 | 137.87 | 160.04 | 138.34 | -21.70 |
+| 11 | 4.70 | 4.70 | 4.70 | +0.00 |
 
 The highest weekly trading impact was Week 6 (+26.76); the lowest was Week 5 (-25.08).
 

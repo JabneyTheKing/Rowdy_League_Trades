@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-11-19T20:49:19.903570+00:00. Through Week 10 (complete).
+Updated 2026-11-20T07:31:26.594466+00:00. Through Week 11 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -22,7 +22,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 8 | 138.58 | 158.50 | +19.92 |
 | 9 | 121.36 | 144.56 | +23.20 |
 | 10 | 137.87 | 124.27 | -13.60 |
-| **Total** | **1372.71** | **1494.45** | **+121.74** |
+| 11 | 4.70 | 4.70 | +0.00 |
+| **Total** | **1377.41** | **1499.15** | **+121.74** |
 
 ## Original drafted roster
 
@@ -168,3 +169,17 @@ Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, 
 | FLEX | Parker Washington | 24.70 | Parker Washington | 24.70 |
 | K | Brandon Aubrey | 11.00 | Brandon Aubrey | 11.00 |
 | DEF | Waiver cover (DEF) | 8.80 | Waiver cover (DEF) | 8.80 |
+## Week 11 optimal lineups
+
+| Slot | Drafted player | Points | Trade-adjusted player | Points |
+|---|---|---:|---|---:|
+| QB | Caleb Williams | 0.00 | Caleb Williams | 0.00 |
+| RB | Chris Rodriguez Jr. | 0.00 | Chris Rodriguez Jr. | 0.00 |
+| RB | Jonathan Taylor | 4.70 | Jonathan Taylor | 4.70 |
+| WR | Malik Nabers | 0.00 | Marvin Harrison Jr. | 0.00 |
+| WR | Jalen Coker | 0.00 | Malik Nabers | 0.00 |
+| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
+| FLEX | Jayden Higgins | 0.00 | Jalen Coker | 0.00 |
+| FLEX | Emeka Egbuka | 0.00 | Jayden Higgins | 0.00 |
+| K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
+| DEF | Empty slot | 0.00 | Empty slot | 0.00 |

@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-11-19T20:49:19.903570+00:00. Through Week 10 (complete).
+Updated 2026-11-20T07:31:26.594466+00:00. Through Week 11 (PARTIAL; available scores and baselines will change).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -10,8 +10,8 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 |---|---:|---:|
 | Trades | -89.60 | +231.09 |
 | Waivers | +169.30 | -16.27 |
-| Free agents | +137.64 | -110.56 |
-| **Total** | **+217.34** | **+104.26** |
+| Free agents | +117.18 | -125.61 |
+| **Total** | **+196.88** | **+89.21** |
 
 ## Transactions
 
@@ -27,14 +27,16 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Trade 8 | Lamar Jackson, A.J. Brown, CeeDee Lamb | Ashton Jeanty, Justin Jefferson | +9.70 | +21.18 | scored |
 | Trade 9 | — | — | +0.00 | +0.00 | scored |
 | Trade 10 | — | Ja'Marr Chase | +0.00 | +0.00 | pending |
+| Trade 11 | Kyren Williams | — | +0.00 | +0.00 | pending |
+| Trade 12 | Germie Bernard | CeeDee Lamb | +0.00 | +0.00 | pending |
 | Waivers: W5–7 | Keon Coleman | Chris Bell | +14.50 | +14.24 | scored |
 | Waivers: W6–7 | C.J. Stroud | Jaylen Wright | +39.70 | +11.01 | scored |
 | Waivers: W4–5 | Jaylen Wright | Zach Ertz | -1.50 | +0.18 | scored |
 | Waivers: W4–4 | Kalif Raymond | Kayshon Boutte | -3.50 | -3.50 | scored |
-| Waivers: W4–10 | Braelon Allen | Tank Bigsby | +79.90 | -11.90 | scored |
-| Waivers: W6–10 | Keenan Allen | — | +40.20 | -26.30 | scored |
-| Free agents: W1–10 | Spencer Shrader | Tyler Loop | +46.00 | +19.66 | scored |
-| Free agents: W5–10 | Antonio Williams | Kalif Raymond | +18.00 | +16.37 | scored |
+| Waivers: W4–11 | Braelon Allen | Tank Bigsby | +79.90 | -11.90 | scored |
+| Waivers: W6–11 | Keenan Allen | — | +40.20 | -26.30 | scored |
+| Free agents: W1–11 | Spencer Shrader | Tyler Loop | +47.00 | +17.16 | scored |
+| Free agents: W5–11 | Antonio Williams | Kalif Raymond | +18.00 | +16.37 | scored |
 | Free agents: W8–8 | Chicago Bears | Keon Coleman | +7.10 | +7.42 | scored |
 | Free agents: W3–3 | Tyler Allgeier | Daniel Jones | -6.00 | +4.32 | scored |
 | Free agents: pending | Samaje Perine | — | +0.00 | +0.00 | scored |
@@ -42,15 +44,15 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Free agents: pending | Tyreek Hill | — | +0.00 | +0.00 | scored |
 | Free agents: pending | Joe Mixon | Tyler Allgeier | +0.00 | +0.00 | scored |
 | Free agents: W1–3 | Kaleb Johnson | Samaje Perine | -5.80 | -5.80 | scored |
-| Free agents: W9–10 | Chig Okonkwo | Chicago Bears | +3.10 | -11.12 | scored |
+| Free agents: W9–11 | Chig Okonkwo | Chicago Bears | +3.10 | -11.12 | scored |
 | Free agents: W5–6 | Tre' Harris | Joe Mixon | +2.60 | -11.32 | scored |
 | Free agents: W1–2 | Jauan Jennings | — | +0.00 | -13.79 | scored |
 | Free agents: W4–6 | Kirk Cousins | — | +56.84 | -14.16 | scored |
 | Free agents: W4–4 | Chris Bell | — | +0.00 | -15.19 | scored |
 | Free agents: W3–3 | Tank Bigsby | Tyreek Hill | -1.00 | -15.61 | scored |
 | Free agents: W3–3 | Zach Ertz | — | +1.90 | -17.84 | scored |
-| Free agents: W8–10 | Kirk Cousins | C.J. Stroud | +2.40 | -22.09 | scored |
 | Free agents: W1–3 | Kayshon Boutte | — | +10.90 | -31.41 | scored |
+| Free agents: W8–11 | Kirk Cousins | C.J. Stroud | -19.06 | -34.64 | scored |
 
 ## Weekly positional baselines
 
@@ -66,3 +68,4 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | 8 | 24.48 (n=12) | 16.26 (n=30) | 13.07 (n=42) | 16.91 (n=12) | 11.50 (n=12) | 12.75 (n=12) |
 | 9 | 23.56 (n=12) | 13.24 (n=30) | 13.97 (n=42) | 14.51 (n=12) | 14.67 (n=12) | 13.58 (n=12) |
 | 10 | 26.39 (n=12) | 17.10 (n=30) | 14.15 (n=42) | 13.29 (n=12) | 11.67 (n=12) | 12.08 (n=12) |
+| 11 | 8.91 (n=3) | 5.18 (n=5) | 3.97 (n=11) | 2.79 (n=7) | 3.50 (n=2) | 9.00 (n=2) |

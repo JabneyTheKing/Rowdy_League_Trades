@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-19T20:49:19.903570+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-20T07:31:26.594466+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -8,18 +8,18 @@ Player production includes bench points and continues after subsequent trades or
 
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
-| 1 | TheRealNoodleMan | Gibbs of War | +170.50 | 6 | 6 | Yes |
-| 2 | krunky | Grand Theft Aubrey | +97.10 | 8 | 8 | Yes |
-| 3 | oneyjb | Bower's Inside Story | +70.64 | 5 | 6 | Yes |
-| 4 | therealbulker | MidnightClub Rice Edition | +66.86 | 6 | 8 | Yes |
-| 5 | SethLL | Red Dead Zachdemption | +58.74 | 4 | 5 | Yes |
-| 6 | RollnWithJesus | Breach & Touchdown | +51.40 | 4 | 4 | Yes |
-| 7 | AfootCoronet56 | Suicide Squad (the game) | -5.60 | 4 | 5 | Yes |
+| 1 | TheRealNoodleMan | Gibbs of War | +170.50 | 6 | 8 | Yes |
+| 2 | krunky | Grand Theft Aubrey | +97.10 | 8 | 9 | Yes |
+| 3 | therealbulker | MidnightClub Rice Edition | +71.06 | 7 | 8 | Yes |
+| 4 | oneyjb | Bower's Inside Story | +70.64 | 6 | 7 | Yes |
+| 5 | SethLL | Red Dead Zachdemption | +54.54 | 5 | 6 | Yes |
+| 6 | RollnWithJesus | Breach & Touchdown | +51.40 | 4 | 6 | Yes |
+| 7 | AfootCoronet56 | Suicide Squad (the game) | -5.60 | 4 | 6 | Yes |
 | 8 | DiscipleJack | JEFFERSON'S CREED | -9.70 | 1 | 1 | No |
 | 9 | lfain20 | Mortal Kombat: DARTside | -55.00 | 5 | 5 | Yes |
-| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.60 | 8 | 10 | Yes |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.60 | 8 | 12 | Yes |
 | 11 | Potatomain | The Lost Cause Fallacy | -121.20 | 6 | 6 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -234.14 | 6 | 7 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -234.14 | 7 | 7 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -410,8 +410,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| therealbulker / MidnightClub Rice Edition | Kyle Pitts Sr. (28.10), Tank Dell (27.10) | Devaughn Vele (19.00), Alec Pierce (0.00) | 55.20 | 19.00 | +36.20 | scored |
-| SethLL / Red Dead Zachdemption | Devaughn Vele (19.00), Alec Pierce (0.00) | Kyle Pitts Sr. (28.10), Tank Dell (27.10) | 19.00 | 55.20 | -36.20 | scored |
+| therealbulker / MidnightClub Rice Edition | Kyle Pitts Sr. (28.10), Tank Dell (31.30) | Devaughn Vele (19.00), Alec Pierce (0.00) | 59.40 | 19.00 | +40.40 | scored |
+| SethLL / Red Dead Zachdemption | Devaughn Vele (19.00), Alec Pierce (0.00) | Kyle Pitts Sr. (28.10), Tank Dell (31.30) | 19.00 | 59.40 | -40.40 | scored |
 
 therealbulker picks sent: 2027 round 13 (original roster 7). Value not included in points.
 
@@ -444,8 +444,8 @@ First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Dawg2003 / The Windhelm Nords  | — | Davante Adams (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| oneyjb / Bower's Inside Story | Davante Adams (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+| Dawg2003 / The Windhelm Nords  | — | Davante Adams (0.00) | 0.00 | 0.00 | +0.00 | scored |
+| oneyjb / Bower's Inside Story | Davante Adams (0.00) | — | 0.00 | 0.00 | +0.00 | scored |
 
 Dawg2003 picks received: 2027 round 7 (original roster 12). Value not included in points.
 
@@ -465,8 +465,8 @@ First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| therealbulker / MidnightClub Rice Edition | Bijan Robinson (0.00) | Jordan Mason (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| SethLL / Red Dead Zachdemption | Jordan Mason (0.00) | Bijan Robinson (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| therealbulker / MidnightClub Rice Edition | Bijan Robinson (0.00) | Jordan Mason (0.00) | 0.00 | 0.00 | +0.00 | scored |
+| SethLL / Red Dead Zachdemption | Jordan Mason (0.00) | Bijan Robinson (0.00) | 0.00 | 0.00 | +0.00 | scored |
 
 therealbulker picks received: 2027 round 4 (original roster 10). Value not included in points.
 
@@ -478,7 +478,7 @@ SethLL picks sent: 2027 round 4 (original roster 10). Value not included in poin
 
 ### Trade 1428594595616280576
 
-First scoring week: **11**
+First scoring week: **12**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
@@ -488,3 +488,92 @@ First scoring week: **11**
 JabneyTheKing picks received: 2027 round 1 (original roster 5). Value not included in points.
 
 AfootCoronet56 picks sent: 2027 round 1 (original roster 5). Value not included in points.
+
+### Trade 1429006926502432768
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Kyren Williams (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+| SethLL / Red Dead Zachdemption | — | Kyren Williams (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 16 (original roster 10). Value not included in points.
+
+JabneyTheKing picks sent: 2027 round 11 (original roster 3), 2027 round 12 (original roster 3). Value not included in points.
+
+SethLL picks received: 2027 round 11 (original roster 3), 2027 round 12 (original roster 3). Value not included in points.
+
+SethLL picks sent: 2027 round 16 (original roster 10). Value not included in points.
+
+### Trade 1428978538907701248
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| TheRealNoodleMan / Gibbs of War | James Cook III (0.00) | Rome Odunze (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus / Breach & Touchdown | Rome Odunze (0.00) | James Cook III (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+TheRealNoodleMan picks received: 2027 round 15 (original roster 11). Value not included in points.
+
+TheRealNoodleMan picks sent: 2027 round 4 (original roster 2). Value not included in points.
+
+RollnWithJesus picks received: 2027 round 4 (original roster 2). Value not included in points.
+
+RollnWithJesus picks sent: 2027 round 15 (original roster 11). Value not included in points.
+
+### Trade 1428973505470296064
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| krunky / Grand Theft Aubrey | Jaxon Smith-Njigba (0.00) | Stefon Diggs (0.00), Parker Washington (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus / Breach & Touchdown | Stefon Diggs (0.00), Parker Washington (0.00) | Jaxon Smith-Njigba (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+krunky picks received: 2027 round 16 (original roster 11). Value not included in points.
+
+krunky picks sent: 2027 round 5 (original roster 1). Value not included in points.
+
+RollnWithJesus picks received: 2027 round 5 (original roster 1). Value not included in points.
+
+RollnWithJesus picks sent: 2027 round 16 (original roster 11). Value not included in points.
+
+### Trade 1428864400105684992
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| TheRealNoodleMan / Gibbs of War | Dak Prescott (0.00) | Cam Ward (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| AfootCoronet56 / Suicide Squad (the game) | Cam Ward (0.00) | Dak Prescott (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+TheRealNoodleMan picks received: 2027 round 8 (original roster 5). Value not included in points.
+
+TheRealNoodleMan picks sent: 2027 round 5 (original roster 2). Value not included in points.
+
+AfootCoronet56 picks received: 2027 round 5 (original roster 2). Value not included in points.
+
+AfootCoronet56 picks sent: 2027 round 8 (original roster 5). Value not included in points.
+
+### Trade 1428838165291991040
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Germie Bernard (0.00) | CeeDee Lamb (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb / Bower's Inside Story | CeeDee Lamb (0.00) | Germie Bernard (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 3 (original roster 12). Value not included in points.
+
+JabneyTheKing picks sent: 2027 round 16 (original roster 7). Value not included in points.
+
+oneyjb picks received: 2027 round 16 (original roster 7). Value not included in points.
+
+oneyjb picks sent: 2027 round 3 (original roster 12). Value not included in points.
+
+
+Week 11 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-19T20:49:19.903570+00:00; through Week 10.
+Updated 2026-11-20T07:31:26.594466+00:00; through Week 11.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -17,8 +17,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
 | Trade Impact | +23.14 | +24.57 | +1.43 |
-| Wire Impact | +104.16 | +108.74 | +4.58 |
-| Total Impact | +127.30 | +133.31 | +6.01 |
+| Wire Impact | +100.10 | +104.68 | +4.58 |
+| Total Impact | +123.24 | +129.25 | +6.01 |
 
 ## Estimated absences
 
@@ -85,6 +85,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 8 | +31.80 | +25.20 | +54.62 | +44.52 |
 | 9 | +29.30 | +25.28 | +36.38 | +36.54 |
 | 10 | +2.44 | +8.07 | +18.84 | +19.75 |
+| 11 | +0.00 | +0.00 | -4.06 | -4.06 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -235,6 +236,21 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | FLEX | Zach Charbonnet | 9.40 | Puka Nacua | 20.13 |
 | K | Spencer Shrader | 8.00 | Spencer Shrader | 8.00 |
 | DEF | Houston Texans | 7.00 | Houston Texans | 7.00 |
+
+## Week 11 adjusted optimal lineups
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Kirk Cousins | 0.00 | Kirk Cousins | 0.00 |
+| RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
+| RB | Quinshon Judkins | 0.00 | Josh Jacobs | 0.00 |
+| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
+| WR | Antonio Williams | 0.00 | Antonio Williams | 0.00 |
+| TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
+| FLEX | Jadarian Price | 0.00 | Keenan Allen | 0.00 |
+| FLEX | Keenan Allen | 0.00 | A.J. Brown | 0.00 |
+| K | Spencer Shrader | 1.00 | Spencer Shrader | 1.00 |
+| DEF | Houston Texans | 15.00 | Houston Texans | 15.00 |
 
 ## Source health
 

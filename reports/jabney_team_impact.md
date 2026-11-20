@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-11-19T20:49:19.903570+00:00. Through Week 10 (complete).
+Updated 2026-11-20T07:31:26.594466+00:00. Through Week 11 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,16 +14,16 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1231.92 |
-| Draft + trades only | 1263.08 |
-| Draft + waiver / FA moves only | 1336.08 |
-| All moves (weekly team) | 1359.22 |
+| Original draft | 1251.98 |
+| Draft + trades only | 1283.14 |
+| Draft + waiver / FA moves only | 1352.08 |
+| All moves (weekly team) | 1375.22 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +104.16 |
+| Waiver / FA baseline impact | +100.10 |
 | Trade impact with wire moves held fixed | +23.14 |
-| **Total improvement** | **+127.30** |
+| **Total improvement** | **+123.24** |
 | Trades-only effect (reference, not additive) | +31.16 |
 | Trade / wire interaction (included in trade impact) | -8.02 |
 
@@ -39,12 +39,13 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 8 | 118.86 | 140.78 | 141.68 | 173.48 | 22.82 | 31.80 | 54.62 |
 | 9 | 135.26 | 160.00 | 142.34 | 171.64 | 7.08 | 29.30 | 36.38 |
 | 10 | 111.64 | 109.02 | 128.04 | 130.48 | 16.40 | 2.44 | 18.84 |
+| 11 | 20.06 | 20.06 | 16.00 | 16.00 | -4.06 | 0.00 | -4.06 |
 
 ## Current roster inventory
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Braelon Allen, Kirk Cousins, Spencer Shrader, Harold Fannin Jr., Luther Burden III, Antonio Williams, Keenan Allen, Lamar Jackson, Josh Jacobs, A.J. Brown, CeeDee Lamb, Travis Etienne Jr., Breece Hall, Chig Okonkwo, Puka Nacua, Houston Texans
+Braelon Allen, Kirk Cousins, Spencer Shrader, Harold Fannin Jr., Luther Burden III, Germie Bernard, Antonio Williams, Keenan Allen, Lamar Jackson, Josh Jacobs, A.J. Brown, Travis Etienne Jr., Kyren Williams, Breece Hall, Chig Okonkwo, Puka Nacua, Houston Texans
 
 Replaying completed eligible moves from the draft matches this live roster.
 
@@ -188,3 +189,17 @@ Replaying completed eligible moves from the draft matches this live roster.
 | FLEX | Zach Charbonnet | 9.40 | Ja'Marr Chase | 28.60 |
 | K | Spencer Shrader | 8.00 | Spencer Shrader | 8.00 |
 | DEF | Houston Texans | 7.00 | Houston Texans | 7.00 |
+## Week 11 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Kirk Cousins | 0.00 | Kirk Cousins | 0.00 |
+| RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
+| RB | Quinshon Judkins | 0.00 | Josh Jacobs | 0.00 |
+| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
+| WR | Antonio Williams | 0.00 | Antonio Williams | 0.00 |
+| TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
+| FLEX | Jadarian Price | 0.00 | Keenan Allen | 0.00 |
+| FLEX | Keenan Allen | 0.00 | A.J. Brown | 0.00 |
+| K | Spencer Shrader | 1.00 | Spencer Shrader | 1.00 |
+| DEF | Houston Texans | 15.00 | Houston Texans | 15.00 |

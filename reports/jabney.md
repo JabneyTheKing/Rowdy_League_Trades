@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-19T20:49:19.903570+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 10.
+Updated 2026-11-20T07:31:26.594466+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -98,10 +98,38 @@ JabneyTheKing picks sent: 2027 round 16 (original roster 3). Value not included 
 
 ### Trade 1428594595616280576
 
-First scoring week: **11**
+First scoring week: **12**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | JabneyTheKing / Josh Jacobs: Most Wanted | — | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
 
 JabneyTheKing picks received: 2027 round 1 (original roster 5). Value not included in points.
+
+### Trade 1429006926502432768
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Kyren Williams (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 16 (original roster 10). Value not included in points.
+
+JabneyTheKing picks sent: 2027 round 11 (original roster 3), 2027 round 12 (original roster 3). Value not included in points.
+
+### Trade 1428838165291991040
+
+First scoring week: **12**
+
+| Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
+|---|---|---|---:|---:|---:|---|
+| JabneyTheKing / Josh Jacobs: Most Wanted | Germie Bernard (0.00) | CeeDee Lamb (0.00) | 0.00 | 0.00 | +0.00 | pending |
+
+JabneyTheKing picks received: 2027 round 3 (original roster 12). Value not included in points.
+
+JabneyTheKing picks sent: 2027 round 16 (original roster 7). Value not included in points.
+
+
+Week 11 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+
