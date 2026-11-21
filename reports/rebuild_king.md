@@ -1,6 +1,6 @@
 # Rebuild King
 
-Updated 2026-11-20T20:33:36.836239+00:00. Season 2026; scored through Week 11. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-21T07:27:27.594198+00:00. Season 2026; scored through Week 11. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
@@ -112,6 +112,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | Potatomain | Brian Robinson Jr. | — | 7–11 | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | AJ Barner | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | RollnWithJesus | Chris Boswell | Jason Myers | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus | Tyler Allgeier | Audric Estime | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–8 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Cyrus Allen | Keaton Mitchell | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | J.J. McCarthy | — | No completed week | 0.00 | 0.00 | +0.00 | scored |

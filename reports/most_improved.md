@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-20T20:33:36.836239+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-21T07:27:27.594198+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -133,6 +133,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | Potatomain | Brian Robinson Jr. | — | 7–11 | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | AJ Barner | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | RollnWithJesus | Chris Boswell | Jason Myers | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| RollnWithJesus | Tyler Allgeier | Audric Estime | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | SethLL | Jacksonville Jaguars | Zach Wilson | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Malik Willis | Cam Ward | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Tyreek Hill | Joe Flacco | 4–8 | 0.00 | 0.00 | +0.00 | scored |
