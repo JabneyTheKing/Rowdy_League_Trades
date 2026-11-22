@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-22T07:07:51.951173+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-22T19:51:41.267687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -9,15 +9,15 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | 1 | JabneyTheKing | Josh Jacobs: Most Wanted | 169.30 | 6 | $100 | Braelon Allen (79.90) |
 | 2 | lfain20 | Mortal Kombat: DARTside | 114.12 | 4 | $85 | Emanuel Wilson (62.30) |
 | 3 | DiscipleJack | JEFFERSON'S CREED | 96.60 | 3 | $16 | Dalton Schultz (81.60) |
-| 4 | Potatomain | The Lost Cause Fallacy | 82.30 | 7 | $95 | Alvin Kamara (71.40) |
-| 5 | Dawg2003 | The Windhelm Nords  | 63.50 | 4 | $45 | Kenny Gainwell (34.80) |
-| 6 | AfootCoronet56 | Suicide Squad (the game) | 62.60 | 9 | $43 | Ryan Flournoy (34.00) |
-| 7 | krunky | Grand Theft Aubrey | 47.40 | 10 | $119 | Ollie Gordon II (24.10) |
-| 8 | therealbulker | MidnightClub Rice Edition | 25.70 | 10 | $106 | Brian Robinson Jr. (22.30) |
-| 9 | TheRealNoodleMan | Gibbs of War | 22.24 | 11 | $57 | Matthew Stafford (42.44) |
+| 4 | Potatomain | The Lost Cause Fallacy | 89.00 | 7 | $95 | Alvin Kamara (78.10) |
+| 5 | Dawg2003 | The Windhelm Nords  | 86.20 | 4 | $45 | Emmett Johnson (42.80) |
+| 6 | AfootCoronet56 | Suicide Squad (the game) | 72.20 | 9 | $43 | Ryan Flournoy (35.60) |
+| 7 | krunky | Grand Theft Aubrey | 51.40 | 10 | $119 | Ollie Gordon II (24.10) |
+| 8 | TheRealNoodleMan | Gibbs of War | 30.44 | 11 | $57 | Matthew Stafford (42.44) |
+| 9 | therealbulker | MidnightClub Rice Edition | 25.70 | 10 | $106 | Brian Robinson Jr. (22.30) |
 | 10 | RollnWithJesus | Breach & Touchdown | -11.20 | 4 | $25 | Tampa Bay Buccaneers (19.00) |
-| 11 | SethLL | Red Dead Zachdemption | -14.88 | 6 | $80 | Fernando Mendoza (10.72) |
-| 12 | oneyjb | Bower's Inside Story | -94.82 | 10 | $62 | Tyler Bass (14.00) |
+| 11 | SethLL | Red Dead Zachdemption | -16.38 | 6 | $80 | Fernando Mendoza (10.72) |
+| 12 | oneyjb | Bower's Inside Story | -109.42 | 10 | $62 | Tyler Bass (25.00) |
 
 ## Individual waiver transactions
 
@@ -25,51 +25,52 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 |---|---|---|---:|---|---:|---:|---:|---|
 | DiscipleJack | Dalton Schultz | — | $7 | 1–11 | 81.60 | 0.00 | +81.60 | scored |
 | JabneyTheKing | Braelon Allen | Tank Bigsby | $33 | 4–11 | 85.40 | 5.50 | +79.90 | scored |
-| Potatomain | Alvin Kamara | — | $6 | 3–11 | 71.40 | 0.00 | +71.40 | scored |
+| Potatomain | Alvin Kamara | — | $6 | 3–11 | 78.10 | 0.00 | +78.10 | scored |
 | lfain20 | Emanuel Wilson | Jonathon Brooks | $11 | 3–10 | 62.30 | 0.00 | +62.30 | scored |
+| Dawg2003 | Emmett Johnson | Dohnte Meyers | $22 | 9–11 | 59.10 | 16.30 | +42.80 | scored |
 | TheRealNoodleMan | Matthew Stafford | Kaelon Black | $25 | 6–11 | 77.64 | 35.20 | +42.44 | scored |
 | JabneyTheKing | Keenan Allen | — | $6 | 6–11 | 40.20 | 0.00 | +40.20 | scored |
+| Dawg2003 | Kenny Gainwell | Raheim Sanders | $3 | 6–11 | 39.90 | 0.00 | +39.90 | scored |
 | JabneyTheKing | C.J. Stroud | Jaylen Wright | $0 | 6–7 | 40.50 | 0.80 | +39.70 | scored |
+| AfootCoronet56 | Ryan Flournoy | Dameon Pierce | $0 | 8–11 | 35.60 | 0.00 | +35.60 | scored |
 | lfain20 | Jameis Winston | Ted Hurst III | $23 | 5–7 | 40.62 | 5.50 | +35.12 | scored |
-| Dawg2003 | Kenny Gainwell | Raheim Sanders | $3 | 6–11 | 34.80 | 0.00 | +34.80 | scored |
-| AfootCoronet56 | Ryan Flournoy | Dameon Pierce | $0 | 8–11 | 34.00 | 0.00 | +34.00 | scored |
-| Dawg2003 | Emmett Johnson | Dohnte Meyers | $22 | 9–11 | 41.50 | 16.30 | +25.20 | scored |
+| oneyjb | Tyler Bass | Trey Smack | $0 | 8–11 | 47.00 | 22.00 | +25.00 | scored |
 | AfootCoronet56 | Dameon Pierce | Will Shipley | $15 | 6–7 | 24.30 | 0.00 | +24.30 | scored |
 | krunky | Ollie Gordon II | Marvin Harrison Jr. | $25 | 4–6 | 31.80 | 7.70 | +24.10 | scored |
 | therealbulker | Brian Robinson Jr. | Quentin Johnston | $5 | 4–5 | 26.80 | 4.50 | +22.30 | scored |
 | krunky | Bryce Young | Tyler Allgeier | $25 | 3–4 | 36.10 | 14.80 | +21.30 | scored |
 | RollnWithJesus | Tampa Bay Buccaneers | Las Vegas Raiders | $0 | 8–9 | 30.00 | 11.00 | +19.00 | scored |
 | DiscipleJack | Cleveland Browns | Baltimore Ravens | $4 | 7–10 | 24.00 | 6.00 | +18.00 | scored |
+| TheRealNoodleMan | Kansas City Chiefs | Washington Commanders | $3 | 9–11 | 32.00 | 15.00 | +17.00 | scored |
 | JabneyTheKing | Keon Coleman | Chris Bell | $6 | 5–7 | 21.10 | 6.60 | +14.50 | scored |
 | therealbulker | Sam Darnold | Terrance Ferguson | $14 | 4–4 | 14.32 | 0.00 | +14.32 | scored |
-| oneyjb | Tyler Bass | Trey Smack | $0 | 8–11 | 36.00 | 22.00 | +14.00 | scored |
 | Potatomain | DeMario Douglas | — | $13 | 9–11 | 13.60 | 0.00 | +13.60 | scored |
 | lfain20 | Kendrick Bourne | Roman Wilson | $10 | 6–8 | 13.00 | 0.00 | +13.00 | scored |
 | AfootCoronet56 | Chad Ryland | New York Jets | $2 | 8–8 | 9.00 | -3.00 | +12.00 | scored |
 | oneyjb | C.J. Stroud | Justin Herbert | $0 | 4–4 | 23.08 | 11.56 | +11.52 | scored |
 | SethLL | Fernando Mendoza | Mike Washington Jr. | $33 | 10–11 | 13.92 | 3.20 | +10.72 | scored |
-| oneyjb | Jacksonville Jaguars | Kansas City Chiefs | $5 | 8–11 | 34.00 | 25.00 | +9.00 | scored |
 | Potatomain | Minnesota Vikings | Green Bay Packers | $2 | 3–11 | 81.00 | 72.00 | +9.00 | scored |
-| TheRealNoodleMan | Kansas City Chiefs | Washington Commanders | $3 | 9–11 | 24.00 | 15.00 | +9.00 | scored |
+| AfootCoronet56 | Chicago Bears | New Orleans Saints | $1 | 11–11 | 12.00 | 4.00 | +8.00 | scored |
 | krunky | Dallas Cowboys | Carolina Panthers | $4 | 7–7 | 4.00 | -3.00 | +7.00 | scored |
 | Potatomain | Ja'Kobi Lane | New York Jets | $15 | 7–11 | 13.40 | 7.00 | +6.40 | scored |
 | therealbulker | Devaughn Vele | Malik Washington | $25 | 2–6 | 39.00 | 33.90 | +5.10 | scored |
+| krunky | Tampa Bay Buccaneers | Los Angeles Rams | $22 | 11–11 | 4.00 | 0.00 | +4.00 | scored |
 | TheRealNoodleMan | Buffalo Bills | Carolina Panthers | $3 | 4–4 | 5.00 | 1.00 | +4.00 | scored |
 | lfain20 | Kyler Murray | Chris Rodriguez Jr. | $41 | 3–4 | 22.90 | 19.20 | +3.70 | scored |
 | Dawg2003 | Dohnte Meyers | Joshua Palmer | $15 | 5–8 | 7.10 | 4.20 | +2.90 | scored |
-| SethLL | Corey Kiner | Greg Dulcich | $0 | 10–11 | 2.50 | 0.00 | +2.50 | scored |
 | AfootCoronet56 | Konata Mumpfield | — | $0 | 7–8 | 2.00 | 0.00 | +2.00 | scored |
 | krunky | Jacksonville Jaguars | Kansas City Chiefs | $1 | 5–5 | 2.00 | 0.00 | +2.00 | scored |
 | oneyjb | Baltimore Ravens | San Francisco 49ers | $3 | 4–4 | 7.00 | 5.00 | +2.00 | scored |
 | RollnWithJesus | Audric Estime | Kendre Miller | $5 | 10–11 | 1.60 | 0.00 | +1.60 | scored |
 | AfootCoronet56 | New York Jets | San Francisco 49ers | $0 | 7–7 | 1.00 | 0.00 | +1.00 | scored |
 | krunky | Kansas City Chiefs | Tampa Bay Buccaneers | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
+| oneyjb | Jacksonville Jaguars | Kansas City Chiefs | $5 | 8–11 | 34.00 | 33.00 | +1.00 | scored |
+| SethLL | Corey Kiner | Greg Dulcich | $0 | 10–11 | 2.50 | 1.50 | +1.00 | scored |
+| TheRealNoodleMan | Chase McLaughlin | Dominic Zvada | $2 | 11–11 | 1.00 | 0.00 | +1.00 | scored |
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
-| AfootCoronet56 | Chicago Bears | New Orleans Saints | $1 | 11–11 | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Xavier Hutchinson | Zonovan Knight | $13 | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| krunky | Tampa Bay Buccaneers | Los Angeles Rams | $22 | 11–11 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Pat Bryant | — | $4 | 10–11 | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Cade Otton | Chase McLaughlin | $11 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Carson Wentz | Chicago Bears | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -77,8 +78,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | therealbulker | Terrance Ferguson | — | $5 | 7–11 | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Brenton Strange | Juwan Johnson | $7 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | TheRealNoodleMan | Ryan Fitzgerald | Harrison Butker | $1 | No completed week | 0.00 | 0.00 | +0.00 | scored |
-| TheRealNoodleMan | Chase McLaughlin | Dominic Zvada | $2 | 11–11 | 0.00 | 0.00 | +0.00 | scored |
-| TheRealNoodleMan | Cam Ward | Brenton Strange | $4 | 11–11 | 0.00 | 0.00 | +0.00 | scored |
+| TheRealNoodleMan | Cam Ward | Brenton Strange | $4 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Mike Washington Jr. | — | $35 | 9–9 | -0.30 | 0.00 | -0.30 | scored |
 | AfootCoronet56 | Will Shipley | Wan'Dale Robinson | $20 | 5–5 | 7.80 | 8.30 | -0.50 | scored |
 | TheRealNoodleMan | Dallas Cowboys | Buffalo Bills | $3 | 5–5 | 1.00 | 2.00 | -1.00 | scored |
@@ -87,7 +87,7 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | DiscipleJack | Zonovan Knight | Roschon Johnson | $5 | 8–9 | 0.30 | 3.30 | -3.00 | scored |
 | krunky | Tampa Bay Buccaneers | Los Angeles Chargers | $2 | 2–2 | 2.00 | 5.00 | -3.00 | scored |
 | TheRealNoodleMan | Indianapolis Colts | Dallas Cowboys | $3 | 6–6 | 2.00 | 5.00 | -3.00 | scored |
-| oneyjb | Germie Bernard | Washington Commanders | $1 | 6–11 | 30.90 | 34.00 | -3.10 | scored |
+| oneyjb | Germie Bernard | Washington Commanders | $1 | 6–10 | 30.90 | 34.00 | -3.10 | scored |
 | JabneyTheKing | Kalif Raymond | Kayshon Boutte | $28 | 4–4 | 1.60 | 5.10 | -3.50 | scored |
 | therealbulker | Terrance Ferguson | Brenton Strange | $11 | 3–3 | 1.90 | 6.20 | -4.30 | scored |
 | AfootCoronet56 | Xavier Worthy | Konata Mumpfield | $0 | 9–10 | 7.80 | 12.60 | -4.80 | scored |
@@ -102,10 +102,10 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | TheRealNoodleMan | Harrison Butker | Harrison Mevis | $0 | 3–4 | 11.00 | 22.00 | -11.00 | scored |
 | Potatomain | Tyrone Tracy Jr. | Mike Washington Jr. | $17 | 3–3 | 0.30 | 11.40 | -11.10 | scored |
 | RollnWithJesus | Devin Singletary | Kenny Gainwell | $0 | 2–4 | 0.90 | 14.70 | -13.80 | scored |
-| TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | 8–11 | 17.80 | 34.00 | -16.20 | scored |
+| TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | 8–11 | 18.60 | 35.60 | -17.00 | scored |
 | RollnWithJesus | Las Vegas Raiders | New England Patriots | $20 | 4–7 | 4.00 | 22.00 | -18.00 | scored |
 | SethLL | Cincinnati Bengals | Los Angeles Rams | $10 | 7–11 | 26.00 | 46.00 | -20.00 | scored |
-| oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–11 | 20.60 | 64.30 | -43.70 | scored |
+| oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–11 | 20.60 | 81.90 | -61.30 | scored |
 | oneyjb | Tyler Allgeier | C.J. Stroud | $5 | 5–10 | 54.90 | 119.24 | -64.34 | scored |
 
 

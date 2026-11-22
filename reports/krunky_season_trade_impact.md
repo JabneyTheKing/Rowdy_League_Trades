@@ -1,8 +1,8 @@
 # How Krunky’s trades have impacted the season
 
-Updated 2026-11-22T07:07:51.951173+00:00. Through Week 11 (partial).
+Updated 2026-11-22T19:51:41.267687+00:00. Through Week 11 (partial).
 
-Under the stated lineup and waiver assumptions, Krunky’s trades have **added 84.40 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
+Under the stated lineup and waiver assumptions, Krunky’s trades have **added 96.80 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
 
 ## We do not assume he leaves bye or injury holes at zero
 
@@ -14,18 +14,18 @@ The drafted roster is a starting inventory, not a requirement to field unavailab
 
 | Roster scenario | Season-to-date optimal points, including temporary cover |
 |---|---:|
-| Original drafted team | 1377.41 |
-| Draft plus eligible trades only | 1499.15 |
-| Draft plus recorded waiver/free-agent moves only | 1387.94 |
-| Team after all eligible moves | 1472.34 |
+| Original drafted team | 1443.13 |
+| Draft plus eligible trades only | 1577.77 |
+| Draft plus recorded waiver/free-agent moves only | 1458.56 |
+| Team after all eligible moves | 1555.36 |
 
-**Trade impact with wire moves held fixed: +84.40.** All moves minus wire-only is the main measure of how trading changed the team’s available starting production.
+**Trade impact with wire moves held fixed: +96.80.** All moves minus wire-only is the main measure of how trading changed the team’s available starting production.
 
-**Trades considered without wire moves: +121.74.** This answers a different question: how did trades change the original draft, with temporary waiver coverage allowed on both sides?
+**Trades considered without wire moves: +134.64.** This answers a different question: how did trades change the original draft, with temporary waiver coverage allowed on both sides?
 
-**Wire baseline impact: +10.53.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+94.93 total improvement**.
+**Wire baseline impact: +15.43.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+112.23 total improvement**.
 
-The trade/wire interaction is **-37.34**, already included in the main trade impact. It measures how the value of trading changes when the recorded wire moves are also available; it must not be added again.
+The trade/wire interaction is **-37.84**, already included in the main trade impact. It measures how the value of trading changes when the recorded wire moves are also available; it must not be added again.
 
 ## When the benefit or cost occurred
 
@@ -41,13 +41,13 @@ The trade/wire interaction is **-37.34**, already included in the main trade imp
 | 8 | 138.58 | 114.38 | 128.18 | +13.80 |
 | 9 | 121.36 | 128.54 | 145.16 | +16.62 |
 | 10 | 137.87 | 160.04 | 138.34 | -21.70 |
-| 11 | 4.70 | 4.70 | 4.70 | +0.00 |
+| 11 | 70.42 | 75.32 | 87.72 | +12.40 |
 
 The highest weekly trading impact was Week 6 (+26.76); the lowest was Week 5 (-25.08).
 
 ## Injury-adjusted sensitivity
 
-With the separately documented injury estimates, the trade-impact figure is **+84.40**, a change of **+0.00**. The same waiver cover applies, but a player restored by a supported injury estimate can fill the slot instead. Injury credit and waiver cover are never both assigned to the same slot. This remains a limited estimate: unverified injuries and insufficient earlier baselines are not invented.
+With the separately documented injury estimates, the trade-impact figure is **+96.80**, a change of **+0.00**. The same waiver cover applies, but a player restored by a supported injury estimate can fill the slot instead. Injury credit and waiver cover are never both assigned to the same slot. This remains a limited estimate: unverified injuries and insufficient earlier baselines are not invented.
 
 ## What this does and does not establish
 

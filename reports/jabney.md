@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-22T07:07:51.951173+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-22T19:51:41.267687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,7 +14,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (95.70), Terry McLaurin (38.50), De'Von Achane (21.10), Jaxon Smith-Njigba (223.66) | Kenyon Sadiq (56.10), Davante Adams (87.00), Ja'Marr Chase (161.80), Jake Ferguson (54.60), Chris Olave (117.90) | 378.96 | 477.40 | -98.44 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (104.90), Terry McLaurin (38.50), De'Von Achane (21.10), Jaxon Smith-Njigba (223.66) | Kenyon Sadiq (56.10), Davante Adams (87.00), Ja'Marr Chase (161.80), Jake Ferguson (54.60), Chris Olave (124.20) | 388.16 | 483.70 | -95.54 | scored |
 
 JabneyTheKing picks received: 2027 round 4 (original roster 5). Value not included in points.
 
@@ -26,7 +26,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook III (100.60), Chris Olave (45.30) | Quinshon Judkins (54.90), Jaxon Smith-Njigba (123.00) | 145.90 | 177.90 | -32.00 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | James Cook III (110.20), Chris Olave (51.60) | Quinshon Judkins (54.90), Jaxon Smith-Njigba (123.00) | 161.80 | 177.90 | -16.10 | scored |
 
 ### Trade 1413594244643360768
 
@@ -34,7 +34,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (62.30), Justin Jefferson (53.20), Jake Ferguson (13.40) | James Cook III (100.60), Chris Olave (45.30) | 128.90 | 145.90 | -17.00 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ashton Jeanty (62.30), Justin Jefferson (53.20), Jake Ferguson (13.40) | James Cook III (110.20), Chris Olave (51.60) | 128.90 | 161.80 | -32.90 | scored |
 
 ### Trade 1413998894823612416
 
@@ -42,7 +42,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (112.10) | Josh Allen (114.56), Terry McLaurin (13.40) | 112.10 | 127.96 | -15.86 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (112.10) | Josh Allen (124.28), Terry McLaurin (13.40) | 112.10 | 137.68 | -25.58 | scored |
 
 ### Trade 1414473604535480320
 
@@ -50,7 +50,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin Jr. (68.10), Travis Etienne Jr. (4.90) | Sam LaPorta (38.90), Jadarian Price (25.40) | 73.00 | 64.30 | +8.70 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Harold Fannin Jr. (68.10), Travis Etienne Jr. (10.60) | Sam LaPorta (48.10), Jadarian Price (25.40) | 78.70 | 73.50 | +5.20 | scored |
 
 ### Trade 1415375515950268416
 
@@ -82,7 +82,7 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Lamar Jackson (0.00), A.J. Brown (10.00), CeeDee Lamb (76.40) | Ashton Jeanty (39.30), Justin Jefferson (37.40) | 86.40 | 76.70 | +9.70 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Lamar Jackson (0.00), A.J. Brown (10.00), CeeDee Lamb (97.20) | Ashton Jeanty (39.30), Justin Jefferson (37.40) | 107.20 | 76.70 | +30.50 | scored |
 
 ### Trade 1418724092504236032
 
@@ -120,11 +120,11 @@ JabneyTheKing picks sent: 2027 round 11 (original roster 3), 2027 round 12 (orig
 
 ### Trade 1428838165291991040
 
-First scoring week: **12**
+First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Germie Bernard (0.00) | CeeDee Lamb (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Germie Bernard (5.40) | CeeDee Lamb (20.80) | 5.40 | 20.80 | -15.40 | scored |
 
 JabneyTheKing picks received: 2027 round 3 (original roster 12). Value not included in points.
 
