@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-22T19:51:41.267687+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-23T07:54:29.243418+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,8 +14,8 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| SethLL / Red Dead Zachdemption | Jaxon Smith-Njigba (223.66) | Xavier Worthy (50.30), Marvin Harrison Jr. (32.00) | 223.66 | 82.30 | +141.36 | scored |
-| AfootCoronet56 / Risk of Rome | Xavier Worthy (50.30), Marvin Harrison Jr. (32.00) | Jaxon Smith-Njigba (223.66) | 82.30 | 223.66 | -141.36 | scored |
+| SethLL / Red Dead Zachdemption | Jaxon Smith-Njigba (223.66) | Xavier Worthy (61.10), Marvin Harrison Jr. (32.00) | 223.66 | 93.10 | +130.56 | scored |
+| AfootCoronet56 / Risk of Rome | Xavier Worthy (61.10), Marvin Harrison Jr. (32.00) | Jaxon Smith-Njigba (223.66) | 93.10 | 223.66 | -130.56 | scored |
 
 SethLL picks sent: 2027 round 2. Value not included in points.
 
@@ -27,8 +27,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Krunky | Aaron Jones Sr. (39.90) | Rachaad White (40.80) | 39.90 | 40.80 | -0.90 | scored |
-| Ryan | Rachaad White (40.80) | Aaron Jones Sr. (39.90) | 40.80 | 39.90 | +0.90 | scored |
+| Krunky | Aaron Jones Sr. (50.70) | Rachaad White (40.80) | 50.70 | 40.80 | +9.90 | scored |
+| Ryan | Rachaad White (40.80) | Aaron Jones Sr. (50.70) | 40.80 | 50.70 | -9.90 | scored |
 
 ### Before Week 5: Jabney sends Jadarian Price; Krunky sends James Conner
 

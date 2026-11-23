@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-11-22T19:51:41.267687+00:00; through Week 11.
+Updated 2026-11-23T07:54:29.243418+00:00; through Week 11.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +96.80 | +96.80 | +0.00 |
-| Wire Impact | +15.43 | +15.43 | +0.00 |
-| Total Impact | +112.23 | +112.23 | +0.00 |
+| Trade Impact | +76.68 | +76.68 | +0.00 |
+| Wire Impact | +15.25 | +15.25 | +0.00 |
+| Total Impact | +91.93 | +91.93 | +0.00 |
 
 ## Estimated absences
 
@@ -70,7 +70,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 8 | +13.80 | +13.80 | -10.40 | -10.40 |
 | 9 | +16.62 | +16.62 | +23.80 | +23.80 |
 | 10 | -21.70 | -21.70 | +0.47 | +0.47 |
-| 11 | +12.40 | +12.40 | +17.30 | +17.30 |
+| 11 | -7.72 | -7.72 | -3.00 | -3.00 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -226,16 +226,16 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Caleb Williams | 12.82 | Caleb Williams | 12.82 |
-| RB | Ollie Gordon II | 1.20 | D'Andre Swift | 10.40 |
+| QB | Bryce Young | 16.96 | Caleb Williams | 15.34 |
+| RB | Ollie Gordon II | 7.70 | D'Andre Swift | 10.90 |
 | RB | Jonathan Taylor | 4.70 | Jonathan Taylor | 4.70 |
-| WR | Jalen Coker | 4.00 | Jalen Coker | 4.00 |
-| WR | Elic Ayomanor | 1.70 | Elic Ayomanor | 1.70 |
+| WR | Malik Nabers | 15.00 | Malik Nabers | 15.00 |
+| WR | Jalen Coker | 6.70 | Jalen Coker | 6.70 |
 | TE | Travis Kelce | 25.40 | Travis Kelce | 25.40 |
-| FLEX | Emeka Egbuka | 1.10 | Colston Loveland | 10.70 |
-| FLEX | DJ Moore | 17.40 | Amon-Ra St. Brown | 11.00 |
-| K | Brandon Aubrey | 3.00 | Brandon Aubrey | 3.00 |
-| DEF | Tampa Bay Buccaneers | 4.00 | Tampa Bay Buccaneers | 4.00 |
+| FLEX | DJ Moore | 19.10 | Colston Loveland | 11.90 |
+| FLEX | Parker Washington | 14.30 | Amon-Ra St. Brown | 12.20 |
+| K | Brandon Aubrey | 10.00 | Brandon Aubrey | 10.00 |
+| DEF | Tampa Bay Buccaneers | 0.00 | Tampa Bay Buccaneers | 0.00 |
 
 ## Source health
 

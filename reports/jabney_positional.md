@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-11-22T19:51:41.267687+00:00. Through Week 11 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-23T07:54:29.243418+00:00. Through Week 11 (PARTIAL; available scores and baselines will change).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -8,35 +8,35 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 
 | Component | Raw net points | Positional net value |
 |---|---:|---:|
-| Trades | -94.52 | +233.29 |
-| Waivers | +169.30 | -16.27 |
-| Free agents | +103.28 | -124.42 |
-| **Total** | **+178.06** | **+92.60** |
+| Trades | -92.36 | +236.77 |
+| Waivers | +183.50 | -27.98 |
+| Free agents | +106.68 | -131.19 |
+| **Total** | **+197.82** | **+77.60** |
 
 ## Transactions
 
 | Move | Received / added | Sent / dropped | Raw net | Adjusted net | Status |
 |---|---|---|---:|---:|---|
-| Trade 1 | Sam LaPorta, Terry McLaurin, De'Von Achane, Jaxon Smith-Njigba | Kenyon Sadiq, Davante Adams, Ja'Marr Chase, Jake Ferguson, Chris Olave | -95.54 | +157.42 | scored |
-| Trade 2 | James Cook III, Chris Olave | Quinshon Judkins, Jaxon Smith-Njigba | -16.10 | -12.98 | scored |
-| Trade 3 | Ashton Jeanty, Justin Jefferson, Jake Ferguson | James Cook III, Chris Olave | -32.90 | -102.16 | scored |
-| Trade 4 | Ja'Marr Chase | Josh Allen, Terry McLaurin | -25.58 | +70.13 | scored |
-| Trade 5 | Harold Fannin Jr., Travis Etienne Jr. | Sam LaPorta, Jadarian Price | +5.20 | +20.55 | scored |
-| Trade 6 | Breece Hall | Zach Charbonnet | +0.10 | +16.36 | scored |
+| Trade 1 | Sam LaPorta, Terry McLaurin, De'Von Achane, Jaxon Smith-Njigba | Kenyon Sadiq, Davante Adams, Ja'Marr Chase, Jake Ferguson, Chris Olave | -109.94 | +157.79 | scored |
+| Trade 2 | James Cook III, Chris Olave | Quinshon Judkins, Jaxon Smith-Njigba | -1.10 | -11.51 | scored |
+| Trade 3 | Ashton Jeanty, Justin Jefferson, Jake Ferguson | James Cook III, Chris Olave | -12.30 | -93.94 | scored |
+| Trade 4 | Ja'Marr Chase | Josh Allen, Terry McLaurin | -30.02 | +74.76 | scored |
+| Trade 5 | Harold Fannin Jr., Travis Etienne Jr. | Sam LaPorta, Jadarian Price | +7.10 | +19.34 | scored |
+| Trade 6 | Breece Hall | Zach Charbonnet | +17.60 | +20.43 | scored |
 | Trade 7 | Puka Nacua | Jake Ferguson | +55.20 | +63.89 | scored |
-| Trade 8 | Lamar Jackson, A.J. Brown, CeeDee Lamb | Ashton Jeanty, Justin Jefferson | +30.50 | +35.48 | scored |
+| Trade 8 | Lamar Jackson, A.J. Brown, CeeDee Lamb | Ashton Jeanty, Justin Jefferson | -1.20 | +23.71 | scored |
 | Trade 9 | — | — | +0.00 | +0.00 | scored |
 | Trade 10 | — | Ja'Marr Chase | +0.00 | +0.00 | pending |
 | Trade 11 | Kyren Williams | — | +0.00 | +0.00 | pending |
-| Trade 12 | Germie Bernard | CeeDee Lamb | -15.40 | -15.40 | scored |
+| Trade 12 | Germie Bernard | CeeDee Lamb | -17.70 | -17.70 | scored |
 | Waivers: W5–7 | Keon Coleman | Chris Bell | +14.50 | +14.24 | scored |
 | Waivers: W6–7 | C.J. Stroud | Jaylen Wright | +39.70 | +11.01 | scored |
 | Waivers: W4–5 | Jaylen Wright | Zach Ertz | -1.50 | +0.18 | scored |
 | Waivers: W4–4 | Kalif Raymond | Kayshon Boutte | -3.50 | -3.50 | scored |
-| Waivers: W4–11 | Braelon Allen | Tank Bigsby | +79.90 | -11.90 | scored |
-| Waivers: W6–11 | Keenan Allen | — | +40.20 | -26.30 | scored |
-| Free agents: W5–11 | Antonio Williams | Kalif Raymond | +16.10 | +20.97 | scored |
-| Free agents: W1–11 | Spencer Shrader | Tyler Loop | +47.00 | +13.41 | scored |
+| Waivers: W4–11 | Braelon Allen | Tank Bigsby | +88.80 | -16.43 | scored |
+| Waivers: W6–11 | Keenan Allen | — | +45.50 | -33.48 | scored |
+| Free agents: W5–11 | Antonio Williams | Kalif Raymond | +16.10 | +26.95 | scored |
+| Free agents: W1–11 | Spencer Shrader | Tyler Loop | +47.00 | +7.83 | scored |
 | Free agents: W8–8 | Chicago Bears | Keon Coleman | +7.10 | +7.42 | scored |
 | Free agents: W3–3 | Tyler Allgeier | Daniel Jones | -6.00 | +4.32 | scored |
 | Free agents: pending | Samaje Perine | — | +0.00 | +0.00 | scored |
@@ -47,12 +47,12 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Free agents: W5–6 | Tre' Harris | Joe Mixon | +2.60 | -11.32 | scored |
 | Free agents: W1–2 | Jauan Jennings | — | +0.00 | -13.79 | scored |
 | Free agents: W4–6 | Kirk Cousins | — | +56.84 | -14.16 | scored |
-| Free agents: W9–11 | Chig Okonkwo | Chicago Bears | -8.90 | -14.87 | scored |
 | Free agents: W4–4 | Chris Bell | — | +0.00 | -15.19 | scored |
 | Free agents: W3–3 | Tank Bigsby | Tyreek Hill | -1.00 | -15.61 | scored |
+| Free agents: W9–11 | Chig Okonkwo | Chicago Bears | -13.90 | -17.45 | scored |
 | Free agents: W3–3 | Zach Ertz | — | +1.90 | -17.84 | scored |
-| Free agents: W8–11 | Kirk Cousins | C.J. Stroud | -19.06 | -30.55 | scored |
 | Free agents: W1–3 | Kayshon Boutte | — | +10.90 | -31.41 | scored |
+| Free agents: W8–11 | Kirk Cousins | C.J. Stroud | -10.66 | -35.14 | scored |
 
 ## Weekly positional baselines
 
@@ -68,4 +68,4 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | 8 | 24.48 (n=12) | 16.26 (n=30) | 13.07 (n=42) | 16.91 (n=12) | 11.50 (n=12) | 12.75 (n=12) |
 | 9 | 23.56 (n=12) | 13.24 (n=30) | 13.97 (n=42) | 14.51 (n=12) | 14.67 (n=12) | 13.58 (n=12) |
 | 10 | 26.39 (n=12) | 17.10 (n=30) | 14.15 (n=42) | 13.29 (n=12) | 11.67 (n=12) | 12.08 (n=12) |
-| 11 | 13.00 (n=12) | 5.88 (n=30) | 6.50 (n=42) | 8.80 (n=12) | 7.25 (n=12) | 8.25 (n=12) |
+| 11 | 22.07 (n=12) | 13.43 (n=30) | 12.48 (n=42) | 13.23 (n=12) | 12.83 (n=12) | 10.67 (n=12) |
