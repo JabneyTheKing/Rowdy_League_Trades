@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-24T00:05:58.396081+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-24T10:07:33.772637+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -14,7 +14,7 @@ First scoring week: **1**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (104.90), Terry McLaurin (38.50), De'Von Achane (21.10), Jaxon Smith-Njigba (223.66) | Kenyon Sadiq (62.10), Davante Adams (87.00), Ja'Marr Chase (161.80), Jake Ferguson (54.60), Chris Olave (132.60) | 388.16 | 498.10 | -109.94 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (104.90), Terry McLaurin (38.50), De'Von Achane (21.10), Jaxon Smith-Njigba (223.66) | Kenyon Sadiq (62.10), Davante Adams (87.00), Ja'Marr Chase (167.40), Jake Ferguson (54.60), Chris Olave (132.60) | 388.16 | 503.70 | -115.54 | scored |
 
 JabneyTheKing picks received: 2027 round 4 (original roster 5). Value not included in points.
 
@@ -42,7 +42,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (112.10) | Josh Allen (128.72), Terry McLaurin (13.40) | 112.10 | 142.12 | -30.02 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (117.70) | Josh Allen (128.72), Terry McLaurin (13.40) | 117.70 | 142.12 | -24.42 | scored |
 
 ### Trade 1414473604535480320
 
@@ -98,11 +98,11 @@ JabneyTheKing picks sent: 2027 round 16 (original roster 3). Value not included 
 
 ### Trade 1428594595616280576
 
-First scoring week: **12**
+First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | — | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | — | Ja'Marr Chase (5.60) | 0.00 | 5.60 | -5.60 | scored |
 
 JabneyTheKing picks received: 2027 round 1 (original roster 5). Value not included in points.
 
@@ -129,7 +129,3 @@ First scoring week: **11**
 JabneyTheKing picks received: 2027 round 3 (original roster 12). Value not included in points.
 
 JabneyTheKing picks sent: 2027 round 16 (original roster 7). Value not included in points.
-
-
-Week 11 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

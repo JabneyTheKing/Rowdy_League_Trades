@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-11-24T00:05:58.396081+00:00; through Week 11.
+Updated 2026-11-24T10:07:33.772637+00:00; through Week 11.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,15 +16,15 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +76.68 | +76.68 | +0.00 |
-| Wire Impact | +15.25 | +15.25 | +0.00 |
-| Total Impact | +91.93 | +91.93 | +0.00 |
+| Trade Impact | +75.28 | +75.28 | +0.00 |
+| Wire Impact | +5.15 | +5.15 | +0.00 |
+| Total Impact | +80.43 | +80.43 | +0.00 |
 
 ## Estimated absences
 
 | Week | Player | Actual | Estimate | Earlier sample | Evidence |
 |---:|---|---:|---:|---|---|
-| — | No qualifying estimates yet | | | | |
+| 11 | Wan'Dale Robinson | 0.00 | 6.92 | W1: 6.30, W2: 1.40, W3: 15.20, W4: 9.50, W5: 8.30, W6: 3.70, W7: 2.70, W8: 12.70, W10: 2.50 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/11?after=AAAH6gAAAAsAAAAOAAAAAAAOpOo=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -50,8 +50,8 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 9: Jayden Higgins.
 - Week 9: James Conner.
 - Week 10: Jayden Higgins.
-- Week 10: Kendre Miller.
 - Week 10: James Conner.
+- Week 10: Kendre Miller.
 - Week 11: James Conner.
 - Week 11: Jayden Higgins.
 - Week 11: Kendre Miller.
@@ -70,7 +70,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 8 | +13.80 | +13.80 | -10.40 | -10.40 |
 | 9 | +16.62 | +16.62 | +23.80 | +23.80 |
 | 10 | -21.70 | -21.70 | +0.47 | +0.47 |
-| 11 | -7.72 | -7.72 | -3.00 | -3.00 |
+| 11 | -9.12 | -9.12 | -14.50 | -14.50 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -228,7 +228,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 |---|---|---:|---|---:|
 | QB | Bryce Young | 16.96 | Caleb Williams | 15.34 |
 | RB | Ollie Gordon II | 7.70 | D'Andre Swift | 10.90 |
-| RB | Jonathan Taylor | 4.70 | Jonathan Taylor | 4.70 |
+| RB | Chase Brown | 6.10 | Jonathan Taylor | 4.70 |
 | WR | Malik Nabers | 15.00 | Malik Nabers | 15.00 |
 | WR | Jalen Coker | 6.70 | Jalen Coker | 6.70 |
 | TE | Travis Kelce | 25.40 | Travis Kelce | 25.40 |

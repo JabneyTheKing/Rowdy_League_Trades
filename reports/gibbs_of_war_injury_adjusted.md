@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-11-24T00:05:58.396081+00:00; through Week 11.
+Updated 2026-11-24T10:07:33.772637+00:00; through Week 11.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +292.92 | +281.13 | -11.79 |
-| Wire Impact | +54.52 | +47.54 | -6.98 |
-| Total Impact | +347.44 | +328.67 | -18.77 |
+| Trade Impact | +292.92 | +274.85 | -18.07 |
+| Wire Impact | +39.12 | +32.14 | -6.98 |
+| Total Impact | +332.04 | +306.99 | -25.05 |
 
 ## Estimated absences
 
@@ -39,6 +39,7 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | 9 | Jalen Hurts | 0.00 | 16.60 | W1: 24.72, W2: 18.16, W3: 13.62, W4: 13.52, W5: 13.00 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAGAAAAAAAOlGo=) |
 | 9 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
 | 10 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
+| 11 | Terry McLaurin | 0.00 | 7.08 | W1: 2.40, W2: 6.00, W3: 16.70, W6: 3.20 | [Injured reserve: first four team games after placement](https://www.nfl.com/transactions/league/reserve-list/2026/10?after=AAAH6gAAAAoAAAAXAAAAAAAOm_k=) |
 
 ## Confirmed absences without enough baseline data
 
@@ -54,12 +55,12 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 6: Jordyn Tyson.
 - Week 7: Jordyn Tyson.
 - Week 9: De'Von Achane.
-- Week 10: Harrison Mevis.
-- Week 10: Michael Pittman Jr..
 - Week 10: De'Von Achane.
-- Week 11: Jalen Hurts.
-- Week 11: Michael Pittman Jr..
+- Week 10: Michael Pittman Jr..
+- Week 10: Harrison Mevis.
 - Week 11: De'Von Achane.
+- Week 11: Michael Pittman Jr..
+- Week 11: Jalen Hurts.
 
 ## Weekly impact
 
@@ -75,7 +76,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 8 | +39.70 | +30.79 | +36.78 | +41.67 |
 | 9 | +33.60 | +30.72 | +42.20 | +33.74 |
 | 10 | +29.60 | +29.60 | +38.40 | +38.40 |
-| 11 | +68.96 | +68.96 | +70.96 | +70.96 |
+| 11 | +68.96 | +62.68 | +55.56 | +49.28 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -234,10 +235,10 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | QB | Justin Herbert | 22.44 | Dak Prescott | 35.90 |
 | RB | Kyle Monangai | 1.80 | Bucky Irving | 17.50 |
 | RB | Jahmyr Gibbs | 25.80 | James Cook III | 16.20 |
-| WR | Makai Lemon | 0.80 | Nico Collins | 13.30 |
-| WR | Nico Collins | 13.30 | George Pickens | 20.30 |
+| WR | Jordyn Tyson | 1.50 | Nico Collins | 13.30 |
+| WR | Terry McLaurin | 7.08 | George Pickens | 20.30 |
 | TE | Sam LaPorta | 9.20 | Trey McBride | 14.80 |
-| FLEX | Jordyn Tyson | 1.50 | Jahmyr Gibbs | 25.80 |
+| FLEX | Nico Collins | 13.30 | Jahmyr Gibbs | 25.80 |
 | FLEX | Zay Flowers | 12.40 | Zay Flowers | 12.40 |
 | K | Chase McLaughlin | 3.00 | Chase McLaughlin | 3.00 |
 | DEF | Kansas City Chiefs | 8.00 | Kansas City Chiefs | 8.00 |

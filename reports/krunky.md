@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-24T00:05:58.396081+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-24T10:07:33.772637+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -28,7 +28,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Colston Loveland (86.80), Amon-Ra St. Brown (98.80) | Denzel Boston (50.80), Chase Brown (72.30) | 185.60 | 123.10 | +62.50 | scored |
+| krunky / Grand Theft Aubrey | Colston Loveland (86.80), Amon-Ra St. Brown (98.80) | Denzel Boston (50.80), Chase Brown (78.40) | 185.60 | 129.20 | +56.40 | scored |
 
 ### Trade 1413043102498734080
 
@@ -48,7 +48,7 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (48.60), D'Andre Swift (78.90) | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | 127.50 | 120.30 | +7.20 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (55.10), D'Andre Swift (78.90) | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | 134.00 | 120.30 | +13.70 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 
@@ -94,7 +94,7 @@ First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Jaxon Smith-Njigba (0.00) | Stefon Diggs (0.00), Parker Washington (14.30) | 0.00 | 14.30 | -14.30 | scored |
+| krunky / Grand Theft Aubrey | Jaxon Smith-Njigba (0.00) | Stefon Diggs (6.50), Parker Washington (14.30) | 0.00 | 20.80 | -20.80 | scored |
 
 krunky picks received: 2027 round 16 (original roster 11). Value not included in points.
 
@@ -111,7 +111,3 @@ First scoring week: **12**
 krunky picks received: 2027 round 9 (original roster 10). Value not included in points.
 
 krunky picks sent: 2027 round 10 (original roster 9). Value not included in points.
-
-
-Week 11 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-

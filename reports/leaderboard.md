@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-24T00:05:58.396081+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-24T10:07:33.772637+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,14 +11,14 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | TheRealNoodleMan | Gibbs of War | +204.56 | 8 | 8 | Yes |
 | 2 | oneyjb | Bower's Inside Story | +123.26 | 7 | 7 | Yes |
 | 3 | RollnWithJesus | Breach & Touchdown | +110.98 | 6 | 6 | Yes |
-| 4 | krunky | Grand Theft Aubrey | +76.54 | 9 | 10 | Yes |
-| 5 | SethLL | Red Dead Zachdemption | +70.84 | 5 | 7 | Yes |
-| 6 | therealbulker | MidnightClub Rice Edition | +25.08 | 7 | 8 | Yes |
+| 4 | SethLL | Red Dead Zachdemption | +70.84 | 5 | 7 | Yes |
+| 5 | krunky | Grand Theft Aubrey | +70.44 | 9 | 10 | Yes |
+| 6 | therealbulker | MidnightClub Rice Edition | +52.48 | 7 | 8 | Yes |
 | 7 | DiscipleJack | JEFFERSON'S CREED | +1.20 | 1 | 1 | No |
-| 8 | AfootCoronet56 | Suicide Squad (the game) | -16.22 | 5 | 6 | Yes |
-| 9 | lfain20 | Mortal Kombat: DARTside | -57.64 | 5 | 5 | Yes |
-| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -92.36 | 9 | 12 | Yes |
-| 11 | Potatomain | The Lost Cause Fallacy | -173.70 | 6 | 6 | Yes |
+| 8 | AfootCoronet56 | Suicide Squad (the game) | -10.62 | 6 | 6 | Yes |
+| 9 | lfain20 | Mortal Kombat: DARTside | -67.64 | 5 | 5 | Yes |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -97.96 | 10 | 12 | Yes |
+| 11 | Potatomain | The Lost Cause Fallacy | -185.00 | 6 | 6 | Yes |
 | 12 | Dawg2003 | The Windhelm Nords  | -272.54 | 7 | 7 | Yes |
 
 ### Trade 1397438171741986816
@@ -37,8 +37,8 @@ First scoring week: **1**
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
 | TheRealNoodleMan / Gibbs of War | Rome Odunze (79.30), Ashton Jeanty (152.10), Davante Adams (87.00), Jake Ferguson (54.60) | Sam LaPorta (104.90), Makai Lemon (56.00), Terry McLaurin (38.50), De'Von Achane (21.10) | 373.00 | 220.50 | +152.50 | scored |
-| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (104.90), Terry McLaurin (38.50), De'Von Achane (21.10), Jaxon Smith-Njigba (223.66) | Kenyon Sadiq (62.10), Davante Adams (87.00), Ja'Marr Chase (161.80), Jake Ferguson (54.60), Chris Olave (132.60) | 388.16 | 498.10 | -109.94 | scored |
-| AfootCoronet56 / Suicide Squad (the game) | Makai Lemon (56.00), Kenyon Sadiq (62.10), Ja'Marr Chase (161.80), Chris Olave (132.60) | Rome Odunze (79.30), Ashton Jeanty (152.10), Jaxon Smith-Njigba (223.66) | 412.50 | 455.06 | -42.56 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Sam LaPorta (104.90), Terry McLaurin (38.50), De'Von Achane (21.10), Jaxon Smith-Njigba (223.66) | Kenyon Sadiq (62.10), Davante Adams (87.00), Ja'Marr Chase (167.40), Jake Ferguson (54.60), Chris Olave (132.60) | 388.16 | 503.70 | -115.54 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Makai Lemon (56.00), Kenyon Sadiq (62.10), Ja'Marr Chase (167.40), Chris Olave (132.60) | Rome Odunze (79.30), Ashton Jeanty (152.10), Jaxon Smith-Njigba (223.66) | 418.10 | 455.06 | -36.96 | scored |
 
 JabneyTheKing picks received: 2027 round 4 (original roster 5). Value not included in points.
 
@@ -99,8 +99,8 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Colston Loveland (86.80), Amon-Ra St. Brown (98.80) | Denzel Boston (50.80), Chase Brown (72.30) | 185.60 | 123.10 | +62.50 | scored |
-| lfain20 / Mortal Kombat: DARTside | Denzel Boston (50.80), Chase Brown (72.30) | Colston Loveland (86.80), Amon-Ra St. Brown (98.80) | 123.10 | 185.60 | -62.50 | scored |
+| krunky / Grand Theft Aubrey | Colston Loveland (86.80), Amon-Ra St. Brown (98.80) | Denzel Boston (50.80), Chase Brown (78.40) | 185.60 | 129.20 | +56.40 | scored |
+| lfain20 / Mortal Kombat: DARTside | Denzel Boston (50.80), Chase Brown (78.40) | Colston Loveland (86.80), Amon-Ra St. Brown (98.80) | 129.20 | 185.60 | -56.40 | scored |
 
 ### Trade 1411406607744577536
 
@@ -170,8 +170,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (112.10) | Josh Allen (128.72), Terry McLaurin (13.40) | 112.10 | 142.12 | -30.02 | scored |
-| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (128.72), Terry McLaurin (13.40) | Ja'Marr Chase (112.10) | 142.12 | 112.10 | +30.02 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Ja'Marr Chase (117.70) | Josh Allen (128.72), Terry McLaurin (13.40) | 117.70 | 142.12 | -24.42 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Josh Allen (128.72), Terry McLaurin (13.40) | Ja'Marr Chase (117.70) | 142.12 | 117.70 | +24.42 | scored |
 
 ### Trade 1414473604535480320
 
@@ -222,8 +222,8 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (48.60), D'Andre Swift (78.90) | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | 127.50 | 120.30 | +7.20 | scored |
-| RollnWithJesus / Breach & Touchdown | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | Stefon Diggs (48.60), D'Andre Swift (78.90) | 120.30 | 127.50 | -7.20 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (55.10), D'Andre Swift (78.90) | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | 134.00 | 120.30 | +13.70 | scored |
+| RollnWithJesus / Breach & Touchdown | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | Stefon Diggs (55.10), D'Andre Swift (78.90) | 120.30 | 134.00 | -13.70 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 
@@ -316,8 +316,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| lfain20 / Mortal Kombat: DARTside | Cam Little (55.00), Omarion Hampton (36.50) | Evan McPherson (30.00), Chase Brown (53.20) | 91.50 | 83.20 | +8.30 | scored |
-| therealbulker / MidnightClub Rice Edition | Evan McPherson (30.00), Chase Brown (53.20) | Cam Little (55.00), Omarion Hampton (36.50) | 83.20 | 91.50 | -8.30 | scored |
+| lfain20 / Mortal Kombat: DARTside | Cam Little (55.00), Omarion Hampton (36.50) | Evan McPherson (40.00), Chase Brown (59.30) | 91.50 | 99.30 | -7.80 | scored |
+| therealbulker / MidnightClub Rice Edition | Evan McPherson (40.00), Chase Brown (59.30) | Cam Little (55.00), Omarion Hampton (36.50) | 99.30 | 91.50 | +7.80 | scored |
 
 lfain20 picks received: 2027 round 3 (original roster 7). Value not included in points.
 
@@ -333,8 +333,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Christian Watson (53.30) | Tee Higgins (83.10), Jaylen Warren (46.50) | 53.30 | 129.60 | -76.30 | scored |
-| therealbulker / MidnightClub Rice Edition | Tee Higgins (83.10), Jaylen Warren (46.50) | Christian Watson (53.30) | 129.60 | 53.30 | +76.30 | scored |
+| Potatomain / The Lost Cause Fallacy | Christian Watson (53.30) | Tee Higgins (94.40), Jaylen Warren (46.50) | 53.30 | 140.90 | -87.60 | scored |
+| therealbulker / MidnightClub Rice Edition | Tee Higgins (94.40), Jaylen Warren (46.50) | Christian Watson (53.30) | 140.90 | 53.30 | +87.60 | scored |
 
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 
@@ -478,12 +478,12 @@ SethLL picks sent: 2027 round 4 (original roster 10). Value not included in poin
 
 ### Trade 1428594595616280576
 
-First scoring week: **12**
+First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | — | Ja'Marr Chase (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| AfootCoronet56 / Suicide Squad (the game) | Ja'Marr Chase (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | — | Ja'Marr Chase (5.60) | 0.00 | 5.60 | -5.60 | scored |
+| AfootCoronet56 / Suicide Squad (the game) | Ja'Marr Chase (5.60) | — | 5.60 | 0.00 | +5.60 | scored |
 
 JabneyTheKing picks received: 2027 round 1 (original roster 5). Value not included in points.
 
@@ -529,8 +529,8 @@ First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Jaxon Smith-Njigba (0.00) | Stefon Diggs (0.00), Parker Washington (14.30) | 0.00 | 14.30 | -14.30 | scored |
-| RollnWithJesus / Breach & Touchdown | Stefon Diggs (0.00), Parker Washington (14.30) | Jaxon Smith-Njigba (0.00) | 14.30 | 0.00 | +14.30 | scored |
+| krunky / Grand Theft Aubrey | Jaxon Smith-Njigba (0.00) | Stefon Diggs (6.50), Parker Washington (14.30) | 0.00 | 20.80 | -20.80 | scored |
+| RollnWithJesus / Breach & Touchdown | Stefon Diggs (6.50), Parker Washington (14.30) | Jaxon Smith-Njigba (0.00) | 20.80 | 0.00 | +20.80 | scored |
 
 krunky picks received: 2027 round 16 (original roster 11). Value not included in points.
 
@@ -590,7 +590,3 @@ krunky picks sent: 2027 round 10 (original roster 9). Value not included in poin
 SethLL picks received: 2027 round 10 (original roster 9). Value not included in points.
 
 SethLL picks sent: 2027 round 9 (original roster 10). Value not included in points.
-
-
-Week 11 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
-
