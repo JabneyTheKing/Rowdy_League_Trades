@@ -5087,7 +5087,7 @@
       "disable_trades": 0,
       "draft_rounds": 3,
       "faab_suggestions": 0,
-      "last_report": 10,
+      "last_report": 11,
       "last_scored_leg": 11,
       "league_average_match": 0,
       "leg": 11,
@@ -39906,6 +39906,29 @@
       "status": "complete",
       "status_updated": 1794384661356,
       "transaction_id": "1426156272448712704",
+      "type": "free_agent",
+      "waiver_budget": []
+    },
+    {
+      "adds": null,
+      "consenter_ids": [
+        7
+      ],
+      "created": 1795529170181,
+      "creator": "994445675729321984",
+      "draft_picks": [],
+      "drops": {
+        "12487": 7
+      },
+      "leg": 11,
+      "metadata": null,
+      "roster_ids": [
+        7
+      ],
+      "settings": null,
+      "status": "complete",
+      "status_updated": 1795529170181,
+      "transaction_id": "1430956690391441408",
       "type": "free_agent",
       "waiver_budget": []
     },
