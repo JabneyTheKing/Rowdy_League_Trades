@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-24T22:37:26.919035+00:00; through Week 11.
+Updated 2026-11-25T08:52:52.774986+00:00; through Week 11.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -17,8 +17,8 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
 | Trade Impact | +23.06 | +32.11 | +9.05 |
-| Wire Impact | +101.30 | +113.16 | +11.86 |
-| Total Impact | +124.36 | +145.27 | +20.91 |
+| Wire Impact | +102.32 | +114.18 | +11.86 |
+| Total Impact | +125.38 | +146.29 | +20.91 |
 
 ## Estimated absences
 
@@ -57,20 +57,20 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 ## Other zero-participation games left unchanged
 
 These are not classified as injuries; they may be healthy scratches or other absences.
-- Week 1: Josh Jacobs.
 - Week 1: Zach Charbonnet.
-- Week 2: Josh Jacobs.
+- Week 1: Josh Jacobs.
 - Week 2: Zach Charbonnet.
-- Week 3: Omar Cooper Jr..
-- Week 3: Josh Jacobs.
+- Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
-- Week 4: Omar Cooper Jr..
+- Week 3: Josh Jacobs.
+- Week 3: Omar Cooper Jr..
 - Week 4: Josh Jacobs.
-- Week 5: Omar Cooper Jr..
+- Week 4: Omar Cooper Jr..
 - Week 5: Josh Jacobs.
+- Week 5: Omar Cooper Jr..
 - Week 6: Josh Jacobs.
-- Week 9: De'Von Achane.
 - Week 9: Travis Etienne Jr..
+- Week 9: De'Von Achane.
 - Week 10: De'Von Achane.
 - Week 11: De'Von Achane.
 
@@ -88,7 +88,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 8 | +31.80 | +25.20 | +54.62 | +44.52 |
 | 9 | +29.30 | +25.28 | +36.38 | +36.54 |
 | 10 | +2.44 | +8.07 | +18.84 | +19.75 |
-| 11 | -0.08 | +7.54 | -2.94 | +11.96 |
+| 11 | -0.08 | +7.54 | -1.92 | +12.98 |
 
 ## Week 1 adjusted optimal lineups
 

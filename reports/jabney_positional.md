@@ -1,6 +1,6 @@
 # Jabney — Positional Value
 
-Updated 2026-11-24T22:37:26.919035+00:00. Through Week 11 (complete).
+Updated 2026-11-25T08:52:52.774986+00:00. Through Week 11 (complete).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -32,6 +32,7 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Waivers: W5–7 | Keon Coleman | Chris Bell | +14.50 | +14.24 | scored |
 | Waivers: W6–7 | C.J. Stroud | Jaylen Wright | +39.70 | +11.01 | scored |
 | Waivers: W4–5 | Jaylen Wright | Zach Ertz | -1.50 | +0.18 | scored |
+| Waivers: pending | Jordan Addison | — | +0.00 | +0.00 | pending |
 | Waivers: W4–4 | Kalif Raymond | Kayshon Boutte | -3.50 | -3.50 | scored |
 | Waivers: W4–11 | Braelon Allen | Tank Bigsby | +88.80 | -17.04 | scored |
 | Waivers: W6–11 | Keenan Allen | — | +45.50 | -33.84 | scored |

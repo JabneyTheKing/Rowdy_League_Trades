@@ -1,23 +1,23 @@
 # Waiver Champion
 
-Updated 2026-11-24T22:37:26.919035+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-25T08:52:52.774986+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
 | Rank | Manager | Team | Net waiver improvement | Claims | FAAB spent | Best transaction |
 |---:|---|---|---:|---:|---:|---|
-| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | 183.50 | 6 | $100 | Braelon Allen (88.80) |
+| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | 183.50 | 7 | $100 | Braelon Allen (88.80) |
 | 2 | lfain20 | Mortal Kombat: DARTside | 114.12 | 4 | $85 | Emanuel Wilson (62.30) |
-| 3 | DiscipleJack | JEFFERSON'S CREED | 96.60 | 3 | $16 | Dalton Schultz (81.60) |
+| 3 | DiscipleJack | JEFFERSON'S CREED | 96.60 | 5 | $28 | Dalton Schultz (81.60) |
 | 4 | Dawg2003 | The Windhelm Nords  | 93.00 | 4 | $45 | Emmett Johnson (46.80) |
 | 5 | Potatomain | The Lost Cause Fallacy | 81.00 | 7 | $95 | Alvin Kamara (78.10) |
-| 6 | AfootCoronet56 | Suicide Squad (the game) | 65.10 | 9 | $43 | Ryan Flournoy (35.60) |
-| 7 | krunky | Grand Theft Aubrey | 47.40 | 10 | $119 | Ollie Gordon II (24.10) |
+| 6 | AfootCoronet56 | Suicide Squad (the game) | 65.10 | 10 | $43 | Ryan Flournoy (35.60) |
+| 7 | krunky | Grand Theft Aubrey | 47.40 | 12 | $120 | Ollie Gordon II (24.10) |
 | 8 | therealbulker | MidnightClub Rice Edition | 30.30 | 10 | $106 | Brian Robinson Jr. (22.30) |
 | 9 | TheRealNoodleMan | Gibbs of War | 11.44 | 11 | $57 | Matthew Stafford (40.44) |
 | 10 | SethLL | Red Dead Zachdemption | 4.60 | 6 | $80 | Fernando Mendoza (30.40) |
 | 11 | RollnWithJesus | Breach & Touchdown | -11.20 | 4 | $25 | Tampa Bay Buccaneers (19.00) |
-| 12 | oneyjb | Bower's Inside Story | -97.42 | 10 | $62 | Tyler Bass (31.00) |
+| 12 | oneyjb | Bower's Inside Story | -97.42 | 11 | $72 | Tyler Bass (31.00) |
 
 ## Individual waiver transactions
 
@@ -67,9 +67,16 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | Kansas City Chiefs | Tampa Bay Buccaneers | $4 | 3–4 | 13.00 | 12.00 | +1.00 | scored |
 | therealbulker | Samaje Perine | Mark Andrews | $10 | 6–7 | 7.60 | 6.70 | +0.90 | scored |
 | Dawg2003 | Joshua Palmer | Tyrone Tracy Jr. | $5 | 3–4 | 0.80 | 0.20 | +0.60 | scored |
+| AfootCoronet56 | New York Giants | Chicago Bears | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | C.J. Stroud | J.J. McCarthy | $12 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| DiscipleJack | Washington Commanders | Carolina Panthers | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing | Jordan Addison | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | krunky | Los Angeles Chargers | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Xavier Hutchinson | Zonovan Knight | $13 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | krunky | Tampa Bay Buccaneers | Los Angeles Rams | $22 | 11–11 | 0.00 | 0.00 | +0.00 | scored |
+| krunky | Brandon Aiyuk | — | $0 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| krunky | Anthony Richardson Sr. | — | $1 | No completed week | 0.00 | 0.00 | +0.00 | pending |
+| oneyjb | Jack Bech | Pat Bryant | $10 | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Cade Otton | Chase McLaughlin | $11 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | SethLL | Carson Wentz | Chicago Bears | $2 | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | therealbulker | Alec Pierce | — | $7 | No completed week | 0.00 | 0.00 | +0.00 | scored |
