@@ -1,120 +1,120 @@
 # Latest Tracker Visuals
 
-Updated 2026-11-26 08:38:39 UTC. Through Week 12 (partial).
+Updated 2026-11-26 21:44:48 UTC. Through Week 12 (partial).
 
 Bookmark this page for the latest images. Links to specific commits are frozen snapshots.
 
 ## Metcalf Vs Conner
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/metcalf_vs_conner.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/metcalf_vs_conner.png?v=202611262144486087720000)
 
-![Metcalf Vs Conner](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/metcalf_vs_conner.png?v=202611260838394928880000)
+![Metcalf Vs Conner](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/metcalf_vs_conner.png?v=202611262144486087720000)
 
 ## Krunky
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky.png?v=202611262144486087720000)
 
-![Krunky](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky.png?v=202611260838394928880000)
+![Krunky](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky.png?v=202611262144486087720000)
 
 ## Ryan
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/ryan.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/ryan.png?v=202611262144486087720000)
 
-![Ryan](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/ryan.png?v=202611260838394928880000)
+![Ryan](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/ryan.png?v=202611262144486087720000)
 
 ## Jabney
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney.png?v=202611262144486087720000)
 
-![Jabney](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney.png?v=202611260838394928880000)
+![Jabney](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney.png?v=202611262144486087720000)
 
 ## Veto Vindicator
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/veto_vindicator.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/veto_vindicator.png?v=202611262144486087720000)
 
-![Veto Vindicator](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/veto_vindicator.png?v=202611260838394928880000)
+![Veto Vindicator](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/veto_vindicator.png?v=202611262144486087720000)
 
 ## Leaderboard
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/leaderboard.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/leaderboard.png?v=202611262144486087720000)
 
-![Leaderboard](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/leaderboard.png?v=202611260838394928880000)
+![Leaderboard](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/leaderboard.png?v=202611262144486087720000)
 
 ## Waiver Champion
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/waiver_champion.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/waiver_champion.png?v=202611262144486087720000)
 
-![Waiver Champion](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/waiver_champion.png?v=202611260838394928880000)
+![Waiver Champion](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/waiver_champion.png?v=202611262144486087720000)
 
 ## Most Improved
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/most_improved.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/most_improved.png?v=202611262144486087720000)
 
-![Most Improved](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/most_improved.png?v=202611260838394928880000)
+![Most Improved](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/most_improved.png?v=202611262144486087720000)
 
 ## Rebuild King
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/rebuild_king.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/rebuild_king.png?v=202611262144486087720000)
 
-![Rebuild King](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/rebuild_king.png?v=202611260838394928880000)
+![Rebuild King](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/rebuild_king.png?v=202611262144486087720000)
 
 ## Jabney Positional
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_positional.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_positional.png?v=202611262144486087720000)
 
-![Jabney Positional](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_positional.png?v=202611260838394928880000)
+![Jabney Positional](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_positional.png?v=202611262144486087720000)
 
 ## Jabney Draft Vs Trades
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_draft_vs_trades.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_draft_vs_trades.png?v=202611262144486087720000)
 
-![Jabney Draft Vs Trades](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_draft_vs_trades.png?v=202611260838394928880000)
+![Jabney Draft Vs Trades](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_draft_vs_trades.png?v=202611262144486087720000)
 
 ## Krunky Positional
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_positional.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_positional.png?v=202611262144486087720000)
 
-![Krunky Positional](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_positional.png?v=202611260838394928880000)
+![Krunky Positional](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_positional.png?v=202611262144486087720000)
 
 ## Krunky Draft Vs Trades
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_draft_vs_trades.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_draft_vs_trades.png?v=202611262144486087720000)
 
-![Krunky Draft Vs Trades](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_draft_vs_trades.png?v=202611260838394928880000)
+![Krunky Draft Vs Trades](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_draft_vs_trades.png?v=202611262144486087720000)
 
 ## Gibbs Of War Team Impact
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_team_impact.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_team_impact.png?v=202611262144486087720000)
 
-![Gibbs Of War Team Impact](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_team_impact.png?v=202611260838394928880000)
+![Gibbs Of War Team Impact](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_team_impact.png?v=202611262144486087720000)
 
 ## Gibbs Of War Injury Adjusted
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_injury_adjusted.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_injury_adjusted.png?v=202611262144486087720000)
 
-![Gibbs Of War Injury Adjusted](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_injury_adjusted.png?v=202611260838394928880000)
+![Gibbs Of War Injury Adjusted](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/gibbs_of_war_injury_adjusted.png?v=202611262144486087720000)
 
 ## Jabney Team Impact
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_team_impact.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_team_impact.png?v=202611262144486087720000)
 
-![Jabney Team Impact](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_team_impact.png?v=202611260838394928880000)
+![Jabney Team Impact](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_team_impact.png?v=202611262144486087720000)
 
 ## Jabney Injury Adjusted
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_injury_adjusted.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_injury_adjusted.png?v=202611262144486087720000)
 
-![Jabney Injury Adjusted](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_injury_adjusted.png?v=202611260838394928880000)
+![Jabney Injury Adjusted](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/jabney_injury_adjusted.png?v=202611262144486087720000)
 
 ## Krunky Team Impact
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_team_impact.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_team_impact.png?v=202611262144486087720000)
 
-![Krunky Team Impact](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_team_impact.png?v=202611260838394928880000)
+![Krunky Team Impact](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_team_impact.png?v=202611262144486087720000)
 
 ## Krunky Injury Adjusted
 
-[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_injury_adjusted.png?v=202611260838394928880000)
+[Open full-size image](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_injury_adjusted.png?v=202611262144486087720000)
 
-![Krunky Injury Adjusted](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_injury_adjusted.png?v=202611260838394928880000)
+![Krunky Injury Adjusted](https://raw.githubusercontent.com/JabneyTheKing/Rowdy_League_Trades/main/visuals/krunky_injury_adjusted.png?v=202611262144486087720000)
 

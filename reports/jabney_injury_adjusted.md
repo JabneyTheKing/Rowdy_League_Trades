@@ -1,6 +1,6 @@
 # Jabney — Injury-Adjusted Team Impact
 
-Updated 2026-11-26T08:38:39.492888+00:00; through Week 12.
+Updated 2026-11-26T21:44:48.608772+00:00; through Week 12.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -62,15 +62,15 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 2: Zach Charbonnet.
 - Week 2: Josh Jacobs.
 - Week 3: Zach Charbonnet.
-- Week 3: Josh Jacobs.
 - Week 3: Omar Cooper Jr..
-- Week 4: Josh Jacobs.
+- Week 3: Josh Jacobs.
 - Week 4: Omar Cooper Jr..
-- Week 5: Josh Jacobs.
+- Week 4: Josh Jacobs.
 - Week 5: Omar Cooper Jr..
+- Week 5: Josh Jacobs.
 - Week 6: Josh Jacobs.
-- Week 9: De'Von Achane.
 - Week 9: Travis Etienne Jr..
+- Week 9: De'Von Achane.
 - Week 10: De'Von Achane.
 - Week 11: De'Von Achane.
 - Week 12: Davante Adams.
@@ -264,7 +264,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | QB | Kirk Cousins | 0.00 | Kirk Cousins | 0.00 |
 | RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
 | RB | Quinshon Judkins | 0.00 | Kyren Williams | 14.50 |
-| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
+| WR | Luther Burden III | 6.00 | Luther Burden III | 6.00 |
 | WR | Antonio Williams | 0.00 | Germie Bernard | 0.00 |
 | TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
 | FLEX | Jadarian Price | 0.00 | Antonio Williams | 0.00 |

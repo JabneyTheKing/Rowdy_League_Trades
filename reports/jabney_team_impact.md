@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-11-26T08:38:39.492888+00:00. Through Week 12 (PARTIAL).
+Updated 2026-11-26T21:44:48.608772+00:00. Through Week 12 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,10 +14,10 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1332.86 |
-| Draft + trades only | 1393.04 |
-| Draft + waiver / FA moves only | 1434.16 |
-| All moves (weekly team) | 1471.72 |
+| Original draft | 1338.86 |
+| Draft + trades only | 1399.04 |
+| Draft + waiver / FA moves only | 1440.16 |
+| All moves (weekly team) | 1477.72 |
 
 | Attribution | Improvement |
 |---|---:|
@@ -40,7 +40,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 9 | 135.26 | 160.00 | 142.34 | 171.64 | 7.08 | 29.30 | 36.38 |
 | 10 | 111.64 | 109.02 | 128.04 | 130.48 | 16.40 | 2.44 | 18.84 |
 | 11 | 100.94 | 115.46 | 98.08 | 98.00 | -2.86 | -0.08 | -2.94 |
-| 12 | 0.00 | 14.50 | 0.00 | 14.50 | 0.00 | 14.50 | 14.50 |
+| 12 | 6.00 | 20.50 | 6.00 | 20.50 | 0.00 | 14.50 | 14.50 |
 
 ## Current roster inventory
 
@@ -211,7 +211,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 | QB | Kirk Cousins | 0.00 | Kirk Cousins | 0.00 |
 | RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
 | RB | Quinshon Judkins | 0.00 | Kyren Williams | 14.50 |
-| WR | Luther Burden III | 0.00 | Luther Burden III | 0.00 |
+| WR | Luther Burden III | 6.00 | Luther Burden III | 6.00 |
 | WR | Antonio Williams | 0.00 | Germie Bernard | 0.00 |
 | TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
 | FLEX | Jadarian Price | 0.00 | Antonio Williams | 0.00 |

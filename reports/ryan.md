@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-26T08:38:39.492888+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-26T21:44:48.608772+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -22,7 +22,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (65.50), Chris Olave (75.60) | Saquon Barkley (49.20), Jameson Williams (98.30) | 141.10 | 147.50 | -6.40 | scored |
+| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (65.50), Chris Olave (75.60) | Saquon Barkley (49.20), Jameson Williams (108.40) | 141.10 | 157.60 | -16.50 | scored |
 
 ### Trade 1412618520205746176
 
