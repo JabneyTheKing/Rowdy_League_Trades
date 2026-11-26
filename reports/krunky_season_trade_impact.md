@@ -1,6 +1,6 @@
 # How Krunky’s trades have impacted the season
 
-Updated 2026-11-25T21:51:16.161210+00:00. Through Week 11 (complete).
+Updated 2026-11-26T08:38:39.492888+00:00. Through Week 12 (partial).
 
 Under the stated lineup and waiver assumptions, Krunky’s trades have **added 75.28 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
 
@@ -14,8 +14,8 @@ The drafted roster is a starting inventory, not a requirement to field unavailab
 
 | Roster scenario | Season-to-date optimal points, including temporary cover |
 |---|---:|
-| Original drafted team | 1499.15 |
-| Draft plus eligible trades only | 1616.39 |
+| Original drafted team | 1499.35 |
+| Draft plus eligible trades only | 1616.59 |
 | Draft plus recorded waiver/free-agent moves only | 1504.50 |
 | Team after all eligible moves | 1579.78 |
 
@@ -23,7 +23,7 @@ The drafted roster is a starting inventory, not a requirement to field unavailab
 
 **Trades considered without wire moves: +117.24.** This answers a different question: how did trades change the original draft, with temporary waiver coverage allowed on both sides?
 
-**Wire baseline impact: +5.35.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+80.63 total improvement**.
+**Wire baseline impact: +5.15.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+80.43 total improvement**.
 
 The trade/wire interaction is **-41.96**, already included in the main trade impact. It measures how the value of trading changes when the recorded wire moves are also available; it must not be added again.
 
@@ -41,7 +41,8 @@ The trade/wire interaction is **-41.96**, already included in the main trade imp
 | 8 | 138.58 | 114.38 | 128.18 | +13.80 |
 | 9 | 121.36 | 128.54 | 145.16 | +16.62 |
 | 10 | 137.87 | 160.04 | 138.34 | -21.70 |
-| 11 | 126.44 | 121.26 | 112.14 | -9.12 |
+| 11 | 126.64 | 121.26 | 112.14 | -9.12 |
+| 12 | 0.00 | 0.00 | 0.00 | +0.00 |
 
 The highest weekly trading impact was Week 6 (+26.76); the lowest was Week 5 (-25.08).
 

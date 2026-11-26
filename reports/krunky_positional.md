@@ -1,6 +1,6 @@
 # Krunky — Positional Value
 
-Updated 2026-11-25T21:51:16.161210+00:00. Through Week 11 (complete).
+Updated 2026-11-26T08:38:39.492888+00:00. Through Week 12 (PARTIAL; available scores and baselines will change).
 
 Weekly value = league fantasy points minus the average of that week’s top participating players at the same position. Pools: QB 12, RB 30, WR 42, TE 12, K 12, DEF 12. RB/WR depths allow for the two flex spots. Actual league scoring includes TE premium. Byes and missed games contribute zero, not a negative baseline. An active player scoring zero does receive the baseline deduction. Partial weeks are provisional. Negative values mean below this benchmark, not a negative real-life contribution. Picks/FAAB are unvalued.
 
@@ -24,7 +24,7 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | Trade 7 | Michael Mayer | DK Metcalf | +3.80 | -18.90 | scored |
 | Trade 8 | Wan'Dale Robinson | Omar Cooper Jr., Michael Mayer | -2.70 | +24.32 | scored |
 | Trade 9 | Jaxon Smith-Njigba | Stefon Diggs, Parker Washington | -20.80 | +4.88 | scored |
-| Trade 10 | — | Kenyon Sadiq | +0.00 | +0.00 | pending |
+| Trade 10 | — | Kenyon Sadiq | +0.00 | +0.00 | scored |
 
 ## Weekly positional baselines
 
@@ -41,3 +41,4 @@ Only eligible transactions since August 23 count. Trade and acquisition scoring 
 | 9 | 23.56 (n=12) | 13.24 (n=30) | 13.97 (n=42) | 14.51 (n=12) | 14.67 (n=12) | 13.58 (n=12) |
 | 10 | 26.39 (n=12) | 17.10 (n=30) | 14.15 (n=42) | 13.29 (n=12) | 11.67 (n=12) | 12.08 (n=12) |
 | 11 | 22.41 (n=12) | 14.04 (n=30) | 12.84 (n=42) | 13.72 (n=12) | 13.58 (n=12) | 10.67 (n=12) |
+| 12 | 7.61 (n=2) | 8.73 (n=6) | 3.25 (n=11) | 1.59 (n=7) | 9.00 (n=3) | 7.50 (n=2) |

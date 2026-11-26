@@ -1,6 +1,6 @@
 # Krunky — Team Impact
 
-Updated 2026-11-25T21:51:16.161210+00:00. Through Week 11 (complete).
+Updated 2026-11-26T08:38:39.492888+00:00. Through Week 12 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -14,16 +14,16 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 
 | Scenario | Cumulative optimal points |
 |---|---:|
-| Original draft | 1499.15 |
-| Draft + trades only | 1616.39 |
+| Original draft | 1499.35 |
+| Draft + trades only | 1616.59 |
 | Draft + waiver / FA moves only | 1504.50 |
 | All moves (weekly team) | 1579.78 |
 
 | Attribution | Improvement |
 |---|---:|
-| Waiver / FA baseline impact | +5.35 |
+| Waiver / FA baseline impact | +5.15 |
 | Trade impact with wire moves held fixed | +75.28 |
-| **Total improvement** | **+80.63** |
+| **Total improvement** | **+80.43** |
 | Trades-only effect (reference, not additive) | +117.24 |
 | Trade / wire interaction (included in trade impact) | -41.96 |
 
@@ -39,13 +39,14 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 8 | 138.58 | 158.50 | 114.38 | 128.18 | -24.20 | 13.80 | -10.40 |
 | 9 | 121.36 | 144.56 | 128.54 | 145.16 | 7.18 | 16.62 | 23.80 |
 | 10 | 137.87 | 124.27 | 160.04 | 138.34 | 22.17 | -21.70 | 0.47 |
-| 11 | 126.44 | 121.94 | 121.26 | 112.14 | -5.18 | -9.12 | -14.30 |
+| 11 | 126.64 | 122.14 | 121.26 | 112.14 | -5.38 | -9.12 | -14.50 |
+| 12 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
 
 ## Current roster inventory
 
 Captured at refresh time; upcoming games and trades are not backfilled into earlier weeks.
 
-Brandon Aubrey, Caleb Williams, Adonai Mitchell, Malik Nabers, Jalen Coker, Jayden Higgins, Elic Ayomanor, Colston Loveland, Travis Kelce, James Conner, D'Andre Swift, Brandon Aiyuk, Jonathan Taylor, Amon-Ra St. Brown, Kenneth Walker III, Anthony Richardson Sr., Jaxon Smith-Njigba, Tampa Bay Buccaneers
+Brandon Aubrey, Caleb Williams, Adonai Mitchell, Malik Nabers, Jalen Coker, Ryan Flournoy, Jayden Higgins, Colston Loveland, Travis Kelce, James Conner, D'Andre Swift, Brandon Aiyuk, Jonathan Taylor, Amon-Ra St. Brown, Kenneth Walker III, Anthony Richardson Sr., Jaxon Smith-Njigba, Tampa Bay Buccaneers
 
 Replaying completed eligible moves from the draft matches this live roster.
 
@@ -202,4 +203,18 @@ Replaying completed eligible moves from the draft matches this live roster.
 | FLEX | DJ Moore | 19.10 | Colston Loveland | 11.90 |
 | FLEX | Parker Washington | 14.30 | Amon-Ra St. Brown | 12.20 |
 | K | Brandon Aubrey | 10.00 | Brandon Aubrey | 10.00 |
+| DEF | Tampa Bay Buccaneers | 0.00 | Tampa Bay Buccaneers | 0.00 |
+## Week 12 — lineup with and without trades
+
+| Slot | Wire-only player | Points | All-moves player | Points |
+|---|---|---:|---|---:|
+| QB | Caleb Williams | 0.00 | Caleb Williams | 0.00 |
+| RB | Ollie Gordon II | 0.00 | James Conner | 0.00 |
+| RB | James Conner | 0.00 | D'Andre Swift | 0.00 |
+| WR | Adonai Mitchell | 0.00 | Adonai Mitchell | 0.00 |
+| WR | Malik Nabers | 0.00 | Malik Nabers | 0.00 |
+| TE | Travis Kelce | 0.00 | Colston Loveland | 0.00 |
+| FLEX | Jalen Coker | 0.00 | Jalen Coker | 0.00 |
+| FLEX | Jayden Higgins | 0.00 | Jayden Higgins | 0.00 |
+| K | Brandon Aubrey | 0.00 | Brandon Aubrey | 0.00 |
 | DEF | Tampa Bay Buccaneers | 0.00 | Tampa Bay Buccaneers | 0.00 |

@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-25T21:51:16.161210+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-26T08:38:39.492888+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -106,8 +106,12 @@ First scoring week: **12**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | — | Kenyon Sadiq (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| krunky / Grand Theft Aubrey | — | Kenyon Sadiq (0.00) | 0.00 | 0.00 | +0.00 | scored |
 
 krunky picks received: 2027 round 9 (original roster 10). Value not included in points.
 
 krunky picks sent: 2027 round 10 (original roster 9). Value not included in points.
+
+
+Week 12 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+

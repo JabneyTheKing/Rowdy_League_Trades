@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-25T21:51:16.161210+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 11.
+Updated 2026-11-26T08:38:39.492888+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -11,15 +11,15 @@ Player production includes bench points and continues after subsequent trades or
 | 1 | TheRealNoodleMan | Gibbs of War | +204.56 | 8 | 8 | Yes |
 | 2 | oneyjb | Bower's Inside Story | +123.26 | 7 | 7 | Yes |
 | 3 | RollnWithJesus | Breach & Touchdown | +110.98 | 6 | 6 | Yes |
-| 4 | SethLL | Red Dead Zachdemption | +70.84 | 5 | 7 | Yes |
-| 5 | krunky | Grand Theft Aubrey | +70.44 | 9 | 10 | Yes |
-| 6 | therealbulker | MidnightClub Rice Edition | +52.48 | 7 | 8 | Yes |
+| 4 | krunky | Grand Theft Aubrey | +70.44 | 10 | 10 | Yes |
+| 5 | SethLL | Red Dead Zachdemption | +56.34 | 7 | 7 | Yes |
+| 6 | therealbulker | MidnightClub Rice Edition | +36.08 | 7 | 8 | Yes |
 | 7 | DiscipleJack | JEFFERSON'S CREED | +1.20 | 1 | 1 | No |
 | 8 | AfootCoronet56 | Suicide Squad (the game) | -10.62 | 6 | 6 | Yes |
 | 9 | lfain20 | Mortal Kombat: DARTside | -67.64 | 5 | 5 | Yes |
-| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -97.96 | 10 | 12 | Yes |
-| 11 | Potatomain | The Lost Cause Fallacy | -185.00 | 6 | 6 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -272.54 | 7 | 7 | Yes |
+| 10 | JabneyTheKing | Josh Jacobs: Most Wanted | -83.46 | 11 | 12 | Yes |
+| 11 | Potatomain | The Lost Cause Fallacy | -170.50 | 6 | 6 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -270.64 | 7 | 7 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -333,8 +333,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Christian Watson (53.30) | Tee Higgins (94.40), Jaylen Warren (46.50) | 53.30 | 140.90 | -87.60 | scored |
-| therealbulker / MidnightClub Rice Edition | Tee Higgins (94.40), Jaylen Warren (46.50) | Christian Watson (53.30) | 140.90 | 53.30 | +87.60 | scored |
+| Potatomain / The Lost Cause Fallacy | Christian Watson (67.80) | Tee Higgins (94.40), Jaylen Warren (46.50) | 67.80 | 140.90 | -73.10 | scored |
+| therealbulker / MidnightClub Rice Edition | Tee Higgins (94.40), Jaylen Warren (46.50) | Christian Watson (67.80) | 140.90 | 67.80 | +73.10 | scored |
 
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 
@@ -350,8 +350,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| therealbulker / MidnightClub Rice Edition | Jordan Mason (24.10) | Colby Parkinson (18.20) | 24.10 | 18.20 | +5.90 | scored |
-| Dawg2003 / The Windhelm Nords  | Colby Parkinson (18.20) | Jordan Mason (24.10) | 18.20 | 24.10 | -5.90 | scored |
+| therealbulker / MidnightClub Rice Edition | Jordan Mason (24.10) | Colby Parkinson (20.10) | 24.10 | 20.10 | +4.00 | scored |
+| Dawg2003 / The Windhelm Nords  | Colby Parkinson (20.10) | Jordan Mason (24.10) | 20.10 | 24.10 | -4.00 | scored |
 
 therealbulker picks received: 2027 round 11 (original roster 9). Value not included in points.
 
@@ -495,8 +495,8 @@ First scoring week: **12**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Kyren Williams (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
-| SethLL / Red Dead Zachdemption | — | Kyren Williams (0.00) | 0.00 | 0.00 | +0.00 | pending |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Kyren Williams (14.50) | — | 14.50 | 0.00 | +14.50 | scored |
+| SethLL / Red Dead Zachdemption | — | Kyren Williams (14.50) | 0.00 | 14.50 | -14.50 | scored |
 
 JabneyTheKing picks received: 2027 round 16 (original roster 10). Value not included in points.
 
@@ -580,8 +580,8 @@ First scoring week: **12**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | — | Kenyon Sadiq (0.00) | 0.00 | 0.00 | +0.00 | pending |
-| SethLL / Red Dead Zachdemption | Kenyon Sadiq (0.00) | — | 0.00 | 0.00 | +0.00 | pending |
+| krunky / Grand Theft Aubrey | — | Kenyon Sadiq (0.00) | 0.00 | 0.00 | +0.00 | scored |
+| SethLL / Red Dead Zachdemption | Kenyon Sadiq (0.00) | — | 0.00 | 0.00 | +0.00 | scored |
 
 krunky picks received: 2027 round 9 (original roster 10). Value not included in points.
 
@@ -590,3 +590,7 @@ krunky picks sent: 2027 round 10 (original roster 9). Value not included in poin
 SethLL picks received: 2027 round 10 (original roster 9). Value not included in points.
 
 SethLL picks sent: 2027 round 9 (original roster 10). Value not included in points.
+
+
+Week 12 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.
+
