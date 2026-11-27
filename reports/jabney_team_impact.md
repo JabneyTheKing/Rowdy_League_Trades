@@ -1,6 +1,6 @@
 # Jabney — Team Impact
 
-Updated 2026-11-27T08:49:48.154509+00:00. Through Week 12 (PARTIAL).
+Updated 2026-11-27T21:28:37.061104+00:00. Through Week 12 (PARTIAL).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -15,16 +15,16 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | Scenario | Cumulative optimal points |
 |---|---:|
 | Original draft | 1344.40 |
-| Draft + trades only | 1399.04 |
+| Draft + trades only | 1405.34 |
 | Draft + waiver / FA moves only | 1445.70 |
-| All moves (weekly team) | 1477.72 |
+| All moves (weekly team) | 1484.02 |
 
 | Attribution | Improvement |
 |---|---:|
 | Waiver / FA baseline impact | +101.30 |
-| Trade impact with wire moves held fixed | +32.02 |
-| **Total improvement** | **+133.32** |
-| Trades-only effect (reference, not additive) | +54.64 |
+| Trade impact with wire moves held fixed | +38.32 |
+| **Total improvement** | **+139.62** |
+| Trades-only effect (reference, not additive) | +60.94 |
 | Trade / wire interaction (included in trade impact) | -22.62 |
 
 | Week | Draft | Trades only | Wire only | All moves | Wire impact | Trade impact | Total gain |
@@ -40,7 +40,7 @@ Each week optimizes the legal starting lineup for four roster scenarios, using t
 | 9 | 135.26 | 160.00 | 142.34 | 171.64 | 7.08 | 29.30 | 36.38 |
 | 10 | 111.64 | 109.02 | 128.04 | 130.48 | 16.40 | 2.44 | 18.84 |
 | 11 | 100.94 | 115.46 | 98.08 | 98.00 | -2.86 | -0.08 | -2.94 |
-| 12 | 11.54 | 20.50 | 11.54 | 20.50 | 0.00 | 8.96 | 8.96 |
+| 12 | 11.54 | 26.80 | 11.54 | 26.80 | 0.00 | 15.26 | 15.26 |
 
 ## Current roster inventory
 
@@ -212,7 +212,7 @@ Replaying completed eligible moves from the draft matches this live roster.
 | RB | Braelon Allen | 0.00 | Braelon Allen | 0.00 |
 | RB | Quinshon Judkins | 0.00 | Kyren Williams | 14.50 |
 | WR | Luther Burden III | 6.00 | Luther Burden III | 6.00 |
-| WR | Antonio Williams | 0.00 | Germie Bernard | 0.00 |
+| WR | Antonio Williams | 0.00 | Germie Bernard | 6.30 |
 | TE | Kenyon Sadiq | 0.00 | Harold Fannin Jr. | 0.00 |
 | FLEX | Jadarian Price | 0.00 | Antonio Williams | 0.00 |
 | FLEX | Keenan Allen | 0.00 | Keenan Allen | 0.00 |

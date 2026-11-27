@@ -1,6 +1,6 @@
 # Krunky — Injury-Adjusted Team Impact
 
-Updated 2026-11-27T08:49:48.154509+00:00; through Week 12.
+Updated 2026-11-27T21:28:37.061104+00:00; through Week 12.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +116.58 | +116.58 | +0.00 |
+| Trade Impact | +105.48 | +105.48 | +0.00 |
 | Wire Impact | +5.15 | +5.15 | +0.00 |
-| Total Impact | +121.73 | +121.73 | +0.00 |
+| Total Impact | +110.63 | +110.63 | +0.00 |
 
 ## Estimated absences
 
@@ -52,9 +52,9 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 10: James Conner.
 - Week 10: Jayden Higgins.
 - Week 10: Kendre Miller.
+- Week 11: Kendre Miller.
 - Week 11: James Conner.
 - Week 11: Jayden Higgins.
-- Week 11: Kendre Miller.
 - Week 12: Kendre Miller.
 
 ## Weekly impact
@@ -72,7 +72,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 9 | +16.62 | +16.62 | +23.80 | +23.80 |
 | 10 | -21.70 | -21.70 | +0.47 | +0.47 |
 | 11 | -9.12 | -9.12 | -14.50 | -14.50 |
-| 12 | +41.30 | +41.30 | +41.30 | +41.30 |
+| 12 | +30.20 | +30.20 | +30.20 | +30.20 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -249,8 +249,8 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | WR | Adonai Mitchell | 0.00 | Adonai Mitchell | 0.00 |
 | WR | Malik Nabers | 0.00 | Malik Nabers | 0.00 |
 | TE | Travis Kelce | 11.10 | Travis Kelce | 11.10 |
-| FLEX | Jalen Coker | 0.00 | Jalen Coker | 0.00 |
-| FLEX | DJ Moore | 2.50 | Amon-Ra St. Brown | 18.10 |
+| FLEX | DJ Moore | 2.50 | Jalen Coker | 0.00 |
+| FLEX | DK Metcalf | 11.10 | Amon-Ra St. Brown | 18.10 |
 | K | Brandon Aubrey | 9.00 | Brandon Aubrey | 9.00 |
 | DEF | Tampa Bay Buccaneers | 0.00 | Tampa Bay Buccaneers | 0.00 |
 

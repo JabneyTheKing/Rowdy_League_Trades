@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-27T08:49:48.154509+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-27T21:28:37.061104+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -124,7 +124,7 @@ First scoring week: **11**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| JabneyTheKing / Josh Jacobs: Most Wanted | Germie Bernard (7.00) | CeeDee Lamb (41.60) | 7.00 | 41.60 | -34.60 | scored |
+| JabneyTheKing / Josh Jacobs: Most Wanted | Germie Bernard (13.30) | CeeDee Lamb (41.60) | 13.30 | 41.60 | -28.30 | scored |
 
 JabneyTheKing picks received: 2027 round 3 (original roster 12). Value not included in points.
 

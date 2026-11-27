@@ -1,23 +1,23 @@
 # Most Improved
 
-Updated 2026-11-27T08:49:48.154509+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-27T21:28:37.061104+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Most Improved Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | TheRealNoodleMan | Gibbs of War | +231.30 | 39.64 | 117.58 | +388.52 |
-| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -89.00 | 183.50 | 128.48 | +222.98 |
+| 1 | TheRealNoodleMan | Gibbs of War | +232.50 | 39.64 | 117.58 | +389.72 |
+| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -82.70 | 183.50 | 128.48 | +229.28 |
 | 3 | DiscipleJack | JEFFERSON'S CREED | -15.70 | 96.60 | 107.22 | +188.12 |
-| 4 | RollnWithJesus | Breach & Touchdown | +111.48 | -11.20 | 74.20 | +174.48 |
+| 4 | RollnWithJesus | Breach & Touchdown | +108.58 | -11.20 | 81.20 | +178.58 |
 | 5 | lfain20 | Mortal Kombat: DARTside | -122.74 | 114.12 | 168.66 | +160.04 |
-| 6 | AfootCoronet56 | Suicide Squad (the game) | -30.02 | 65.10 | 120.06 | +155.14 |
-| 7 | SethLL | Red Dead Zachdemption | +56.34 | -7.40 | 101.88 | +150.82 |
-| 8 | oneyjb | Bower's Inside Story | +192.06 | -124.02 | 74.22 | +142.26 |
-| 9 | krunky | Grand Theft Aubrey | +111.24 | 35.40 | -18.42 | +128.22 |
-| 10 | therealbulker | MidnightClub Rice Edition | +36.08 | 30.30 | 38.62 | +105.00 |
+| 6 | AfootCoronet56 | Suicide Squad (the game) | -30.02 | 65.10 | 121.56 | +156.64 |
+| 7 | SethLL | Red Dead Zachdemption | +56.66 | -7.40 | 101.88 | +151.14 |
+| 8 | oneyjb | Bower's Inside Story | +184.56 | -124.02 | 74.22 | +134.76 |
+| 9 | therealbulker | MidnightClub Rice Edition | +50.08 | 30.30 | 38.62 | +119.00 |
+| 10 | krunky | Grand Theft Aubrey | +100.14 | 35.40 | -18.42 | +117.12 |
 | 11 | Potatomain | The Lost Cause Fallacy | -201.20 | 78.00 | 164.84 | +41.64 |
-| 12 | Dawg2003 | The Windhelm Nords  | -279.84 | 110.60 | 166.30 | -2.94 |
+| 12 | Dawg2003 | The Windhelm Nords  | -280.16 | 110.60 | 165.40 | -4.16 |
 
 ## Free-agent transactions
 
@@ -33,7 +33,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | DiscipleJack | Matt Gay | Eddy Pineiro | 2–10 | 86.00 | 43.00 | +43.00 | scored |
 | krunky | Los Angeles Rams | Atlanta Falcons | 8–10 | 44.00 | 2.00 | +42.00 | scored |
 | lfain20 | Caleb Douglas | Chris Bell | 1–12 | 63.70 | 24.50 | +39.20 | scored |
-| AfootCoronet56 | Rico Dowdle | — | 7–12 | 33.00 | 0.00 | +33.00 | scored |
+| AfootCoronet56 | Rico Dowdle | — | 7–12 | 35.40 | 0.00 | +35.40 | scored |
 | DiscipleJack | J.J. McCarthy | Dontayvion Wicks | 10–11 | 32.34 | 0.00 | +32.34 | scored |
 | TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–10 | 60.30 | 28.10 | +32.20 | scored |
 | therealbulker | Tyler Shough | Malik Willis | 1–3 | 72.38 | 41.18 | +31.20 | scored |
@@ -48,6 +48,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Justice Hill | — | 10–12 | 21.90 | 0.00 | +21.90 | scored |
 | krunky | C.J. Stroud | — | 10–10 | 21.44 | 0.00 | +21.44 | scored |
 | TheRealNoodleMan | Chase McLaughlin | Nick Folk | 7–9 | 34.00 | 13.00 | +21.00 | scored |
+| RollnWithJesus | Chris Boswell | Jason Myers | 11–12 | 20.00 | 0.00 | +20.00 | scored |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | 6–7 | 19.00 | 0.00 | +19.00 | scored |
 | RollnWithJesus | MarShawn Lloyd | — | 5–6 | 17.20 | 0.00 | +17.20 | scored |
 | SethLL | Tyler Bass | Brian Thomas Jr. | 6–6 | 17.00 | 0.00 | +17.00 | scored |
@@ -58,16 +59,15 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | TheRealNoodleMan | Kaelon Black | — | 1–5 | 14.60 | 0.00 | +14.60 | scored |
 | TheRealNoodleMan | Chig Okonkwo | — | 6–7 | 13.90 | 0.00 | +13.90 | scored |
 | Dawg2003 | Raheim Sanders | — | 2–5 | 13.10 | 0.00 | +13.10 | scored |
-| RollnWithJesus | Chris Boswell | Jason Myers | 11–12 | 13.00 | 0.00 | +13.00 | scored |
 | lfain20 | Malik Willis | Jameis Winston | 8–9 | 20.46 | 7.94 | +12.52 | scored |
 | Potatomain | Chase McLaughlin | Oronde Gadsden | 6–6 | 17.00 | 4.70 | +12.30 | scored |
 | Dawg2003 | Samaje Perine | — | 11–12 | 11.70 | 0.00 | +11.70 | scored |
 | TheRealNoodleMan | Rashod Bateman | Kyler Murray | 2–3 | 23.00 | 11.42 | +11.58 | scored |
 | lfain20 | Detroit Lions | — | 11–12 | 11.00 | 0.00 | +11.00 | scored |
 | JabneyTheKing | Kayshon Boutte | — | 1–3 | 10.90 | 0.00 | +10.90 | scored |
-| AfootCoronet56 | Chimere Dike | Courtland Sutton | 11–12 | 10.30 | 0.00 | +10.30 | scored |
 | AfootCoronet56 | New Orleans Saints | Atlanta Falcons | 9–10 | 9.00 | -1.00 | +10.00 | scored |
 | Dawg2003 | Jason Sanders | Cairo Santos | 10–12 | 25.00 | 15.00 | +10.00 | scored |
+| AfootCoronet56 | Chimere Dike | Courtland Sutton | 11–12 | 10.30 | 0.90 | +9.40 | scored |
 | Dawg2003 | Cairo Santos | Tyler Loop | 9–9 | 9.00 | 0.00 | +9.00 | scored |
 | DiscipleJack | Cairo Santos | Matt Gay | 11–12 | 15.00 | 6.00 | +9.00 | scored |
 | TheRealNoodleMan | Ryan Flournoy | — | 7–7 | 9.00 | 0.00 | +9.00 | scored |
@@ -111,7 +111,6 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | DiscipleJack | Roschon Johnson | — | 7–7 | 1.30 | 0.00 | +1.30 | scored |
 | AfootCoronet56 | Kimani Vidal | Chad Ryland | 9–12 | 12.90 | 12.00 | +0.90 | scored |
 | Potatomain | Jaylin Noel | — | 7–9 | 0.70 | 0.00 | +0.70 | scored |
-| Dawg2003 | Darnell Washington | Courtland Sutton | 7–12 | 26.50 | 26.30 | +0.20 | scored |
 | Potatomain | Chris Rodriguez Jr. | AJ Barner | 10–12 | 5.10 | 4.90 | +0.20 | scored |
 | AfootCoronet56 | Atlanta Falcons | Los Angeles Rams | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | DiscipleJack | New York Jets | Chicago Bears | No completed week | 0.00 | 0.00 | +0.00 | scored |
@@ -150,6 +149,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Mason Taylor | Tyler Higbee | 8–12 | 17.50 | 17.80 | -0.30 | scored |
 | lfain20 | Ashton Dulin | Jahan Dotson | 10–12 | 7.50 | 7.80 | -0.30 | scored |
 | krunky | Zonovan Knight | Wan'Dale Robinson | 10–10 | 1.90 | 2.50 | -0.60 | scored |
+| Dawg2003 | Darnell Washington | Courtland Sutton | 7–12 | 26.50 | 27.20 | -0.70 | scored |
 | lfain20 | Kimani Vidal | Rico Dowdle | 6–6 | 5.50 | 6.40 | -0.90 | scored |
 | AfootCoronet56 | San Francisco 49ers | Atlanta Falcons | 6–6 | 5.00 | 6.00 | -1.00 | scored |
 | JabneyTheKing | Tank Bigsby | Tyreek Hill | 3–3 | -1.00 | 0.00 | -1.00 | scored |

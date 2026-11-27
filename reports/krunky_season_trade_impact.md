@@ -1,8 +1,8 @@
 # How Krunky’s trades have impacted the season
 
-Updated 2026-11-27T08:49:48.154509+00:00. Through Week 12 (partial).
+Updated 2026-11-27T21:28:37.061104+00:00. Through Week 12 (partial).
 
-Under the stated lineup and waiver assumptions, Krunky’s trades have **added 116.58 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
+Under the stated lineup and waiver assumptions, Krunky’s trades have **added 105.48 potential starting-lineup points** compared with making the recorded waiver/free-agent moves without making the trades. This is a comparison of weekly optimal lineups, not simply all points received minus all points sent. A bench upgrade earns nothing unless it changes a legal starting lineup.
 
 ## We do not assume he leaves bye or injury holes at zero
 
@@ -14,16 +14,16 @@ The drafted roster is a starting inventory, not a requirement to field unavailab
 
 | Roster scenario | Season-to-date optimal points, including temporary cover |
 |---|---:|
-| Original drafted team | 1547.25 |
+| Original drafted team | 1558.35 |
 | Draft plus eligible trades only | 1705.79 |
-| Draft plus recorded waiver/free-agent moves only | 1552.40 |
+| Draft plus recorded waiver/free-agent moves only | 1563.50 |
 | Team after all eligible moves | 1668.98 |
 
-**Trade impact with wire moves held fixed: +116.58.** All moves minus wire-only is the main measure of how trading changed the team’s available starting production.
+**Trade impact with wire moves held fixed: +105.48.** All moves minus wire-only is the main measure of how trading changed the team’s available starting production.
 
-**Trades considered without wire moves: +158.54.** This answers a different question: how did trades change the original draft, with temporary waiver coverage allowed on both sides?
+**Trades considered without wire moves: +147.44.** This answers a different question: how did trades change the original draft, with temporary waiver coverage allowed on both sides?
 
-**Wire baseline impact: +5.15.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+121.73 total improvement**.
+**Wire baseline impact: +5.15.** This is wire-only minus the covered draft baseline. Together with the main trade impact, it equals **+110.63 total improvement**.
 
 The trade/wire interaction is **-41.96**, already included in the main trade impact. It measures how the value of trading changes when the recorded wire moves are also available; it must not be added again.
 
@@ -42,13 +42,13 @@ The trade/wire interaction is **-41.96**, already included in the main trade imp
 | 9 | 121.36 | 128.54 | 145.16 | +16.62 |
 | 10 | 137.87 | 160.04 | 138.34 | -21.70 |
 | 11 | 126.64 | 121.26 | 112.14 | -9.12 |
-| 12 | 47.90 | 47.90 | 89.20 | +41.30 |
+| 12 | 59.00 | 59.00 | 89.20 | +30.20 |
 
-The highest weekly trading impact was Week 12 (+41.30); the lowest was Week 5 (-25.08).
+The highest weekly trading impact was Week 12 (+30.20); the lowest was Week 5 (-25.08).
 
 ## Injury-adjusted sensitivity
 
-With the separately documented injury estimates, the trade-impact figure is **+116.58**, a change of **+0.00**. The same waiver cover applies, but a player restored by a supported injury estimate can fill the slot instead. Injury credit and waiver cover are never both assigned to the same slot. This remains a limited estimate: unverified injuries and insufficient earlier baselines are not invented.
+With the separately documented injury estimates, the trade-impact figure is **+105.48**, a change of **+0.00**. The same waiver cover applies, but a player restored by a supported injury estimate can fill the slot instead. Injury credit and waiver cover are never both assigned to the same slot. This remains a limited estimate: unverified injuries and insufficient earlier baselines are not invented.
 
 ## What this does and does not establish
 

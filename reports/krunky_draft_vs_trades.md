@@ -1,6 +1,6 @@
 # Krunky — Draft vs. Trades
 
-Updated 2026-11-27T08:49:48.154509+00:00. Through Week 12 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-27T21:28:37.061104+00:00. Through Week 12 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -23,8 +23,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 9 | 121.36 | 144.56 | +23.20 |
 | 10 | 137.87 | 124.27 | -13.60 |
 | 11 | 126.64 | 122.14 | -4.50 |
-| 12 | 47.90 | 89.20 | +41.30 |
-| **Total** | **1547.25** | **1705.79** | **+158.54** |
+| 12 | 59.00 | 89.20 | +30.20 |
+| **Total** | **1558.35** | **1705.79** | **+147.44** |
 
 ## Original drafted roster
 
@@ -194,7 +194,7 @@ Chris Rodriguez Jr., Brandon Aubrey, Caleb Williams, Malik Nabers, Jalen Coker, 
 | WR | Malik Nabers | 0.00 | Marvin Harrison Jr. | 0.00 |
 | WR | Jalen Coker | 0.00 | Malik Nabers | 0.00 |
 | TE | Travis Kelce | 11.10 | Travis Kelce | 11.10 |
-| FLEX | Jayden Higgins | 0.00 | Jalen Coker | 0.00 |
-| FLEX | DJ Moore | 2.50 | Amon-Ra St. Brown | 18.10 |
+| FLEX | DJ Moore | 2.50 | Jalen Coker | 0.00 |
+| FLEX | DK Metcalf | 11.10 | Amon-Ra St. Brown | 18.10 |
 | K | Brandon Aubrey | 9.00 | Brandon Aubrey | 9.00 |
 | DEF | Empty slot | 0.00 | Empty slot | 0.00 |
