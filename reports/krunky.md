@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-26T21:44:48.608772+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-27T08:49:48.154509+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -28,7 +28,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Colston Loveland (86.30), Amon-Ra St. Brown (117.30) | Denzel Boston (50.80), Chase Brown (78.40) | 203.60 | 129.20 | +74.40 | scored |
+| krunky / Grand Theft Aubrey | Colston Loveland (86.30), Amon-Ra St. Brown (116.90) | Denzel Boston (50.80), Chase Brown (78.40) | 203.20 | 129.20 | +74.00 | scored |
 
 ### Trade 1413043102498734080
 
@@ -48,7 +48,7 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| krunky / Grand Theft Aubrey | Stefon Diggs (55.10), D'Andre Swift (104.60) | Ollie Gordon II (51.80), DJ Moore (56.20), Kendre Miller (12.30) | 159.70 | 120.30 | +39.40 | scored |
+| krunky / Grand Theft Aubrey | Stefon Diggs (55.10), D'Andre Swift (104.60) | Ollie Gordon II (51.80), DJ Moore (58.70), Kendre Miller (12.30) | 159.70 | 122.80 | +36.90 | scored |
 
 krunky picks received: 2028 round 16 (original roster 11). Value not included in points.
 

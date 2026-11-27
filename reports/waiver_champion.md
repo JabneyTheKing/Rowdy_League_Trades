@@ -1,6 +1,6 @@
 # Waiver Champion
 
-Updated 2026-11-26T21:44:48.608772+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-27T08:49:48.154509+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Ranked by net roster improvement from successful waiver claims. When a claim also drops a player, net improvement is pickup production minus dropped-player production over the pickup's ownership window. Standalone drops are ignored. Bench points count; free-agent adds are excluded.
 
@@ -8,16 +8,16 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 |---:|---|---|---:|---:|---:|---|
 | 1 | JabneyTheKing | Josh Jacobs: Most Wanted | 183.50 | 7 | $100 | Braelon Allen (88.80) |
 | 2 | lfain20 | Mortal Kombat: DARTside | 114.12 | 4 | $85 | Emanuel Wilson (62.30) |
-| 3 | DiscipleJack | JEFFERSON'S CREED | 96.60 | 5 | $28 | Dalton Schultz (81.60) |
-| 4 | Dawg2003 | The Windhelm Nords  | 93.00 | 4 | $45 | Emmett Johnson (46.80) |
+| 3 | Dawg2003 | The Windhelm Nords  | 110.60 | 4 | $45 | Emmett Johnson (64.40) |
+| 4 | DiscipleJack | JEFFERSON'S CREED | 96.60 | 5 | $28 | Dalton Schultz (81.60) |
 | 5 | Potatomain | The Lost Cause Fallacy | 78.00 | 7 | $95 | Alvin Kamara (78.10) |
 | 6 | AfootCoronet56 | Suicide Squad (the game) | 65.10 | 10 | $43 | Ryan Flournoy (35.60) |
-| 7 | krunky | Grand Theft Aubrey | 35.40 | 13 | $120 | Ollie Gordon II (24.10) |
-| 8 | therealbulker | MidnightClub Rice Edition | 30.30 | 10 | $106 | Brian Robinson Jr. (22.30) |
-| 9 | TheRealNoodleMan | Gibbs of War | 16.04 | 11 | $57 | Matthew Stafford (45.04) |
+| 7 | TheRealNoodleMan | Gibbs of War | 39.64 | 11 | $57 | Matthew Stafford (45.04) |
+| 8 | krunky | Grand Theft Aubrey | 35.40 | 13 | $120 | Ollie Gordon II (24.10) |
+| 9 | therealbulker | MidnightClub Rice Edition | 30.30 | 10 | $106 | Brian Robinson Jr. (22.30) |
 | 10 | SethLL | Red Dead Zachdemption | -7.40 | 6 | $80 | Fernando Mendoza (30.40) |
 | 11 | RollnWithJesus | Breach & Touchdown | -11.20 | 4 | $25 | Tampa Bay Buccaneers (19.00) |
-| 12 | oneyjb | Bower's Inside Story | -107.42 | 11 | $72 | Tyler Bass (21.00) |
+| 12 | oneyjb | Bower's Inside Story | -124.02 | 11 | $72 | Tyler Bass (32.00) |
 
 ## Individual waiver transactions
 
@@ -26,34 +26,33 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | JabneyTheKing | Braelon Allen | Tank Bigsby | $33 | 4–12 | 94.30 | 5.50 | +88.80 | scored |
 | DiscipleJack | Dalton Schultz | — | $7 | 1–12 | 81.60 | 0.00 | +81.60 | scored |
 | Potatomain | Alvin Kamara | — | $6 | 3–12 | 78.10 | 0.00 | +78.10 | scored |
+| Dawg2003 | Emmett Johnson | Dohnte Meyers | $22 | 9–12 | 81.40 | 17.00 | +64.40 | scored |
 | lfain20 | Emanuel Wilson | Jonathon Brooks | $11 | 3–10 | 62.30 | 0.00 | +62.30 | scored |
-| Dawg2003 | Emmett Johnson | Dohnte Meyers | $22 | 9–12 | 63.80 | 17.00 | +46.80 | scored |
 | JabneyTheKing | Keenan Allen | — | $6 | 6–12 | 45.50 | 0.00 | +45.50 | scored |
 | TheRealNoodleMan | Matthew Stafford | Kaelon Black | $25 | 6–12 | 82.24 | 37.20 | +45.04 | scored |
 | Dawg2003 | Kenny Gainwell | Raheim Sanders | $3 | 6–12 | 42.70 | 0.00 | +42.70 | scored |
 | JabneyTheKing | C.J. Stroud | Jaylen Wright | $0 | 6–7 | 40.50 | 0.80 | +39.70 | scored |
 | AfootCoronet56 | Ryan Flournoy | Dameon Pierce | $0 | 8–11 | 35.60 | 0.00 | +35.60 | scored |
 | lfain20 | Jameis Winston | Ted Hurst III | $23 | 5–7 | 40.62 | 5.50 | +35.12 | scored |
+| oneyjb | Tyler Bass | Trey Smack | $0 | 8–12 | 64.00 | 32.00 | +32.00 | scored |
 | SethLL | Fernando Mendoza | Mike Washington Jr. | $33 | 10–12 | 37.80 | 7.40 | +30.40 | scored |
 | AfootCoronet56 | Dameon Pierce | Will Shipley | $15 | 6–7 | 24.30 | 0.00 | +24.30 | scored |
 | krunky | Ollie Gordon II | Marvin Harrison Jr. | $25 | 4–6 | 31.80 | 7.70 | +24.10 | scored |
+| TheRealNoodleMan | Kansas City Chiefs | Washington Commanders | $3 | 9–12 | 42.00 | 19.00 | +23.00 | scored |
 | therealbulker | Brian Robinson Jr. | Quentin Johnston | $5 | 4–5 | 26.80 | 4.50 | +22.30 | scored |
 | krunky | Bryce Young | Tyler Allgeier | $25 | 3–4 | 36.10 | 14.80 | +21.30 | scored |
-| oneyjb | Tyler Bass | Trey Smack | $0 | 8–12 | 53.00 | 32.00 | +21.00 | scored |
 | RollnWithJesus | Tampa Bay Buccaneers | Las Vegas Raiders | $0 | 8–9 | 30.00 | 11.00 | +19.00 | scored |
 | DiscipleJack | Cleveland Browns | Baltimore Ravens | $4 | 7–10 | 24.00 | 6.00 | +18.00 | scored |
 | JabneyTheKing | Keon Coleman | Chris Bell | $6 | 5–7 | 21.10 | 6.60 | +14.50 | scored |
 | therealbulker | Sam Darnold | Terrance Ferguson | $14 | 4–4 | 14.32 | 0.00 | +14.32 | scored |
 | Potatomain | DeMario Douglas | — | $13 | 9–11 | 13.60 | 0.00 | +13.60 | scored |
 | lfain20 | Kendrick Bourne | Roman Wilson | $10 | 6–8 | 13.00 | 0.00 | +13.00 | scored |
-| TheRealNoodleMan | Kansas City Chiefs | Washington Commanders | $3 | 9–12 | 32.00 | 19.00 | +13.00 | scored |
 | AfootCoronet56 | Chad Ryland | New York Jets | $2 | 8–8 | 9.00 | -3.00 | +12.00 | scored |
 | oneyjb | C.J. Stroud | Justin Herbert | $0 | 4–4 | 23.08 | 11.56 | +11.52 | scored |
 | AfootCoronet56 | Chicago Bears | New Orleans Saints | $1 | 11–11 | 17.00 | 8.00 | +9.00 | scored |
 | krunky | Dallas Cowboys | Carolina Panthers | $4 | 7–7 | 4.00 | -3.00 | +7.00 | scored |
 | Potatomain | Minnesota Vikings | Green Bay Packers | $2 | 3–12 | 81.00 | 75.00 | +6.00 | scored |
 | therealbulker | Devaughn Vele | Malik Washington | $25 | 2–6 | 39.00 | 33.90 | +5.10 | scored |
-| oneyjb | Jacksonville Jaguars | Kansas City Chiefs | $5 | 8–12 | 38.00 | 33.00 | +5.00 | scored |
 | oneyjb | Pat Bryant | — | $4 | 10–11 | 4.70 | 0.00 | +4.70 | scored |
 | therealbulker | Brenton Strange | Juwan Johnson | $7 | 11–12 | 4.60 | 0.00 | +4.60 | scored |
 | TheRealNoodleMan | Buffalo Bills | Carolina Panthers | $3 | 4–4 | 5.00 | 1.00 | +4.00 | scored |
@@ -94,10 +93,12 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | krunky | Tampa Bay Buccaneers | Los Angeles Chargers | $2 | 2–2 | 2.00 | 5.00 | -3.00 | scored |
 | TheRealNoodleMan | Indianapolis Colts | Dallas Cowboys | $3 | 6–6 | 2.00 | 5.00 | -3.00 | scored |
 | oneyjb | Germie Bernard | Washington Commanders | $1 | 6–10 | 30.90 | 34.00 | -3.10 | scored |
+| TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | 8–12 | 32.20 | 35.60 | -3.40 | scored |
 | JabneyTheKing | Kalif Raymond | Kayshon Boutte | $28 | 4–4 | 1.60 | 5.10 | -3.50 | scored |
 | therealbulker | Terrance Ferguson | Brenton Strange | $11 | 3–3 | 1.90 | 6.20 | -4.30 | scored |
 | AfootCoronet56 | Xavier Worthy | Konata Mumpfield | $0 | 9–10 | 7.80 | 12.60 | -4.80 | scored |
 | krunky | Omar Cooper Jr. | Kyler Murray | $23 | 7–9 | 29.80 | 34.80 | -5.00 | scored |
+| oneyjb | Jacksonville Jaguars | Kansas City Chiefs | $5 | 8–12 | 38.00 | 43.00 | -5.00 | scored |
 | therealbulker | Michael Mayer | Sam Darnold | $21 | 5–6 | 17.70 | 23.32 | -5.62 | scored |
 | Potatomain | Marvin Harrison Jr. | Tyrone Tracy Jr. | $31 | 4–12 | 22.70 | 29.70 | -7.00 | scored |
 | therealbulker | Cam Little | Chase McLaughlin | $1 | 5–6 | 17.00 | 24.00 | -7.00 | scored |
@@ -110,11 +111,10 @@ Ranked by net roster improvement from successful waiver claims. When a claim als
 | TheRealNoodleMan | Chase McLaughlin | Dominic Zvada | $2 | 11–12 | 3.00 | 15.00 | -12.00 | scored |
 | AfootCoronet56 | Mark Andrews | T.J. Hockenson | $5 | 6–12 | 34.60 | 48.10 | -13.50 | scored |
 | RollnWithJesus | Devin Singletary | Kenny Gainwell | $0 | 2–4 | 0.90 | 14.70 | -13.80 | scored |
-| TheRealNoodleMan | Makai Lemon | Ryan Flournoy | $10 | 8–12 | 18.60 | 35.60 | -17.00 | scored |
 | RollnWithJesus | Las Vegas Raiders | New England Patriots | $20 | 4–7 | 4.00 | 22.00 | -18.00 | scored |
 | SethLL | Cincinnati Bengals | Los Angeles Rams | $10 | 7–12 | 29.00 | 58.00 | -29.00 | scored |
-| oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–12 | 22.60 | 86.60 | -64.00 | scored |
 | oneyjb | Tyler Allgeier | C.J. Stroud | $5 | 5–10 | 54.90 | 119.24 | -64.34 | scored |
+| oneyjb | Kaelon Black | Emmett Johnson | $26 | 8–12 | 22.60 | 104.20 | -81.60 | scored |
 
 
 Week 12 is PARTIAL: available points only; totals are recalculated on every refresh, never appended.

@@ -1,23 +1,23 @@
 # Rebuild King
 
-Updated 2026-11-26T21:44:48.608772+00:00. Season 2026; scored through Week 12. Only moves whose first eligible scoring week is Week 2 or later are included.
+Updated 2026-11-27T08:49:48.154509+00:00. Season 2026; scored through Week 12. Only moves whose first eligible scoring week is Week 2 or later are included.
 
 Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-agent improvement. Add/drop transactions subtract the dropped player's production over the added player's ownership window; standalone drops are ignored.
 
 | Rank | Manager | Team | Trade +/- | Waivers | Free agents | Rebuild King Score |
 |---:|---|---|---:|---:|---:|---:|
-| 1 | JabneyTheKing | Josh Jacobs: Most Wanted | +17.68 | 183.50 | 71.78 | +272.96 |
-| 2 | TheRealNoodleMan | Gibbs of War | +146.30 | 16.04 | 102.98 | +265.32 |
-| 3 | AfootCoronet56 | Suicide Squad (the game) | +36.44 | 65.10 | 120.06 | +221.60 |
-| 4 | RollnWithJesus | Breach & Touchdown | +108.98 | -11.20 | 74.20 | +171.98 |
-| 5 | lfain20 | Mortal Kombat: DARTside | -85.64 | 114.12 | 120.26 | +148.74 |
-| 6 | krunky | Grand Theft Aubrey | +56.34 | 35.40 | 40.88 | +132.62 |
-| 7 | DiscipleJack | JEFFERSON'S CREED | +1.20 | 15.00 | 107.22 | +123.42 |
-| 8 | therealbulker | MidnightClub Rice Edition | +36.08 | 30.30 | 8.52 | +74.90 |
+| 1 | TheRealNoodleMan | Gibbs of War | +201.04 | 39.64 | 102.98 | +343.66 |
+| 2 | JabneyTheKing | Josh Jacobs: Most Wanted | +12.14 | 183.50 | 74.78 | +270.42 |
+| 3 | AfootCoronet56 | Suicide Squad (the game) | +17.04 | 65.10 | 120.06 | +202.20 |
+| 4 | RollnWithJesus | Breach & Touchdown | +111.48 | -11.20 | 74.20 | +174.48 |
+| 5 | krunky | Grand Theft Aubrey | +53.44 | 35.40 | 40.88 | +129.72 |
+| 6 | lfain20 | Mortal Kombat: DARTside | -122.74 | 114.12 | 120.26 | +111.64 |
+| 7 | DiscipleJack | JEFFERSON'S CREED | -15.70 | 15.00 | 107.22 | +106.52 |
+| 8 | therealbulker | MidnightClub Rice Edition | +36.08 | 30.30 | 13.52 | +79.90 |
 | 9 | SethLL | Red Dead Zachdemption | -36.86 | -7.40 | 89.88 | +45.62 |
-| 10 | oneyjb | Bower's Inside Story | +112.92 | -107.42 | -2.50 | +3.00 |
-| 11 | Dawg2003 | The Windhelm Nords  | -270.64 | 93.00 | 166.30 | -11.34 |
-| 12 | Potatomain | The Lost Cause Fallacy | -122.80 | 78.00 | 2.00 | -42.80 |
+| 10 | oneyjb | Bower's Inside Story | +167.32 | -124.02 | -2.50 | +40.80 |
+| 11 | Dawg2003 | The Windhelm Nords  | -279.84 | 110.60 | 166.30 | -2.94 |
+| 12 | Potatomain | The Lost Cause Fallacy | -143.40 | 78.00 | 2.00 | -63.40 |
 
 ## Post-Week-1 free-agent transactions
 
@@ -48,6 +48,7 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | RollnWithJesus | Indianapolis Colts | — | 10–11 | 16.00 | 0.00 | +16.00 | scored |
 | lfain20 | Tyler Higbee | Isaiah Williams | 4–7 | 32.60 | 17.10 | +15.50 | scored |
 | DiscipleJack | T.J. Hockenson | AJ Barner | 7–12 | 48.10 | 32.80 | +15.30 | scored |
+| therealbulker | Buffalo Bills | Adonai Mitchell | 10–12 | 26.00 | 11.40 | +14.60 | scored |
 | TheRealNoodleMan | Chig Okonkwo | — | 6–7 | 13.90 | 0.00 | +13.90 | scored |
 | Dawg2003 | Raheim Sanders | — | 2–5 | 13.10 | 0.00 | +13.10 | scored |
 | RollnWithJesus | Chris Boswell | Jason Myers | 11–12 | 13.00 | 0.00 | +13.00 | scored |
@@ -59,7 +60,6 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | AfootCoronet56 | Chimere Dike | Courtland Sutton | 11–12 | 10.30 | 0.00 | +10.30 | scored |
 | AfootCoronet56 | New Orleans Saints | Atlanta Falcons | 9–10 | 9.00 | -1.00 | +10.00 | scored |
 | Dawg2003 | Jason Sanders | Cairo Santos | 10–12 | 25.00 | 15.00 | +10.00 | scored |
-| therealbulker | Buffalo Bills | Adonai Mitchell | 10–12 | 21.00 | 11.40 | +9.60 | scored |
 | Dawg2003 | Cairo Santos | Tyler Loop | 9–9 | 9.00 | 0.00 | +9.00 | scored |
 | DiscipleJack | Cairo Santos | Matt Gay | 11–12 | 15.00 | 6.00 | +9.00 | scored |
 | TheRealNoodleMan | Ryan Flournoy | — | 7–7 | 9.00 | 0.00 | +9.00 | scored |
@@ -137,11 +137,11 @@ Rebuild King Score = post-Week-1 trade +/- + net waiver improvement + net free-a
 | Dawg2003 | Tyler Loop | Cam Little | 4–8 | 34.00 | 37.00 | -3.00 | scored |
 | SethLL | Seth McGowan | Fernando Mendoza | 7–12 | 33.90 | 37.80 | -3.90 | scored |
 | SethLL | Greg Dulcich | Xavier Worthy | 9–9 | 3.40 | 7.80 | -4.40 | scored |
+| JabneyTheKing | Chig Okonkwo | Chicago Bears | 9–12 | 28.70 | 34.00 | -5.30 | scored |
 | JabneyTheKing | Tyler Allgeier | Daniel Jones | 3–3 | 2.90 | 8.90 | -6.00 | scored |
 | lfain20 | Ted Hurst III | Kenny Gainwell | 4–4 | 3.50 | 9.70 | -6.20 | scored |
 | lfain20 | Dylan Sampson | DeMario Douglas | 8–10 | 21.90 | 28.70 | -6.80 | scored |
 | therealbulker | Chase McLaughlin | Cameron Dicker | 3–4 | 14.00 | 21.00 | -7.00 | scored |
-| JabneyTheKing | Chig Okonkwo | Chicago Bears | 9–12 | 28.70 | 37.00 | -8.30 | scored |
 | krunky | Rachaad White | Michael Penix Jr. | 6–6 | 13.70 | 23.10 | -9.40 | scored |
 | JabneyTheKing | Kirk Cousins | C.J. Stroud | 8–12 | 68.60 | 79.26 | -10.66 | scored |
 | Potatomain | Green Bay Packers | Minnesota Vikings | 2–2 | 5.00 | 18.00 | -13.00 | scored |

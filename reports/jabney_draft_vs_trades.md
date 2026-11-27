@@ -1,6 +1,6 @@
 # Jabney — Draft vs. Trades
 
-Updated 2026-11-26T21:44:48.608772+00:00. Through Week 12 (PARTIAL; available scores and baselines will change).
+Updated 2026-11-27T08:49:48.154509+00:00. Through Week 12 (PARTIAL; available scores and baselines will change).
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -23,8 +23,8 @@ Each week compares two hindsight-optimal legal starting lineups using raw league
 | 9 | 135.26 | 160.00 | +24.74 |
 | 10 | 111.64 | 109.02 | -2.62 |
 | 11 | 100.94 | 115.46 | +14.52 |
-| 12 | 6.00 | 20.50 | +14.50 |
-| **Total** | **1338.86** | **1399.04** | **+60.18** |
+| 12 | 11.54 | 20.50 | +8.96 |
+| **Total** | **1344.40** | **1399.04** | **+54.64** |
 
 ## Original drafted roster
 
@@ -188,7 +188,7 @@ Quinshon Judkins, Luther Burden III, Tyler Loop, Omar Cooper Jr., Jadarian Price
 
 | Slot | Drafted player | Points | Trade-adjusted player | Points |
 |---|---|---:|---|---:|
-| QB | Josh Allen | 0.00 | Lamar Jackson | 0.00 |
+| QB | Josh Allen | 5.54 | Lamar Jackson | 0.00 |
 | RB | Quinshon Judkins | 0.00 | Josh Jacobs | 0.00 |
 | RB | Jadarian Price | 0.00 | Kyren Williams | 14.50 |
 | WR | Luther Burden III | 6.00 | Luther Burden III | 6.00 |

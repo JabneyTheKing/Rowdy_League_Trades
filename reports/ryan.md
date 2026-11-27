@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-26T21:44:48.608772+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-27T08:49:48.154509+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -22,7 +22,7 @@ First scoring week: **4**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (65.50), Chris Olave (75.60) | Saquon Barkley (49.20), Jameson Williams (108.40) | 141.10 | 157.60 | -16.50 | scored |
+| Potatomain / The Lost Cause Fallacy | Aaron Jones Sr. (65.50), Chris Olave (75.60) | Saquon Barkley (49.90), Jameson Williams (109.30) | 141.10 | 159.20 | -18.10 | scored |
 
 ### Trade 1412618520205746176
 
@@ -30,7 +30,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (54.90), Jaxon Smith-Njigba (123.00) | James Cook III (116.80), Chris Olave (60.00) | 177.90 | 176.80 | +1.10 | scored |
+| Potatomain / The Lost Cause Fallacy | Quinshon Judkins (54.90), Jaxon Smith-Njigba (123.00) | James Cook III (135.80), Chris Olave (60.00) | 177.90 | 195.80 | -17.90 | scored |
 
 ### Trade 1413329747487772672
 

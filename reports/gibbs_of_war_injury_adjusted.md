@@ -1,6 +1,6 @@
 # Gibbs of War — Injury-Adjusted Team Impact
 
-Updated 2026-11-26T21:44:48.608772+00:00; through Week 12.
+Updated 2026-11-27T08:49:48.154509+00:00; through Week 12.
 ## Temporary waiver coverage
 
 Use rostered players with recorded game participation first. Fill remaining legal slots with a temporary waiver estimate: the mean of the five highest-scoring available players at that position that week (fewer if fewer exist). Availability is reconstructed from the draft and completed league transactions: unowned at the first NFL game's calendar-day start, clear of the league's drop-to-waiver delay, and not acquired by any team during that NFL week. Exclude players already in the hypothetical roster. Multiple replacement slots use distinct candidates from that sample, each valued at the sample mean; a sample player cannot cover two slots. Use actual league scoring, not top-12/24 starter averages. Replacements do not persist to future weeks or count as real transactions. This is a hindsight, optimistic pickup assumption, not guaranteed claim success or a forecast. Nonparticipation can reflect injury, bye or another absence; no injury diagnosis is inferred. No auto-upgrade for a participating starter who scored poorly. Partial weeks get no replacement estimates until complete. All roster scenarios use this same rule. No cap/FAAB constraints or changes to other managers' choices are simulated.
@@ -16,9 +16,9 @@ Wire impact = wire-only minus draft. Trade impact = all-moves minus wire-only, i
 
 | Metric | Actual | Injury-adjusted estimate | Adjustment |
 |---|---:|---:|---:|
-| Trade Impact | +278.52 | +260.45 | -18.07 |
-| Wire Impact | +43.72 | +36.74 | -6.98 |
-| Total Impact | +322.24 | +297.19 | -25.05 |
+| Trade Impact | +328.66 | +310.59 | -18.07 |
+| Wire Impact | +53.72 | +46.74 | -6.98 |
+| Total Impact | +382.38 | +357.33 | -25.05 |
 
 ## Estimated absences
 
@@ -55,12 +55,13 @@ These are not classified as injuries; they may be healthy scratches or other abs
 - Week 6: Jordyn Tyson.
 - Week 7: Jordyn Tyson.
 - Week 9: De'Von Achane.
-- Week 10: Michael Pittman Jr..
 - Week 10: Harrison Mevis.
+- Week 10: Michael Pittman Jr..
 - Week 10: De'Von Achane.
 - Week 11: Jalen Hurts.
 - Week 11: Michael Pittman Jr..
 - Week 11: De'Von Achane.
+- Week 12: Jalen Hurts.
 
 ## Weekly impact
 
@@ -77,7 +78,7 @@ These are not classified as injuries; they may be healthy scratches or other abs
 | 9 | +33.60 | +30.72 | +42.20 | +33.74 |
 | 10 | +29.60 | +29.60 | +38.40 | +38.40 |
 | 11 | +68.96 | +62.68 | +55.56 | +49.28 |
-| 12 | -14.40 | -14.40 | -9.80 | -9.80 |
+| 12 | +35.74 | +35.74 | +50.34 | +50.34 |
 
 ## Week 1 adjusted optimal lineups
 
@@ -248,16 +249,16 @@ These are not classified as injuries; they may be healthy scratches or other abs
 
 | Slot | Wire-only player | Points | All-moves player | Points |
 |---|---|---:|---|---:|
-| QB | Matthew Stafford | 4.60 | Matthew Stafford | 4.60 |
+| QB | Matthew Stafford | 4.60 | Dak Prescott | 26.54 |
 | RB | Woody Marks | 0.00 | Bucky Irving | 0.00 |
-| RB | Kyle Monangai | 15.40 | Woody Marks | 0.00 |
-| WR | Jordyn Tyson | 0.00 | Jordyn Tyson | 0.00 |
-| WR | Makai Lemon | 0.00 | Makai Lemon | 0.00 |
+| RB | Kyle Monangai | 15.40 | Kyle Monangai | 15.40 |
+| WR | Jordyn Tyson | 0.00 | Makai Lemon | 13.60 |
+| WR | Makai Lemon | 13.60 | George Pickens | 9.20 |
 | TE | Sam LaPorta | 14.40 | Trey McBride | 0.00 |
-| FLEX | KC Concepcion Jr. | 0.00 | Kyle Monangai | 15.40 |
-| FLEX | Jahmyr Gibbs | 43.20 | Jahmyr Gibbs | 43.20 |
+| FLEX | KC Concepcion Jr. | 0.00 | James Cook III | 19.00 |
+| FLEX | Jahmyr Gibbs | 45.70 | Jahmyr Gibbs | 45.70 |
 | K | Chase McLaughlin | 0.00 | Chase McLaughlin | 0.00 |
-| DEF | Kansas City Chiefs | 0.00 | Kansas City Chiefs | 0.00 |
+| DEF | Kansas City Chiefs | 10.00 | Kansas City Chiefs | 10.00 |
 
 ## Source health
 
