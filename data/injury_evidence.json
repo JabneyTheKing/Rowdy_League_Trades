@@ -6,7 +6,7 @@
   "reserve": {
     "2026-08": {
       "complete": false,
-      "fetched_at": "2026-11-28T08:07:51.738221+00:00",
+      "fetched_at": "2026-11-28T20:22:20.830297+00:00",
       "rows": [
         {
           "date": "2026-08-24",
@@ -2258,7 +2258,7 @@
     },
     "2026-11": {
       "complete": false,
-      "fetched_at": "2026-11-28T08:07:52.016967+00:00",
+      "fetched_at": "2026-11-28T20:22:20.992052+00:00",
       "rows": [
         {
           "date": "2026-11-03",
@@ -2804,7 +2804,7 @@
     }
   },
   "season": "2026",
-  "updated_at": "2026-11-28T08:07:52.017279+00:00",
+  "updated_at": "2026-11-28T20:22:20.992621+00:00",
   "weekly": {
     "1": {
       "complete": true,
@@ -8723,7 +8723,7 @@
     },
     "12": {
       "complete": false,
-      "fetched_at": "2026-11-28T08:07:50.631717+00:00",
+      "fetched_at": "2026-11-28T20:22:18.944936+00:00",
       "rows": [
         {
           "injury": "",
@@ -9500,7 +9500,7 @@
           "name": "David Onyemata",
           "position": "DT",
           "practice": "Full Participation in Practice",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "injury": "",
@@ -9811,6 +9811,13 @@
           "status": ""
         },
         {
+          "injury": "Hamstring",
+          "name": "Elijah Campbell",
+          "position": "S",
+          "practice": "",
+          "status": "Out"
+        },
+        {
           "injury": "",
           "name": "Abdul Carter",
           "position": "LB",
@@ -9846,11 +9853,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Neck",
           "name": "Andru Phillips",
           "position": "CB",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -11001,11 +11008,11 @@
           "status": ""
         },
         {
-          "injury": "Hip",
+          "injury": "",
           "name": "Raheim Sanders",
           "position": "RB",
           "practice": "Limited Participation in Practice",
-          "status": "Questionable"
+          "status": ""
         },
         {
           "injury": "",
@@ -11022,11 +11029,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Groin",
           "name": "Jonathon Brooks",
           "position": "RB",
           "practice": "Full Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -11036,31 +11043,31 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Wrist",
           "name": "Feleipe Franks",
           "position": "TE",
-          "practice": "Limited Participation in Practice",
-          "status": ""
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Calf",
           "name": "Thomas Incoom",
           "position": "LB",
-          "practice": "Limited Participation in Practice",
-          "status": ""
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Patrick Jones II",
           "position": "LB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
           "name": "Jackson Kuwatch",
           "position": "LB",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -11071,11 +11078,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Foot",
           "name": "Bobby Okereke",
           "position": "LB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -11106,24 +11113,24 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Back, Back",
           "name": "SirVocea Dennis",
           "position": "LB",
-          "practice": "Limited Participation in Practice",
-          "status": ""
+          "practice": "Did Not Participate In Practice",
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Knee",
           "name": "Josh Hayes",
           "position": "CB",
           "practice": "Full Participation in Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
           "name": "Tez Johnson",
           "position": "WR",
-          "practice": "Did Not Participate In Practice",
+          "practice": "Full Participation in Practice",
           "status": ""
         },
         {
@@ -11134,18 +11141,18 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Knee, Calf",
           "name": "Jalen McMillan",
           "position": "WR",
           "practice": "Limited Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Hamstring, Back",
           "name": "Benjamin Morrison",
           "position": "CB",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         },
         {
           "injury": "",
@@ -11162,18 +11169,18 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Finger",
           "name": "Christian Rozeboom",
           "position": "LB",
           "practice": "Full Participation in Practice",
-          "status": ""
+          "status": "Questionable"
         },
         {
-          "injury": "",
+          "injury": "Concussion",
           "name": "Elijah Simmons",
           "position": "DT",
-          "practice": "Limited Participation in Practice",
-          "status": ""
+          "practice": "Full Participation in Practice",
+          "status": "Questionable"
         },
         {
           "injury": "",
@@ -11183,11 +11190,11 @@
           "status": ""
         },
         {
-          "injury": "",
+          "injury": "Ankle",
           "name": "Antoine Winfield Jr.",
           "position": "S",
           "practice": "Did Not Participate In Practice",
-          "status": ""
+          "status": "Out"
         }
       ],
       "url": "https://www.nfl.com/injuries/league/2026/reg12"
