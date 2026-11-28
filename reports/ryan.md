@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-27T21:28:37.061104+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-28T08:07:32.700197+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -38,7 +38,7 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Jaylen Warren (92.00), Puka Nacua (105.50) | Aaron Jones Sr. (50.70), Jaxon Smith-Njigba (123.00) | 197.50 | 173.70 | +23.80 | scored |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (94.20), Puka Nacua (105.50) | Aaron Jones Sr. (50.70), Jaxon Smith-Njigba (123.00) | 199.70 | 173.70 | +26.00 | scored |
 
 ### Trade 1418087545975111680
 
@@ -58,7 +58,7 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Christian Watson (67.80) | Tee Higgins (94.40), Jaylen Warren (49.40) | 67.80 | 143.80 | -76.00 | scored |
+| Potatomain / The Lost Cause Fallacy | Christian Watson (67.80) | Tee Higgins (94.40), Jaylen Warren (51.60) | 67.80 | 146.00 | -78.20 | scored |
 
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 

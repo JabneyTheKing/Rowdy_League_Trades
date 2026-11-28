@@ -1,6 +1,6 @@
 # Most Improved
 
-Updated 2026-11-27T21:28:37.061104+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-28T08:07:32.700197+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Most Improved Score = trade +/- + net waiver improvement + net free-agent improvement. For an add/drop transaction, acquisition improvement is added-player production minus dropped-player production over the added player's ownership window. Standalone drops are ignored. Bench points count. All components use the same August 23 transaction cutoff.
 
@@ -9,22 +9,22 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | 1 | TheRealNoodleMan | Gibbs of War | +232.50 | 39.64 | 117.58 | +389.72 |
 | 2 | JabneyTheKing | Josh Jacobs: Most Wanted | -82.70 | 183.50 | 128.48 | +229.28 |
 | 3 | DiscipleJack | JEFFERSON'S CREED | -15.70 | 96.60 | 107.22 | +188.12 |
-| 4 | RollnWithJesus | Breach & Touchdown | +108.58 | -11.20 | 81.20 | +178.58 |
-| 5 | lfain20 | Mortal Kombat: DARTside | -122.74 | 114.12 | 168.66 | +160.04 |
-| 6 | AfootCoronet56 | Suicide Squad (the game) | -30.02 | 65.10 | 121.56 | +156.64 |
-| 7 | SethLL | Red Dead Zachdemption | +56.66 | -7.40 | 101.88 | +151.14 |
-| 8 | oneyjb | Bower's Inside Story | +184.56 | -124.02 | 74.22 | +134.76 |
-| 9 | therealbulker | MidnightClub Rice Edition | +50.08 | 30.30 | 38.62 | +119.00 |
+| 4 | RollnWithJesus | Breach & Touchdown | +106.38 | -11.20 | 84.20 | +179.38 |
+| 5 | lfain20 | Mortal Kombat: DARTside | -118.54 | 114.12 | 168.66 | +164.24 |
+| 6 | AfootCoronet56 | Suicide Squad (the game) | -30.02 | 65.10 | 125.06 | +160.14 |
+| 7 | SethLL | Red Dead Zachdemption | +52.88 | -7.40 | 102.98 | +148.46 |
+| 8 | oneyjb | Bower's Inside Story | +180.36 | -124.02 | 74.22 | +130.56 |
+| 9 | therealbulker | MidnightClub Rice Edition | +52.28 | 30.30 | 38.62 | +121.20 |
 | 10 | krunky | Grand Theft Aubrey | +100.14 | 35.40 | -18.42 | +117.12 |
 | 11 | Potatomain | The Lost Cause Fallacy | -201.20 | 78.00 | 164.84 | +41.64 |
-| 12 | Dawg2003 | The Windhelm Nords  | -280.16 | 110.60 | 165.40 | -4.16 |
+| 12 | Dawg2003 | The Windhelm Nords  | -276.38 | 110.60 | 165.40 | -0.38 |
 
 ## Free-agent transactions
 
 | Manager | Added | Dropped in transaction | Weeks compared | Added points | Dropped points | Net improvement | Status |
 |---|---|---|---|---:|---:|---:|---|
 | Potatomain | Jordan Love | Brian Robinson Jr. | 1–12 | 213.44 | 50.60 | +162.84 | scored |
-| SethLL | Pat Freiermuth | Carson Wentz | 2–12 | 83.90 | 6.72 | +77.18 | scored |
+| SethLL | Pat Freiermuth | Carson Wentz | 2–12 | 85.00 | 6.72 | +78.28 | scored |
 | Dawg2003 | Mike Gesicki | Colbie Young | 2–12 | 76.00 | 8.80 | +67.20 | scored |
 | JabneyTheKing | Kirk Cousins | — | 4–6 | 56.84 | 0.00 | +56.84 | scored |
 | AfootCoronet56 | Malik Washington | Tyjae Spears | 3–12 | 65.26 | 11.50 | +53.76 | scored |
@@ -33,7 +33,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | DiscipleJack | Matt Gay | Eddy Pineiro | 2–10 | 86.00 | 43.00 | +43.00 | scored |
 | krunky | Los Angeles Rams | Atlanta Falcons | 8–10 | 44.00 | 2.00 | +42.00 | scored |
 | lfain20 | Caleb Douglas | Chris Bell | 1–12 | 63.70 | 24.50 | +39.20 | scored |
-| AfootCoronet56 | Rico Dowdle | — | 7–12 | 35.40 | 0.00 | +35.40 | scored |
+| AfootCoronet56 | Rico Dowdle | — | 7–12 | 38.90 | 0.00 | +38.90 | scored |
 | DiscipleJack | J.J. McCarthy | Dontayvion Wicks | 10–11 | 32.34 | 0.00 | +32.34 | scored |
 | TheRealNoodleMan | Brenton Strange | Rashod Bateman | 4–10 | 60.30 | 28.10 | +32.20 | scored |
 | therealbulker | Tyler Shough | Malik Willis | 1–3 | 72.38 | 41.18 | +31.20 | scored |
@@ -45,10 +45,10 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | AfootCoronet56 | Courtland Sutton | — | 7–10 | 26.30 | 0.00 | +26.30 | scored |
 | RollnWithJesus | Darius Cooper | — | 5–10 | 24.10 | 0.00 | +24.10 | scored |
 | Dawg2003 | New England Patriots | — | 5–9 | 24.00 | 0.00 | +24.00 | scored |
+| RollnWithJesus | Chris Boswell | Jason Myers | 11–12 | 23.00 | 0.00 | +23.00 | scored |
 | lfain20 | Justice Hill | — | 10–12 | 21.90 | 0.00 | +21.90 | scored |
 | krunky | C.J. Stroud | — | 10–10 | 21.44 | 0.00 | +21.44 | scored |
 | TheRealNoodleMan | Chase McLaughlin | Nick Folk | 7–9 | 34.00 | 13.00 | +21.00 | scored |
-| RollnWithJesus | Chris Boswell | Jason Myers | 11–12 | 20.00 | 0.00 | +20.00 | scored |
 | oneyjb | Kansas City Chiefs | Adonai Mitchell | 6–7 | 19.00 | 0.00 | +19.00 | scored |
 | RollnWithJesus | MarShawn Lloyd | — | 5–6 | 17.20 | 0.00 | +17.20 | scored |
 | SethLL | Tyler Bass | Brian Thomas Jr. | 6–6 | 17.00 | 0.00 | +17.00 | scored |
@@ -131,6 +131,7 @@ Most Improved Score = trade +/- + net waiver improvement + net free-agent improv
 | lfain20 | Mike Washington Jr. | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Roman Wilson | — | 5–5 | 0.00 | 0.00 | +0.00 | scored |
 | oneyjb | Washington Commanders | Baltimore Ravens | No completed week | 0.00 | 0.00 | +0.00 | scored |
+| oneyjb | Dylan Sampson | Jack Bech | No completed week | 0.00 | 0.00 | +0.00 | pending |
 | Potatomain | Cincinnati Bengals | Ja'Kobi Lane | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | New York Jets | — | No completed week | 0.00 | 0.00 | +0.00 | scored |
 | Potatomain | Brian Robinson Jr. | — | 7–12 | 0.00 | 0.00 | +0.00 | scored |

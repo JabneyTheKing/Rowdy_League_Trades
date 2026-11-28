@@ -1,6 +1,6 @@
 # Rowdy League Trades
 
-Updated 2026-11-27T21:28:37.061104+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
+Updated 2026-11-28T08:07:32.700197+00:00. Season 2026; tracking transactions from 2026-08-23; scored through Week 12.
 
 Player production includes bench points and continues after subsequent trades or drops. Each trade is a separate counterfactual: received minus sent over the same weeks. Repeated players can appear in multiple trades. This is a production leaderboard, not a complete dynasty-value ranking. Picks and FAAB remain listed but unvalued.
 
@@ -9,17 +9,17 @@ Player production includes bench points and continues after subsequent trades or
 | Rank | Manager | Team | Trade +/- | Scored | Total trades | Unvalued assets |
 |---:|---|---|---:|---:|---:|---|
 | 1 | TheRealNoodleMan | Gibbs of War | +232.50 | 8 | 8 | Yes |
-| 2 | oneyjb | Bower's Inside Story | +184.56 | 7 | 7 | Yes |
-| 3 | RollnWithJesus | Breach & Touchdown | +108.58 | 6 | 6 | Yes |
+| 2 | oneyjb | Bower's Inside Story | +180.36 | 7 | 7 | Yes |
+| 3 | RollnWithJesus | Breach & Touchdown | +106.38 | 6 | 6 | Yes |
 | 4 | krunky | Grand Theft Aubrey | +100.14 | 10 | 10 | Yes |
-| 5 | SethLL | Red Dead Zachdemption | +56.66 | 7 | 7 | Yes |
-| 6 | therealbulker | MidnightClub Rice Edition | +50.08 | 7 | 8 | Yes |
+| 5 | SethLL | Red Dead Zachdemption | +52.88 | 7 | 7 | Yes |
+| 6 | therealbulker | MidnightClub Rice Edition | +52.28 | 7 | 8 | Yes |
 | 7 | DiscipleJack | JEFFERSON'S CREED | -15.70 | 1 | 1 | No |
 | 8 | AfootCoronet56 | Suicide Squad (the game) | -30.02 | 6 | 6 | Yes |
 | 9 | JabneyTheKing | Josh Jacobs: Most Wanted | -82.70 | 11 | 12 | Yes |
-| 10 | lfain20 | Mortal Kombat: DARTside | -122.74 | 5 | 5 | Yes |
+| 10 | lfain20 | Mortal Kombat: DARTside | -118.54 | 5 | 5 | Yes |
 | 11 | Potatomain | The Lost Cause Fallacy | -201.20 | 6 | 6 | Yes |
-| 12 | Dawg2003 | The Windhelm Nords  | -280.16 | 7 | 7 | Yes |
+| 12 | Dawg2003 | The Windhelm Nords  | -276.38 | 7 | 7 | Yes |
 
 ### Trade 1397438171741986816
 
@@ -143,8 +143,8 @@ First scoring week: **5**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Jaylen Warren (92.00), Puka Nacua (105.50) | Aaron Jones Sr. (50.70), Jaxon Smith-Njigba (123.00) | 197.50 | 173.70 | +23.80 | scored |
-| RollnWithJesus / Breach & Touchdown | Aaron Jones Sr. (50.70), Jaxon Smith-Njigba (123.00) | Jaylen Warren (92.00), Puka Nacua (105.50) | 173.70 | 197.50 | -23.80 | scored |
+| Potatomain / The Lost Cause Fallacy | Jaylen Warren (94.20), Puka Nacua (105.50) | Aaron Jones Sr. (50.70), Jaxon Smith-Njigba (123.00) | 199.70 | 173.70 | +26.00 | scored |
+| RollnWithJesus / Breach & Touchdown | Aaron Jones Sr. (50.70), Jaxon Smith-Njigba (123.00) | Jaylen Warren (94.20), Puka Nacua (105.50) | 173.70 | 199.70 | -26.00 | scored |
 
 ### Trade 1413594244643360768
 
@@ -188,8 +188,8 @@ First scoring week: **6**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| lfain20 / Mortal Kombat: DARTside | Roman Wilson (5.80) | DeVonta Smith (61.10) | 5.80 | 61.10 | -55.30 | scored |
-| oneyjb / Bower's Inside Story | DeVonta Smith (61.10) | Roman Wilson (5.80) | 61.10 | 5.80 | +55.30 | scored |
+| lfain20 / Mortal Kombat: DARTside | Roman Wilson (10.00) | DeVonta Smith (61.10) | 10.00 | 61.10 | -51.10 | scored |
+| oneyjb / Bower's Inside Story | DeVonta Smith (61.10) | Roman Wilson (10.00) | 61.10 | 10.00 | +51.10 | scored |
 
 lfain20 picks received: 2027 round 6 (original roster 12). Value not included in points.
 
@@ -265,8 +265,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Dawg2003 / The Windhelm Nords  | Bo Nix (74.32) | Drake Maye (75.18) | 74.32 | 75.18 | -0.86 | scored |
-| SethLL / Red Dead Zachdemption | Drake Maye (75.18) | Bo Nix (74.32) | 75.18 | 74.32 | +0.86 | scored |
+| Dawg2003 / The Windhelm Nords  | Bo Nix (78.10) | Drake Maye (75.18) | 78.10 | 75.18 | +2.92 | scored |
+| SethLL / Red Dead Zachdemption | Drake Maye (75.18) | Bo Nix (78.10) | 75.18 | 78.10 | -2.92 | scored |
 
 Dawg2003 picks received: 2027 round 8 (original roster 10). Value not included in points.
 
@@ -333,8 +333,8 @@ First scoring week: **7**
 
 | Manager / Team | Received | Sent | Points in | Points out | +/- | Status |
 |---|---|---|---:|---:|---:|---|
-| Potatomain / The Lost Cause Fallacy | Christian Watson (67.80) | Tee Higgins (94.40), Jaylen Warren (49.40) | 67.80 | 143.80 | -76.00 | scored |
-| therealbulker / MidnightClub Rice Edition | Tee Higgins (94.40), Jaylen Warren (49.40) | Christian Watson (67.80) | 143.80 | 67.80 | +76.00 | scored |
+| Potatomain / The Lost Cause Fallacy | Christian Watson (67.80) | Tee Higgins (94.40), Jaylen Warren (51.60) | 67.80 | 146.00 | -78.20 | scored |
+| therealbulker / MidnightClub Rice Edition | Tee Higgins (94.40), Jaylen Warren (51.60) | Christian Watson (67.80) | 146.00 | 67.80 | +78.20 | scored |
 
 Potatomain picks received: 2027 round 12 (original roster 7), 2027 round 5 (original roster 7). Value not included in points.
 
